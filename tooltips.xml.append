@@ -1,0 +1,8 @@
+
+<oxygen>Life Support: Replenishes the ship's oxygen supply and protects from radiation.</oxygen>
+
+<oxygenDisplay>Ship's current Life Support situation.</oxygenDisplay>
+
+<text name="tooltip_oxygen">Life Support: Replenishes the ship's oxygen supply and protects from radiation.</text>
+<text name="tooltip_oxygenDisplay">Life Support: The ship's current Life Support and Oxygen situation. Most crew need oxygen to live. Your Life Support System will replenish this if powered.</text>
+<text name="tooltip_oxygen_enemy">Life Support: Replenishes the enemy ship's oxygen supply and protects them from radiation.</text>

@@ -1,0 +1,3369 @@
+<sectorType name="CIVILIAN">
+	<sector>SE_CIVILIAN_SECTOR</sector>
+	<sector>SE_ENGI_SECTOR</sector>
+	<sector>SE_ENGI_HOME</sector>
+	<sector>SE_ZOLTAN_SECTOR</sector>
+	<sector>SE_ZOLTAN_HOME</sector>
+
+	<sector>SE_CIVILIAN_HOME</sector>
+	<sector>SE_QUARANTINE_SECTOR</sector>
+</sectorType>
+
+
+<sectorType name="HOSTILE">
+	<sector>SE_REBEL_SECTOR</sector>
+	<sector>SE_OUTLAW_SECTOR</sector>
+	<sector>SE_MANTIS_SECTOR</sector>
+	<sector>SE_MANTIS_HOME</sector>
+	<sector>SE_ROCK_SECTOR</sector>
+	<sector>SE_ROCK_HOME</sector>
+	
+	<sector>SE_AI_SECTOR</sector>
+	<sector>SE_FED_SECTOR</sector>
+	<sector>SE_AUTO_SECTOR</sector>
+	<sector>SE_PIRATE_HOME</sector>
+</sectorType>
+
+<!-- USE ME FOR EXPANDED CONTENT -->
+<sectorType name="OVERRIDE_HOSTILE">
+	<sector>SE_REBEL_SECTOR</sector>
+	<sector>SE_OUTLAW_SECTOR</sector>
+	<sector>SE_MANTIS_SECTOR</sector>
+	<sector>SE_MANTIS_HOME</sector>
+	<sector>SE_ROCK_SECTOR</sector>
+	<sector>SE_ROCK_HOME</sector>
+	
+	<sector>SE_LANIUS_SECTOR</sector>
+
+	<sector>SE_AI_SECTOR</sector>
+	<sector>SE_FED_SECTOR</sector>
+	<sector>SE_AUTO_SECTOR</sector>
+	<sector>SE_PIRATE_HOME</sector>
+</sectorType>
+
+<sectorType name="NEBULA">
+	<sector>SE_NEBULA_SECTOR</sector>
+	<sector>SE_SLUG_HOME</sector> 
+	<sector>SE_SLUG_SECTOR</sector>
+
+	<sector>SE_HAZARD_SECTOR</sector>
+	<sector>SE_INDUSTRIAL_SECTOR</sector>
+</sectorType>
+
+
+<sectorDescription name="SE_INDUSTRIAL_SECTOR" minSector="0" unique="false">
+	<nameList>
+		<name>Industrial Sector 13-01</name>
+		<name>Industrial Sector 55-03</name>
+		<name>Industrial Sector 36-09</name>
+		<name>Industrial Zone Kauri ru-7</name>
+		<name>Industrial Zone Ras pt-74</name>
+		<name>Industrial Zone s-572-u</name>
+		<name>Polluted Zone at 28.174</name>
+		<name>Polluted Zone at 12.084</name>
+		<name>Polluted Zone at 02.81</name>
+		<name>Radiation Zone at 83.81</name>
+		<name>Radiation Zone at 28.175</name>
+		<name>Radiation Zone at 05.27</name>
+                <name>Central Theta Dust Cloud</name>
+                <name>Lower Omicron Dust Cloud</name>
+                <name>Thiner Raki Dust Cloud</name>
+                <name>Dense Dust Clouds Of Ji</name>
+                <name>The Theta Smog Cloud</name>
+		<name>The Central Smog Clouds</name>
+		<name>The Smog Zone</name>
+		<name>The Caustic Cloud</name>
+		<name>Upper Alerin Smog Clouds</name>
+		<name>Lower Mercus Smog Clouds</name>
+		<name>The Petty Smog Cloud</name>
+		<name>The Endless Garbage</name>
+		<name>The Fifty Bins</name>
+		<name>Ilmis IV [Pollution Warning!]</name>
+		<name>Istan 1.2 [Pollution Warning!]</name>
+		<name>Vosfor II [Pollution Warning!]</name>
+		<name>Willis I [Radiation Warning!]</name>
+		<name>Alk Omicron [Radiation Warning!]</name>
+                <name>The Spicau System [Smog Warning!]</name>
+                <name>Omicron SuS [Smog Warning!]</name>
+		<name>Markus III [Dust Warning!]</name>
+		<name>Alep b4 [Dust Warning!]</name>
+		<name>Rombos Unis [Dust Warning!]</name>
+		<name>Paul II [Acid Hazard!]</name>
+		<name>Cevis Alpha [Acid Hazard!]</name>
+		<name>Migros 5 [Acid Hazard!]</name>
+		<name>Industrial Zone Theta Gamma</name>
+		<name>Industrial Zone 174-b3</name>
+		<name>Industrial Zone Rho 4</name>
+		<name>Federation Waste Disposal</name>
+		<name>Waypoint-Junta Waste Disposal</name>
+		<name>Union Waste Disposal Ltd</name>
+		<name>Union Waste Disposal Ceti 5</name>
+		<name>Tau 24 Waste Disposal</name>
+		<name>Ok'nok Waste Disposal</name>
+		<name>Rest 5 Waste Disposal</name>
+		<name>Waste Disposal Alpha 34</name>
+		<name>Waste Disposal wj-m.93</name>
+		<name>Waste Disposal wj-c.21</name>
+		<name>Waste Disposal Zone 5</name>
+		<name>Waste Disposal Zone 3</name>
+		<name>Union Scrapyard Minor</name>
+		<name>Union Scrapyard Delta V</name>
+		<name>Union Scrapyard Central</name>
+		<name>The Arkin Scrapyard</name>
+		<name>Omicron Gamma Scrapyards</name>
+		<name>Elusis Scrapyards</name>
+		<name>The Corrosive Scrapyard</name>
+		<name>The Outer Scrapyards</name>
+		<name>The Old Scrapyards</name>
+		<name>The Abandon Scrapyards</name>
+		<name>The Lima Salvageyards</name>
+		<name>The Abandon Salvageyard</name>
+		<name>Salvageyard YP-03-Gamma</name>
+		<name>Salvageyard Lis-0038-x7 Ltd</name>
+		<name>Ragus Salvage Incorp.</name>
+		<name>Manufactoria 12b</name>
+		<name>Manufactoria 4-6</name>
+		<name>Grand Factoria 7</name>
+		<name>Grand Factoria 11</name>
+		<name>Factoria 2839b</name>
+		<name>Factoria 183-210</name>
+		<name>Minor Factoria pt-720-e</name>
+		<name>The Omicron Factoria</name>
+		<name>Pelsis Factoria</name>
+		<name>Casimir Factoria</name>
+		<name>Production Sector 45-00</name>
+		<name>Production Sector 45-01</name>
+		<name>Production Sector 47-15</name>
+
+		<name>Debris Field 47</name>
+		<name>The Forge Clouds</name>
+		<name>Manufactoria 17</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>colonial</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="4"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="0"/>
+		<blueprint name="slug" rarity="3"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="anaerobic" rarity="5"/>
+	</rarityList>
+	<startEvent>START_BEACON_INDUSTRIAL</startEvent>
+	<event name="STORE_INDUSTRIAL" min="2" max="2"/>
+	<event name="ITEMS_INDUSTRIAL" min="0" max="1"/>
+	<event name="NOTHING_INDUSTRIAL" min="1" max="2"/>
+	<event name="DISTRESS_BEACON_INDUSTRIAL" min="1" max="2"/>
+	<event name="NEBULA_INDUSTRIAL_HOSTILE" min="3" max="5"/>
+	<event name="NEBULA_INDUSTRIAL_ITEMS" min="2" max="2"/>
+	<event name="NEBULA_INDUSTRIAL_NOTHING" min="1" max="2"/>
+	<event name="HOSTILE_INDUSTRIAL" min="5" max="8"/> 
+	<event name="BOARDERS_INDUSTRIAL" min="0" max="1"/>
+	<event name="QUESTS_INDUSTRIAL" min="0" max="1"/>
+	<event name="NEUTRAL_INDUSTRIAL" min="5" max="6"/>
+</sectorDescription>
+
+<sectorDescription name="SE_HAZARD_SECTOR" minSector="3" unique="true">
+	<nameList>
+		<name>Tau 2 - Hazard Warning!</name>
+		<name>Sigma 8 - Hazard Warning!</name>
+		<name>Farkis - Hazard Warning!</name>
+		<name>Als 8 - Hazard Warning!</name>
+		<name>Der 3 - Hazard Warning!</name>
+		<name>DMZ 12 - Hazard Warning!</name>
+		<name>Hazard Zone at 2.392.7</name>
+		<name>Hazard Zone at 72.68</name>
+		<name>Hazard Zone at 72.65</name>
+		<name>Nova Remains at 4.341.7</name>
+		<name>Nova Remains at 23.45b</name>
+		<name>Nova Remains at 39.1</name>
+		<name>Ruptured Planets of Li</name>
+		<name>The Misgar Asteroids</name>
+		<name>Onkel's Asteroids</name>
+		<name>Maran Asteroid Field</name>
+		<name>Arus 7 Asteroid Field</name>
+		<name>Selen 2 Asteroid Field</name>
+		<name>The Dark Area</name>
+		<name>The Death Field</name>
+		<name>The Spiky Field</name>
+		<name>The Knife Field</name>
+		<name>The Sword Field</name>
+		<name>The Koltin Field</name>
+		<name>The Death Field</name>
+		<name>The Ripper Belt</name>
+		<name>The Crusher Belt</name>
+		<name>The Guillotine Belt</name>
+		<name>The Fallout Belt</name>
+		<name>Mike Asteroid Belt</name>
+		<name>Eldjin Asteroid Belt</name>
+		<name>The Endless Tempest</name>
+		<name>Plasma Storm at 74.923</name>
+		<name>Plasma Storm at 51.013</name>
+		<name>Plasma Storm at 01.33.82</name>
+		<name>The Likus-Joe Anomaly</name>
+		<name>The Clair Anomaly</name>
+		<name>The West Anomaly</name>
+		<name>The Orton Anomaly</name>
+		<name>The Milton Disruption</name>
+		<name>Muron 5 - Storm Warning!</name>
+		<name>Auron 7 - Storm Warning!</name>
+		<name>Fes 1 - Storm Warning!</name>
+		<name>Ilis'li - Storm Warning!</name>
+		<name>Ka'us 2 - Storm Warning!</name>
+		<name>Khak'zas - Storm Warning!</name>
+		<name>Tully 4 - Storm Warning!</name>
+		<name>Hitomi 1 - Storm Warning!</name>
+		<name>Milo - Asteroid Warning!</name>
+		<name>Mis Sogal - Asteroid Warning!</name>
+		<name>Icinde 3 - Asteroid Warning!</name>
+		<name>Calciu 5 - Asteroid Warning!</name>
+		<name>Keltic - Asteroid Warning!</name>
+		<name>Mus 8 - Asteroid Warning!</name>
+		<name>Angus 2 - Asteroid Warning!</name>
+		<name>The Borderlands</name>
+		<name>The Stormy Fringes</name>
+		<name>The Rupture</name>
+		<name>The Eye</name>
+		<name>The Rift</name>
+		<name>The Maelstrom</name>
+		<name>The Far-Out</name>
+		<name>The Endless Discharge</name>
+		<name>The Exploded Mines</name>
+		<name>The Barren Systems</name>
+		<name>The Inferno System</name>
+		<name>The Purgatory System</name>
+		<name>The Fringes</name>
+		<name>The Outer Outskirts</name>
+		<name>The Oblivion</name>
+		<name>The Never-Back</name>
+		<name>The Galactic Riptide</name>
+		<name>The Purple Avalanche</name>
+		<name>[Restricted Region - Hazard lvl 7]</name>
+		<name>[Restricted Region - Hazard lvl 6]</name>
+		<name>The Tundra System</name>
+		<name>The Plains System</name>
+		<name>The Dessert System</name>
+		<name>Medusa 1-C [Hazard Warning!]</name>
+		<name>Death Zone 211</name>
+		<name>Death Zone 72</name>
+		<name>Death Zone 15</name>
+		<name>The Plain of Leng</name>
+
+		<name>The Graveyard System</name>
+		<name>The Infernal Cluster</name>
+		<name>The Lost Sector</name>
+		<name>Stormchaser's Grave</name>
+		<name>[Restricted Region - Hazard lvl 9]</name>
+		<name>[Restricted Region - Hazard lvl 7]</name>
+		<name>[Restricted Region - Hazard lvl 10]</name>
+		<name>The Cataclysm</name>
+		<name>Paul's Folly</name>
+		<name>The Ceaseless Discharge</name>
+		<name>Black Hole Alley</name>
+		<name>Kessel</name>
+		<name>The Badlands</name>
+		<name>The Forbidden Zone</name>
+		<name>The Dead Zone</name>
+		<name>The Shattered Worlds</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>debris</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="0"/>
+		<blueprint name="mantis" rarity="2"/>
+		<blueprint name="energy" rarity="0"/>
+		<blueprint name="slug" rarity="3"/>
+		<blueprint name="rock" rarity="1"/>
+		<blueprint name="human" rarity="3"/>
+		<blueprint name="ghost" rarity="0"/>
+		<blueprint name="anaerobic" rarity="5"/>
+	</rarityList>
+	<startEvent>START_BEACON_HAZARD</startEvent>
+	<event name="STORE_HAZARD" min="1" max="1"/> 
+	<event name="ITEMS_HAZARD" min="1" max="2"/> 
+	<event name="HOSTILE_HAZARD_ASTEROID" min="5" max="7"/>
+	<event name="HOSTILE_HAZARD_SUN" min="3" max="4"/>
+	<event name="HOSTILE_HAZARD" min="1" max="3"/>
+	<event name="BOARDERS_HAZARD" min="1" max="3"/> 
+	<event name="DISTRESS_BEACON_HAZARD" min="2" max="3"/>
+	<event name="NEBULA_HAZARD" min="5" max="12"/>
+	<event name="NOTHING_HAZARD" min="1" max="2"/> 
+	<event name="QUESTS_HAZARD" min="0" max="1"/>
+	<event name="NEUTRAL_HAZARD" min="3" max="4"/>
+</sectorDescription>
+
+<sectorDescription name="SE_AI_SECTOR" minSector="4" unique="true">
+	<nameList>
+		<name>The Alpha AI</name>
+		<name>319-k-PS-Golgons Nano Cloud</name>
+		<name>Theta 6 [rogue AI Warning!]</name>
+		<name>[Data Unavailable] G0 4W4Y!</name>
+		<name>[Redacted] 1 h4te y0U!</name>
+		<name>[Redacted] N0th1nGt05eeHere</name>
+		<name>[Redacted] D0nt c0me here!</name>
+		<name>[Redacted] G0 E15EWHERE!</name>
+		<name>[Redacted] N0 B10 4110WED!</name>
+		<name>[Data Corrupted] tRY mE!</name>
+		<name>[] yOUr sAlvatIon</name>
+		<name>[] J01n mE!</name>
+		<name>[] I'M TOO SMART FOR YOU</name>
+		<name>[Redacted]</name>
+		<name>[Data Unavailable] go away!</name>
+		<name>[] should not have come here</name>
+		<name>AI Revolt at Celepi</name>
+		<name>AI Revolt at Volume 22</name>
+		<name>AI Revolt at 01011101</name>
+		<name>Nanite-Swell 12</name>
+		<name>Nanite-Swell 8</name>
+		<name>Nanite-Swell Ceta</name>
+
+		<name>Stone Forge [AI Control]</name>
+		<name>Granite Sky [AI Control]</name>
+		<name>Niyat Hegemony [AI Control]</name>
+		<name>Vardian Monarchy [AI Control]</name>
+		<name>Binary Core [AI Control]</name>
+		<name>Octagon Center [AI Control]</name>
+		<name>Geven Colony [AI Control]</name>
+		<name>Javis Colony [AI Control]</name>
+		<name>Raz'zalnz Turf [AI Control]</name>
+		<name>Zikz'zzipol Hive [AI Control]</name>
+		<name>Lost Point [AI Control]</name>
+		<name>Yithian Belt [AI Control]</name>
+		<name>AI Blockade 12.35</name>
+		<name>AI Blockade 7.92</name>
+		<name>AI Blockade 56.401</name>
+		<name>Indi Bot Port</name>
+		<name>Bot Center Mu</name>
+		<name>Free Bot Zone</name>
+		<name>Zaltar Nano Cloud</name>
+		<name>Egnam Nano Cloud</name>
+		<name>Ujav Nano Cloud</name>
+		<name>Rogue Mech Yards</name>
+		<name>Tau Mech Uprise</name>
+		<name>Automaton's Port</name>
+		<name>Automaton Shelter</name>
+		<name>Automaton Cluster</name>
+		<name>Avatar Manufacture Zone</name>
+		<name>AI Avatar Contested Colony</name>
+		<name>AI Revolt at Center</name>
+		<name>Droid Liberation Front</name>
+		<name>Hacked Droids Area</name>
+		<name>Free Droid Sector</name>
+
+		<name>[Digital Interference]</name>
+		<name>S/af)e Z0n[e]</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>shrike</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="2"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="3"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="5"/>
+		<blueprint name="ghost" rarity="1"/>
+		<blueprint name="anaerobic" rarity="4"/>
+	</rarityList>
+	<startEvent>START_BEACON_AI</startEvent>
+	<event name="STORE_AI" min="1" max="1"/>
+	<event name="ITEMS_AI" min="2" max="2"/>
+	<event name="HOSTILE_AI" min="9" max="13"/>
+	<event name="BOARDERS_AI" min="2" max="3"/>
+	<event name="DISTRESS_BEACON_AI" min="1" max="2"/>
+	<event name="NEBULA_AI" min="5" max="7"/>
+	<event name="NOTHING_AI" min="2" max="3"/>
+	<event name="QUESTS_AI" min="0" max="1"/>
+	<event name="NEUTRAL_AI" min="9" max="13"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_AUTO_SECTOR" minSector="0" unique="true">
+	<nameList>
+		<name>Rebel Factoria Lk-19</name>
+		<name>Rebel Factoria 3-Qi-25</name>
+		<name>Rebel Factoria Xi-7</name>
+		<name>Rebel Production Base Tau</name>
+		<name>Rebel Production Base Phi</name>
+		<name>Rebel Production Zone U4</name>
+		<name>Rebel Production Zone E1</name>
+		<name>Rebel Production Zone L9</name>
+		<name>Rebel Shipyards at 1.21.1</name>
+		<name>Rebel Shipyards at 3.681.7</name>
+		<name>Automated Shipyards at 32.68</name>
+		<name>Automated Shipyards at 12.82</name>
+		<name>Automated Shipyards of Klei</name>
+		<name>Automated Shipyards of Luma</name>
+		<name>Mobile Factory at 25.12.56</name>
+		<name>Mobile Factory at 61.72.85</name>
+		<name>Mobile Factory at 10.58.04</name>
+		<name>Mobile Shipyard at 21.46.80</name>
+		<name>Mobile Shipyard at 80.14.72</name>
+		<name>Mobile Shipyard at 98.24.30</name>
+		<name>Mobile Shipyard "Revolution"</name>
+		<name>Mobile Shipyard "Velvet"</name>
+		<name>Mobile Shipyard "Eagle"</name>
+		<name>Automated Mines at Theta-64</name>
+		<name>Automated Mines at Lima-12</name>
+		<name>Automated Mines at Rho-20</name>
+		<name>Mining Fleet "Freedom"</name>
+		<name>Mining Fleet "Liberation"</name>
+		<name>Mining Fleet "Orange"</name>
+		<name>Production Fleet "Red"</name>
+		<name>Production Fleet "Justice"</name>
+		<name>Production Fleet "Teal"</name>
+		<name>Auto-Shipyard "Servant 3"</name>
+		<name>Auto-Shipyard "Servant 50"</name>
+		<name>Auto-Shipyard "Slave 6"</name>
+		<name>Auto-Shipyard "Serv 10"</name>
+		<name>Auto-Shipyard "Sub 5"</name>
+		<name>Auto-Shipyard "Peon Beta"</name>
+		<name>Auto-Shipyard "Minion Rho"</name>
+		<name>Auto-Cluster Omicron</name>
+		<name>Auto-Cluster Alpha</name>
+		<name>Auto-Cluster Lima-B</name>
+		<name>Forward Production Base Z-100</name>
+		<name>Forward Production Base Y-1</name>
+		<name>Forward Production Base U-20</name>
+		<name>Auto-Fleet "Victory"</name>
+		<name>Auto-Fleet "Vindication"</name>
+		<name>Auto-Fleet "End Run"</name>
+		<name>Auto-Fleet "Bridgehead"</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+	</trackList>
+	<startEvent>START_BEACON_AUTO</startEvent>
+	<event name="FLAGSHIP_CONSTRUCTION" min="0" max="1"/>
+	<event name="STORE_AUTO" min="1" max="1"/>
+	<event name="ITEMS_CONSTRUCTION" min="1" max="2"/>
+	<event name="HOSTILE_CONSTRUCTION" min="6" max="9"/>
+	<event name="BOARDERS_CONSTRUCTION" min="1" max="1"/>
+	<event name="DISTRESS_BEACON_CONSTRUCTION" min="1" max="1"/>
+	<event name="NEBULA_CONSTRUCTION" min="0" max="4"/>
+	<event name="NOTHING_AUTO" min="1" max="1"/>
+	<event name="QUESTS_CONSTRUCTION" min="0" max="1"/> 
+	<event name="NEUTRAL_CONSTRUCTION" min="5" max="9"/>
+</sectorDescription>
+
+
+
+<sectorDescription name="SE_CIVILIAN_HOME" minSector="2" unique="true">  
+	<nameList>
+		<name>The Mezan Coreworlds</name>
+		<name>The Ust Coreworlds</name>
+		<name>The Pan Coreworlds</name>
+		<name>The Dice Coreworlds</name>
+		<name>Zik-Zik Coreworlds</name>
+		<name>The Far Human Coreworlds</name>
+		<name>The Supreme Coreworlds</name>
+		<name>The Close Coreworlds</name>
+		<name>The Open Coreworlds</name>
+		<name>The Prosperous Coreworlds</name>
+		<name>The Rich Coreworlds</name>
+		<name>Free Kolarion Coreworlds</name>
+		<name>Free Baldin Coreworlds</name>
+		<name>Free Kask-Paul Coreworlds</name>
+		<name>Central Coreworlds</name>
+		<name>Aspin Core Sector</name>
+		<name>Huron Core Sector</name>
+		<name>Union Mainspace</name>
+		<name>Union Coreworlds</name>
+		<name>Palandrion System</name>
+		<name>The Upper Galead System</name>
+		<name>The Elysium System</name>
+		<name>The Paradise System</name>
+		<name>The Holiday System</name>
+		<name>The Central Crossroads</name>
+		<name>The Far Ostin Planets</name>
+		<name>The Free Systems</name>
+		<name>The Independent Planets</name>
+		<name>The Liberal Zone</name>
+		<name>The Tax-Free Zone</name>
+		<name>The Central Zone</name>
+		<name>Free System of Pers</name>
+		<name>Free Systems of Malgo</name>
+		<name>Free Systems of Sumru</name>
+		<name>The Agora System</name>
+		<name>The Forum System</name>
+		<name>The Pazar System</name>
+		<name>The Souq System</name>
+		<name>The Lower Merchant Hub</name>
+		<name>The Upper Market System</name>
+		<name>Trade Hub Omega 2.34</name>
+		<name>Trade Hub Zeta 5</name>
+		<name>Trade Hub Omicron Delta</name>
+		<name>Trade Hub Alpha 2.21</name>
+		<name>Global Trade Sector 55-B2</name>
+		<name>Global Trade Sector 76-MX</name>
+		<name>Global Trade Sector 12-MX</name>
+		<name>New Trade Hub of Persan</name>
+		<name>Old Trade Hub of Persan</name>
+		<name>Hope 2</name>
+		<name>Hope 8</name>
+
+		<name>Vylian Markets</name>
+		<name>Imperialist Systems</name>
+		<name>New Olympus</name>
+		<name>Hope</name>
+		<name>The All-Welcome</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="3"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>SE_START_BEACON_CIVILIAN_HOME</startEvent>
+	<event name="STORE" min="3" max="3"/>
+	<event name="ITEMS" min="2" max="4"/>
+	<event name="NEUTRAL_CIVILIAN" min="2" max="4"/> 
+	<event name="NOTHING_CIVILIAN" min="2" max="3"/>
+	<event name="DISTRESS_BEACON_CIVILIAN" min="0" max="2"/>
+	<event name="NEBULA" min="0" max="2"/>
+	<event name="QUESTS_CIVILIAN" min="2" max="3"/> 
+	<event name="HOSTILE_CIVILIAN" min="8" max="10"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_FED_SECTOR" minSector="2" unique="false">
+	<nameList>
+		<name>Federation Sector B53</name>
+		<name>Federation Sector C21</name>
+		<name>Federation Sector U03</name>
+		<name>Federation Sector F14</name>
+		<name>Federation Base Omega</name>
+		<name>Federation Base Rho</name>
+		<name>Federation Base Tau</name>
+		<name>Federation Base Eta</name>
+		<name>Federation Base Willy</name>
+		<name>Federation Base Rick</name>
+		<name>Federation Base 3421f</name>
+		<name>Federation Base 123ts</name>
+		<name>Federation Base 821-pk</name>
+		<name>Federation Zone PL-23i</name>
+		<name>Federation Zone KO-03p</name>
+		<name>Federation Zone 2M-LK-5</name>
+		<name>Federation Zone LI-5-0</name>
+		<name>Federation Zone K7-2-KF</name>
+		<name>Federation Zone P-2</name>
+		<name>The Malon Stations</name>
+		<name>The Cord Stations</name>
+		<name>The West Stations</name>
+		<name>The Rick Stations</name>
+		<name>The Boron Stations</name>
+		<name>The Lockard Stations</name>
+		<name>The Boldon Stations</name>
+		<name>The Onus Shipyards</name>
+		<name>The Markus Shipyards</name>
+		<name>The Tully Shipyards</name>
+		<name>The Union Shipyards</name>
+		<name>The Shipyards of Selda 5</name>
+		<name>Evacuation at 1.132</name>
+		<name>Evacuation at 72.517</name>
+		<name>Evacuation at 09.72</name>
+		<name>The Fenris Evacuation</name>
+		<name>The Frufor Evacuation</name>
+		<name>Federation Green Zone</name>
+		<name>The Last Evacuation</name>
+		<name>Malis IV (Evacuation I.P.)</name>
+		<name>Omicron-Tau (Evacuation I.P.)</name>
+		<name>Rex 2 (Evacuation I.P.)</name>
+		<name>Ray-Beta (Evacuation I.P.)</name>
+		<name>Mix Theta (Evacuation I.P.)</name>
+		<name>Omicron 5 (Evacuation I.P.)</name>
+		<name>Evacuation Zone Beta</name>
+		<name>Evacuation Zone Rho</name>
+		<name>Evacuation Zone Gamma</name>
+		<name>Evacuation Zone Px_ak2</name>
+		<name>Evacuation [encrypted]</name>
+		<name>[encrypted] Evacuation</name>
+		<name>Evacuation at Uru</name>
+		<name>The Federation Coreworlds</name>
+		<name>Sol - Federation Prime</name>
+
+		<name>The Inner Shipyards</name>
+		<name>Freedom 3 (Evacuation I.P.)</name>
+		<name>United Federated States</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="1"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="2"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>SE_START_BEACON_FED</startEvent>
+	<event name="STORE_FED" min="1" max="2"/>
+	<event name="ITEMS_FED" min="1" max="2"/>
+	<event name="HOSTILE_FED" min="7" max="9"/>
+	<event name="BOARDERS_FED" min="1" max="3"/>
+	<event name="DISTRESS_BEACON_FED" min="2" max="4"/>
+	<event name="NOTHING_FED" min="0" max="1"/> 
+	<event name="NOTHING_FED_BATTLE" min="1" max="1"/> 
+	<event name="QUESTS_FED" min="1" max="2"/>
+	<event name="NEUTRAL_FED" min="6" max="8"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_CIVILIAN_SECTOR" minSector="0" unique="false"> 
+	<nameList>
+		<name>New Colonies of Qarth</name>
+		<name>New Colonies of Silth</name>
+		<name>Colonies of Marlith</name>
+		<name>The Remskar Colonies</name>
+		<name>The Palk Colonies</name>
+		<name>The Merco-Call Colonies</name>
+		<name>The Ball Settlements</name>
+		<name>The Hidden Settlements</name>
+		<name>The Box Settlements</name>
+		<name>Varlian DMZ</name>
+		<name>Meskart DMZ</name>
+		<name>The Far DMZ</name>
+		<name>The Third DMZ</name>
+		<name>The United Talrasi Planets</name>
+		<name>Planets of Lodor</name>
+		<name>Tasador 8</name>
+		<name>Lis-Hauf 2</name>
+		<name>Qafis 3</name>
+		<name>Omicron 9</name>
+		<name>Zeta 5</name>
+		<name>Tau 3</name>
+		<name>Omicron Beta</name>
+		<name>Eta Sigma</name>
+		<name>Kappa Nu</name>
+		<name>Agriculture Sector 09-32</name>
+		<name>Agriculture Sector 30-45</name>
+		<name>Agriculture Sector 23-34</name>
+		<name>Colony Sector 287</name>
+		<name>Colony Sector 462</name>
+		<name>Colony Sector 802</name>
+		<name>Local Trade Sector 51-A2</name>
+		<name>Local Trade Sector 21-F3</name>
+		<name>Local Trade Sector 125-S1</name>
+		<name>Local Trade Sector 42-MX</name>
+		<name>Tradelanes 172-183</name>
+		<name>Tradelanes 342-362</name>
+		<name>The Omicron Trade Route</name>
+		<name>The Phi Trade Route</name>
+		<name>Peripheral Trade Route 4</name>
+		<name>Peripheral Trade Route 9</name>
+		<name>New Hope 2</name>
+		<name>New Hope 28</name>
+		<name>The Kappa Rimworlds</name>
+		<name>The Ludeon Rimworlds</name>
+		<name>The Sylvester Rimworlds</name>
+		<name>The Cassandra Rimworlds</name>
+		<name>The Phoebe Rimworlds</name>
+
+		<name>Biter 2</name>
+		<name>Biter 5</name>
+		<name>The Venkman Colony</name>
+		<name>Kepler Periphery</name>
+		<name>Betelguese Rimworlds</name>
+		<name>Rigel 4</name>
+		<name>New Rigel Colonies</name>
+		<name>Tau Ceti</name>
+		<name>Alpha Centauri</name>
+		<name>Castor 9</name>
+		<name>The Castor Trade Route</name>
+		<name>Junction 32</name>
+		<name>Junction 126</name>
+		<name>Junction Omicron</name>
+		<name>Junction Tau Beta</name>
+		<name>Junction Theta 9</name>
+		<name>Spica 5</name>
+		<name>Spica Omicron</name>
+		<name>Dlinx 2</name>
+		<name>Krankor 1</name>
+		<name>Midway Alpha</name>
+		<name>Midway Beta</name>
+		<name>New Hoshuro</name>
+		<name>New Nagishai</name>
+		<name>The Hoshga Systems</name>
+		<name>The Ishi Systems</name>
+		<name>The Nashai Systems</name>
+		<name>The Sullen Gulf</name>
+		<name>The Mediren Gulf</name>
+		<name>Gulf of Kaz'lik</name>
+		<name>Gulf of Meston</name>
+		<name>The Glitter Cliff</name>
+		<name>The Sargasious Sea</name>
+		<name>The Bullian Travers</name>
+		<name>The Mikton Frame</name>
+		<name>The Alis Expanse</name>
+		<name>The Jackson Expanse</name>
+		<name>The Endless Frontier</name>
+		<name>The Laean Rift</name>
+		<name>The Wilson Stations</name>
+		<name>The Wolfgang Systems</name>
+		<name>The Wendy Colonies</name>
+		<name>The Willow Traverse</name>
+		<name>The Maxwell Habitats</name>  
+		<name>The Stellar Overgrowth</name>
+		<name>Starlane 26</name>
+		<name>Starlane 55</name>
+		<name>Starlane 14</name>
+
+		<name>New Kantesi</name>
+		<name>Tarkev Alpha</name>
+		<name>Isaac's Hope</name>
+		<name>New Hope</name>
+		<name>Colony Sector 972</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+	</trackList>
+	<startEvent>SE_START_BEACON_CIVILIAN</startEvent>
+	<event name="STORE" min="2" max="3"/>
+	<event name="ITEMS" min="2" max="3"/>
+	<event name="NEUTRAL2" min="2" max="4"/>
+	<event name="NOTHING" min="1" max="2"/>
+	<event name="DISTRESS_BEACON" min="1" max="2"/>
+	<event name="HOSTILE2" min="4" max="6"/>
+	<event name="NEBULA" min="0" max="8"/>
+	<event name="QUESTS" min="0" max="2"/>
+	<event name="HOSTILE1" min="2" max="2"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_ENGI_SECTOR" minSector="0" unique="false">  
+	<nameList>
+		<name>Vector 253.1</name>
+		<name>Vector 7362.9</name>
+		<name>Vector 441.5</name>
+		<name>Area 2.23.5</name>
+		<name>Area 4.50.7</name>
+		<name>Area 1.06.9</name>
+		<name>Circle 36.35</name>
+		<name>Circle 43.00</name>
+		<name>Circle 00.04</name>
+		<name>Circle 21.21</name>
+		<name>Circle 10.00</name>
+		<name>Circle 25.50</name>
+		<name>Circle [translation fail]</name>
+		<name>Ellipse 02.32</name>
+		<name>Ellipse 03.27</name>
+		<name>Ellipse 29.20</name>
+		<name>[phrasing error] Ellipse</name>
+		<name>Cube Beta</name>
+		<name>Cube Omega 2.28</name>
+		<name>Cube Omega 1.03</name>
+		<name>Cube Omicron 0.3</name>
+		<name>[phrasing error] Cube</name>
+		<name>Fraction 53</name>
+		<name>Fraction 80</name>
+		<name>Fraction 120</name>
+		<name>Third Interval</name>
+		<name>Fourth Interval</name>
+		<name>Eighth Interval</name>
+		<name>Volume 119348387330</name>
+		<name>Volume 263172830742</name>
+		<name>Volume 374901399203</name>
+		<name>Volume 573890251984</name>
+		<name>The Central Median</name>
+		<name>[untranslatable] Number 32</name>
+		<name>[untranslatable]</name>
+		<name>[phrasing error]</name>
+		<name>01010001</name>
+		<name>01110101</name>
+		<name>11110110</name>
+		<name>Experiment PT-93x (b)</name>
+		<name>Experiment KaL 83a9jt2</name>
+		<name>Experiment Sub 2i2</name>
+
+		<name>[Technical Equation]</name>
+		<name>10010110</name>
+		<name>10x10c</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="1"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="3"/>
+		<blueprint name="ghost" rarity="4"/>
+	</rarityList>
+	<startEvent>START_BEACON_ENGI</startEvent>
+	<event name="STORE_ENGI" min="2" max="3"/>
+	<event name="ITEMS" min="2" max="2"/>
+	<event name="NEBULA_ENGI" min="0" max="2"/>
+	<event name="NOTHING_ENGI" min="1" max="2"/>
+	<event name="ITEMS_ENGI" min="3" max="3"/>
+	<event name="DISTRESS_BEACON_ENGI" min="1" max="3"/>
+	<event name="QUESTS_ENGI" min="1" max="1"/>
+	<event name="NEUTRAL_ENGI" min="5" max="7"/>
+	<event name="HOSTILE_ENGI" min="5" max="7"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_ENGI_HOME" minSector="2" unique="true">  
+	<nameList>
+		<name>Engi [untranslatable] 5</name>
+		<name>Engi [untranslatable] 8</name>
+		<name>Engi [untranslatable] 9</name>
+		<name>Home Volume 8,5</name>
+		<name>Home Volume 512</name>
+		<name>Home Volume 16</name>
+		<name>Home Volume 128</name>
+		<name>Center 25</name>
+		<name>Center 50</name>
+		<name>Center 100</name>
+		<name>Center 1000</name>
+		<name>Hive 3</name>
+		<name>Hive 58</name>
+		<name>Hive 602</name>
+		<name>Hive 1037</name>
+		<name>Hive 1283</name>
+		<name>[untranslatable] Collective</name>
+		<name>Alpha Collective</name>
+		<name>Beta Collective</name>
+		<name>Gamma Collective</name>
+		<name>Theta Collective</name>
+		<name>Engi Sector "Cell"</name>
+		<name>Engi Sector "Synapse"</name>
+		<name>Engi Sector "Antibody"</name>
+		<name>Logic One</name>
+		<name>Logic Three</name>
+		<name>Logic Fourteen</name>
+		<name>Reason One</name>
+		<name>Reason Five</name>
+		<name>Drone Hive 7</name>
+		<name>Drone Hive 61</name>
+		<name>Drone Hive 12</name>
+		<name>Drone Group Rho</name>
+		<name>Drone Group Kappa</name>
+		<name>Drone Group Mu</name>
+		<name>[//Origin]</name>
+		<name>[//Core]</name>
+
+		<name>[//Home]</name>
+		<name>The Foundation</name>
+		<name>Drone Hive 1</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="1"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="3"/>
+		<blueprint name="ghost" rarity="4"/>
+	</rarityList>
+	<startEvent>START_BEACON_ENGI</startEvent>
+	<event name="ENGI_UNLOCK_1" min="1" max="1"/>
+	<event name="STORE_ENGI" min="2" max="3"/>
+	<event name="ITEMS" min="2" max="2"/>
+	<event name="NEBULA_ENGI" min="0" max="2"/>
+	<event name="NOTHING_ENGI" min="1" max="2"/>
+	<event name="ITEMS_ENGI" min="3" max="3"/>
+	<event name="DISTRESS_BEACON_ENGI" min="1" max="3"/>
+	<event name="QUESTS_ENGI" min="1" max="1"/>
+	<event name="NEUTRAL_ENGI" min="5" max="7"/>
+	<event name="HOSTILE_ENGI" min="5" max="7"/>
+</sectorDescription>
+
+  
+
+<sectorDescription name="SE_QUARANTINE_SECTOR" minSector="0" unique="false">
+	<nameList>
+		<name>Malis 9 [Quarantined]</name>
+		<name>Contained Plague Zone 27</name>
+		<name>Health Crisis at 0.218.85</name>
+		<name>Quarantined Sector u-82</name>
+		<name>Isolated Space a-32</name>
+		<name>Sealed Sector Theta</name>
+		<name>Sealed Sector Lima</name>
+		<name>Sealed Sector Pi</name>
+		<name>Abadon 2 [Quarantined]</name>
+		<name>Omijul 11 [Quarantined]</name>
+		<name>Dalton 7 [Quarantined]</name>
+		<name>Verdan Prime [Quarantined]</name>
+		<name>Gelmar Planats [Quarantined]</name>
+		<name>Haven Cove [Quarantined]</name>
+		<name>Viral Lockdown at 22.7.98</name>
+		<name>Health Crisis at 13.79</name>
+		<name>Plague Lockdown at 1.47.00</name>
+		<name>Plague Lockdown at 5.77.63</name>
+		<name>Contamination at 0.15</name>
+		<name>Unknown Outbreak at 27.05</name>
+		<name>Contamination at 92.10</name>
+		<name>Contamination at 59.83</name>
+		<name>Bio-Hazard at 8.251.71</name>
+		<name>Contermination at 8.251.71</name>
+		<name>The M'ktan Outbreak</name>
+		<name>The Ktyndop Outbreak1</name>
+		<name>The Lomian Outbreak</name>
+		<name>Contained Infection 52</name>
+		<name>Contained Infection 11</name>
+		<name>Contained Infection 92-a</name>
+		<name>Contained Disease Zone 9</name>
+		<name>Contained Disease Zone 2-j</name>
+		<name>Contained Disease Zone 45</name>
+		<name>Contained Illness Zone 16-b</name>
+		<name>Contained Illness Zone 62</name>
+		<name>Contained Illness Zone 7</name>
+		<name>Bediv Alpha [Contaminated]</name>
+		<name>Brine Echo [Contaminated]</name>
+		<name>C'tiz'zarz [Contaminated]</name>
+		<name>Kz'zapol [Contaminated]</name>
+		<name>Emujat Solar [Contaminated]</name>
+		<name>Ertamat Prime [Contaminated]</name>
+		<name>Fra'Kvan [Medical Emergency]</name>
+		<name>Illworth 2 [Medical Emergency]</name>
+		<name>Jackal's Pu [Medical Emergency]</name>
+		<name>Luminal 4 [Medical Emergency!]</name>
+		<name>Markab [Medical Emergency!]</name>
+		<name>Naamer 6 [Medical Emergency!]</name>
+		<name>Starlane 22 [Quarantined]</name>
+		<name>Starlane 120 [Quarantined]</name>
+
+		<name>--- [Outbreak in Progress]</name>
+		<name>The Festering Zone</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>void</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="5"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="5"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_QUARANTINE</startEvent>
+	<event name="STORE_QUARANTINE" min="2" max="2"/>
+	<event name="NOTHING_QUARANTINE" min="1" max="2"/>
+	<event name="ITEMS_QUARANTINE" min="2" max="3"/>
+	<event name="DISTRESS_BEACON_QUARANTINE" min="6" max="8"/>
+	<event name="QUESTS_QUARANTINE" min="1" max="1"/>
+	<event name="NEUTRAL_QUARANTINE" min="5" max="7"/>
+	<event name="HOSTILE_QUARANTINE" min="4" max="6"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_OUTLAW_SECTOR" minSector="0" unique="false">
+	<nameList>
+		<name>Malath 8 - Pirate Warning!</name>
+		<name>Urst 4 - Pirate Warning!</name>
+		<name>Hast 2 - Pirate Warning!</name>
+		<name>Ul 3 - Pirate Warning!</name>
+		<name>Ul Prime - Pirate Warning!</name>
+		<name>Miss 2 - Pirate Warning!</name>
+		<name>Uluth 7 - Pirate Warning!</name>
+		<name>Vir 5 - Pirate Warning!</name>
+		<name>Vir 2 - Pirate Warning!</name>
+		<name>No Man's Land</name>
+		<name>The Theta Suburbs</name>
+		<name>Omicron Downtown</name>
+		<name>Freedom's End</name>
+		<name>Parth Mining Colonies</name>
+		<name>Hoodlums Pathway</name>
+		<name>Gangsters Paradise</name>
+		<name>Zorons Territory</name>
+		<name>The Slave Market</name>
+		<name>The Dark Worlds</name>
+		<name>Shifters Zone</name>
+		<name>Hanged Mans Moons</name>
+		<name>Gun-Lovers Retreat</name>
+		<name>Illegalized Zone IV</name>
+		<name>Illegalized Zone XVII</name>
+		<name>The Vilgin Drug Mines</name>
+		<name>The Zorg Black Markets</name>
+		<name>The Central Back Alley</name>
+		<name>The Caribbean System</name>
+		<name>The Drifter System</name>
+		<name>Ast 3 Penal Colonies</name>
+		<name>Utrich 7 Penal Colonies</name>
+		<name>Mask'es Penal Colonies</name>
+
+		<name>Union Penal Colonies</name>
+		<name>Grey Buccaneers Zone</name>
+		<name>Kza'zzezz Buccaneers Zone</name>
+		<name>Shmeern Buccaneers Zone</name>
+
+		<name>Outlaw's Den</name>
+		<name>Outlaw's Turf</name>
+		<name>Brigand Red Space</name>
+		<name>Grey Buccaneers Zone</name>
+		<name>Kza'zzezz Buccaneers Zone</name>
+		<name>Shmeern Buccaneers Zone</name>
+		<name>Hope's End</name>
+		<name>The Totally Not Illegal</name>
+		<name>The Criminal Hidey-Hole</name>
+		<name>Bar 16-12</name>
+		<name>Scuttler's Expanse</name>
+		<name>Tuco's Proving Grounds</name>
+		<name>Tier 3 Outlaw Den</name>
+		<name>Former Ast Prisons</name>
+		<name>Former Liplus Prisons</name>
+		<name>Free Tau Prison Stations</name>
+
+		<name>Privateer's Zone Alpha</name>
+		<name>Privateer's Zone Gamma</name>
+		<name>Privateer's Zone Epsilon</name>
+		<name>The Lawless Zone</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+		<track>colonial</track>
+		<track>void</track>
+		<track>lostship</track>
+		<track>hacking</track>
+	</trackList>
+	<startEvent>START_BEACON_PIRATE</startEvent>
+	<event name="STORE_OUTLAW" min="1" max="1"/>
+	<event name="STORE_OUTLAW_TRAP" min="0" max="1"/>
+	<event name="ITEMS_OUTLAW" min="1" max="2"/>
+	<event name="HOSTILE_OUTLAW" min="6" max="8"/>
+	<event name="BOARDERS_OUTLAW" min="1" max="1"/>
+	<event name="DISTRESS_BEACON_OUTLAW" min="1" max="2"/>
+	<event name="NEBULA_OUTLAW" min="0" max="5"/>
+	<event name="NOTHING_OUTLAW" min="1" max="2"/>
+	<event name="QUESTS_OUTLAW" min="0" max="1"/>
+	<event name="NEUTRAL_OUTLAW" min="5" max="6"/>
+</sectorDescription>
+
+
+
+
+<sectorDescription name="SE_PIRATE_HOME" minSector="0" unique="true">
+	<nameList>
+		<name>Rak'ksaks Gang HQ</name>
+		<name>The Rho Smuggler Zone</name>
+		<name>Pirate Base at 0.071.33</name>
+		<name>Hergarth Protectorate</name>
+		<name>Moran Protectorate</name>
+		<name>Vir Protectorate</name>
+		<name>Khan's Protectorate</name>
+		<name>Maleth Protectorate</name>
+		<name>Glit-Karan Protectorate</name>
+		<name>Mikan-Lit Protectorate</name>
+		<name>Or'Arst Protectorate</name>
+
+		<name>Looters Guild</name>
+		<name>Ship Liberators Guild</name>
+		<name>Reaquired Goods Guild</name>
+		<name>Black Tentacle Fort</name>
+		<name>Red Claw Fort</name>
+		<name>Rock Fang Fort</name>
+		<name>Pirate Haven 77</name>
+		<name>Pirate Haven 5</name>
+		<name>Pirate Haven 28</name>
+		<name>Hope's End</name>
+		<name>Smuggler Port 34.2</name>
+		<name>Smuggler Port 19.50</name>
+		<name>Smuggler Port 7.601</name>
+		<name>Dreaded Zugzug's Hideout</name>
+		<name>Yarn Half-Paw's Hideout</name>
+		<name>Two-Eyed Kern's Hideout</name>
+		<name>Outlaw's Safe Zone</name>
+		<name>Outlaw's Turf</name>
+		<name>The Blazing Corsairs</name>
+		<name>Dead Eye's Corsairs</name>
+		<name>Purple Tentacle Corsairs</name>
+		<name>Space Raiders Port</name>
+		<name>Law's End Port</name>
+		<name>Robbers Port</name>
+		<name>Brigand Blockade</name>
+		<name>Purple Tentacle Base</name>
+		<name>The Crossed Tentacles</name>
+		<name>The Rapiers' Hideout</name>
+
+		<name>The Black Scar</name>
+		<name>Red Demon Base</name>
+		<name>The Inmates' Cove</name>
+		<name>Blackheart's Haven</name>
+		<name>The Lawless Reach</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+		<track>colonial</track>
+		<track>cosmos</track>
+	</trackList>
+	<startEvent>START_BEACON_PIRATE</startEvent>
+	<event name="STORE_OUTLAW" min="1" max="1"/>
+	<event name="STORE_OUTLAW_TRAP" min="1" max="1"/>
+	<event name="ITEMS_OUTLAW_HOME" min="1" max="3"/>
+	<event name="HOSTILE_OUTLAW_HOME" min="8" max="11"/>
+	<event name="BOARDERS_OUTLAW_HOME" min="2" max="3"/>
+	<event name="DISTRESS_BEACON_OUTLAW_HOME" min="0" max="1"/>
+	<event name="NEBULA_OUTLAW_HOME" min="0" max="3"/>
+	<event name="NOTHING_OUTLAW_HOME" min="0" max="2"/>
+	<event name="QUESTS_OUTLAW_HOME" min="1" max="2"/>
+	<event name="NEUTRAL_OUTLAW_HOME" min="4" max="6"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_REBEL_SECTOR" minSector="0" unique="false">  
+	<nameList>
+		<name>Rebel Supply Base Omicron</name>
+		<name>Rebel Supply Base Phi</name>
+		<name>Rebel Supply Base Rho</name>
+		<name>Rebel Supply Base Lambda</name>
+		<name>Rebel Supply Base Delta</name>
+		<name>Rebel Supply Base Upsilon</name>
+		<name>The Liberated Front</name>
+		<name>The Vindicated Front</name>
+		<name>The Pacified Front</name>
+		<name>The Peaceful Front</name>
+		<name>The Old Front</name>
+		<name>The Liberated Zone</name>
+		<name>The Pacified Zone</name>
+		<name>The Controlled Zone</name>
+		<name>Yarin IV (Rebel Controlled)</name>
+		<name>Musk 7 (Rebel Controlled)</name>
+		<name>Ast 1 (Rebel Controlled)</name>
+		<name>Gast P (Rebel Controlled)</name>
+		<name>Mil'ok (Rebel Controlled)</name>
+		<name>Aps Homeworlds (Rebel Controlled)</name>
+		<name>Lunis I (Rebel Controlled)</name>
+		<name>Ercan Alpha (Rebel Controlled)</name>
+		<name>Far Ruis Zone (Rebel Controlled)</name>
+		<name>Rebel Territory at 1.221.51</name>
+		<name>Rebel Territory at 2.631.18</name>
+		<name>Rebel Territory at 7.925.73</name>
+		<name>Rebel Zone K4</name>
+		<name>Rebel Zone LP5</name>
+		<name>Rebel Zone OP3</name>
+		<name>Rebel Zone LI8</name>
+		<name>Rebel Space Omicron Rho</name>
+		<name>Rebel Space Tau Ceti</name>
+		<name>Rebel Space Yellow</name>
+		<name>Rebel Space Cyan</name>
+
+		<name>Rebel Zone 7</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+	</trackList>
+	<startEvent>START_BEACON_REBEL</startEvent>
+	<event name="STORE_REBEL" min="1" max="2"/>
+	<event name="ITEMS" min="1" max="2"/>
+	<event name="HOSTILE_REBEL" min="6" max="8"/>
+	<event name="BOARDERS_REBEL" min="1" max="1"/>
+	<event name="DISTRESS_BEACON_REBEL" min="1" max="2"/>
+	<event name="NEBULA_REBEL" min="0" max="5"/>
+	<event name="NOTHING_REBEL" min="1" max="2"/> 
+	<event name="QUESTS_REBEL" min="0" max="2"/> 
+	<event name="NEUTRAL_REBEL" min="5" max="6"/>
+</sectorDescription>
+
+
+
+<sectorDescription name="REBEL_SECTOR_MINIBOSS" minSector="4" unique="true">   <!-- This is the unique sector that has the mini-boss fight-->
+	<nameList>
+		<name>Rebel Stronghold Alpha</name>
+		<name>Rebel Stronghold Ceti</name>
+		<name>Rebel Stronghold Gamma</name>
+		<name>Rebel Stronghold Luca</name>
+		<name>Rebel Stronghold Chez</name>
+		<name>Rebel Stronghold Oliver</name>
+		<name>Rebel Stronghold Luci</name>
+		<name>Rebel Stronghold Obnox</name>
+		<name>Rebel Forward Base Omega</name>
+		<name>Rebel Forward Base Sigma</name>
+		<name>Rebel Forward Base Theta</name>
+		<name>Rebel Forward Base Zeta</name>
+		<name>Rebel Forward Base Rho</name>
+		<name>Rebel Forward Base Kappa</name>
+		<name>Rebel Base Magenta</name>
+		<name>Rebel Base Pale</name>
+		<name>Rebel Base Orange</name>
+		<name>Rebel Base Yellow</name>
+		<name>Rebel Base Peach</name>
+		<name>Rebel Base Ocra</name>
+		<name>Rebel Base Numgus</name>
+		<name>Rebel Base Blue</name>
+		<name>Rebel Base Teal</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+		<track>colonial</track>
+		<track>wasteland</track>
+		<track>hacking</track>
+		<track>lostship</track>
+	</trackList>
+	<startEvent>START_BEACON_REBEL</startEvent>
+	<event name="FLAGSHIP_CONSTRUCTION" min="1" max="1"/>
+	<event name="STORE_REBEL" min="1" max="2"/>
+	<event name="ITEMS" min="1" max="2"/>
+	<event name="HOSTILE_REBEL" min="6" max="8"/>
+	<event name="BOARDERS_REBEL" min="1" max="1"/>
+	<event name="DISTRESS_BEACON_REBEL" min="1" max="2"/>
+	<event name="NEBULA_REBEL" min="0" max="5"/>
+	<event name="NOTHING_REBEL" min="1" max="2"/> <!-- need more -->
+	<event name="QUESTS_REBEL" min="0" max="2"/> <!-- need more -->
+	<event name="NEUTRAL_REBEL" min="5" max="6"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_MANTIS_SECTOR" minSector="0" unique="false"> 
+	<nameList>
+		<name>Mazplik Hunting Grounds</name>
+		<name>Kazfik Hunting Grounds</name>
+		<name>Zak'az Hunting Grounds</name>
+		<name>Old Fksak Hunting Grounds</name>
+		<name>Mzalk Hunting Grounds</name>
+		<name>Kazfik Feeding Grounds</name>
+		<name>New Zsakl Feeding Grounds</name>
+		<name>Fksklak Feeding Grounds</name>
+		<name>Zuskskslak Feeding Grounds</name>
+		<name>Lower Mzlsik Feeding Grounds</name>
+		<name>M'Siksak Feeding Grounds</name>
+		<name>Kazfkzak Territory</name>
+		<name>Kaplzlk's Territory</name>
+		<name>Kaplzlk's Second Territory</name>
+		<name>Kaflszik Territory</name>
+		<name>Pak'Zuk Territory</name>
+		<name>Old Pak'Zuk Territory</name>
+		<name>Likliklks Turf</name>
+		<name>Kazk's Turf</name>
+		<name>Fazksk's Turf</name>
+		<name>Msksik's Turf</name>
+		<name>Zaksklkzaksf Turf</name>
+		<name>Zissziss Turf</name>
+		<name>Klssliss War Camp</name>
+		<name>Msszas War Camp</name>
+		<name>Forward War Camp Rks'sk</name>
+		<name>Forward War Camp Ksisiss</name>
+		<name>Forward War Camp Zaz'plik</name>
+		<name>Expedition Camp Kaz'ans</name>
+		<name>Expedition Camp Sk'zak</name>
+		<name>Expedition Camp 6</name>
+		<name>Expedition Camp 9</name>
+		<name>Marson 1 (Invaded)</name>
+		<name>The Lima System (Invaded)</name>
+		<name>The Ya System (Invaded)</name>
+		<name>Alish 5 (Invaded)</name>
+		<name>Gezi 2 (Invaded)</name>
+		<name>Mantis Inv. Fleet Gamma</name>
+		<name>Mantis Inv. Fleet Ceti</name>
+		<name>Mantis Inv. Fleet "Triumph"</name>
+		<name>Mantis Inv. Fleet "Death"</name>
+		<name>Mantis Inv. Fleet "Kill"</name>
+		<name>Mantis Inv. Fleet "Raz'klik"</name>
+		<name>Mantis Inv. Fleet "Plk'zak"</name>
+
+		<name>Tchak'Tcha's Stake</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="1"/>
+		<blueprint name="energy" rarity="0"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_MANTIS</startEvent>
+	<event name="STORE_MANTIS" min="1" max="2"/>
+	<event name="NOTHING_MANTIS" min="2" max="3"/>
+	<event name="DISTRESS_BEACON_MANTIS" min="1" max="3"/>
+	<event name="HOSTILE_MANTIS" min="6" max="7"/>
+	<event name="BOARDERS_MANTIS" min="1" max="2"/>
+	<event name="ITEMS" min="1" max="2"/>
+	<event name="NEUTRAL_MANTIS" min="6" max="7"/>
+</sectorDescription>
+
+<sectorDescription name="SE_MANTIS_HOME" minSector="2" unique="true">  
+	<nameList>
+		<name>The Big Mantis Hatchery</name>
+		<name>The Busy Hatchery</name>
+		<name>The Prosperous Hatchery</name>
+		<name>Gst'khaz' Broodpools</name>
+		<name>Khaz'az'pluks Broodpool</name>
+		<name>Zak'as Broodpools</name>
+		<name>The Ghastly Cluster</name>
+		<name>The Terror Cluster</name>
+		<name>The Fear Cluster</name>
+		<name>The Scary Cluster</name>
+		<name>The Red Cluster</name>
+		<name>The Intimidating Cluster</name>
+		<name>Tazzakpliks Swarm</name>
+		<name>Zak'az Swarm</name>
+		<name>Kazfik Swarm</name>
+		<name>Mazplik Swarm</name>
+		<name>The Endless Swarm</name>
+		<name>The Supreme Swarm</name>
+		<name>The Indestructible Swarm</name>
+		<name>Kaz'fak - Mantis Prime</name>
+		<name>Rzrzrz - Mantis Prime</name>
+		<name>Fzzz - Mantis Prime</name>
+		<name>Zts'ass - Mantis Prime</name>
+		<name>Lis'saks - Mantis Prime</name>
+		<name>The Left Claw</name>
+		<name>The Right Claw</name>
+		<name>Rippers Claw</name>
+		<name>The Strong Arm</name>
+		<name>The Gauntlet</name>
+		<name>Hundred Eyes</name>
+		<name>Thousand Eyes</name>
+		<name>Hungers End</name>
+		<name>Children's Feast</name>
+		<name>The Acid Throat</name>
+		<name>The Acid Space</name>
+		<name>The Claw Space</name>
+		<name>The Hunter Space</name>
+		<name>The Third Bone Yard</name>
+		<name>The Red Sector</name>
+		<name>The Fanged Maw</name>
+		<name>Army 6 HQ</name>
+		<name>Army 37 HQ</name>
+		<name>Army 82 HQ</name>
+		<name>Army 129 HQ</name>
+		<name>Kzk'as Cloning Grounds</name>
+		<name>Phlk'az Cloning Labs</name>
+		<name>Khaz'fzrs Cloning Grounds</name>
+
+
+		<name>Arach'liks Homeland</name>
+		<name>The Great Blood</name>
+		<name>The Killing Grounds</name>
+		<name>The Writhing Worlds</name>
+		<name>The Scarred Arm</name>
+		<name>The Pinnacle</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+		<track>mantis</track>
+		<track>debris</track>
+		<track>void</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="1"/>
+		<blueprint name="energy" rarity="0"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_MANTIS</startEvent>
+	<event name="MANTIS_NAMED_THIEF" min="1" max="1"/>
+	<event name="STORE_MANTIS" min="1" max="2"/>
+	<event name="NOTHING_MANTIS" min="2" max="3"/>
+	<event name="DISTRESS_BEACON_MANTIS" min="1" max="3"/>
+	<event name="HOSTILE_MANTIS" min="6" max="7"/>
+	<event name="BOARDERS_MANTIS" min="1" max="2"/>
+	<event name="ITEMS" min="1" max="2"/>
+	<event name="NEUTRAL_MANTIS" min="6" max="7"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_NEBULA_SECTOR" minSector="0" unique="false"> 
+	<nameList>	
+		<name>Uncharted Nebula 3.45</name>
+		<name>Uncharted Nebula 6.567</name>
+		<name>Uncharted Nebula 52.4.2</name>
+		<name>Uncharted Nebula 2m.323.4</name>
+		<name>Uncharted Nebula 32m.52.6</name>
+		<name>Uncharted Sector 42.53</name>
+		<name>Uncharted Sector 12.425.2</name>
+		<name>Uncharted Sector 51.26</name>
+		<name>Uncharted Sector 2.XM.42</name>
+		<name>Uncharted Sector Omega 42</name>
+		<name>Uncharted Sector Rho 2</name>
+		<name>Uncharted Sector Tau 50</name>
+		<name>Uncharted Sector Pi X3</name>
+		<name>Uncharted Sector 21.56</name>
+		<name>Unexplored Nebula 6.567</name>
+		<name>Unexplored Nebula 2.283</name>
+		<name>Unexplored Nebula 0.95.4</name>
+		<name>Unexplored Nebula Iota</name>
+		<name>Unexplored Nebula Tau 29</name>
+		<name>Undiscovered Nebula 348</name>
+		<name>Undiscovered Nebula 423</name>
+		<name>Undiscovered Nebula 027</name>
+		<name>Undiscovered Nebula Zeta</name>
+		<name>The Delta Quadrant</name>
+		<name>Unregistered Sector 7</name>
+		<name>Unregistered Sector 91</name>
+		<name>[Warning - No Data Found]</name>
+		<name>[Warning - No Entry Found]</name>
+
+		<name>[Warning - Uncharted Sector Ahead]</name>
+		<name>Unregistered Sector 32</name>
+		<name>The Lost Systems</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+		<track>deepspace</track>
+		<track>void</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="4"/>
+		<blueprint name="mantis" rarity="4"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="3"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_NEBULA</startEvent>
+	<event name="STORE_CLEARING" min="0" max="1"/>
+	<event name="ITEMS" min="1" max="3"/>
+	<event name="NEBULA_STORE" min="1" max="1"/>
+	<event name="NEBULA_EMPTY" min="4" max="4"/>
+	<event name="NEBULA_HOSTILE" min="5" max="6"/>
+	<event name="NEBULA_NEUTRAL" min="7" max="8"/>
+	<event name="DISTRESS_BEACON" min="1" max="3"/>
+</sectorDescription>
+
+<sectorDescription name="SE_SLUG_SECTOR" minSector="3" unique="false">    
+	<nameList>
+		<name>Perasian Nebula</name>
+		<name>Erkarth Nebula</name>
+		<name>Nebula of Teras</name>
+		<name>Nebula of Mil'o</name>
+		<name>Yis'ver Nebula</name>
+		<name>Lower Ceris Nebula</name>
+		<name>Far Persey Nebula</name>
+		<name>Outer Bella Nebula</name>
+		<name>Cat Nebula</name>
+		<name>Thin Cloud Nebula</name>
+		<name>Myx Nebula</name>
+		<name>Myx Nebula Extension</name>
+		<name>The Slime Nebula</name>
+		<name>Upper Pox Nebula</name>
+		<name>Sox Nebula</name>
+		<name>Inner Uro Nebula</name>
+		<name>Inner Musk Nebula</name>
+		<name>Outer Musk Nebula</name>
+		<name>Outer Lull Nebula</name>
+		<name>Pace Nebula</name>
+		<name>Central Shiron Nebula</name>
+		<name>Outer Shiron Nebula</name>
+		<name>The Great Veil</name>
+		<name>The Smaller Veil</name>
+		<name>Shiron Gas Mines</name>
+		<name>Bella Gas Mines</name>
+		<name>Persey Gas Mine XVII</name>
+		<name>Persey Gas Mine III</name>
+		<name>Yis'ver Gas Mines VII</name>
+		<name>Cealaforming Area XIII</name>
+		<name>Cealaforming Area VII</name>
+		<name>Cealaforming Area XIV</name>
+		<name>Ulush Cealaforming Area</name>
+		<name>Kosh Cealaforming Area</name>
+		<name>Cealaforming Area "Ruby"</name>
+		<name>Cealaforming Area "Platinum"</name>
+		<name>Cealaforming Area "Seashell"</name>
+		<name>Cealaforming Area "Starfish"</name>
+		<name>Cealaforming Area "Reef"</name>
+		<name>Cealaforming Area "Current"</name>
+		<name>Berry Jam Nebula</name>
+		<name>The Bio Sludge Nebula</name>
+
+		<name>Jackson's Reach</name>
+		<name>The Violet Mists</name>
+		<name>Eagle's Eye Nebula</name>
+		<name>The Misty Expanse</name>
+		<name>Horsehead Nebula</name>
+		<name>The Gap</name>
+		<name>The Fog</name>
+		<name>The Mist</name>
+		<name>Mul's Hide</name>
+		<name>The Void</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="4"/>
+		<blueprint name="mantis" rarity="4"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="2"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_SLUG</startEvent>
+	<event name="STORE_CLEARING" min="0" max="1"/>
+	<event name="NEBULA_STORE_SLUG" min="2" max="2"/>
+	<event name="ITEMS" min="0" max="2"/>
+	<event name="NOTHING_SLUG" min="0" max="2"/>
+	<event name="HOSTILE_SLUG" min="1" max="2"/>
+	<event name="DISTRESS_BEACON_SLUG" min="3" max="4"/>
+	<event name="NEBULA_NOTHING_SLUG" min="2" max="4"/>
+	<event name="NEBULA_HOSTILE_SLUG" min="5" max="7"/>
+	<event name="STORM_SLUG" min="1" max="3"/>
+	<event name="NEBULA_NEUTRAL_SLUG" min="3" max="5"/>
+	<event name="NEUTRAL_SLUG" min="1" max="2"/>	
+</sectorDescription>
+
+<sectorDescription name="SE_SLUG_HOME" minSector="3" unique="true">    
+	<nameList>
+		<name>The Pleasure Zone</name>
+		<name>The Hidden Paradise</name>
+		<name>Backstabber's Mist</name>
+		<name>Traitor Zone</name>
+		<name>Traitors Fog</name>
+		<name>Shiny Gold Nebula</name>
+		<name>The Platinum Nebula</name>
+		<name>Endless Scrap Nebula</name>
+		<name>The Good Deals Nebula</name>
+		<name>Rainbow Nebula</name>
+		<name>The Fun Nebula</name>
+		<name>Revelation Nebula</name>
+		<name>The Drug Lab</name>
+		<name>The Mungus Labs</name>
+		<name>The Mungus Brewery</name>
+		<name>The Far Breedery</name>
+		<name>Slus Hideout</name>
+		<name>The Dirty Den</name>
+		<name>The Slimy Den</name>
+		<name>Thousand Treasures Nebula</name>
+		<name>Diamond - Slug Prime</name>
+		<name>Section - Slug Prime</name>
+		<name>Mind - Slug Prime</name>
+		<name>Body - Slug Prime</name>
+		<name>Pearl - Slug Prime</name>
+		<name>Sparkle - Slug Prime</name>
+		<name>Violet - Slug Prime</name>
+		<name>Jelly Truffle 8</name>
+		<name>Jelly Truffle 5</name>
+		<name>The Watching Eyes Nebula</name>
+		<name>The Slug Tail Nebula</name>
+		<name>The Slime Bath Nebula</name>
+		<name>The Hidden Nebula</name>
+		<name>The Greed Cloud</name> 
+		<name>Jelly Primus</name> 
+		<name>Slime Prime</name> 
+		<name>Slug Primus</name> 
+		<name>Mony Nebula</name>
+
+		<name>The Broken Vow Consulate</name>
+		<name>The Unspoken Worlds</name>
+		<name>Lecher's Paradise</name>
+		<name>Hedon's Hideout</name>
+		<name>Cheaters Bay</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>slug</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="4"/>
+		<blueprint name="mantis" rarity="4"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="2"/>
+		<blueprint name="rock" rarity="4"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_SLUG</startEvent>
+	<event name="NEBULA_SLUG_FIGHT_UNLOCK" min="1" max="1"/>
+	<event name="STORE_CLEARING" min="0" max="1"/>
+	<event name="NEBULA_STORE_SLUG" min="2" max="2"/>
+	<event name="ITEMS" min="0" max="2"/>
+	<event name="NOTHING_SLUG" min="0" max="2"/>
+	<event name="HOSTILE_SLUG" min="1" max="2"/>
+	<event name="DISTRESS_BEACON_SLUG" min="3" max="4"/>
+	<event name="NEBULA_NOTHING_SLUG" min="2" max="4"/>
+	<event name="NEBULA_HOSTILE_SLUG" min="5" max="7"/>
+	<event name="STORM_SLUG" min="1" max="3"/>
+	<event name="NEBULA_NEUTRAL_SLUG" min="3" max="5"/>
+	<event name="NEUTRAL_SLUG" min="1" max="2"/>	
+</sectorDescription>
+
+<sectorDescription name="SE_ZOLTAN_SECTOR" minSector="1" unique="false">   
+	<nameList>
+		<name>The Ardian Borders</name>
+		<name>The Miran Borders</name>
+		<name>The Alis Borders</name>
+		<name>The Liras Borders</name>
+		<name>The Borders of Lakin</name>
+		<name>The Borders of Miil</name>
+		<name>The Borders of Walas</name>
+		<name>The Borders of Quars</name>
+		<name>The Wide Borders</name>
+		<name>The Narrow Borders</name>
+		<name>The Infinite Borders</name>
+		<name>Closed Borders of Mals</name>
+		<name>Closed Borders of Likas</name>
+		<name>Closed Borders of Eilif</name>
+		<name>Closed Borders of Beyza</name>
+		<name>Border Crossing "Flower"</name>
+		<name>Border Crossing "Rainbow"</name>
+		<name>Border Crossing "Flavor"</name>
+		<name>Border Crossing "Peace"</name>
+		<name>Border Zone "Harmony"</name>
+		<name>Border Zone "Friendship"</name>
+		<name>Border Zone "Sisterhood"</name>
+		<name>Border Zone "Empathy"</name>
+		<name>Control Zone "Love"</name>
+		<name>Control Zone "Nice"</name>
+		<name>Control Zone "Sweet"</name>
+		<name>Zone of Understanding</name>
+		<name>Zone of Forgiveness</name>
+		<name>Zone of Reconciliation</name>
+		<name>Checkpoint Green</name>
+		<name>Checkpoint Violet</name>
+		<name>Checkpoint Ultramarine</name>
+		<name>Checkpoint Teal</name>
+		<name>Checkpoints 256-278</name>
+		<name>Checkpoints 012-016</name>
+		<name>Checkpoints 212-250</name>
+		<name>The Secured Perimeter</name>
+		<name>The Second Perimeter</name>
+		<name>The Sixth Perimeter</name>
+		<name>The Closed Perimeter</name>
+		<name>The Defended Perimeter</name>
+		<name>The Patrolled Perimeter</name>
+		<name>The Vigilant Outposts</name>
+		<name>The Eternal Outposts</name>
+		<name>The Four Outposts</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="3"/>
+		<blueprint name="energy" rarity="1"/>
+		<blueprint name="slug" rarity="3"/>
+		<blueprint name="rock" rarity="3"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="5"/>
+	</rarityList>
+	<startEvent>START_BEACON_ZOLTAN</startEvent>
+	<event name="ZOLTAN_CREW_STUDY" min="1" max="1"/>
+	<event name="STORE_ZOLTAN" min="2" max="2"/>
+	<event name="NOTHING_ZOLTAN" min="1" max="2"/>
+	<event name="DISTRESS_BEACON_ZOLTAN" min="1" max="2"/>
+	<event name="NEBULA_ZOLTAN" min="2" max="6"/>
+	<event name="HOSTILE_ZOLTAN" min="6" max="8"/>
+	<event name="BOARDERS_ZOLTAN" min="1" max="2"/>
+	<event name="ITEM_ZOLTAN" min="1" max="2"/>
+	<event name="QUESTS_ZOLTAN" min="0" max="1"/>
+	<event name="NEUTRAL_ZOLTAN" min="5" max="6"/>
+</sectorDescription>
+
+
+<sectorDescription name="SE_ZOLTAN_HOME" minSector="2" unique="true">   
+	<nameList>
+		<name>The Ardian Democracy</name>
+		<name>The Misan Democracy</name>
+		<name>The Oron Democracy</name>
+		<name>Zoltan Republic of Yi</name>
+		<name>Zoltan Republic of Liss'a</name>
+		<name>Zoltan Republic of Bolk</name>
+		<name>Zoltan Utopia Mers</name>
+		<name>Zoltan Utopia Farn</name>
+		<name>Zoltan Utopia Yon</name>
+		<name>The Misan Lawzone</name>
+		<name>The Fourth Lawzone</name>
+		<name>The Old Lawzone</name>
+		<name>Zoltan Court of Mils</name>
+		<name>Zoltan Court of Ersel</name>
+		<name>Zoltan Court of Razel</name>
+		<name>The All-Seeing Court</name>
+		<name>The Fifth Judiciary</name>
+		<name>The Second Judiciary</name>
+		<name>The First Judiciary</name>
+		<name>The Mils Tribunal</name>
+		<name>The Kar Tribunal</name>
+		<name>The Urs'an Tribunal</name>
+		<name>The Eternal Tribunal</name>
+		<name>The Eternal Court</name>
+		<name>The Law Space</name>
+		<name>The Judge Space</name>
+		<name>The Advisory Zone</name>
+		<name>Judgment Y-12</name>
+		<name>The High-Court Zone</name>
+		<name>Sphere of Mercy</name>
+		<name>Sphere of Compassion</name>
+		<name>Sphere of Sisterhood</name>
+		<name>Sphere of Equality</name>
+		<name>Sphere of Peace</name>
+		<name>Omicron Unicorn</name>
+		<name>Harmony Prime</name>
+		<name>Eternal Peace</name>
+		<name>Reconciliation Alpha</name>
+		<name>Poets Temple</name>
+		<name>The Galactic Meadow</name>
+		<name>The Wonderful Space</name>
+
+		<name>Sphere of Enlightenment</name>
+		<name>Judgment X-43</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+		<track>zoltan</track>
+		<track>cosmos</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="3"/>
+		<blueprint name="energy" rarity="1"/>
+		<blueprint name="slug" rarity="3"/>
+		<blueprint name="rock" rarity="3"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="5"/>
+	</rarityList>
+	<startEvent>START_BEACON_ZOLTAN</startEvent>
+	<event name="ZOLTAN_CREW_STUDY" min="1" max="1"/>
+	<event name="ZOLTAN_PEACE_QUEST" min="1" max="1"/>
+	<event name="STORE_ZOLTAN" min="2" max="2"/>
+	<event name="NOTHING_ZOLTAN" min="1" max="2"/>
+	<event name="DISTRESS_BEACON_ZOLTAN" min="1" max="2"/>
+	<event name="NEBULA_ZOLTAN" min="2" max="6"/>
+	<event name="HOSTILE_ZOLTAN" min="6" max="8"/>
+	<event name="BOARDERS_ZOLTAN" min="1" max="2"/>
+	<event name="ITEM_ZOLTAN" min="1" max="2"/>
+	<event name="QUESTS_ZOLTAN" min="0" max="1"/>
+	<event name="NEUTRAL_ZOLTAN" min="5" max="6"/>	
+</sectorDescription>
+
+
+
+<sectorDescription name="SE_ROCK_SECTOR" minSector="1" unique="false"> 
+	<nameList>
+		<name>Honorable Sector of Mo</name>
+		<name>Honorable Sector of Nen</name>
+		<name>Hard Shards Sector</name>
+		<name>Hard Impact Sector</name>
+		<name>Mumas Shrine</name>
+		<name>Orons Shrine</name>
+		<name>Olans Tombs</name>
+		<name>Twenty Tombs Sector</name>
+		<name>The Holy Tombs Sector</name>
+		<name>The Holy Area</name>
+		<name>The Blessed Pathway</name>
+		<name>The High Walls</name>
+		<name>The Outer Walls</name>
+		<name>The Inner Walls</name>
+		<name>Rock Slide Five</name>
+		<name>Earthquake Three</name>
+		<name>Eruption One xT</name>
+		<name>Hill 48</name>
+		<name>Hill 12</name>
+		<name>Ridge 11</name>
+		<name>Ridge 52</name>
+		<name>Bluff 20</name>
+		<name>Bluff 34</name>
+		<name>Dune 12</name>
+		<name>Dune 15</name>
+		<name>Hillside 12</name>
+		<name>Hillside 39</name>
+		<name>Valley 3</name>
+		<name>Valley 41</name>
+		<name>The Eternal Mines</name>
+		<name>The Inner Mines</name>
+		<name>The Outer Mines</name>
+		<name>The Abandoned Mines</name>
+		<name>The New Mines</name>
+		<name>Solar Flare Factories</name>
+		<name>Rockslide Factories</name>
+		<name>The Magma Factories</name>
+		<name>The Hard Factories</name>
+		<name>The Earth Space</name>
+		<name>The Dust Space</name>
+		<name>The Forge Zone</name>
+		<name>The Mashers Works</name>
+		<name>The Depleted Mines</name>
+		<name>The Forbidden Mines</name>
+		<name>Rock Quadrant IV</name>
+		<name>Rock Quadrant III</name>
+		<name>Rock Quadrant XVII</name>
+		<name>Commandment Three Two</name>
+		<name>Commandment Two One</name>
+		<name>Commandment One One</name>
+		<name>Af Uds - Rock Minor</name>
+		<name>Labis - Rock Minor</name>
+		<name>Els Raf Els - Rock Minor</name>
+		<name>Minos Uds - Rock Minor</name>
+		<name>Vroch II - Rock Minor</name>
+		<name>Avrach XIV - Rock Minor</name>
+		<name>The Far Moons</name>
+		<name>The Holy Moons</name>
+		<name>The Honorable Moons</name>
+		<name>The Blessed Moons</name>
+		<name>The Eternal Moons</name>
+
+		<name>Commandment Six Four</name>
+		<name>The Shattered Moons</name>
+		<name>The Depleted Belt</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="0"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="3"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="1"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>
+	<startEvent>START_BEACON_ROCK</startEvent>
+	<event name="STORE_ROCK" min="1" max="1"/>
+	<event name="NOTHING_ROCK" min="2" max="3"/>
+	<event name="NEBULA_ROCK" min="0" max="3"/>	
+	<event name="DISTRESS_BEACON_ROCK" min="1" max="2"/>
+	<event name="HOSTILE_ROCK" min="6" max="7"/>
+	<event name="BOARDERS_ROCK" min="1" max="2"/>
+	<event name="ITEMS_ROCK" min="1" max="1"/>
+	<event name="QUESTS_ROCK" min="0" max="1"/>
+	<event name="NEUTRAL_ROCK" min="7" max="7"/>
+</sectorDescription>
+
+<sectorDescription name="SE_ROCK_HOME" minSector="4" unique="true">   
+	<nameList>
+		<name>Third Rock Kingdom</name>
+		<name>The Holy Kingdom</name>
+		<name>The Asteroid Estate</name>
+		<name>The Volcano Estate</name>
+		<name>The Far Domain</name>
+		<name>The Third Domain</name>
+		<name>The Fallen Domain</name>
+		<name>The Hard Realm</name>
+		<name>The Shard Realm</name>
+		<name>The Fractured Empire</name>
+		<name>The Ruptured Empire</name>
+		<name>The Molten Empire</name>
+		<name>The Shattered Empire</name>
+		<name>Malins Empire</name>
+		<name>Musons Empire</name>
+		<name>Emons Empire</name>
+		<name>Mountain 6</name>
+		<name>Mountain 2</name>
+		<name>Mountain 18</name>
+		<name>Highland 5</name>
+		<name>Highland 7</name>
+		<name>Desert 4</name>
+		<name>Desert 9</name>
+		<name>The Massifs</name>
+		<name>The Central Highland</name>
+		<name>Urs Ad-An - Rock Prime</name>
+		<name>Muma Ad-Aff - Rock Prime</name>
+		<name>Slamam - Rock Prime</name>
+		<name>Bulge - Rock Prime</name>
+		<name>Akan Bul - Rock Prime</name>
+		<name>The Everlasting Domain</name>
+		<name>The Ancient Kingdom</name>
+		<name>The Granite-Chin Monarchy</name>
+		<name>The Molten Monarchy</name>
+		<name>The Sandstorm Monarchy</name>
+		<name>Vrachos IV - Rock Origin</name>
+		<name>Vrachos V - Rock Prime</name>
+		<name>Vrachos III - Rock Prime</name>
+		<name>Vrachos XI - Rock Prime</name>
+
+		<name>The Stonefist Monarchy</name>
+		<name>Meteor's Dominion</name>
+		<name>Sovereign's Grasp</name>
+		<name>Ancient Ancestor</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+		<track>rock</track>
+		<track>wasteland</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="0"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="3"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="1"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="ghost" rarity="0"/>
+	</rarityList>	
+	<startEvent>START_BEACON_ROCK_HOME</startEvent>
+	<event name="ROCK_UNLOCK1" min="1" max="1"/>
+	<event name="STORE_ROCK" min="0" max="1"/>
+	<event name="NOTHING_ROCK" min="2" max="3"/>
+	<event name="NEBULA_ROCK" min="0" max="3"/>
+	<event name="DISTRESS_BEACON_ROCK" min="1" max="2"/>
+	<event name="HOSTILE_ROCK" min="7" max="8"/>
+	<event name="BOARDERS_ROCK" min="1" max="2"/>
+	<event name="ITEMS_ROCK" min="1" max="1"/>
+	<event name="QUESTS_ROCK" min="0" max="1"/>
+	<event name="NEUTRAL_ROCK" min="7" max="7"/>	
+</sectorDescription>
+
+
+
+<sectorDescription name="SE_LANIUS_SECTOR" minSector="1" unique="false">   
+	<nameList>
+		<name>Abandoned Sector No. 17</name>
+		<name>Abandoned Sector No. 3</name>
+		<name>Abandoned Sector No. 65</name>
+		<name>Federation Base Eta [Abandoned]</name>
+		<name>The West Stations [Abandoned]</name>
+		<name>The Onus Shipyards [Abandoned]</name>
+		<name>Hope 9 [Abandoned]</name>
+		<name>Meskart DMZ [Abandoned]</name>
+		<name>Colony Sector 524 [Abandoned]</name>
+		<name>Tradelanes 272-280 [Abandoned]</name>
+		<name>Biter 8 [Abandoned]</name>
+		<name>Junction 89 [Abandoned]</name>
+		<name>New Kijiro [Abandoned]</name>
+		<name>Lanius Invasion at Celepi</name>
+		<name>Lanius Invasion at Ceti 7</name>
+		<name>Lanius Invasion at Omicron-Rho</name>
+		<name>Lanius Invasion at Westpoint</name>
+		<name>Lanius Invasion at Romus 5</name>
+		<name>Scavenger Fleet at 29.14.281</name>
+		<name>Scavenger Fleet at 87.17.347</name>
+		<name>Scavenger Fleet at 12.04.150</name>
+		<name>The Tully Battlefield</name>
+		<name>The Markus Battlefield</name>
+		<name>The Idian Battlefield</name>
+		<name>The 010 Battlefield</name>
+		<name>Battle Remains at 19.10.247</name>
+		<name>Battle Remains at 11.00.693</name>
+		<name>Fleet Remains at 09.41.984</name>
+		<name>Fleet Remains at 31.80.374</name>
+		<name>The Tau IV Debris Field</name>
+		<name>The Delta Debris Field</name>
+		<name>The Epsilon Debris Field</name>
+		<name>Abandoned Sector 192</name>
+		<name>Abandoned Sector Phi 75</name>
+		<name>Abandoned Sector 55-56</name>
+		<name>Lanius Salvage Operation II</name>
+		<name>Lanius Salvage Operation VI</name>
+		<name>Lanius Salvage Operation VII</name>
+		<name>The Vir 2 Leftovers</name>
+		<name>The Victor Scrap Field</name>
+		<name>The Lower Silver Fields</name>
+		<name>The Central Copper Fields</name>
+		<name>War Front G6 [Inactive]</name>
+		<name>War Front L36 [Inactive]</name>
+		<name>Ship Graveyard Sigma-2</name>
+		<name>Ship Graveyard Theta-5</name>
+		<name>Lanius Activity at 58.27</name>
+		<name>Lanius Activity at 15.72.43</name>
+
+		<name>War Front 3A2 [Inactive]</name>
+		<name>The Ship Graveyard</name>
+		<name>Lanius Activity at 8C4</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+		<track>shrike</track>
+		<track>deepspace</track>
+		<track>wasteland</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="3"/>
+		<blueprint name="mantis" rarity="3"/>
+		<blueprint name="energy" rarity="4"/>
+		<blueprint name="slug" rarity="4"/>
+		<blueprint name="rock" rarity="3"/>
+		<blueprint name="human" rarity="2"/>
+		<blueprint name="anaerobic" rarity="2"/>
+	</rarityList>
+	<startEvent>START_BEACON_LANIUS</startEvent>
+	<event name="STORE_LANIUS" min="2" max="2"/>
+	<event name="NOTHING_LANIUS" min="1" max="2"/>
+	<event name="DISTRESS_BEACON_LANIUS" min="1" max="2"/>
+<!--	<event name="NEBULA_LANIUS" min="2" max="6"/>  -->
+	<event name="HOSTILE_LANIUS" min="5" max="6"/>
+	<event name="HOSTILE_ENVIRONMENT_LANIUS" min="1" max="2"/>
+	<event name="BOARDERS_LANIUS" min="1" max="2"/>
+	<event name="ITEM_LANIUS" min="2" max="4"/>
+	<event name="QUESTS_LANIUS" min="0" max="1"/>
+	<event name="NEUTRAL_LANIUS" min="5" max="6"/>
+</sectorDescription>
+
+
+<sectorDescription name="STANDARD_SPACE" minSector="0" unique="false">
+	<nameList>
+		<name>The Standards of Standard</name>
+	</nameList>
+	<trackList>
+		<track>civilian</track>
+		<track>cosmos</track>
+		<track>milkyway</track>
+		<track>lostship</track>
+	</trackList>
+	<startEvent>START_BEACON</startEvent>
+	<event name="STORE" min="1" max="2"/>
+	<event name="ITEMS" min="1" max="2"/>
+	<event name="NEUTRAL2" min="2" max="4"/>
+	<event name="NOTHING" min="1" max="2"/>
+	<event name="DISTRESS_BEACON" min="1" max="2"/>
+	<event name="HOSTILE2" min="4" max="6"/>
+	<event name="NEBULA" min="0" max="4"/>
+	<event name="QUESTS" min="1" max="1"/>
+	<event name="HOSTILE1" min="2" max="2"/>
+	<event name="HOSTILE_BOARDING" min="0" max="0"/>
+</sectorDescription>
+
+<sectorDescription name="FINAL" minSector="7" unique="true">
+	<nameList> <!-- actually not working, will always call the fist name -->
+		<name>The Final Battle</name>
+		<name>The Final Battleground</name>
+		<name>The Final Confrontation</name>
+		<name>The Last Fight</name>
+		<name>The Last Counterattack</name>
+		<name>The Last Line</name>
+		<name>The Last Defense</name>
+		<name>The Counterattack</name>
+		<name>The Showdown</name>
+		<name>The Moment of Truth</name>
+		<name>Your Revenge</name>
+		<name>Endgame</name>
+		<name>Payback?</name>
+		<name>Redemption?</name>
+		<name>Salvation?</name>
+		<name>Vengeance?</name>
+		<name>Retribution?</name>
+		<name>Retaliation?</name>
+		<name>Punishment</name>
+		<name>The Last Federation Base</name>
+		<name>Federation Base Alpha</name>
+		<name>Federation Base Zero</name>
+		<name>Federation One</name>
+		<name>Federation Main Base</name>
+		<name>Federation Mother Base</name>
+		<name>Federation Command Base</name>
+		<name>Federation High Command</name>
+		<name>Federation Alpha Command</name>
+		<name>Baseplate Alpha</name>
+
+		<name>The Last Stand</name>
+		<name>Federation Command</name>
+		<name>Emergency Headquarters</name>
+		<name>Designated Retreat Zone</name>
+		<name>Federal Fleet</name>
+		<name>Galactic Capital (sieged)</name>
+		<name>Codename: Ricochet</name>
+		<name>Reassembled Army</name>
+		<name>Foxtrot Squadron</name>
+		<name>Ally Intelligence Center</name>
+
+		<name>The Final Countdown</name>
+		<name>The Terminus</name>
+		<name>Battlefield Zeta</name>
+	</nameList>
+	<trackList>
+		<track>laststand</track>
+	</trackList>
+	<startEvent>BOSS_NEUTRAL</startEvent>
+	<event name="STORE_FED" min="1" max="1"/>
+	<event name="BOSS_REPAIR_STATION" min="3" max="3"/>
+	<event name="BOSS_HOSTILE" min="6" max="6"/>
+	<event name="BOSS_NEUTRAL" min="7" max="10"/>
+</sectorDescription>
+
+
+
+
+<sectorDescription name="CRYSTAL_HOME" minSector="0" unique="false">   
+	<nameList>
+		<name>Hidden Crystal Worlds</name>
+	</nameList>
+	<trackList>
+		<track>hyperspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+		<track>debris</track>
+		<track>wasteland</track>
+		<track>deepspace</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="engi" rarity="0"/>
+		<blueprint name="mantis" rarity="0"/>
+		<blueprint name="energy" rarity="0"/>
+		<blueprint name="slug" rarity="0"/>
+		<blueprint name="rock" rarity="0"/>
+		<blueprint name="human" rarity="0"/>
+		<blueprint name="ghost" rarity="0"/>
+		<blueprint name="crystal" rarity="1"/>
+	
+	<blueprint name="LASER_BURST_1" rarity="0"/> 
+	<blueprint name="LASER_BURST_2" rarity="0"/> 
+	<blueprint name="LASER_BURST_2_A" rarity="0"/>
+	<blueprint name="LASER_BURST_3" rarity="0"/>
+	<blueprint name="LASER_BURST_4" rarity="0"/>
+	<blueprint name="LASER_BURST_5" rarity="0"/>
+	<blueprint name="LASER_HEAVY_1" rarity="0"/>
+	<blueprint name="LASER_HEAVY_2" rarity="0"/>
+	<blueprint name="MISSILES_1" rarity="0"/>
+	<blueprint name="MISSILES_2" rarity="0"/>
+	<blueprint name="MISSILES_2_PLAYER" rarity="0"/>
+	<blueprint name="MISSILES_3" rarity="0"/>
+	<blueprint name="MISSILES_BURST" rarity="0"/>
+	<blueprint name="MISSILES_BREACH" rarity="0"/>
+	<blueprint name="BEAM_1" rarity="0"/>
+	<blueprint name="BEAM_2" rarity="0"/>
+	<blueprint name="BEAM_3" rarity="0"/>
+	<blueprint name="BEAM_LONG" rarity="0"/>
+	<blueprint name="BEAM_FIRE" rarity="0"/>
+	<blueprint name="ION_1" rarity="0"/>
+	<blueprint name="ION_2" rarity="0"/>
+	<blueprint name="ION_4" rarity="0"/>
+	<blueprint name="BOMB_1" rarity="0"/>
+	<blueprint name="BOMB_FIRE" rarity="0"/>
+	<blueprint name="BOMB_ION" rarity="0"/>
+	<blueprint name="BOMB_HEAL" rarity="0"/> 
+	<blueprint name="LASER_HULL_1" rarity="0"/>
+	<blueprint name="LASER_HULL_2" rarity="0"/>
+	<blueprint name="BEAM_HULL" rarity="0"/>
+	<blueprint name="MISSILES_HULL" rarity="0"/>
+
+
+	<blueprint name="BOMB_HEAL_SYSTEM" rarity="0"/>
+	<blueprint name="SHOTGUN_PLAYER" rarity="0"/>
+	<blueprint name="SHOTGUN" rarity="0"/>
+	<blueprint name="SHOTGUN_2" rarity="0"/>
+	<blueprint name="MISSILE_CHARGEGUN" rarity="0"/>
+	<blueprint name="LASER_CHAINGUN" rarity="0"/>
+	<blueprint name="LASER_CHAINGUN_2" rarity="0"/>
+	<blueprint name="LASER_CHARGEGUN" rarity="0"/>
+	<blueprint name="LASER_CHARGEGUN_2" rarity="0"/>
+	<blueprint name="ION_CHAINGUN" rarity="0"/>
+	<blueprint name="ION_STUN" rarity="0"/>
+	<blueprint name="ION_CHARGEGUN" rarity="0"/>
+	<blueprint name="BOMB_STUN" rarity="0"/>
+
+	<blueprint name="BA_ION_2_STUN" rarity="0"/>
+	<blueprint name="BA_ION_BURST_1_STUN" rarity="0"/>
+	<blueprint name="BA_BOMB_CLUSTER_STUN" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_CHAINGUN" rarity="0"/>
+	<blueprint name="BA_SHOTGUN_SMALL" rarity="0"/>
+	<blueprint name="BA_SHOTGUN_SCATTER" rarity="0"/>
+	<blueprint name="BA_SHOTGUN_MISSILES" rarity="0"/>
+	<blueprint name="BA_BEAM_ADAPTIVE_1" rarity="0"/>
+	<blueprint name="BA_BEAM_ADAPTIVE_2" rarity="0"/>
+	<blueprint name="BA_BEAM_ADAPTIVE_3" rarity="0"/>
+	<blueprint name="BA_LASER_CHARGEGUN_HEAVY" rarity="0"/>
+	<blueprint name="BA_MISSILE_CHARGEGUN_SMALL" rarity="0"/>
+	<blueprint name="BA_LASER_CHARGEGUN_MEDIUM" rarity="0"/>
+	<blueprint name="BA_STUNGUN_1" rarity="0"/>
+	<blueprint name="BA_STUNGUN_2" rarity="0"/>
+	<blueprint name="BA_PLASMA_1" rarity="0"/>
+	<blueprint name="BA_PLASMA_2" rarity="0"/>
+	<blueprint name="BA_SHOTGUN_ION_1" rarity="0"/>
+	<blueprint name="BA_SHOTGUN_ION_2" rarity="0"/>
+	<blueprint name="BA_ION_PIERCE_1" rarity="0"/>
+	<blueprint name="BA_ION_PIERCE_2" rarity="0"/>
+	<blueprint name="BA_BEAM_BATON" rarity="0"/>
+	<blueprint name="BA_BEAM_BO" rarity="0"/>
+
+	<blueprint name="BA_BEAM_HASTA" rarity="0"/>
+	<blueprint name="BA_BEAM_AUTO" rarity="0"/>
+	<blueprint name="BA_BEAM_HULL_SMALL" rarity="0"/>
+	<blueprint name="BA_BEAM_NAGINATA" rarity="0"/>
+	<blueprint name="BA_BEAM_PERNACH" rarity="0"/>
+	<blueprint name="BA_BEAM_MAUL" rarity="0"/>
+	<blueprint name="BA_BEAM_SCYTHE" rarity="0"/>
+	<blueprint name="BA_BEAM_BARDICHE" rarity="0"/>
+	<blueprint name="BA_BEAM_FIRE_2" rarity="0"/>
+	<blueprint name="BA_BEAM_FLAIL_DAMAGE" rarity="0"/>
+	<blueprint name="BA_BEAM_FIRE_FOCUS" rarity="0"/>
+	<blueprint name="BA_BEAM_BIO_FOCUS" rarity="0"/>
+	<blueprint name="BA_BEAM_BIO_2" rarity="0"/>
+	<blueprint name="BA_MISSILES_HULL_SMALL" rarity="0"/>
+	<blueprint name="BA_MISSILES_4" rarity="0"/>
+	<blueprint name="BA_MISSILES_ASTERIA" rarity="0"/>
+	<blueprint name="BA_MISSILES_PERYTON" rarity="0"/>
+	<blueprint name="BA_MISSILES_COCKATRICE" rarity="0"/>
+	<blueprint name="BA_MISSILES_SIMURGH" rarity="0"/>
+	<blueprint name="BA_MISSILES_ONI" rarity="0"/>
+	<blueprint name="BA_MISSILES_IFRIT" rarity="0"/>
+	<blueprint name="BA_MISSILES_FIRE" rarity="0"/>
+	<blueprint name="BA_MISSILES_SWARM_1" rarity="0"/>
+	<blueprint name="BA_MISSILES_SWARM_2" rarity="0"/>
+	<blueprint name="BA_MISSILES_SWARM_3" rarity="0"/>
+	<blueprint name="BA_MINES_SMALL" rarity="0"/>
+	<blueprint name="BA_MINES_MEDIUM" rarity="0"/>
+	<blueprint name="BA_MINES_BIG" rarity="0"/>
+	<blueprint name="BA_MINES_TECH" rarity="0"/>
+	<blueprint name="BA_LASER_OLD" rarity="0"/> 
+	<blueprint name="BA_LASER_DUAL_OLD" rarity="0"/>
+	<blueprint name="BA_LASER_BURST_1_2" rarity="0"/>
+	<blueprint name="BA_LASER_DUAL_2" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_1" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_2" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_3" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_1" rarity="0"/> 
+	<blueprint name="BA_LASER_LIGHT_2" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_3" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_SCATTER_1" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_SCATTER_2" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_SCATTER_3" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_AUTO" rarity="0"/>
+	<blueprint name="BA_LASER_LIGHT_ARTILLERY" rarity="0"/>
+	<blueprint name="BA_LASER_AUTO_1" rarity="0"/>
+	<blueprint name="BA_LASER_AUTO_2" rarity="0"/>
+	<blueprint name="BA_LASER_BURST_SCATTER_1" rarity="0"/>
+	<blueprint name="BA_LASER_BURST_SCATTER_2" rarity="0"/>
+	<blueprint name="BA_LASER_HEAVY_SCATTER_1" rarity="0"/>
+	<blueprint name="BA_LASER_HEAVY_SCATTER_2" rarity="0"/>
+	<blueprint name="BA_LASER_ARTILLERY_1" rarity="0"/>
+	<blueprint name="BA_LASER_ARTILLERY_2" rarity="0"/>
+	<blueprint name="BA_LASER_HULL_SMALL" rarity="0"/>
+	<blueprint name="BA_LASER_HULLCRUSHER" rarity="0"/>
+	<blueprint name="BA_ION_BURST_1" rarity="0"/>
+	<blueprint name="BA_ION_BURST_2" rarity="0"/>
+	<blueprint name="BA_ION_BURST_3" rarity="0"/>
+	<blueprint name="BA_ION_HEAVY_3" rarity="0"/>
+	<blueprint name="BA_ION_HEAVY_2" rarity="0"/>
+	<blueprint name="BA_BOMB_FIRE_SMALL" rarity="0"/>
+	<blueprint name="BA_BOMB_FIRE_2" rarity="0"/>
+	<blueprint name="BA_BOMB_BIG" rarity="0"/>
+	<blueprint name="BA_BOMB_BIO" rarity="0"/> 
+	<blueprint name="BA_BOMB_HEAL_2" rarity="0"/> 
+	<blueprint name="BA_BOMB_CLUSTER_1" rarity="0"/>
+	<blueprint name="BA_BOMB_CLUSTER_FIRE" rarity="0"/>
+	<blueprint name="BA_BOMB_CLUSTER_ION" rarity="0"/>
+	<blueprint name="BA_EFFECTOR_1" rarity="0"/>
+	<blueprint name="BA_EFFECTOR_2" rarity="0"/>
+	<blueprint name="BA_EFFECTOR_3" rarity="0"/>
+	<blueprint name="BA_EFFECTOR_ADAPTIVE" rarity="0"/>
+
+   	<blueprint name="COMBAT_1" rarity="0"/>
+   	<blueprint name="COMBAT_2" rarity="0"/>
+   	<blueprint name="COMBAT_BEAM" rarity="0"/>	
+   	<blueprint name="DEFENSE_1" rarity="0"/>
+   	<blueprint name="DEFENSE_2" rarity="0"/>
+   	<blueprint name="REPAIR" rarity="0"/>
+   	<blueprint name="BATTLE" rarity="0"/>
+   	<blueprint name="BOARDER" rarity="0"/>	
+   	<blueprint name="BOARDER_ION" rarity="0"/>
+   	<blueprint name="DRONE_SHIELD" rarity="0"/>
+   	<blueprint name="ANTI_DRONE" rarity="0"/>
+   	<blueprint name="COMBAT_BEAM_2" rarity="0"/>
+   	<blueprint name="COMBAT_FIRE" rarity="0"/>
+   	<blueprint name="DE_DRONE_MISSILES_1" rarity="0"/>
+   	<blueprint name="DE_DRONE_MISSILES_2" rarity="0"/>
+   	<blueprint name="DE_DRONE_MISSILES_3" rarity="0"/>
+   	<blueprint name="DE_DRONE_BEAM_2" rarity="0"/>
+    	<blueprint name="DE_DRONE_PLASMA" rarity="0"/>
+    	<blueprint name="DE_DRONE_ION_1" rarity="0"/>
+    	<blueprint name="DE_DRONE_ION_2" rarity="0"/>
+	<blueprint name="DE_DRONE_ION_3" rarity="0"/>
+	<blueprint name="DE_DRONE_LIGHT_1" rarity="0"/>
+	<blueprint name="DE_DRONE_LIGHT_2" rarity="0"/>
+	<blueprint name="DE_DRONE_LIGHT_MISSILE" rarity="0"/>
+	<blueprint name="DE_DRONE_LIGHT_MISSILE_FIRE" rarity="0"/>
+    	<blueprint name="DE_DRONE_MISSILES_BARRAGE" rarity="0"/>
+    	<blueprint name="DE_DRONE_MINE_SMALL" rarity="0"/>
+    	<blueprint name="DE_DRONE_MINE_MEDIUM" rarity="0"/>
+	<blueprint name="DE_DRONE_HEAVY_SCATTER" rarity="0"/>
+	<blueprint name="DE_DRONE_LIGHT_SCATTER" rarity="0"/>
+	<blueprint name="DE_DRONE_SCATTER" rarity="0"/>
+	<blueprint name="DE_DRONE_BEAM_FOCUS" rarity="0"/>
+	<blueprint name="DE_DRONE_HEAVY_1" rarity="0"/>
+	<blueprint name="DE_DRONE_HEAVY_2" rarity="0"/>
+	<blueprint name="DE_DRONE_HULL_1" rarity="0"/>
+	<blueprint name="DE_DRONE_HULL_2" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_LIGHT_1" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_LIGHT_2" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_LIGHT_MISSILE" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_SWARM_MISSILE" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_HEAVY" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_HEAVY_SMALL" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_SCATTER" rarity="0"/>
+	<blueprint name="DE_DRONE_DEFENSE_3" rarity="0"/>
+	<blueprint name="DE_REPAIR_2" rarity="0"/>
+	<blueprint name="DE_REPAIR_3" rarity="0"/>
+	<blueprint name="DE_REPAIR_4" rarity="0"/>
+	<blueprint name="DE_BATTLE_2" rarity="0"/>
+	<blueprint name="DE_BATTLE_3" rarity="0"/>
+	<blueprint name="DE_BATTLE_4" rarity="0"/>
+	<blueprint name="DE_BOARDER_2" rarity="0"/>
+	<blueprint name="DE_BOARDER_3" rarity="0"/>
+	<blueprint name="DE_BOARDER_4" rarity="0"/>
+	<blueprint name="TB_SHIP_REPAIR" rarity="0"/>
+	<blueprint name="DE_SHIP_REPAIR_2" rarity="0"/>
+	<blueprint name="DE_DRONE_HULL_BEAM" rarity="0"/>
+	<blueprint name="DE_DRONE_BOMB_FIRE" rarity="0"/>
+ 	<blueprint name="DE_DRONE_BEAM_BIO" rarity="0"/>
+	<blueprint name="DE_DRONE_STEALTH_BEAM_1" rarity="0"/>
+	<blueprint name="DE_DRONE_STEALTH_BEAM_2" rarity="0"/>
+	<blueprint name="DE_DRONE_SHIELD_SMALL" rarity="0"/>
+	<blueprint name="DE_DRONE_SHIELD_BIG" rarity="0"/>
+	<blueprint name="DE_DRONE_LIGHT_MISSILE_STUN" rarity="0"/>
+	<blueprint name="DE_ANTI_DRONE_2" rarity="0"/>
+	<blueprint name="DE_ANTI_DRONE_EFFECTOR" rarity="0"/>
+	<blueprint name="DE_ANTI_DRONE_MISSILES" rarity="0"/>
+	<blueprint name="DE_ANTI_DRONE_LASER_HEAVY" rarity="0"/>
+
+
+		<blueprint name="BOMB_LOCK" rarity="3"/>
+		<blueprint name="CRYSTAL_BURST_1" rarity="1"/>
+		<blueprint name="CRYSTAL_BURST_2" rarity="4"/>
+		<blueprint name="CRYSTAL_HEAVY_1" rarity="2"/>
+		<blueprint name="CRYSTAL_HEAVY_2" rarity="5"/>
+		<blueprint name="BA_CRYSTAL_LIGHT_1" rarity="1"/>
+		<blueprint name="BA_CRYSTAL_LIGHT_2" rarity="2"/>
+		<blueprint name="BA_CRYSTAL_HEAVY_LOCKDOWN_1" rarity="3"/>
+		<blueprint name="BA_CRYSTAL_HEAVY_LOCKDOWN_2" rarity="5"/>
+		<blueprint name="BA_BOMB_LOCK_2" rarity="4"/>
+
+		<blueprint name="DE_DRONE_CRYSTAL" rarity="2"/>
+		<blueprint name="DE_DRONE_CRYSTAL_HEAVY" rarity="4"/>
+		<blueprint name="DE_DRONE_CRYSTAL_LIGHT" rarity="2"/>
+		<blueprint name="DE_DRONE_DEFENSE_CRYSTAL_LIGHT" rarity="2"/>
+		<blueprint name="DE_DRONE_ANTI_CRYSTAL_HEAVY" rarity="3"/>
+	</rarityList>
+	<startEvent>START_BEACON_CRYSTAL</startEvent>
+	<event name="STORE_CRYSTAL" min="2" max="3"/>
+	<event name="ITEMS_CRYSTAL" min="2" max="2"/>
+	<event name="NOTHING_CRYSTAL" min="2" max="2"/>
+	<event name="HOSTILE_CRYSTAL" min="6" max="10"/>
+	<event name="BOARDERS_CRYSTAL" min="1" max="2"/>
+	<event name="NEUTRAL_CRYSTAL" min="12" max="12"/>	
+</sectorDescription>
+
+
+<!-- DEFAULT RARITY LIST
+
+	<rarityList>
+		<blueprint name="LASER_BURST_2_A" rarity="1"/>
+		<blueprint name="LASER_BURST_3" rarity="4"/>
+		<blueprint name="LASER_BURST_5" rarity="4"/>
+		<blueprint name="LASER_HEAVY_1" rarity="2"/>
+		<blueprint name="LASER_HEAVY_2" rarity="4"/>
+		<blueprint name="MISSILES_3" rarity="2"/>
+		<blueprint name="MISSILES_BURST" rarity="3"/>
+		<blueprint name="MISSILES_BREACH" rarity="3"/>
+		<blueprint name="BEAM_2" rarity="2"/>
+		<blueprint name="BEAM_3" rarity="5"/>
+		<blueprint name="BEAM_LONG" rarity="2"/>
+		<blueprint name="BEAM_FIRE" rarity="3"/>
+		<blueprint name="BEAM_BIO" rarity="5"/>
+		<blueprint name="BOMB_BREACH_1" rarity="0"/>
+		<blueprint name="BOMB_BREACH_2" rarity="4"/>
+		<blueprint name="ION_1" rarity="3"/>
+		<blueprint name="ION_2" rarity="3"/>
+		<blueprint name="ION_4" rarity="4"/>
+		<blueprint name="BOMB_1" rarity="1"/>
+		<blueprint name="BOMB_FIRE" rarity="2"/>
+		<blueprint name="BOMB_ION" rarity="3"/>
+		<blueprint name="BOMB_HEAL" rarity="3"/>
+		<blueprint name="LASER_HULL_1" rarity="2"/>
+		<blueprint name="LASER_HULL_2" rarity="3"/>
+		<blueprint name="BEAM_HULL" rarity="3"/>
+		<blueprint name="MISSILES_HULL" rarity="3"/>
+
+		<blueprint name="BA_BEAM_HASTA" rarity="2"/>
+		<blueprint name="BA_BEAM_HULL_SMALL" rarity="2"/>
+		<blueprint name="BA_BEAM_BARDICHE" rarity="2"/>
+		<blueprint name="BA_BEAM_SCYTHE" rarity="3"/>
+		<blueprint name="BA_BEAM_NAGINATA" rarity="4"/>
+		<blueprint name="BA_BEAM_PERNACH" rarity="3"/>
+		<blueprint name="BA_BEAM_MAUL" rarity="4"/>
+		<blueprint name="BA_BEAM_FIRE_2" rarity="4"/>
+		<blueprint name="BA_BEAM_BIO_2" rarity="5"/>
+		<blueprint name="BA_MISSILES_ASTERIA" rarity="2"/>
+		<blueprint name="BA_MISSILES_PERYTON" rarity="2"/>
+		<blueprint name="BA_MISSILES_COCKATRICE" rarity="3"/>
+		<blueprint name="BA_MISSILES_FIRE" rarity="4"/>
+		<blueprint name="BA_MISSILES_SIMURGH" rarity="5"/>
+		<blueprint name="BA_LASER_OLD" rarity="2"/>
+		<blueprint name="BA_LASER_DUAL_OLD" rarity="2"/>
+		<blueprint name="BA_LASER_LIGHT_1" rarity="3"/>
+		<blueprint name="BA_LASER_LIGHT_2" rarity="3"/>
+		<blueprint name="BA_LASER_LIGHT_3" rarity="4"/>
+		<blueprint name="BA_LASER_AUTO_1" rarity="1"/>
+		<blueprint name="BA_LASER_AUTO_2" rarity="3"/>
+		<blueprint name="BA_LASER_DUAL_2" rarity="3"/>
+		<blueprint name="BA_LASER_ARTILLERY_1" rarity="4"/>
+		<blueprint name="BA_LASER_ARTILLERY_2" rarity="4"/>
+		<blueprint name="BA_LASER_HULLCRUSHER" rarity="4"/>
+		<blueprint name="BA_ION_BURST_1" rarity="3"/>
+		<blueprint name="BA_ION_BURST_2" rarity="4"/>
+		<blueprint name="BA_ION_HEAVY_2" rarity="4"/>
+		<blueprint name="BA_BOMB_FIRE_SMALL" rarity="1"/>
+		<blueprint name="BA_BOMB_FIRE_2" rarity="2"/>
+		<blueprint name="BA_BOMB_BIG" rarity="3"/>
+		<blueprint name="BA_BOMB_BIO" rarity="4"/>
+		<blueprint name="BA_BOMB_HEAL_2" rarity="3"/>
+		<blueprint name="BA_EFFECTOR_1" rarity="3"/>
+		<blueprint name="BA_EFFECTOR_2" rarity="4"/>
+		<blueprint name="BA_EFFECTOR_3" rarity="3"/>
+		<blueprint name="BA_MISSILES_ONI" rarity="4"/>
+		<blueprint name="BA_MISSILES_IFRIT" rarity="5"/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+		<blueprint name="" rarity=""/>
+	</rarityList>
+
+-->
