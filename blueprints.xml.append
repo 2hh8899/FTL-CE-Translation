@@ -1885,7 +1885,7 @@
 	<locked>1</locked>
 	<title>Boss - Your should not see this descrition</title>
 	<short>Boss - Your should not see this descrition</short>
-	<desc>적함을 관통하고 들어가 피해를 입힙니다. 끝내줍니다.</desc>
+	<desc>적함을 관통하고 들어가 피해를 줍니다. 끝내줍니다.</desc>
 	<power>1</power>
 	<speed>18</speed>
 	<cost>70</cost>
@@ -2932,7 +2932,7 @@
 	<tip>tip_beams</tip>
 	<title>안티 바이오 빔 마크 I</title> 
 	<short>Bio Beam I</short>
-	<desc>이 고속 충전 안티 바이오 빔은 물리적 손상 없이 유기물질을 찢어발기며, 승무원에게 심각한 피해를 입힙니다.</desc>
+	<desc>이 고속 충전 안티 바이오 빔은 물리적 손상 없이 유기물질을 찢어발기며, 승무원에게 심각한 피해를 줍니다.</desc>
 	<tooltip>적 승무원에게 피해를 주는 2전력 빔 무기.</tooltip>
 	<damage>0</damage>
 	<persDamage>3</persDamage>
@@ -2963,7 +2963,7 @@
 	<tip>ce_tip_beams_focus</tip>
 	<title>바이오 포커스 빔</title>
 	<short>Bio Focus</short>
-	<desc>이 소름끼치는 포커스 빔은 물리피해는 없지만 유기물질을 불살라버리며, 승무원 하나에 엄청난 피해를 입힙니다.</desc>
+	<desc>이 소름끼치는 포커스 빔은 물리피해는 없지만 유기물질을 불살라버리며, 승무원 하나에 엄청난 피해를 줍니다.</desc>
 	<tooltip>적 승무원에게 엄청난 피해를 주는 포커스 빔. 모든 방어막을 관통합니다.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5351,7 +5351,7 @@
 	<short>Breach C.B.</short>
 	<locked>1</locked>
 	<desc>스스로 순간이동하여 시스템 피해를 주고 구멍을 뚫는 폭탄을 3개 사출합니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
-	<tooltip>폭탄 무기; 미사일 필요; 1 시스템 피해를 주는 중확률 균열 유발 폭탄 3개 순간이동. 당신의 함선을 목표로 삼을 수 있습니다</tooltip>
+	<tooltip>폭탄 무기; 미사일 필요; 1 시스템 피해를 주는 중확률 균열 유발 폭탄 3개 순간이동. 당신의 함선을 목표로 삼을 수 있습니다.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -6785,8 +6785,8 @@
 	<title>대공포 마크 I</title>
 	<tip>tip_flak</tip>
 	<short>Flak I</short>
-	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 2의 피해를 입힙니다. 방어막은 쉽게 깎지만, 함체에는 잘 명중하지 않습니다.</desc>
-	<tooltip>범위 내 무작위로 2의 피해를 입히는 쓰레기더미를 발사.</tooltip>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 2의 피해를 줍니다. 방어막은 쉽게 깎지만, 함체에는 잘 명중하지 않습니다.</desc>
+	<tooltip>범위 내 무작위로 2의 피해를 주는 쓰레기더미를 발사.</tooltip>
 	<radius>40</radius>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -6831,8 +6831,8 @@
 	<title>산발형 레이저 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Scatter Flak</short>
-	<desc>레이저 산탄을 발사하여 범위 내에 무작위로 5의 피해를 입힙니다. 방어막은 쉽게 깎지만, 함체에는 잘 명중하지 않으며 함체 피해만 입힙니다.</desc>
-	<tooltip>범위 내 무작위로 5의 피해를 입히는 산발형 레이저 발사.</tooltip>
+	<desc>레이저 산탄을 발사하여 범위 내에 무작위로 5의 피해를 줍니다. 방어막은 쉽게 깎지만, 함체에는 잘 명중하지 않으며 함체 피해만 줍니다.</desc>
+	<tooltip>범위 내 무작위로 5의 피해를 주는 산발형 레이저 발사.</tooltip>
 	<radius>80</radius>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -6880,8 +6880,8 @@
 	<title>미사일 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
-	<desc>미사일 다발을 발사하여 범위 내에 무작위로 6의 피해를 입힙니다. 함체에는 잘 명중하지 않으며 작은 함선에는 효과적이지 않습니다.</desc>
-	<tooltip>범위 내 무작위로 6의 피해를 입히는 미사일 다발 발사. 모든 방어막을 관통합니다.</tooltip>
+	<desc>미사일 다발을 발사하여 범위 내에 무작위로 6의 피해를 줍니다. 함체에는 잘 명중하지 않으며 작은 함선에는 효과적이지 않습니다.</desc>
+	<tooltip>범위 내 무작위로 6의 피해를 주는 미사일 다발 발사. 모든 방어막을 관통합니다.</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<radius>100</radius>
 	<damage>1</damage>
@@ -6932,8 +6932,8 @@
 	<title>미사일 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
-	<desc>미사일 다발을 발사하여 범위 내에 무작위로 6의 피해를 입힙니다. 함체에는 잘 명중하지 않으며 작은 함선에는 효과적이지 않습니다.</desc>
-	<tooltip>범위 내 무작위로 6의 피해를 입히는 미사일 다발 발사. 모든 방어막을 관통합니다.</tooltip>
+	<desc>미사일 다발을 발사하여 범위 내에 무작위로 6의 피해를 줍니다. 함체에는 잘 명중하지 않으며 작은 함선에는 효과적이지 않습니다.</desc>
+	<tooltip>범위 내 무작위로 6의 피해를 주는 미사일 다발 발사. 모든 방어막을 관통합니다.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>120</radius>
 	<damage>1</damage>
@@ -10366,7 +10366,7 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_SCATTER_DEFENSE">
 	<type>LASER</type>
-	<title>산발형 레이저 방어</title>
+	<title>방어 산발형 레이저</title>
 	<short>Defense Scatter Laser</short>
 	<damage>1</damage>
 	<sysDamage>0</sysDamage>
@@ -10405,7 +10405,7 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_SCATTER_DEFENSE_ENEMY">
 	<type>LASER</type>
-	<title>방어 산발형 레이저</title>
+	<title>산발형 방어 레이저</title>
 	<short>Defense Scatter Laser</short>
 	<damage>1</damage>
 	<sysDamage>0</sysDamage>
@@ -12386,9 +12386,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger 마크 I</title>
+	<title>방어 과충전기 마크 I</title>
 	<short>Shield I</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<desc>일정 시간마다 졸탄 방어막 한 칸을 생성합니다.</desc>
 	<power>2</power>
 	<cooldown>23000</cooldown> 
 	<dodge>1</dodge>
@@ -12404,9 +12404,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger Mark III</title>
+	<title>방어 과충전기 마크 III</title>
 	<short>Shield III</short>
-	<desc>Advanced defensive drone that quickly creates Supershield barriers.</desc>
+	<desc>빠르게 졸탄 방어막을 생성하는 고급 드론입니다.</desc>
 	<power>4</power>
 	<cooldown>12000</cooldown> 
 	<dodge>0</dodge>
@@ -12423,9 +12423,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger Drone</title>
+	<title>방어 과충전 드론</title>
 	<short>Shield</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<desc>일정 시간마다 졸탄 방어막 한 칸을 생성합니다.</desc>
 	<power>3</power>
 	<cooldown>60000</cooldown> 
 	<dodge>0</dodge>
@@ -12441,9 +12441,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger Drone</title>
+	<title>방어 과충전 드론</title>
 	<short>Shield</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<desc>일정 시간마다 졸탄 방어막 한 칸을 생성합니다.</desc>
 	<power>3</power>
 	<cooldown>15000</cooldown> 
 	<dodge>0</dodge>
@@ -12457,7 +12457,7 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_ION_2"> 
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>드론 레이저</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<ion>4</ion>
@@ -12493,9 +12493,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Heavy Anti-Combat Drone</title>
+	<title>중형 드론 격추용 드론</title>
 	<short>Heavy Anti-Drone</short>
-	<desc>Sluggish drone that can disable multiple enemy combat drones with huge ion blasts. Less effective against fast drones. Reloads in 8 seconds.</desc>
+	<desc>대형 이온 블래스트로 다수의 적 전투 드론을 무력화시키는 저속 드론. 빠른 드론을 상대로는 효과적이지 않습니다. 재장전 8초.</desc>
 	<power>2</power>
 	<cooldown>8000</cooldown>
 	<dodge>0</dodge>
@@ -12510,7 +12510,7 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_EFFECTOR_INVISIBLE"> 
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>드론 레이저</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<ion>1</ion>
@@ -12545,9 +12545,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Effector Drone</title>
+	<title>이펙터 드론</title>
 	<short>Effector</short>
-	<desc>Advanced electronic warfare drone that can continuously disrupt multiple enemy combat drones simultaneously. Reloads in 1 second.</desc>
+	<desc>다수의 적 전투 드론을 한번에 지속적으로 교란할 수 있는 첨단 전자기 전투 드론. 재장전 1초.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -12563,7 +12563,7 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_MISSILES_SWARM">
 	<type>LASER</type>
-	<title>Heavy Missiles Drone</title>
+	<title>중형 미사일 드론</title>
 	<short>Heavy Missiles</short>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -12594,9 +12594,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Drone-Destroyer Turret</title>
+	<title>드론 파괴 포탑</title>
 	<short>Destroyer T.</short>
-	<desc>Simple turret that blasts enemy combat drones with swarm missiles. Less effective against fast drones. Reloads in 16 seconds.</desc>
+	<desc>미사일 다발로 적 전투 드론을 폭파하는 단순한 포탑. 재장전 16초.</desc>
 	<power>1</power>
 	<cooldown>16000</cooldown>
 	<dodge>0</dodge>
@@ -12613,7 +12613,7 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_ANTI">
 	<type>LASER</type>
-	<title>Drone Heavy Defense Laser</title>
+	<title>드론 중형 방어 레이저</title>
 	<short>Drone Heavy Defense Laser</short>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -12648,9 +12648,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Drone-Destroyer</title>
+	<title>드론 파괴기</title>
 	<short>Destroyer</short>
-	<desc>Destroys combat drones attacking your ship. Reloads in 8 seconds.</desc>
+	<desc>당신의 함선을 공격하는 전투 드론을 파괴합니다. 재장전 8초.</desc>
 	<power>2</power>
 	<cooldown>8000</cooldown>
 	<dodge>0</dodge>
@@ -12677,7 +12677,7 @@
  <!-- TB DRONES -->
 <droneBlueprint name="TB_SHIP_REPAIR_ENEMY">
 	<type>SHIP_REPAIR</type>
-	<title>Slow Hull Repair Drone</title>
+	<title>저속 함체 수리 드론</title>
 	<short>Slow Hull Repair</short>
 	<desc>You shouldn't see this description.</desc>
 	<power>2</power>
@@ -12768,8 +12768,8 @@
  	-->
 
 <augBlueprint name="TE_GOODS_CIVILIAN_CONSUMER">
-	<title>Consumer Goods</title>
-	<desc>Once the basic necessities of survival have been met, most want to immediately spend their money on meaningless things like these. Basic trade goods.</desc>
+	<title>소비 물품</title>
+	<desc>일단 생존의 기본 요소가 충족되면, 대부분의 사람들은 즉시 이런 의미 없는 것에 돈을 쓰고 싶어합니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12780,8 +12780,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CIVILIAN_LUXURY">
-	<title>Luxury Goods</title>
-	<desc>Status symbols for individuals who want to set themselves apart from those with less recourses. Rare trade goods.</desc>
+	<title>사치품</title>
+	<desc>빈곤한 사람들과 자신을 차별하고 싶어하는 사람들을 위한 상징입니다. 초희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12792,8 +12792,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CIVILIAN_FOOD">
-	<title>Space Rations</title>
-	<desc>One bar of this stuff can feed a humble colonist family for an entire month. Common trade goods.</desc>
+	<title>우주 식량</title>
+	<desc>한 팩이면 한 달 내내 가난한 식민지 가족을 먹여 살릴 수 있습니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12804,8 +12804,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ENGI_MEDICINE">
-	<title>Pharmaceuticals</title>
-	<desc>A shipment of extremely effective medicine, produced in Engi space. Common trade goods.</desc>
+	<title>의약품</title>
+	<desc>엔지 구역에서 생산된 아주 효과적인 의약 수송품. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12816,8 +12816,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ENGI_ELECTRONICS">
-	<title>Ship Hardware</title>
-	<desc>The superior cluster production methods of the Engi undercut prices and made their advanced ship electronics the interstellar standard. Common trade goods.</desc>
+	<title>함선 하드웨어</title>
+	<desc>엔지의 우수한 군집 생산 방식은 고급 선박 전자제품의 단가를 낮추고 성간 표준으로 만들었습니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12828,8 +12828,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ENGI_MACHINES">
-	<title>Industrial Machinery</title>
-	<desc>Equipment needed for deep space mining and industrial stations. Basic trade goods.</desc>
+	<title>산업용 기계</title>
+	<desc>심층 우주 채굴 및 산업 정거장에 필요한 장비. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12840,8 +12840,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ZOLTAN_BEACONS">
-	<title>Beacon Parts</title>
-	<desc>Beacon parts are used to create an FTL network in newly colonized regions of space. They are also always needed as spare parts in other sectors. Common trade goods.</desc>
+	<title>신호소 부품</title>
+	<desc>신호소 부품은 새로 식민지화된 우주 구역에 FTL 네트워크를 만드는 데 사용됩니다. 또한 다른 구역에서의 예비 부품으로도 항상 필요합니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12852,8 +12852,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ZOLTAN_CODEX">
-	<title>Zoltan Legal Codex</title>
-	<desc>The Zoltan legal code is the basis of general system law. Even when stored on super capacity micro drives, this behemoth of legal documentation still fills an entire cargo hold. Common trade goods.</desc>
+	<title>졸탄족 법전</title>
+	<desc>졸탄 법령은 일반제도법의 기본입니다. 초용량 마이크로 드라이브에 저장되어 있음에도, 이 엄청난 양의 법적 문서는 화물 보관함 전체를 채웁니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12864,8 +12864,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ZOLTAN_SHIELDS">
-	<title>Shield Components</title>
-	<desc>Zoltan produced shield systems are known for their precise bubble creation. You also get a handmade carma cake with each shipment you purchase. Uncommon trade goods.</desc>
+	<title>방어막 구성품</title>
+	<desc>졸탄족이 만드는 방어막 시스템은 그 정밀한 방어막 생성법으로 유명합니다. 수송품을 살 때마다 수제 컵케이크를 같이 받기도 합니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12876,8 +12876,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROCK_LITERATURE">
-	<title>Religious Rock Scriptures</title>
-	<desc>A collection of stone tablets with religious speeches. The Rockmen are one of the few species that still keep physical records. Quite a heavy shipment. Uncommon trade goods.</desc>
+	<title>락맨 종교 경전</title>
+	<desc>종교적 연설이 담긴 석판 모음집입니다. 락맨은 물리적인 기록물을 여전히 남기고 있는 몇 안되는 종족 중 하나입니다. 꽤 무거운 수송품입니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12888,8 +12888,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROCK_ORE">
-	<title>Raw Asteroid Ore</title>
-	<desc>Metals refined from asteroid ores are needed to manufacture all kinds ship components. Basic trade goods.</desc>
+	<title>소행성 원석</title>
+	<desc>어떤 종류의 선박 부품을 제조하든간에 소행성 광석을 정제한 금속은 필요합니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12900,8 +12900,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROCK_HULLS">
-	<title>Ship Hull Panels</title>
-	<desc>The Rocks obsession with hull construction has led to an immense overproduction. Of course, to other species, they only sell third grade junk. Common trade goods.</desc>
+	<title>함체 패널</title>
+	<desc>락맨 종족의 함체에 대한 집착은 엄청난 과잉생산을 초래했습니다. 물론 다른 종족들에게는 3등급 쓰레기만 팝니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12912,8 +12912,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_MANTIS_ENGINES">
-	<title>Engine Parts</title>
-	<desc>Engine parts are an essential component in ship construction. Any invading space-armada that wants to be taken seriously needs a lot of these. Uncommon trade goods.</desc>
+	<title>엔진 부품</title>
+	<desc>엔진 부품은 함선 건설에 필수적인 부품입니다. 침략이 심각하게 받아들여지길 원하는 모든 우주 함대에는 이런 것들이 많이 필요합니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12924,8 +12924,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_MANTIS_WEAPONS">
-	<title>Weapon Components</title>
-	<desc>These charge cycle cores, shielded muzzles and chassis panels are the basis of all these fancy guns you can mount on your ship. Rare trade goods.</desc>
+	<title>무기 부품</title>
+	<desc>이 충전 순환 코어, 차폐 총구 및 섀시 패널은 함선에 장착할 수 있는 모든 멋들어진 총기의 기본입니다. 초희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12936,8 +12936,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_MANTIS_BOUNTY">
-	<title>Looted Bounty</title>
-	<desc>Various cultural artifacts stolen from different species. Some call it trash, others call it treasure. Common trade goods.</desc>
+	<title>약탈된 전리품</title>
+	<desc>다른 종족들에게서 훔친 다양한 문화 유물들입니다. 어떤 사람은 이것을 쓰레기라 부르고, 다른 사람들은 보물이라고 부릅니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12948,8 +12948,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SLUG_DRUGS">
-	<title>Slug Hallucinogens</title>
-	<desc>Illegal substances synthesized by the Slugs are popular among all species. You better keep the crew away from these. Rare trade goods.</desc>
+	<title>슬러그 환각제</title>
+	<desc>슬러그들이 합성하는 불법 물질들은 모든 종에게 인기가 있습니다. 당신은 승무원들을 이것에 가까이 하지 않게 하는 것이 좋을 겁니다. 초희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12960,8 +12960,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SLUG_ART">
-	<title>Eccentric Artwork</title>
-	<desc>Nebula and other phenomena often inspire aliens to create impressive pictures, installations, soundscapes, genetic mutation sculptures and all kinds of other stuff. Uncommon trade goods.</desc>
+	<title>특이 취향 미술품</title>
+	<desc>성운이나 다른 현상들은 종종 외계인들에게 인상적인 그림, 설치물, 음악, 유전적 돌연변이 조각들 및 다른 모든 종류의 것들을 창조하도록 고무시킵니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12972,8 +12972,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SLUG_ANIMALS">
-	<title>Alien Livestock</title>
-	<desc>Living cargo. The individuals you sell these animals to will either pet, hunt, slaughter or vivisect them. It's a sad galaxy you try to survive in. Uncommon trade goods.</desc>
+	<title>외계 가축</title>
+	<desc>생명체 화물입니다. 이것을 팔면 애완동물, 사냥, 도축 또는 해부가 될 것입니다. 이것이 당신이 살아남기 위해 발버둥치는 냉혹한 은하계입니다. 희귀 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12984,8 +12984,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_PIRATE_ARMS">
-	<title>Small Arms</title>
-	<desc>Financing your escape from the Rebel fleet by arms trading seems kind of wrong. Not everyone can be that picky though. Uncommon trade goods.</desc>
+	<title>개인 화기</title>
+	<desc>반란군 함대에서 탈출하기 위한 자금을 위해 무기를 거래하는 것은 좀 잘못된 것 같습니다. 하지만 모두가 그 정도로 까다롭게 굴 수는 없죠. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12996,8 +12996,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_REBEL_CONTRABAND">
-	<title>Federation Contraband</title>
-	<desc>Crates with confiscated goods that are illegal under the new Rebels laws. Common trade goods.</desc>
+	<title>연방 밀수품</title>
+	<desc>신 반란군 법 하에 불법인 압수품 화물. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13008,8 +13008,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_NEBULA_GAS">
-	<title>Compressed Nebula Gas</title>
-	<desc>The basis for the production of FTL fuel. Common trade goods.</desc>
+	<title>압축 성운 가스</title>
+	<desc>FTL 연료의 생산 기초품입니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13020,8 +13020,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CRYSTAL_ARTIFACTS">
-	<title>Crystal Artifacts</title>
-	<desc>These remains of an ancient alien civilization act as a status symbol for wealthy aliens, especially among the Rock people. Legendary trade goods.</desc>
+	<title>크리스탈족 유물</title>
+	<desc>이 고대 외계 문명의 잔해는 부유한 외계인들, 특히 락맨 종족들 사이의 지위 상징입니다. 전설 무역 상품.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13032,8 +13032,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_FED_WRECK">
-	<title>Ship Wreckage</title>
-	<desc>Space battles sometimes damage a ship to a degree that nothing of it remains usable. Only complex salvage operations can turn these burnt out hulks into anything useful again. Basic trade goods.</desc>
+	<title>함선 잔해</title>
+	<desc>우주 전투는 때때로 아무것도 쓸 수 없을 정도로 함선을 손상시킵니다. 복잡한 인양 작업만이 이 타버린 선체를 다시 유용한 것으로 만들 수 있습니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13044,8 +13044,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_HAZARD_ELEMENTS">
-	<title>Rare Elements</title>
-	<desc>Certain space phenomena produce hard-to-come-by forms of matter. Advanced containment fields preserve these elements for use in industry and science. Rare trade goods.</desc>
+	<title>희귀 원소</title>
+	<desc>특정한 우주 현상은 얻기 어려운 형태의 물질을 만들어냅니다. 고급 억제장이 이러한 요소들을 산업 및 과학에 사용할 수 있게 보존해줍니다. 초희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13056,8 +13056,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_AI_DATA">
-	<title>AI Research Data</title>
-	<desc>Academic studies of rogue AI behavior. Common trade goods.</desc>
+	<title>AI 조사 자료</title>
+	<desc>악성 AI에 관한 학문적 연구입니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13068,8 +13068,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_AI_NANOBOTS">
-	<title>Obedient Nanobots</title>
-	<desc>These re-programmable Nanites are the most flexible machine known in the galaxy. They can perform countless different tasks. Rare trade goods.</desc>
+	<title>순종적인 나노봇</title>
+	<desc>이 재프로그래밍 가능한 나나이트는 은하계에서 알려진 가장 유연한 기계입니다. 수많은 일들을 할 수 있습니다. 초희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13080,8 +13080,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_QUARANTINE_DISEASE">
-	<title>Disease Samples</title>
-	<desc>A collection of disease strains kept in high security containment. Highly dangerous and should not get into the wrong hands. Common trade goods.</desc>
+	<title>질병 샘플</title>
+	<desc>상급 보안 격납고에 보관되어 있는 질병 변종들의 집합입니다. 매우 위험하며 잘못된 손에 들어가면 안됩니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13092,8 +13092,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_INDUSTRIAL_TERRAFORMING">
-	<title>Terraforming Gear</title>
-	<desc>Specialized machinery and tanks filled with reactive gases. Needed to colonize otherwise uninhabitable planets. Common trade goods.</desc>
+	<title>테라포밍 장비</title>
+	<desc>반응성 기체 탱크와 전문 기계장비입니다. 생존하기 어려운 행성을 식민지화하는데 필요합니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13104,8 +13104,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_INDUSTRIAL_REACTOR">
-	<title>Reactor Modules</title>
-	<desc>Components used to build FTL reactors. Uncommon trade goods.</desc>
+	<title>반응로 모듈</title>
+	<desc>FTL 반응로를 만들 때 사용되는 구성 요소입니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13116,8 +13116,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_LANIUS_POLYMERS">
-	<title>Plastic Items</title>
-	<desc>Cheap things made out of simple polymers. Basic trade goods.</desc>
+	<title>플라스틱 제품</title>
+	<desc>단순 중합체로 만든 값싼 물건. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13130,8 +13130,8 @@
 <!--	Generic ones, only there for flavour -->
 
 <augBlueprint name="TE_GOODS_GIRDERS">
-	<title>Building Material</title>
-	<desc>Crates containing thousands of standardized structural rods used in deep space construction. The most boring shipment ever. Basic trade goods.</desc>
+	<title>건축재</title>
+	<desc>심층 우주 건설에 사용되는 수천 개의 표준화된 구조 막대가 들어 있는 상자. 세상에서 가장 재미없는 수송품일겁니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13141,8 +13141,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CHEMICALS">
-	<title>Basic Chemicals</title>
-	<desc>Duro-steel barrels (some of which are leaking) that contain chemicals for various industrial and scientific purposes. Basic trade goods.</desc>
+	<title>기초 화학 물질</title>
+	<desc>다양한 산업 및 과학적 목적을 위한 화학물질을 함유한 듀로강 통입니다(몇몇은 누출중이지만). 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13152,8 +13152,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_TEXTILES">
-	<title>Synth-Textiles</title>
-	<desc>Cloth made from simple space-age materials. Basic trade goods.</desc>
+	<title>인공 섬유</title>
+	<desc>단순 우주 시대 재료로 만든 옷감. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13163,8 +13163,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ORGANISMS">
-	<title>Xeno Organisms</title>
-	<desc>Various sorts of alien plankton or algae that are commonly used as a food source or as bio-terraformers. Basic trade goods.</desc>
+	<title>외계 유기체</title>
+	<desc>일반적으로 식량원이나 바이오 테라포머로 사용되는 다양한 종류의 외계 플랑크톤이나 해조류입니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13174,8 +13174,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_O2">
-	<title>Stored Oxygen</title>
-	<desc>Duro-tanks full of valuable O2. Ships usually restock at any stations they dock, so huge quantities of oxygen are needed everywhere. Basic trade goods.</desc>
+	<title>비축 산소</title>
+	<desc>귀중한 산소로 가득 찬 듀로 탱크입니다. 함선들은 보통 도킹하는 정거장에서 산소를 재충전하기 때문에, 많은 양의 산소는 어디에서나 꼭 필요합니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13185,8 +13185,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_H2O">
-	<title>Huge Water Supply</title>
-	<desc>Water is essential for the survival of carbon-based species, but useless for some other beings that roam the galaxy. Basic trade goods.</desc>
+	<title>대형 물 보급품</title>
+	<desc>물은 탄소 기반 종족들의 생존을 위해 필수적이지만, 은하계를 돌아다니는 몇몇 다른 종들에게는 쓸모없습니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13196,8 +13196,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SEEDS">
-	<title>Bio-Engineered Seeds</title>
-	<desc>Genetically enhanced seeds capable of growing in any planetary environment below type IV. Licensed by the trade union. Basic trade goods.</desc>
+	<title>유전자 조작 씨앗</title>
+	<desc>타입 IV 이하의 어떤 행성에서도 성장할 수 있는 유전자적 강화 씨앗. 노동 조합의 허가를 받은 제품입니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13207,8 +13207,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CONDUITS">
-	<title>Power Conduits</title>
-	<desc>Easy-to-produce 1kW hyper-cables; often used in newly founded colonies. Basic trade goods.</desc>
+	<title>동력 덕트</title>
+	<desc>생산하기 쉬운 1kW 하이퍼 케이블; 최신 식민지에서 흔히 사용됩니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13218,8 +13218,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_PRODUCE">
-	<title>Station-Grown Vegetables</title>
-	<desc>Contribute to a healthy diet, but are considered more of a luxury than something that can sustain a population in space. Common trade goods.</desc>
+	<title>정거장 재배 야채</title>
+	<desc>건강식단에 기여하지만, 우주에서는 인구를 유지해주는 그 어떤 것보다도 사치스러운 것으로 간주됩니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13229,8 +13229,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ANTIMATTER">
-	<title>Antimatter</title>
-	<desc>An illegal, outdated type of fuel; still used in some remote quadrants. Common trade goods.</desc>
+	<title>반물질</title>
+	<desc>불법적이고 시대에 뒤떨어진 유형의 연료입니다만; 여전히 일부 외진 곳에선 사용됩니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13240,8 +13240,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_GAMES">
-	<title>Virtual Games</title>
-	<desc>Holo equipment and data substrates that can simulate complex virtual realities. Common trade goods.</desc>
+	<title>가상현실 게임</title>
+	<desc>복잡한 가상 현실을 시뮬레이션할 수 있는 홀로그램 장비 및 데이터 기판. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13251,8 +13251,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SENSORS">
-	<title>Sensor Components</title>
-	<desc>Spare parts for extensive sensor suits; something usually only cruiser classes are equipped with. Common trade goods.</desc>
+	<title>탐지실 부품</title>
+	<desc>대규모 탐지 세트를 위한 예비 부품입니다; 일반적으로 순양함 등급에만 장착됩니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13262,8 +13262,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_LIFESUPPORT">
-	<title>Life Support Gear</title>
-	<desc>Replacement purifiers and filters; needed to keep the life support on larger settlements running. Common trade goods.</desc>
+	<title>생명 지원장치</title>
+	<desc>교체용 정화기 및 필터입니다; 대규모 정착지의 생명 유지에 필요합니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13273,8 +13273,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROBOTS">
-	<title>Serve Drones</title>
-	<desc>Industrial drones that can be customized to perform various simple tasks. Useless in combat. Common trade goods.</desc>
+	<title>보좌용 드론</title>
+	<desc>다양한 종류의 간단한 작업을 수행할 수 있는 맞춤 산업 드론입니다. 전투에는 쓸모없습니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13284,8 +13284,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_RESEARCH">
-	<title>Research Equipment</title>
-	<desc>Smart people need this stuff to do science. Uncommon trade goods.</desc>
+	<title>조사용 장비</title>
+	<desc>똑똑한 사람들은 과학을 위해 이런 것들이 필요합니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13295,8 +13295,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SOLAR">
-	<title>Solar Panels</title>
-	<desc>Provide a reliable way to generate power and therefore are used on space stations and planetary settlements alike. Uncommon trade goods.</desc>
+	<title>태양 전지판</title>
+	<desc>신뢰할 수 있는 방법으로 전력을 생성하기 때문에 우주 정거장과 행성 정착지 모두에서 사용됩니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13306,8 +13306,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_RELICS">
-	<title>Archaeological Relics</title>
-	<desc>Cultural artifacts, robbed from a civilization you never heard of. Uncommon trade goods.</desc>
+	<title>고고학 유물</title>
+	<desc>들어본 적도 없는 문명에서 약탈당한 문화 유물들입니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13317,8 +13317,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CLONES">
-	<title>Trooper DNA Backups</title>
-	<desc>A large enough cloning facility could breed a small army of fully individualized soldiers with this data. Highly illegal under Federation law. Uncommon trade goods.</desc>
+	<title>예비 전투원 DNA</title>
+	<desc>충분히 큰 복제 시설은 이 자료를 통해 완전히 개인화된 군인으로 구성된 소규모 군대를 양성할 수 있습니다. 연방법 하에 매우 불법적입니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13328,8 +13328,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_GLANDS">
-	<title>Alien Glands</title>
-	<desc>Modified clone-organs that can secrete complex organic components. Basic trade goods.</desc>
+	<title>외계 분비샘</title>
+	<desc>복잡한 유기물질을 분비할 수 있는 개조된 복제 장기. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13339,8 +13339,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_GEMS">
-	<title>Deep-Space Gemstones</title>
-	<desc>Pure compressed carbon. Regularly found and mined in outer space and then used for industrial purposes. Common trade goods.</desc>
+	<title>심층 우주 보석</title>
+	<desc>순수 압축 탄소입니다. 정기적으로 발견 및 채굴하여 산업용으로 사용됩니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13350,8 +13350,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_AMBRA">
-	<title>Space Whale Ambra</title>
-	<desc>A rare florescent substance, left behind by full grown space whales. Rumored to stimulate telepathic abilities. Uncommon trade goods.</desc>
+	<title>우주 고래 호박</title>
+	<desc>완전히 성장한 우주 고래가 남기는 희귀한 형광 물질. 텔레파시 능력을 자극한다는 소문이 있습니다. 희귀 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13363,8 +13363,8 @@
 
 <!--	Not implemented yet: -->
 <augBlueprint name="TE_GOODS_MEAT">
-	<title>Sudo-Meat</title>
-	<desc>Sudo-Meat (TM) is a widespread staple on isolated station where the cultivation of real livestock is not an option. Common trade goods.</desc>
+	<title>스도-미트</title>
+	<desc>스도-미트(TM)는 가축 재배가 선택사항이 될 수 없는 고립된 정거장에 널리 퍼진 주식입니다. 일반 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13374,8 +13374,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_FERTILIZER">
-	<title>Fertilizer</title>
-	<desc>A multi-purpose composition of fertilizers for vat- and colony-grown plants. Basic trade goods.</desc>
+	<title>비료</title>
+	<desc>통조림 및 식민지 재배 식물을 위한 다목적 구성의 비료입니다. 기초 무역 상품.</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13386,7 +13386,7 @@
 
 <augBlueprint name="TE_PLACEHOLDER">
 	<title>Cheap Placeholders</title>
-	<desc>I only exist so that the place holder choice in trade event is never available and the EC does not call it an error. Basic trade goods.</desc>
+	<desc>I only exist so that the place holder choice in trade event is never available and the EC does not call it an error. 기초 무역 상품.</desc>
 	<cost>20</cost> <!-- Very cheap, aren't they? Wanna buy some?  -->
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13403,10 +13403,10 @@
 <weaponBlueprint name="BEAM_2">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Halberd Beam</title>
+	<title>할버드 빔</title>
 	<short>Halberd</short>
-	<desc>Slow but reliably powerful standard beam weapon.</desc>
-	<tooltip>Beam weapon, 2 damage per room with small breach chance.</tooltip>
+	<desc>느리지만 신뢰할 수 있는 강력한 표준 빔 무기.</desc>
+	<tooltip>빔 무기, 방마다 2 피해.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -13428,10 +13428,10 @@
 <weaponBlueprint name="BEAM_2_ENEMY">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Halberd Beam</title>
+	<title>할버드 빔</title>
 	<short>Halberd</short>
-	<desc>Slow but reliably powerful standard beam weapon.</desc>
-	<tooltip>Beam weapon, 2 damage per room with small breach chance.</tooltip>
+	<desc>느리지만 신뢰할 수 있는 강력한 표준 빔 무기.</desc>
+	<tooltip>빔 무기, 방마다 2 피해.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -13452,10 +13452,10 @@
 <weaponBlueprint name="BEAM_3">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Glaive Beam</title>
+	<title>글레이브 빔</title>
 	<short>Glaive</short>
-	<desc>One of the most powerful weapons of war ever created. Known to take out some ships in a single blast.</desc>
-	<tooltip>Large beam that does 3 damage per room.</tooltip>
+	<desc>만들어 낸 가장 강력한 무기들 중 하나. 어떤 배들은 한 방에 박살나는 것으로 알려져 있습니다.</desc>
+	<tooltip>방마다 3 피해를 주는 대형 빔 발사.</tooltip>
 	<damage>3</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -13477,7 +13477,7 @@
 <weaponBlueprint name="BEAM_3_ENEMY">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Glaive Beam</title>
+	<title>글레이브 빔</title>
 	<short>Glaive</short>
 	<desc>Enemy Weapon. You should not see this description.</desc>
 	<tooltip>Enemy Weapon. You should not see this description.</tooltip>
@@ -13502,10 +13502,10 @@
 <weaponBlueprint name="BEAM_FIRE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Fire Beam 마크 I</title>   <!-- Induction beam? -->
+	<title>파이어 빔 마크 I</title>   <!-- Induction beam? -->
 	<short>Fire Beam I</short>
-	<desc>This terrifying beam does no physical damage but ignites fires.</desc>
-	<tooltip>Beam weapon that starts fires.</tooltip>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만, 함내에 불을 지릅니다.</desc>
+	<tooltip>불을 붙이는 빔 무기.</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
 	<fireChance>8</fireChance>
@@ -13526,10 +13526,10 @@
 <weaponBlueprint name="BEAM_HULL">
 	<type>BEAM</type>
 	<tip>tip_hull</tip>
-	<title>Hull Beam 마크 II</title>
+	<title>함체 빔 마크 II</title>
 	<short>Hull Beam II</short>
-	<desc>This beam is most powerful when targeting large, empty sections of hull.</desc>
-	<tooltip>빔 무기; 1 damage; 2x damage in systemless rooms.</tooltip>
+	<desc>이 빔의 파괴력은 함체의 넓은 빈 공간을 목표로 할 때 최대가 됩니다.</desc>
+	<tooltip>빔 무기; 1 피해; 빈 방의 경우 2배의 피해.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -13551,10 +13551,10 @@
 <weaponBlueprint name="BEAM_BIO">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Anti-Bio Beam 마크 II</title> 
+	<title>안티 바이오 빔 마크 II</title> 
 	<short>Bio Beam II</short>
-	<desc>This terrifying beam does no physical damage but rips through organic material, dealing heavy damage to crew members.</desc>
-	<tooltip>Beam weapon that greatly damages enemy crew.</tooltip>
+	<desc>이 무시무시한 빔은 물리적 손상 없이 유기물질을 찢어발기며, 승무원에게 심각한 피해를 줍니다.</desc>
+	<tooltip>적 승무원에게 피해를 주는 2전력 빔 무기.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
 	<sp>0</sp>
@@ -13582,10 +13582,10 @@
 <weaponBlueprint name="LASER_BURST_1">  <!-- 1 shot 1power -->
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Basic Laser 마크 I</title>
+	<title>기본 레이저 마크 I</title>
 	<short>Basic Laser I</short>
-	<desc>Very weak laser.</desc>
-	<tooltip>Only one shot; one damage per shot.</tooltip>
+	<desc>아주 약한 레이저.</desc>
+	<tooltip>1발; 발당 1 피해.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -13620,10 +13620,10 @@
 <weaponBlueprint name="LASER_BURST_2">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Dual Shot Laser 마크 I</title>
+	<title>쌍발형 레이저 마크 I</title>
 	<short>Dual Laser I</short>
-	<desc>Basic weak dual lasers. Often used by transport ships that can't afford better.</desc>
-	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
+	<desc>기본적인 쌍발형 레이저입니다. 더 비싼 무기를 감당하기 힘든 상선들이 종종 장착합니다.</desc>
+	<tooltip>각각 1 피해의 레이저 2발 발사.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -13658,10 +13658,10 @@
 <weaponBlueprint name="LASER_BURST_2_A">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Burst Laser 마크 I</title>
+	<title>버스트 레이저 마크 I</title>
 	<short>Burst Laser I</short>
-	<desc>This simple burst laser isn't flashy but it gets the job done.</desc>
-	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
+	<desc>점사형 레이저로, 멋은 나지 않으나 제값은 톡톡히 해내는 무기입니다.</desc>
+	<tooltip>각각 1 피해의 레이저 2발 발사.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -13696,10 +13696,10 @@
 <weaponBlueprint name="LASER_BURST_3">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Burst Laser 마크 II</title>
+	<title>버스트 레이저 마크 II</title>
 	<short>Burst Laser II</short>
-	<desc>Slightly improved version of the burst laser that fires more shots per charge.</desc>
-	<tooltip>Fires 3 lasers; 1 damage each.</tooltip>
+	<desc>1회 충전당 더 많은 횟수의 사격을 하도록 향상된 버전의 점사형 레이저 입니다.</desc>
+	<tooltip>레이저 3발; 각각 1 피해.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -13735,9 +13735,9 @@
 	<type>LASER</type>
 	<tip>tip_laser</tip>
 	<title>Burst Laser Mark III</title>
-	<short>Burst Laser III</short>
-	<desc>Powerful burst laser that fires a notable volley of shots.</desc>
-	<tooltip>Fires 4 shots; 1 damage each.</tooltip>
+	<short>버스트 레이저 III</short>
+	<desc>이 강력한 점사형 레이저는 적군에게 화려한 탄막을 선사해 줄것입니다.</desc>
+	<tooltip>4발 발사; 각각 1 피해.</tooltip>
 	<damage>1</damage>
 	<shots>4</shots>
 	<sp>0</sp>
@@ -13772,10 +13772,10 @@
 <weaponBlueprint name="LASER_BURST_5">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Burst Laser Mark IV</title>
+	<title>버스트 레이저 마크 IV</title>
 	<short>Burst Laser IV</short>
-	<desc>Powerful burst laser that fires off an impressive barrage.</desc>
-	<tooltip>Fires 5 lasers; 1 damage per shot.</tooltip>
+	<desc>강력한 레이저 점사로 인상적인 총알밭을 만들어줍니다.</desc>
+	<tooltip>레이저 5발; 각각 1 피해.</tooltip>
 	<damage>1</damage>
 	<shots>5</shots>
 	<sp>0</sp>
@@ -13810,10 +13810,10 @@
 <weaponBlueprint name="LASER_HEAVY_1">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Heavy Laser 마크 I</title>
+	<title>중형 레이저 마크 I</title>
 	<short>Heavy Laser I</short>
-	<desc>Heavy lasers can wreak more havoc than their smaller, burst laser counterparts</desc>
-	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
+	<desc>중형 레이저들은 소형의 점사형 버젼들보다 더 큰 피해를 낼 수 있습니다.</desc>
+	<tooltip>1발; 2 피해와 저확률 화재 및 균열.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<stunChance>2</stunChance>
@@ -13849,10 +13849,10 @@
 <weaponBlueprint name="LASER_HEAVY_2">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Heavy Laser 마크 II</title>
+	<title>중형 레이저 마크 II</title>
 	<short>Heavy Laser II</short>
-	<desc>This heavy laser fires two shots in quick succession, each dealing 2 damage.</desc>
-	<tooltip>Fires 2 heavy lasers; 2 damage each with low chance of fire and breaching.</tooltip>
+	<desc>이 중형 레이저는 각각 2의 피해를 주는 두발의 레이저를 빠르게 연사합니다.</desc>
+	<tooltip>중형 레이저 2발 발사; 각각 2 피해와 저확률 화재 및 균열.</tooltip>
 	<damage>2</damage>
 	<shots>2</shots>
 	<stunChance>2</stunChance>
@@ -13888,12 +13888,12 @@
 
 <weaponBlueprint name="ION_1">
 	<type>LASER</type>
-	<title>Ion Blast 마크 I</title>
+	<title>이온 블래스트 마크 I</title>
 	<short>Ion Blast I</short>
 	<tip>tip_ion</tip>
 	<locked>1</locked>
-	<desc>Ion weapons can disable systems without causing hull damage.</desc>
-	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<desc>무기는 함선에 피해를 가하지 않고 시설을 마비시킬 수 있습니다.</desc>
+	<tooltip>1의 이온 피해를 주는 블래스트를 1발 발사합니다. 피격되는 실드나 시스템은 마비됩니다.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -13934,11 +13934,11 @@
 <weaponBlueprint name="ION_2">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>Heavy Ion 마크 I</title>
+	<title>중형 이온 마크 I</title>
 	<short>Heavy Ion I</short>
 	<locked>1</locked>
-	<desc>Ion weapons can disable systems without causing hull damage.</desc>
-	<tooltip>Fires a single blast that does 2 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<desc>이온 무기는 함선에 피해를 가하지 않고 시설을 마비시킬 수 있습니다.</desc>
+	<tooltip>2의 이온 피해를 주는 블래스트를 1발 발사합니다. 피격되는 실드나 시스템은 마비됩니다.</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<stunChance>2</stunChance>
@@ -13977,12 +13977,12 @@
 
 <weaponBlueprint name="ION_4">
 	<type>LASER</type>
-	<title>Ion Blast 마크 II</title>
+	<title>이온 블래스트 마크 II</title>
 	<short>Ion Blast II</short>
 	<tip>tip_ion</tip>
 	<locked>1</locked>
-	<desc>Ion weapons can disable systems without causing hull damage.</desc>
-	<tooltip>Fires a single blast that does 1 ion damage and recharges very quickly. Can hit and disable shields as well as systems.</tooltip>
+	<desc>이온 무기는 함선에 피해를 가하지 않고 시설을 마비시킬 수 있습니다.</desc>
+	<tooltip>1의 이온 피해를 준 후 매우 빠르게 충전되는 블래스트를 1발 발사합니다. 피격되는 실드나 시스템은 마비됩니다.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -14033,11 +14033,11 @@
 <weaponBlueprint name="BOMB_FIRE">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Fire Bomb 마크 II</title>
+	<title>소이 폭탄 마크 II</title>
 	<short>Fire B. II</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive designed to damage crew members and light fires. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; does no damage but lights fires. Can target your own ship.</tooltip>
+	<desc>스스로 순간이동하여, 승무원에게 피해를 주고 불을 지르도록 설계되었습니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>폭탄 무기; 미사일 필요; 피해는 없지만 불을 지름. 당신의 함선을 목표로 삼을 수 있습니다.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -14066,10 +14066,10 @@
 <weaponBlueprint name="MISSILES_1">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Leto Missiles</title>
+	<title>레토 미사일</title>
 	<short>Leto</short>
-	<desc>This launcher is outdated and weak, but can still be effective.</desc>
-	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
+	<desc>이 발사대는 구식이고 약하지만, 아직 효과적입니다.</desc>
+	<tooltip>미사일 1개 발사; 1 피해; 모든 방어막을 관통합니다.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<stun>3</stun>
@@ -14103,10 +14103,10 @@
 <weaponBlueprint name="MISSILES_2_PLAYER">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Artemis Missiles</title>
+	<title>아르테미스 미사일</title>
 	<short>Artemis</short>
-	<desc>Standard missile launcher on most Federation ships.</desc>
-	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
+	<desc>대부분의 연방 함선에 장착된 표준화된 미사일 발사대.</desc>
+	<tooltip>미사일 1개 발사; 2 피해; 모든 방어막을 관통합니다.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
 	<stun>4</stun>
@@ -14142,8 +14142,8 @@
 	<tip>tip_missiles</tip>
 	<title>Artemis Missiles</title>
 	<short>Artemis</short>
-	<desc>Standard missile launcher on most Federation ships.</desc>
-	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
+	<desc>대부분의 연방 함선에 장착된 표준화된 미사일 발사대.</desc>
+	<tooltip>미사일 1개 발사; 2 피해; 모든 방어막을 관통합니다.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
 	<stun>4</stun>
@@ -14177,10 +14177,10 @@
 <weaponBlueprint name="MISSILES_3">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Hermes Missile</title>
+	<title>헤르메스 미사일</title>
 	<short>Hermes</short>
-	<desc>Standard but powerful missile.</desc>
-	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
+	<desc>표준적이지만 강력한 미사일.</desc>
+	<tooltip>미사일 1개 발사; 3 피해; 모든 방어막을 관통합니다.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
 	<stun>5</stun>
@@ -14214,10 +14214,10 @@
 <weaponBlueprint name="MISSILES_BURST">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Pegasus Missile</title>
+	<title>페가수스 미사일</title>
 	<short>Pegasus</short>
-	<desc>Creative missile design allows for two projectiles for the cost of one!</desc>
-	<tooltip>Fires 2 missiles; 2 damage each; pierces all shields.</tooltip>
+	<desc>1석 2조의 효과를 발휘하는 창의적인 미사일 설계!</desc>
+	<tooltip>미사일 2개 발사; 각각 2 피해; 모든 방어막을 관통합니다.</tooltip>
 	<!-- <desc>Power Req: 3    Fires 2 missiles that pierces through all shields and deals 2 damage. Consumes 2 missile per shot.</desc> -->
 	<damage>2</damage>
 	<stun>4</stun>
@@ -14253,10 +14253,10 @@
 <weaponBlueprint name="MISSILES_BREACH">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Breach Missiles</title>
+	<title>파쇄 미사일</title>
 	<short>Breach</short>
-	<desc>These missiles are designed to cause maximum destruction to ship hull armor.</desc>
-	<tooltip>Fires 1 missile; 4 damage; pierces all shields; high breach chance.</tooltip>
+	<desc>이 미사일들은 선체에 최대한의 피해를 입히도록 설계되었습니다.</desc>
+	<tooltip>미사일 1개 발사; 4 피해; 모든 방어막을 관통합니다; 고확률 균열.</tooltip>
 	<!-- <desc>Power Req: 3    Fires a single shot, heavy missile that does 4 damage and causes breaches in the target's hull.</desc> -->
 	<damage>4</damage>
 	<stun>6</stun>
@@ -14292,11 +14292,11 @@
 <weaponBlueprint name="BOMB_BREACH_1"> 
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Breach Bomb 마크 I</title>
+	<title>파쇄 폭탄 마크 I</title>
 	<short>Breach I</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive designed to damage systems and cause a breach. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; does 1 damage to systems, and creates a hull breach. Can target your own ship.</tooltip>
+	<desc>스스로 순간이동하여 시스템 피해를 주고 구멍을 뚫는 폭탄을 사출합니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>폭탄 무기; 미사일 필요; 1 시스템 피해를 주는 균열 유발 폭탄 순간이동. 당신의 함선을 목표로 삼을 수 있습니다.</tooltip>
 	<!--<desc>Power Req: 2     Self-teleporting explosive that deals 2 damage to systems and subsystems without causing hull damage.</desc>-->
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -14600,7 +14600,7 @@
 	<title>봉쇄 폭탄 마크 I</title>
 	<short>Lock B. I</short>
 	<locked>1</locked>
-	<desc>스스로 순간이동하여 함체에 피해를 입히지는 않지만 단단한 벽을 만들어 피격된 방으로의 출입을 막는 폭탄을 사출합니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<desc>스스로 순간이동하여 함체에 피해를 주지는 않지만 단단한 벽을 만들어 피격된 방으로의 출입을 막는 폭탄을 사출합니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
 	<tooltip>폭탄 무기; 미사일 필요; 피해 없음; 봉쇄 유발. 당신의 함선을 목표로 삼을 수 있습니다.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
