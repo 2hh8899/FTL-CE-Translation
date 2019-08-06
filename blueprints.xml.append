@@ -13734,8 +13734,8 @@
 <weaponBlueprint name="LASER_BURST_4">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>Burst Laser Mark III</title>
-	<short>버스트 레이저 III</short>
+	<title>버스트 레이저 마크 III</title>
+	<short>Burst Laser III</short>
 	<desc>이 강력한 점사형 레이저는 적군에게 화려한 탄막을 선사해 줄것입니다.</desc>
 	<tooltip>4발 발사; 각각 1 피해.</tooltip>
 	<damage>1</damage>
