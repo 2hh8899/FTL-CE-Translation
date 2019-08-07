@@ -2506,7 +2506,7 @@
 
 <weaponBlueprint name="BA_BEAM_BO">
 	<type>BEAM</type>
-	<title>보 빔</title>
+	<title>보우 빔</title>
 	<short>Bo Beam</short>
 	<desc>함체에 손상을 주지 않고 함선과 승무원을 무력화시키는 고급 입자 포입니다.</desc>
 	<tooltip>빔 무기; 시스템 1 피해, 승무원 피해 및 기절 10초.</tooltip>
