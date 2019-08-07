@@ -3027,10 +3027,10 @@ Overwritten player ships!
 
 
 <shipBlueprint name="PLAYER_SHIP_HARD_3" layout="kestral_3" img="kestral_3">
-	<class>Kestrel Cruiser</class>
-	<name>The Swallow</name>
-	<desc>This model was modified by pirates to utilize newly discovered technology. It can clone lost crewmembers and stun enemies.</desc>
-	<unlock>Get to Sector 8 with the Kestrel Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<class>케스트렐 순양함</class>
+	<name>스왈로우</name>
+	<desc>해적들이 신기술을 활용해 개조한 모델입니다. 전사한 승무원들을 복제해 살려낼 수 있으며, 적 승무원들을 기절시킬 수 있습니다.</desc>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 케스트럴 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
 	<systemList>
 		<pilot power="1" room="11" start="true" img="room_pilot"> 
 			<slot>
@@ -3105,10 +3105,10 @@ Overwritten player ships!
 
 
 <shipBlueprint name="PLAYER_SHIP_CIRCLE_3" layout="circle_cruiser_3" img="circle_cruiser_3">
-	<class>Engi Cruiser</class>
-	<name>Tetragon</name>
-	<unlock>Get to Sector 8 with the Engi Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>The Engi were quick to adapt to the sudden surge of hacking technology - this science vessel is the result of their efforts.</desc>
+	<class>엔지 순양함</class>
+	<name>테트라곤</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 엔지 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>갑작스레 등장한 해킹 기술에 재빨리 적응해냈습니다. 이 함선은 그 연구의 결과물입니다.</desc>
 	<systemList>  
 		<pilot power="1" room="14" start="true"/>    
 		<doors power="1" room="16" start="true" img="room_doors_2">
@@ -3173,10 +3173,10 @@ Overwritten player ships!
 
 
 <shipBlueprint name="PLAYER_SHIP_FED_3" layout="fed_cruiser_3" img="fed_cruiser_3">
-	<class>Federation Cruiser</class>
-	<name>The Fregatidae</name>
-	<unlock>Get to Sector 8 with the Federation Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>With a Flak Artillery weapon and an improved Clonebay, only the most suicidal of infantry chooses to fly on this requisition ship.</desc>
+	<class>연방 순양함</class>
+	<name>프리가니테</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 연방 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>대공 함포와 향상된 성능의 클론 배양실을 탑재하고 있습니다. 특공 정신이 매우 투철한 병사만이 이 함선에 승선할 것입니다.</desc>
 	<systemList>
 		<pilot power="1" room="6" start="true"/>  
 		<doors power="1" room="13" start="true" img="room_doors">
@@ -3243,10 +3243,10 @@ Overwritten player ships!
 
 
 <shipBlueprint name="PLAYER_SHIP_JELLY_3" layout="jelly_cruiser_3" img="jelly_cruiser_3">
-	<class>Slug Cruiser</class>
-	<name>Ariolimax</name>
-	<unlock>Get to Sector 8 with the Slug Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>Slugs are often skilled in the arts of misdirection and manipulation. With Hacking and Mind Control systems, this ship capitalizes on that fact.</desc>
+	<class>슬러그 순양함</class>
+	<name>아리올리막스</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 슬러그 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>슬러그들은 속임수와 거짓 암시에 능수능란한 족속들입니다. 해킹 기술과 정신지배 장치로 무장한 이 함선은 과연 그 종족의 특성에 걸맞다 하겠습니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true"/>  
 		<doors power="2" room="10" start="true" img="room_doors_9">
@@ -3310,10 +3310,10 @@ Overwritten player ships!
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_STEALTH_3" layout="stealth_3" img="stealth_3">
-	<class>Stealth Cruiser</class>
-	<name>Simo-H</name>
-	<unlock>Get to Sector 8 with the Stealth Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>This ship was part of an Engi experiment to make a power efficient version of the Zoltan shield. Unfortunately this required the removal of the Cloaking system.</desc>
+	<class>스텔스 순양함</class>
+	<name>시모-H</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 스텔스 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>이 함선은 전력을 좀 더 효율적으로 활용하여 졸탄 방어막을 운용하는 실험에서 나온 결과물입니다. 하지만 그 대가로 은폐장 장비를 떼어내야 했습니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true"/>
 		<doors power="1" room="9" start="true" img="room_doors_2">
@@ -3390,10 +3390,10 @@ Overwritten player ships!
 
 
 <shipBlueprint name="PLAYER_SHIP_ENERGY_3" layout="energy_cruiser_3" img="energy_cruiser_3">
-	<class>Zoltan Cruiser</class>
-	<name>Cerenkov</name>
-	<unlock>Get to Sector 8 with the Zoltan Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>The designer of this factory ship was not willing to spend the money for a decent reactor. Instead it relies on its Zoltan crew and Backup Battery.</desc>
+	<class>졸탄 순양함</class>
+	<name>체렌코프</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 졸탄 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>함선의 설계자는 반응로 설치에서조차 예산을 아끼고 싶어했습니다. 이 함선은 대신 전력 운용에 있어, 졸탄 승무원과 비상용 배터리에 의지합니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true"/>  
 		<doors power="1" room="17" start="true" img="room_doors_2">
@@ -3468,10 +3468,10 @@ Overwritten player ships!
 		
 		
 <shipBlueprint name="PLAYER_SHIP_ROCK_3" layout="rock_cruiser_3" img="rock_cruiser_3">
-	<class>Rock Cruiser</class>
-	<name>Tektite</name>
-	<unlock>Get to Sector 8 with the Rock Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>Contact has been made with the Crystalline race and this cruiser was offered to the Federation as part of diplomatic discussions between the sister species.</desc>
+	<class>락맨 순양함</class>
+	<name>텍타이트</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 락맨 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>크리스탈족과의 접촉 이후에 연방에 전달된 이 함선은 두 사촌 종족간의 외교적 단합을 상징한다고 합니다.</desc>
 	<systemList>
 		<pilot power="1" room="4" start="true"/>  
 		<doors power="1" room="6" start="true" img="room_doors_8">
@@ -3545,10 +3545,10 @@ Overwritten player ships!
 
 
 <shipBlueprint name="PLAYER_SHIP_MANTIS_3" layout="mantis_cruiser_3" img="mantis_cruiser_3"> 
-	<class>Mantis Cruiser</class>
-	<name>The Theseus</name>
-	<unlock>Get to Sector 8 with the Mantis Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
-	<desc>With a large teleporter and weapons designed to impede enemy crew, this pirateer is deadly in the hands of a capable boarding party.</desc>
+	<class>맨티스 순양함</class>
+	<name>테세우스</name>
+	<unlock>이 함선을 사용하려면 확장팩 모드에서 맨티스 순양함 B타입으로 제 8구역까지 진행하셔야 합니다.</unlock>
+	<desc>순간이동 장치와 적 승무원을 고립시키는 데 특화된 무기로 무장한 함선입니다. 숙련된 강습대원들이 운용한다면 그 효과는 치명적일 것입니다.</desc>
 	<systemList>
 		<pilot power="1" room="7" start="true" img="room_pilot_4"/>
 		<doors power="1" room="9" start="true">
