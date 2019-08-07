@@ -207,15 +207,15 @@
 
 
 <crewBlueprint name="anaerobic">
-	<desc>These anaerobic beings seem friendly enough.</desc>
-	<title>Lanius</title>
+	<desc>이 산소혐오자들은 친근한 태도를 보이고 있습니다.</desc>
+	<title>라니우스</title>
 	<short>Lanius</short>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Drains oxygen from rooms.</power>
-		<power>Slow movement but no damage from lack of oxygen.</power>
+		<power>선실 내부의 산소를 빨아들임</power>
+		<power>이동속도가 느리지만 산소가 필요하지 않음</power>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - armor -->
@@ -251,8 +251,8 @@
 
 
 <augBlueprint name="O2_MASKS"> 
-	<title>Adaptive Gel Suits</title>
-	<desc>Protects crew from certain hazards and reduces damage from low oxygen to a minimum.</desc>
+	<title>적응형 젤 슈트</title>
+	<desc>특정 위험으로부터 승무원을 보호하며 저산소증으로 인한 승무원들의 피해가 감소합니다.</desc>
 	<cost>40</cost>
 	<bp>8</bp>
 	<rarity>2</rarity>
@@ -261,8 +261,8 @@
 </augBlueprint>
 
 <augBlueprint name="FIRE_EXTINGUISHERS"> 
-	<title>Fire Suppression</title>
-	<desc>Automatically and reliably puts out fires throughout the ship.</desc>
+	<title>화재 진화 장비</title>
+	<desc>선내의 화재가 자동으로 진화됩니다.</desc>
 	<cost>65</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -271,8 +271,8 @@
 </augBlueprint>
 
 <augBlueprint name="FLEET_DISTRACTION">
-	<title>Distraction Buoys</title>
-	<desc>Leaves a false signal at sector start to delay Rebels 1 jump.</desc>
+	<title>교란용 미끼</title>
+	<desc>구역마다 반군의 추적을 1회 교란하는 신호를 내보냅니다.</desc>
 	<cost>55</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -281,10 +281,10 @@
 </augBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC" layout="anaerobic_cruiser" img="anaerobic_cruiser">
-	<class>Lanius Cruiser</class>
-	<name>Kruos</name>
-	<unlock>Entice the Lanius with a valuable fleet, unlock 4 ships in addition to the Kestrel Cruiser to unlock this ship.</unlock>
-	<desc>This requisition cruiser was adapted to support the other races of the Federation and makes use of the Lanius' experience with resource collection.</desc>
+	<class>라니우스 순양함</class>
+	<name>크루오스</name>
+	<unlock>멋진 함대를 구성하여 라니우스를 꾀어내십시오. 케스트럴 함을 제외한 총 4대의 함선을 얻으면, 이 함선을 사용할 수 있게 됩니다.</unlock>
+	<desc>이 순양함은 연방의 다른 종족들에 맞추어 제작되었으며, 라니우스의 자원 수집 경험을 활용할 수 있도록 조정되어 있습니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true" img="room_pilot_4">
 			<slot>
@@ -368,10 +368,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC_2" layout="anaerobic_cruiser_2" img="anaerobic_cruiser_2">
-	<class>Lanius Cruiser</class>
-	<name>The Shrike</name>
-	<unlock>Complete 2/3 of the Lanius Cruiser Achievements to unlock this ship.</unlock>
-	<desc>The racial ability of the Lanius make them fearsome combatants in small quarters. Combine that with a Mind Control system and this ship is a force to be reckoned with.</desc>
+	<class>라니우스 순양함</class>
+	<name>슈라이크</name>
+	<unlock>이 함선을 사용하기 위해선 라니우스 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>라니우스의 종족적 특성은, 자신들을 좁은 공간에서 절대 상대하기 싫은 적수로 만들었습니다. 여기에 정신지배 장치까지 장비하였으니, 이 함선의 위력이란 충분히 예상하실 수 있겠지요.</desc>
 	<systemList>
 		<pilot power="1" room="9" start="true">
 			<slot>
@@ -458,10 +458,10 @@
 <weaponBlueprint name="ARTILLERY_FED_C">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Flak Artillery</title>
+	<title>대공 주포</title>
 	<short>Flak A.</short>
-	<desc>Slow, high-powered flak gun that fires seven projectiles. 40 seconds base cooldown.</desc>
-	<tooltip>Flak artillery gun that automatically fires 7 projectiles. 40 seconds base cooldown.</tooltip>
+	<desc>일곱 파편을 발사하는, 장전은 느리지만 위력은 강력한 대공포. 재사용 대기 40초.</desc>
+	<tooltip>자동으로 7개의 파편을 발사하는 대공포. 재사용 대기 40초.</tooltip>
 	<radius>35</radius>
 	<damage>1</damage>
 	<spin>720</spin>
@@ -504,11 +504,11 @@
 <weaponBlueprint name="SHOTGUN">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Flak Gun Mark II</title>
+	<title>대공포 마크 II</title>
 	<tip>tip_flak</tip>
 	<short>Flak II</short>
-	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 3의 피해를 줍니다. 방어막은 쉽게 깎지만, 함체에는 잘 명중하지 않습니다.</desc>
+	<tooltip>범위 내 무작위로 3의 피해를 주는 쓰레기더미를 발사.</tooltip>
 	<radius>42</radius>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -552,11 +552,11 @@
 <weaponBlueprint name="SHOTGUN_2">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Flak Gun Mark III</title>
+	<title>대공포 마크 III</title>
 	<short>Flak III</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 7 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 7의 피해를 줍니다. 방어막은 쉽게 깎지만, 함체에는 잘 명중하지 않습니다.</desc>
+	<tooltip>범위 내 무작위로 7의 피해를 주는 쓰레기더미를 발사.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
 	<spin>720</spin>
@@ -601,11 +601,11 @@
 	<type>BURST</type>
 	<flavorType>Charge Blast Missile</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Charge Missiles Mark II</title>
+	<title>충전식 미사일 마크 II</title>
 	<tip>tip_charge</tip>
 	<short>Charge M. II</short>
-	<desc>If given time to prepare, the charge launcher can replicate multiple warheads.</desc>
-	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
+	<desc>시간이 충분하다면, 이 충전식 발사대는 다른 탄두를 복제하여 사격할 수 있습니다.</desc>
+	<tooltip>모든 방어막을 관통하는 미사일 3발을 모아 한꺼번에 발사할 수 있음. 하지만 미사일 부품은 항상 1개만 사용.</tooltip>
 	<radius>31</radius>  
 	<missiles>1</missiles>
 	<damage>1</damage>
@@ -653,9 +653,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger Mark II</title>
+	<title>방어 과충전기 마크 II</title>
 	<short>Shield II</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<desc>일정 시간마다 졸탄 방어막 한 칸을 생성합니다.</desc>
 	<power>3</power>
 	<cooldown>15000</cooldown> 
 	<dodge>0</dodge>
@@ -673,9 +673,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Anti-Combat Drone Mark I</title>
+	<title>드론 격추용 드론 마크 I</title>
 	<short>Anti-Drone I</short>
-	<desc>Stuns combat drones attacking your ship. Reloads in 7 seconds.</desc>
+	<desc>당신의 함선을 공격하는 드론을 무력화시킵니다. 재장전 7초.</desc>
 	<power>1</power>
 	<cooldown>7000</cooldown>
 	<dodge>0</dodge>
@@ -690,7 +690,7 @@
 
 <weaponBlueprint name="ANTI_DRONE_ION"> 
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>드론 레이저</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<ion>1</ion>
@@ -724,10 +724,10 @@
 
 <droneBlueprint name="COMBAT_BEAM_2">
 	<type>COMBAT</type>
-	<title>Anti-Ship Beam Drone II</title>
+	<title>대함 빔 드론 마크 II</title>
 	<tip>tip_combat</tip>
 	<short>Beam II</short>
-	<desc>Combat drone that repeatedly attacks with a larger beam weapon</desc>
+	<desc>대형 빔 무기를 사용하여 여러 차례 공격하는 전투 드론.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> 
 	<dodge>1</dodge>
@@ -743,9 +743,9 @@
 <droneBlueprint name="COMBAT_FIRE">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Fire Drone</title>
+	<title>대함 파이어 드론</title>
 	<short>Fire</short>
-	<desc>Combat drone that repeatedly attacks with a small beam weapon that lights rooms on fire.</desc>
+	<desc>불을 붙이는 소형 빔 무기를 사용하여 여러 차례 공격하는 전투 드론.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> 
 	<dodge>1</dodge>
@@ -761,7 +761,7 @@
 <!-- END OF DLC DRONE OVERRIDES -->
 <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"><!-- YMMV -->
     <mod-overwrite:flavorType>Debris Blast</mod-overwrite:flavorType>
-	<mod-overwrite:title>Advanced Flak Gun</mod-overwrite:title>
+	<mod-overwrite:title>고급 대공포</mod-overwrite:title>
 	<mod-overwrite:short>Adv. Flak Gun</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="SHOTGUN"><!-- YMMV -->
@@ -773,49 +773,49 @@
 	<mod-overwrite:short>Flak Gun III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">
-	<mod-overwrite:title>Chain Vulcan Laser</mod-overwrite:title>
+	<mod-overwrite:title>연사식 발칸</mod-overwrite:title>
 	<mod-overwrite:short>Vulcan L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="ION_CHAINGUN">
-	<mod-overwrite:title>Chain Ion Blast</mod-overwrite:title>
+	<mod-overwrite:title>연사식 이온 블래스트</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN">
-	<mod-overwrite:title>Laser Charger Mark I</mod-overwrite:title>
+	<mod-overwrite:title>충전식 레이저 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Charge L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_2">
-	<mod-overwrite:title>Laser Charger Mark III</mod-overwrite:title>
+	<mod-overwrite:title>충전식 레이저 마크 III</mod-overwrite:title>
 	<mod-overwrite:short>Charge L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_PLAYER">
-	<mod-overwrite:title>Advanced Laser Charger</mod-overwrite:title>
+	<mod-overwrite:title>고급 충전식 레이저</mod-overwrite:title>
 	<mod-overwrite:short>Charge L+</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="ION_CHARGEGUN">
-	<mod-overwrite:title>Ion Blast Charger</mod-overwrite:title>
+	<mod-overwrite:title>충전식 이온 블래스트</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="ION_STUN">
-	<mod-overwrite:title>Ion Blast Stunner</mod-overwrite:title>
+	<mod-overwrite:title>이온 블래스트 충격기</mod-overwrite:title>
 	<mod-overwrite:short>Blast Stunner</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILE_CHARGEGUN">
-	<mod-overwrite:title>Swarm Missiles Mark II</mod-overwrite:title>
+	<mod-overwrite:title>충전식 미사일 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Swarm M. II</mod-overwrite:short>
-	<mod-overwrite:desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads.</mod-overwrite:desc>
+	<mod-overwrite:desc>시간이 충분하다면, 이 '스웜' 발사대는 다른 탄두를 복제하여 사격할 수 있습니다.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="COMBAT_BEAM_2">
-	<mod-overwrite:title>Beam Combat Drone Mark II</mod-overwrite:title>
+	<mod-overwrite:title>대함 빔 드론 마크 II</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="ANTI_DRONE">
 	<mod-overwrite:short>Anti-Drone I.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="COMBAT_FIRE">
-	<mod-overwrite:title>Fire Beam Combat Drone</mod-overwrite:title>
+	<mod-overwrite:title>대함 파이어 빔 드론</mod-overwrite:title>
 	<mod-overwrite:short>Fire B.</mod-overwrite:short>	
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DRONE_SHIELD">
-	<mod-overwrite:title>Shield Overcharger Drone</mod-overwrite:title>
+	<mod-overwrite:title>방어 과충전 드론</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DRONE_SHIELD_PLAYER">
-	<mod-overwrite:title>Adv. Shield Overcharger</mod-overwrite:title>
+	<mod-overwrite:title>고급 방어 과충전 드론</mod-overwrite:title>
 </mod:findName>
