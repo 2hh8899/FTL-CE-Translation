@@ -16446,30 +16446,29 @@
 	<mod-overwrite:class>슬러그 유람선</mod-overwrite:class>
 </mod:findName>
 <blueprintList name="CE_SOCIAL_MANTIS">
-	<name>맨티스</name>
+	<name>mantis</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_ROCK">
-	<name>락맨</name>
+	<name>rock</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_ENGI">
-	<name>엔지</name>
+	<name>engi</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_ZOLTAN">
-	<name>에너지</name>
+	<name>energy</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_HUMAN">
-	<name>인간</name>
+	<name>human</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_SLUG">
-	<name>슬러그</name>
+	<name>slug</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_CRYSTAL">
-	<name>크리스탈</name>
+	<name>crystal</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_LANIUS">
-	<name>혐기성</name>
+	<name>anaerobic</name>
 </blueprintList>
 <blueprintList name="CE_SOCIAL_HOLO">
-	<name>유령</name>
+	<name>ghost</name>
 </blueprintList>
-
