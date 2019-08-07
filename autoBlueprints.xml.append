@@ -12510,7 +12510,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_CIRCLE_CARRIER_OUTLAW" layout="tb_circle_carrier" img="circle_bomber_pirate">
-	<class>엔지 Drone-Carrier</class>
+	<class>엔지 드론함</class>
 	<minSector>2</minSector>
 	<systemList>
 		<drones power="4" max="8" room="0" start="true"/>
@@ -12653,7 +12653,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_CIRCLE_HUNTER_OUTLAW" layout="tb_circle_hunter" img="circle_scout_b_pirate">
-	<class>엔지 Collector</class>
+	<class>엔지 수집선</class>
 	<systemList>
 		<medbay power="1" max="3" room="6" start="false">
 			<slot>
@@ -13141,7 +13141,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_JELLY_PLEASURE_OUTLAW" layout="tb_jelly_pleasure" img="jelly_croissant_vintage_pirate">
-	<class>슬러그 Pleasure-Cruise</class>
+	<class>슬러그 유람선</class>
 	<maxSector>3</maxSector>
 	<systemList>
 		<doors power="1" max="3" room="5" start="false"/>
@@ -13187,7 +13187,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_JELLY_HUNTER_OUTLAW" layout="tb_jelly_hunter" img="jelly_truffle_2_pirate">
-	<class>슬러그 Exterminator</class>
+	<class>슬러그 처형선</class>
 	<minSector>4</minSector>
 	<systemList>
 		<cloaking power="1" max="3" room="7" start="false"/>
@@ -13232,7 +13232,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_JELLY_FIRE_OUTLAW" layout="tb_jelly_fire" img="jelly_croissant_2_pirate">
-	<class>슬러그 Fire-Cruiser</class>
+	<class>슬러그 화공선</class>
 	<systemList>
 		<engines power="1" max="6" room="1" start="true">
 			<slot>
@@ -13320,7 +13320,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_MANTIS_HUNTER_OUTLAW" layout="tb_mantis_hunter" img="mantis_scout_c_pirate">
-	<class>맨티스 Assassin</class>
+	<class>맨티스 암살선</class>
 	<minSector>3</minSector>
 	<systemList>
 		<engines power="2" max="6" room="6" start="true">
@@ -16193,7 +16193,7 @@
 
 
 <shipBlueprint name="TB_REBEL_CARRIER" layout="tb_rebel_carrier" img="tb_rebel_assault">
-	<class>반군 Drone-Carrier</class>
+	<class>반군 드론함</class>
 	<minSector>2</minSector>
 	<systemList>
 		<doors power="1" max="3" room="4" start="false" />
