@@ -14326,11 +14326,11 @@
 <weaponBlueprint name="BOMB_BREACH_2"> 
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Breach Bomb 마크 II</title>
+	<title>파쇄 폭탄 마크 II</title>
 	<short>Breach II</short>
 	<locked>1</locked>
-	<desc>Slower than Mark I but does more damage to systems and crew. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; does 3 damage to systems, and creates a hull breach. Can target your own ship.</tooltip>
+	<desc>일반 파쇄 폭탄보단 느리지만, 피해량이 더 큽니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>폭탄 무기; 미사일 필요; 3 피해와 균열. 3초 지연신관. 당신의 함선을 목표로 삼을 수 있습니다.</tooltip>
 	<!--<desc>Power Req: 2     Self-teleporting explosive that deals 2 damage to systems and subsystems without causing hull damage.</desc>-->
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
@@ -14361,11 +14361,11 @@
 <weaponBlueprint name="BOMB_HEAL">
 	<type>BOMB</type>
 	<tip>tip_heal_bomb</tip>
-	<title>Healing Burst</title>
+	<title>치료 폭탄</title>
 	<short>Heal B.</short>
 	<locked>1</locked>
-	<desc>Self-teleporting healing unit that instantly heals all friendly crew in the room. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; heals nearby crewmembers. Can target your own ship.</tooltip>
+	<desc>스스로 순간이동하여 모든 아군 승무원을 즉시 치료하는 폭탄을 사출합니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<tooltip>폭탄 무기; 미사일 필요; 아군 승무원을 치료하는 치료 유닛 순간이동. 당신의 함선을 목표로 삼을 수 있습니다.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>-10</persDamage>
@@ -14398,10 +14398,10 @@
 <weaponBlueprint name="LASER_HULL_1">
 	<type>LASER</type>
 	<tip>tip_hull</tip>
-	<title>Hull Smasher Laser 마크 II</title>
+	<title>함체 파괴 레이저 마크 II</title>
 	<short>Hull Laser II</short>
-	<desc>Fires 2 shots that deal 1 damage to rooms with a system or subsystem and double damage to rooms without either.</desc>
-	<tooltip>Fires 2 lasers; 1 damage each and 2x damage in systemless rooms.</tooltip>
+	<desc>시스템이 있는 방에 1 피해를 주며 그렇지 않은 곳은 2배의 피해량을 주는 2번의 사격을 합니다.</desc>
+	<tooltip>레이저 2발, 1 피해와 빈 방에 2배 피해.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -14437,10 +14437,10 @@
 <weaponBlueprint name="LASER_HULL_2">
 	<type>LASER</type>
 	<tip>tip_hull</tip>
-	<title>Hull Smasher Laser Mark III</title>
+	<title>함체 파괴 레이저 마크 III</title>
 	<short>Hull Laser III</short>
-	<desc>Designed to maximize hull damage.</desc>
-	<tooltip>Fires 3 lasers; 1 damage each and 2x damage in systemless rooms.</tooltip>
+	<desc>함체에 최대 피해를 입히도록 설계되어있습니다.</desc>
+	<tooltip>레이저 3발, 1 피해와 빈 방에 2배 피해.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -14476,10 +14476,10 @@
 <weaponBlueprint name="MISSILES_HULL">
 	<type>MISSILES</type>
 	<tip>tip_hull</tip>
-	<title>Hull Missile 마크 II</title>
+	<title>함체 미사일 마크 II</title>
 	<short>Hull M. II</short>
-	<desc>High hull damage plus a decent breach chance.</desc>
-	<tooltip>Fires 1 missile; 2 damage; 2x damage in systemless rooms.</tooltip>
+	<desc>강력한 함체 피해와 적당한 균열을 냅니다.</desc>
+	<tooltip>미사일 1개 발사; 2 피해; 빈 방의 경우 2배의 피해.</tooltip>
 	<damage>2</damage>
 	<stun>4</stun>
 	<missiles>1</missiles>
@@ -14518,7 +14518,7 @@
 
 <weaponBlueprint name="DRONE_LASER"> 
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>드론 레이저</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -14547,7 +14547,7 @@
 
 <weaponBlueprint name="DRONE_LASER_2"> 
 	<type>LASER</type>
-	<title>Drone Laser 2</title>
+	<title>드론 레이저 2</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -14578,9 +14578,9 @@
 <droneBlueprint name="COMBAT_BEAM">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Beam Drone Mk I</title>
+	<title>대함 빔 드론 마크 I</title>
 	<short>Beam I</short>
-	<desc>Combat drone that repeatedly attacks with a small beam weapon</desc>
+	<desc>소형 빔 무기를 사용하여 여러 차례 공격하는 전투 드론.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -14669,10 +14669,10 @@
 
 <weaponBlueprint name="CRYSTAL_BURST_2">  
 	<type>MISSILES</type>
-	<title>Crystal Burst 마크 II</title>
+	<title>크리스탈 버스트 마크 II</title>
 	<short>Crystal Burst II</short>
-	<desc>A powerful projectile weapon that fires three shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 3 shots; 1 damage each. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<desc>방어막을 뚫고 들어가는 크리스탈을 2발 발사하는 강력한 발사체 무기. 방어 드론에 취약합니다.</desc>
+	<tooltip>3발 사격; 각각 1 피해. 저확률 균열; 1의 방어막 관통; 방어 I에 취약합니다.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>1</sp>
@@ -14748,10 +14748,10 @@
 
 <weaponBlueprint name="CRYSTAL_HEAVY_2">  
 	<type>MISSILES</type>
-	<title>Heavy Crystal 마크 II</title>
+	<title>중형 크리스탈 마크 II</title>
 	<short>Heavy Crys. II</short>
-	<desc>A powerful projectile weapon that fires a devastating, shield-piercing crystal that causes a hull breach. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 1 shot; 4 damage; causes a hull breach. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<desc>파괴적인 방어 관통의 크리스탈을 발사하는 강력한 발사체 무기. 방어 드론에 취약합니다.</desc>
+	<tooltip>1발 사격; 4 피해. 균열; 1의 방어막 관통; 방어 I에 취약합니다.</tooltip>
 	<damage>4</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -14953,9 +14953,9 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_HARD" layout="kestral" img="kestral">
-	<class>Kestrel Cruiser</class>
-	<name>The Kestrel</name>
-	<desc>This class of ship was decommissioned from Federation service years ago. After a number of refits and updates this classic ship is ready for battle.</desc>
+	<class>케스트렐 순양함</class>
+	<name>케스트렐 표준함</name>
+	<desc>이 등급의 함선들은 수년전에 연방에 의해 폐기됐습니다. 수없이 많은 재조립과 개선을 통해서 이 구식 함선은 전장에 들어갈 준비가 되었습니다.</desc>
 	<systemList>
 		<pilot power="1" room="0" start="true" img="room_pilot">
 			<slot>
@@ -15017,10 +15017,10 @@
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_HARD_2" layout="kestral_2" img="kestral_2">
-	<class>Kestrel Cruiser</class>
-	<name>Red-Tail</name>
-	<unlock>Complete 2/3 of the Kestrel Cruiser Achievements to unlock this ship.</unlock>
-	<desc>This Kestrel class ship was modified for trading by a laser weapon aficionado.</desc>
+	<class>케스트렐 순양함</class>
+	<name>레드-테일</name>
+	<unlock>이 함선을 사용하기 위해선 케스트렐 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>레이저 무기 성애자를 위한 케스트렐 순양함의 개조함입니다.</desc>
 	<systemList>
 		<pilot power="1" room="9" start="true" img="room_pilot_3">
 			<slot>
@@ -15100,10 +15100,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_MANTIS" layout="mantis_cruiser" img="mantis_cruiser"> 
-	<class>Mantis Cruiser</class>
-	<name>The Gila Monster</name>
-	<unlock>The famous Mantis thief, KazaaakplethKilik, owns this ship. You'll have to "convince" him to help you.</unlock>
-	<desc>This pirateer is designed to enhance its crew for close combat missions.</desc>
+	<class>맨티스 순양함</class>
+	<name>길라 몬스터</name>
+	<unlock>가장 유명한 맨티스 도적인 '카자앜플레뜨클맄'이 이 함선의 주인이었습니다. 당신은 그가 당신을 돕도록 "설득"해야만 합니다.</unlock>
+	<desc>이 전함은 선원들이 백병전을 치루는데 특화되도록 설계되어 있습니다.</desc>
 	<systemList>
 		<pilot power="1" room="7" start="true"/>
 		<doors power="1" room="14" start="true">
@@ -15157,10 +15157,10 @@
 
  
 <shipBlueprint name="PLAYER_SHIP_MANTIS_2" layout="mantis_cruiser_2" img="mantis_cruiser_2"> 
-	<class>Mantis Cruiser</class>
-	<name>The Basilisk</name>
-	<unlock>Complete 2/3 of the Mantis Cruiser Achievements to unlock this ship.</unlock>
-	<desc>This pirateer encourages sending massive boarding parties and keeping strong defenses.</desc>
+	<class>맨티스 순양함</class>
+	<name>바실리스크</name>
+	<unlock>이 함선을 사용하기 위해선 맨티스 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>이 전함은 수많은 인원을 동시에 강습시킬 수 있으며, 함선 자체의 방어능력 또한 훌륭합니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true"/>
 		<doors power="1" room="15" start="true">
@@ -15225,10 +15225,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_STEALTH" layout="stealth" img="stealth">
-	<class>Stealth Cruiser</class>
-	<name>The Nesasio</name>
-	<unlock>This ship is being built near the Engi homeworlds. To unlock it you'll need to help them, but they only trust their own kind.</unlock>
-	<desc>Constructed for the Federation by the Engi, this ship is designed to use cloaking technology and speed to get behind enemy lines.</desc>
+	<class>스텔스 순양함</class>
+	<name>네사시오</name>
+	<unlock>이 함선은 엔지 본성에서 건조 되었습니다. 이 배를 얻기 위해선 엔지들을 도와야 하지만, 엔지들은 오직 동족만을 믿는다는 사실을 유념하십시오.</unlock>
+	<desc>엔지들이 연방에 제공하기 위해 건조한 함선입니다. 이 함선은 스텔스 기술을 이용, 적 전선의 배후를 신속히 타격하도록 설계되었습니다.</desc>
 	<systemList>
 		<pilot power="1" room="0" start="true"/>
 		<doors power="1" room="14" start="true" img="room_doors_2">
@@ -15278,10 +15278,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_STEALTH_2" layout="stealth_2" img="stealth_2">
-	<class>Stealth Cruiser</class>
+	<class>스텔스 순양함</class>
 	<name>DA-SR 12</name>  
-	<unlock>Complete 2/3 of the Stealth Cruiser Achievements to unlock this ship.</unlock>
-	<desc>Built like a glass cannon, this ship is hard to handle. If its cloaking can keep it safe long enough to charge its weapons, few cruisers can withstand its might.</desc>
+	<unlock>이 함선을 사용하기 위해선 스텔스 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>유리 대포와도 같은 함선으로, 다루기가 굉장히 어렵습니다. 무기가 완충될때까지 은폐를 유지할 수만 있다면, 그 화력을 버텨낼 수 있는 함선은 거의 없습니다.</desc>
 	<systemList>
 		<pilot power="1" room="9" start="true" img="room_pilot_2">
 			<slot>
@@ -15358,10 +15358,10 @@
 </shipBlueprint> 
 
 <shipBlueprint name="PLAYER_SHIP_CIRCLE" layout="circle_cruiser" img="circle_cruiser">
-	<class>Engi Cruiser</class>
-	<name>The Torus</name>
-	<unlock>To unlock this Engi ship you'll need to get to the 5th sector.</unlock>
-	<desc>Although it may look like a pile of junk loosely held together, this well designed medical ship relies on drones and ion weaponry.</desc>
+	<class>엔지 순양함</class>
+	<name>토러스</name>
+	<unlock>이 엔지 함선을 열기 위해서는 다섯번째 섹터까지 진행해야 합니다.</unlock>
+	<desc>쓰레기더미를 얼기설기 엮어놓은 것같이 생겼지만, 이 함선의 설계는 아주 완벽합니다. 드론들과 이온 무기들로 무장하고 있습니다.</desc>
 	<systemList>  
 		<pilot power="1" room="8" start="true"/>    
 		<doors power="1" room="5" start="true" img="room_doors_4">
@@ -15415,10 +15415,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_CIRCLE_2" layout="circle_cruiser_2" img="circle_cruiser_2">
-	<class>Engi Cruiser</class>
-	<name>The Vortex</name>
-	<unlock>Complete 2/3 of the Engi Cruiser Achievements to unlock this ship.</unlock>
-	<desc>Heavily understaffed, this mining vessel relies on drones and AI avatars to keep the ship running.</desc>
+	<class>엔지 순양함</class>
+	<name>볼텍스</name>
+	<unlock>이 함선을 사용하기 위해선 엔지 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>승무원의 숫자가 극단적으로 적은 이 채굴선은 드론과 AI 아바타에 의존하여 선박을 유지합니다.</desc>
 	<systemList>  
 		<pilot power="1" room="13" start="true"/>  
 		<doors power="1" room="8" start="true">
@@ -15488,10 +15488,10 @@
 
    
 <shipBlueprint name="PLAYER_SHIP_FED" layout="fed_cruiser" img="fed_cruiser">
-	<class>Federation Cruiser</class>
-	<name>The Osprey</name>
-	<unlock>There have been rumors of advanced ship construction in the Rebel Stronghold...</unlock>
-	<desc>Once a training ship, this vessel has been refit with the latest in Federation technology: an advanced beam weapon that pierces through shields.</desc>
+	<class>연방 순양함</class>
+	<name>오스프리</name>
+	<unlock>반군의 기지에서 최신예 함선이 건조되고 있다는 소문이 돌고 있습니다...</unlock>
+	<desc>한때 훈련선이였던 이 함선은 연방의 최신 기술이 도입되어 있습니다: 바로 방어막을 모조리 관통하는 빔이지요!</desc>
 	<systemList>
 		<pilot power="1" room="4" start="true"/>  
 		<doors power="1" room="8" start="true" img="room_doors_5">
@@ -15543,10 +15543,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_FED_2" layout="fed_cruiser_2" img="fed_cruiser_2">
-	<class>Federation Cruiser</class>
-	<name>Nisos</name>
-	<unlock>Complete 2/3 of the Federation Cruiser Achievements to unlock this ship.</unlock>
-	<desc>This ship starts with additional Artillery power, encouraging heavy reliance on the beam.</desc>
+	<class>연방 순양함</class>
+	<name>니소스</name>
+	<unlock>이 함선을 사용하기 위해선 연방 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>이 함선은 그 설계부터, 빔 주포에 의존한 화력을 증강시키도록 만들어졌습니다.</desc>
 	<systemList>
 		<pilot power="1" room="7" start="true" img="room_pilot_3">
 			<slot>
@@ -15616,10 +15616,10 @@
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_JELLY" layout="jelly_cruiser" img="jelly_cruiser">
-	<class>Slug Cruiser</class>
-	<name>Man of War</name>
-	<unlock>One of the slug ships must know something about this advanced cruiser. Perhaps you can "convince" them to tell you.</unlock>
-	<desc>Designed for use inside nebula, this cruiser lacks sensors and relies instead on the guile and cunning of its Slug outlaw crew and its anti-personnel guns.</desc>
+	<class>슬러그 순양함</class>
+	<name>맨 오브 워</name>
+	<unlock>슬러그 우주선들중 하나는 이 최첨단 함선에 대해 알고 있습니다. 당신이 이 함선에 대한 이야기를 듣고 싶다면 그들을 "설득"해야 할 것입니다.</unlock>
+	<desc>이 함선은 성운 내부에서 순항하도록 설계되었습니다. 탐지기가 없지만 슬러그의 교활한 속임수와 대인 화기로 이를 대신합니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true"/>  
 		<doors power="2" room="1" start="true" img="room_doors_6">
@@ -15669,10 +15669,10 @@
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_JELLY_2" layout="jelly_cruiser_2" img="jelly_cruiser_2">
-	<class>Slug Cruiser</class>
-	<name>The Stormwalker</name>
-	<unlock>Complete 2/3 of the Slug Cruiser Achievements to unlock this ship.</unlock>
-	<desc>This mercenary boarding ship is equipped with an advanced effector device, but has no medical facilities and must manage its explosives carefully to keep the crew alive.</desc>
+	<class>슬러그 순양함</class>
+	<name>스톰워커</name>
+	<unlock>이 함선을 사용하기 위해선 슬러그 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>이 강습선은 첨단 이펙터를 가지고 있지만 의료시설이 없습니다. 승무원들을 살려두기 위해선 폭발물을 적절히 이용해야 합니다.</desc>
 	<systemList>
 		<pilot power="1" room="11" start="true"/>  
 		<doors power="2" room="19" start="true" img="room_doors_2">
@@ -15734,10 +15734,10 @@
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_ROCK" layout="rock_cruiser" img="rock_cruiser">
-	<class>Rock Cruiser</class>
-	<name>Bulwark</name>
-	<unlock>Prove yourself to the Rockmen to earn this powerful cruiser.</unlock>
-	<desc>Similar to its designers, this super-dense behemoth uses brute force to overwhelm its foes and subdue the weak.</desc>
+	<class>락맨 순양함</class>
+	<name>불워크</name>
+	<unlock>이 순양함을 사용하기 위해선, 락맨들에게 당신의 가치를 증명해보이십시오.</unlock>
+	<desc>이 함선은 그 설계자와 마찬가지로 엄청난 내구성을 자랑하는 괴물입니다. 잔혹한 화력으로 적을 압도하며 약자들을 제압합니다.</desc>
 	<systemList>
 		<pilot power="1" room="5" start="true"/>  
 		<doors power="1" room="1" start="true" img="room_doors_5">
@@ -15800,10 +15800,10 @@
 
   
 <shipBlueprint name="PLAYER_SHIP_ROCK_2" layout="rock_cruiser_2" img="rock_cruiser_2">
-	<class>Rock Cruiser</class>
-	<name>Shivan</name> 
-	<unlock>Complete 2/3 of the Rock Cruiser Achievements to unlock this ship.</unlock>
-	<desc>With no airlocks, this heavy artillery ship must rely entirely on its rock crew to put out fires.</desc>
+	<class>락맨 순양함</class>
+	<name>시반</name> 
+	<unlock>이 함선을 사용하기 위해선 락맨 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>해치가 존재하지 않습니다. 이 중포함은 화재를 진압하기 위해선 오로지 락맨 승무원을 투입해야 합니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true" img="room_pilot_2">
 			<slot>
@@ -15859,10 +15859,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_ENERGY" layout="energy_cruiser" img="energy_cruiser">
-	<class>Zoltan Cruiser</class>
-	<name>The Adjudicator</name>
-	<unlock>Learn from the Zoltan that sometimes diplomacy works.</unlock>
-	<desc>The Zoltan's advanced weapon and field generation technology give this ship an edge during each battle.</desc>
+	<class>졸탄 순양함</class>
+	<name>심판자</name>
+	<unlock>가끔은 외교적인 수단도 통한다는 사실을 졸탄족으로부터 배우십시오.</unlock>
+	<desc>졸탄의 첨단 방어막 기술과 이온장 발생기는 이 함선의 또다른 무기입니다.</desc>
 	<systemList>
 		<pilot power="1" room="11" start="true"/>  
 		<doors power="2" room="10" start="true" img="room_doors_6">
@@ -15924,10 +15924,10 @@
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_ENERGY_2" layout="energy_cruiser_2" img="energy_cruiser_2">
-	<class>Zoltan Cruiser</class>
-	<name>Noether</name>
-	<unlock>Complete 2/3 of the Zoltan Cruiser Achievements to unlock this ship.</unlock>
-	<desc>This ship starts with a weakened Shield system and must rely on its supershield.</desc>
+	<class>졸탄 순양함</class>
+	<name>뇌터</name>
+	<unlock>이 함선을 사용하기 위해선 졸탄 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>이 함선의 설계는 방어막 시스템을 배제한 채 이루어졌습니다. 함선의 방어는 전적으로 졸탄 특제 방어막에 의존해야 합니다.</desc>
 	<systemList>
 		<pilot power="1" room="14" start="true"/>  
 		<doors power="1" room="8" start="true" img="room_doors_7">
@@ -15998,10 +15998,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_CRYSTAL" layout="crystal_cruiser" img="crystal_cruiser">
-	<class>Crystal Cruiser</class>
-	<name>Bravais</name>
-	<unlock>Travel to a lost sector of the galaxy to find this powerful vessel.</unlock>
-	<desc>This mighty vessel is powered by secret technology and equipped with weapons that can crystallize enemy ships.</desc>
+	<class>크리스탈 순양함</class>
+	<name>브라바이</name>
+	<unlock>이 강력한 함선을 얻으려면, 은하계의 잊혀진 구역으로 여행하세요.</unlock>
+	<desc>이 강력한 함선은 잊혀진 크리스탈족의 비밀스러운 기술으로 동력을 충전합니다.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true"/>  
 		<doors power="1" room="16" start="true" img="room_doors_8">
@@ -16059,10 +16059,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_CRYSTAL_2" layout="crystal_cruiser_2" img="crystal_cruiser_2">
-	<class>Crystal Cruiser</class>
-	<name>Carnelian</name>
-	<unlock>Complete 2/3 of the Crystal Cruiser Achievements to unlock this ship.</unlock>
-	<desc>Their unique racial ability makes the Crystal beings very adept at ship boarding. This ship was designed to support such raiding parties.</desc>
+	<class>크리스탈 순양함</class>
+	<name>카넬리안</name>
+	<unlock>이 함선을 사용하기 위해선 크리스탈 순양함의 도전과제 3개 중 2개를 완료해야 합니다.</unlock>
+	<desc>크리스탈족은 종족적 특성을 이용해 강습해오는 적들에게 매우 잘 대응할 수 있습니다. 이 함선은 강습에 대한 대응에 초점을 맞추어 설계되었습니다.</desc>
 	<systemList>
 		<pilot power="1" room="15" start="true"/>  
 		<doors power="1" room="14" start="true" img="room_doors_7">
@@ -16231,26 +16231,26 @@
 	<mod-overwrite:short>Anti-Bio Focus</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_ASTERIA">
-	<mod-overwrite:title>Asteria Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>아스테리아 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Asteria M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_4">
-	<mod-overwrite:title>Ares Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>아레스 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Ares M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_PERYTON">
-	<mod-overwrite:title>Peryton Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>페리톤 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Peryton M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_COCKATRICE">
-	<mod-overwrite:title>Cockatrice Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>코카트리스 미사일 발사가ㅣ</mod-overwrite:title>
 	<mod-overwrite:short>Cockatrice M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_FIRE">
-	<mod-overwrite:title>Fire Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>파이어 미사일 발사기</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SIMURGH">
-	<mod-overwrite:title>Simurgh Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>시무르그 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Simurgh M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MINES_BIG">
@@ -16269,23 +16269,23 @@
 	<mod-overwrite:short>Chaff L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_OLD">
-	<mod-overwrite:title>Old Basic Laser I</mod-overwrite:title>
+	<mod-overwrite:title>오래된 레이저 I</mod-overwrite:title>
 	<mod-overwrite:short>Basic Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_DUAL_OLD">
-	<mod-overwrite:title>Old Dual Shot Laser I</mod-overwrite:title>
+	<mod-overwrite:title>오래된 쌍발형 레이저 I</mod-overwrite:title>
 	<mod-overwrite:short>Dual Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_1">
-	<mod-overwrite:title>Light Burst Laser 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>경량 버스트 레이저 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Light Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_2">
-	<mod-overwrite:title>Light Burst Laser 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>경량 버스트 레이저 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Light Laser II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_3">
-	<mod-overwrite:title>Light Burst Laser Mark III</mod-overwrite:title>
+	<mod-overwrite:title>경량 버스트 레이저 III</mod-overwrite:title>
 	<mod-overwrite:short>Light Laser III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_3">
@@ -16304,11 +16304,11 @@
 	<mod-overwrite:short>Light Artillery</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_CRYSTAL_LIGHT_1">
-	<mod-overwrite:title>Light Crystal Burst 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>경량 크리스탈 버스트 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Light Crystal I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_CRYSTAL_LIGHT_2">
-	<mod-overwrite:title>Light Crystal Burst 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>경량 크리스탈 버스트 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Light Crystal II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_CRYSTAL_HEAVY_LOCKDOWN_1">
@@ -16363,26 +16363,26 @@
 	<mod-overwrite:short>Adapt E.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_ONI">
-	<mod-overwrite:title>Oni Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>오니 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Oni M.</mod-overwrite:short>
-	<mod-overwrite:desc>High-tech launcher that scrambles the targeting systems of basic defense drones.</mod-overwrite:desc>
+	<mod-overwrite:desc>일반 방어 드론을 교란하는 최첨단 발사기.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_IFRIT">
-	<mod-overwrite:title>Ifrit Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>이프리트 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Ifrit M.</mod-overwrite:short>
-	<mod-overwrite:desc>Brilliantly designed stealth launcher that fires four missiles for the cost of one.</mod-overwrite:desc>
+	<mod-overwrite:desc>미사일 1발 값에 4발을 쏘게 만들어주는 완벽한 설계의 은폐 미사일 발사기.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SWARM_1">
 	<mod-overwrite:short>Ogre M.</mod-overwrite:short>
-	<mod-overwrite:desc>Basic swarm battery that deals 2 damage to hull, but only half to systems and crew.</mod-overwrite:desc>
+	<mod-overwrite:desc>2 피해를 주지만, 시스템과 승무원에겐 절반의 피해를 주는 소형 미사일 다발을 발사하는 기본 미사일 포대.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SWARM_2">
 	<mod-overwrite:short>Leviathan M.</mod-overwrite:short>
-	<mod-overwrite:desc>Heavy swarm battery that deals 3 damage to hull, but much less to systems and crew.</mod-overwrite:desc>
+	<mod-overwrite:desc>함체에 3 피해를 주지만, 시스템과 승무원에겐 훨씬 적은 피해를 주는 중형 미사일 포대.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SWARM_3">
 	<mod-overwrite:short>Titan M.</mod-overwrite:short>
-	<mod-overwrite:desc>Huge swarm battery that deals 4 damage to hull, but only half to systems and crew.</mod-overwrite:desc>
+	<mod-overwrite:desc>함체에 4 피해를 주지만, 시스템과 승무원에겐 절반의 피해를 주는 대규모 미사일 다발을 발사하는 거대한 미사일 포대.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_ION_2_STUN">
 	<mod-overwrite:short>Heavy Stunner</mod-overwrite:short>
@@ -16391,23 +16391,23 @@
 	<mod-overwrite:short>Burst Stunner</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_ION_PIERCE_1">
-	<mod-overwrite:title>Phase Ion Blast 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>이온 관통자 블래스트 마크 I</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_ION_PIERCE_2">
-	<mod-overwrite:title>Phase Ion Blast 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>이온 관통자 블래스트 마크 II</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_BOMB_CLUSTER_STUN">
 	<mod-overwrite:short>Stun C.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_CHAINGUN">
 	<mod-overwrite:short>Light V.</mod-overwrite:short>
-	<mod-overwrite:desc>This light laser takes a while to spin up. But will eventually shred crew with constant fire.</mod-overwrite:desc>
+	<mod-overwrite:desc>이 경량 레이저 무기는 예열하는데 시간이 오래 걸리지만, 나중엔 승무원들을 총알밭에서 갈기갈기 찢어버립니다.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_SHOTGUN_SMALL">
 	<mod-overwrite:short>Flak Gun I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_SHOTGUN_MISSILES">
-	<mod-overwrite:title>Missile Flak Launcher</mod-overwrite:title>
+	<mod-overwrite:title>미사일 대공포</mod-overwrite:title>
 	<mod-overwrite:short>Missile F.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_PLASMA_1">
@@ -16426,17 +16426,17 @@
 	<mod-overwrite:short>Adapt III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_CHARGEGUN_MEDIUM">
-	<mod-overwrite:title>Laser Charger 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>충전식 레이저 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Charge L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_CHARGEGUN_HEAVY">
-	<mod-overwrite:title>Heavy Laser Charger</mod-overwrite:title>
+	<mod-overwrite:title>중형 충전식 레이저</mod-overwrite:title>
 	<mod-overwrite:short>Charge H.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILE_CHARGEGUN_SMALL">
-	<mod-overwrite:title>Swarm Missiles 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>충전식 미사일 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Swarm M. I</mod-overwrite:short>
-	<mod-overwrite:desc>If given time to prepare, the 'Swarm' launcher can replicate another warhead.</mod-overwrite:desc>
+	<mod-overwrite:desc>준비할 시간이 충분하다면, 이 '스웜' 발사대는 다른 탄두를 복제하여 사격할 수 있습니다.</mod-overwrite:desc>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BEAM_2">
 	<mod-overwrite:short>Halberd Beam</mod-overwrite:short>
@@ -16448,19 +16448,19 @@
 	<mod-overwrite:short>Anti-Bio Beam II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_1">
-	<mod-overwrite:title>Leto Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>레토 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Leto M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_2_PLAYER">
-	<mod-overwrite:title>Artemis Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>아트레미스 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Artemis M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_3">
-	<mod-overwrite:title>Hermes Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>헤르메스 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Hermes M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_BURST">
-	<mod-overwrite:title>Pegasus Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>페가수스 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Pegasus M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BOMB_BREACH_1">
@@ -16470,7 +16470,7 @@
 	<mod-overwrite:short>Breach B. II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_BREACH">
-	<mod-overwrite:title>Breach Missile Launcher</mod-overwrite:title>
+	<mod-overwrite:title>파쇄 미사일 발사기</mod-overwrite:title>
 	<mod-overwrite:short>Breach M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BOMB_HEAL">
@@ -16484,15 +16484,15 @@
 </mod:findName>
 
 <mod:findName type="droneBlueprint" name="DEFENSE_1">
-	<mod-overwrite:title>Laser Defense Drone 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>방어 레이저 드론 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Laser Def. I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DEFENSE_2">
-	<mod-overwrite:title>Laser Defense Drone 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>방어 레이저 드론 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Laser Def. II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_3">
-	<mod-overwrite:title>Laser Defense Drone Mark III</mod-overwrite:title>
+	<mod-overwrite:title>방어 레이저 드론 마크 III</mod-overwrite:title>
 	<mod-overwrite:short>Laser Def. III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_LIGHT_MISSILE">
@@ -16502,27 +16502,27 @@
 	<mod-overwrite:short>Missile D. II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_LIGHT_1">
-	<mod-overwrite:title>Light Defense Drone 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>경량 방어 드론 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Light Def. I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_LIGHT_2">
-	<mod-overwrite:title>Light Defense Drone 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>경량 방어 드론 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Light Def. II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_SCATTER">
-	<mod-overwrite:title>Light Defense Drone 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>산발형 방어 드론</mod-overwrite:title>
 	<mod-overwrite:short>Scatter Def.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_HEAVY_SMALL">
-	<mod-overwrite:title>Heavy Defense Drone 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>중형 방어 드론 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Heavy Def. I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_HEAVY">
-	<mod-overwrite:title>Heavy Defense Drone 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>중형 방어 드론 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Heavy Def. II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_DRONE_DEFENSE_MINESWEEPER">
-	<mod-overwrite:title>Ion Minesweeper Drone</mod-overwrite:title>
+	<mod-overwrite:title>이온 기뢰처리 드론</mod-overwrite:title>
 	<mod-overwrite:short>Minesweeper</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="DE_REPAIR_2">
@@ -16548,24 +16548,24 @@
 </mod:findName>
 
 <mod:findName type="droneBlueprint" name="COMBAT_1">
-	<mod-overwrite:title>Laser Combat Drone 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>대함 레이저 드론 마크 I</mod-overwrite:title>
 	<mod-overwrite:short>Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="COMBAT_2">
-	<mod-overwrite:title>Laser Combat Drone 마크 II</mod-overwrite:title>
+	<mod-overwrite:title>대함 레이저 드론 마크 II</mod-overwrite:title>
 	<mod-overwrite:short>Laser II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="droneBlueprint" name="COMBAT_BEAM">
-	<mod-overwrite:title>Beam Combat Drone 마크 I</mod-overwrite:title>
+	<mod-overwrite:title>대함 빔 드론 마크 I</mod-overwrite:title>
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="TUTORIAL_PIRATE">
 	<mod:setAttributes img="jelly_button_pirate"/>
-	<mod-overwrite:class>Pirate Interceptor</mod-overwrite:class>
+	<mod-overwrite:class>해적 요격기</mod-overwrite:class>
 </mod:findName>
 <mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
 	<mod-overwrite:cloakImage>kestral_2</mod-overwrite:cloakImage>
 </mod:findName>
 <mod:findName type="shipBlueprint" name="BOSS_SPECIAL">
-	<mod-overwrite:class>Rebel Flagship Construction</mod-overwrite:class>
+	<mod-overwrite:class>미완성 반란군 기함</mod-overwrite:class>
 </mod:findName>
