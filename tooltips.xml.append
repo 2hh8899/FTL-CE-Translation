@@ -1,8 +1,8 @@
 
-<oxygen>Life Support: Replenishes the ship's oxygen supply and protects from radiation.</oxygen>
+<oxygen>생명유지장치: 배에 산소를 공급하며 방사능으로부터 보호합니다.</oxygen>
 
-<oxygenDisplay>Ship's current Life Support situation.</oxygenDisplay>
+<oxygenDisplay>함선의 현재 생명지원 상태.</oxygenDisplay>
 
-<text name="tooltip_oxygen">Life Support: Replenishes the ship's oxygen supply and protects from radiation.</text>
-<text name="tooltip_oxygenDisplay">Life Support: The ship's current Life Support and Oxygen situation. Most crew need oxygen to live. Your Life Support System will replenish this if powered.</text>
-<text name="tooltip_oxygen_enemy">Life Support: Replenishes the enemy ship's oxygen supply and protects them from radiation.</text>
+<text name="tooltip_oxygen">생명유지장치: 배에 산소를 공급하며 방사능으로부터 보호합니다.</text>
+<text name="tooltip_oxygenDisplay">생명유지장치: 배의 현재 생명유지 및 산소의 상태입니다. 대부분의 승무원은 산소가 있어야 살아남습니다. 전원이 공급되면 생명유지장치에서 이를 공급합니다.</text>
+<text name="tooltip_oxygen_enemy">생명유지장치: 배에 산소를 공급하며 방사능으로부터 보호합니다.</text>

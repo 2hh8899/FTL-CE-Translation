@@ -1,72 +1,72 @@
 <text name="window_title">FTL: Captain's Edition</text>
-<text name="hotkey_oxygen">Power Life Support</text>
-<text name="hotkey_un_oxygen">De-Power Life Support</text>
-<text name="warning_oxygen">LIFE SUPPORT\nFAILING</text>
-<text name="sector_legend_civilian">Neutral</text>  <!-- Sector type legend labels -->
-<text name="sector_legend_nebula">Hazard</text>
-<text name="sector_civilian">Unidentified Neutral Sector</text>  <!-- Names for unidentified sectors -->
-<text name="sector_nebula">Unidentified Hazard Sector</text>
-<text name="oxygen_hacked">Life Support Hacked</text>
-<text name="oxygen">Life Support</text>  <!-- These are used in running text, e.g. "upgrade_success" -->
+<text name="hotkey_oxygen">생명유지장치 전력공급</text>
+<text name="hotkey_un_oxygen">생명유지장치 전력공급 중단</text>
+<text name="warning_oxygen">생명유지\n결함</text>
+<text name="sector_legend_civilian">일반</text>  <!-- Sector type legend labels -->
+<text name="sector_legend_nebula">위험</text>
+<text name="sector_civilian">알려지지 않은 일반 구역</text>  <!-- Names for unidentified sectors -->
+<text name="sector_nebula">알려지지 않은 위험 구역</text>
+<text name="oxygen_hacked">생명유지장치 해킹당함</text>
+<text name="oxygen">생명유지장치</text>  <!-- These are used in running text, e.g. "upgrade_success" -->
 <text name="warning_pds_allies"></text>  <!-- Displayed in green below the ASB icon when friendly anti-ship batteries are present -->
 
-<text name="defense_friendly">Your Level 1 Defense Drone: \nShoots down regular missiles, mines, and asteroids. Will function until destroyed or until you jump away.</text>
-<text name="defense_enemy">Level 1 Defense Drone: \nShoots down regular missiles, mines, and asteroids. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="defense_friendly">당신의 방어 드론입니다: \n적의 미사일이나 기뢰, 날아오는 소행성을 격추합니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="defense_enemy">적의 방어 드론입니다: \n당신의 미사일이나 기뢰, 날아오는 소행성을 격추합니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
-<text name="defense_2_friendly">Your Level 2 Defense Drone: \nShoots down any projectiles. Will function until destroyed or until you jump away.</text>
-<text name="defense_2_enemy">Level 2 Defense Drone: \nShoots down any projectiles. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="defense_2_friendly">당신의 방어 드론 마크 II 입니다.: \n모든 투사체를 격추합니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="defense_2_enemy">적의 방어 드론 마크 II 입니다.: \n모든 투사체를 격추합니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
-<text name="anti_combat_friendly">Your Anti-Combat Drone: \nShoots at enemy combat drones with a chance of destroying them. Will function until destroyed or until you jump away.</text>
-<text name="anti_combat_enemy">Enemy Anti-Combat Drone: \nShoots at your combat drones with a chance of destroying them. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="anti_combat_friendly">당신의 드론 격추용 드론입니다: \n적의 전투 드론을 마비시키거나 파괴할 수 있습니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="anti_combat_enemy">적의 드론 격추용 드론입니다: \n당신의 전투 드론을 마비시키거나 파괴할 수 있습니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
-<text name="sector_legend_nebula">Hazard</text>
-<text name="sector_nebula">Unidentified Hazard Sector</text>
+<text name="sector_legend_nebula">위험</text>
+<text name="sector_nebula">알려지지 않은 위험 구역</text>
 
-<text name="tip_crystal">Tip: Crystal weapons pierce shield layers. Only strong shields and defense drones can stop them.</text>
+<text name="tip_crystal">팁: 크리스탈 무기들은 약간의 방어막을 무시합니다. 견고한 방어막이나 방어 드론이 있어야 겨우 이 투사체를 막을 수 있습니다.</text>
 
-<text name="artillery_off">OFF: Artillery not charging</text>
+<text name="artillery_off">꺼짐: 함포가 장전되지 않습니다.</text>
 
-<text name="artillery_1">Base Cooldown x1.25</text>
-<text name="artillery_2">Base Cooldown x1</text>
-<text name="artillery_3">Base Cooldown x0.75</text>
-<text name="artillery_4">Base Cooldown x0.5</text> 
+<text name="artillery_1">재장전 시간 x1.25</text>
+<text name="artillery_2">재장전 시간 x1</text>
+<text name="artillery_3">재장전 시간 x0.75</text>
+<text name="artillery_4">재장전 시간 x0.5</text> 
 
 <!-- CE Tips -->
 
-<text name="ce_tip_beams_focus">Tip: Focus beams can only hit a single room or a small area, but deal more damage than longer beams of the same tier. For every shield bar on the enemy, a beam's damage is reduced by one.</text>
+<text name="ce_tip_beams_focus">팁: 포커스 빔은 하나의 방 또는 좁은 범위만 공격할 수 있지만, 같은 등급의 다른 빔 무기보다 피해량이 높습니다. 적 함선이 두르고 있는 방어막 한 칸마다 빔 무기의 피해는 1씩 감소합니다.</text>
 
-<text name="ce_tip_beams_industrial">Tip: Industrial beams charge and fire very slowly, but have extremely long range.</text>
+<text name="ce_tip_beams_industrial">팁: 산업용 빔은 재충전과 사격이 매우 느리지만, 매우 넓은 범위를 자랑합니다.</text>
 
-<text name="ce_tip_missiles_swarm">Tip: Swarm missiles deal reduced damage to systems. They will pierce all enemy shields, but cost one missile to launch. Enemy defense drones will shoot down incoming missile swarms.</text>
+<text name="ce_tip_missiles_swarm">팁: 스웜 미사일은 시스템 피해를 덜 줍니다. 적 함선이 두르고 있는 방어막을 완전히 무시하지만, 발사할때마다 미사일을 하나씩 소비합니다. 또한 적 함선의 방어 드론들은 날아오는 미사일을 요격해냅니다.</text>
 
-<text name="ce_tip_mines">Tip: Mines will ignore all enemy shields, but they cost one missile to launch and can not deal system damage. Enemy defense drones will shoot down approaching mines.</text>
+<text name="ce_tip_mines">팁: 기뢰는 적 함선이 두르고 있는 방어막을 완전히 무시하지만, 발사할때마다 미사일을 하나씩 소비하며 시스템 피해를 줄 수 없습니다. 또한 적 함선의 방어 드론들은 날아오는 기뢰를 요격해냅니다.</text>
 
-<text name="ce_tip_chaff">Tip: Chaff launchers deal no damage, but their projectiles will be targeted by enemy defense drones, opening an attack window for missile strikes.</text>
+<text name="ce_tip_chaff">팁: 채프 발사기는 피해량은 없지만, 적의 방어 드론이 이를 표적으로 삼게 하여 미사일 폭격을 훨씬 쉽게 해줍니다.</text>
 
-<text name="ce_tip_laser_light">Tip: Light lasers can pass through weak shields and super shields to injure enemy crew. But they can not deplete shields or deal hull damage.</text>
+<text name="ce_tip_laser_light">팁: 경량 레이저는 약한 방어막과 슈퍼 방어막을 관통하여 적 승무원에게 피해를 줄 수 있습니다. 단 방어막을 내리거나 함체 피해를 줄 수 없습니다.</text>
 
-<text name="ce_tip_laser_auto">Tip: Auto lasers can continuously suppress enemy shields, similar to certain combat drones. Each laser shot will be blocked by a single shield bubble.</text>
+<text name="ce_tip_laser_auto">팁: 오토 레이저는 몇몇 전투용 드론처럼 적의 방어막을 지속적으로 압박할 수 있습니다. 레이저 투사체는 방어막을 한칸씩 깎습니다.</text>
 
-<text name="ce_tip_laser_scatter">Tip: Scatter lasers can not deal system damage. Each laser shot will be blocked by a single shield bubble, regardless of the laser's damage.</text>
+<text name="ce_tip_laser_scatter">팁: 산발형 레이저는 시스템 피해를 줄 수 없습니다. 레이저 투사체는 방어막을 한칸씩 깎습니다. 이는 레이저 자체의 피해량과는 무관합니다.</text>
 
-<text name="ce_tip_bombs_cluster">Tip: Cluster bombs teleport multiple payloads past shields and defense drones to land directly on the ship. They cost one missile to launch and never damage hull, but can be effective at disrupting crew and systems. Launching them at your own ship will only teleport one bomb.</text>
+<text name="ce_tip_bombs_cluster">팁: 집속탄은 적 함선 외부의 방어막과 방어드론들을 완전히 우회, 내부에 직접 순간이동하여 여러 발을 착탄합니다. 미사일 병기처럼 발사할때마다 미사일을 하나씩 소비합니다. 폭탄은 선체에 피해를 주지 못하지만, 적 승무원들이나 시스템을 무력화하는 데에는 효과적입니다. 아군 함선 내부에 착탄시키면 폭탄 1발만 순간이동할 것입니다.</text>
 
-<text name="ce_tip_effector">Tip: Ion projectors pierce shields and deal ion damage. For every one point of ion damage, one power bar is removed from the target system and it is then locked for 5 seconds, preventing re-powering.</text>
+<text name="ce_tip_effector">팁: 이온 발생기는 모든 방어막을 관통하고 이온 피해를 줍니다. 이온 피해 1마다 피격된 시스템의 전력 공급 최대치가 1씩 감소합니다. 이는 5초동안 지속되어, 전력 공급을 완전히 차단합니다.</text>
 
-<text name="ce_tip_missiles_tech">Tip: Tech missiles cloak and evade level one defense drones. They ignore all enemy shields, but cost one missile to launch. Level two defense drones will still shoot them down.</text>
+<text name="ce_tip_missiles_tech">팁: 고급 미사일은 은폐하여 1레벨 방어 드론을 무시합니다. 적 함선이 두르고 있는 방어막을 완전히 무시하지만, 발사할때마다 미사일을 하나씩 소비합니다. 적 함선의 2레벨 방어 드론부터는 이 미사일을 요격해냅니다.</text>
 
-<text name="ce_tip_mines_tech">Tip: Tech mines will cloak and evade level one defense drones. They ignore all enemy shields, but cost one missile to launch and can not deal system damage. Level two defense drones will still shoot them down.</text>
+<text name="ce_tip_mines_tech">팁: 고급 기뢰는 은폐하여 1레벨 방어 드론을 무시합니다. 적 함선이 두르고 있는 방어막을 완전히 무시하지만, 발사할때마다 미사일을 하나씩 소비합니다. 적 함선의 2레벨 방어 드론부터는 이 미사일을 요격해냅니다.</text>
 
-<text name="ce_tip_combat_stealth">Tip: Cloaked Combat Drones will evade most shots from enemy defense drones. They require 1 drone part to deploy for each new enemy and will attack the enemy as long as they are powered.</text>
+<text name="ce_tip_combat_stealth">팁: 은폐 대함 드론은 대부분의 방어 드론 사격을 회피합니다. 새로운 적을 상대로 출격할 때마다 1의 부품을 소모합니다. 드론은 전력을 공급받고 있는 한 계속해서 작동합니다.</text>
 
-<text name="ce_tip_beam_adaptive">Tip: Adaptive Beams increases their damage each time they hit an enemy ship or shields. Check the green lights on the weapon to see how much the damage has increased.</text>
+<text name="ce_tip_beam_adaptive">팁: 어댑티브 빔은 적함 또는 방어막을 공격할 때마다 피해량이 늘어납니다. 무기에 표시되어 있는 녹색 불빛으로 피해량이 얼마나 증가했는지 확인해볼 수 있습니다.</text>
 
-<text name="ce_tip_stungun">Tip: Neural stunners pierce shields and have a high chance to incapacitate all crew within a certain radius.</text>
+<text name="ce_tip_stungun">팁: 신경 마비기는 모든 방어막을 관통하고 높은 확률로 일정 범위 내의 승무원을 무력화시킵니다.</text>
 
-<text name="ce_tip_plasma">Tip: Plasma weapons target a wide area and have a high chance to ignite fires at every room they hit. They can not penetrate or deplete normal shields, but pass trough supershields.</text>
+<text name="ce_tip_plasma">팁: 플라즈마 무기는 넓은 범위를 목표로 할 수 있으며 높은 확률로 피격된 방에 불을 지릅니다. 방어막을 관통하거나 내릴 수는 없지만, 슈퍼 방어막은 관통합니다.</text>
 
-<text name="ce_tip_chain_laser_light">Tip: Light lasers can pass through weak shields and injure enemy crew. But they can not deplete shields or deal hull damage. Chain lasers decrease their cooldown every time they fire.</text>
+<text name="ce_tip_chain_laser_light">팁: 경량 레이저는 약한 방어막을 관통하여 적 승무원에게 피해를 줄 수 있습니다. 단 방어막을 내리거나 함체 피해를 줄 수 없습니다. 연사식 레이저는 발사할 때마다 재충전 시간이 줄어듭니다.</text>
 
-<text name="ce_tip_ion_pierce">Tip: For every one point of ion damage, one power bar is removed from the target system and it is then locked for 5 seconds, preventing re-powering. If an ion weapon hits shields, the damage is automatically applied to the Shield System.</text>
+<text name="ce_tip_ion_pierce">팁: 이온 피해 1마다 피격된 시스템의 전력 공급 최대치가 1씩 감소합니다. 이는 5초동안 지속되어, 전력 공급을 완전히 차단합니다. 만약 이온 공격이 방어막에 막혔을 경우, 이온 피해는 자동으로 방어막 시스템에 가해집니다.</text>
 
-<text name="ce_tip_ion_pierce">Tip: If an phase ion weapon hits shields, its ion damage is automatically applied to the shield system. The phasing projectile will then pass through the shields and can deal more ion damage to any system it hits afterwards.</text>
+<text name="ce_tip_ion_pierce">팁: 관통자 이온 무기가 방어막에 명중할 경우, 이온 피해는 자동으로 방어막 시스템에 가해집니다. 관통자 발사체는 그대로 방어막을 관통하여 명중한 시스템에 더 큰 이온 피해를 줍니다.</text>
