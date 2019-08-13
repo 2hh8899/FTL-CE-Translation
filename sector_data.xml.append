@@ -601,7 +601,7 @@
 		<name>다이스 중심구</name>
 		<name>지크-지크 중심구</name>
 		<name>외곽 인간 중심구</name>
-		<name>최고의 중심구</name>
+		<name>슈프림 중심구</name>
 		<name>폐쇄적인 중심구</name>
 		<name>열린 중심구</name>
 		<name>번영 중심구</name>
@@ -1756,50 +1756,50 @@
 
 <sectorDescription name="SE_MANTIS_SECTOR" minSector="0" unique="false"> 
 	<nameList>
-		<name>Mazplik 사냥터</name>
-		<name>Kazfik 사냥터</name>
-		<name>Zak'az 사냥터</name>
-		<name>Old Fksak 사냥터</name>
-		<name>Mzalk 사냥터</name>
-		<name>Kazfik 약탈 구역</name>
-		<name>New Zsakl 약탈 구역</name>
-		<name>Fksklak 약탈 구역</name>
-		<name>Zuskskslak 약탈 구역</name>
-		<name>Lower Mzlsik 약탈 구역</name>
-		<name>M'Siksak 약탈 구역</name>
-		<name>Kazfkzak 영토</name>
-		<name>Kaplzlk's 영토</name>
-		<name>Kaplzlk's Second 영토</name>
-		<name>Kaflszik 영토</name>
-		<name>Pak'Zuk 영토</name>
-		<name>Old Pak'Zuk 영토</name>
-		<name>Likliklks 영역</name>
-		<name>Kazk's 영역</name>
-		<name>Fazksk's 영역</name>
-		<name>Msksik's 영역</name>
-		<name>Zaksklkzaksf 영역</name>
-		<name>Zissziss 영역</name>
-		<name>Klssliss War Camp</name>
-		<name>Msszas War Camp</name>
-		<name>Forward War Camp Rks'sk</name>
-		<name>Forward War Camp Ksisiss</name>
-		<name>Forward War Camp Zaz'plik</name>
-		<name>Expedition Camp Kaz'ans</name>
-		<name>Expedition Camp Sk'zak</name>
-		<name>Expedition Camp 6</name>
-		<name>Expedition Camp 9</name>
-		<name>Marson 1 (Invaded)</name>
-		<name>Lima System (Invaded)</name>
-		<name>Ya System (Invaded)</name>
-		<name>Alish 5 (Invaded)</name>
-		<name>Gezi 2 (Invaded)</name>
-		<name>Mantis Inv. Fleet 감마</name>
-		<name>Mantis Inv. Fleet 세티</name>
-		<name>Mantis Inv. Fleet "Triumph"</name>
-		<name>Mantis Inv. Fleet "Death"</name>
-		<name>Mantis Inv. Fleet "Kill"</name>
-		<name>Mantis Inv. Fleet "Raz'klik"</name>
-		<name>Mantis Inv. Fleet "Plk'zak"</name>
+		<name>마즈플맄 사냥터</name>
+		<name>카즈핔 사냥터</name>
+		<name>잨'아즈 사냥터</name>
+		<name>구 프크사앜 사냥터</name>
+		<name>므쟠 사냥터</name>
+		<name>카즈핔 약탈 구역</name>
+		<name>신 짜크을 약탈 구역</name>
+		<name>프크스클랔 약탈 구역</name>
+		<name>주스크스크슬랔 약탈 구역</name>
+		<name>하부 므즈르시잌 약탈 구역</name>
+		<name>므'시잌사앜 약탈 구역</name>
+		<name>카즈프크즈앜 영토</name>
+		<name>캅프르즐크의 영토</name>
+		<name>캅프르즐크의 두번째 영토</name>
+		<name>카플스지잌 영토</name>
+		<name>팍'즈웈 영토</name>
+		<name>구 팍'즈웈 영토</name>
+		<name>리클맄크스으 영역</name>
+		<name>카즠의 영역</name>
+		<name>파즈크슼의 영역</name>
+		<name>므스크시잌의 영역</name>
+		<name>잨스클크잨스프 영역</name>
+		<name>지스으지스으 영역</name>
+		<name>크르스을리스으 전쟁 진영</name>
+		<name>므스으쟈스 전쟁 진영</name>
+		<name>전방 전쟁 진영 르크스'스읔</name>
+		<name>전방 전쟁 진영 크시시스으</name>
+		<name>전방 전쟁 진영 자즈'플맄</name>
+		<name>원정 캠프 카즈'안스으</name>
+		<name>원정 캠프 슼'자앜</name>
+		<name>원정 캠프 6</name>
+		<name>원정 캠프 9</name>
+		<name>마손1 (침략당함)</name>
+		<name>리마 제도 (침략당함)</name>
+		<name>야 제도 (침략당함)</name>
+		<name>앨리쉬 5 (침략당함)</name>
+		<name>게지 2 (침략당함)</name>
+		<name>맨티스 침략 함대 감마</name>
+		<name>맨티스 침략 함대 세티</name>
+		<name>맨티스 침략 함대 "트라이엄프"</name>
+		<name>맨티스 침략 함대 "데스"</name>
+		<name>맨티스 침략 함대 "킬"</name>
+		<name>맨티스 침략 함대 "라즈'클리잌"</name>
+		<name>맨티스 침략 함대 "플크'자앜"</name>
 
 		<name>Tchak'Tcha's Stake</name>
 	</nameList>
@@ -1869,53 +1869,53 @@
 
 <sectorDescription name="SE_MANTIS_HOME" minSector="2" unique="true">  
 	<nameList>
-		<name>Big Mantis Hatchery</name>
-		<name>Busy Hatchery</name>
-		<name>Prosperous Hatchery</name>
-		<name>Gst'khaz' Broodpools</name>
-		<name>Khaz'az'pluks Broodpool</name>
-		<name>Zak'as Broodpools</name>
-		<name>Ghastly 무리</name>
-		<name>Terror 무리</name>
-		<name>Fear 무리</name>
-		<name>Scary 무리</name>
-		<name>Red 무리</name>
-		<name>Intimidating 무리</name>
-		<name>Tazzakpliks Swarm</name>
-		<name>Zak'az Swarm</name>
-		<name>Kazfik Swarm</name>
-		<name>Mazplik Swarm</name>
-		<name>Endless Swarm</name>
-		<name>Supreme Swarm</name>
-		<name>Indestructible Swarm</name>
-		<name>Kaz'fak - Mantis Prime</name>
-		<name>Rzrzrz - Mantis Prime</name>
-		<name>Fzzz - Mantis Prime</name>
-		<name>Zts'ass - Mantis Prime</name>
-		<name>Lis'saks - Mantis Prime</name>
-		<name>Left Claw</name>
-		<name>Right Claw</name>
-		<name>Rippers Claw</name>
-		<name>Strong Arm</name>
-		<name>Gauntlet</name>
-		<name>Hundred Eyes</name>
-		<name>Thousand Eyes</name>
-		<name>Hungers End</name>
-		<name>Children's Feast</name>
-		<name>Acid Throat</name>
-		<name>Acid Space</name>
-		<name>Claw Space</name>
-		<name>Hunter Space</name>
-		<name>Third Bone Yard</name>
-		<name>Red Sector</name>
-		<name>Fanged Maw</name>
-		<name>Army 6 HQ</name>
-		<name>Army 37 HQ</name>
-		<name>Army 82 HQ</name>
-		<name>Army 129 HQ</name>
-		<name>Kzk'as Cloning Grounds</name>
-		<name>Phlk'az Cloning Labs</name>
-		<name>Khaz'fzrs Cloning Grounds</name>
+		<name>대형 맨티스 부화장</name>
+		<name>분주한 부화장</name>
+		<name>번영 부화장</name>
+		<name>그스트'카즈' 품못</name>
+		<name>카크'아즈'플루크스 품못</name>
+		<name>잨'아스 품못</name>
+		<name>유령의 무리</name>
+		<name>테러의 무리</name>
+		<name>두려움의 무리</name>
+		<name>공포의 무리</name>
+		<name>적색 무리</name>
+		<name>겁의 무리</name>
+		<name>타짜앜플맄 무리</name>
+		<name>잨'아즈 무리</name>
+		<name>카즈핔 무리</name>
+		<name>마즈플맄 무리</name>
+		<name>끝없는 무리</name>
+		<name>슈프림 무리</name>
+		<name>불침의 무리</name>
+		<name>카즈'팤 - 맨티스 주</name>
+		<name>라즈라즈라즈- 맨티스 주</name>
+		<name>프즈즈즈 - 맨티스 주</name>
+		<name>트스크'애스으 - 맨티스 주</name>
+		<name>리스'샄스 - 맨티스 주</name>
+		<name>왼 집게</name>
+		<name>오른 집게</name>
+		<name>사신의 집게</name>
+		<name>강팔</name>
+		<name>건틀렛</name>
+		<name>백의 눈</name>
+		<name>천의 눈</name>
+		<name>공복의 끝</name>
+		<name>소아의 연회</name>
+		<name>산성 목</name>
+		<name>산성 구역</name>
+		<name>집게 구역</name>
+		<name>사냥꾼 구역</name>
+		<name>셋째 뼈의 마당</name>
+		<name>적색 구역</name>
+		<name>송곳니 위</name>
+		<name>부대 6 HQ</name>
+		<name>부대 37 HQ</name>
+		<name>부대 82 HQ</name>
+		<name>부대 129 HQ</name>
+		<name>카즈크'아스 클로닝 지대</name>
+		<name>펠크'아즈 클로닝 실험장</name>
+		<name>카즈'프자스 클로닝 지대</name>
 
 
 		<name>Arach'liks Homeland</name>
@@ -1993,20 +1993,20 @@
 
 <sectorDescription name="SE_NEBULA_SECTOR" minSector="0" unique="false"> 
 	<nameList>	
-		<name>Uncharted Nebula 3.45</name>
-		<name>Uncharted Nebula 6.567</name>
-		<name>Uncharted Nebula 52.4.2</name>
-		<name>Uncharted Nebula 2m.323.4</name>
-		<name>Uncharted Nebula 32m.52.6</name>
-		<name>미지의 성운 42.53</name>
-		<name>미지의 성운 12.425.2</name>
-		<name>미지의 성운 51.26</name>
-		<name>미지의 성운 2.XM.42</name>
-		<name>미지의 성운 오메가 42</name>
-		<name>미지의 성운 로우 2</name>
-		<name>미지의 성운 타우 50</name>
-		<name>미지의 성운 Pi X3</name>
-		<name>미지의 성운 21.56</name>
+		<name>미지의 성운 3.45</name>
+		<name>미지의 성운 6.567</name>
+		<name>미지의 성운 52.4.2</name>
+		<name>미지의 성운 2m.323.4</name>
+		<name>미지의 성운 32m.52.6</name>
+		<name>미지의 구역 42.53</name>
+		<name>미지의 구역 12.425.2</name>
+		<name>미지의 구역 51.26</name>
+		<name>미지의 구역 2.XM.42</name>
+		<name>미지의 구역 오메가 42</name>
+		<name>미지의 구역 로우 2</name>
+		<name>미지의 구역 타우 50</name>
+		<name>미지의 구역 Pi X3</name>
+		<name>미지의 구역 21.56</name>
 		<name>미탐사 성운 6.567</name>
 		<name>미탐사 성운 2.283</name>
 		<name>미탐사 성운 0.95.4</name>
@@ -2088,59 +2088,59 @@
 
 <sectorDescription name="SE_SLUG_SECTOR" minSector="3" unique="false">    
 	<nameList>
-		<name>Perasian Nebula</name>
-		<name>Erkarth Nebula</name>
-		<name>Nebula of Teras</name>
-		<name>Nebula of Mil'o</name>
-		<name>Yis'ver Nebula</name>
-		<name>Lower Ceris Nebula</name>
-		<name>Far Persey Nebula</name>
-		<name>Outer Bella Nebula</name>
-		<name>Cat Nebula</name>
-		<name>Thin Cloud Nebula</name>
-		<name>Myx Nebula</name>
-		<name>Myx Nebula Extension</name>
-		<name>Slime Nebula</name>
-		<name>Upper Pox Nebula</name>
-		<name>Sox Nebula</name>
-		<name>Inner Uro Nebula</name>
-		<name>Inner Musk Nebula</name>
-		<name>Outer Musk Nebula</name>
-		<name>Outer Lull Nebula</name>
-		<name>Pace Nebula</name>
-		<name>센트럴 Shiron Nebula</name>
-		<name>Outer Shiron Nebula</name>
-		<name>Great Veil</name>
-		<name>Smaller Veil</name>
-		<name>Shiron Gas Mines</name>
-		<name>Bella Gas Mines</name>
-		<name>Persey Gas Mine XVII</name>
-		<name>Persey Gas Mine III</name>
-		<name>Yis'ver Gas Mines VII</name>
-		<name>Cealaforming Area XIII</name>
-		<name>Cealaforming Area VII</name>
-		<name>Cealaforming Area XIV</name>
-		<name>Ulush Cealaforming Area</name>
-		<name>Kosh Cealaforming Area</name>
-		<name>Cealaforming Area "Ruby"</name>
-		<name>Cealaforming Area "Platinum"</name>
-		<name>Cealaforming Area "Seashell"</name>
-		<name>Cealaforming Area "Starfish"</name>
-		<name>Cealaforming Area "Reef"</name>
-		<name>Cealaforming Area "Current"</name>
-		<name>Berry Jam Nebula</name>
-		<name>Bio Sludge Nebula</name>
+		<name>페라시안 성운</name>
+		<name>에르카스 성운</name>
+		<name>테라스의 성운</name>
+		<name>밀'오의 성운</name>
+		<name>이스'버 성운</name>
+		<name>하부 세리스 성운</name>
+		<name>외곽 퍼시 성운</name>
+		<name>외부 벨라 성운</name>
+		<name>고양이 성운</name>
+		<name>가구름 성운</name>
+		<name>멕스 성운</name>
+		<name>멕스 성운 확대지</name>
+		<name>슬라임 성운</name>
+		<name>상부 폭스 성운</name>
+		<name>삭스 성운</name>
+		<name>중심부 유로 성운</name>
+		<name>중심부 머스크 성운</name>
+		<name>외부 머스크 성운</name>
+		<name>외부 럴 성운</name>
+		<name>페이스 성운</name>
+		<name>센트럴 시론 성운</name>
+		<name>외부 시론 성운</name>
+		<name>대장막</name>
+		<name>소장막</name>
+		<name>시론 가스 채굴장</name>
+		<name>벨라 가스 채굴장</name>
+		<name>퍼시 가스 채굴장 XVII</name>
+		<name>퍼시 가스 채굴장 III</name>
+		<name>이스'버 가스 채굴장 VII</name>
+		<name>실러포밍 구역 XIII</name>
+		<name>실러포밍 구역 VII</name>
+		<name>실러포밍 구역 XIV</name>
+		<name>율루시 실러포밍 구역</name>
+		<name>코쉬 실러포밍 구역</name>
+		<name>실러포밍 구역 "루비"</name>
+		<name>실러포밍 구역 "플래티넘"</name>
+		<name>실러포밍 구역 "조가비"</name>
+		<name>실러포밍 구역 "불가사리"</name>
+		<name>실러포밍 구역 "리프"</name>
+		<name>실러포밍 구역 "커런트"</name>
+		<name>베리 잼 성운</name>
+		<name>바이오 슬러지 성운</name>
 
-		<name>Jackson's Reach</name>
-		<name>Violet Mists</name>
-		<name>Eagle's Eye Nebula</name>
-		<name>Misty Expanse</name>
-		<name>Horsehead Nebula</name>
-		<name>Gap</name>
-		<name>Fog</name>
-		<name>Mist</name>
-		<name>Mul's Hide</name>
-		<name>Void</name>
+		<name>잭슨의 유역</name>
+		<name>자색 안개</name>
+		<name>이글아이 성운</name>
+		<name>안개 지역</name>
+		<name>말머리 성운</name>
+		<name>틈</name>
+		<name>안개</name>
+		<name>연기</name>
+		<name>멀의 은신처</name>
+		<name>공허</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2214,50 +2214,50 @@
 
 <sectorDescription name="SE_SLUG_HOME" minSector="3" unique="true">    
 	<nameList>
-		<name>Pleasure 구역</name>
-		<name>Hidden Paradise</name>
-		<name>Backstabber's Mist</name>
-		<name>Traitor 구역</name>
-		<name>Traitors Fog</name>
-		<name>Shiny Gold Nebula</name>
-		<name>Platinum Nebula</name>
-		<name>Endless Scrap Nebula</name>
-		<name>Good Deals Nebula</name>
-		<name>Rainbow Nebula</name>
-		<name>Fun Nebula</name>
-		<name>Revelation Nebula</name>
-		<name>Drug Lab</name>
-		<name>Mungus Labs</name>
-		<name>Mungus Brewery</name>
-		<name>Far Breedery</name>
-		<name>Slus Hideout</name>
-		<name>Dirty Den</name>
-		<name>Slimy Den</name>
-		<name>Thousand Treasures Nebula</name>
-		<name>Diamond - Slug Prime</name>
-		<name>Section - Slug Prime</name>
-		<name>Mind - Slug Prime</name>
-		<name>Body - Slug Prime</name>
-		<name>Pearl - Slug Prime</name>
-		<name>Sparkle - Slug Prime</name>
-		<name>Violet - Slug Prime</name>
-		<name>Jelly Truffle 8</name>
-		<name>Jelly Truffle 5</name>
-		<name>Watching Eyes Nebula</name>
-		<name>Slug Tail Nebula</name>
-		<name>Slime Bath Nebula</name>
-		<name>Hidden Nebula</name>
-		<name>Greed Cloud</name> 
-		<name>Jelly Primus</name> 
-		<name>Slime Prime</name> 
-		<name>Slug Primus</name> 
-		<name>Mony Nebula</name>
+		<name>기쁨의 구역</name>
+		<name>숨겨진 낙원</name>
+		<name>백스태버의 안개</name>
+		<name>배반자 구역</name>
+		<name>배반자 안개</name>
+		<name>순금 성운</name>
+		<name>백금 성운</name>
+		<name>끝없는 스크랩 성운</name>
+		<name>파격 거래 성운</name>
+		<name>무지개 성운</name>
+		<name>재미의 성운</name>
+		<name>폭로의 성운</name>
+		<name>마약 실험장</name>
+		<name>멍구스 실험장</name>
+		<name>멍구스 양조장</name>
+		<name>외곽 번식장</name>
+		<name>슬러스 은신처</name>
+		<name>더러운 굴</name>
+		<name>점액질 굴</name>
+		<name>천의 보물 성운</name>
+		<name>다이아몬드- 슬러그 주</name>
+		<name>섹션 - 슬러그 주</name>
+		<name>마인드 - 슬러그 주</name>
+		<name>바디 - 슬러그 주</name>
+		<name>펄 - 슬러그 주</name>
+		<name>스파클 - 슬러그 주</name>
+		<name>바이올렛 - 슬러그 주</name>
+		<name>젤리 트러플 8</name>
+		<name>젤리 트러플 5</name>
+		<name>주시하는 눈 성운</name>
+		<name>슬러그 테일 성운</name>
+		<name>슬라임 욕조 성운</name>
+		<name>숨겨진 성운</name>
+		<name>탐욕의 구름</name> 
+		<name>젤리 프라이머스</name> 
+		<name>슬라임 프라임</name> 
+		<name>슬러그 프라이머스</name> 
+		<name>모니 성운</name>
 
-		<name>Broken Vow Consulate</name>
-		<name>Unspoken Worlds</name>
-		<name>Lecher's Paradise</name>
-		<name>Hedon's Hideout</name>
-		<name>Cheaters Bay</name>
+		<name>부서진 맹세의 영사관</name>
+		<name>무언의 세계</name>
+		<name>호색한의 낙원</name>
+		<name>헤든의 은신처</name>
+		<name>사기꾼의 만</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2328,51 +2328,51 @@
 
 <sectorDescription name="SE_ZOLTAN_SECTOR" minSector="1" unique="false">   
 	<nameList>
-		<name>Ardian Borders</name>
-		<name>Miran Borders</name>
-		<name>Alis Borders</name>
-		<name>Liras Borders</name>
-		<name>Borders of Lakin</name>
-		<name>Borders of Miil</name>
-		<name>Borders of Walas</name>
-		<name>Borders of Quars</name>
-		<name>Wide Borders</name>
-		<name>Narrow Borders</name>
-		<name>Infinite Borders</name>
-		<name>Closed Borders of Mals</name>
-		<name>Closed Borders of Likas</name>
-		<name>Closed Borders of Eilif</name>
-		<name>Closed Borders of Beyza</name>
-		<name>Border Crossing "Flower"</name>
-		<name>Border Crossing "Rainbow"</name>
-		<name>Border Crossing "Flavor"</name>
-		<name>Border Crossing "Peace"</name>
-		<name>Border 구역 "Harmony"</name>
-		<name>Border 구역 "Friendship"</name>
-		<name>Border 구역 "Sisterhood"</name>
-		<name>Border 구역 "Empathy"</name>
-		<name>Control 구역 "Love"</name>
-		<name>Control 구역 "Nice"</name>
-		<name>Control 구역 "Sweet"</name>
-		<name>구역 of Understanding</name>
-		<name>구역 of Forgiveness</name>
-		<name>구역 of Reconciliation</name>
-		<name>Checkpoint Green</name>
-		<name>Checkpoint Violet</name>
-		<name>Checkpoint Ultramarine</name>
-		<name>Checkpoint Teal</name>
-		<name>Checkpoints 256-278</name>
-		<name>Checkpoints 012-016</name>
-		<name>Checkpoints 212-250</name>
-		<name>Secured Perimeter</name>
-		<name>Second Perimeter</name>
-		<name>Sixth Perimeter</name>
-		<name>Closed Perimeter</name>
-		<name>Defended Perimeter</name>
-		<name>Patrolled Perimeter</name>
-		<name>Vigilant Outposts</name>
-		<name>Eternal Outposts</name>
-		<name>Four Outposts</name>
+		<name>아르디안 국경</name>
+		<name>미란 국경</name>
+		<name>앨리스 국경</name>
+		<name>리라스 국경</name>
+		<name>라킨의 국경</name>
+		<name>미일의 국경</name>
+		<name>왈라스의 국경</name>
+		<name>퀘어스의 국경</name>
+		<name>넓은 국경</name>
+		<name>좁은 국경</name>
+		<name>무한의 국경</name>
+		<name>멜스의 폐쇄 국경</name>
+		<name>라이커즈의 폐쇄 국경</name>
+		<name>에일리프의 폐쇄 국경</name>
+		<name>베이저의 폐쇄 국경</name>
+		<name>국경 교차점 "플라워"</name>
+		<name>국경 교차점 "레인보우"</name>
+		<name>국경 교차점 "플레이버"</name>
+		<name>국경 교차점 "피스"</name>
+		<name>국경 구역 "하모니"</name>
+		<name>국경 구역 "프랜드쉽"</name>
+		<name>국경 구역 "시스터후드"</name>
+		<name>국경 구역 "엠퍼시"</name>
+		<name>통제 구역 "러브"</name>
+		<name>통제 구역 "나이스"</name>
+		<name>통제 구역 "스위트"</name>
+		<name>이해의 구역</name>
+		<name>용서의 구역</name>
+		<name>화해의 구역</name>
+		<name>체크포인트 그린</name>
+		<name>체크포인트 바이올렛</name>
+		<name>체크포인트 울트라마린</name>
+		<name>체크포인트 틸</name>
+		<name>체크포인트 256-278</name>
+		<name>체크포인트 012-016</name>
+		<name>체크포인트 212-250</name>
+		<name>보안 경계선</name>
+		<name>두번째 경계선</name>
+		<name>여섯번째 경계선</name>
+		<name>폐쇄 경계선</name>
+		<name>방어 경계선</name>
+		<name>순찰 경계선</name>
+		<name>비질런트 전초기지</name>
+		<name>이터널 전초기지</name>
+		<name>포 전초기지</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2440,50 +2440,50 @@
 
 <sectorDescription name="SE_ZOLTAN_HOME" minSector="2" unique="true">   
 	<nameList>
-		<name>Ardian Democracy</name>
-		<name>Misan Democracy</name>
-		<name>Oron Democracy</name>
-		<name>Zoltan Republic of Yi</name>
-		<name>Zoltan Republic of Liss'a</name>
-		<name>Zoltan Republic of Bolk</name>
-		<name>Zoltan Utopia Mers</name>
-		<name>Zoltan Utopia Farn</name>
-		<name>Zoltan Utopia Yon</name>
-		<name>Misan Lawzone</name>
-		<name>Fourth Lawzone</name>
-		<name>Old Lawzone</name>
-		<name>Zoltan Court of Mils</name>
-		<name>Zoltan Court of Ersel</name>
-		<name>Zoltan Court of Razel</name>
-		<name>All-Seeing Court</name>
-		<name>Fifth Judiciary</name>
-		<name>Second Judiciary</name>
-		<name>First Judiciary</name>
-		<name>Mils Tribunal</name>
-		<name>Kar Tribunal</name>
-		<name>Urs'an Tribunal</name>
-		<name>Eternal Tribunal</name>
-		<name>Eternal Court</name>
-		<name>Law Space</name>
-		<name>Judge Space</name>
-		<name>Advisory 구역</name>
-		<name>Judgment Y-12</name>
-		<name>High-Court 구역</name>
-		<name>Sphere of Mercy</name>
-		<name>Sphere of Compassion</name>
-		<name>Sphere of Sisterhood</name>
-		<name>Sphere of Equality</name>
-		<name>Sphere of Peace</name>
-		<name>오미크론 Unicorn</name>
-		<name>Harmony Prime</name>
-		<name>Eternal Peace</name>
-		<name>Reconciliation 알파</name>
-		<name>Poets Temple</name>
-		<name>Galactic Meadow</name>
-		<name>Wonderful Space</name>
+		<name>아르디안 민주국</name>
+		<name>미산 민주국</name>
+		<name>오론 민주국</name>
+		<name>졸탄 이 공하국</name>
+		<name>졸탄 리스'아 공화국</name>
+		<name>졸탄 볼크 공화국</name>
+		<name>졸탄 머스 유토피아</name>
+		<name>졸탄 판 유토피아</name>
+		<name>졸탄 욘 유토피아</name>
+		<name>미산 법률 구역</name>
+		<name>네번째 법률 구역</name>
+		<name>구 법률 구역</name>
+		<name>밀스의 졸탄 법정</name>
+		<name>에르셀의 졸탄 법정</name>
+		<name>라젤의 졸탄 법정</name>
+		<name>모든 것을 보는 법정</name>
+		<name>다섯번째 법사</name>
+		<name>두번째 법사</name>
+		<name>첫번째 법사</name>
+		<name>밀스 재판소</name>
+		<name>카 재판소</name>
+		<name>우르스'안 재판소</name>
+		<name>이터널 재판소</name>
+		<name>이터널 법정</name>
+		<name>법의 구역</name>
+		<name>심판의 구역</name>
+		<name>조언의 구역</name>
+		<name>저지먼트 Y-12</name>
+		<name>대법원 구역</name>
+		<name>자비의 구</name>
+		<name>동정의 구</name>
+		<name>자매의 구</name>
+		<name>평등의 구</name>
+		<name>평화의 구</name>
+		<name>오미크론 유니콘</name>
+		<name>파모니 프라임</name>
+		<name>영원한 평화</name>
+		<name>조화 알파</name>
+		<name>시인의 사원</name>
+		<name>은하 목초지</name>
+		<name>원더풀 스페이스</name>
 
-		<name>Sphere of Enlightenment</name>
-		<name>Judgment X-43</name>
+		<name>이해의 구</name>
+		<name>저지먼트 X-43</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2553,71 +2553,71 @@
 
 <sectorDescription name="SE_ROCK_SECTOR" minSector="1" unique="false"> 
 	<nameList>
-		<name>Honorable Sector of Mo</name>
-		<name>Honorable Sector of Nen</name>
-		<name>Hard Shards Sector</name>
-		<name>Hard Impact Sector</name>
-		<name>Mumas Shrine</name>
-		<name>Orons Shrine</name>
-		<name>Olans Tombs</name>
-		<name>Twenty Tombs Sector</name>
-		<name>Holy Tombs Sector</name>
-		<name>Holy Area</name>
-		<name>Blessed Pathway</name>
-		<name>High Walls</name>
-		<name>Outer Walls</name>
-		<name>Inner Walls</name>
-		<name>Rock Slide Five</name>
-		<name>Earthquake Three</name>
-		<name>Eruption One xT</name>
-		<name>Hill 48</name>
-		<name>Hill 12</name>
-		<name>Ridge 11</name>
-		<name>Ridge 52</name>
-		<name>Bluff 20</name>
-		<name>Bluff 34</name>
-		<name>Dune 12</name>
-		<name>Dune 15</name>
-		<name>Hillside 12</name>
-		<name>Hillside 39</name>
-		<name>Valley 3</name>
-		<name>Valley 41</name>
-		<name>Eternal Mines</name>
-		<name>Inner Mines</name>
-		<name>Outer Mines</name>
-		<name>Abandoned Mines</name>
-		<name>New Mines</name>
-		<name>Solar Flare Factories</name>
-		<name>Rockslide Factories</name>
-		<name>Magma Factories</name>
-		<name>Hard Factories</name>
-		<name>Earth Space</name>
-		<name>Dust Space</name>
-		<name>Forge 구역</name>
-		<name>Mashers Works</name>
-		<name>Depleted Mines</name>
-		<name>Forbidden Mines</name>
-		<name>Rock 구역 IV</name>
-		<name>Rock 구역 III</name>
-		<name>Rock 구역 XVII</name>
-		<name>Commandment Three Two</name>
-		<name>Commandment Two One</name>
-		<name>Commandment One One</name>
-		<name>Af Uds - Rock 마이너</name>
-		<name>Labis - Rock 마이너</name>
-		<name>Els Raf Els - Rock 마이너</name>
-		<name>Minos Uds - Rock 마이너</name>
-		<name>Vroch II - Rock 마이너</name>
-		<name>Avrach XIV - Rock 마이너</name>
-		<name>Far Moons</name>
-		<name>Holy Moons</name>
-		<name>Honorable Moons</name>
-		<name>Blessed Moons</name>
-		<name>Eternal Moons</name>
+		<name>모오의 명예 구역</name>
+		<name>넨의 명예 구역</name>
+		<name>하드 샤드 구역</name>
+		<name>하드 임팩트 구역</name>
+		<name>무마스 성지</name>
+		<name>오어런스 성지</name>
+		<name>올란스 무덤</name>
+		<name>스물 무덤의 구역</name>
+		<name>신성 무덤의 구역</name>
+		<name>신성 구역</name>
+		<name>신성 경로</name>
+		<name>높은 장벽</name>
+		<name>외곽 장벽</name>
+		<name>중심부 장벽</name>
+		<name>락 슬라이드 5</name>
+		<name>어스퀘이크 3</name>
+		<name>이럽션 원 xT</name>
+		<name>힐 48</name>
+		<name>힐 12</name>
+		<name>리지 11</name>
+		<name>리지 52</name>
+		<name>블러프 20</name>
+		<name>블러프 34</name>
+		<name>둔 12</name>
+		<name>둔 15</name>
+		<name>힐사이드 12</name>
+		<name>힐사이드 39</name>
+		<name>밸리 3</name>
+		<name>밸리 41</name>
+		<name>영원의 채굴장</name>
+		<name>중심부 채굴장</name>
+		<name>외곽 채굴장</name>
+		<name>버려진 채굴장</name>
+		<name>신 채굴장</name>
+		<name>태양 폭발 공장</name>
+		<name>산사태 공장</name>
+		<name>마그마 공장</name>
+		<name>단단한 공장</name>
+		<name>흙의 구역</name>
+		<name>먼지 구역</name>
+		<name>제철 구역</name>
+		<name>매셔스 워크</name>
+		<name>열화된 채굴장</name>
+		<name>금지된 채굴장</name>
+		<name>락맨 구역 IV</name>
+		<name>락맨 구역 III</name>
+		<name>락맨 구역 XVII</name>
+		<name>계명 3 2</name>
+		<name>계명 2 1</name>
+		<name>계명 1 1</name>
+		<name>애프 어즈 - 락맨 채굴장</name>
+		<name>라비스 - 락맨 채굴장</name>
+		<name>엘스 래프 엘즈 - 락맨 채굴장</name>
+		<name>미노스 어즈 - 락맨 채굴장</name>
+		<name>브락 II - 락맨 채굴장</name>
+		<name>애브래치 XIV - 락맨 채굴장</name>
+		<name>외곽 위성</name>
+		<name>신성 위성</name>
+		<name>명예 위성</name>
+		<name>축복 위성</name>
+		<name>영원 위성</name>
 
-		<name>Commandment Six Four</name>
-		<name>Shattered Moons</name>
-		<name>Depleted Belt</name>
+		<name>계명 6 4</name>
+		<name>조각난 위성</name>
+		<name>열화된 벨트</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2685,50 +2685,50 @@
 
 <sectorDescription name="SE_ROCK_HOME" minSector="4" unique="true">   
 	<nameList>
-		<name>Third Rock Kingdom</name>
-		<name>Holy Kingdom</name>
-		<name>Asteroid Estate</name>
-		<name>Volcano Estate</name>
-		<name>Far Domain</name>
-		<name>Third Domain</name>
-		<name>Fallen Domain</name>
-		<name>Hard Realm</name>
-		<name>Shard Realm</name>
-		<name>Fractured Empire</name>
-		<name>Ruptured Empire</name>
-		<name>Molten Empire</name>
-		<name>Shattered Empire</name>
-		<name>Malins Empire</name>
-		<name>Musons Empire</name>
-		<name>Emons Empire</name>
-		<name>Mountain 6</name>
-		<name>Mountain 2</name>
-		<name>Mountain 18</name>
-		<name>Highland 5</name>
-		<name>Highland 7</name>
-		<name>Desert 4</name>
-		<name>Desert 9</name>
-		<name>Massifs</name>
-		<name>센트럴 Highland</name>
-		<name>Urs Ad-An - Rock Prime</name>
-		<name>Muma Ad-Aff - Rock Prime</name>
-		<name>Slamam - Rock Prime</name>
-		<name>Bulge - Rock Prime</name>
-		<name>Akan Bul - Rock Prime</name>
-		<name>Everlasting Domain</name>
-		<name>Ancient Kingdom</name>
-		<name>Granite-Chin Monarchy</name>
-		<name>Molten Monarchy</name>
-		<name>Sandstorm Monarchy</name>
-		<name>Vrachos IV - Rock Origin</name>
-		<name>Vrachos V - Rock Prime</name>
-		<name>Vrachos III - Rock Prime</name>
-		<name>Vrachos XI - Rock Prime</name>
+		<name>세번째 락맨 왕국</name>
+		<name>신성 왕국</name>
+		<name>소행성 사유지</name>
+		<name>화산 사유지</name>
+		<name>외곽 영토</name>
+		<name>세번째 영토</name>
+		<name>전사의 영토</name>
+		<name>하드 렐름</name>
+		<name>샤드 렐름</name>
+		<name>균열 제국</name>
+		<name>파열 제국</name>
+		<name>융해 제국</name>
+		<name>조각 제국</name>
+		<name>맬린즈 제국</name>
+		<name>머선스 제국</name>
+		<name>에먼즈 제국</name>
+		<name>마운틴 6</name>
+		<name>마운틴 2</name>
+		<name>마운틴 18</name>
+		<name>하이랜드 5</name>
+		<name>하이랜드 7</name>
+		<name>데저트 4</name>
+		<name>데저트 9</name>
+		<name>매시프스</name>
+		<name>센트럴 하이랜드</name>
+		<name>어즈 애드-앤 - 락맨 주</name>
+		<name>무마 애드-애프 - 락맨 주</name>
+		<name>슬래멈 - 락맨 주</name>
+		<name>벌지 - 락맨 주</name>
+		<name>에이컨 불 - 락맨 주</name>
+		<name>영속 영토</name>
+		<name>고대 왕국</name>
+		<name>화강암 턱의 군주국</name>
+		<name>융해 군주국</name>
+		<name>모래폭풍 군주국</name>
+		<name>브라코스 IV - 락맨 기원</name>
+		<name>브라코스 V - 락맨 주</name>
+		<name>브라코스 III - 락맨 주</name>
+		<name>브라코스 XI - 락맨 주</name>
 
-		<name>Stonefist Monarchy</name>
-		<name>Meteor's Dominion</name>
-		<name>Sovereign's Grasp</name>
-		<name>Ancient Ancestor</name>
+		<name>돌주먹 군주국</name>
+		<name>유성 영지</name>
+		<name>국왕 통제지</name>
+		<name>고대 조상</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2802,55 +2802,55 @@
 		<name>버려진 구역 No. 17</name>
 		<name>버려진 구역 No. 3</name>
 		<name>버려진 구역 No. 65</name>
-		<name>연방 기지 Eta [Abandoned]</name>
-		<name>West 정거장 [Abandoned]</name>
-		<name>Onus 조선소 [Abandoned]</name>
-		<name>Hope 9 [Abandoned]</name>
-		<name>Meskart DMZ [Abandoned]</name>
-		<name>식민지 구역 524 [Abandoned]</name>
-		<name>Tradelanes 272-280 [Abandoned]</name>
-		<name>Biter 8 [Abandoned]</name>
-		<name>Junction 89 [Abandoned]</name>
-		<name>New Kijiro [Abandoned]</name>
-		<name>라니우스 Invasion at Celepi</name>
-		<name>라니우스 Invasion at 세티 7</name>
-		<name>라니우스 Invasion at 오미크론-로</name>
-		<name>라니우스 Invasion at Westpoint</name>
-		<name>라니우스 Invasion at Romus 5</name>
-		<name>Scavenger Fleet at 29.14.281</name>
-		<name>Scavenger Fleet at 87.17.347</name>
-		<name>Scavenger Fleet at 12.04.150</name>
-		<name>털리 Battlefield</name>
-		<name>마르쿠스 Battlefield</name>
-		<name>Idian Battlefield</name>
-		<name>010 Battlefield</name>
-		<name>Battle Remains at 19.10.247</name>
-		<name>Battle Remains at 11.00.693</name>
-		<name>Fleet Remains at 09.41.984</name>
-		<name>Fleet Remains at 31.80.374</name>
-		<name>타우 IV Debris Field</name>
-		<name>델타 Debris Field</name>
-		<name>Epsilon Debris Field</name>
+		<name>연방 기지 에타 [버려짐]</name>
+		<name>서풍의 정거장 [버려짐]</name>
+		<name>오너스 조선소 [버려짐]</name>
+		<name>호프 9 [버려짐]</name>
+		<name>메스카트 DMZ [버려짐]</name>
+		<name>식민지 구역 524 [버려짐]</name>
+		<name>트레이드렌즈 272-280 [버려짐]</name>
+		<name>바이터 8 [버려짐]</name>
+		<name>교차로 89 [버려짐]</name>
+		<name>뉴 키지로 [버려짐]</name>
+		<name>셀레피의 라니우스 침략</name>
+		<name>세티 7의 라니우스 침략</name>
+		<name>오미크론-로의 라니우스 침략</name>
+		<name>웨스트포인트의 라니우스 침략</name>
+		<name>로머스 5의 라니우스 침략</name>
+		<name>29.14.281의 청소부 함대</name>
+		<name>87.17.347의 청소부 함대</name>
+		<name>12.04.150의 청소부 함대</name>
+		<name>털리 전쟁터</name>
+		<name>마르쿠스 전쟁터</name>
+		<name>이디언 전쟁터</name>
+		<name>010 전쟁터</name>
+		<name>19.10.247의 전쟁 잔해</name>
+		<name>11.00.693의 전쟁 잔해</name>
+		<name>09.41.984의 전쟁 잔해</name>
+		<name>31.80.374의 전쟁 잔해</name>
+		<name>타우 IV 잔해 지역</name>
+		<name>델타 잔해 지역</name>
+		<name>입실론 잔해 지역</name>
 		<name>버려진 구역 192</name>
 		<name>버려진 구역 파이 75</name>
 		<name>버려진 구역 55-56</name>
-		<name>라니우스 Salvage Operation II</name>
-		<name>라니우스 Salvage Operation VI</name>
-		<name>라니우스 Salvage Operation VII</name>
-		<name>Vir 2 Leftovers</name>
-		<name>Victor Scrap Field</name>
-		<name>Lower Silver Fields</name>
-		<name>센트럴 Copper Fields</name>
-		<name>War Front G6 [Inactive]</name>
-		<name>War Front L36 [Inactive]</name>
+		<name>라니우스 인양 작업장 II</name>
+		<name>라니우스 인양 작업장 VI</name>
+		<name>라니우스 인양 작업장 VII</name>
+		<name>비르 2 잔재</name>
+		<name>빅터 스크랩 지역</name>
+		<name>하부 은 지역</name>
+		<name>센트럴 구리 지역</name>
+		<name>전쟁 전선 G6 [비활성]</name>
+		<name>전쟁 전선 L36 [비활성]</name>
 		<name>함선의 묘지 시그마-2</name>
 		<name>함선의 묘지 세타-5</name>
-		<name>라니우스 Activity at 58.27</name>
-		<name>라니우스 Activity at 15.72.43</name>
+		<name>58.27의 라니우스 활동지</name>
+		<name>15.72.43의 라니우스 활동지</name>
 
-		<name>War Front 3A2 [Inactive]</name>
+		<name>전쟁 전선 3A2 [비활성]</name>
 		<name>함선의 묘지</name>
-		<name>라니우스 Activity at 8C4</name>
+		<name>8C4의 라니우스 활동지</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -2943,24 +2943,24 @@
 <sectorDescription name="FINAL" minSector="7" unique="true">
 	<nameList> <!-- actually not working, will always call the fist name -->
 		<name>마지막 전투</name>
-		<name>Final Battleground</name>
-		<name>Final Confrontation</name>
-		<name>Last Fight</name>
-		<name>Last Counterattack</name>
-		<name>Last Line</name>
-		<name>Last Defense</name>
-		<name>Counterattack</name>
-		<name>Showdown</name>
-		<name>Moment of Truth</name>
-		<name>Your Revenge</name>
-		<name>Endgame</name>
-		<name>Payback?</name>
-		<name>Redemption?</name>
-		<name>Salvation?</name>
-		<name>Vengeance?</name>
-		<name>Retribution?</name>
-		<name>Retaliation?</name>
-		<name>Punishment</name>
+		<name>마지막 전투지</name>
+		<name>마지막 대치</name>
+		<name>최후의 싸움</name>
+		<name>최후의 역습</name>
+		<name>최후의 대열</name>
+		<name>최후의 방어</name>
+		<name>역습</name>
+		<name>결전</name>
+		<name>진실의 순간</name>
+		<name>당신의 복수</name>
+		<name>엔드 게임</name>
+		<name>페이백?</name>
+		<name>구원?</name>
+		<name>구조?</name>
+		<name>복수?</name>
+		<name>응징?</name>
+		<name>보복?</name>
+		<name>처벌</name>
 		<name>마지막 연방 기지</name>
 		<name>연방 기지 알파</name>
 		<name>연방 기지 제로</name>
@@ -2970,22 +2970,22 @@
 		<name>연방 지휘소</name>
 		<name>연방 고위 지휘소</name>
 		<name>연방 알파 지휘소</name>
-		<name>Baseplate 알파</name>
+		<name>베이스플레이트 알파</name>
 
-		<name>Last Stand</name>
-		<name>연방 Command</name>
-		<name>Emergency Headquarters</name>
-		<name>Designated Retreat 구역</name>
-		<name>Federal Fleet</name>
-		<name>Galactic Capital (sieged)</name>
-		<name>Codename: Ricochet</name>
-		<name>Reassembled Army</name>
-		<name>Foxtrot Squadron</name>
-		<name>Ally Intelligence Center</name>
+		<name>최후의 저항</name>
+		<name>연방 지휘소</name>
+		<name>비상 본사</name>
+		<name>퇴각 지정 구역</name>
+		<name>연방 함대</name>
+		<name>은하 수도 (포위됨)</name>
+		<name>코드명: 리코쳇</name>
+		<name>재결정된 부대</name>
+		<name>폭스트롯 소함대</name>
+		<name>동맹 기밀 센터</name>
 
-		<name>Final Countdown</name>
-		<name>Terminus</name>
-		<name>Battlefield 제타</name>
+		<name>마지막 카운트다운</name>
+		<name>테르미우스</name>
+		<name>전투지 제타</name>
 	</nameList>
 	<trackList>
 		<track>laststand</track>
@@ -3002,7 +3002,7 @@
 
 <sectorDescription name="CRYSTAL_HOME" minSector="0" unique="false">   
 	<nameList>
-		<name>Hidden Crystal Worlds</name>
+		<name>숨겨진 크리스탈 월드</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
