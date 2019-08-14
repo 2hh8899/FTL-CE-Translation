@@ -1756,36 +1756,36 @@
 
 <sectorDescription name="SE_MANTIS_SECTOR" minSector="0" unique="false"> 
 	<nameList>
-		<name>마즈플맄 사냥터</name>
-		<name>카즈핔 사냥터</name>
-		<name>잨'아즈 사냥터</name>
-		<name>구 프크사앜 사냥터</name>
-		<name>므쟠 사냥터</name>
-		<name>카즈핔 약탈 구역</name>
+		<name>마즈플리익 사냥터</name>
+		<name>카즈피익 사냥터</name>
+		<name>자악'아즈 사냥터</name>
+		<name>구 프크사악 사냥터</name>
+		<name>므쟈악 사냥터</name>
+		<name>카즈피익 약탈 구역</name>
 		<name>신 짜크을 약탈 구역</name>
-		<name>프크스클랔 약탈 구역</name>
-		<name>주스크스크슬랔 약탈 구역</name>
-		<name>하부 므즈르시잌 약탈 구역</name>
-		<name>므'시잌사앜 약탈 구역</name>
-		<name>카즈프크즈앜 영토</name>
+		<name>프크스클라악 약탈 구역</name>
+		<name>주스크스크슬라악 약탈 구역</name>
+		<name>하부 므즈르시익 약탈 구역</name>
+		<name>므'시익사악 약탈 구역</name>
+		<name>카즈프크즈악 영토</name>
 		<name>캅프르즐크의 영토</name>
 		<name>캅프르즐크의 두번째 영토</name>
-		<name>카플스지잌 영토</name>
-		<name>팍'즈웈 영토</name>
-		<name>구 팍'즈웈 영토</name>
-		<name>리클맄크스으 영역</name>
-		<name>카즠의 영역</name>
-		<name>파즈크슼의 영역</name>
-		<name>므스크시잌의 영역</name>
-		<name>잨스클크잨스프 영역</name>
+		<name>카플스지익 영토</name>
+		<name>팍'즈욱 영토</name>
+		<name>구 팍'즈욱 영토</name>
+		<name>리클리익크스으 영역</name>
+		<name>카즈윽의 영역</name>
+		<name>파즈크스윽의 영역</name>
+		<name>므스크시익의 영역</name>
+		<name>자악스클크자악스프 영역</name>
 		<name>지스으지스으 영역</name>
 		<name>크르스을리스으 전쟁 진영</name>
 		<name>므스으쟈스 전쟁 진영</name>
-		<name>전방 전쟁 진영 르크스'스읔</name>
+		<name>전방 전쟁 진영 르크스'스윽</name>
 		<name>전방 전쟁 진영 크시시스으</name>
-		<name>전방 전쟁 진영 자즈'플맄</name>
+		<name>전방 전쟁 진영 자즈'플리익</name>
 		<name>원정 캠프 카즈'안스으</name>
-		<name>원정 캠프 슼'자앜</name>
+		<name>원정 캠프 스윽'자악</name>
 		<name>원정 캠프 6</name>
 		<name>원정 캠프 9</name>
 		<name>마손1 (침략당함)</name>
@@ -1798,8 +1798,8 @@
 		<name>맨티스 침략 함대 "트라이엄프"</name>
 		<name>맨티스 침략 함대 "데스"</name>
 		<name>맨티스 침략 함대 "킬"</name>
-		<name>맨티스 침략 함대 "라즈'클리잌"</name>
-		<name>맨티스 침략 함대 "플크'자앜"</name>
+		<name>맨티스 침략 함대 "라즈'클리익"</name>
+		<name>맨티스 침략 함대 "플크'자악"</name>
 
 		<name>Tchak'Tcha's Stake</name>
 	</nameList>
@@ -1874,25 +1874,25 @@
 		<name>번영 부화장</name>
 		<name>그스트'카즈' 품못</name>
 		<name>카크'아즈'플루크스 품못</name>
-		<name>잨'아스 품못</name>
+		<name>자악'아스 품못</name>
 		<name>유령의 무리</name>
 		<name>테러의 무리</name>
 		<name>두려움의 무리</name>
 		<name>공포의 무리</name>
 		<name>적색 무리</name>
 		<name>겁의 무리</name>
-		<name>타짜앜플맄 무리</name>
-		<name>잨'아즈 무리</name>
-		<name>카즈핔 무리</name>
-		<name>마즈플맄 무리</name>
+		<name>타짜악플리익 무리</name>
+		<name>자악'아즈 무리</name>
+		<name>카즈피익 무리</name>
+		<name>마즈플리익 무리</name>
 		<name>끝없는 무리</name>
 		<name>슈프림 무리</name>
 		<name>불침의 무리</name>
-		<name>카즈'팤 - 맨티스 주</name>
+		<name>카즈'파악 - 맨티스 주</name>
 		<name>라즈라즈라즈- 맨티스 주</name>
 		<name>프즈즈즈 - 맨티스 주</name>
 		<name>트스크'애스으 - 맨티스 주</name>
-		<name>리스'샄스 - 맨티스 주</name>
+		<name>리스'사악스 - 맨티스 주</name>
 		<name>왼 집게</name>
 		<name>오른 집게</name>
 		<name>사신의 집게</name>
