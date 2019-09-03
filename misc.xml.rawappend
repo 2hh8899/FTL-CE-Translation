@@ -1,55 +1,55 @@
 
 <!-- System Tooltip Info --->
 
-<text name="level">Level </text>
-<text name="manned">Manned: </text>
-<text name="status">Status: </text>
+<text name="level">레벨 </text>
+<text name="manned">관제: </text>
+<text name="status">상태: </text>
 
-<text name="subsystem_manned">+1 System Level</text>
+<text name="subsystem_manned">+1 시스템 레벨</text>
 
 
-<text name="full_powered">-Fully Powered</text>
-<text name="full_functional">-Fully Functional</text>
-<text name="partial_powered">-Partially Powered</text>
-<text name="partial_functional">-Partially Functional</text>
-<text name="unpowered">-Unpowered</text>
+<text name="full_powered">-작동 중</text>
+<text name="full_functional">-기능 중</text>
+<text name="partial_powered">-부분 작동 중</text>
+<text name="partial_functional">-부분 기능 중</text>
+<text name="unpowered">-미작동</text>
 
-<text name="unmanned">-Unmanned</text>
-<text name="zoltan">-Zoltan Bonus Power</text>
+<text name="unmanned">-관제사 없음</text>
+<text name="zoltan">-졸탄 추가 전력</text>
 
-<text name="rearrange_weapon">: Always powers weapon in first slot, click and drag to rearrange weapons</text>
-<text name="rearrange_drone">: Always powers drone in first slot, click and drag to rearrange drones</text>
+<text name="rearrange_weapon">: 언제나 첫 번째 슬롯에 있는 무기에 공급됩니다. 드래그해서 무기를 재배치할 수 있습니다</text>
+<text name="rearrange_drone">: 언제나 첫 번째 슬롯에 있는 드론에 공급됩니다. 드래그해서 드론을 재배치할 수 있습니다</text>
 
-<text name="destroyed">-Destroyed</text>
-<text name="damaged">-Damaged</text>
+<text name="destroyed">-완파</text>
+<text name="damaged">-손상</text>
 
-<text name="temp_disabled">-Temporarily disabled by enemy or location</text>
+<text name="temp_disabled">-피격 또는 주변 환경으로 인해 일시적 기능장애</text>
 
-<text name="ioned">-Locked by Ion Effect</text>
-<text name="on_fire">-On Fire</text>
-<text name="sabotaged">-Being Sabotaged</text>
+<text name="ioned">-이온 후유증으로 인해 장애를 일으킴</text>
+<text name="on_fire">-화재</text>
+<text name="sabotaged">-강습당함</text>
 
-<text name="add_power">Add Power: </text>
-<text name="remove_power">Remove Power: </text>
-<text name="remove_power_alt">Remove Power: Shift + </text>
+<text name="add_power">전력 추가: </text>
+<text name="remove_power">전력 차단: </text>
+<text name="remove_power_alt">전력 차단: Shift + </text>
 
-<text name="hacked">-Hacked: Experiences temporary disruption and doors are locked down</text>
+<text name="hacked">-해킹당함: 시스템이 일시적인 기능방해를 겪습니다. 출입문도 차단됩니다</text>
 
-<text name="artillery_off">OFF: Beam not charging</text>
-<text name="doors_off">OFF: Cannot manipulate doors</text>
-<text name="pilot_off">OFF: NO DODGE!</text>
-<text name="sensors_off">OFF: Limited vision</text>
-<text name="engine_off">OFF: NO DODGE!</text>
-<text name="medbay_off">OFF: Cannot heal crew</text>
-<text name="weapons_off">OFF: Weapons not available</text>
-<text name="drones_off">OFF: Drones not functional</text>
-<text name="oxygen_off">OFF: OXYGEN DRAINING!</text>
-<text name="clone_off">OFF: Dead crew will die forever</text>
-<text name="shields_off">OFF: SHIELDS DOWN!</text>
+<text name="artillery_off">꺼짐: 함포가 충전 불가</text>
+<text name="doors_off">꺼짐: 문 원격조작 불가</text>
+<text name="pilot_off">꺼짐: 회피 불가!</text>
+<text name="sensors_off">꺼짐: 시야 제한</text>
+<text name="engine_off">꺼짐: 회피 불가!</text>
+<text name="medbay_off">꺼짐: 승무원 회복 불가</text>
+<text name="weapons_off">꺼짐: 무기 사용 불가</text>
+<text name="drones_off">꺼짐: 드론 작동 불가</text>
+<text name="oxygen_off">꺼짐: 산소 고갈!</text>
+<text name="clone_off">꺼짐: 승무원 부활 불가</text>
+<text name="shields_off">꺼짐: 방어막 꺼짐!</text>
 
-<text name="clonebay_health">Heals all crew </text>
-<text name="clonebay_health2"> hp every jump.</text>
-<text name="clonebay_damaged"> (If repaired, it will heal more)</text>
+<text name="clonebay_health">모든 승무원을 매 도약마다 </text>
+<text name="clonebay_health2"> 만큼 치료.</text>
+<text name="clonebay_damaged"> (수리할 경우 치료 효과가 증대)</text>
 
 
 <!-- Skills -->
@@ -65,13 +65,13 @@
 <text name="shields_ending"> when manning Shields.</text>
 <text name="weapons_ending"> when manning Weapons.</text>
 
-<text name="next_level">Next Level: </text>
+<text name="next_level">다음 레벨: </text>
 
-<text name="pilot_skill">Evasion +</text>
-<text name="engine_skill">Evasion +</text>
-<text name="shield_skill">% faster recharge</text>
-<text name="weapon_skill">% faster charge</text>
-<text name="hacking_skill">% faster hacking</text>
+<text name="pilot_skill">회피 +</text>
+<text name="engine_skill">회피 +</text>
+<text name="shield_skill">% 더 빠른 재충전</text>
+<text name="weapon_skill">% 더 빠른 재충전</text>
+<text name="hacking_skill">% 더 빠른 해킹</text>
 
 <text name="combat_heading">Combat Skill: </text>
 <text name="combat_0">Increases crew damage</text>
@@ -83,124 +83,124 @@
 
 <!-- Stat Screen Headings -->
 
-<text name="defeated_stat">Ships Defeated</text>
-<text name="beacons_stat">Beacons Explored</text>
-<text name="scrap_stat">Scrap Collected</text>
-<text name="crew_stat">Crew Hired</text>
+<text name="defeated_stat">격파한 함선</text>
+<text name="beacons_stat">탐험한 신호기</text>
+<text name="scrap_stat">벌어들인 스크랩</text>
+<text name="crew_stat">고용한 승무원</text>
 	
-<text name="crew_evasions">Piloted Evasions</text>
-<text name="crew_repairs">Repairs</text>
-<text name="crew_kills">Combat Kills</text>
-<text name="crew_jumps">Jumps Survived</text>
-<text name="crew_masteries">Skill Masteries Earned</text>
+<text name="crew_evasions">회피기동 횟수</text>
+<text name="crew_repairs">수리 횟수</text>
+<text name="crew_kills">근접전 사살횟수</text>
+<text name="crew_jumps">도약 횟수</text>
+<text name="crew_masteries">숙련 기술</text>
 	
-<text name="records_heading">Session Records</text>
-<text name="crew_heading">Crew Records</text>
-<text name="stats_heading">Session Stats</text>
-<text name="total_heading">Totals</text>
+<text name="records_heading">회차 기록</text>
+<text name="crew_heading">승무원 기록</text>
+<text name="stats_heading">회차 성적</text>
+<text name="total_heading">총합</text>
 
-<text name="total">Total</text>
-<text name="most">Most</text>
+<text name="total">총합</text>
+<text name="most">최대</text>
 
-<text name="final_score">Final Score</text>
-<text name="total_games">Total Games Played</text>
-<text name="total_victories">Total Victories</text>
+<text name="final_score">최종 점수</text>
+<text name="total_games">총 게임 횟수</text>
+<text name="total_victories">총 승리 횟수</text>
 
-<text name="progression_heading">General Progression</text>
-<text name="distance_heading">Going the Distance</text>
-<text name="skill_heading">Skill and Equipment Feats</text>
+<text name="progression_heading">진행도</text>
+<text name="distance_heading">진행한 거리</text>
+<text name="skill_heading">스킬 및 장비 업적</text>
 
 <text name="new">New</text>
-<text name="layout">Layout</text>
-<text name="ship">Ship</text>
+<text name="layout">레이아웃</text>
+<text name="ship">함선</text>
 
-<text name="type_a">Type A</text>
-<text name="type_b">Type B</text>
-<text name="type_c">Type C</text>
+<text name="type_a">타입 A</text>
+<text name="type_b">타입 B</text>
+<text name="type_c">타입 C</text>
 
-<text name="ach_normal_simple">(Normal)</text>
-<text name="ach_hard_simple">(Hard)</text>
-<text name="ach_easy_simple">(Easy)</text>
+<text name="ach_normal_simple">(보통)</text>
+<text name="ach_hard_simple">(어려움)</text>
+<text name="ach_easy_simple">(쉬움)</text>
 
-<text name="ach_unlocked">Achievement Unlocked!</text>
+<text name="ach_unlocked">도전과제 해금!</text>
 
-<text name="unlocked">Unlocked!</text>
+<text name="unlocked">해금!</text>
 
-<text name="ach_normal">Unlocked on NORMAL</text>
-<text name="ach_easy">Unlocked on EASY</text>
-<text name="ach_hard">Unlocked on HARD</text>
+<text name="ach_normal">보통 난이도에서 얻음</text>
+<text name="ach_easy">쉬움 난이도에서 얻음</text>
+<text name="ach_hard">어려움 난이도에서 얻음</text>
 
-<text name="victory">Victory</text>
-<text name="advanced">Advanced</text>
+<text name="victory">승리</text>
+<text name="advanced">확장팩</text>
 <text name="score">SCORE</text>
 <text name="sector">SECTOR</text>
-<text name="normal">Normal</text>
-<text name="easy">Easy</text>
-<text name="hard">Hard</text>
+<text name="normal">보통</text>
+<text name="easy">쉬움</text>
+<text name="hard">어려움</text>
 
-<text name="new_high">New High Score!</text>
+<text name="new_high">새로운 최고기록입니다!</text>
 
 <!-- Event additions -->
 
-<text name="added_quest">Added a quest marker to your map!</text>
-<text name="no_time">Upon examining your map, you realize you just won't have time and need to get to the Federation base! You leave the quest for another day.</text>
-<text name="added_quest_sector">Added a quest marker to the next sector!</text>
+<text name="added_quest">성도에 퀘스트 지점이 표시되었습니다!</text>
+<text name="no_time">성도를 살펴본 당신은, 더이상 낭비할 시간이 없다는 사실을 알게 되었습니다. 조속히 연방 기지로 향해야 합니다! 당신은 퀘스트를 잠시 미루어두었습니다.</text>
+<text name="added_quest_sector">다음 구역에 퀘스트 지점이 표시되었습니다!</text>
 
-<text name="circle_ship">Congratulations, by making it to the 5th sector you've unlocked the Engi playable ship for future playthroughs!</text>
+<text name="circle_ship">축하합니다. 제 5구역에 도달함으로써, 이제 엔지 함선도 다루실 수 있게 되셨습니다!</text>
 
-<text name="intruder_energy">They must have a Super Shield bypass unit; boarders are on board!</text>
+<text name="intruder_energy">강습입니다. 졸탄 보호막 우회장치를 장비하고 있는 것이 분명합니다!</text>
 
-<text name="event_crew_full"> [Warning: You will have to dismiss a crewmember, you are already full.]</text>
+<text name="event_crew_full"> [주의: 승무원 한명을 떠나보내야 합니다. 자리가 꽉 차 있습니다.]</text>
 
 <!-- Gameover -->
 
-<text name="gameover_win">Congratulations! You've defeated the Rebel Flagship and ensured the victory of the Federation!</text>
-<text name="gameover_crew">All crewmembers have died. Your ship will continue to drift for eternity. Or until looters destroy it.</text>
-<text name="gameover_blowup">One last explosion marks your fate as your ship is torn apart.</text>
-<text name="gameover_fedbase">The Rebel Flagship has destroyed the Federation Base. All is lost, they've won.</text>
-<text name="gameover_tutorial">Somehow you've died during the introduction training exercise. Feel free to try again but this doesn't bode well for your mission.</text>
+<text name="gameover_win">축하합니다! 당신은 반란군 기함을 물리쳐, 연방의 승리를 확고히 했습니다!</text>
+<text name="gameover_crew">모든 승무원이 사망했습니다. 당신의 함선은 영원을 표류할 것입니다. 언젠가 채굴꾼들이 뒤지다 박살내버리기 전까지 말이죠.</text>
+<text name="gameover_blowup">한줄기 폭발이 번쩍 하고 당신의 운명을 빛냅니다. 함선은 박살나고 말았습니다.</text>
+<text name="gameover_fedbase">반란군 기함이 연방 기지를 박살냈습니다. 모든 것이 끝입니다, 놈들이 이겼습니다.</text>
+<text name="gameover_tutorial">뭐 연습중에 죽을수도 있는 법입니다. 다시 시도하는 것이야 마음대로지만, 당신의 임무에서 좋은 조짐이 느껴지진 않는군요.</text>
 
 <!-- Credits -->
 
-<text name="and"> and </text>
+<text name="and"> 그리고 </text>
 
-<text name="thank_ship">Thanks to the valiant effort of:</text>
+<text name="thank_ship">이 용맹한 업적을 이루어낸 함선:</text>
 
-<text name="thank_crew">And her successful crew:</text>
+<text name="thank_crew">또한 그 함선을 성공으로 몰아간 이들:</text>
 
-<text name="credit_victory">The Rebel's flagship was destroyed, throwing their fleet into chaos and ensuring a Federation victory</text>
+<text name="credit_victory">반란군 기함이 박살납니다. 놈들의 함대는 혼돈으로 치닫고, 연방은 승리를 공고히 합니다.</text>
 
-<text name="game_from">A game from:</text>
+<text name="game_from">제작:</text>
 <text name="subset_games">subset games</text>
 
-<text name="created_by">Created by:</text>
+<text name="created_by">만든 사람들:</text>
 <text name="matthew_justin">Matthew Davis and Justin Ma</text>
 
-<text name="addition_code">iOS programming:</text>
+<text name="addition_code">iOS 프로그래밍:</text>
 <text name="andrew_church">Andrew Church</text>
 
-<text name="music_by">Music and sound by:</text>
+<text name="music_by">음향효과:</text>
 <text name="ben_prunty">Ben Prunty</text>
 
-<text name="writing_by">With writing from:</text>
+<text name="writing_by">작가:</text>
 <text name="tom_jubert">Tom Jubert</text>
 
-<text name="guest_writer">Advanced Edition special guest writer:</text>
+<text name="guest_writer">확장팩 객원 작가:</text>
 <text name="chris_a">Chris Avellone</text>
 
-<text name="additional_art">Additional art and design:</text>
+<text name="additional_art">확장팩 시각효과:</text>
 <text name="bryan_ma">Bryan Ma</text>
 
-<text name="editing">Additional editing and design:</text>
+<text name="editing">확장팩 컨텐츠 및 디자인:</text>
 <text name="alison_w">Alison Waller</text>
 
-<text name="additional_testing">Additional testing, advice, and invaluable support:</text>
+<text name="additional_testing">확장팩 테스트, 조언 및 소중한 도움을 주신 분들:</text>
 <text name="family_friends">Alison, Maria, Bryan, Matthieu, Collin, Anton, Ethan, Andy, Xia Tai Yi, our parents, and many more</text>
 
 <text name="kickstarter">Thank you to all of our extremely generous Kickstarter backers, with a very special thank you to:</text>
 
-<text name="third_party">FTL uses the following third party libraries</text>
-<text name="folder">(See accompanying license folder or readme for more details)</text>
+<text name="third_party">FTL은 이하 제작사들에서 만들어진 컨텐츠들도 이용하여 만들어졌습니다.</text>
+<text name="folder">(자세한 내용은 License 폴더나 readme 파일을 참고하세요)</text>
 <text name="freetype">The FreeType Project (c) 1996-2002, 2006 by David Turner, Robert Wilhelm, and Werner Lemberg</text>
 <text name="bass">BASS audio library (c) 1999-2012 Un4seen Developments Ltd</text>
 <text name="SDL">SDL - Simple DirectMedia Layer (c) 1997-2009 Sam Lantinga</text>
@@ -208,417 +208,417 @@
 <text name="devil">DevIL: Developer's Image Loader (c) 2000-2009 by Denton Woods</text>
 <text name="font">'Half-Life 1 + 2' fonts used with permission from freakyfonts.de</text>
 
-<text name="touch_skip">Keep finger pressed to skip the credits.</text>
+<text name="touch_skip">크레딧을 넘기려면 계속 누르십시오.</text>
 
 <!-- System Info -->
 
-<text name="artillery_1">50 Second Cooldown</text>
-<text name="artillery_2">40 Second Cooldown</text>
-<text name="artillery_3">30 Second Cooldown</text>
-<text name="artillery_4">20 Second Cooldown</text>
+<text name="artillery_1">재사용 대기 50초</text>
+<text name="artillery_2">재사용 대기 40초</text>
+<text name="artillery_3">재사용 대기 30초</text>
+<text name="artillery_4">재사용 대기 20초</text>
 
-<text name="door_1">Normal doors</text>
-<text name="door_2">Blast Doors</text>
-<text name="door_3">Improved Blast Doors</text>
-<text name="door_4">Super Blast Doors</text>
+<text name="door_1">일반 문</text>
+<text name="door_2">방탄 문</text>
+<text name="door_3">개선 방탄 문</text>
+<text name="door_4">슈퍼 방탄 문</text>
 
-<text name="pilot_1">Needs pilot to function</text>
-<text name="pilot_2">Auto: 50 percent evasion</text>
-<text name="pilot_3">Auto: 80 percent evasion</text>
+<text name="pilot_1">조종사 필요</text>
+<text name="pilot_2">자동: 50% 회피</text>
+<text name="pilot_3">자동: 80% 회피</text>
 
-<text name="sensor_1">See ship interior</text>
-<text name="sensor_2">See enemy interior</text>
-<text name="sensor_3">See enemy weapon charge</text>
-<text name="sensor_4">See enemy power use</text>
+<text name="sensor_1">선내 확인</text>
+<text name="sensor_2">적 선내 확인</text>
+<text name="sensor_3">적 무기 충전도 확인</text>
+<text name="sensor_4">적 전력 확인</text>
 
-<text name="cloak_first">Cloak:</text>
-<text name="seconds">seconds</text>
+<text name="cloak_first">은폐:</text>
+<text name="seconds">초</text>
 
-<text name="teleporter_on">sec cooldown</text>
+<text name="teleporter_on">초 재충전</text>
 
-<text name="dodge">Dodge</text>
+<text name="dodge">회피</text>
 <text name="FTL">FTL</text>
 
-<text name="healing">Healing Boost</text>
+<text name="healing">치료 가속</text>
 
-<text name="system_power">More System Power</text>
+<text name="system_power">시스템 전력</text>
 
-<text name="oxygen_on">O2 Refill Boost</text>
+<text name="oxygen_on">산소 충전 가속</text>
 
-<text name="shields_0">One Shield Barrier</text>
-<text name="shields_1">Two Shield Barriers</text>
-<text name="shields_2">Three Shield Barriers</text>
-<text name="shields_3">Four Shield Barriers</text>
+<text name="shields_0">방어막 한 장</text>
+<text name="shields_1">방어막 두 장</text>
+<text name="shields_2">방어막 세 장</text>
+<text name="shields_3">방어막 네 장</text>
 
-<text name="hacking_cooldown">second disruption</text>
+<text name="hacking_cooldown">초 교란</text>
 
-<text name="mind_1">Mind control one person</text>
-<text name="mind_2">Boosts health and damage</text>
-<text name="mind_3">Increases boost</text>
+<text name="mind_1">승무원 한명을 정신지배함</text>
+<text name="mind_2">체력과 피해량이 증가</text>
+<text name="mind_3">체력과 피해량이 더욱 증가</text>
 
-<text name="battery_first">Provides</text>
-<text name="battery_second">bonus power</text>
+<text name="battery_first">추가 전력</text>
+<text name="battery_second">칸</text>
 
-<text name="clone">sec clone </text>
-<text name="clone2"> hp/jump</text>
+<text name="clone">초 복제</text>
+<text name="clone2"> hp/도약</text>
 
-<text name="upgrade_reactor">Reactor</text>
-<text name="reactor_desc">Provides power to all ship systems. Each power bar allows you to send one unit of power to a system. Subsystems do not need power from the reactor.</text>
+<text name="upgrade_reactor">반응로</text>
+<text name="reactor_desc">함내 시스템에 전력을 공급합니다. 전력 한칸 당 하나의 전력을 시스템에 공급할 수 있습니다. 보조 시스템은 전력을 필요로 하지 않습니다.</text>
 
-<text name="reactor_desc_short">Provides power to all ship systems.</text>
+<text name="reactor_desc_short">시스템에 전력을 공급함.</text>
 
-<text name="weak_warning">Weak System - Extra scrap required for initial upgrades</text>
+<text name="weak_warning">취약 시스템 - 개조시 더 많은 스크랩이 필요</text>
 
 <!-- Star Map -->
 
-<text name="ipad_boss">The Flagship will destroy the Federation Base if it spends three consecutive turns there. The red rotating Flagship icon indicates its position. When the jump line from the ship is solid, it will jump to the indicated beacon on that turn. Repair stations partially repair for free.</text>
-<text name="pc_boss">The Flagship will destroy the Federation Base if it spends three consecutive turns there. \n\nThe red rotating Flagship icon indicates its position. When the jump line from the ship is solid, it will jump to the indicated beacon on that turn. \n\nRepair stations partially repair for free.</text>
+<text name="ipad_boss">반란군 기함이 세 번 이상 이동하도록 내버려 둘 경우, 기함은 연방 본부에 도달하고 말 것입니다. 기함은 붉은 우주선 아이콘이 선회하고 있는 통신소에 위치해 있습니다. 도약 표시선이 뚜렷해지면, 기함이 그 다음턴에 목표 지점으로 이동한다는 뜻입니다. 수리 지점에서는 선체 일부의 수리가 무료로 가능합니다.</text>
+<text name="pc_boss">반란군 기함이 세 번 이상 이동하도록 내버려 둘 경우, 기함은 연방 본부에 도달하고 말 것입니다. \n\n기함은 붉은 우주선 아이콘이 선회하고 있는 통신소에 위치해 있습니다. 도약 표시선이 뚜렷해지면, 기함이 그 다음턴에 목표 지점으로 이동한다는 뜻입니다. \n\n수리 지점에서는 선체 일부의 수리가 무료로 가능합니다.</text>
 
-<text name="civ_sector">Civilian Sector</text>
+<text name="civ_sector">민간인 구역</text>
 
-<text name="map_current_loc">Your current location.</text>
-<text name="map_boss_loc">Rebel Flagship</text>
+<text name="map_current_loc">당신의 현재 위치입니다.</text>
+<text name="map_boss_loc">반란군 기함</text>
 
-<text name="map_base_loc">This is the Federation Base.</text>
-<text name="map_exit_loc">This is the exit beacon. Go here to travel to the next sector.</text>
-<text name="map_rebels_loc">The Rebels are about to gain control of this beacon!</text>
-<text name="map_store_loc">You previously found a store at this location.</text>
-<text name="map_repair_loc">Federation Repair Station. Repairs hull and provides supplies.</text>
-<text name="map_fleet_loc">The Rebels have control of this location. Very dangerous.</text>
-<text name="map_hostile_loc">A hostile enemy was left behind at this location.</text>
-<text name="map_nothing_loc">Explored location. Nothing left of interest.</text>
-<text name="map_distress_loc">Distress beacon. Someone might need help.</text>
-<text name="map_ship_loc">Unvisited. Possible ship detected.</text>
-<text name="map_quest_loc">Unvisited. Quest destination.</text>
-<text name="map_merchant_loc">Unvisited. Reported merchant location.</text>
-<text name="map_unvisited_loc">An unvisited location.</text>
+<text name="map_base_loc">이곳은 연방 기지입니다.</text>
+<text name="map_exit_loc">이 구역을 빠져나갈 수 있는 통신소입니다. 다음 구역으로 넘어갈 수 있습니다.</text>
+<text name="map_rebels_loc">반란군이 이 통신소를 장악하기 직전입니다!</text>
+<text name="map_store_loc">이 통신소에는 상점이 있었습니다.</text>
+<text name="map_repair_loc">연방 정비 기지입니다. 선체를 수리해주고 보급품을 지원해줄 것입니다.</text>
+<text name="map_fleet_loc">반란군이 이 통신소를 장악했습니다. 아주 위험합니다.</text>
+<text name="map_hostile_loc">적대적인 함선이 발견되었습니다.</text>
+<text name="map_nothing_loc">방문했던 통신소입니다. 쓸만한 것은 남아있지 않습니다.</text>
+<text name="map_distress_loc">통신소에서 구조신호가 나오고 있습니다. 누군가 도움을 요청하고 있습니다.</text>
+<text name="map_ship_loc">방문하지 않은 통신소입니다. 함선이 감지됩니다.</text>
+<text name="map_quest_loc">방문하지 않은 통신소입니다. 현재 수행중인 퀘스트의 목적지입니다.</text>
+<text name="map_merchant_loc">방문하지 않은 통신소입니다. 상점이 있습니다.</text>
+<text name="map_unvisited_loc">방문하지 않은 통신소입니다.</text>
 
-<text name="map_nebula_fleet_loc">The Rebel Fleet was prepared for the nebula in this sector, so it won't be as effective a hiding spot.</text>
-<text name="map_nebula_loc">The nebula here will make fleet pursuit slower but will disrupt your sensors.</text>
-<text name="map_asteroid_loc">Asteroid field detected in this location.</text>
-<text name="map_sun_loc">Beacon coordinates appear to be very close to a nearby sun.</text>
-<text name="map_ion_loc">This section of the nebula is experiencing an ion storm.</text>
-<text name="map_pulsar_loc">A pulsar is flooding this area with dangerous electromagnetic forces.</text>
+<text name="map_nebula_fleet_loc">반란군 함대는 이 성운 구역에 돌입하면서 센서 마비에 대한 충분한 대비책을 취했습니다. 따라서 몸을 숨기는 데에 크게 유리하진 않습니다.</text>
+<text name="map_nebula_loc">이곳의 성운지대는 반란군 함대의 진격을 늦추지만, 당신의 센서 역시 마비시킵니다.</text>
+<text name="map_asteroid_loc">이 지점에서 소행성 지대가 감지되었습니다.</text>
+<text name="map_sun_loc">이 통신소는 태양과 아주 인접한 위치에 있습니다.</text>
+<text name="map_ion_loc">이 성계의 성운에서는 이온 폭풍이 몰아치고 있습니다.</text>
+<text name="map_pulsar_loc">인근 펄서 성계에서 전자기장이 방출되고 있습니다.</text>
 
-<text name="map_pds_fleet">The fleet's anti-ship batteries will be firing on you at this location.</text>
-<text name="map_pds_loc">Planet-side anti-ship batteries are detected in this system.</text>
+<text name="map_pds_fleet">근처 함대의 대공포가 당신의 함선을 노리고 있습니다.</text>
+<text name="map_pds_loc">인근 행성에 대공포가 설치되어 있습니다.</text>
 
 
 <!-- Tooltips when hovering over deployed drones. Can't be in tooltips.xml for reasons -->
 
-<text name="ion_intruder">Ion Intruder</text>
-<text name="crew_repair_drone">Repair Drone</text>
-<text name="anti_person_drone">Anti-Personnel Drone</text>
-<text name="boarder_drone">Boarder Drone</text>
+<text name="ion_intruder">이온 방출 드론</text>
+<text name="crew_repair_drone">수리 드론</text>
+<text name="anti_person_drone">대인 드론</text>
+<text name="boarder_drone">강습 드론</text>
 
-<text name="hacking_tooltip">Cannot be targeted. Hacking drone.</text>
-<text name="repair_tooltip">Cannot be targeted. Ship repair drone.</text>
-<text name="boarding_tooltip">Cannot be targeted. Boarding drone.</text>
-<text name="shield_tooltip">Cannot be targeted. Shield overcharger.</text>
+<text name="hacking_tooltip">조준할 수 없습니다. 해킹 드론.</text>
+<text name="repair_tooltip">조준할 수 없습니다. 수리 드론.</text>
+<text name="boarding_tooltip">조준할 수 없습니다. 강습 드론.</text>
+<text name="shield_tooltip">조준할 수 없습니다. 방어막 과충전기.</text>
 
 
-<text name="combat_friendly">Your Combat Drone: \nRepeatedly attacks enemy ship. Will function until destroyed or until you jump away.</text>
-<text name="combat_enemy">Enemy Combat Drone: \nRepeatedly attacks your ship. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="combat_friendly">당신의 전투드론입니다: \n적 함선을 계속해서 공격합니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="combat_enemy">적의 전투드론입니다: \n당신의 함선을 계속해서 공격합니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
-<text name="defense_friendly">Your Defense Drone: \nShoots down missiles and asteroids. Will function until destroyed or until you jump away.</text>
-<text name="defense_enemy">Defense Drone: \nShoots down missiles and asteroids. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="defense_friendly">당신의 방어 드론입니다: \n적의 미사일이나 날아오는 소행성을 격추합니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="defense_enemy">적의 방어 드론입니다: \n당신의 미사일이나 날아오는 소행성을 격추합니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
-<text name="defense_2_friendly">Your Defense Drone Mk II: \nShoots down any projectiles. Will function until destroyed or until you jump away.</text>
-<text name="defense_2_enemy">Defense Drone Mk II: \nShoots down any projectiles. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="defense_2_friendly">당신의 방어 드론 마크 II입니다.: \n모든 투사체를 격추합니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="defense_2_enemy">적의 방어 드론 마크 II입니다.: \n모든 투사체를 격추합니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
-<text name="anti_combat_friendly">Your Anti-Combat Drone: \nShoots to stun and possibly destroy enemy combat drones. Will function until destroyed or until you jump away.</text>
-<text name="anti_combat_enemy">Enemy Anti-Combat Drone: \nShoots to stun and possibly destroy your combat drones. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="anti_combat_friendly">당신의 드론 격추용 드론입니다: \n적의 전투 드론을 마비시키거나 파괴할 수 있습니다. 적 함선이 격침되거나 당신이 도약하여 도망칠때까지 작동합니다.</text>
+<text name="anti_combat_enemy">적의 드론 격추용 드론입니다: \n당신의 전투 드론을 마비시키거나 파괴할 수 있습니다. 적 함선의 드론 관제실에 피해를 입혀 작동을 멈출 수 있습니다.</text>
 
 <!-- Misc tooltips that can't be in tooltips.xml because they are dynamic -->
 
-<text name="save_stations_tooltip">Save your current crew positions \nHotkey: </text>
-<text name="ret_stations_tooltip">Return crew to saved positions \nHotkey: </text>
+<text name="save_stations_tooltip">현재 승무원들의 위치를 저장합니다. \n단축키: </text>
+<text name="ret_stations_tooltip">저장해둔 위치로 배치합니다. \n단축키: </text>
 
-<text name="ship_info">Opens the ship info screens. Unavailable when the ship is in danger. \nHotkey:</text>
-<text name="open_store">Reopens the store at your location. \nHotkey:</text>
+<text name="ship_info">정보창을 띄웁니다. 함선이 위험에 처해있다면 기능하지 않습니다. \n단축키: </text>
+<text name="open_store">상점 창을 다시 엽니다. \n단축키: </text>
 
-<text name="mind_controlled_tooltip">Mind Controlled</text>
+<text name="mind_controlled_tooltip">정신 지배당함</text>
 
-<text name="rearrange">Click and drag to rearrange</text>
+<text name="rearrange">클릭, 드래그하여 재배치</text>
 
-<text name="hotkey">Hotkey: </text>
+<text name="hotkey">단축키: </text>
 
-<text name="health">Health: </text>
+<text name="health">체력: </text>
 
-<text name="cloning">Cloning...</text>
+<text name="cloning">복제하는 중...</text>
 
-<text name="power_ready">Ready: Click to lock down room with special power \nHotkey: </text>
-<text name="power_not_ready">Not Ready: Lockdown power charging (see charge left of portrait)</text>
+<text name="power_ready">준비됨: 방을 클릭해 특수한 힘으로 봉쇄합니다 \n단축키: </text>
+<text name="power_not_ready">준비되지 않음: 봉쇄 전력 충천 중 (화면 좌측 참고)</text>
 
-<text name="jump_button">Opens star map to choose jump location. \nHotkey: </text>
-<text name="activate_battery">Activate the Backup Battery, providing additional Reactor power bars \nHotkey: </text>
-<text name="mind_button">Turn enemies into allies temporarily. \nHotkey: </text>
-<text name="hack_button">Launch hacking drone; costs 1 drone part. \nHotkey: </text>
-<text name="pulse_button">Initiate hacking disruption. \nHotkey: </text>
-<text name="pulse_button_broken">Can't disrupt system when it's destroyed</text>
-<text name="open_doors">Open all doors on the ship. \nHotkey: </text>
-<text name="close_doors">Close all doors on the ship. \nHotkey: </text>
-<text name="tele_ret">Retrieve crew from targeted enemy room to player teleporter room. \nHotkey: </text>
-<text name="tele_send">Send crew in player teleporter room to targeted enemy room. \nHotkey: </text>
-<text name="cloak_button">Temporarily cloak the ship, halting enemy weapon charging and increasing evasion by 60 \nHotkey: </text>
+<text name="jump_button">도약 위치를 지정하기 위해 지도를 엽니다. \n단축키: </text>
+<text name="activate_battery">Activate 예비 배터리를 작동시킵니다, 추가적인 반응로 전력 바를 얻을 수 있습니다 \n단축키: </text>
+<text name="mind_button">일시적으로 적군을 아군으로 만듭니다. \n단축키: </text>
+<text name="hack_button">해킹 드론을 사출합니다, 한 개의 드론 부품을 소모합니다. \n단축키: </text>
+<text name="pulse_button">해킹 교란을 시작합니다. \n단축키: </text>
+<text name="pulse_button_broken">파괴되면 시스템을 교란시킬 수 없습니다</text>
+<text name="open_doors">모든 문을 엽니다. \n단축키: </text>
+<text name="close_doors">모든 문을 닫습니다. \n단축키: </text>
+<text name="tele_ret">적함의 아군 승무원들을 텔레포트 장치로 이동시킵니다. \n단축키: </text>
+<text name="tele_send">텔레포트 장치의 승무원들을 적함으로 보냅니다. \n단축키: </text>
+<text name="cloak_button">함선을 은폐해서 적의 무기 충전을 방해하고 회피율을 60 올립니다. \n단축키: </text>
 
-<text name="hack_potential">Grants disruption ability: </text>
-<text name="hack_activate">Begins disruption ability: </text>
+<text name="hack_potential">교란 기능 부여: </text>
+<text name="hack_activate">교란 기능 시작: </text>
 
-<text name="hack_no_system">None, must hack a system.</text>
+<text name="hack_no_system">대상 없음, 시스템을 해킹해야 합니다.</text>
 
-<text name="hack_oxygen">Temporarily drain the enemy ship of oxygen.</text>
-<text name="hack_doors">Temporarily turn all enemy doors into player friendly blast doors.</text>
-<text name="hack_shields">Temporarily drain power from the enemy shields.</text>
-<text name="hack_pilot">Temporarily reduce the enemy ship's evasion to 0.</text>
-<text name="hack_engines">Temporarily reduce the enemy ship's evasion to 0.</text>
-<text name="hack_sensors">Temporarily shut down the enemy sensors.</text>
-<text name="hack_medbay">Temporarily cause the medbay to damage instead of heal enemy crew.</text>
-<text name="hack_weapons">Temporarily drain charge from enemy weapons.</text>
-<text name="hack_drones">Temporarily freeze enemy drones with a chance of destroying them.</text>
-<text name="hack_teleporter">Temporarily take control of the enemy teleporter, returning crew to the enemy ship.</text>
-<text name="hack_cloaking">Temporarily shut down the enemy's ability to cloak.</text>
-<text name="hack_artillery">Temporarily reverse the enemy's artillery charge.</text>
-<text name="hack_battery">Temporarily reduce the enemy's reactor power by two.</text>
-<text name="hack_clonebay">Temporarily shut down the clone bay's functionality, killing potential clones.</text>
-<text name="hack_mind">Free any currently controlled people and temporarily mind control an enemy unit.</text>
-<text name="hack_hacking">Temporarily interrupt and shut down the enemy hacking.</text>
+<text name="hack_oxygen">일시적으로 적 함선 내부의 산소를 빼냅니다.</text>
+<text name="hack_doors">일시적으로 적 함선의 문을 통제할 수 있게 됩니다.</text>
+<text name="hack_shields">일시적으로 적 함선의 방어막을 내립니다.</text>
+<text name="hack_pilot">일시적으로 적 함선의 회피율을 0으로 만듭니다.</text>
+<text name="hack_engines">일시적으로 적 함선의 회피율을 0으로 만듭니다.</text>
+<text name="hack_sensors">일시적으로 적 함선의 센서를 끕니다.</text>
+<text name="hack_medbay">일시적으로 적 함선의 의료실이 내부의 승무원에게 치료 대신 피해를 입힙니다.</text>
+<text name="hack_weapons">일시적으로 적 함선이 장비한 무기의 장전을 취소합니다.</text>
+<text name="hack_drones">일시적으로 적의 드론들을 작동하지 못하도록 합니다. 일정 확률로 드론을 파괴합니다.</text>
+<text name="hack_teleporter">Temporarily 적의 텔레포터를 통제할 수 있게 되어, 강습해온 적들을 다시 돌려보냅니다.</text>
+<text name="hack_cloaking">일시적으로 적 함선의 은폐 기능을 강제로 해제합니다.</text>
+<text name="hack_artillery">일시적으로 적 함선의 함포 충전을 취소합니다.</text>
+<text name="hack_battery">일시적으로 적 함선 반응로의 출력을 2만큼 감소시킵니다.</text>
+<text name="hack_clonebay">일시적으로 적의 클론 배양실을 기능하지 못하게 만들고, 배양되고 있는 클론들도 죽입니다.</text>
+<text name="hack_mind">현재 정신지배 당하고 있는 아군을 풀어주거나, 적 승무원을 아군으로 만듭니다.</text>
+<text name="hack_hacking">일시적으로 적의 해킹을 방해하여 효과를 취소합니다.</text>
 
-<text name="hack_oxygen_player">SYSTEM HACKED: LOSING OXYGEN RAPIDLY.</text>
-<text name="hack_doors_player">SYSTEM HACKED: DOORS DISRUPT CREW MOVEMENT.</text>
-<text name="hack_shields_player">SYSTEM HACKED: SHIELDS LOSING POWER.</text>
-<text name="hack_pilot_player">SYSTEM HACKED: EVASION DROPPED TO 0.</text>
-<text name="hack_engines_player">SYSTEM HACKED: EVASION DROPPED TO 0.</text>
-<text name="hack_sensors_player">SYSTEM HACKED: SENSORS WILL NOT FUNCTION.</text>
-<text name="hack_medbay_player">SYSTEM HACKED: MEDBAY DAMAGES CREW!</text>
-<text name="hack_weapons_player">SYSTEM HACKED: WEAPONS LOSING CHARGE.</text>
-<text name="hack_drones_player">SYSTEM HACKED: DRONES STUNNED AND MAY EXPLODE.</text>
-<text name="hack_teleporter_player">SYSTEM HACKED: FRIENDLY CREW FORCED TO TELEPORT HOME.</text>
-<text name="hack_cloaking_player">SYSTEM HACKED: CLOAKING SYSTEM INTERRUPTED.</text>
-<text name="hack_artillery_player">SYSTEM HACKED: ARTILLERY QUICKLY LOSING CHARGE.</text>
-<text name="hack_battery_player">SYSTEM HACKED: REACTOR POWER REDUCED BY 2.</text>
-<text name="hack_clonebay_player">SYSTEM HACKED: CLONES CANNOT BE MADE, CREW MAY DIE!</text>
-<text name="hack_mind_player">SYSTEM HACKED: FRIENDLY UNIT UNDER CONTROL!</text>
-<text name="hack_hacking_player">SYSTEM HACKED: HACKING TEMPORARILY INTERRUPTED</text>
+<text name="hack_oxygen_player">시스템이 해킹당했습니다: 선내의 산소가 빠져나갑니다.</text>
+<text name="hack_doors_player">시스템이 해킹당했습니다: 승무원들이 문을 통과하지 못합니다.</text>
+<text name="hack_shields_player">시스템이 해킹당했습니다: 방어막이 내려갑니다.</text>
+<text name="hack_pilot_player">시스템이 해킹당했습니다: 회피율이 0으로 떨어집니다.</text>
+<text name="hack_engines_player">시스템이 해킹당했습니다: 회피율이 0으로 떨어집니다.</text>
+<text name="hack_sensors_player">해킹당했습니다: 센서가 작동하지 않습니다.</text>
+<text name="hack_medbay_player">시스템이 해킹당했습니다: 의료실 내부의 승무원들은 피해를 입습니다!</text>
+<text name="hack_weapons_player">시스템이 해킹당했습니다: 무기의 장전이 취소됩니다.</text>
+<text name="hack_drones_player">해킹당했습니다: 드론이 작동하지 않으며, 파괴될 수도 있습니다.</text>
+<text name="hack_teleporter_player">시스템이 해킹당했습니다: 승무원들이 강제 귀환합니다.</text>
+<text name="hack_cloaking_player">시스템이 해킹당했습니다: 은폐장 시스템이 작동하지 않습니다.</text>
+<text name="hack_artillery_player">시스템이 해킹당했습니다: 함포의 장전이 빠르게 취소됩니다.</text>
+<text name="hack_battery_player">시스템이 해킹당했습니다: 반응로의 출력이 2 감소합니다.</text>
+<text name="hack_clonebay_player">시스템이 해킹당했습니다: 클론이 배양되지 않습니다. 승무원들이 죽으면 끝입니다!</text>
+<text name="hack_mind_player">해킹당했습니다: 아군 승무원이 정신지배당합니다!</text>
+<text name="hack_hacking_player">시스템이 해킹당했습니다: 일시적으로 해킹이 불가능합니다.</text>
 			
 <!-- Combat Box -->
 
-<text name="class">Class</text>
-<text name="neutral">Neutral</text>
-<text name="hostile">Hostile</text>
-<text name="relationship">Relationship</text>
+<text name="class">함급</text>
+<text name="neutral">중립</text>
+<text name="hostile">적대</text>
+<text name="relationship">관계</text>
 
-<text name="engines_hacked">Engines Hacked</text>
-<text name="pilot_hacked">Pilot Hacked</text>
-<text name="current_evasion">Current Evasion</text>
+<text name="engines_hacked">엔진 해킹당함</text>
+<text name="pilot_hacked">조타실 해킹당함</text>
+<text name="current_evasion">현재 회피율</text>
 
-<text name="oxygen_hacked">Oxygen Hacked</text>
-<text name="current_oxygen">Current Oxygen</text>
+<text name="oxygen_hacked">산소 공급실 해킹당함</text>
+<text name="current_oxygen">현재 산소량</text>
 
 <!-- Info Boxes -->
 
-<text name="crew_skills">Crew Skills</text>
+<text name="crew_skills">승무원 숙련도</text>
 
-<text name="beam_warning">Note: Beam damage is reduced by one for every shield it passes through, which allows for partial shield piercing.</text>
+<text name="beam_warning">팁: 적 함선이 두르고 있는 방어막 한 칸마다 빔 무기의 피해는 1씩 감소합니다. 이는 여러 장의 방어막을 관통할 수 있다는 것을 의미합니다.</text>
 
-<text name="required_power">Required Power:</text>
-<text name="boost_power">Chain Power: </text>
-<text name="boost_speed">Faster Charge</text>
-<text name="boost_damage">More Damage</text>
-<text name="damage_cap">Chain Damage Cap: </text>
-<text name="speed_cap">Chain Charge Cap: </text>
+<text name="required_power">필요 전력량:</text>
+<text name="boost_power">연쇄효과:</text>
+<text name="boost_speed">충전 시간 감소</text>
+<text name="boost_damage">피해량 증가</text>
+<text name="damage_cap">최대 피해량: </text>
+<text name="speed_cap">최소 장전시간: </text>
 
-<text name="charge_time">Charge Time:</text>
-<text name="requires_missiles">Requires Missile</text>
-<text name="shots">Shots Per Charge:</text>
-<text name="charge">Max Charge Shots:</text>
-<text name="damage_shot">Normal Damage:</text>
-<text name="damage_room">Damage Per Room Hit:</text>
-<text name="shield_piercing">Shield Piercing:</text>
-<text name="fire_chance">Fire Chance:</text>
-<text name="beam_chance">Breach Chance:</text>
-<text name="stun_chance">Stun Chance:</text>
-<text name="ion_damage">Ion Damage:</text>
-<text name="personnel_damage">Crew Damage:</text>
-<text name="system_damage">System Damage:</text>
-<text name="double_damage">2x Damage on systemless rooms.</text>
+<text name="charge_time">충전 시간:</text>
+<text name="requires_missiles">미사일 필요</text>
+<text name="shots">발사하는 탄수:</text>
+<text name="charge">최대 탄수:</text>
+<text name="damage_shot">일반 피해량:</text>
+<text name="damage_room">선실 당 입히는 피해:</text>
+<text name="shield_piercing">방어막 관통도:</text>
+<text name="fire_chance">방화 확률:</text>
+<text name="beam_chance">균열 확률:</text>
+<text name="stun_chance">기절 확률:</text>
+<text name="ion_damage">이온 피해:</text>
+<text name="personnel_damage">승무원 피해:</text>
+<text name="system_damage">장비 피해:</text>
+<text name="double_damage">장비가 없는 방에는 두배의 피해를 입힘.</text>
 
-<text name="chance_of">Possible Effect:</text>
-<text name="fire">Fire</text>
-<text name="breach">Breach</text>
-<text name="stun">Stun</text>
+<text name="chance_of">부가 효과:</text>
+<text name="fire">화재</text>
+<text name="breach">균열</text>
+<text name="stun">기절</text>
 
-<text name="type_header">Type: </text>
+<text name="type_header">타입: </text>
 
-<text name="type_beam">Beam</text>
-<text name="type_bomb">Teleporting Bomb</text>
-<text name="type_laser">Laser</text>
-<text name="type_missile">Missile</text>
-<text name="type_crystal">Physical Projectile</text>
-<text name="type_burst">Blast</text>
-<text name="type_ion">Ion</text>
+<text name="type_beam">빔</text>
+<text name="type_bomb">폭탄</text>
+<text name="type_laser">레이저</text>
+<text name="type_missile">미사일</text>
+<text name="type_crystal">물리적 탄환</text>
+<text name="type_burst">블래스트</text>
+<text name="type_ion">이온</text>
 
-<text name="type_chain">Chain </text>
-<text name="type_charge">Charge </text>
+<text name="type_chain">연사 가능 </text>
+<text name="type_charge">공격 횟수 충전 가능 </text>
 
-<text name="type_ion_effect">Drains and locks systems</text>
-<text name="type_missile_effect">Ignores Shields \nRequires Missile</text>
-<text name="type_bomb_effect">Ignores Shields</text>
-<text name="type_burst_effect">Area Effect Aiming</text>
-<text name="type_charge_effect">Charge Multiple Times</text>
-<text name="type_chain_effect">Improves With Consecutive Shots</text>
+<text name="type_ion_effect">장비를 마비시킴</text>
+<text name="type_missile_effect">방어막을 무시\n미사일 필요</text>
+<text name="type_bomb_effect">방어막을 무시</text>
+<text name="type_burst_effect">범위 공격</text>
+<text name="type_charge_effect">공격 횟수 충전 가능</text>
+<text name="type_chain_effect">연사 가능</text>
 
 <!--- Main Menu -->
 
-<text name="welcome">Welcome to FTL! \n\nIf you're a new player, we'd highly recommend you take a moment to play the tutorial. We've done our best to make it as short and to the point as possible! \n\nWe hope you like the game. \n\n-- Subset Games</text>
+<text name="welcome">FTL에 오신 것을 환영합니다! \n\n게임을 처음 시작한 분이시라면, 먼저 튜토리얼부터 해보시는 것을 굉장히 추천해 드려요. 정말 알짜 내용만 골라서 최대한 짧게 만들었답니다! \n\n 재밌게 하시길 바라요. \n\n-- Subset Games</text>
 
-<text name="continue">Continue...</text>
+<text name="continue">계속...</text>
 
-<text name="keep_screen">Keep Screen Setting</text>
-<text name="revert_screen">Revert Screen Setting and Quit</text>
-<text name="screen_text">You recently changed your screen settings. Are these acceptable? \n\nWill quit and auto-revert in</text>
+<text name="keep_screen">화면 설정 유지</text>
+<text name="revert_screen">화면 설정 되돌리고 나가기</text>
+<text name="screen_text">You 최근에 화면 설정을 변경하셨습니다. 지금 설정을 유지할까요?\n\n창 닫고 원래 설정으로 돌아가기</text>
 
-<text name="no_load">No previous game exists</text>
+<text name="no_load">저장된 게임이 없습니다.</text>
 
-<text name="new_player">A new player has signed into the Game Center. Returning to the title screen.</text>
+<text name="new_player">새로운 플레이어가 접속하였습니다. 첫 화면으로 돌아갑니다.</text>
 
-<text name="help_tap_close">Tap the screen to return to the game.</text>
-<text name="help_customize">Note: This is an overview. You can customize many hotkeys in the Options menu.</text>
+<text name="help_tap_close">스크린을 터치하여 게임으로 복귀합니다.</text>
+<text name="help_customize">참고: 이것은 개요입니다. 환경설정 메뉴에서 많은 단축키를 바꿀 수 있습니다.</text>
 
-<text name="no_save_tutorial">Cannot save and quit during the tutorial</text>
+<text name="no_save_tutorial">튜토리얼 중에는 저장하고 나갈 수 없습니다</text>
 
-<text name="welcome_hangar_pc">Welcome to the Federation Hangar! \n\nHere you'll be able to choose your ship, name it, and name your crew. Right now only the Kestrel is available to you, but as you play you will unlock more. \n\nYou can change the difficulty setting in the top right. If you're new, you might want to give Easy a shot first.</text>
+<text name="welcome_hangar_pc">연합 격납고에 오신 것을 환영합니다! \n\n여기서 배를 선택해 이름짓고, 승무원의 이름도 지을 수 있습니다. 지금은 케스트럴만 쓸 수 있지만, 게임을 하며 더 많은 함선을 쓸 수 있습니다. \n\n당신은 오른쪽 위에서 난이도를 설정할 수 있으며, 만약 당신이 처음 게임을 시작했다면 처음에는 쉬움을 선택해주세요.</text>
 
-<text name="welcome_hangar_ipad">Welcome to the Federation Hangar! \n\nHere you'll be able to choose your ship, name it, and name your crew. Right now only the Kestrel is available to you, but as you play you will unlock more. \n\nYou can change the difficulty setting on the right side of the screen. If you're new, you might want to give Easy a shot first.</text>
+<text name="welcome_hangar_ipad">연합 격납고에 오신 것을 환영합니다! \n\n여기서 배를 선택해 이름짓고, 승무원의 이름도 지을 수 있습니다. 지금은 케스트럴만 쓸 수 있지만, 게임을 하며 더 많은 함선을 쓸 수 있습니다. \n\n당신은 오른쪽에서 난이도를 설정할 수 있으며, 만약 당신이 처음 게임을 시작했다면 처음에는 쉬움을 선택해주세요.</text>
 
-<text name="normal_title">Normal Mode</text>
-<text name="normal_text">Standard scrap rewards and enemies. \n\nYour score gets a 25 percent boost.</text>
+<text name="normal_title">보통 난이도</text>
+<text name="normal_text">적의 수준과 스크랩 획득량이 적당합니다. \n\n총점 계산시 25%의 보너스를 받습니다.</text>
 
-<text name="hard_title">Hard Mode</text>
-<text name="hard_text">Low scrap rewards and harder enemies. \n\nYour score gets a 50 percent boost.</text>
+<text name="hard_title">어려움 난이도</text>
+<text name="hard_text">스크랩 획득량이 낮으며 적들은 강력합니다. \n\n총점 계산시 50%의 보너스를 받습니다.</text>
 
-<text name="easy_title">Easy Mode</text>
-<text name="easy_text">Increased scrap rewards and easier enemy generation.</text>
+<text name="easy_title">쉬움 난이도</text>
+<text name="easy_text">스크랩 획득량이 높으며 적들은 약합니다.</text>
 
-<text name="advanced_title">Advanced Content</text>
-<text name="advanced_text">New systems, weapons, alien race, and more! Recommended for experienced players.</text>
+<text name="advanced_title">확장팩 적용</text>
+<text name="advanced_text">새로운 시스템과 무기들, 외계 종족 등이 추가되었습니다! 게임에 익숙한 플레이어에게 추천합니다.</text>
 
-<text name="default_title">Default Content</text>
-<text name="default_text">The default Faster Than Light experience.</text>
+<text name="default_title">기본판 적용</text>
+<text name="default_text">FTL의 기본 컨텐츠를 경험하기.</text>
 
-<text name="unidentified">Unidentified Cruiser</text>
+<text name="unidentified">사용할 수 없는 함선</text>
 
 <!-- Store Screen -->
 
-<text name="max_augments">Your ship can only hold 3 augmentations.</text>
-<text name="have_augment">You already have this augmentation and its effect cannot be stacked.</text>
+<text name="max_augments">보조 장비는 최대 3개까지 설치할 수 있습니다.</text>
+<text name="have_augment">이 보조 장비는 이미 설치되어 있습니다. 효과는 중복되지 않습니다.</text>
 
-<text name="max_crew">Your ship is full and cannot hold any more crewmembers!</text>
-<text name="max_drones">Your ship's cargo is full and cannot hold any more drones!</text>
-<text name="max_weapons">Your ship's cargo is full and cannot hold any more weapons!</text>
-<text name="system_drones">Powers the ship's drones.</text>
+<text name="max_crew">함선에 자리가 없어 승무원을 더 이상 받아들일 수 없습니다!</text>
+<text name="max_drones">자리가 없어 드론 장비를 더 이상 실을 수 없습니다!</text>
+<text name="max_weapons">화물칸에 자리가 없어 무기 장비를 더 이상 실을 수 없습니다!</text>
+<text name="system_drones">함선의 드론들에 전원을 넣습니다.</text>
 
-<text name="free_drone">Purchase comes with free </text>
+<text name="free_drone">구매시 무료 증정 </text>
 
-<text name="sys_full">You've reached the System Limit</text>
+<text name="sys_full">시스템의 한계치에 도달했습니다</text>
 
 <!-- Options Screen -->
 
-<text name="fullscreen">Fullscreen (Req. Restart) : </text>
-<text name="fullscreen_0">Off</text>
-<text name="fullscreen_1">On (Stretch)</text>
-<text name="fullscreen_2">On (Borders)</text>
-<text name="fullscreen_3">On (Native)</text>
+<text name="fullscreen">전체화면 (재시작 필요): </text>
+<text name="fullscreen_0">끄기</text>
+<text name="fullscreen_1">켜기 (늘이기)</text>
+<text name="fullscreen_2">켜기 (경계)</text>
+<text name="fullscreen_3">켜기 (기본)</text>
 
-<text name="v_sync">Vertical Sync (Req. Restart): </text>
-<text name="on">On</text>
-<text name="off">Off</text>
+<text name="v_sync">수직동기화 (재시작 필요): </text>
+<text name="on">켜기</text>
+<text name="off">끄기</text>
 
-<text name="frame_limit">Frame Limit: </text>
-<text name="dynamic_back">Dynamic Backgrounds: </text>
-<text name="colorblind">Colorblind Mode: </text>
+<text name="frame_limit">프레임 제한: </text>
+<text name="dynamic_back">동적 배경: </text>
+<text name="colorblind">색맹모드: </text>
 
-<text name="disabled">Disabled</text>
-<text name="enabled">Enabled</text>
+<text name="disabled">사용안함</text>
+<text name="enabled">사용함</text>
 
-<text name="disable_hotkeys">Disable hotkeys</text>
-<text name="no_delay">No delay</text>
-<text name="brief_delay">Brief delay</text>
-<text name="event_choice">Event choice selection: </text>
+<text name="disable_hotkeys">단축키 사용안함</text>
+<text name="no_delay">지연시간 없음</text>
+<text name="brief_delay">짧은 지연시간</text>
+<text name="event_choice">이벤트 선택 옵션: </text>
 
-<text name="show_paths">Show beacon paths on hover: </text>
-<text name="show_paths_ipad">Show beacon paths on touch: </text>
-<text name="achievement_popup">Achievement Popups: </text>
-<text name="window_focus">Window Focus Auto-Pause: </text>
+<text name="show_paths">마우스 올릴시 신호기 경로 표시: </text>
+<text name="show_paths_ipad">터치시 신호기 경로 표시: </text>
+<text name="achievement_popup">업적 팝업: </text>
+<text name="window_focus">창 비활성화시 자동 일시정지: </text>
 <text name="touch_autopause">Touch Command Auto-Pause: </text>
-<text name="configure_controls">Configure Keyboard Hotkeys</text>
+<text name="configure_controls">단축키 설정</text>
 
-<text name="sound_volume">Sound Volume</text>
-<text name="music_volume">Music Volume</text>
+<text name="sound_volume">효과음</text>
+<text name="music_volume">배경음악</text>
 
-<text name="power_note">Note: Shift + Power System will also de-power the system</text>
+<text name="power_note">주의: Shift + 전력 시스템은 시스템의 전원도 차단합니다</text>
 
-<text name="press_key">PRESS KEY</text>
+<text name="press_key">키 입력</text>
 
 <!---- Misc --->
 
-<text name="mind_blocked_shield">Cannot mind control through Super Shields.</text>
-<text name="mind_blocked_blackout">Cannot mind control in rooms you cannot detect life in.</text>
+<text name="mind_blocked_shield">정신지배 전파는 졸탄 쉴드를 뚫을 수 없습니다.</text>
+<text name="mind_blocked_blackout">정신지배를 하려면 먼저 선실 안에 생명체가 있는지 감지해야 합니다.</text>
 
-<text name="autofire"> + AIM can force a weapon to do the opposite of current setting</text>
+<text name="autofire"> + 조준으로 현재 설정과 반대되는 사격을 할 수 있습니다</text>
 
-<text name="rename">Hit ENTER or ESCAPE to confirm name.</text>
+<text name="rename">엔터나 ESC 키를 눌러 이름 확정</text>
 
-<text name="rebuilding">Drone rebuilding after unexpected destruction.</text>
+<text name="rebuilding">예기치 않은 파괴 이후에 드론을 재조립.</text>
 
 <text name="press">Press</text>
 <text name="to_resume">to resume</text>
 <text name="mind_pause">Tap on an enemy to temporarily convert them</text>
 
 
-<text name="stations_saved">Stations Saved!</text>
-<text name="no_stations">No Stations Saved!</text>
-<text name="return_stations">Return to Stations!</text>
+<text name="stations_saved">승무원 위치 저장!</text>
+<text name="no_stations">저장한 위치 없음!</text>
+<text name="return_stations">저장 위치로 복귀!</text>
 
 
-<text name="dead_crew">is gone</text>
-<text name="traitor_crew">is now an enemy</text>
-<text name="intruder_alert">Intruders on board</text>
+<text name="dead_crew">은(는) 죽었습니다</text>
+<text name="traitor_crew">은(는) 이제 적입니다</text>
+<text name="intruder_alert">침입자 탑승</text>
 
-<text name="damage_alert"> damage to your hull</text>
+<text name="damage_alert"> 만큼 선체 손상</text>
 
-<text name="heal_alert"> hull points repaired</text>
-<text name="heal_1_alert">1 hull point repaired</text>
+<text name="heal_alert"> 만큼 선체 수리됨</text>
+<text name="heal_1_alert">1 만큼 선체 수리됨</text>
 
-<text name="fleet_delayed">Fleet delayed by </text>
-<text name="fleet_speed">Fleet pursuit doubled for </text>
-<text name="fleet_jumps"> jumps</text>
-<text name="fleet_1_jump">1 jump</text>
+<text name="fleet_delayed">함대 추격이 </text>
+<text name="fleet_speed">함대 추격이 </text>
+<text name="fleet_jumps">도약 지연됨</text>
+<text name="fleet_1_jump">도약 빨라짐</text>
 
 <text name="exclamation">!</text>
 
-<text name="nameless_one">The Nameless One</text>
-<text name="game_center">Waiting for Game Center</text>
+<text name="nameless_one">이름없는 자</text>
+<text name="game_center">게임 센터를 기다리는 중</text>
 <text name="game_center_slow">If Game Center is not responding, you can disable it in the FTL page of the Settings app.</text>
 <text name="game_center_disabled">Note: Game Center support is disabled.</text>
 <text name="error">Could not find: </text>
 
-<text name="augment">Augment:</text>
+<text name="augment">보조 장비:</text>
 
-<text name="new_system_last">Warning: If you add a new system, your ship will be full and unable to hold any more.</text>
+<text name="new_system_last">주의: 새로운 시스템을 설치하게 되면, 더 이상 다른 시스템을 설치하지 못합니다.</text>
 
-<text name="new_system_penultimate">Warning: If you add a new system, you will have 1 system slot left.</text>
+<text name="new_system_penultimate">주의: 새로운 시스템을 설치하게 되면, 시스템 슬롯은 1칸이 남습니다.</text>
 
-<text name="new_system_update_1">Warning: If you add a new system, you will have </text>
-<text name="new_system_update_2"> system slots left.</text>
+<text name="new_system_update_1">주의: 새로운 시스템을 설치하게 되면, 시스템 슬롯은 </text>
+<text name="new_system_update_2">칸이 남습니다.</text>
 
-<text name="new_system_clonebay">Warning: Accepting a clonebay will replace your medbay.</text>
+<text name="new_system_clonebay">주의: 클론 배양실은 의료실을 대체합니다.</text>
 
-<text name="new_system_medbay">Warning: Accepting a medbay will replace your clonebay.</text>
+<text name="new_system_medbay">주의: 의료실은 클론 배양실을 대체합니다.</text>
 
-<text name="new_system_full">Warning: You cannot hold any more systems.</text>
+<text name="new_system_full">주의: 더 이상 다른 시스템을 설치할 수 없습니다.</text>
 
-<text name="new_system_owned">Warning: You already have the offered system.</text>
+<text name="new_system_owned">주의: 그 시스템은 이미 설치되어 있습니다.</text>
 
 <text name="oxygen">the Oxygen System</text>
 <text name="doors">the Doors</text>
