@@ -620,57 +620,57 @@
 
 <text name="new_system_owned">주의: 그 시스템은 이미 설치되어 있습니다.</text>
 
-<text name="oxygen">the Oxygen System</text>
-<text name="doors">the Doors</text>
-<text name="shields">the Shields</text>
-<text name="pilot">the Piloting</text>
-<text name="engines">the Engines</text>
-<text name="sensors">the Sensors</text>
-<text name="medbay">the Medbay</text>
-<text name="weapons">the Weapons</text>
-<text name="drones">the Drone System</text>
-<text name="teleporter">the Teleporter</text>
-<text name="cloaking">the Cloaking</text>
-<text name="artillery">the Artillery</text>
-<text name="battery">the Backup Battery</text>
-<text name="clonebay">the Clonebay</text>
-<text name="mind">the Mind Control</text>
-<text name="hacking">the Hacking System</text>
-<text name="reactor">the Reactor</text>
+<text name="oxygen">산소 공급</text>
+<text name="doors">문</text>
+<text name="shields">방어막</text>
+<text name="pilot">조타</text>
+<text name="engines">엔진</text>
+<text name="sensors">탐지</text>
+<text name="medbay">의료</text>
+<text name="weapons">화기</text>
+<text name="drones">드론 관제</text>
+<text name="teleporter">텔레포터</text>
+<text name="cloaking">은폐장</text>
+<text name="artillery">함포</text>
+<text name="battery">보조 배터리</text>
+<text name="clonebay">클론 배양</text>
+<text name="mind">정신 지배</text>
+<text name="hacking">해킹 시스템</text>
+<text name="reactor">반응로</text>
 
-<text name="upgrade_fail">Could not upgrade </text>
-<text name="upgrade_max">, it's maxed</text>
-<text name="upgrade_missing">, it's not present</text>
+<text name="upgrade_fail"></text>
+<text name="upgrade_max">을(를) 업그레이드 할 수 없습니다, 이미 최대치입니다.</text>
+<text name="upgrade_missing">을(를) 업그레이드 할 수 없습니다, 존재하지 않습니다.</text>
 
-<text name="upgrade_sucess">Upgraded </text>
-<text name="upgrade_succes_2"> by </text>
+<text name="upgrade_sucess">\1을(를) \2로 업그레이드</text>
+<text name="upgrade_succes_2"></text>
 
-<text name="installed"> installed!</text>
+<text name="installed"> 설치됨!</text>
 
-<text name="oxygen_name">Oxygen System</text>
-<text name="doors_name">Door Subsystem</text>
-<text name="shields_name">Shield System</text>
-<text name="pilot_name">Piloting Subsystem</text>
-<text name="engines_name">Engines</text>
-<text name="sensors_name">Sensor Subsystem</text>
-<text name="medbay_name">Medbay</text>
-<text name="weapons_name">Weapons System</text>
-<text name="drones_name">Drone System</text>
-<text name="teleporter_name">Teleporter</text>
-<text name="cloaking_name">Cloaking System</text>
-<text name="artillery_name">Artillery</text>
-<text name="battery_name">Backup Battery</text>
-<text name="clonebay_name">Clonebay</text>
-<text name="mind_name">Mind Control System</text>
-<text name="hacking_name">Hacking System</text>
-<text name="reactor_name">Reactor</text>
+<text name="oxygen_name">산소 공급실</text>
+<text name="doors_name">문 개폐 통제 시스템</text>
+<text name="shields_name">방어막 통제실</text>
+<text name="pilot_name">조타실</text>
+<text name="engines_name">엔진실</text>
+<text name="sensors_name">탐지실</text>
+<text name="medbay_name">의료실</text>
+<text name="weapons_name">화기 관제실</text>
+<text name="drones_name">드론 관제실</text>
+<text name="teleporter_name">텔레포터</text>
+<text name="cloaking_name">은폐장</text>
+<text name="artillery_name">함포</text>
+<text name="battery_name">보조 배터리</text>
+<text name="clonebay_name">클론 배양실</text>
+<text name="mind_name">정신 지배 장치</text>
+<text name="hacking_name">해킹 시스템</text>
+<text name="reactor_name">반응로</text>
 
-<text name="no_type_c">No Type C</text>
+<text name="no_type_c">C타입 없음</text>
 
-<text name="victory_ach">Defeat the Flagship with any layout of the </text>
+<text name="victory_ach">다음 함선으로 반란군 기함을 격파하십시오(종류 무관): \1</text>
 <text name="sector_five">Get to Sector five with any layout of the </text>
 
-<text name="quest_ach">Complete the unlock quest for the </text>
+<text name="quest_ach">다음 함선의 퀘스트를 완료하십시오: \1</text>
 
 <text name="currently_locked"> (locked)</text>
 
