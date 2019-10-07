@@ -289,40 +289,40 @@
 	<text>팁: 생산품 강화 장치 - 일부 장치는 자원을 보존하거나 모으는 데 도움이 될 수 있습니다. 이것을 사용하기 위해선 방해받지 않을 빈 신호소를 찾아야 합니다.</text>
 	<text>팁 : AI 승무원 - 홀로그래픽 승무원은 유기체 또는 부분유기체보다 강하지는 않지만, 어떤 일도 할 수 있고 산소를 필요로 하지 않습니다.</text>
 	<text>팁: 잔해 구역 - 거대한 함선의 파괴는 거대한 잔해 구역을 만들지도 모릅니다. 추가 자재를 인양하기 위해 더 많은 시간을 쓸 수도 있지만, 그럴 경우 반군의 추격이 빨라질 수 있습니다.</text>
-	<text>팁: </text>
-	<text>TIP: Planetary Defense Weapons - Advancing into hostile territory might confront you with heavy planetary defense weapons. These guns charge slow; it is best to jump away before they fire.</text>
-	<text>TIP: Planetary Artillery - This defense weapon charges slow but pierces all shields and can cause fires and breaches. UI prompts will inform you about its targeting cycle and can tell you which rooms it will hit.</text>
-	<text>TIP: Planetary Beams - This defense weapon charges slow but will shoot right through your shields and ship, causing breaches. UI prompts will inform you about its targeting cycle and can tell you which rooms it will hit.</text>
-	<text>TIP: Rebel Point Defense System - If the fleet catches up with you the Rebels might consider finishing you off with a long range artillery barrage. Their PDS weapons charge faster than planetary defenses, try to get away in time.</text>
-	<text>TIP: Utility Bombs - Some bombs are designed to be beamed into your own ship, but they can still miss. If you want to make sure that they hit you will have to de-power your engines before firing them.</text>
-	<text>TIP: Sector Names - Sector names contain key words that give away which faction controls them. In time you will get a feel for what sector type to expect.</text>
-	<text>TIP: Industrial Sectors - These nebula type sectors feature large, hazard rich dust clouds that might often best be avoided, unless you want to risk salvaging the derelict equipment that can often be found within them.</text>
-	<text>TIP: Quarantine Sectors - Some civilian sectors are under lockdown after dangerous diseases have spread. The plague might take its toll on your crew but many people also will want to leave the system and might join you.</text>
-	<text>TIP: AI Controlled Sectors - These sectors are taken over by rogue combat AIs. The all-consuming nano-bot clouds that these AIs command are one of the most hazardous places in the galaxy.</text>
-	<text>TIP: Crew Interaction - An old Federation proverb says: "If you get to a place with nothing else to do, you can always just chat with your crew."</text>
-	<text>TIP: Crew Morale - Maintaining a good relationship with your crew is good for morale. And conversing regularly with your crew might open you all kinds of possibilities.</text>
-	<text>TIP: Crew Background - Most of your crewmen will have been around in the galaxy for some time. Conversing with certain crew in certain sectors might result in interesting reveals.</text>
-	<text>TIP: Acid Clouds - These industrial hazards will damage your ship while charging your FTL drive. Time consuming activities like salvaging and the usage of certain augments will result in more damage.</text>
-	<text>TIP: Pollution - These industrial smog clouds will affect your ship's sensors and clog the engines. Pollution hazards can vary in density, more dense clouds will have stronger effects on engines and sensors.</text>
-	<text>TIP: Nano-Bot Clouds - Nanite swarms are capable of disassembling your hull and can disrupt all systems. This nebula hazard usually won't affect the enemy ships and should best be avoided entirely.</text>
-	<text>TIP: Black Holes - Jumping near a black hole is actually much less dangerous than it sounds. However, you will need to spend more fuel to escape its gravitational pull.</text>
-	<text>TIP: Anomalies - These rare, unexplainable hazards will jam your sensors, drone communication and weapon targeting.</text>
-	<text>TIP: Ion Barriers - This curious space phenomena create massive barriers that emit strong ion fields. Your shields will be weakened near them.</text>
-	<text>TIP: Missile Drone Defense - Be aware that your own defense drones can also intercept the slow missiles fired by anti-ship missile drones.</text>
-	<text>TIP: Mine Defense - Defense drones can easily pick off space mines that approach your ship. This is of course especially usefully if you happen to jump into a minefield.</text>
-	<text>TIP: Cloaked Projectiles - Some weapons fire cloaked missiles or drop stealth mines. These projectiles can only be intercepted by level 2 defense drones.</text>
-	<text>TIP: Enemy Combat Augments - Enemy combat augments work just like the ones deployed by you. Discovering the effects and limitations of different combat augments can teach you how to defend yourself against them.</text>
-	<text>TIP: Ice Fields - Ice fields exist in remote areas far away from active stars. These areas have almost no background radiation to speak of, which makes cloaking devices useless and hiding impossible within them.</text>
-	<text>TIP: Zoltan Diplomacy - Commanding a ship of the wise Zoltan will give you a natural degree of authority. You will be able to negotiate favorable surrender offers and find peaceful resolutions for many conflicts.</text>
-	<text>TIP: Slug "Flexibility" - The Federation is well known to use Slug auxiliaries for their dirty work. Your crew will not expect you to stick to the rules if you command a Slug vessel.</text>
-	<text>TIP: Player Surrender - Remember that you often can try to surrender if you are actively attacked. This might cost you some resources, but can save you life in certain situations.</text>
-	<text>TIP: Breaking Ceasefire Agreements - Attacking an opponent whose surrender offer has been accepted constitutes an intergalactic war crime. This might disturb your crew a bit.</text>
-	<text>TIP: Making Surrender Offers - Bigger compensation offers will increase the chance of your surrender being accepted. Most opponents will always accept a good enough offer.</text>
-	<text>TIP: Trustworthiness of Opponents - Not all your opponents will obey to the general etiquette of space combat. Certain factions might attack you again after you transfered a surrender offer.</text>
-	<text>TIP: Outposts - These military stations are well armed. Prepare for a tough fight when happening upon one.</text>
-	<text>TIP: Checkpoints - Checkpoint stations are often attacked and are therefore equipped with clone bays to protect their staff. They can have various other systems as well.</text>
-	<text>TIP: EW Platforms - Electronic Warfare stations are always equipped with hacking systems. Be prepared to deal with system disruption when engaging them.</text>
-	<text>TIP: Hives and Broodstations - Some factions heavily rely on cloning facilities to swell their ranks. When you find yourself near one of their cloning stations you will have to deal with almost endless waves of boarders.</text>
+	<text>팁: 기뢰밭 - 기뢰밭에서의 싸움 중엔 가까운 기뢰가 당신을 향해 유도되어 다가올 것입니다. 공격받기 전 도망치거나, 드론 또는 엔진 동력을 이용해서 대항하세요.</text>
+	<text>팁: 행성 방위 무기 - 적대 영역으로 진입하는 경우엔 중형 행성 방위 무기와 맞서게 될 수도 있습니다. 이 무기들은 충전이 느립니다; 발포 전에 도약하는 것이 가장 좋습니다.</text>
+	<text>팁: 행성 대공포 - 이 방어 무기는 충전이 느리지만 모든 방어막을 관통하고 화재와 균열을 유발할 수 있습니다. UI 프롬포트가 목표 지점 및 충전 상태를 알려줄 것입니다.</text>
+	<text>팁: 행성 대공빔 - 이 방어 무기는 충전이 느리지만 방어막과 함선을 뚫고 균열을 냅니다. UI 프롬포트가 목표 지점 및 충전 상태를 알려줄 것입니다.</text>
+	<text>팁: 반군 거점 방위 시설 - 함대가 당신을 따라잡았다면 반군은 장거리 포격 세례로 끝내버리려 할지도 모릅니다. 그들의 포격은 행성 방위 시설보다 더 빠르게 충전되므로, 최대한 빨리 도주하도록 노력하세요.</text>
+	<text>팁: 기능성 폭탄 - 일부 폭탄은 당신의 함선으로 보내지도록 설계되어있지만, 여전히 빗나갈 수 있습니다. 확실하게 착탄하길 원한다면 사격 전에 엔진을 꺼야 할 것입니다.</text>
+	<text>팁: 구역 이름 - 구역 이름에는 어떤 세력이 지배 중인지 알려주는 키워드가 포함되어 있습니다. 오래 플레이하다보면 어떤 구역일지 감을 잡을 수 있을 것입니다.</text>
+	<text>팁: 산업공장 구역 - 이 성운 타입 구역은 대형 위험 성운들이 특징이며, 그 안에서 흔히 볼 수 있는 폐기 장비들을 인양하려는 위험을 무릅쓰지 않는 한 피하는 것이 좋습니다.</text>
+	<text>팁: 전염병 창궐 구역 - 일부 민간 구역은 위험한 질병이 확산된 이후로 격리되었습니다. 역병은 승무원들에게 피해를 줄 수도 있지만, 많은 사람들이 이곳을 빠져나와 당신과 함께 하길 원할 수도 있습니다.</text>
+	<text>팁: AI 장악 구역 - 이 구역은 불량 전투 AI에 의해 점령된 곳입니다. 이러한 AI가 통제하는 분해 나노봇 밀집 구름은 은하계에서 가장 위험한 장소들 중 하나입니다.</text>
+	<text>팁: 승무원 상호 작용 - 옛 연방 속담에는 이러한 것이 있습니다: "다른 할 일이 없는 곳이라면, 승무원들과 잡담밖에 할 수 없다."</text>
+	<text>팁: 승무원 의욕 - 승무원들과 좋은 관계를 유지하는 것은 사기 증진에 좋습니다. 정기적인 대화는 모든 가능성을 열어줄 수 있습니다.</text>
+	<text>팁: 승무원 사정 - 대부분의 승무원들은 한때 은하계에서 활동했을 겁니다. 특정 분야의 특정 승무원과 대화하는 것은 흥미로운 결과를 보여줄 수 있습니다.</text>
+	<text>팁: 산성 성운 - 이 산업적 위험지대는 FTL 드라이브를 충전하는 동안 함선에 손상을 입힐 것입니다. 인양 또는 특정 장치의 사용 등과 같은 시간이 걸리는 활동은 더 많은 피해를 초래할 것입니다.</text>
+	<text>팁: 먼지 성운 - 이 산업 스모그 구름은 배의 센서에 영향을 미치고 엔진을 막아버립니다. 오염 위험은 밀도에 따라 달라지며, 밀도가 더 높은 먼지 구름은 엔진과 센서에 더 강한 영향을 미칠 것입니다.</text>
+	<text>팁: 나노봇 구름: 나나이트 무리는 함체를 분해하고 모든 시스템을 방해할 수 있습니다. 이 위험 성운은 보통 적 함선에는 영향을 주지 않으며, 완전히 피하는 것이 최선입니다.</text>
+	<text>팁: 블랙홀 - 블랙홀 근처로 도약하는 것은 사실 그렇게 위험하진 않습니다. 하지만 중력에서 벗어나려면 훨씬 더 많은 연료를 써야 합니다.</text>
+	<text>팁: 이상 징후 - 가끔 일어나는 이 설명할 수 없는 위험은 센서, 드론 통신, 무기 조준을 방해할 수 있습니다.</text>
+	<text>팁: 이온 장벽 - 이 특이한 우주 현상은 강한 이온장을 방출하는 거대 장벽을 만듭니다. 이곳 함선들의 방어막은 평소보다 약해질 것입니다.</text>
+	<text>팁: 미사일 드론 방어 - 당신의 방어 드론은 대함 미사일 드론이 발사하는 미사일도 요격할 수 있다는 점을 명심하세요.</text>
+	<text>팁: 기뢰 방어 - 방어 드론은 당신의 함선에 접근하는 우주 기뢰를 쉽게 제거할 수 있습니다. 기뢰밭에 빠졌을 경우에도 물론 유용합니다.</text>
+	<text>팁: 은폐 발사체 - 일부 무기는 은폐 미사일을 발사하거나 스텔스 기뢰를 투하합니다. 이 발사체들은 레벨 2 방어 드론으로만 요격할 수 있습니다.</text>
+	<text>적의 전투 강화 장치 - 적의 장치는 당신의 장치와 똑같이 작동합니다. 다른 전투 장치의 효과와 한계를 발견하는 것은 그것들로부터 자신을 방어하는 법 또한 가르쳐줍니다.</text>
+	<text>팁: 얼음 지대 - 얼음 지대는 항성으로부터 멀리 떨어진 외딴 곳에 존재합니다. 이 지역은 배경 복사가 거의 없기 때문에 은폐 장치가 무용지물이 되어 숨는 것이 불가능합니다.</text>
+	<text>팁: 졸탄 외교 - 현명한 졸탄 함선을 지휘하는 것은 당신에게 적당한 정도의 권위를 줄 것입니다. 유리한 항복 제안을 협상할 수 있고 분쟁에 대해 수많은 해결책을 찾을 수 있을 것입니다.</text>
+	<text>팁: 슬러그 "융통성" - 연방은 지저분한 일에 슬러그 보조장치를 사용하는 것으로 잘 알려져 있습니다. 당신이 슬러그 함선을 지휘한다면 승무원들은 당신이 원칙을 지키는 것에 별 기대를 하지 않을 것입니다.</text>
+	<text>팁: 플레이어 항복 - 왕성한 공격을 받을 경우 종종 항복을 시도할 수 있다는 것을 기억하세요. 약간의 자원이 들겠지만, 특정 상황에선 당신의 생명을 구할 수도 있습니다.</text>
+	<text>팁: 휴전 합의 위반 - 항복 제안이 받아들여진 상대를 공격하는 것은 은하간 전쟁 범죄에 해당합니다. 이것은 당신의 승무원들을 약간 불안하게 만들 수 있습니다.</text>
+	<text>팁: 항복 제안서 작성 - 더 큰 보상 제안은 항복이 받아들여질 가능성을 높일 것입니다. 대부분의 적은 항상 충분히 좋은 제안을 받아들이려 할 것입니다.</text>
+	<text>팁: 적의 신뢰 - 모든 적이 신사적인 에티켓에 따르지는 않습니다. 어떤 세력은 항복 제안을 받은 뒤 다시 공격해올지도 모릅니다.</text>
+	<text>팁: 전초 기지 - 이 군사 정거장은 무장이 잘 되어 있습니다. 이와 적대할 땐 힘든 싸움을 준비해야 할 것입니다.</text>
+	<text>팁: 검문소 - 검문 정거장은 종종 공격을 받으므로 이에 대비하여 직원 보호를 위해 클론 베이가 장착되어 있습니다. 또한 다양한 다른 시스템을 가지고 있을 수 있습니다.</text>
+	<text>팁: E.W. 플랫폼 - 전자 무기 정거장에는 항상 해킹 시스템이 설치되어 있습니다. 시스템 방해에 대비하세요.</text>
+	<text>팁: 군락지 및 강습 정거장 - 일부 세력은 사병 유지를 위해 클론 시설에 크게 의존합니다. 이들 근처에 있다면, 거의 끝없이 밀려오는 강습을 상대해야 할 것입니다.</text>
 	<text>TIP: Surveyors and Instigators - Some ship classes rely on mind control systems to force your crew to sabotage your ship. You will have to somehow deal with your turned crewmen if you encounter them.</text>
 	<text>TIP: Trade Advantage - Trading might seem like a waste of time at first, but keep in mind that it is much less risky than roaming around the sector.</text>
 	<text>TIP: Artillery System - The expensive artillery system you can buy at stores will equip your ship with its signature artillery weapon, often providing a strong boost for your offense.</text>
