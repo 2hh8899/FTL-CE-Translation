@@ -37,7 +37,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -85,7 +85,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -135,7 +135,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -185,7 +185,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -238,7 +238,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -288,7 +288,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -338,7 +338,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -396,7 +396,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -446,7 +446,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -496,7 +496,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔페포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력:  -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
