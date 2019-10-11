@@ -852,15 +852,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -935,15 +935,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1018,15 +1018,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1103,15 +1103,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1175,15 +1175,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1231,15 +1231,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1292,15 +1292,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1347,15 +1347,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1409,15 +1409,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1569,15 +1569,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1650,15 +1650,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1706,15 +1706,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1756,15 +1756,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1809,15 +1809,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1863,15 +1863,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1917,15 +1917,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -1974,15 +1974,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2031,15 +2031,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2096,15 +2096,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2159,15 +2159,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2222,15 +2222,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2285,15 +2285,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2357,15 +2357,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2421,15 +2421,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2506,15 +2506,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2562,15 +2562,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2627,15 +2627,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2704,15 +2704,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2768,15 +2768,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2831,15 +2831,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2890,15 +2890,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -2949,15 +2949,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -3005,15 +3005,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -3062,15 +3062,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -3124,15 +3124,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -3200,15 +3200,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -3253,15 +3253,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
@@ -3490,15 +3490,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견한다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다. [ 전력: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">

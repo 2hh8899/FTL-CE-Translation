@@ -315,7 +315,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -359,7 +359,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -406,7 +406,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -452,7 +452,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -496,7 +496,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -542,7 +542,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
