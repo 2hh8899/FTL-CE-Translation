@@ -315,35 +315,35 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비하십시오. 적을 무력화하라! [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(조준 교란장치) 적 무기-목표를 교란하십시오.</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오.</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓으십시오. [ 전력: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓습니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호하십시오. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 하십시오. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시키십시오. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -359,35 +359,35 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비하십시오. 적을 무력화하라! [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(조준 교란장치) 적 무기-목표를 교란하십시오.</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오.</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓으십시오. [ 전력: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓습니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호하십시오. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 하십시오. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시키십시오. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -406,35 +406,35 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비하십시오. 적을 무력화하라! [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(조준 교란장치) 적 무기-목표를 교란하십시오.</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오.</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓으십시오. [ 전력: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓습니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호하십시오. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 하십시오. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시키십시오. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -452,35 +452,35 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비하십시오. 적을 무력화하라! [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(조준 교란장치) 적 무기-목표를 교란하십시오.</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오.</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓으십시오. [ 전력: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓습니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호하십시오. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 하십시오. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시키십시오. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -496,35 +496,35 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비하십시오. 적을 무력화하라! [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(조준 교란장치) 적 무기-목표를 교란하십시오.</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오.</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓으십시오. [ 전력: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓습니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호하십시오. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 하십시오. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시키십시오. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -542,35 +542,35 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비하십시오. 적을 무력화하라! [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(조준 교란장치) 적 무기-목표를 교란하십시오.</text>
+			<text>(조준 교란장치) 적 무기-목표를 교란합니다.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오.</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화하십시오. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓으십시오. [ 전력: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 적을 쫓습니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호하십시오. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 하십시오. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시키십시오. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
