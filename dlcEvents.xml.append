@@ -25,7 +25,7 @@
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -73,7 +73,7 @@
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -123,7 +123,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -173,7 +173,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -226,7 +226,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -276,7 +276,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -326,7 +326,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -384,7 +384,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -434,7 +434,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -484,7 +484,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라!  [ 전력: -2 ]</text> 
+			<text>(내부 이펙터) 필드 생성기를 준비합니다. 적을 무력화하라! [ 전력: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
