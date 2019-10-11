@@ -33,11 +33,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -81,11 +81,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -131,11 +131,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -181,11 +181,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -234,11 +234,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -284,11 +284,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -334,11 +334,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -392,11 +392,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -442,11 +442,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -492,11 +492,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
