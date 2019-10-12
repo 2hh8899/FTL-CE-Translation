@@ -33,7 +33,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -45,11 +45,11 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력:  -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력:  -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력:  -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력:  -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -81,7 +81,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -131,7 +131,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -181,7 +181,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -234,7 +234,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -284,7 +284,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -334,7 +334,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -392,7 +392,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -442,7 +442,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -492,7 +492,7 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해하십시오. [ 전력:  -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력:  -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
