@@ -323,11 +323,11 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -335,7 +335,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -367,11 +367,11 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -379,7 +379,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -414,11 +414,11 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -426,7 +426,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -460,11 +460,11 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -472,7 +472,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -504,11 +504,11 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -516,7 +516,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -550,11 +550,11 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다.</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -562,7 +562,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 시도로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
