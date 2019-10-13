@@ -319,7 +319,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -419,7 +419,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -501,7 +501,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -575,7 +575,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">

@@ -2091,7 +2091,7 @@
 </augBlueprint>
 
 <augBlueprint name="ION_ARMOR"> 
-	<title>이온 반발 장</title>
+	<title>이온 반발장</title>
 	<desc>함선을 이온 필드로부터 보호하며 40퍼센트의 확률로 이온 피해를 완전히 무시합니다.</desc>
 	<cost>30</cost>
 	<bp>8</bp>
@@ -2188,7 +2188,7 @@
 </augBlueprint>
 
 <augBlueprint name="AE_FUEL_RECYCLE">
-	<title>FTL 연료 재활용 장치</title>
+	<title>FTL 연료 재활용장치</title>
 	<desc>폐연료전지를 재활용하여 소량의 FTL 연료를 생성합니다. 빈 신호소가 필요합니다. 생산품 강화 장치.</desc>
 	<cost>40</cost>
 	<bp>5</bp>
@@ -2215,7 +2215,7 @@
 </augBlueprint>
 
 <augBlueprint name="AE_REPAIR_KIT">
-	<title>함체 수리 장비</title>
+	<title>함체 수리장비</title>
 	<desc>항로 정비와 함체 수리가 가능해집니다. 빈 신호소가 필요합니다.</desc>
 	<cost>60</cost>
 	<bp>5</bp>
@@ -2224,7 +2224,7 @@
 </augBlueprint>
 
 <augBlueprint name="AE_BEACON_KIT">
-	<title>비콘 접속 장치</title>
+	<title>비콘 접속장치</title>
 	<desc>흔적을 지우고 반군의 추격을 지연시키는데 이용할 수 있습니다. 빈 신호소가 필요합니다.</desc>
 	<cost>50</cost>
 	<bp>5</bp>
@@ -2373,7 +2373,7 @@
 </augBlueprint>
 
 <augBlueprint name="AE_DRONE_JAMMER">    <!-- 20% fail, 2 power -->
-	<title>드론 조종 방해 장치</title>
+	<title>드론 조종 방해장치</title>
 	<desc>적 드론 통신을 교란하여 1-2대의 드론 무력화를 시도합니다. 2전력 강화 장치.</desc>
 	<cost>40</cost>
 	<bp>5</bp>
@@ -2382,7 +2382,7 @@
 </augBlueprint>
 
 <augBlueprint name="AE_TELEPORTER_JAMMER">   <!-- 0% fail, 1 power -->
-	<title>텔레포터 교란 장치</title>
+	<title>텔레포터 교란장치</title>
 	<desc>적 침입자들이 당신의 함선으로 텔레포트하는것을 막습니다. 고급 텔레포터와 폭탄 무기에는 효과적이지 않습니다. 1전력 강화 장치.</desc>
 	<cost>50</cost>
 	<bp>5</bp>
