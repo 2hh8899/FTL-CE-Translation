@@ -610,7 +610,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the crew dead, you scrap the ship.</text>
+		<text>모든 승무원이 죽었고, 당신은 함선에서 챙길 수 있는 잔해를 인양합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice>
 			<text>계속...</text>
