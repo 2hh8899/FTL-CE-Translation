@@ -157,7 +157,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(표준 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -170,7 +170,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
