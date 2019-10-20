@@ -725,7 +725,7 @@
 </event>
 
 <event name="CRYSTAL_AUTO" unique="true">
-	<text>반란군이 당신을 자동 정찰기를 보낸 것이 틀림없습니다. 한 정찰기가 도약해 즉시 공격해옵니다.</text>
+	<text>반란군이 당신에게 자동 정찰기를 보낸 것이 틀림없습니다. 한 정찰기가 도약해 즉시 공격해옵니다.</text>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1958,7 +1958,7 @@
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text>
 			<event>
-				<text>크리스탈 생명체들은 이 읽얼거리 덕분에 꽤 재미있어 보입니다. 이 종족이 멋진 선지자 종족으로 언급됩니다.</text>
+				<text>크리스탈 생명체들은 이 읽을거리 덕분에 꽤 재미있어 보입니다. 이 종족이 멋진 선지자 종족으로 언급됩니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="45" max="60"/> <!-- updated2 -->
@@ -2769,7 +2769,7 @@
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text>
 			<event>
-				<text>크리스탈 생명체들은 이 읽얼거리 덕분에 꽤 재미있어 보입니다. 이 종족이 멋진 선지자 종족으로 언급됩니다.</text>
+				<text>크리스탈 생명체들은 이 읽을거리 덕분에 꽤 재미있어 보입니다. 이 종족이 멋진 선지자 종족으로 언급됩니다.</text>
 				<item_modify>
 					<item type="scrap" min="45" max="60"/> <!-- updated2 -->
 				</item_modify>
