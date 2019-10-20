@@ -3,40 +3,15 @@
 
 <eventList name="CRYSTAL_SHIP_SURRENDER">
 	<event>
-		<text>"Thank you. We have misjudged you and will not forget your kindness." They leave without another word.</text>
+		<text>"고맙소. 우리는 당신들을 오해했었고 당신들의 친절을 잊지 않을거요." 그들은 더 이상의 말 없이 떠났습니다.</text>
 		<ship hostile="false"/>
 	</event>
 	<event>
-		<text>They respond, "Good. I'm glad to hear that there are still those who value life throughout the galaxy." They abruptly cut communications and prepare to jump away.</text>
+		<text>그들은 "좋소. 아직 이 은하에 생명을 소중히 여기는 이들이 있다는 사실이 기쁘오." 라고 말했습니다. 그들은 갑자기 통신을 끊고 도약할 준비를 했습니다.</text>
 		<ship hostile="false"/>
 	</event>
 	<event>
-		<text>"Thank you. I hope our early aggression will not prevent a future accord between our peoples." They transfer some goods as a means of compensation.</text>
-		<ship hostile="false"/>
-		<autoReward level="RANDOM">stuff</autoReward>
-		<status type="limit" target="enemy" system="artillery" amount="0"/>
-		<status type="clear" target="player" system="weapons" amount="100"/>
-		<status type="clear" target="player" system="shields" amount="100"/>
-		<status type="clear" target="player" system="medbay" amount="100"/>
-		<status type="clear" target="player" system="oxygen" amount="100"/>
-		<status type="clear" target="player" system="doors" amount="100"/>
-		<status type="clear" target="player" system="engines" amount="100"/>
-		<status type="clear" target="player" system="pilot" amount="100"/>
-		<status type="clear" target="player" system="cloaking" amount="100"/>
-		<status type="clear" target="player" system="drones" amount="100"/>
-		<status type="clear" target="player" system="teleporter" amount="100"/>
-		<status type="clear" target="player" system="mind" amount="100"/>
-			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
-				<event/>
-			</choice>
-			<choice>
-				<text>Open fire on your defeated opponent.</text>
-				<event load="CE_SURRENDER_SHIP_ATTACK"/>
-			</choice>
-	</event>
-	<event>
-		<text>"Good. I see no need for bloodshed either." They release a cargo crate in your direction. "Take this as a trophy for clearly besting us."</text>
+		<text>"고맙소. 우리의 경솔한 공세가 미래에 있을 우리들의 협약에 방해가 되지 않는다면 좋겠소만." 그들은 보상의 의미로 약간의 물품을 보내 왔습니다.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<status type="limit" target="enemy" system="artillery" amount="0"/>
@@ -52,16 +27,16 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 	</event>
 	<event>
-		<text>They thank you for sparing them, their extreme aggression quickly changing to a calm acceptance. You're not sure if they're mocking you when they dryly state that "your species has a knack for warfare".</text>
+		<text>"좋소. 나도 유혈사태는 필요 없다고 여기고 있소." 그들은 화물 상자를 당신 쪽으로 보냈습니다. "이것을 우리를 이긴 것에 대한 전리품으로 받아주시오."</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<status type="limit" target="enemy" system="artillery" amount="0"/>
@@ -77,16 +52,16 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 	</event>
 	<event>
-		<text>"We would like to apologize for our xenophobia. You have shown that aliens can be compassionate, a fact unwritten in our history records. Please, take this."</text>
+		<text>그들은 공세를 멈춰준 것에 감사했고, 그들의 극단적인 공세는 급속히 차분해졌습니다. 당신은 그들이 무미건조하게 "당신네 종족은 전투에 재능이 있군." 라고 말한 것이 당신을 조롱하는 것인지 아닌지 알 수 없었습니다.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<status type="limit" target="enemy" system="artillery" amount="0"/>
@@ -102,28 +77,53 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 	</event>
 	<event>
-		<text>What appears to be a young soldier pushes its way onto the vid screen, "A captain both able and merciful? I have always wanted to explore beyond our restricted sector... Please, permit me to join your crew?"</text>
+		<text>"이종족 혐오에 대해선 사과하겠소. 당신은 우리 역사에 기록되지 않은, 이종족의 배려심을 보여주었소. 이것을 받아주시오."</text>
+		<ship hostile="false"/>
+		<autoReward level="RANDOM">stuff</autoReward>
+		<status type="limit" target="enemy" system="artillery" amount="0"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+			<choice>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
+				<event/>
+			</choice>
+			<choice>
+				<text>패배한 상대에게 발포합니다.</text>
+				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+			</choice>
+	</event>
+	<event>
+		<text>젊은 병사가 화면에 나타났습니다. "능력있고 자비로운 함장되시오? 나는 언제나 우리 종족의 제한된 구역을 벗어나 탐험을 하고 싶었소... 내 청컨데, 당신의 승무원으로 받아들여주시겠소?"</text>
 		<ship hostile="false"/>
 		<choice hidden="true">
-			<text>Yes.</text>
+			<text>네.</text>
 			<event>
-				<text>"Great!" As they bring their few belongings on board, you wonder how a being made of crystal can move with such lightness and enthusiasm.</text>
+				<text>"아주 좋소!" 그가 약간의 짐과 함께 승선하자, 당신은 수정으로 만들어진 생명체가 어떻게 저렇게 날렵하고도 열정적인 움직임을 보일 수 있는지 궁금해졌습니다.</text>
 				<crewMember amount="1" class="crystal"/>
 			</event>
 		</choice>
 		<choice hidden="true">
 			<text>No.</text>
 			<event>
-				<text>"I understand. We did try to kill you..." They transfer some materials over before leaving.</text>
+				<text>"이해하외다. 우린 당신을 죽이려고 했는걸..." 그들은 떠나기 전에 약간의 물품을 보내왔습니다.</text>
 				<autoReward level="RANDOM">stuff</autoReward>
 			</event>
 		</choice>
@@ -148,55 +148,55 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_HOSTILE"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<text>(함체 수리 도구) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event>
-			<text>The FTL network here seems to work as you know it, but the jump beacons are of a design you've never seen before. Their crystal shape hints nothing of their functionality, they could just as well be fancy asteroids. The Access Kit is useless here.</text>
+			<text>이곳의 FTL 네트워크는 당신이 알고 있는 대로 작동하는 것 같지만, 점프 비콘은 당신이 전에 본 적이 없는 디자인입니다. 그들의 크리스털 모형은 기능을 하는 것처럼 보이지 않았고, 단지 장식적인 소행성에 불과합니다. 접속장치는 여기서 전혀 쓸모 없습니다.</text>
 		</event>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines while the FTL charges. What will the crystal beings think of this? The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 재빠르게 기뢰를 설치합니다. 반란군은 이 비콘을 피하거나 기뢰구역을 제거하기 위해선 큰 피해를 입을 겁니다. 모든 가능성은 반란군 함대를 꽤 늦출 겁니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -204,41 +204,41 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 
 <event name="START_BEACON_CRYSTAL">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전히 하이퍼스페이스 롤을 통해 이동합니다</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
-		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -246,13 +246,13 @@
 			</item_modify>
 			<modifyPursuit amount="-1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(고급 엔진) 엔진 성능의 저하와 보안 프로토콜을 무시하는 대신 초고속으로 이동합니다. [ 연료: -4; 함체 피해: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -261,24 +261,24 @@
 			<modifyPursuit amount="-2"/>
 			<damage amount="4" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="engines" lvl="8" hidden="true">
-		<text>(Highly Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster, while also taking more damage. [ Fuel: -5; Hull Damage: 8 ]</text>		
+		<text>(최고급 엔진) 안전 제한을 초과하고 엔진을 태워 더 빠른 속도로 이동하는 대신 더 많은 피해를 입습니다. [ 연료: -5; 함체 피해: 8 ]</text>		
 		<event>
 			<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 			<item_modify>
@@ -287,52 +287,52 @@
 			<modifyPursuit amount="-4"/>
 			<damage amount="8" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
-		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<text>(고급 네비게이션 AI) AI가 초공간 점프를 처리하여 더 빠르게 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_BOOSTED_TEXT"/>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
 						<item type="fuel" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -340,13 +340,13 @@
 					</item_modify>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 함체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -355,24 +355,24 @@
 					<modifyPursuit amount="-2"/>
 					<damage amount="4" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="engines" lvl="6" hidden="true">
-				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<text>(고급 엔진) 안전 제한을 초과하고 연료를 소진시켜 더 빠른 속도로 이동합니다. [ 연료: -4; 함체 피해: 8 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -381,24 +381,24 @@
 					<modifyPursuit amount="-4"/>
 					<damage amount="8" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="engines" lvl="8" hidden="true">
-				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<text>(최고급 엔진) 물리적으로 가능한 궁극의 속도로 주행합니다. [ 연료: -5; 함체 피해: 10 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -407,18 +407,18 @@
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
 					</choice>
 				</event>
@@ -429,15 +429,15 @@
 
 
 <event name="START_BEACON_CRYSTAL_ACTUAL">
-	<text>You arrive in a sector not listed in any star charts. Strange crystalline ships dot the horizon. Your companion speaks, "Here we are, my home sector. It has been a long time since others have set foot here, I wonder how you will be received."</text>
+	<text>당신은 그 어떤 지도에도 표시되지 않은 구역에 도착했습니다. 크리스탈 함선들이 수평선 여기저기에 있습니다. 당신의 동료는 "이곳이 바로 나의 고향이오. 이방인들이 이곳에 발을 들인지도 정말 오래되었군. 당신들이 어떤 식으로 대접받을지는 모르겠소."</text>
 	<environment type="PDS" target="enemy"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>"You have done as you promised and so shall I. The coordinates of my old ship have been forwarded to your navigation system."</text>
+			<text>"그대는 약속을 그대로 이행해주었고 나 또한 그럴 것이오. 내 옛 함선의 좌표들을 당신의 항해 시스템에 설정했소이다."</text>
 			<quest event="CRYSTAL_UNLOCK"/>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -447,41 +447,41 @@
 		</event>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START_LIMITED"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<text>(함체 수리 도구) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 재빠르게 기뢰를 설치합니다. 지역 주민들에게 경고하기 위해 위험 신호를 설치 했습니다. 반란군은 이 비콘을 피하거나 기뢰구역을 제거하기 위해선 큰 피해를 입을 겁니다. 모든 가능성은 반란군 함대를 꽤 늦출 겁니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -489,7 +489,7 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 		</event>
@@ -497,10 +497,10 @@
 </event>
 
 <event name="CRYSTAL_UNLOCK">
-	<text>You arrive at the coordinates to find a massive Crystalline cruiser docked at a small repair station. You arrange for the ship to be sent back to the Federation base while the station upgrades your hull.</text>
+	<text>당신은 작은 수리용 정거장에 정박해 있는 수많은 크리스탈 함선들을 찾기 위한 좌표에 도착했습니다. 당신은 보급을 하고 선체를 수리하는 동안 연방기지로 돌아갈 계획을 작성했습니다.</text>
 	<autoReward level="MED">fuel</autoReward>
 	<damage amount="-10"/>
-	<unlockShip id="8">The Crystalline ship is sent to the hangar. The Bravais has been unlocked!</unlockShip>
+	<unlockShip id="8">크리스탈 함선이 격납고로 보내집니다. 브라바이가 해제됩니다!</unlockShip>
 </event>
 
 
@@ -508,19 +508,19 @@
 	<text load="CRYSTAL_FIGHT"/>
 	<ship load="CRYSTAL_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -532,11 +532,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -544,40 +544,40 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
 
 <event name="CRYSTAL_CONVOY" unique="true">
-	<text>A large convoy of lumbering civilian ships appears to be passing through this region. You show no hostile intentions but they are taking no chances, immediately sending their escort to attack!</text>
+	<text>느릿느릿한 민간함선들을 호위하는 거대한 호송대가 이 지역을 지나는 것 같습니다. 당신은 어떤 적대적의도도 보이지 않았지만, 그들은 신중하게도 즉시 그들의 호위대를 보내 공격해왔습니다!</text>
 	<ship load="CRYSTAL_CONVOY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -589,11 +589,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -601,40 +601,40 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
 
 <event name="CRYSTAL_HUNTER" unique="true">
-	<text>Crystal shards fly past your ship as soon as you jump. You scan to find the assailant and discover a Crystalline ship carrying a number of humans in its cargo bay. It must be hunting the intruding ships!</text>
+	<text>수정파편이 당신이 도약하자 마자 날아왔습니다. 당신은 당신은 공격위치를 탐지하고 수많은 인간들을 화물실에 싣고 있는 수정함선을 발견했습니다. 침입한 함선들을 사냥하고 있는 것이 분명합니다!</text>
 	<ship load="CRYSTAL_HUNTER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -646,11 +646,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -658,32 +658,32 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
 	
 <event name="CRYSTAL_REBEL" unique="false">
-	<text>As soon as you arrive, a Rebel ship jumps in after you; they must be really hot on your tail!</text>
+	<text>당신이 도착하자마자, 반란군 함선이 당신을 쫓아 도약했습니다. 그들은 확실히 당신의 꼬리를 다 잡은 상태입니다!</text>
 	<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -695,11 +695,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -707,32 +707,32 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
 
 <event name="CRYSTAL_AUTO" unique="true">
-	<text>The Rebels must have sent their automated scouts to find you. One jumps in and immediately moves to attack.</text>
+	<text>반란군이 당신을 자동 정찰기를 보낸 것이 틀림없습니다. 한 정찰기가 도약해 즉시 공격해옵니다.</text>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -744,11 +744,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -756,37 +756,37 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
 
 
 <event name="CRYSTAL_REBEL_CRYSTAL" unique="false">
-	<text>Crystal shards fly past the screen as soon as you arrive. Checking the scanners it looks like a crystalline ship is engaged with a Rebel!</text>
+	<text>수정파편이 당신이 도약하자마자 화면을 지나갑니다. 탐지기를 확인하니 수정함선이 반란군과 교전중에 있습니다!</text>
 	<choice hidden="true">
 		<text>Attack the Rebel.</text>
 		<event>
-			<text>You message the Crystalline ship your intentions and move in to intercept the Rebel ship.</text>
+			<text>당신은 수정함선에 당신의 의도를 전하고 반란군 함선을 막기 위해 움직입니다.</text>
 			<ship load="REBEL_CRYSTAL_REBEL_CRYSTAL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -798,11 +798,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -810,39 +810,39 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Attack the Crystalline ship.</text>
+		<text>크리스탈선을 공격한다.</text>
 		<event>
-			<text>You move in to intercept the Crystalline ship. As soon as the Rebel scans your ship it takes the opportunity to jump. You have the sneaking suspicion they will inform the fleet of your position, but that's the least of your current concerns.</text>
+			<text>당신은 수정함선을 막기 위해 움직입니다. 반란군은 당신의 함선을 탐지하자마자 도약할 준비를 했습니다. 당신은 속으로 그들이 함대에 당신의 위치를 알릴까 의심하지만 그것은 당신이 지금 당장 고민할만한 것이 아닙니다.</text>
 			<modifyPursuit amount="1"/>
 			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -854,11 +854,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -866,43 +866,43 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>그들을 무시한다.</text>
 		<event>
-			<text>With the two ships engaged in combat, you sneak by unnoticed.</text>
+			<text>두 함선이 교전하는 것을 놔둔 채 당신은 조용히 빠져나갔습니다.</text>
 		</event>
 	</choice>
 </event>
 <event name="CRYSTAL_MANTIS_CRYSTAL" unique="false">
-	<text>You discover a number of civilian ships fleeing the area. Shots are fired and you find the assailant; a Mantis ship is attacking one of the smaller ships!</text>
+	<text>당신은 많은 민간함선들이 이 지역에서 달아나는 것을 발견했습니다. 탄이 발사되었고 당신은 범인을 찾았습니다. 맨티스 함선이 작은 함선들 중 하나를 공격하고 있습니다.</text>
 	<choice hidden="true">
-		<text>Attack the Mantis.</text>
+		<text>맨티스를 공격한다.</text>
 		<event>
-			<text>You activate your impulse engines and fly between the Mantis and their prey, weapons charging. You appear to have their full attention.</text>
+			<text>당신은 임펄스 엔진을 가동하고 무기를 충전하며 맨티스와 그 먹이 사이로 날아갑니다. 당신은 완전히 그들의 주의를 끌고 있는 것 같습니다.</text>
 			<ship load="MANTIS_CRYSTAL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -914,11 +914,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -926,44 +926,44 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>그들을 무시한다.</text>
 		<event>
-			<text>You try to keep a low profile and quickly prepare to jump.</text>
+			<text>당신은 관심을 끌지 않은 채로 빠르게 도약준비를 했습니다.</text>
 		</event>
 	</choice>
 </event>
 <!-- Justin - TO DO - make a separate list? -->
 <event name="CRYSTAL_PIRATE_CRYSTAL" unique="false">
-	<text>A pirate ship jumps in right after you arrive at the beacon. It must have followed once the Long-Range Beacon was reactivated. It almost charges a small Crystalline transport ship, weapons armed.</text>
+	<text>해적선이 당신이 송신소에 도착한 직후 도약해왔습니다. 분명 장거리 송신소가 재가동되었을 때 쫓아온 것입니다. 해적은 작은 크리스탈 수송선을 거의 따라잡았으며 무장한 상태입니다.</text>
 	<choice hidden="true">
 		<text>Attack the pirate.</text>
 		<event>
-			<text>You chase down the pirate before it has a chance to engage the civilian ship. When it detects the real threat, it turns to face you.</text>
+			<text>당신은 해적이 민간함선과 교전하기 전에 그들을 잡았습니다. 위협을 느낀 그들의 시선은 당신을 향했습니다.</text>
 			<ship load="PIRATE_CRYSTAL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -975,11 +975,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -987,49 +987,49 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>그들을 무시한다.</text>
 		<event>
-			<text>You assume the Crystalline ship can handle itself. You have enough of your own problems.</text>
+			<text>당신은 크리스탈 함선이 스스로 해결할 수 있을 거라 판단했습니다. 당신은 이미 갖고 있는 문제들도 충분히 많습니다.</text>
 		</event>
 	</choice>
 </event>
 
 
 <event name="CRYSTAL_REBEL_CRYSTAL2" unique="true">
-	<text>You're greeted by an unwelcome sight - a Rebel advance ship is laying down fire on a Crystalline vessel in the distance.</text>
+	<text>반갑지 않은 광경이 당신을 반깁니다 - 반란군 최신형 함선이 멀리서 크리스탈 함선의 무장을 해제하고 있습니다.</text>
 	<choice hidden="true">
-		<text>Engage the Rebel ship.</text>
+		<text>반란군 함선과 교전한다.</text>
 		<event>
-			<text>Before you can engage, the Crystalline ship scores a direct hit and obliterates the Rebel ship! They hail, "You, you are like these other aliens! You brought them here!" With that they turn their cannons on you!</text>
+			<text>교전에 들어가기 전, 크리스탈 함선이 직격으로 반란군 함선을 제거합니다! 그들은 "당신, 당신도 다른 이방인과 똑같소! 결국 당신이 그들을 이곳에 데려온 것이니 말이오!"라고 외칩니다. 그들의 함포는 당신을 향해있습니다.</text>
 			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1041,11 +1041,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1053,27 +1053,27 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave them alone.</text>
+		<text>그들을 내버려둔다.</text>
 		<event>
-			<text>It's best to take advantage of the rare occasions when the Rebels aren't shooting at you. You prepare to jump.</text>
+			<text>반란군이 당신을 공격하지 않는 희귀한 상황은 이용하는 것이 좋습니다. 당신은 도약할 준비를 합니다.</text>
 		</event>
 	</choice>
 </event>
@@ -1081,29 +1081,29 @@
 			
 
 <event name="CRYSTAL_FED" unique="false">
-	<text>There appears to be a fight going on nearby. A Crystalline border guard is chasing a small Federation ship!</text>
+	<text>가까이서 전투가 일어나는 것처럼 보입니다. 크리스탈 국경보초가 작은 연방함선을 쫓고 있습니다!</text>
 	<choice hidden="true">
-		<text>Save the Federation ship.</text>
+		<text>연방선을 구해준다.</text>
 		<event>
-			<text>It doesn't look like the Fed ship can stand much more pressure. You fly in and intercept the Crystalline ship.</text>
+			<text>연방함선은 더 버틸 수 없어보입니다. 당신은 날아가 크리스탈 함선을 막습니다.</text>
 			<ship load="CRYSTAL_FED" hostile="true"/>
 		<choice req="ENERGY_SHIELD">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event>
-		<text>You explain that you are a guest in this sector and that the Federation ship belongs to your kind. Somewhat surprisingly, the crystal beings cease hostilities. "We did not know this, noble beings. Guests have a right of passage. But I will have to inform my lord about your presence here."</text>
+		<text>당신은 자신이 이 구역의 손님이고 연방선 역시 자신과 같은 부류에 속한다고 설명합니다. 놀랍게도, 결정 생명체들은 적대행위를 중단합니다. "고귀한 존재여, 우리는 이것을 몰랐습니다. 손님에게는 통행권이 있습니다. 그러나 각하에게 당신이 이 곳에 있는걸 알려 드려야겠습니다."</text>
 		<ship hostile="false"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CRYSTAL_FED_LIST"/>
 		</choice>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1115,11 +1115,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1127,39 +1127,39 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Prepare to leave.</text>
+		<text>떠날 준비를 한다.</text>
 		<event>
-			<text>With the Federation ship distracting the guard, you are free to continue on your mission.</text>
+			<text>연방함선이 보초의 주위를 분란시키는 동안, 당신은 임무를 수행하는데 문제가 없습니다.</text>
 		</event>
 	</choice>
 </event>
 
 
 <event name="CRYSTAL_FED_DESERTER" unique="true">
-	<text>For a moment you assume it's a glitch, but no... you've found a Federation military ship! They hail you and, after some probing, reveal that they deserted the Federation fleet before stumbling into this sector while seeking refuge.</text>
+	<text>>잠시 당신은 작은 문제가 생겼다고 여겼지만, 아닙니다... 당신은 연방군사함선을 발견했습니다. 그들은 당신에게 인사하고 조사한 뒤 그들은 연방함대에서 탈영해 피난처를 찾다 이 곳에 발이 묶였다고 밝힙니다.</text>
 	<ship load="FED_SHIP" hostile="false"/>
 	<choice hidden="true">
-		<text>Offer supplies.</text>
+		<text>필요 물품을 제공한다.</text>
 		<event>
-			<text> You send over some supplies to help them on their way and in return they upload their flight plan to your computer, allowing you to map the sector! "The Federation fleet's still standing - get there while you can!"</text>
+			<text> 당신은 약간의 보급품을 보내 그들을 돕고 그들은 대신 당신이 지도를 그릴 수 있도록 그들의 항해기록을 보냅니다. "연방함대는 아직 버티고 있습니다 - 할 수 있을 때 목표를 완수하십시오!"</text>
 			<item_modify>
 				<item type="fuel" min="-1" max="-3"/>
 				<item type="scrap" min="-15" max="-25"/>
@@ -1168,16 +1168,16 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Attack the traitors.</text>
+		<text>배신자를 공격한다.</text>
 		<event>
-			<text>Deserters cannot be tolerated and the penalty for desertion is death. You open fire on the cowards - though it doesn't please you to do so. The Federation needs every soldier it can get.</text>
+			<text>탈영병은 용납할 수 없습니다. 당신은 내키지 않지만 비겁자들을 공격합니다. 연방은 가능한한 많은 병력을 원합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1189,11 +1189,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1201,43 +1201,43 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave them be.</text>
+		<text>그들을 떠난다.</text>
 		<event>
-			<text>You send them a friendly warning regarding the armada of Rebel ships pursuing you, and then get underway lest they catch you.</text>
+			<text>당신은 친근하게 반란군 함대가 당신을 쫓고있음을 경고합니다. 그리곤 그들이 쫓지 못하도록 항해합니다.</text>
 		</event>
 	</choice>
 </event>
 
 
 <event name="CRYSTAL_HUMAN_TESTS" unique="true">
-	<text>You arrive near what appears to be a Crystalline research facility. A scientist quickly messages you, "Ah! You're those aliens! Please, I've heard so much about you and I'm really curious about your physiology! Would you let us run a few simple tests?"</text>
+	<text>당신은 크리스탈 연구시설로 보이는 곳 근처에 도착합니다. "아! 당신들이 바로 그 이방인이로군! 당신들에 대해 많이 들었고 당신들의 생리에 정말 관심이 많아! 간단한 테스트를 조금 해 봐도 되겠소이까?"</text>
 	<choice req="AE_SCIENCE" hidden="true"> 
-		<text>(On-board Science Lab) Offer to share data instead.</text>
+		<text>(선상 과학실) 대신에 자료 공유를 제안합니다.</text>
 		<event>
-			<text>The crystal scientists are thrille. "What is this? A full evolutionary data profile stored digitally? Marvelous! This will help our research immeasurably. Please, take this in exchange for your help."</text>
+			<text>크리스탈 과학자들은 열광했습니다. "이게 무엇이오? 디지털로 저장된 완전한 진화 데이터 프로필? 놀랍소! 분명 우리의 연구를 진일보시킬 수 있는 해답이 되어줄 것이오. 부디, 그대의 도움에 대한 대가를 받아주오."</text>
 			<autoReward level="MED">weapon</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Allow them to run tests on a crewmember.</text>
+		<text>승무원들에게 테스트를 진행할 수 있게 한다.</text>
 		<event load="CRYSTAL_HUMAN_TESTS_ACCEPT"/>
 	</choice>
 	<choice hidden="true">
@@ -1245,16 +1245,16 @@
 		<event load="CRYSTAL_HUMAN_TESTS_REFUSE"/>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock crewmember) Send your Rockman crew.</text>
+		<text>(락맨 승무원) 락맨 승무원을 보낸다.</text>
 		<event>
-			<text>"Ah! My dear evolutionary cousin! This is truly wonderful! We have countless historical records of your kind but we lack information on the past few hundreds of years. We can learn so much from these scans, we must get to analyzing them as soon as possible! Please, take this."</text>
+			<text>"오! 나의 유전학적 사촌이 아닌가! 정말 멋지지 않을 수 없소이다! 우리는 당신들에 대한 기록이 셀 수 없을 정도로 많이 있소만 최근 수백년의 정보는 부족했다오. 우리는 이 기회에 더 많이 알아갈 수 있을 거요. 그러니 가능한한 빨리 분석해야겠소! 이것을 받아주시오!"</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="BACKUP_DNA"> <!--DLC-->
-		<text>(Backup DNA Bank) Send your crew's data.</text>
+		<text>(유전 정보 보관소) 승무원의 유전 정보를 보내줍니다..</text>
 		<event>
-			<text>"What is this? Full genetic and personal profiles stored digitally? I did not think this possible... This will help our research immeasurably. Please, take this in exchange for your help."</text>
+			<text>"무엇에 쓰는 물건인고? 유전 정보와 개인의 성정을 디지털 데이터의 형태로 보관한단 말인가? 나는 이런 것이 가능할 것이라고는 생각도 하지 못했거늘... 분명 우리의 연구를 진일보시킬 수 있는 해답이 되어줄 것이오. 부디, 그대의 도움에 대한 대가를 받아주오."</text>
 			<autoReward level="MED">weapon</autoReward>
 		</event>
 	</choice>
@@ -1262,28 +1262,28 @@
 
 <eventList name="CRYSTAL_HUMAN_TESTS_REFUSE">
 	<event>
-		<text>"I see. That is a shame. Perhaps the next aliens we meet will have some respect for the advancement of science."</text>
+		<text>"알겠소. 그건 애석한 일이군. 아마도 우리가 만날 다음 이방인들은 과학의 진보에 조금의 존중이라도 가져 주겠지.</text>
 	</event>
 	<event>
-		<text>"I see. That is a shame. Perhaps the next aliens we meet will have some respect for the advancement of science."</text>
+		<text>"알겠소. 그건 애석한 일이군. 아마도 우리가 만날 다음 이방인들은 과학의 진보에 조금의 존중이라도 가져 주겠지.</text>
 	</event>
 	<event>
-		<text>"I see. That is a shame. However we must not let this opportunity pass us by. Submit and you will be treated reasonably well!" A military ship docked nearby detaches and charges you.</text>
+		<text>"알겠소. 그건 애석한 일이군. 하지만 우리는 이 기회를 그냥 보낼 수 없소. 항복하면 상당히 잘 대접받을 거요!" 근처에 정박해 있던 군선 하나가 발진하여 당신을 조준합니다.</text>
 		<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1295,11 +1295,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1307,19 +1307,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -1327,14 +1327,14 @@
 
 <eventList name="CRYSTAL_CHATTY_LIST">
 	<event>
-		<text>"Wow, thanks. Oh look, another alien ship! I wonder if they're as nice as you." Seeing the Rebel insignia you doubt they're friendly. They spot you and move in to attack, while the Crystalline civilian jumps away.</text>
+		<text>"허, 고맙군. 어라, 보시오, 또 다른 이방인 함선이오! 당신들만큼 친절할 지 모르겠는데." 반란군 표식을 보니 당신은 그들이 친절할 지 의심이 됩니다. 크리스탈 민간인이 도약할 동안 그들은 당신을 발견했고 공격에 들어갑니다.</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1346,11 +1346,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1358,59 +1358,59 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
 	<event>
-		<text>"Wow, thanks! I don't know if this is of any use to you, but we have some supplies we can offer you. Perhaps you can use them on your trip!"</text>
+		<text>"허, 고맙군. 이게 쓸모가 있을지는 모르겠소만 당신에게 줄 수 있는 것들이 있소. 아마 당신의 남은 여정동안 쓸 수 있을 것이오!"</text>
 		<autoReward level="RANDOM">stuff</autoReward>
 	</event>
 	<event>
-		<text>"Wow, thanks! Perhaps we can fix up a bit of your hull for sating my curiosity. We're pretty handy with repairs."</text>
+		<text>"허, 고맙군. 호기심의 댓가로서 당신의 선체를 수리해줄 수 있을 것이오. 수리에는 재주가 있으니 말이오."</text>
 		<damage amount="-6"/>
 	</event>
 </eventList>
 
 <eventList name="CRYSTAL_REQUEST_LIST">
 	<event>
-		<text>Unable to interpret it themselves, the Crystalline beings assume your data will mean something to the Rebels. It should see the pursuing fleet taking a leisurely cruise before they get back on track.</text>
+		<text>크리스탈인들은 당신이 제공한 정보를 자신들이 해석할 수는 없어도 반란군들에게는 무언가를 의미하는 것일 거라고 추정합니다. 당신에게는 추격 함대가 다시 제대로 추적을 시작하기 전에 여유로이 항해할 시간이 있음을 의미합니다.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 		<modifyPursuit amount="-1"/>
 	</event>
 	<event>
-		<text>They take one look at your fake telemetry and realize what you've done. They apparently do not take well being lied to... They immediately attack!</text>
+		<text>그들은 당신의 가짜 측정자료를 한번 보고 당신이 한 행동을 알았습니다. 그들은 보아하니 쉽게 속지 않습니다. 그들이 즉시 공격해옵니다!</text>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Get the field up, in case these things can teleport.</text>
+		<text>(텔레포터 방해장치) 이런 것들이 순간이동할 수 있는 경우를 대비하여, 방해 필드를 가동합니다.</text>
 			<event>
-				<text>You indeed detect something that could be teleporter targeting. The ship attacks!</text>
+				<text>당신은 텔러포터가 조준되었다는 것을 실제로 감지합니다. 배가 공격당합니다!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1422,11 +1422,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1434,35 +1434,35 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
 		</choice>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text> They immediately attack!</text>
+				<text> 그들은 즉시 공격합니다!</text>
 				<boarders min="1" max="2" class="crystal"/>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1474,11 +1474,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1486,19 +1486,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
@@ -1508,38 +1508,38 @@
 
 		
 <event name="CRYSTAL_HELP_DIG" unique="true">
-	<text>A large Crystalline ship is floating in space here. They hail, "Aliens?! How curious. We request your aid. We have men buried on a nearby planet and we must dig them out."</text>
+	<text>큰 크리스탈 함선이 이 공간에 있습니다. 그들이 신호를 보냅니다, "이방인들?! 신기하군. 우리가 도움을 요청했소. 가까운 행성에 묻힌 사람들이 있는데 그들을 찾아내야 하오."</text>
 	<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="false"/>
 	<choice hidden="true">
-		<text>Send a crew member to help.</text>
+		<text>돕기 위해 승무원을 보낸다.</text>
 		<event>
-			<text>You do as you're asked and send a crew member down to the planet to assist. They discover a massive Crystal excavation operation and it quickly becomes clear this is a task that will take days, not hours.</text>
+			<text>당신은 요청 받은 대로 승무원을 행성으로 내려 보냅니다. 그들은 거대한 크리스탈 발굴 작업을 발견했습니다. 작업이 몇 시간이 아니라 몇 일이 걸릴 것이라는 것이 명확해집니다.</text>
 			<choice hidden="true">
-				<text>Leave your crew member behind.</text>
+				<text>승무원들을 남기고 떠난다.</text>
 				<event>
-					<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
+					<text>당신은 연방을 구하고 연방의 규칙에 따를 것을 맹세했습니다. 당신의 승무원은 남아서 약속을 이행할 것입니다 - 당신은 아직 은하를 구해야합니다. 그들이 당신의 문제를 돕기위해 약간의 보급품을 줍니다.</text>
 					<autoReward level="MED">fuel</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Pull your guy out.</text>
+				<text>당신의 승무원을 빼낸다.</text>
 				<event>
-					<text>The Crystalline captain contacts you urgently, "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" He turns his massive ship on yours and you prepare to fight for your life.</text>
+					<text>크리스탈 함장이 당신에게 급하게 연락합니다. "이 행동의 의미가 무엇이오? 우리를 돕고 싶지 않았다면 그저 거절하면 됬을 것을, 이건... 모욕이 아니오!" 그는 거대한 함선을 당신에게 향하고 당신은 목숨을 걸고 싸울 준비를 합니다.</text>
 					<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1551,11 +1551,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1563,54 +1563,54 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 				</event>
 			</choice>
 			<choice>
-				<text>Wait.</text>
+				<text>기다린다.</text>
 				<event>
-					<text>You've made a commitment, and that still means something. You wait one jump cycle and then inquire with the Crystalline captain about the status of the operation. "We respect your strength. The operation will take one more cycle."</text>
+					<text>당신은 약속을 했고 그것은 아직 무언가를 의미합니다. 당신은 도약 주기 한 번을 더 기다리고 크리스탈선 함장에게 작업의 진척을 알아봅니다. "당신의 인내심에 존경을. 작업은 한 번의 주기가 더 걸릴 것이오."</text>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-						<text>Leave your crew member behind.</text>
+						<text>승무원들을 남기고 떠난다.</text>
 						<event>
-							<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
+							<text>당신은 연방을 구하고 연방의 규칙에 따를 것을 맹세했습니다. 당신의 승무원은 남아서 약속을 이행할 것입니다 - 당신은 아직 은하를 구해야합니다. 그들이 당신의 문제를 돕기위해 약간의 보급품을 줍니다.</text>
 							<autoReward level="HIGH">fuel</autoReward>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Pull your guy out.</text>
+						<text>당신의 승무원을 빼낸다.</text>
 						<event>
-							<text>The Crystalline captain contacts you urgently, "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" He turns his massive ship on yours and you prepare to fight for your life.</text>
+							<text>크리스탈 함장이 당신에게 급하게 연락합니다. "이 행동의 의미가 무엇이오? 우리를 돕고 싶지 않았다면 그저 거절하면 됬을 것을, 이건... 모욕이 아니오!" 그는 거대한 함선을 당신에게 향하고 당신은 목숨을 걸고 싸울 준비를 합니다.</text>
 							<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1622,11 +1622,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1634,27 +1634,27 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Wait.</text>
+						<text>기다린다.</text>
 						<event>
-							<text>Another cycle passes while the Rebel fleet draws ever nearer. You are contacted by the captain again, "Alien Captain, your knowledge of our customs has most impressed us. Your crew member is on their way back to you now, along with a token of our respect."</text>
+							<text>또 다른 주기가 지나고 반란군 함대는 더 가까이 왔습니다. 당신은 함장과 다시 한 번 연락합니다. "이방인 함장이여, 우리의 관습에 대한 당신의 지식은 우리를 매우 감격케 하였소. 당신의 승무원들은 우리가 보내는 존중의 표시와 함께 당신에게 돌아가고 있소."</text>
 							<modifyPursuit amount="1"/>
 							<autoReward level="HIGH">augment</autoReward>
 							<weapon name="CRYSTAL_HEAVY_2"/>
@@ -1667,7 +1667,7 @@
 	<choice>
 		<text>Refuse.</text>
 		<event>
-			<text>"We understand. You rely on machines for so much. Yours is a soft and weak species - we would hardly even have noticed your presence. Fly well."</text>
+			<text>"알겠소. 당신들은 기계에 무척이나 의지하는 군. 당신들은 부드러운, 약한 종족이외다. 그 존재를 거의 느낄 수 없을 만큼이나 말이지. 잘 가시오."</text>
 		</event>
 	</choice>
 </event>
@@ -1677,23 +1677,23 @@
 <event name="BOARDERS_CRYSTAL" unique="false">
 	<text load="BOARDERS_CRYSTAL"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Get the field up, in case these things can teleport.</text>
+		<text>(텔레포터 방해장치) 이런 것들이 순간이동할 수 있는 경우를 대비하여, 방해 필드를 가동합니다.</text>
 		<event>
-			<text>You indeed detect something that could be teleporter targeting. The crew recommends getting out of here before they call in their warships.</text>
+			<text>당신은 텔레포터를 목표로 할 수 있는 물건을 발견하게 됩니다. 선원들은 그들의 군함을 부르기 전에 나가라고 권고합니다.</text>
 		</event>
 	</choice>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>You hear lasers ricocheting from within the ship. You've been boarded!</text>
+			<text>당신은 배 안에서 레이저가 튀어 나오는 소리를 들었습니다. 이미 그들은 승선했습니다!</text>
 			<boarders min="1" max="2" class="crystal"/>
 		</event>
 	</choice>
 </event>
 <textList name="BOARDERS_CRYSTAL">
-	<text>You detect a heavily armed Crystalline ship escorting some sort of prison vessel. Scans indicate there are a number of non-Crystal based life forms aboard; they must be rounding up all of the intruders in their space! Before you can react, you hear the annoying sound of your ship's teleporter warning.</text>
-	<text>You arrive near a small settlement and a lone guard ship moves to intercept you. You try to contact them but they are refusing all hails.</text>
-	<text>You pick up chatter from a nearby ship, "Yes... Here are some interesting specimens. Try to take them alive this time; there's a lot of money to be had on aliens." Scanners indicate a remote teleporter is powering up.</text>
+	<text>당신은 중무장 된 수정 함선이 어떤 감옥 함선을 호위하고 있는 것을 감지합니다. 탐지기는 다수의 비수정형 생명체가 함선에 타고 있음을 나타냅니다. 그들은 그들의 지역에 있는 모든 침입자를 잡아들이고 있는 것이 분명합니다! 당신이 반응하기 전에, 당신은 텔레포터의 감출 수 없는 소리가 들려오는 것을 느낍니다.</text>
+	<text>당신은 작은 주거지역 옆에 도착했고 유일한 방어선이 당신을 막기위해 이동했습니다. 당신은 그들과 통신하려하지만 그들은 신호를 거절하고 있습니다. 갑자기 당신은 광선이 함선 내부에서 튀어나오는 소리를 듣습니다. 당신의 함선은 침투당했습니다.</text>
+	<text>당신은 가까운 함선에서 통신하는 것을 엿들었습니다.. "그래... 여기 흥미로운 표본들이 좀 있소. 이번엔 그들을 살려두도록 하시오, 이방인들은 돈이 많거든. " 탐지기에서 원격텔레포터의 사용이 감지되었습니다.</text>
 </textList>
 
 
@@ -1713,11 +1713,11 @@
 </eventList>
 
 <textList name="CRYSTAL_FIGHT_DESTROYED">  
-	<text>The elusive shape of the crystalline ship eventually succumbs to the assault, exploding into a cloud of crystal armor and metal.</text>
-	<text>The final shots chip away at the hull of the crystalline vessel, causing it to shatter into thousands of pieces, usable scrap and metalwork intertwined with the debris.</text>
-	<text>The crystalline ship submits to the force of the attack and breaks apart into crystal shards and assorted scrap materials.</text>
-	<text>The crystalline beings inside their ship soon become one with space as their vessel breaks apart around them, the components within soon entering your cargo holds.</text>
-	<text>The shiny blue ship before you submits to the barrage from your arsenal and shatters into bits, the inner workings ripe for the picking.</text>
+	<text>이해하기 힘든 모습의 수정체 함선은 결국 공격에 굴복하여, 수정 갑옷과 금속의 구름으로 폭발합니다.</text>
+	<text>마지막 공격은 수정체 함선의 선체를 조금씩 깍아내렸고, 함선은 수천 조각으로 산산조각납니다. 사용 가능한 스크랩과 금속 조각이 파편과 얽혀 있습니다.</text>
+	<text>수정체 함선은 공격에 굴복하여 수정 파편과 여러가지 고철 물질로 부서졌습니다.</text>
+	<text>선박 내부의 크리스탈 생명체들은 선박이 떨어져 나갈 때, 우주와 하나가 되었습니다. 곧 그것들은 당신의 화물 구성품이 됩니다.</text>
+	<text>반짝이는 푸른 함선은 당신의 무기고에서 발사하기 전에 산산조각 나버렸고, 내부 작업은 수집할 준비가 되었습니다.</text>
 </textList>
 
 
@@ -1726,33 +1726,33 @@
 <event name="STORE_CRYSTAL">
 	<text load="STORE_CRYSTAL"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 화물을 신속히 이송할 준비를 하고 상품을 살펴봅니다.</text>
 		<event load="TE_STORE_CRYSTAL_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TE_STORE_CRYSTAL_LIST"/>
 	</choice>
 	<store/>
 </event>
 <textList name="STORE_CRYSTAL">
-	<text>You arrive in an area bustling with crystalline ships and stations. A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
-	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
-	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out some sort of exchange."</text>
-	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
+	<text>당신은 수정으로 이루어진 함선과 정거장으로 북적거리는 지역에 도착했습니다. 한 상인이 당신에게 재빨리 메세지를 보냈습니다. "당신은 외곽지역에서 온 게 분명하군, 그렇지 않소? 이건 나에게나 당신에게나 좋은 기회가 될거요. 팔거나 거래하고 싶은 것이 있으신가?"</text>
+	<text>"아! 안녕하시오 이방인 여러분?" 퉁퉁한 크리스탈이 화면에 나타났습니다. "당신들을 만나봤으면 하외다. 나는 이방인들의 유물을 수집하고 있는데, 당신들이 나와 교환할만한 무언가를 가지고 있다면 좋겠소만."</text>
+	<text>당신은 교환소에 도착해 당신과 거래하고 싶어하는 상점을 찾았습니다. "이전에 당신 종족과 거래했다고 말 할 수는 없겠지. 하지만 아마 우리는 어느정도 거래라는 것을 할 수는 있을거요."</text>
+	<text>당신은 전파를 송신했지만 잘 알아들을 수 없었습니다. 마침내 당신은 그것이 장비 상점의 광고라는 것을 알았습니다. "미안하오." 당신이 마침내 화면에 상인의 모습을 띄우는 데 성공하자 상인이 말했습니다. "우주 통역기를 사용할 일이 한동안 없었단 말이지. 와서 이것저것 구경하시오!"</text>
 	
-	<text>You arrive in an area bustling with crystalline ships and stations. A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
-	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
-	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out so sort of exchange?"</text>
-	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
+	<text>당신은 수정으로 이루어진 함선과 정거장으로 북적거리는 지역에 도착했습니다. 한 상인이 당신에게 재빨리 메세지를 보냈습니다. "당신은 외곽지역에서 온 게 분명하군, 그렇지 않소? 이건 나에게나 당신에게나 좋은 기회가 될거요. 팔거나 거래하고 싶은 것이 있으신가?"</text>
+	<text>"아! 안녕하시오 이방인 여러분?" 퉁퉁한 크리스탈이 화면에 나타났습니다. "당신들을 만나봤으면 하외다. 나는 이방인들의 유물을 수집하고 있는데, 당신들이 나와 교환할만한 무언가를 가지고 있다면 좋겠소만."</text>
+	<text>수정으로 이루어진 함선과 정거장으로 북적거리는 지역에 도착했습니다. 한 상인이 당신에게 재빨리 메세지를 보냈습니다. "당신은 외곽지역에서 온 게 분명하군, 그렇지 않소? 이건 나에게나 당신에게나 좋은 기회가 될거요. 팔거나 사고 싶은 것이 있으신가?"</text>
+	<text>당신은 전파를 송신했지만 잘 알아들을 수 없었습니다. 마침내 당신은 그것이 장비 상점의 광고라는 것을 알았습니다. "미안하오." 당신이 마침내 화면에 상인의 모습을 띄우는 데 성공하자 상인이 말했습니다. "우주 통역기를 사용할 일이 한동안 없었단 말이지. 와서 이것저것 구경하시오!"</text>
 </textList>
 
 <eventList name="TE_STORE_CRYSTAL_LIST">
 	<event>
-		<text>You consider striking a deal here. This might take some time.</text>
+		<text>당신은 상인과 거래하는 것을 좀 더 고려합니다. 아마 좀 더 시간이 걸릴 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy some crystal relics.</text>
+			<text>크리스탈족 유물을 삽니다.</text>
 			<event>
 				<text load="STORE_CRYSTAL_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -1764,13 +1764,13 @@
 		</choice>
 <!-- SELLING -->
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 50 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1780,13 +1780,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 40 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1796,13 +1796,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 60 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1812,13 +1812,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1828,13 +1828,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 45 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1844,13 +1844,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 70 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1860,13 +1860,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 55 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1876,13 +1876,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 50 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1892,13 +1892,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 40 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1908,13 +1908,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 55 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1924,13 +1924,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
-			<text>[Sell the Zoltan Legal Codex for about 50 Scrap]</text> <!-- updated -->
+			<text>[졸탄족 법전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1940,13 +1940,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 약 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1956,9 +1956,9 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Literature for about 50 Scrap]</text>
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text>
 			<event>
-				<text>The Crystal being seems quite amused by this reading material. Its kind are referenced as some kind of divine prophet race.</text>
+				<text>크리스탈 생명체들은 이 읽얼거리 덕분에 꽤 재미있어 보입니다. 이 종족이 멋진 선지자 종족으로 언급됩니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="45" max="60"/> <!-- updated2 -->
@@ -1966,13 +1966,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
-			<text>[Sell Ship Hull Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[함체 패널을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1982,13 +1982,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 75 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 75 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -1998,13 +1998,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 50 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2014,13 +2014,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 70 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2030,13 +2030,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artwork for about 65 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2046,13 +2046,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 55 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2062,13 +2062,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 65 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2078,13 +2078,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2094,13 +2094,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2110,13 +2110,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
-			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<text>[AI 조사 자료를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2126,13 +2126,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2142,13 +2142,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2158,13 +2158,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2174,13 +2174,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2190,13 +2190,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2207,13 +2207,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2223,13 +2223,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2239,13 +2239,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2255,13 +2255,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2271,13 +2271,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2287,13 +2287,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2303,13 +2303,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2319,13 +2319,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2335,13 +2335,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2351,13 +2351,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2367,13 +2367,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2383,13 +2383,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2399,13 +2399,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2415,13 +2415,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2431,13 +2431,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2447,13 +2447,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2463,13 +2463,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2479,13 +2479,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2495,13 +2495,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2511,13 +2511,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2527,13 +2527,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -2543,40 +2543,40 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just quickly check the available ship equipment.</text>
+			<text>오직 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
 </eventList>
 
 <textList name="STORE_CRYSTAL_BUY_TEXT">
-	<text>You transfer the scrap. You are not sure if you just bought priceless art or simply cheap crap. No one knows what purpose these artifacts serve... While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
-	<text>You agree to transfer the scrap, but making the deal still takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting. Luckily, you have the universal translator.</text>
+	<text>스크랩을 전송합니다. 당신은 당신이 값진 미술품을 샀는지 아니면 그저 싸구려 쓰레기를 샀는지 확신할 수 없습니다. 이 유물들이 대체 어떤 용도를 가지고 있는지 아무도 모릅니다...  승무원이 화물을 적재하는 동안 상점에서 제공하는 함선 장비를 살펴보십시오. 시간이 경과합니다.</text>
+	<text>스크랩 전송 명령서를 작성합니다. 명령을 처리하는데 시간이 좀 걸리고, 화물을 싣는데 더 많은 시간이 걸립니다. 기다리는 동안 함선 장비 목록을 확인합니다. 운좋게도, 당신은 범용 번역기를 가지고 있었습니다..</text>
 </textList>
 <textList name="STORE_CRYSTAL_SELL_TEXT">
-	<text>These beings never traded with an outsider in their whole life and seem to think it is great fun. They don't care about the price at all, but haggle as some kind of game or exotic performance.</text>
+	<text>이 생명체들은 평생동안 외부 생명체와 거래한 적이 없으며, 이것이 굉장히 즐겁다고 생각하는 것 같습니다. 그들은 가격에는 전혀 신경쓰지 않고, 어떤 종류의 게임이나 이국적인 공연으로 흥정을 합니다.</text>
 </textList>
 
 
 <eventList name="TE_STORE_CRYSTAL_LIST_BOOSTED">
 	<event>
-		<text>You consider striking a deal here.</text>
+		<text>당신은 여기서 눈에 띄는 거래하는 것을 고려합니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy some crystal relics.</text>
+			<text>크리스탈족 유물을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT"/>
 				<item_modify>
@@ -2587,13 +2587,13 @@
 		</choice>
 <!-- SELLING -->
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 50 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2602,13 +2602,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 40 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2617,13 +2617,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 60 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2632,13 +2632,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2647,13 +2647,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 45 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2662,13 +2662,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 70 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2677,13 +2677,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 55 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2692,13 +2692,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 50 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2707,13 +2707,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 40 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2722,13 +2722,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 55 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2737,13 +2737,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
-			<text>[Sell the Zoltan Legal Codex for about 50 Scrap]</text> <!-- updated -->
+			<text>[졸탄족 법전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2752,13 +2752,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 약 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2767,22 +2767,22 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Literature for about 50 Scrap]</text>
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text>
 			<event>
-				<text>The Crystal being seems quite amused by this reading material. Its kind are referenced as some kind of divine prophet race.</text>
+				<text>크리스탈 생명체들은 이 읽얼거리 덕분에 꽤 재미있어 보입니다. 이 종족이 멋진 선지자 종족으로 언급됩니다.</text>
 				<item_modify>
 					<item type="scrap" min="45" max="60"/> <!-- updated2 -->
 				</item_modify>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
-			<text>[Sell Ship Hull Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[함체 패널을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2791,13 +2791,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 75 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 75 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2806,13 +2806,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 50 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2821,13 +2821,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 70 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2836,13 +2836,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artwork for about 65 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2851,13 +2851,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 55 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2866,13 +2866,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 65 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_CRYSTAL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2881,13 +2881,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2896,13 +2896,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2911,13 +2911,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
-			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<text>[AI 조사 자료를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2926,13 +2926,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2941,13 +2941,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2956,13 +2956,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2971,13 +2971,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -2986,13 +2986,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3002,13 +3002,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3017,13 +3017,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3032,13 +3032,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3047,13 +3047,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3062,13 +3062,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3077,13 +3077,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3092,13 +3092,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3107,13 +3107,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3122,13 +3122,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3137,13 +3137,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3152,13 +3152,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3167,13 +3167,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3182,13 +3182,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3197,13 +3197,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3212,13 +3212,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3227,13 +3227,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3242,13 +3242,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3257,13 +3257,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3272,13 +3272,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3287,13 +3287,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3302,13 +3302,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -3317,19 +3317,19 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just check the available ship equipment.</text>
+			<text>오직 사용할 수 있는 함선 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
