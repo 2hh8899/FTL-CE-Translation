@@ -6769,7 +6769,7 @@ IDEAS
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
