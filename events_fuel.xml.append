@@ -68,7 +68,7 @@
 		<event>
 			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 선원들을 불쾌하게 만들 것입니다.</text>
 			<choice hidden="true"> 
-				<text>약탈을 강행하고 선원들의 반응을 살펴본다.</text>
+				<text>작전을 강행하고 선원들의 반응을 살펴본다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
@@ -115,7 +115,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -127,11 +127,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -139,19 +139,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -173,7 +173,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -185,11 +185,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -197,19 +197,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -221,7 +221,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -233,11 +233,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -245,19 +245,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -294,7 +294,7 @@
 				<text>괴로운 일이었지만, 이것은 연방과 모두의 자유를 위한 것입니다. 당신은 당신의 마음이 바뀌기 전에 떠났습니다.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>당신은 도약 직전 Clone Bay를 확인해보지만, 작동하지 않는 것 같습니다.</text>
+					<text>당신은 도약 직전 클론 배양실를 확인해보지만, 작동하지 않는 것 같습니다.</text>
 				</removeCrew>
 			</event>
 		</choice>
@@ -330,11 +330,11 @@
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>함선을 위한 특수한 장비를 제작한다.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_NO_FUEL"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(전투 시뮬레이터) 시뮬레이션으로 승무원들의 능력을 훈련시킨다.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
@@ -417,7 +417,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>신호소에 더 오래 머물며 선체 전체에 대한 점검을 실시한다. [ 선체 내구도: +20; 스크랩: -30; 함대 추격이 1 도약 빨라짐 ]</text>
+				<text>송신소에 더 오래 머물며 선체 전체에 대한 점검을 실시한다. [ 선체 내구도: +20; 스크랩: -30; 함대 추격이 1 도약 빨라짐 ]</text>
 				<event>
 					<text load="CE_FULL_MAINTENANCE_TEXT"/>
 					<item_modify>
@@ -458,7 +458,7 @@
 		</event>
 	</choice>
 	<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-		<text>(AI 아바타 생성기) 지각있는 홀로그램으로 승무원을 보충한다. [ 스크랩: -15 ]</text>
+		<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다.. [ 스크랩: -15 ]</text>
 		<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 	</choice>
 	<choice req="AE_PRODUCTION" hidden="true">
@@ -489,7 +489,7 @@
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>You consider our options.</text>
+				<text>당신은 선택지를 고려해 봅니다.</text>
 		<choice req="CRYSTAL_SHARDS" hidden="true">
 			<text>(크리스탈 복수자) 함선의 크리스탈 함체를 재배열하여 반격 능력을 증강시킨다. [ 선체 피해: 5; 전투 강화 장비: 크리스탈 복수자 ]</text>
 			<event>
@@ -578,7 +578,7 @@
 		<choice req="AUTO_COOLDOWN" hidden="true">
 			<text>(고급 타게팅 컴퓨터) 기술자가 무기 조준을 위한 추가적인 설비를 설치하도록 한다. [ 스크랩: -60; 강화 장치: 고급 타게팅 컴퓨터 ]</text>
 			<event>
-				<text>전원 공급 장치가 과부화되고, 조준 루틴이 맞춰지며 두번째 목표 조준기가 설치됩니다. 이 작업은 온전한 도약 시간을 소모할 것이지만, 선제 공격 능력은 확실하게 증강될 것입니다. 당신은 선원들에게 수고했다고 격려해줍니다.</text>
+				<text>전원 공급 장치가 과부화되고, 무기 조준 과정이 맞춰지며 두번째 목표 조준기가 설치됩니다. 이 작업은 온전한 도약 시간을 소모할 것이지만, 선제 공격 능력은 확실하게 증강될 것입니다. 당신은 선원들에게 수고했다고 격려해줍니다.</text>
 				<item_modify>
 					<item type="scrap" min="-60" max="-60"/>
 				</item_modify>
@@ -744,9 +744,9 @@
 			</event>
 		</choice>
 		<choice req="NANO_MEDBAY" hidden="true">
-			<text>(Engi Med-bot Dispersal) Find a way to disperse med-bots more selectively. [ 스크랩: -45; Weapon: Healing Cluster Burst ]</text>
+			<text>(엔지식 의료용 나노봇 살포기) 의료용 나노봇을 집중적으로 살포할 방법을 찾아본다. [ 스크랩: -45; 무기: 치료 집속탄 ]</text>
 			<event>
-				<text>You crew thinks this might be possible. "We could use bomb teleporter technology for that." You put the whole team on it and they go to work on a prototype.</text>
+				<text>당신의 선원은 이 계획을 실현할 방법을 알고 있는 것 같습니다. "폭탄의 순간이동 기술을 활용해 보죠." 당신은 전 승무원을 시제품 제작에 투입합니다.</text>
 				<item_modify>
 					<item type="scrap" min="-45" max="-45"/>
 				</item_modify>
@@ -768,9 +768,9 @@
 			</event>
 		</choice>
 		<choice req="AE_REPAIR_KIT" hidden="true">
-			<text>(Hull Repair Kit) We need to be able to repair our hull faster, even during combat. [ 스크랩: -120; Weapon: Nano Repair Blast ]</text>
+			<text>(함체 수리장비) 전투 중에도 선체를 수리할 수 있는 방법을 찾아본다. [ 스크랩: -120; 무기: 함체 수리 폭탄 ]</text>
 			<event>
-				<text>You crew thinks this might be possible. "We could do this with nano bots, like the ones that are in the hull foam. That stuff can do anything! But building a device that teleports these bots from scratch will come costly." You put the whole team on it and they go to work on a prototype.</text>
+				<text>당신의 선원을 이 계획을 실현할 방법을 알고 있는 것 같습니다. "선체를 수리할때 쓰는 나노봇을 활용해 보죠. 그걸로는 뭐든지 가능할 겁니다! 하지만 나노봇을 텔레포트할 장비를 만드는덴 비용이 꽤 들 것입니다." 당신은 전 승무원을 시제품 제작에 투입합니다.</text>
 				<item_modify>
 					<item type="scrap" min="-120" max="-120"/>
 				</item_modify>
@@ -792,9 +792,9 @@
 			</event>
 		</choice>
 		<choice req="WEAPONS_BEAM_MINING" hidden="true">
-			<text>(Mining Beam) Let the crew design a schematic for a mining drone. [ 스크랩: -75; Drone: Anti-Ship Beam Drone I ]</text>
+			<text>(채굴용 빔) 채굴용 드론 설계도를 제작한다. [ 스크랩: -75; 드론: 대함 빔 드론 1 ]</text>
 			<event>
-				<text>Mining drones are common enough. With the beam weapon at hand for study, the team is able to put together a basic mining drone design. Prototyping it will consumes some of your supplies, but everyone is confident that you will soon make profit from the resources that the drone can discover.</text>
+				<text>채굴용 드론은 흔한 물건입니다. 승무원들은 빔 무기를 연구하여 기본적인 채굴 드론의 설계도를 만들어낼 수 있었습니다. 드론의 시제품을 만드는데 자원이 꽤 소모되었지만, 채굴한 자원으로 그에 맞는 이익을 챙길 수 있을 것이라 자신합니다.</text>
 				<item_modify>
 					<item type="scrap" min="-75" max="-75"/>
 				</item_modify>
@@ -816,9 +816,9 @@
 			</event>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true">
-			<text>(Slug Ship) Construct an exotic Slug scanner, just in case your senses should fail you. [ 스크랩: -45; 강화 장치: Subspace Scanner ]</text>
+			<text>(슬러그 함선) 일반적인 센서의 작동 불능 상황에 대비하여 특이한 슬러그족 스캐너를 제작한다. [ 스크랩: -45; 강화 장치: 심층 우주 스캐너 ]</text>
 			<event>
-				<text>Some say these devices actually uses tube grown Slug brains to function. The old blueprints you find in ship computer do not speak of that though; the scanner can be made from scrap. This specialized tech will allow your sensors to function even within the thickest nebula.</text>
+				<text>소문에 의하면 이 장비에는 양식된 슬러그의 두뇌가 들어가 있다고 합니다. 함선에서 찾은 오래된 설계도에는 그런 내용은 없었으며 스크랩만 사용해서 제작이 가능하다고 합니다. 이 전문화된 스캐너는 어떠한 성운 속에서라도 작동을 보장할 것입니다.</text>
 				<item_modify>
 					<item type="scrap" min="-45" max="-45"/>
 				</item_modify>
@@ -840,11 +840,11 @@
 			</event>
 		</choice>
 		<choice req="DRONE_SPEED" hidden="true">
-			<text>(Improved Internal AI) Try to draw up some more schematics for on-board drones.</text>
+			<text>(향상된 내부 AI) Try to draw up some more schematics for on-board drones.</text>
 			<event>
 				<text>You sit down with your crew; and the matter is quickly decided: This ship needs more robots. The internal AI should be able do the designs and test them.</text>
 				<choice req="DRONE_SPEED" hidden="true">
-					<text>(Improved Internal AI) Have the AI design a repair drone. [ 스크랩: -45; Drone: System Repair Drone ]</text>
+					<text>(향상된 내부 AI) Have the AI design a repair drone. [ 스크랩: -45; 드론: 시스템 복구 드론 ]</text>
 					<event>
 						<text>You use the local file sharing network to get you hands on a basic schematic and the internal AI modifies the design to be fully compatible with your ship.</text>
 						<item_modify>
@@ -868,7 +868,7 @@
 					</event>
 				</choice>
 				<choice req="DRONE_SPEED" hidden="true">
-					<text>(Improved Internal AI) Have the AI design a security drone. [ 스크랩: -45; Drone: Faulty A.P. Drone ]</text>
+					<text>(향상된 내부 AI) Have the AI design a security drone. [ 스크랩: -45; 드론: 불완전 대인 드론 ]</text>
 					<event>
 						<text>The drone AI quickly compiles a prototype, but testing it will take some times. The energy consumption will be a little high, but that only adds character. Your already tries to decide how the drone shall be named...</text>
 						<item_modify>
@@ -892,7 +892,7 @@
 					</event>
 				</choice>
 				<choice req="DRONE_SPEED" hidden="true">
-					<text>(Improved Internal AI) Have the AI design a boarding drone. [ 스크랩: -75; Drone: Boosterless Boarding Drone ]</text>
+					<text>(향상된 내부 AI) Have the AI design a boarding drone. [ 스크랩: -75; 드론: 비추진 강습 드론 ]</text>
 					<event>
 						<text>Download an open source terminator design, slap on some primitive chemical rockets and viola, you are done. Its almost scary how easy it has become to design killer robots.</text>
 						<item_modify>
@@ -916,7 +916,7 @@
 					</event>
 				</choice>
 				<choice req="DRONE_SPEED" hidden="true">
-					<text>(Improved Internal AI) Have the AI design a high tech boarding drone. [ 스크랩: -95; Drone: Intruder Drone ]</text>
+					<text>(향상된 내부 AI) Have the AI design a high tech boarding drone. [ 스크랩: -95; 드론: 이온 확산 드론 ]</text>
 					<event>
 						<text>The AI develops plans for a cutting edge boarding drone that uses ion pulses to stun crew and disable systems.</text>
 						<item_modify>
@@ -940,13 +940,13 @@
 					</event>
 				</choice>
 				<choice>	
-					<text>Change your mind. You'd rather rely on your sentient crew.</text>
+					<text>마음을 바꿉니다. 지금 있는 선원들로도 충분합니다.</text>
 					<event/>
 				</choice>
 			</event>
 		</choice>
 		<choice req="ARTILLERY_FED" hidden="true">
-			<text>(Federation Ship) Refit the entire cruiser with Federation standard issue hazard suits. [ 스크랩: -60; 강화 장치: Adaptive Gel Suits ]</text>
+			<text>(연방 함선) Refit the entire cruiser with Federation standard issue hazard suits. [ 스크랩: -60; 강화 장치: 적응형 젤 슈트 ]</text>
 			<event>
 				<text>The engineering team goes to work and manufactures some advanced environmental protection suits, following the Federation handbook. These marvelous things will keep your crew alive for some time, even in case of complete pressure loss.</text>
 				<item_modify>
@@ -969,7 +969,7 @@
 			</event>
 		</choice>
 		<choice req="ARTILLERY_FED" hidden="true">
-			<text>(Federation Ship) Refit the entire cruiser with Federation standard issue fire suppression systems. [ 스크랩: -90; 강화 장치: Fire Suppression ]</text>
+			<text>(연방 함선) Refit the entire cruiser with Federation standard issue fire suppression systems. [ 스크랩: -90; 강화 장치: 화재 진화 장비 ]</text>
 			<event>
 				<text>The engineering team goes to work and refits the ship with cutting edge micro foam sprinklers. This recent tech can even take out plasma fires, all by itself.</text>
 				<item_modify>
@@ -993,7 +993,7 @@
 			</event>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true">
-			<text>(Mantis Ship) Upgrade the ships teleporters with bio-reconstruction tech. [ 스크랩: -105; 강화 장치: Reconstructive Teleport ]</text>
+			<text>(맨티스 함선) Upgrade the ships teleporters with bio-reconstruction tech. [ 스크랩: -105; 강화 장치: 생체 재구성 텔레포트 ]</text>
 			<event>
 				<text>The upgraded teleporters will reconstruct your crews bodies during particle transit. You never though something like this is even possible. Rumors have it the Mantis stole this tech from the newly arrived Lanius invaders. You doubt they could have envisioned something like this themselves, but you never know...</text>
 				<item_modify>
@@ -1017,7 +1017,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade your ship with specialized shield phase technology for teleporters. [ 스크랩: -70; 강화 장치: Zoltan Shield Bypass ]</text>
+			<text>(졸탄 함선) Upgrade your ship with specialized shield phase technology for teleporters. [ 스크랩: -70; 강화 장치: 졸탄 방어막 우회장비 ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>
@@ -1041,7 +1041,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Construct an external supershield projector unit. [ 스크랩: -50; Fuel -8; Drone: Shield Overcharger ]</text>
+			<text>(졸탄 함선) Construct an external supershield projector unit. [ 스크랩: -50; Fuel -8; 드론: 방어 과충전 드론 ]</text>
 			<event>
 				<text>Top secret blueprints of this new tech have been distributed to all Zoltan captains when the conflict escalated. You decide to put the device an a test run. It requires a separate fuel reserve to ignite an FTL reaction, which then generates impenetrable shield layers. The process is to dangerous to be conducted inside a space-ship, you will have to remotely control the device via a drone system.</text>
 				<item_modify>
@@ -1065,7 +1065,7 @@
 			</event>
 		</choice>
 		<choice>	
-			<text>Change your mind.</text>
+			<text>생각을 바꾼다.</text>
 			<event/>
 		</choice>
 			</event>
@@ -1097,7 +1097,7 @@
 	</event>
 			</choice>
 			<choice req="slug">
-				<text>(Slug Crew) Clone your Slug crew member.</text>
+				<text>[슬러그 선원] Clone your Slug crew member.</text>
 	<event>
 		<text>After a while, a Slug almost indistinguishable from its genetic parent slumps out of the glowing lab cylinder. The cloning process was a success, the clone is ready for duty and a little distressed by the circumstances of its birth.</text>
 		<item_modify>
@@ -1107,7 +1107,7 @@
 	</event>
 			</choice>
 			<choice hidden="true">
-				<text>Change your mind and move on.</text>
+				<text>그만둔다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1188,13 +1188,13 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Change your mind and move on.</text>
+					<text>그만둔다.</text>
 					<event/>
 				</choice>
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>[엔지 선원] Produce simple industrial machines. [ 스크랩: -15; 강화 장치: Industrial Machinery ]</text>
+			<text>[엔지 선원] Produce simple industrial machines. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
 			<event>
 				<text>Your on-board production facilities assemble some standardized machinery. The crew packs the goods and loads them into the cargo holds.</text>
 				<item_modify>
@@ -1204,7 +1204,7 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>(Rock Crew) Manufacture sturdy hull parts. [ 스크랩: -15; 강화 장치: Ship Hull Panels ]</text>
+			<text>[락맨 선원] Manufacture sturdy hull parts. [ 스크랩: -15; 강화 장치: Ship Hull Panels ]</text>
 			<event>
 				<text>스크랩 is turned into sturdy hull panels. The loading arms can barely handle the weight and you have to readjust the artificial gravity to make packing the parts easier.</text>
 				<item_modify>
@@ -1214,7 +1214,7 @@
 			</event>
 		</choice>
 		<choice req="slug" hidden="true">
-			<text>(Slug Crew) Produce an arms-shipment. [ 스크랩: -20; 강화 장치: Small Arms ]</text>
+			<text>[슬러그 선원] Produce an arms-shipment. [ 스크랩: -20; 강화 장치: Small Arms ]</text>
 			<event>
 				<text>The assembly line turns the scrap into auto-blasters with high stopping power. You could outfit a small army with these things.</text>
 				<item_modify>
@@ -1224,7 +1224,7 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>(AI Avatar Crew) Allot the AI to realize a personal art project. [ 스크랩: -20 강화 장치: Eccentric Artwork ]</text>
+			<text>[AI 아바타 선원] Allot the AI to realize a personal art project. [ 스크랩: -20 강화 장치: Eccentric Artwork ]</text>
 			<event>
 				<text>The finished piece is definitely... unique. You have to consider that your organic brain might be unable to conceive the full meaning of the artwork. The Avatar happily agrees to sell the piece for the greater good of the mission.</text>
 				<item_modify>
@@ -1234,7 +1234,7 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Synthesize rare crystal objects. [ 스크랩: -30 강화 장치: Crystal Artifacts ]</text>
+			<text>[크리스탈 선원] Synthesize rare crystal objects. [ 스크랩: -30 강화 장치: Crystal Artifacts ]</text>
 			<event>
 				<text>The Crystal being reprograms the assembly line and then steps on the conveyor band. Clear Crystals sprout from his body and are shaped into small spheres by the robot arms. A strange sight to behold.</text>
 				<modifyPursuit amount="1"/>
@@ -1245,7 +1245,7 @@
 			</event>
 		</choice>
 		<choice req="shields" lvl="7" hidden="true">
-			<text>(Advanced Shields) Produce shield components. [ 스크랩: -30 강화 장치: Shield Components ]</text>
+			<text>(고급 실드) Produce shield components. [ 스크랩: -30 강화 장치: Shield Components ]</text>
 			<event>
 				<text>The production line assembles shield couplers and casings and the crew loads the cargo into vacuum sealed crates.</text>
 				<item_modify>
@@ -1255,7 +1255,7 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="6" hidden="true">
-			<text>(Advanced Engines) Produce engine parts. [ 스크랩: -30 강화 장치: Engine Parts ]</text>
+			<text>(고급 엔진) Produce engine parts. [ 스크랩: -30 강화 장치: Engine Parts ]</text>
 			<event>
 				<text>Afterburner parts and exhaust casing are produced by the dozens and then loaded into crates. You are very satisfied with the production yield.</text>
 				<item_modify>
@@ -1265,7 +1265,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Change your mind and move on.</text>
+			<text>그만둔다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -1289,34 +1289,34 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while you wait for help.</text>
+		<text>구조를 기다리는 동안 승무원들과 이야기한다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려한다.</text>
 		<event load="CE_AUGMENT_UPGRADE_NO_FUEL"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션한다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 근처 항성계에서 연구를 실시한다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
-		<text>(FTL Fuel Recycler) Recycle some FTL fuel cells.</text>
+		<text>(FTL 연료 재활용장치) FTL 연료 전지를 재활용한다.</text>
 		<event>
-			<text>You ran out of fuel, but you can always try to squeeze some more out of the capsules with your recycler device.</text>
+			<text>연료는 다 떨어졌을지 모르지만, 재활용 장치로 연료 캡슐에서 남은 연료를 쥐어짜낼 수는 있습니다.</text>
 			<item_modify>
 				<item type="fuel" min="2" max="4"/>
 			</item_modify>
 		</event>
 	</choice>
 	<choice req="AE_AMMO_MANUFACTURER" hidden="true"> 
-		<text>(탄약 제조기) Assemble some missiles while you wait. [ 스크랩: -20 ]</text>
+		<text>(탄약 제조기) 기다리는 동안 미사일들을 조립한다. [ 스크랩: -20 ]</text>
 		<event>
-			<text>You are undisturbed here and can use the time to produce some ammunition. The on-board ammo fabricator turns some harmless scrap into lethal warheads. You feel better prepared for the next engagement and prepare the FTL drive.</text>
+			<text>이곳에선 방해받을 일 없이 탄약을 만들 시간이 충분합니다. 탄약 제조기가 무해한 스크랩을 치명적인 탄두로 만들어냅니다. 다음 전투에 잘 대비한 뒤 FTL 드라이브를 충전합니다.</text>
 			<item_modify>
 				<item type="scrap" min="-20" max="-20"/>
 				<item type="missiles" min="8" max="12"/>
@@ -1324,9 +1324,9 @@
 		</event>
 	</choice>
 	<choice req="AE_DRONE_MANUFACTURER" hidden="true"> 
-		<text>(드론 제조기) Assemble some drone parts while you wait. [ 스크랩: -15 ]</text>
+		<text>(드론 제조기) 기다리는 동안 드론 부품을 조립한다. [ 스크랩: -15 ]</text>
 		<event>
-			<text>There is not much to do while you drift out here. You decide it's important to keep the crew busy and order them to produce some drones. The on-board assembler device turns some ship scrap into functional robots. You feel better prepared for the next engagement.</text>
+			<text>당신은 할 일 없이 기다리는 대신 선원들로 하여금 바쁘게 드론 부품을 만들도록 지시합니다. 드론 제조기가 함선의 스크랩을 실용적인 로봇으로 만들어냅니다. 다음 전투에 잘 대비한 것 같습니다.</text>
 			<item_modify>
 				<item type="scrap" min="-15" max="-15"/>
 				<item type="drones" min="4" max="6"/>
@@ -1334,11 +1334,11 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<text>(함체 수리장비) 함체의 손상을 수리한다.</text>
 		<event>
-			<text>You ask for a full damage report and consider your options.</text>
+			<text>당신은 함선의 전체 피해 보고를 요청하고 다음 결정에 대해 생각합니다.</text>
 			<choice hidden="true">
-				<text>Perform emergency repairs while waiting for help. [ Hullpoints: +5; 스크랩: -15 ]</text>
+				<text>도움을 기다리는 동안 긴급 수리를 시행한다. [ Hullpoints: +5; 스크랩: -15 ]</text>
 				<event>
 					<text load="CE_QUICK_MAINTENANCE_TEXT"/>
 					<item_modify>
@@ -1350,7 +1350,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>(Lanius Crew) Have your Lanius use its metal-shaping ability to further improve the hull.</text>
+						<text>[라니우스 선원] 라니우스 선원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-1"/>
@@ -1359,7 +1359,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Follow the standard Federation maintenance procedure while waiting for help. [ Hullpoints: +10; 스크랩: -20 ]</text>
+				<text>도움을 기다리는 동안 연방 표준 점검을 시행한다. [ 선체 내구도: +10; 스크랩: -20 ]</text>
 				<event>
 					<text load="CE_STANDARD_MAINTENANCE_TEXT"/>
 					<item_modify>
@@ -1371,7 +1371,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>(Lanius Crew) Have your Lanius use its metal-shaping ability to further improve the hull.</text>
+						<text>[라니우스 선원] 라니우스 선원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-2"/>
@@ -1380,7 +1380,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Spend even more time at the beacon and perform full ship maintenance. [ Hullpoints: +20; 스크랩: -30; Fleet pursuit doubled for 1 jump ]</text>
+				<text>송신소에 더 오래 머물며 선체 전체에 대한 점검을 실시한다. [ 선체 내구도: +20; 스크랩: -30; 함대 추격이 1 도약 빨라짐 ]</text>
 				<event>
 					<text load="CE_FULL_MAINTENANCE_TEXT"/>
 					<item_modify>
@@ -1393,7 +1393,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>(Lanius Crew) Have your Lanius use its metal-shaping ability to further improve the hull.</text>
+						<text>[라니우스 선원] 라니우스 선원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-4"/>
@@ -1404,16 +1404,16 @@
 		</event>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(섹터 스캐너) Scan the sector while you wait.</text>
+		<text>(섹터 스캐너) 기다리는 동안 구역을 스캔한다.</text>
 		<event>
-			<text>There is nothing to do in the endless black, so you put the whole team on scanner duty. The crew spends a decent time together drawing out virtual star charts. Everyone hopes that you can aquire fuel soon, to travel onwards through the sector. 당신의 지도가 갱신되었습니다.</text>
+			<text>없는 어둠 속에서 할 수 있는 일은 많지 않습니다. 당신은 모든 승무원을 스캔 임무에 투입합니다. 그들은 함께 적당한 시간을 보내고 항성계들에 대한 가상 도표를 만들어냈습니다. 선원들은 곧 연료를 구해서 구역의 다른 곳으로 떠나기를 희망합니다. 당신의 지도가 갱신되었습니다. </text>
 			<reveal_map/>
 		</event>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ 드론 부품: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작용 드론들을 내보내 구역의 세부 정보를 모은다. [ 드론 부품: -3 ]</text>
 		<event>
-			<text>Mapping drones use their own minature FTL propulsion to scout ahead without fuel. Let's hope you can follow them soon. 당신의 지도가 갱신되었습니다.</text>
+			<text>지도 제작용 드론들은 소형 FTL 추진기를 사용해 연료 없이도 구역을 정찰할 수 있습니다. 당신도 곧 드론들을 뒤따라갈 수 있기를 바랍니다.</text>
 			<item_modify>
 				<item type="drones" min="-3" max="-3"/>
 			</item_modify>
@@ -1421,15 +1421,15 @@
 		</event>
 	</choice>
 	<choice req="AE_PRODUCTION" hidden="true">
-		<text>(선상 생산라인) Manufacture some trade goods while waiting.</text>
+		<text>(선상 생산라인)기다리는 동안 교역품들을 생산한다.</text>
 		<event load="CE_ONBOARD_PRODUCTION_NO_FUEL"/>
 	</choice>
 	<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-		<text>(AI 아바타 생성기) Bring a sentient holographic crew member into existence. [ 스크랩: -15 ]</text>
+		<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다.. [ 스크랩: -15 ]</text>
 		<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 	</choice>
 	<choice req="AE_CLONE_LAB" hidden="true">
-		<text>(선상 클론 실험실) Clone one of your carbon based crew members while waiting.</text>
+		<text>(선상 클론 실험실)기다리는 동안 탄소 생물체 승무원 하나를 복제한다. </text>
 		<event load="CE_CLONING_NO_FUEL"/>
 	</choice>
 <!--	<choice req="energy">
@@ -1472,7 +1472,7 @@
 
 <event name="NO_FUEL_FLEET_DLC">
 	<img planet="NONE" back="BG_WARNING_TARGETING_FLEET" />
-	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">The Rebel fleet has caught up to you and you are out of fuel. Could the situation be any worse?</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">반란군 함대가 당신을 따라잡았고 당신은 연료가 바닥났습니다. 이보다 더 나쁜 상황이 있을까요?</text>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -1484,7 +1484,7 @@
 
 <eventList name="CE_NO_FUEL_FLEET_LIST_DLC">
 	<event>
-		<text>Your pilot deftly avoids incoming artillery fire from the surrounding fleet while you try to sort out exactly what your plan is... One of the many approaching fighters gets into weapon range and your scanners detect it has surplus fuel. Maybe you can still pull this off.</text>
+		<text>조종사는 사방을 에워싼 함대가 가해오는 포화를 가까스로 피해냅니다. 당신은 최대한 이 상황을 타개할 대책을 필사적으로 생각합니다... 이쪽으로 접근해오던 수많은 전투기들 중 하나가 무기의 사거리 안에 들어왔고, 함선의 스캐너는 그 전투기가 넉넉한 양의 연료를 싣고 있다고 알립니다. 아직 빠져나갈 구멍은 있어보이는군요.</text>
 		<ship load = "REBEL_FLEET_FUEL" hostile ="true"/>
 		<fleet>rebel</fleet>
 		<environment type="PDS" target="player"/>
@@ -1493,7 +1493,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1505,11 +1505,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1517,32 +1517,32 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>Far away, the Rebel fleet lines up in loose formation, almost out of you primary sensor range. A single automated spotter ship moves in. The Rebels know you cannot escape and will try to execute you with their long-range artillery.</text>
+		<text>저 멀리서, 반란군 함대가 당신의 스캐너 거리 바깥에서 느슨한 대형을 이룹니다. 무인 관측수 한 기가 다가옵니다. 반란군들은 빠져나갈 방법조차 없는 당신을 장거리 포격으로 끝장내려고 합니다. </text>
 		<ship load="CE_SPOTTER_REBEL_FLEET_NO_FUEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1554,11 +1554,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1566,24 +1566,24 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
 	<event>
-	<text>Several fighter squadrons jump in and start to circle your immobile ship. They stay just out of weapons range, apparently waiting for the cruisers to move in.</text>
+	<text>전투기 몇 분대가 움직일 수 없는 당신의 함선을 포위합니다. 그들은 무기 사정거리 바깥에서 순양함들이 진입하기를 기다립니다. </text>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -1593,14 +1593,14 @@
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>You detect significant fuel reserves on board the cruiser. Maybe you can still pull this off.</text>
+					<text>순양함에 상당량의 연료가 있는 것을 탐지해냈습니다. 당신은 이 상황을 타개할 수 있을 것 같습니다. </text>
 					<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1612,11 +1612,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1624,19 +1624,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 				</event>
@@ -1648,7 +1648,7 @@
 
 <event name="NO_FUEL_FLEET"> <!-- this could use some cruisers -->
 	<img planet="NONE" back="BG_WARNING_TARGETING_FLEET" />
-	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">The Rebel fleet has caught up to you and you are out of fuel. Could the situation be any worse?</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">반란군 함대가 당신을 따라잡았고 당신은 연료가 바닥났습니다. 이보다 더 나쁜 상황이 있을까요?</text>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -1658,14 +1658,14 @@
 <eventList name="CE_NO_FUEL_FLEET_LIST">
 	<event>
 		<fleet>rebel</fleet>
-		<text>Far away, the Rebel fleet lines up in loose formation, almost out of you primary sensor range. A single automated spotter ship moves in. The Rebels know you cannot escape and will try to execute you with their long-range point defense weapons.</text>
+		<text>저 멀리서, 반란군 함대가 당신의 스캐너 거리 바깥에서 느슨한 대형을 이룹니다. 무인 관측수 한 기가 다가옵니다. 반란군들은 빠져나갈 방법조차 없는 당신을 장거리 포격으로 끝장내려고 합니다.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET_NO_FUEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1677,11 +1677,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1689,24 +1689,24 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
 <event>
-	<text>Several fighter squadrons jump in and start to circle your immobile ship. They stay just out of weapons range, apparently waiting for the cruisers to move in.</text>
+	<text>전투기 몇 분대가 움직일 수 없는 당신의 함선을 포위합니다. 그들은 무기 사정거리 바깥에서 순양함들이 진입하기를 기다립니다.</text>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -1716,14 +1716,14 @@
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>You detect significant fuel reserves on board the cruiser. Maybe you can still pull this off.</text>
+					<text>순양함에 상당량의 연료가 있는 것을 탐지해냈습니다. 당신은 이 상황을 타개할 수 있을 것 같습니다.</text>
 					<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1735,11 +1735,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1747,19 +1747,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 				</event>
@@ -1768,7 +1768,7 @@
 	</choice>
 </event>
 <event>
-	<text>Your pilot deftly avoids incoming artillery fire from the surrounding fleet while you try to sort out exactly what your plan is... One of the many approaching fighters gets into weapon range and your scanners detect it has surplus fuel. Maybe you can still pull this off.</text>
+	<text>조종사는 사방을 에워싼 함대가 가해오는 포화를 가까스로 피해냅니다. 당신은 최대한 이 상황을 타개할 대책을 필사적으로 생각합니다... 이쪽으로 접근해오던 수많은 전투기들 중 하나가 무기의 사거리 안에 들어왔고, 함선의 스캐너는 그 전투기가 넉넉한 양의 연료를 싣고 있다고 알립니다. 아직 빠져나갈 구멍은 있어보이는군요.</text>
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<ship load = "REBEL_FLEET_FUEL" hostile ="true"/>
@@ -1777,7 +1777,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1789,11 +1789,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1801,19 +1801,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -1843,28 +1843,28 @@
 		<text>They approach and dock with your ship. On board they present an offer.</text>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
 		<choice>
-			<text>Gladly trade.</text>
+			<text>흔쾌히 거래한다. </text>
 			<event load="FUEL_TRADER_HIGH_LIST"/>
 		</choice>
 		<choice>
-			<text>Respectfully decline.</text>
+			<text>정중하게 거절한다.</text>
 			<event load="FUEL_TRADER_PT2"/>
 		</choice>
 	</event>
 	<event>
-		<text>As their ship pulls up next to yours, their Captain continues, "Yes, we'll certainly help... Help to relieve you of that nice ship!" Sensors detect a hidden teleporter has been activated.</text>
+		<text>그들의 함선이 당신 옆에 정박해오더니, 함장이 말하기 시작합니다. "좋소. 기꺼이 돕도록 하지요... 그렇게 좋은 함선에서 편하게 죽을 수 있도록 말이지!" 센서가 숨겨진 텔레포터가 작동하는 것을 감지했습니다.</text>
 		<ship load="PIRATE_FUEL" hostile="false"/>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-			<text>(Teleporter Disruptor) Deflect their teleporter signal.</text>
+			<text>(텔레포터 교란장치) 텔레포터 신호를 반사한다.</text>
 			<event>
-				<text>"Ah I see... that didn't work..." The Captain is obviously quite irritated. "Alright, we try something else then..." All he can come up with is charging weapons.</text>
+				<text>"통하지 않는 것 같군..." 적 선장은 약간 짜증이 난 듯 말했습니다. "좋아, 이건 어떨까..." 적 함선이 할 수 있는 일이라곤 무기 시스템에 전원을 넣는 것 뿐입니다.</text>
 				<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1876,11 +1876,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1888,19 +1888,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
@@ -1908,7 +1908,7 @@
 		<choice>
 			<text>계속...</text>
 			<event>
-				<text>We've been boarded!</text>
+				<text>침입자가 함선에 침입했습니다!</text>
 				<boarders min="2" max="3" class="human"/>
 				<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
@@ -1916,7 +1916,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1928,11 +1928,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1940,37 +1940,37 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>As they approach, you detect their weapons powering up. It seems their intentions are hostile!</text>
+		<text>그들이 접근해오면서 무기에 동력을 넣고있는 것을 감지했습니다. 적대적인 의도로 접근해오는것 같습니다!</text>
 		<ship load="PIRATE" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1982,11 +1982,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1994,47 +1994,47 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
 </eventList>
 <eventList name="FUEL_APPROACH_DECLINE_LIST">
 	<event>
-		<text>"I assure you that we mean no harm. See, we'll send some fuel over on a transport." A small ship docks and offloads some fuel just as they said. They leave, saying, "Stay cautious, friend."</text>
+		<text>"장담하건데, 우린 전혀 악의적인 목적이 없습니다. 자, 약간의 연료를 수송선을 이용해서 보내드리지요." 실제로 그들의 말처럼 소형 함선이 우리 함선으로 정박해선 연료를 내려놓고 갔습니다. 그들은 떠나면서 말했습니다. "몸 조심하시오, 친구여."</text>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
 		<item_modify>
 			<item type="fuel" min="1" max="4"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>"No one trusts anyone these days..." The ship jumps away.</text>
+		<text>"요즘같은 때에 아무도 믿을 수 없지..." 함선은 도약해서 사라져버렸습니다.</text>
 	</event>
 	<event>
-		<text>They reply,"Keep our distance? Let's see if you can stop us!" They power up their weapons and advance.</text>
+		<text>그들이 대답했습니다. "거리 유지를 하라고? 네놈이 막을수 있다면 어디 해보시지!" 적 함선이 무기 시스템에 전원을 넣으며 접근해오기 시작했습니다.</text>
 		<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2046,11 +2046,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2058,34 +2058,34 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
 </eventList>
 <eventList name="FUEL_APPROACH_SCAN_LIST">
 	<event>
-		<text>Sensors indicate their ship is without military-grade weaponry, even small arms. You allow them to dock and they give you some fuel saying, "I remember a time when we didn't have to be so paranoid about each others intentions... Stay safe."</text>
+		<text>센서가 그들의 함선에는 군사용 등급의 무기뿐만 아니라 소형 화기마저도 없다는 것을 감지했습니다. 당신은 그들에게 정박을 허락하였고, 그들은 당신에게 연료를 주며 말합니다. "옛날엔 서로의 의도에 대해서 피해망상적으로 굴지 않았는데.. 그때가 그립군. 조심히 여행하도록 하시오."</text>
 		<item_modify>
 			<item type="fuel" min="3" max="7"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>Sensors are picking up armed crew and considerably more weaponry than is legal for a craft of this size. This is surely a trap.</text>
+		<text>센서가 그들의 함선에서 무장된 승무원들과 일반적인 함선 크기의 정도보다도 훨씬 더 무장한것을 확인했습니다. 함정인 것이 틀림없습니다.</text>
 		<choice>
-			<text>Prepare for a fight.</text>
+			<text>전투를 준비한다.</text>
 			<event>
 				<text load="CE_PRE_FIGHT_TEXT"/>
 				<ship load="PIRATE_FUEL" hostile="true"/>
@@ -2094,11 +2094,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2110,11 +2110,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2122,27 +2122,27 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
 		</choice>
 		<choice req="cloaking" hidden="true"> 
-			<text>(Cloaking) Cloak and get out of scanning range before they have a chance to lock on.</text>
+			<text>(은폐) 은폐하여 그들이 조준하기전에 탐사범위에서 벗어난다.</text>
 			<event>
-				<text>Your highly advanced cloaking system allows you to get out of range easily since they were still out of firing range. Eventually the ship jumps away.</text>
+				<text>당신의 향상된 은폐 장치는 당신이 쉽게 그들의 화망에서 벗어날 수 있도록 도와주었습니다. 마침내 적 함선은 도약해서 사라져버렸습니다.</text>
 			</event>
 		</choice>
 	</event>		
@@ -2153,39 +2153,39 @@
 	<text load="FUEL_TRADER_TEXT_LIST"/>
 	<ship load="CIVILIAN_SHIP" hostile="false"/>
 	<choice>
-		<text>Gladly trade.</text>
+		<text>흔쾌히 거래한다. </text>
 		<event load="FUEL_TRADER_HIGH_LIST"/>
 	</choice>
 	<choice>
-		<text>Respectfully decline.</text>
+		<text>정중하게 거절한다.</text>
 		<event load="FUEL_TRADER_PT2"/>
 	</choice>
 	<choice>
-		<text>We need any supplies we can get. Attack and loot this ship!</text>
+		<text>우리는 가능한 한 모든 자원이 필요하다. 함선을 공격하고 자원을 빼앗는다!</text>
 		<event>
-			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
+			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 선원들을 불쾌하게 만들 것입니다.</text>
 			<choice hidden="true"> 
-				<text>Go through with this and see how the crew reacts.</text>
+				<text>작전을 강행하고 선원들의 반응을 살펴본다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Change your mind and leave the civilians alone.</text>
+				<text>민간 함선을 내버려둔다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
+				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
+				<text>(맨티스 함선)  당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2196,39 +2196,39 @@
 	<text load="FUEL_TRADER_DISTRESS_TEXT_LIST"/>
 	<ship load="CIVILIAN_SHIP" hostile="false"/>
 	<choice>
-		<text>Gladly trade.</text>
+		<text>흔쾌히 거래한다. </text>
 		<event load="FUEL_TRADER_HIGH_LIST"/>
 	</choice>
 	<choice>
-		<text>Respectfully decline.</text>
+		<text>정중하게 거절한다.</text>
 		<event load="FUEL_TRADER_PT2"/>
 	</choice>
 	<choice>
-		<text>We need any supplies we can get. Attack and loot this ship!</text>
+		<text>우리는 가능한 한 모든 자원이 필요하다. 함선을 공격하고 자원을 빼앗는다!</text>
 		<event>
-			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
+			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 선원들을 불쾌하게 만들 것입니다.</text>
 			<choice hidden="true"> 
-				<text>Go through with this and see how the crew reacts.</text>
+				<text>작전을 강행하고 선원들의 반응을 살펴본다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Change your mind and leave the civilians alone.</text>
+				<text>민간 함선을 내버려둔다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
+				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
+				<text>(맨티스 함선)  당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2238,7 +2238,7 @@
 
 <eventList name="FUEL_EXPLORE_LIST">
 	<event>
-		<text>You happen across a small asteroid field near the beacon.</text>
+		<text>당신은 우연히 송신소 근처의 작은 소행성대와 마주쳤습니다.</text>
 		<choice hidden="true">
 			<text>Approach the asteroid field to scan it.</text>
 			<event load="ASTEROID_EXPLORE_RESULTS"/>
@@ -2332,7 +2332,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2344,11 +2344,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2356,19 +2356,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
@@ -2385,7 +2385,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2397,11 +2397,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2409,19 +2409,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -2435,7 +2435,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2447,11 +2447,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2459,19 +2459,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2484,7 +2484,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2496,11 +2496,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2508,19 +2508,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>	
@@ -2533,11 +2533,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2549,11 +2549,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2561,19 +2561,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2615,7 +2615,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2627,11 +2627,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2639,19 +2639,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2678,11 +2678,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2694,11 +2694,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2706,19 +2706,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>	
 	</event>
@@ -2757,11 +2757,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2773,11 +2773,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2785,19 +2785,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2888,31 +2888,31 @@
 		</event>
 	</choice>
 	<choice>
-		<text>They are an easy target. Seize their cargo!</text>
+		<text>이 힘선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
 		<event>
-			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
+			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 선원들을 불쾌하게 만들 것입니다.</text>
 			<choice hidden="true"> 
-				<text>Go through with this and see how the crew reacts.</text>
+				<text>작전을 강행하고 선원들의 반응을 살펴본다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Change your mind and leave the civilians alone.</text>
+				<text>민간 함선을 내버려둔다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
+				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
+				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2926,11 +2926,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2942,11 +2942,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2954,19 +2954,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -2990,31 +2990,31 @@
 			</event>
 		</choice>
 	<choice>
-		<text>No need to pay. Seize their cargo!</text>
+		<text>낼 요금따윈 없다. 물건을 빼앗는다!</text>
 		<event>
-			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
+			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 선원들을 불쾌하게 만들 것입니다.</text>
 			<choice hidden="true"> 
-				<text>Go through with this and see how the crew reacts.</text>
+				<text>작전을 강행하고 선원들의 반응을 살펴본다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Change your mind and leave the civilians alone.</text>
+				<text>민간 함선을 내버려둔다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
+				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
+				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3031,31 +3031,31 @@
 			<event/>
 		</choice>
 	<choice>
-		<text>Not altruistic enough. Seize their cargo!</text>
+		<text>이타적은 무슨. 물건을 빼앗는다!</text>
 		<event>
-			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
+			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 선원들을 불쾌하게 만들 것입니다.</text>
 			<choice hidden="true"> 
-				<text>Go through with this and see how the crew reacts.</text>
+				<text>작전을 강행하고 선원들의 반응을 살펴본다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Change your mind and leave the civilians alone.</text>
+				<text>민간 함선을 내버려둔다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
+				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
+				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3095,7 +3095,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3107,11 +3107,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포터 교란장치) 텔레포터 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3119,19 +3119,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -3150,7 +3150,7 @@
       </event>
    </choice>
    <choice hidden="true" req="slug">
-      <text>(Slug Crew) Have your Slug make the purchase.</text>
+      <text>[슬러그 선원] Have your Slug make the purchase.</text>
       <event>
          <text>As soon as he sees your crewmember the Slug stops his incessant chuckling. The exchange appears to go smoothly although you wonder what mental battles are telepathically occurring between the two Slugs.</text>
          <item_modify>
