@@ -3294,7 +3294,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -3356,7 +3356,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -3418,7 +3418,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -3480,7 +3480,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -3538,7 +3538,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -5579,7 +5579,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -5641,7 +5641,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -5703,7 +5703,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -5765,7 +5765,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -5823,7 +5823,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -5886,7 +5886,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ION_ARMOR" hidden="true">
@@ -5944,7 +5944,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AUTO_COOLDOWN" hidden="true">
@@ -6002,7 +6002,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="DRONE_SPEED" hidden="true">
@@ -6060,7 +6060,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6114,7 +6114,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="CLOAK_FIRE" hidden="true">
@@ -6173,7 +6173,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6508,7 +6508,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6619,7 +6619,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -6735,7 +6735,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -6797,7 +6797,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -6860,7 +6860,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -7191,7 +7191,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -7253,7 +7253,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -7311,7 +7311,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -7369,7 +7369,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -7431,7 +7431,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -7489,7 +7489,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -8235,7 +8235,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -8284,7 +8284,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -8459,7 +8459,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -10229,7 +10229,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -10561,7 +10561,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -10692,7 +10692,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -11799,7 +11799,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -11913,7 +11913,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -12385,7 +12385,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -12444,7 +12444,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -13008,7 +13008,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -13131,7 +13131,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -13863,7 +13863,7 @@
 <event name="PIRATE_SURRENDER">
 	<text load="PIRATE_SURRENDER_TEXT"/>
 	<choice>
-		<text>Accept their offer.</text>
+		<text>그들의 제안을 수락합니다.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="RANDOM">stuff</autoReward>
@@ -13881,11 +13881,11 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 		</event>
@@ -13895,7 +13895,7 @@
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice>
-		<text>We will not accept surrender!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다!</text>
 		<event/>
 	</choice>
 </event>
@@ -14429,7 +14429,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -16822,7 +16822,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -17562,7 +17562,7 @@
 			<event/>
 		</choice>
 		<choice>
-			<text>Open fire on your defeated opponent.</text>
+			<text>패배한 상대에게 발포합니다.</text>
 			<event>
 				<text>You decide that there is no need to spare this machine and lock on to its AI core. It awakens again, messaging: "Oh, its you. Back so soon? Wait, what are you doing? Oh... Listen, you don't need to do this. Please don't do this! I do everything you want! Please!"</text>
 				<ship hostile="true"/>
@@ -17590,7 +17590,7 @@
 			<event/>
 		</choice>
 		<choice>
-			<text>Open fire on your defeated opponent.</text>
+			<text>패배한 상대에게 발포합니다.</text>
 			<event>
 				<text>You are content with having fooled the AI into giving up intel. When you proceed to destroy the machine, it hails: "Interesting... and odd. I did not anticipate this. Looks like I calculated your trustworthiness rating incorrectly. I shall fight then, treacherous organic!" The AI transmits a few terabytes of high quality videos, displaying a few thousand ways of how you could die on your mission.</text>
 				<ship hostile="true"/>
@@ -17676,7 +17676,7 @@
 <event name="BS_PIRATE_SURRENDER">
 	<text load="BS_PIRATE_SURRENDER_TEXT"/>
 	<choice>
-		<text>Accept their offer.</text>
+		<text>그들의 제안을 수락합니다.</text>
 		<event load="BS_PIRATE_SURRENDER_RESULTS"/>
 	</choice>
 	<choice  req="ENERGY_SHIELD">
@@ -17684,7 +17684,7 @@
 		<event load="CE_SURRENDER_NEGOTIATION_STATIONS_RESULTS"/>
 	</choice>
 	<choice>
-		<text>We will not accept surrender! Annihilate this place!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다! Annihilate this place!</text>
 		<event/>
 	</choice>
 </event>
@@ -17712,7 +17712,7 @@
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_STATION_ATTACK"/>
 			</choice>
 
@@ -17740,7 +17740,7 @@
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_STATION_ATTACK"/>
 			</choice>
 	</event>
@@ -17767,7 +17767,7 @@
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_STATION_ATTACK"/>
 			</choice>
 	</event>
@@ -17794,7 +17794,7 @@
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_STATION_ATTACK"/>
 			</choice>
 	</event>
@@ -17951,7 +17951,7 @@
 <event name="BS_ROCK_OUTPOST_SURRENDER">
 	<text load="BS_ROCK_OUTPOST_SURRENDER_TEXT"/>
 	<choice>
-		<text>Accept their offer.</text>
+		<text>그들의 제안을 수락합니다.</text>
 		<event load="BS_PIRATE_SURRENDER_RESULTS"/>
 	</choice>
 	<choice req="ENERGY_SHIELD">
@@ -17959,7 +17959,7 @@
 		<event load="CE_SURRENDER_NEGOTIATION_STATIONS_RESULTS"/>
 	</choice>
 	<choice>
-		<text>We will not accept surrender!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다!</text>
 		<event/>
 	</choice>
 </event>
@@ -17976,7 +17976,7 @@
 		<event load="SLUG_SURRENDER_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>We will not accept surrender!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다!</text>
 		<event/>
 	</choice>
 </event>
@@ -18512,11 +18512,11 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -18524,19 +18524,19 @@
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
 		<event load="CE_BOUNTY_LIST_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -18550,27 +18550,27 @@
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_CIVILIAN"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
 			<text>Undisturbed as you are here you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
@@ -18625,7 +18625,7 @@
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
-		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
@@ -18636,7 +18636,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -18649,7 +18649,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -18672,7 +18672,7 @@
 			<modifyPursuit amount="-2"/>
 			<damage amount="4" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
@@ -18698,7 +18698,7 @@
 			<modifyPursuit amount="-4"/>
 			<damage amount="8" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
@@ -18715,11 +18715,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
-		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<text>(고급 네비게이션 AI) AI가 초공간 점프를 처리하여 더 빠르게 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_BOOSTED_TEXT"/>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
@@ -18730,7 +18730,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -18743,7 +18743,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -18757,7 +18757,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 선체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -18766,7 +18766,7 @@
 					<modifyPursuit amount="-2"/>
 					<damage amount="4" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
@@ -18783,7 +18783,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="6" hidden="true">
-				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<text>(고급 엔진) 안전 제한을 초과하고 연료를 소진시켜 더 빠른 속도로 이동합니다. [ 연료: -4; 선체 피해: 8 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -18792,7 +18792,7 @@
 					<modifyPursuit amount="-4"/>
 					<damage amount="8" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
@@ -18809,7 +18809,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="8" hidden="true">
-				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<text>(최고급 엔진) 물리적으로 가능한 궁극의 속도로 주행합니다. [ 연료: -5; 선체 피해: 10 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -18818,7 +18818,7 @@
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
@@ -18947,11 +18947,11 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -18959,19 +18959,19 @@
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
 		<event load="CE_BOUNTY_LIST_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START_LIMITED"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -18985,27 +18985,27 @@
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_CIVILIAN"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
 			<text>Undisturbed as you are here you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
@@ -19046,11 +19046,11 @@
 		<status type="clear" target="player" system="mind" amount="100"/>
 
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -19058,11 +19058,11 @@
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
@@ -19070,23 +19070,23 @@
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_CIVILIAN"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -19563,9 +19563,9 @@
 			<event>
 				<text>The assembly lines can produces various simple goods from the scrap you feed into it. This will go quickly.</text>
 				<choice hidden="true">
-					<text>Produce basic items made of plastic. [ Scrap: -10; Augment: Plastic Items ]</text>
+					<text>플라스틱으로 만든 기초적인 물품을 제조한다. [ 스크랩: -10; 강화 장치: 플라스틱 제품 ]</text>
 					<event>
-						<text>The assembly lines produces some simple polymer based items for daily use. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 간단한 고분자 재질의 일상용품들을 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_LANIUS_POLYMERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -19573,9 +19573,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce synthetic textiles. [ Scrap: -10; Augment: Synth-Textiles ]</text>
+					<text>인공 섬유를 제조한다. [ 스크랩: -10; 강화 장치: 인공 섬유 ]</text>
 					<event>
-						<text>The assembly lines produces a few crates of composite cloth. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 합성 섬유 몇 상자를 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_TEXTILES"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -19583,9 +19583,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
+					<text>표준화된 심층 우주 건설 자재를 제조한다. [ 스크랩: -10; 강화 장치: 건축재 ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 규격화된 철근들을 제조해냅니다. 멋지군요! 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -19593,9 +19593,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce general purpose power conduits. [ Scrap: -10; Augment: Power Conduits ]</text>
+					<text>일반적인 목적의 전력선을 제조한다. [ Scrap: -10; Augment: Power Conduits ]</text>
 					<event>
-						<text>The assembly lines produces extremely flexible micro cables and finishes right on schedule. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 매우 유연한 초소형 케이블들을 제 시간에 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_CONDUITS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -19603,9 +19603,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce industrial drones. [ Scrap: -15; Augment: Serve Drones ]</text>
+					<text>산업용 드론을 제조한다. [ 스크랩: -10; 강화 장치: 보좌용 드론 ]</text>
 					<event>
-						<text>The production line assembles a few industrial drones for you. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 약간의 산업용 드론을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_ROBOTS"/>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
@@ -19613,9 +19613,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce solar panels. [ Scrap: -20; Augment: Solar Panels ]</text>
+					<text>태양열 전지판을 제조한다. [ 스크랩: -20; 강화 장치: 태양 전지판 ]</text>
 					<event>
-						<text>The assembly lines robot arms construct advanced solar panels for planetary and interstellar use. The crew carefully stows them the hold.</text>
+						<text>선상 생산라인의 로봇 팔이 행성과 정거장에 쓰일 진보된 태양열 전지판을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 조심히 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_SOLAR"/>
 						<item_modify>
 							<item type="scrap" min="-20" max="-20"/>
@@ -19629,9 +19629,9 @@
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>(Engi Crew) Produce simple industrial machines. [ Scrap: -15; Augment: Industrial Machinery ]</text>
+			<text>(엔지 승무원) 간단한 산업용 기계를 제조한다. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
 			<event>
-				<text>Your on-board production facilities assemble some standardized machinery. The crew packs the goods and loads them into the cargo holds. Time passes.</text>
+				<text>선상 생산 설비가 표준화된 기계를 재조해냅니다. 곧이어 승무원들이 물품을 정리해 화물칸에 싣습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -19640,9 +19640,9 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>(Rock Crew) Manufacture sturdy hull parts. [ Scrap: -15; Augment: Ship Hull Panels ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
-				<text>Scrap is turned into sturdy hull panels. The loading arms can barely handle the weight and you have to readjust the artificial gravity to make packing the parts easier. Time passes.</text>
+				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -19651,9 +19651,9 @@
 			</event>
 		</choice>
 		<choice req="slug" hidden="true">
-			<text>(Slug Crew) Produce an arms-shipment. [ Scrap: -20; Augment: Small Arms ]</text>
+			<text>(슬러그 승무원) 개인 화기들을 제조한다. [ 스크랩: -20; 강화 장치: 개인 화기 ]</text>
 			<event>
-				<text>The assembly line turns the scrap into auto-blasters with high stopping power. You could outfit a small army with these things. Time passes.</text>
+				<text>선상 생산라인이 스크랩을 저지력 높은 자동 블래스터로 제조해냅니다. 소규모 분대 정도는 충분히 무장시킬 수 있습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -19662,9 +19662,9 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>(AI Avatar Crew) Allot the AI to realize a personal art project. [ Scrap: -20 Augment: Eccentric Artwork ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
-				<text>The finished piece is definitely... unique. You have to consider that your organic brain might be unable to conceive the full meaning of the artwork. The Avatar happily agrees to sell the piece for the greater good of the mission. Time passes.</text>
+				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -19673,9 +19673,9 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Synthesize rare crystal objects. [ Scrap: -30 Augment: Crystal Artifacts ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
-				<text>The Crystal being reprograms the assembly line and then steps on the conveyor band. Clear Crystals sprout from their body and are shaped into small spheres by the robotic arms. A strange sight to behold. Time passes.</text>
+				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-30" max="-30"/>
@@ -19684,9 +19684,9 @@
 			</event>
 		</choice>
 		<choice req="shields" lvl="7" hidden="true">
-			<text>(Advanced Shields) Produce shield components. [ Scrap: -30 Augment: Shield Components ]</text>
+			<text>(고급 실드) 방어막 구성 부품을 제조한다. [ 스크랩: -30 강화 장치: 방어막 구성품 ]</text>
 			<event>
-				<text>The production line assembles shield couplers and casings and the crew loads the cargo into vacuum sealed crates. Time passes.</text>
+				<text>선상 생산라인이 방어막 연결부와 케이싱을 조립합니다. 곧이어 승무원들이 구성품들을 진공 포장 상자에 싣습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -19695,9 +19695,9 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="6" hidden="true">
-			<text>(Advanced Engines) Produce engine parts. [ Scrap: -30 Augment: Engine Parts ]</text>
+			<text>(고급 엔진) 엔진 부품을 제조한다. [ 스크랩: -30 강화 장치: 엔진 부품 ]</text>
 			<event>
-				<text>Afterburner parts and exhaust casing are produced by the dozens and then loaded into crates. You are very satisfied with the production yield. Time passes.</text>
+				<text>재추진 장치와 연소 케이싱이 여럿 제조되어 상자에 담깁니다. 당신은 생산 결과에 매우 만족합니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23073,7 +23073,7 @@
 			</event>
 		</choice>
 		<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-			<text>(AI Avatar Generator) Bring a sentient holographic crew member into existence. [ Scrap: -15 ]</text>
+			<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다. [ 스크랩: -15 ]</text>
 			<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 		</choice>
 		<choice req="AE_CLONE_LAB" hidden="true">
@@ -23113,7 +23113,7 @@
 			</event>
 		</choice>
 		<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-			<text>(AI Avatar Generator) Bring a sentient holographic crew member into existence. [ Scrap: -15 ]</text>
+			<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다. [ 스크랩: -15 ]</text>
 			<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 		</choice>
 		<choice req="AE_CLONE_LAB" hidden="true">
@@ -23136,9 +23136,9 @@
 			<event>
 				<text>The assembly lines can produces various simple goods from the scrap you feed into it. This will go quickly.</text>
 				<choice hidden="true">
-					<text>Produce basic items made of plastic. [ Scrap: -10; Augment: Plastic Items ]</text>
+					<text>플라스틱으로 만든 기초적인 물품을 제조한다. [ 스크랩: -10; 강화 장치: 플라스틱 제품 ]</text>
 					<event>
-						<text>The assembly lines produces some simple polymer based items for daily use. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 간단한 고분자 재질의 일상용품들을 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_LANIUS_POLYMERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23146,9 +23146,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce synthetic textiles. [ Scrap: -10; Augment: Synth-Textiles ]</text>
+					<text>인공 섬유를 제조한다. [ 스크랩: -10; 강화 장치: 인공 섬유 ]</text>
 					<event>
-						<text>The assembly lines produces a few crates of composite cloth. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 합성 섬유 몇 상자를 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_TEXTILES"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23156,9 +23156,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
+					<text>표준화된 심층 우주 건설 자재를 제조한다. [ 스크랩: -10; 강화 장치: 건축재 ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 규격화된 철근들을 제조해냅니다. 멋지군요! 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23166,9 +23166,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce general purpose power conduits. [ Scrap: -10; Augment: Power Condiuts ]</text>
+					<text>일반적인 목적의 전력선을 제조한다. [ 스크랩: -10; 강화 장치: 동력 덕트 ]</text>
 					<event>
-						<text>The assembly lines produces extremely flexible micro cables and finishes right on schedule. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 매우 유연한 초소형 케이블들을 제 시간에 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_CONDUITS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23176,9 +23176,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce industrial drones. [ Scrap: -15; Augment: Serve Drones ]</text>
+					<text>산업용 드론을 제조한다. [ 스크랩: -10; 강화 장치: 보좌용 드론 ]</text>
 					<event>
-						<text>The production line assembles a few industrial drones for you. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 약간의 산업용 드론을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_ROBOTS"/>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
@@ -23186,9 +23186,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce solar panels. [ Scrap: -20; Augment: Solar Panels ]</text>
+					<text>태양열 전지판을 제조한다. [ 스크랩: -20; 강화 장치: 태양 전지판 ]</text>
 					<event>
-						<text>The assembly lines robot arms construct advanced solar panels for planetary and interstellar use. The crew carefully stows them the hold.</text>
+						<text>선상 생산라인의 로봇 팔이 행성과 정거장에 쓰일 진보된 태양열 전지판을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 조심히 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_SOLAR"/>
 						<item_modify>
 							<item type="scrap" min="-20" max="-20"/>
@@ -23202,9 +23202,9 @@
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>(Engi Crew) Produce simple industrial machines. [ Scrap: -15; Augment: Industrial Machinery ]</text>
+			<text>(엔지 승무원) 간단한 산업용 기계를 제조한다. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
 			<event>
-				<text>Your on-board production facilities assemble some standardized machinery. The crew packs the goods and loads them into the cargo holds. Time passes.</text>
+				<text>선상 생산 설비가 표준화된 기계를 재조해냅니다. 곧이어 승무원들이 물품을 정리해 화물칸에 싣습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -23213,9 +23213,9 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>(Rock Crew) Manufacture sturdy hull parts. [ Scrap: -15; Augment: Ship Hull Panels ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
-				<text>Scrap is turned into sturdy hull panels. The loading arms can barely handle the weight and you have to readjust the artificial gravity to make packing the parts easier. Time passes</text>
+				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다. Time passes</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -23224,9 +23224,9 @@
 			</event>
 		</choice>
 		<choice req="slug" hidden="true">
-			<text>(Slug Crew) Produce an arms-shipment. [ Scrap: -20; Augment: Small Arms ]</text>
+			<text>(슬러그 승무원) 개인 화기들을 제조한다. [ 스크랩: -20; 강화 장치: 개인 화기 ]</text>
 			<event>
-				<text>The assembly line turns the scrap into auto-blasters with high stopping power. You could outfit a small army with these things. Time passes.</text>
+				<text>선상 생산라인이 스크랩을 저지력 높은 자동 블래스터로 제조해냅니다. 소규모 분대 정도는 충분히 무장시킬 수 있습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23235,9 +23235,9 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>(AI Avatar Crew) Allot the AI to realize a personal art project. [ Scrap: -20 Augment: Eccentric Artwork ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
-				<text>The finished piece is definitely... unique. You have to consider that your organic brain might be unable to conceive the full meaning of the artwork. The Avatar happily agrees to sell the piece for the greater good of the mission. Time passes.</text>
+				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23246,9 +23246,9 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Synthesize rare crystal objects. [ Scrap: -30 Augment: Crystal Artifacts ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
-				<text>The Crystal being reprograms the assembly line and then steps on the conveyor band. Clear Crystals sprout from their body and are shaped into small spheres by the robotic arms. A strange sight to behold. Time passes.</text>
+				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-30" max="-30"/>
@@ -23257,9 +23257,9 @@
 			</event>
 		</choice>
 		<choice req="shields" lvl="7" hidden="true">
-			<text>(Advanced Shields) Produce shield components. [ Scrap: -30 Augment: Shield Components ]</text>
+			<text>(고급 실드) 방어막 구성 부품을 제조한다. [ 스크랩: -30 강화 장치: 방어막 구성품 ]</text>
 			<event>
-				<text>The production line assembles shield couplers and casings and the crew loads the cargo into vacuum sealed crates. Time passes.</text>
+				<text>선상 생산라인이 방어막 연결부와 케이싱을 조립합니다. 곧이어 승무원들이 구성품들을 진공 포장 상자에 싣습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23268,9 +23268,9 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="6" hidden="true">
-			<text>(Advanced Engines) Produce engine parts. [ Scrap: -30 Augment: Engine Parts ]</text>
+			<text>(고급 엔진) 엔진 부품을 제조한다. [ 스크랩: -30 강화 장치: 엔진 부품 ]</text>
 			<event>
-				<text>Afterburner parts and exhaust casing are produced by the dozens and then loaded into crates. You are very satisfied with the production yield. Time passes.</text>
+				<text>재추진 장치와 연소 케이싱이 여럿 제조되어 상자에 담깁니다. 당신은 생산 결과에 매우 만족합니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23311,7 +23311,7 @@
 			</event>
 		</choice>
 		<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-			<text>(AI Avatar Generator) Bring a sentient holographic crew member into existence. [ Scrap: -15 ]</text>
+			<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다. [ 스크랩: -15 ]</text>
 			<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 		</choice>
 		<choice req="AE_CLONE_LAB" hidden="true">
@@ -23334,9 +23334,9 @@
 			<event>
 				<text>The assembly lines can produces various simple goods from the scrap you feed into it. This will go quickly.</text>
 				<choice hidden="true">
-					<text>Produce basic items made of plastic. [ Scrap: -10; Augment: Plastic Items ]</text>
+					<text>플라스틱으로 만든 기초적인 물품을 제조한다. [ 스크랩: -10; 강화 장치: 플라스틱 제품 ]</text>
 					<event>
-						<text>The assembly lines produces some simple polymer based items for daily use. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 간단한 고분자 재질의 일상용품들을 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_LANIUS_POLYMERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23344,9 +23344,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce synthetic textiles. [ Scrap: -10; Augment: Synth-Textiles ]</text>
+					<text>인공 섬유를 제조한다. [ 스크랩: -10; 강화 장치: 인공 섬유 ]</text>
 					<event>
-						<text>The assembly lines produces a few crates of composite cloth. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 합성 섬유 몇 상자를 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_TEXTILES"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23354,9 +23354,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
+					<text>표준화된 심층 우주 건설 자재를 제조한다. [ 스크랩: -10; 강화 장치: 건축재 ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 규격화된 철근들을 제조해냅니다. 멋지군요! 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23364,9 +23364,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce general purpose power conduits. [ Scrap: -10; Augment: Power Condiuts ]</text>
+					<text>일반적인 목적의 전력선을 제조한다. [ 스크랩: -10; 강화 장치: 동력 덕트 ]</text>
 					<event>
-						<text>The assembly lines produces extremely flexible micro cables and finishes right on schedule. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 매우 유연한 초소형 케이블들을 제 시간에 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_CONDUITS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23374,9 +23374,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce industrial drones. [ Scrap: -15; Augment: Serve Drones ]</text>
+					<text>산업용 드론을 제조한다. [ 스크랩: -10; 강화 장치: 보좌용 드론 ]</text>
 					<event>
-						<text>The production line assembles a few industrial drones for you. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 약간의 산업용 드론을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_ROBOTS"/>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
@@ -23384,9 +23384,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce solar panels. [ Scrap: -20; Augment: Solar Panels ]</text>
+					<text>태양열 전지판을 제조한다. [ 스크랩: -20; 강화 장치: 태양 전지판 ]</text>
 					<event>
-						<text>The assembly lines robot arms construct advanced solar panels for planetary and interstellar use. The crew carefully stows them the hold.</text>
+						<text>선상 생산라인의 로봇 팔이 행성과 정거장에 쓰일 진보된 태양열 전지판을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 조심히 화물칸에 싣습니다.</text>
 						<augment name="TE_GOODS_SOLAR"/>
 						<item_modify>
 							<item type="scrap" min="-20" max="-20"/>
@@ -23400,9 +23400,9 @@
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>(Engi Crew) Produce simple industrial machines. [ Scrap: -15; Augment: Industrial Machinery ]</text>
+			<text>(엔지 승무원) 간단한 산업용 기계를 제조한다. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
 			<event>
-				<text>Your on-board production facilities assemble some standardized machinery. The crew packs the goods and loads them into the cargo holds. Time passes.</text>
+				<text>선상 생산 설비가 표준화된 기계를 재조해냅니다. 곧이어 승무원들이 물품을 정리해 화물칸에 싣습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -23411,9 +23411,9 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>(Rock Crew) Manufacture sturdy hull parts. [ Scrap: -15; Augment: Ship Hull Panels ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
-				<text>Scrap is turned into sturdy hull panels. The loading arms can barely handle the weight and you have to readjust the artificial gravity to make packing the parts easier. Time passes.</text>
+				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -23422,9 +23422,9 @@
 			</event>
 		</choice>
 		<choice req="slug" hidden="true">
-			<text>(Slug Crew) Produce an arms-shipment. [ Scrap: -20; Augment: Small Arms ]</text>
+			<text>(슬러그 승무원) 개인 화기들을 제조한다. [ 스크랩: -20; 강화 장치: 개인 화기 ]</text>
 			<event>
-				<text>The assembly line turns the scrap into auto-blasters with high stopping power. You could outfit a small army with these things. Time passes.</text>
+				<text>선상 생산라인이 스크랩을 저지력 높은 자동 블래스터로 제조해냅니다. 소규모 분대 정도는 충분히 무장시킬 수 있습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23433,9 +23433,9 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>(AI Avatar Crew) Allot the AI to realize a personal art project. [ Scrap: -20 Augment: Eccentric Artwork ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
-				<text>The finished piece is definitely... unique. You have to consider that your organic brain might be unable to conceive the full meaning of the artwork. The Avatar happily agrees to sell the piece for the greater good of the mission. Time passes.</text>
+				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23444,9 +23444,9 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Synthesize rare crystal objects. [ Scrap: -30 Augment: Crystal Artifacts ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
-				<text>The Crystal being reprograms the assembly line and then steps on the conveyor band. Clear Crystals sprout from their body and are shaped into small spheres by the robotic arms. A strange sight to behold. Time passes.</text>
+				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-30" max="-30"/>
@@ -23455,9 +23455,9 @@
 			</event>
 		</choice>
 		<choice req="shields" lvl="7" hidden="true">
-			<text>(Advanced Shields) Produce shield components. [ Scrap: -30 Augment: Shield Components ]</text>
+			<text>(고급 실드) 방어막 구성 부품을 제조한다. [ 스크랩: -30 강화 장치: 방어막 구성품 ]</text>
 			<event>
-				<text>The production line assembles shield couplers and casings and the crew loads the cargo into vacuum sealed crates. Time passes.</text>
+				<text>선상 생산라인이 방어막 연결부와 케이싱을 조립합니다. 곧이어 승무원들이 구성품들을 진공 포장 상자에 싣습니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23466,9 +23466,9 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="6" hidden="true">
-			<text>(Advanced Engines) Produce engine parts. [ Scrap: -30 Augment: Engine Parts ]</text>
+			<text>(고급 엔진) 엔진 부품을 제조한다. [ 스크랩: -30 강화 장치: 엔진 부품 ]</text>
 			<event>
-				<text>Afterburner parts and exhaust casing are produced by the dozens and then loaded into crates. You are very satisfied with the production yield. Time passes.</text>
+				<text>재추진 장치와 연소 케이싱이 여럿 제조되어 상자에 담깁니다. 당신은 생산 결과에 매우 만족합니다. Time passes.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23508,7 +23508,7 @@
 			</event>
 		</choice>
 		<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-			<text>(AI Avatar Generator) Bring a sentient holographic crew member into existence. [ Scrap: -15 ]</text>
+			<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다. [ 스크랩: -15 ]</text>
 			<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 		</choice>
 		<choice req="AE_CLONE_LAB" hidden="true">
@@ -23529,11 +23529,11 @@
 		<choice>
 			<text>Produce generic trade goods.</text>
 			<event>
-				<text>The assembly lines can produces various simple goods from the scrap you feed into it. This will take some time.</text>
+				<text>선상 생산라인에 스크랩을 투입해 여러가지 단순한 상품을 제작할 수 있습니다. 다만 어느 정도 시간을 소모합니다.</text>
 				<choice hidden="true">
-					<text>Produce basic items made of plastic. [ Scrap: -10; Augment: Plastic Items ]</text>
+					<text>플라스틱으로 만든 기초적인 물품을 제조한다. [ 스크랩: -10; 강화 장치: 플라스틱 제품 ]</text>
 					<event>
-						<text>The assembly lines produces some simple polymer based items for daily use. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 간단한 고분자 재질의 일상용품들을 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_LANIUS_POLYMERS"/>
 						<item_modify>
@@ -23542,9 +23542,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce synthetic textiles. [ Scrap: -10; Augment: Synth-Textiles ]</text>
+					<text>인공 섬유를 제조한다. [ 스크랩: -10; 강화 장치: 인공 섬유 ]</text>
 					<event>
-						<text>The assembly lines produces a few crates of composite cloth. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 합성 섬유 몇 상자를 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_TEXTILES"/>
 						<item_modify>
@@ -23553,9 +23553,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
+					<text>표준화된 심층 우주 건설 자재를 제조한다. [ 스크랩: -10; 강화 장치: 건축재 ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 규격화된 철근들을 제조해냅니다. 멋지군요! 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
@@ -23564,9 +23564,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce general purpose power conduits. [ Scrap: -10; Augment: Power Condiuts ]</text>
+					<text>일반적인 목적의 전력선을 제조한다. [ 스크랩: -10; 강화 장치: 동력 덕트 ]</text>
 					<event>
-						<text>The assembly lines produces extremely flexible micro cables and finishes right on schedule. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 매우 유연한 초소형 케이블들을 제 시간에 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_CONDUITS"/>
 						<item_modify>
@@ -23575,9 +23575,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce industrial drones. [ Scrap: -15; Augment: Serve Drones ]</text>
+					<text>산업용 드론을 제조한다. [ 스크랩: -10; 강화 장치: 보좌용 드론 ]</text>
 					<event>
-						<text>The production line assembles a few industrial drones for you. The crew stows the cargo in the hold.</text>
+						<text>선상 생산라인이 약간의 산업용 드론을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_ROBOTS"/>
 						<item_modify>
@@ -23586,9 +23586,9 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce solar panels. [ Scrap: -20; Augment: Solar Panels ]</text>
+					<text>태양열 전지판을 제조한다. [ 스크랩: -20; 강화 장치: 태양 전지판 ]</text>
 					<event>
-						<text>The assembly lines robot arms construct advanced solar panels for planetary and interstellar use. The crew carefully stows them the hold.</text>
+						<text>선상 생산라인의 로봇 팔이 행성과 정거장에 쓰일 진보된 태양열 전지판을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 조심히 화물칸에 싣습니다.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_SOLAR"/>
 						<item_modify>
@@ -23603,9 +23603,9 @@
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>(Engi Crew) Produce simple industrial machines. [ Scrap: -15; Augment: Industrial Machinery ]</text>
+			<text>(엔지 승무원) 간단한 산업용 기계를 제조한다. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
 			<event>
-				<text>Your on-board production facilities assemble some standardized machinery. The crew packs the goods and loads them into the cargo holds.</text>
+				<text>선상 생산 설비가 표준화된 기계를 재조해냅니다. 곧이어 승무원들이 물품을 정리해 화물칸에 싣습니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -23614,9 +23614,9 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>(Rock Crew) Manufacture sturdy hull parts. [ Scrap: -15; Augment: Ship Hull Panels ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
-				<text>Scrap is turned into sturdy hull panels. The loading arms can barely handle the weight and you have to readjust the artificial gravity to make packing the parts easier.</text>
+				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
@@ -23625,9 +23625,9 @@
 			</event>
 		</choice>
 		<choice req="slug" hidden="true">
-			<text>(Slug Crew) Produce an arms-shipment. [ Scrap: -20; Augment: Small Arms ]</text>
+			<text>(슬러그 승무원) 개인 화기들을 제조한다. [ 스크랩: -20; 강화 장치: 개인 화기 ]</text>
 			<event>
-				<text>The assembly line turns the scrap into auto-blasters with high stopping power. You could outfit a small army with these things.</text>
+				<text>선상 생산라인이 스크랩을 저지력 높은 자동 블래스터로 제조해냅니다. 소규모 분대 정도는 충분히 무장시킬 수 있습니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23636,9 +23636,9 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>(AI Avatar Crew) Allot the AI to realize a personal art project. [ Scrap: -20 Augment: Eccentric Artwork ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
-				<text>The finished piece is definitely... unique. You have to consider that your organic brain might be unable to conceive the full meaning of the artwork. The Avatar happily agrees to sell the piece for the greater good of the mission.</text>
+				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23647,9 +23647,9 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Synthesize rare crystal objects. [ Scrap: -30 Augment: Crystal Artifacts ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
-				<text>The Crystal being reprograms the assembly line and then steps on the conveyor band. Clear Crystals sprout from their body and are shaped into small spheres by the robotic arms. A strange sight to behold.</text>
+				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-30" max="-30"/>
@@ -23658,9 +23658,9 @@
 			</event>
 		</choice>
 		<choice req="shields" lvl="7" hidden="true">
-			<text>(Advanced Shields) Produce shield components. [ Scrap: -30 Augment: Shield Components ]</text>
+			<text>(고급 실드) 방어막 구성 부품을 제조한다. [ 스크랩: -30 강화 장치: 방어막 구성품 ]</text>
 			<event>
-				<text>The production line assembles shield couplers and casings and the crew loads the cargo into vacuum sealed crates.</text>
+				<text>선상 생산라인이 방어막 연결부와 케이싱을 조립합니다. 곧이어 승무원들이 구성품들을 진공 포장 상자에 싣습니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -23669,9 +23669,9 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="6" hidden="true">
-			<text>(Advanced Engines) Produce engine parts. [ Scrap: -30 Augment: Engine Parts ]</text>
+			<text>(고급 엔진) 엔진 부품을 제조한다. [ 스크랩: -30 강화 장치: 엔진 부품 ]</text>
 			<event>
-				<text>Afterburner parts and exhaust casing are produced by the dozens and then loaded into crates. You are very satisfied with the production yield.</text>
+				<text>재추진 장치와 연소 케이싱이 여럿 제조되어 상자에 담깁니다. 당신은 생산 결과에 매우 만족합니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
@@ -32690,16 +32690,16 @@
 
 <eventList name="TE_TRADER_LIST">
 	<event>
-		<text>You consider dealing with the trader. This might take some time.</text>
+		<text>당신은 상인과 거래하는 것을 좀 더 고려합니다. 아마 좀 더 시간이 걸릴 겁니다.</text>
 <!-- SELLING -->
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32710,13 +32710,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32727,13 +32727,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32744,13 +32744,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32768,7 +32768,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32786,7 +32786,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32804,7 +32804,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32822,7 +32822,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32840,7 +32840,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32851,13 +32851,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
-			<text>[Sell the Zoltan Legal Codex for about 40 Scrap]</text> <!-- updated -->
+			<text>[졸탄족 법전을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32868,13 +32868,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 55 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32885,13 +32885,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32902,13 +32902,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32919,13 +32919,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32936,13 +32936,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 45 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32953,13 +32953,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Scriptures for about 50 Scrap]</text> <!-- updated -->
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32970,13 +32970,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -32987,13 +32987,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33004,13 +33004,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33021,13 +33021,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33038,13 +33038,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artworks for about 55 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33055,13 +33055,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33072,13 +33072,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33089,13 +33089,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33106,13 +33106,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33123,13 +33123,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33140,13 +33140,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33157,13 +33157,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33174,13 +33174,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33191,13 +33191,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33209,13 +33209,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Space Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33226,13 +33226,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33243,13 +33243,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33260,13 +33260,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33277,13 +33277,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33294,13 +33294,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33311,13 +33311,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33328,13 +33328,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33345,13 +33345,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33362,13 +33362,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33379,13 +33379,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33396,13 +33396,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33413,13 +33413,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33430,13 +33430,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33447,13 +33447,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33464,13 +33464,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33481,13 +33481,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33498,13 +33498,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33515,13 +33515,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33532,13 +33532,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33549,13 +33549,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33566,13 +33566,13 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -33604,13 +33604,13 @@
 		<text>You consider dealing with the trader and check your holds. The cargo teleporter will facilitate trading.</text>
 <!-- SELLING -->
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33620,13 +33620,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33636,13 +33636,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33652,13 +33652,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33675,7 +33675,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33692,7 +33692,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33709,7 +33709,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33726,7 +33726,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33743,7 +33743,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33753,13 +33753,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
-			<text>[Sell the Zoltan Legal Codex for about 40 Scrap]</text> <!-- updated -->
+			<text>[졸탄족 법전을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33769,13 +33769,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 55 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33785,13 +33785,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33801,13 +33801,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33817,13 +33817,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33833,13 +33833,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 45 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33849,13 +33849,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Scriptures for about 50 Scrap]</text> <!-- updated -->
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33865,13 +33865,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33881,13 +33881,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33897,13 +33897,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33913,13 +33913,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33929,13 +33929,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artworks for about 55 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33945,13 +33945,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33961,13 +33961,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33977,13 +33977,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -33993,13 +33993,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34009,13 +34009,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34025,13 +34025,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34041,13 +34041,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34057,13 +34057,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34073,13 +34073,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34090,13 +34090,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Space Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34106,13 +34106,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34122,13 +34122,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34138,13 +34138,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34154,13 +34154,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34170,13 +34170,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34186,13 +34186,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34202,13 +34202,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34218,13 +34218,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34234,13 +34234,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34250,13 +34250,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34266,13 +34266,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34282,13 +34282,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34298,13 +34298,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34314,13 +34314,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34330,13 +34330,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34346,13 +34346,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34362,13 +34362,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34378,13 +34378,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -34394,13 +34394,13 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 			</event>
@@ -34456,7 +34456,7 @@
 
 <eventList name="TE_STORE_CIVILIAN_ACTUAL">
 	<event>
-		<text>You consider dealing with the trader. This might take some time.</text>
+		<text>당신은 상인과 거래하는 것을 좀 더 고려합니다. 아마 좀 더 시간이 걸릴 겁니다.</text>
 <!-- BUYING -->
 		<choice>
 			<text>Buy a shipment of consumer goods.</text>
@@ -34500,7 +34500,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34517,7 +34517,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34534,7 +34534,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34551,7 +34551,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34568,7 +34568,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34585,7 +34585,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34595,13 +34595,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34611,13 +34611,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34627,13 +34627,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34643,13 +34643,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 45 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34659,13 +34659,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Scriptures for about 50 Scrap]</text> <!-- updated -->
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34675,13 +34675,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 30 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34691,13 +34691,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34707,13 +34707,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34723,13 +34723,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34739,13 +34739,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34755,13 +34755,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artwork for about 55 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34771,13 +34771,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34787,13 +34787,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34803,13 +34803,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34819,13 +34819,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34835,13 +34835,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34851,13 +34851,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34867,13 +34867,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34883,13 +34883,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
-			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<text>[AI 조사 자료를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34899,13 +34899,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34915,13 +34915,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34931,13 +34931,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34948,13 +34948,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34964,13 +34964,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34980,13 +34980,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -34996,13 +34996,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35012,13 +35012,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35028,13 +35028,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35044,13 +35044,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35060,13 +35060,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35076,13 +35076,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35092,13 +35092,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35108,13 +35108,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35124,13 +35124,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35140,13 +35140,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35156,13 +35156,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35172,13 +35172,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35188,13 +35188,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35204,13 +35204,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35220,13 +35220,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35236,13 +35236,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35252,13 +35252,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -35268,20 +35268,20 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just quickly check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -35345,7 +35345,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35361,7 +35361,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35377,7 +35377,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35393,7 +35393,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35409,7 +35409,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35425,7 +35425,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35434,13 +35434,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35449,13 +35449,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35464,13 +35464,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35479,13 +35479,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 45 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35494,13 +35494,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Scriptures for about 50 Scrap]</text> <!-- updated -->
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35509,13 +35509,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 30 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35524,13 +35524,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35539,13 +35539,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35554,13 +35554,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35569,13 +35569,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35584,13 +35584,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artwork for about 55 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35599,13 +35599,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35614,13 +35614,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35629,13 +35629,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35644,13 +35644,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35659,13 +35659,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35674,13 +35674,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35689,13 +35689,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35704,13 +35704,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
-			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<text>[AI 조사 자료를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35719,13 +35719,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35734,13 +35734,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35749,13 +35749,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35765,13 +35765,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35780,13 +35780,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35795,13 +35795,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35810,13 +35810,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35825,13 +35825,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35840,13 +35840,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35855,13 +35855,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35870,13 +35870,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35885,13 +35885,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35900,13 +35900,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35915,13 +35915,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35930,13 +35930,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35945,13 +35945,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35960,13 +35960,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35975,13 +35975,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -35990,13 +35990,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -36005,13 +36005,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -36020,13 +36020,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -36035,13 +36035,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -36050,13 +36050,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -36065,13 +36065,13 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 			</event>
@@ -36205,7 +36205,7 @@ IDEAS
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
-		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
@@ -36216,7 +36216,7 @@ IDEAS
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -36229,7 +36229,7 @@ IDEAS
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -36252,7 +36252,7 @@ IDEAS
 			<modifyPursuit amount="-2"/>
 			<damage amount="4" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
@@ -36278,7 +36278,7 @@ IDEAS
 			<modifyPursuit amount="-4"/>
 			<damage amount="8" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
@@ -36295,11 +36295,11 @@ IDEAS
 		</event>
 	</choice>
 	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
-		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<text>(고급 네비게이션 AI) AI가 초공간 점프를 처리하여 더 빠르게 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_BOOSTED_TEXT"/>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
@@ -36310,7 +36310,7 @@ IDEAS
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -36323,7 +36323,7 @@ IDEAS
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -36337,7 +36337,7 @@ IDEAS
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 선체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -36346,7 +36346,7 @@ IDEAS
 					<modifyPursuit amount="-2"/>
 					<damage amount="4" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
@@ -36363,7 +36363,7 @@ IDEAS
 				</event>
 			</choice>
 			<choice req="engines" lvl="6" hidden="true">
-				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<text>(고급 엔진) 안전 제한을 초과하고 연료를 소진시켜 더 빠른 속도로 이동합니다. [ 연료: -4; 선체 피해: 8 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -36372,7 +36372,7 @@ IDEAS
 					<modifyPursuit amount="-4"/>
 					<damage amount="8" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
@@ -36389,7 +36389,7 @@ IDEAS
 				</event>
 			</choice>
 			<choice req="engines" lvl="8" hidden="true">
-				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<text>(최고급 엔진) 물리적으로 가능한 궁극의 속도로 주행합니다. [ 연료: -5; 선체 피해: 10 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -36398,7 +36398,7 @@ IDEAS
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
@@ -36434,11 +36434,11 @@ IDEAS
 		<status type="clear" target="player" system="mind" amount="100"/>
 
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -36446,19 +36446,19 @@ IDEAS
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
 		<event load="CE_BOUNTY_LIST_CIVILIAN_HOME"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START_LIMITED"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -36472,23 +36472,23 @@ IDEAS
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_CIVILIAN"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -36569,11 +36569,11 @@ IDEAS
 		<status type="clear" target="player" system="mind" amount="100"/>
 
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -36585,27 +36585,27 @@ IDEAS
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_CIVILIAN"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
 			<text>Undisturbed as you are here, you lay out some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
@@ -36870,7 +36870,7 @@ IDEAS
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -36947,7 +36947,7 @@ IDEAS
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -37725,7 +37725,7 @@ IDEAS
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
@@ -37796,7 +37796,7 @@ IDEAS
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -38569,7 +38569,7 @@ IDEAS
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">

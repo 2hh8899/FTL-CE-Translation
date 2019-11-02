@@ -922,11 +922,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_CIVILIAN"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -961,11 +961,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_CIVILIAN"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -985,11 +985,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_CIVILIAN"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -1034,17 +1034,17 @@
 	<surrender  chance="0.5" min="2" max="4" >
 		<text>They hail you, "We realize our ship is no match for yours. If you let us go we can make it worth your while."</text>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="RANDOM">stuff</autoReward>
 			<text load="CE_SURRENDER_RESULTS_TEXT"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -1076,11 +1076,11 @@
 				<autoReward level="MED">stuff</autoReward>
 				<ship hostile="false"/>
 				<choice>
-					<text>Honor your truce and let the enemy leave.</text>
+					<text>휴전을 존중하고 적을 놓아줍니다.</text>
 					<event/>
 				</choice>
 				<choice>
-					<text>Open fire on your defeated opponent.</text>
+					<text>패배한 상대에게 발포합니다.</text>
 					<event load="CE_SURRENDER_SHIP_ATTACK"/>
 				</choice>
 			</event>
@@ -1123,11 +1123,11 @@
 
 				<ship hostile="false"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -1167,11 +1167,11 @@
 				<autoReward level="HIGH">weapon</autoReward>
 				<ship hostile="false"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -1999,11 +1999,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_CIVILIAN_STATION"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -2807,11 +2807,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_CIVILIAN"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -2834,11 +2834,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_ENGI"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -2865,11 +2865,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_ZOLTAN"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -2974,7 +2974,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event>
 				<text>They send out some of their remaining repair drones to patch up your ship. "There you go, now please leave."</text>
 				<ship hostile="false"/>
@@ -2986,7 +2986,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -3033,7 +3033,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event>
 				<text>They transfer the fuel containers. This was easy, but more and more ships arrive nearby. Your opponent must have a silent distress beacon active. You decide its better to leave soon.</text>
 				<ship hostile="false"/>
@@ -3047,7 +3047,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -3147,11 +3147,11 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event load="C_PIRACY_SUCCESS_LOOT_CIVILIAN_STATION"/>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -4651,7 +4651,7 @@
 	<surrender chance="0.5" min="3" max="4">
 		<text>The pirate hails, saying: "Seriously Mister Federation Captain Sir, this was all just a test you know? You really should not engage in combat within protected trade space and stuff! But we eh... will let it go this time. Please accept our surrender!"</text>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event>
 				<text>You quickly take their surrender offer aboard and prepare to get out of here. This is not a safe place.</text>
 				<ship hostile="false"/>
@@ -4661,7 +4661,7 @@
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -4675,7 +4675,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>This violation of protocols can not be tolerated. We will not accept surrender!</text>
+			<text>This violation of protocols can not be tolerated. 우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -4772,11 +4772,11 @@
 				<autoReward level="HIGH">stuff</autoReward>
 				<ship hostile="false"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -5314,7 +5314,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Accept their offer.</text>
+			<text>그들의 제안을 수락합니다.</text>
 			<event>					
 				<text>"Oh, you accept our offer? Well aren't you a nice guy! The only thing that might interest you is the location of a Rebel surveyor craft we tracked. Pull its survey data, stick your claim and get rich. Now please excuse us." The ships FTL is charged and they prepare to jump. You won't be able to attack them again.</text>
 				<quest event="CE_QUEST_AUTO_SURVEYOR_HUNT_FIGHT"/>
@@ -5326,7 +5326,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>We will not accept surrender!</text>
+			<text>우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
@@ -5504,11 +5504,11 @@
 				<autoReward level="HIGH">weapon</autoReward>
 			<text>She transfers a generous amount of scrap and a ship weapon. "Very well. Now scat you ship rat, I've had enough of this."</text>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -5566,11 +5566,11 @@
 				<autoReward level="MED">standard</autoReward>
 			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -5628,11 +5628,11 @@
 				<autoReward level="MED">standard</autoReward>
 			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>
@@ -5690,11 +5690,11 @@
 				<autoReward level="MED">standard</autoReward>
 			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			</event>

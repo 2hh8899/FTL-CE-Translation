@@ -88,7 +88,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -479,7 +479,7 @@
 	<text>어쨋든 당신은 여기서 기다려야만 하기에, 함선의 맞춤 장비를 제작하는데 시간을 활용하기로 합니다.</text>
 	<text>당신은 승무원들이 육체 노동으로 잠시나마 비참한 상황을 잊어버리길 바랍니다.</text>
 	<text>당신은 여기서 기다려야만 하기에, 잠깐의 시간을 할애해 함선을 고치는 것도 좋아 보입니다.</text>
-	<text>적어도 기다리는 것보다는 함선을 수리하는 게 승무원들의 사기진작에 도움이 될 것입니다.
+	<text>적어도 기다리는 것보다는 함선을 수리하는 게 승무원들의 사기진작에 도움이 될 것입니다.</text>
 	<text>승무원들의 폐쇄공포증이 더욱 커져만 갑니다. 고립감에 완전히 미쳐버리기 전에 무언가 할 일을 주는게 좋아 보입니다.</text>
 </textList>
 
@@ -1204,7 +1204,7 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>[락맨 승무원] 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
 				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다.</text>
 				<item_modify>
@@ -1224,7 +1224,7 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>[AI 아바타 승무원] AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
 				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다.</text>
 				<item_modify>
@@ -1234,7 +1234,7 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>[크리스탈 승무원] 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
 				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다.</text>
 				<modifyPursuit amount="1"/>
@@ -2185,7 +2185,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2228,7 +2228,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2251,7 +2251,7 @@
 	<event>
 		<text>당신은 여행자들을 위한 작은 정거장을 발견하였습니다. 하지만 여기 있는 함선들에는 초광속 도약장치를 장착한 함선이 얼마 되지 않는 것 같습니다. 여기서 팔고 있는 연료는 얼마 되지 않고 시세보다 비싸지만, 그런걸 따질 겨를이 없군요.</text>
 		<choice hidden="true">
-			<text>>20 스크랩으로 연료 5개를 구입한다.</text>
+			<text>20 스크랩으로 연료 5개를 구입한다.</text>
 			<event>
 				<text>당신은 흔쾌히 거래하였습니다.</text>
 				<item_modify>
@@ -2912,7 +2912,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3014,7 +3014,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3055,7 +3055,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
