@@ -88,7 +88,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -115,7 +115,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -173,7 +173,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -221,7 +221,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1204,7 +1204,7 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>[락맨 승무원] 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
 				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다.</text>
 				<item_modify>
@@ -1224,7 +1224,7 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>[AI 아바타 승무원] AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
 				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다.</text>
 				<item_modify>
@@ -1234,7 +1234,7 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>[크리스탈 승무원] 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
 				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다.</text>
 				<modifyPursuit amount="1"/>
@@ -1493,7 +1493,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1542,7 +1542,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1600,7 +1600,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1665,7 +1665,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1723,7 +1723,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1777,7 +1777,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1864,7 +1864,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1916,7 +1916,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1970,7 +1970,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2034,7 +2034,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2098,7 +2098,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2185,7 +2185,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2228,7 +2228,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2251,7 +2251,7 @@
 	<event>
 		<text>당신은 여행자들을 위한 작은 정거장을 발견하였습니다. 하지만 여기 있는 함선들에는 초광속 도약장치를 장착한 함선이 얼마 되지 않는 것 같습니다. 여기서 팔고 있는 연료는 얼마 되지 않고 시세보다 비싸지만, 그런걸 따질 겨를이 없군요.</text>
 		<choice hidden="true">
-			<text>>20 스크랩으로 연료 5개를 구입한다.</text>
+			<text>20 스크랩으로 연료 5개를 구입한다.</text>
 			<event>
 				<text>당신은 흔쾌히 거래하였습니다.</text>
 				<item_modify>
@@ -2332,7 +2332,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2385,7 +2385,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2435,7 +2435,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2484,7 +2484,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2537,7 +2537,7 @@
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2615,7 +2615,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2682,7 +2682,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2761,7 +2761,7 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2912,7 +2912,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2930,7 +2930,7 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3014,7 +3014,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3055,7 +3055,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3095,7 +3095,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 

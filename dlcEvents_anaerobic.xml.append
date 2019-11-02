@@ -63,7 +63,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연로: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -289,7 +289,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
-		<text>(생산 증가) 함내에서 무언가 생산합니다.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
@@ -301,7 +301,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_COMBAT_SIM_START_LIMITED"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 주변 시스템에 대한 조사를 수행합니다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
@@ -315,11 +315,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리 킷) 함체 피해를 일부 회복합니다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -403,7 +403,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
-		<text>(생산 증가) 함내에서 무언가 생산합니다.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -411,11 +411,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 주변 시스템에 대한 조사를 수행합니다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리 킷) 함체 피해를 일부 회복합니다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
@@ -485,7 +485,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
-		<text>(생산 증가) 함내에서 무언가 생산합니다.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -493,15 +493,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 주변 시스템에 대한 조사를 수행합니다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리 킷) 함체 피해를 일부 회복합니다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -559,7 +559,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
-		<text>(생산 증가) 함내에서 무언가 생산합니다.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -567,15 +567,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 주변 시스템에 대한 조사를 수행합니다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리 킷) 함체 피해를 일부 회복합니다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -1171,7 +1171,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1219,7 +1219,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 
 <event name="LANIUS_SLUG_DISTRESS" unique="true">
-	<text>이 시스템의 조난 신호는 라니우스의 공격을 받고 잇는 슬러그 선박에서 나옵니다! 라니우스가 함체 도금을 뜯고 있는 슬러그 함선은 도움을 요청합니다.</text>
+	<text>이 시스템의 조난 신호는 라니우스의 공격을 받고 있는 슬러그 선박에서 나옵니다! 라니우스가 함체 도금을 뜯고 있는 슬러그 함선은 도움을 요청합니다.</text>
 	<distressBeacon/>
 	<choice>
 		<text>라니우스 함선을 공격한다.</text>
@@ -1288,7 +1288,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1497,7 +1497,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event>
 			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것이 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>G이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
@@ -1517,7 +1517,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선를 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -1544,7 +1544,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<choice hidden="true">
 				<text>40 스크랩을 지불하고 통역기를 구매한다.</text>
 				<event>
-					<text>>당신은 라니우스 함선과 도킹한 뒤, 웬 라니우스가 당신의 함선에 승선하여 말을 걸어오자 살짝 놀랍니다. 아무래도 당신이 구매한 그 '통역기'는 공용어를 쓸 줄 아는 라니우스를 뜻하던 것 같습니다.</text>
+					<text>당신은 라니우스 함선과 도킹한 뒤, 웬 라니우스가 당신의 함선에 승선하여 말을 걸어오자 살짝 놀랍니다. 아무래도 당신이 구매한 그 '통역기'는 공용어를 쓸 줄 아는 라니우스를 뜻하던 것 같습니다.</text>
 					<crewMember amount="1" class="anaerobic">Translator</crewMember>
 					<item_modify>
 						<item type="scrap" min="-40" max="-40"/>
@@ -1552,7 +1552,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				</event>
 			</choice>
 			<choice>
-				<text>Decline again.</text>
+				<text>다시 거절한다.</text>
 				<event>
 					<text>"문제 없다. 얘도 그 배 싫다고 한다." 라니우스들은 떠나버렸고, 당신은 대체 그 말이 무슨 뜻인지 곰곰히 생각합니다. 어쩌면 통역기가 또 잘못 번역해준 것 아닐까요?</text>
 				</event>
@@ -1702,7 +1702,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1805,7 +1805,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1859,7 +1859,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1913,7 +1913,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1970,7 +1970,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2018,16 +2018,16 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 <event name="LANIUS_HARVESTER" unique="true">
 	<text>당신의 스캐너가 이 성계 안에 있는 라니우스 함선을 잡아냅니다: 그것은 풍부한 잔해가 있는 지역에서 광물들을 채취하며 돌아다니고 있는 것으로 보입니다.</text>
 	<choice hidden="true">
-		<text>당신의 위한 것을 채취하려고 해본다.</text>
+		<text>당신을 위한 것을 채취하려고 해본다.</text>
 		<event>
-			<text>당신이 잔해 속을 돌아다니려고 할 때, 당신은 라니우스 함선에게 너무 가까지 접근했고 그들은 당신을 채취하기 위해 오고 있습니다!</text>
+			<text>당신이 잔해 속을 돌아다니려고 할 때, 당신은 라니우스 함선에게 너무 가까이 접근했고 그들은 당신을 채취하기 위해 오고 있습니다!</text>
 			<ship load="LANIUS_HARVESTER_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2087,7 +2087,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Attack the vessel.</text>
+		<text>함선을 공격한다.</text>
 		<event>
 			<text>당신은 적대적인 태도를 취하며 무기를 가동합니다. 약간의 행운만 따른다면, 이 광물 지대는 온전히 당신의 것이 될 수 있습니다.</text>
 			<ship load="LANIUS_HARVESTER_SHIP" hostile="true"/>
@@ -2409,7 +2409,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 
 <event name="LANIUS_SCARED_CIVILIAN" unique="true">
-	<text>>당신은 송신소에 도착해서 라니우스 우주선 하나에게서 달아나고 있는 민간 함선을 발견합니다. 민간인이 당신에게 메시지를 보냅니다, "도와주세요! 저 금속 괴물들이 우리 함선을 녹여버리러 오고 있어요!" 이상하게도, 어떤 무기도 사용되고 있다고 감지되지 않습니다.</text>
+	<text>당신은 송신소에 도착해서 라니우스 우주선 하나에게서 달아나고 있는 민간 함선을 발견합니다. 민간인이 당신에게 메시지를 보냅니다, "도와주세요! 저 금속 괴물들이 우리 함선을 녹여버리러 오고 있어요!" 이상하게도, 어떤 무기도 사용되고 있다고 감지되지 않습니다.</text>
 	<ship load="LANIUS_SHIP" hostile="false"/>
 	<choice hidden="true">
 		<text>라니우스 함선을 공격한다.</text>
@@ -2502,7 +2502,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2623,7 +2623,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2700,7 +2700,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2764,7 +2764,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2827,7 +2827,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2886,7 +2886,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3058,7 +3058,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3120,7 +3120,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3168,7 +3168,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice hidden="true">
 		<text>정거장과 도킹한다.</text>
 		<event>
-			<text>당신은 재급유 정거장 중 한 곳에 정박합니다. 잠시 쉬니 좋군요</text>
+			<text>당신은 재급유 정거장 중 한 곳에 정박합니다. 잠시 쉬니 좋군요.</text>
 			<choice hidden="true">
 				<text>재급유 요청 신호를 보낸다.</text>
 				<event load="LANIUS_FUELING_STATION_LIST"/>
@@ -3249,7 +3249,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3326,7 +3326,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 </eventList>
 
 <event name="LANIUS_PIRATE_BOARDERS" unique="false"> <!-- MATT CHANGED TO STOP CRASHES-->
-	<text>쇠약하고 굶주린 모습의 인간들이 스크린에 나타납니다. "그 쇳덩이 새끼들이 우리 함선 엔진을 태반이나 쳐먹곤 , 우리가 뒈지든 말든 놔두고 가 버렸어. 니들 함선을 뺏는 이유를 이해해주길 바래."</text>
+	<text>쇠약하고 굶주린 모습의 인간들이 스크린에 나타납니다. "그 쇳덩이 새끼들이 우리 함선 엔진을 태반이나 쳐먹곤, 우리가 뒈지든 말든 놔두고 가 버렸어. 니들 함선을 뺏는 이유를 이해해주길 바래."</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(텔레포터 방해장치) 텔레포트 침입자로부터 함선을 보호합니다.</text>
 		<event>
@@ -3444,7 +3444,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<boarders min="3" max="4" class="anaerobic"/>
 	</event>
 	<event>
-		<text>에어록을 열고 라니우스를 탑승시켰습니다. 무리는 매우 감사를 표현했고 무리의 지도자는 엄하게 그들을 통제하고 있습니다. 생존자들이 당신 배를 먹으려는 시도는 즉시 처벌되었습니다. 젊은 Lanius 중 하나는 수준 높은 말투로 묻습니다. "음식"과 교환 할 수있는 "작업"이 있는지 말입니다..</text>
+		<text>에어록을 열고 라니우스를 탑승시켰습니다. 무리는 매우 감사를 표현했고 무리의 지도자는 엄하게 그들을 통제하고 있습니다. 생존자들이 당신 배를 먹으려는 시도는 즉시 처벌되었습니다. 젊은 라니우스 중 하나는 수준 높은 말투로 묻습니다. "음식"과 교환 할 수있는 "작업"이 있는지 말입니다..</text>
 			<choice hidden="true">
 				<text>라니우스를 고용하고 30 스크랩을 먹입니다.</text>
 				<event>
@@ -3486,7 +3486,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복하다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_LANIUS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3531,7 +3531,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</choice>
 </event>
 <textList name="BS_EVENT_LANIUS_TEXT">
-	<text>한 스테이션이 이 신소소를 지키고 있습니다. 라니우스가 당신의 도착을 감지하였고 그들의 무기에 전력을 공급하고 있습니다!</text>
+	<text>한 스테이션이 이 신호소를 지키고 있습니다. 라니우스가 당신의 도착을 감지하였고 그들의 무기에 전력을 공급하고 있습니다!</text>
 	<text>이 신호소에는 라니우스 무기 플랫폼이 있습니다. 스캐빈저가 어디서 그것을 구했는지 누가 알겠어요? 그들은 당신의 배에 신호를 보내지만, 통역기는 그들의 언어에 거의 대처할 수 없습니다. "...금속의 기회...획득...강제로..." 당신을 평화롭게 보내줄 것 같지는 않습니다.</text>
 	<text>당신은 도착하자 완전히 무장된 라니우스 스테이션을 발견합니다. 어떻게 그들은 이런 것들을 그렇게 빨리 만들 수 있었까요? 스크랩 복구 암을 사용하여 반란군 무인 정찰기를 분리하게 바쁘게 움직이지만 정박하려는 순간 무기 전원이 켜집니다.</text>
 	<text>당신은 광대역 주파수로 작은 라니우스 스테이션에서 메시지를 받았습니다. 그것은 당신을 향한 것은 아닌 것 같지만, 통역기는 최선을 다합니다: "...금속적인 기회...획득...강제로 ..." 아마 강제로 싸우러 온 모양입니다.</text>
@@ -3553,7 +3553,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<store/>
 </event>
 <textList name="STORE_LANIUS">
-	<text>>정비중인 거대 수송선으로부터 교신이 들어옵니다. "안녕하시오, 친구여. 우린 이 냉각 축 부품이 고쳐지는 대로 이 구역을 뜰 생각입니다. 그쪽도 후딱 여길 뜨는게 좋을겁니다. 언제 그 쇠딱지 괴물들이 나타나서 또 우리 함선을 녹여먹을지 모르겠군요. 이거 무게를 줄이려면 짐을 좀 덜어내야겠는데, 뭐 사갈만한 것이라도 있습니까?"</text>
+	<text>정비중인 거대 수송선으로부터 교신이 들어옵니다. "안녕하시오, 친구여. 우린 이 냉각 축 부품이 고쳐지는 대로 이 구역을 뜰 생각입니다. 그쪽도 후딱 여길 뜨는게 좋을겁니다. 언제 그 쇠딱지 괴물들이 나타나서 또 우리 함선을 녹여먹을지 모르겠군요. 이거 무게를 줄이려면 짐을 좀 덜어내야겠는데, 뭐 사갈만한 것이라도 있습니까?"</text>
 	<text>당신은 웬 정거장처럼 생긴 장소에 라니우스 함선들이 여럿 정박하고 있는 것을 발견합니다. 당신은 재빨리 자리를 뜨려 했지만, 라니우스들이 공용어로 교신을 걸어오자 이내 안도할 수 있었습니다. "삼? 팜? 상인임." 아무래도 몇몇 상인들이 이 청소부들 사이에 녹아든 모양입니다.</text>
 	<text>통신기 근처에 교역소가 설치되어 있습니다.굉장한 숫자의 군용 함선들이 이 우주정거장을 지키고 있습니다. 당신은 광대역 교신채널에서 광고가 흘러나오는 것을 듣습니다. "함선 부품, 수리, 급유, 기념품 - 다 있습니다. 오마크론6 구역을 독점하고 있는 상점입죠. 근처의 청소부들은 신경쓰지 마세요."</text>
 	<text>당신은 텅 비어있는 우주정거장에 도착합니다. 라니우스의 위협으로 인해 버려진 것이 분명합니다. 함선 격납고에서 웬 생체 반응이 감지되더니, 조악한 간판들이 걸려있는 광경이 눈에 들어옵니다. "떨이!"</text>
@@ -3790,7 +3790,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[산업용 기계를 대략 40 스크랩에 판매]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_LANIUS_SELL_TEXT"/>
 				<choice>
@@ -3806,7 +3806,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[신호소 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_LANIUS_SELL_TEXT"/>
 				<choice>
@@ -3854,7 +3854,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[무기 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_LANIUS_SELL_TEXT"/>
 				<choice>
@@ -3902,7 +3902,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[특이 취향 미술품을 대략 60 스크랩에 판매]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_LANIUS_SELL_TEXT"/>
 				<choice>
@@ -4207,7 +4207,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_LANIUS_SELL_TEXT"/>
 				<choice>
@@ -4412,7 +4412,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>오직 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
+			<text>그저 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -4633,7 +4633,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[산업용 기계를 대략 40 스크랩에 판매]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4693,7 +4693,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[무기 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4738,7 +4738,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[특이 취향 미술품을 대략 60 스크랩에 판매]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5024,7 +5024,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5171,7 +5171,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>오직 사용할 수 있는 함선 장비를 확인합니다.</text>
+			<text>그저 사용할 수 있는 함선 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>

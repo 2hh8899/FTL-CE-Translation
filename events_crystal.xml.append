@@ -168,11 +168,11 @@
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리 도구) 함체 피해를 일부 회복합니다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event>
 			<text>이곳의 FTL 네트워크는 당신이 알고 있는 대로 작동하는 것 같지만, 점프 비콘은 당신이 전에 본 적이 없는 디자인입니다. 그들의 크리스털 모형은 기능을 하는 것처럼 보이지 않았고, 단지 장식적인 소행성에 불과합니다. 접속장치는 여기서 전혀 쓸모 없습니다.</text>
 		</event>
@@ -455,11 +455,11 @@
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리 도구) 함체 피해를 일부 회복합니다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -520,7 +520,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -577,7 +577,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -634,7 +634,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -683,7 +683,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -732,7 +732,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -786,7 +786,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -842,7 +842,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -902,7 +902,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -963,7 +963,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1029,7 +1029,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1103,7 +1103,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1154,7 +1154,7 @@
 
 
 <event name="CRYSTAL_FED_DESERTER" unique="true">
-	<text>>잠시 당신은 작은 문제가 생겼다고 여겼지만, 아닙니다... 당신은 연방군사함선을 발견했습니다. 그들은 당신에게 인사하고 조사한 뒤 그들은 연방함대에서 탈영해 피난처를 찾다 이 곳에 발이 묶였다고 밝힙니다.</text>
+	<text>잠시 당신은 작은 문제가 생겼다고 여겼지만, 아닙니다... 당신은 연방군사함선을 발견했습니다. 그들은 당신에게 인사하고 조사한 뒤 그들은 연방함대에서 탈영해 피난처를 찾다 이 곳에 발이 묶였다고 밝힙니다.</text>
 	<ship load="FED_SHIP" hostile="false"/>
 	<choice hidden="true">
 		<text>필요 물품을 제공한다.</text>
@@ -1177,7 +1177,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1283,7 +1283,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1334,7 +1334,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1410,7 +1410,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1462,7 +1462,7 @@
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1539,7 +1539,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1610,7 +1610,7 @@
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2556,7 +2556,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>오직 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
+			<text>그저 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -3329,7 +3329,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>오직 사용할 수 있는 함선 장비를 확인합니다.</text>
+			<text>그저 사용할 수 있는 함선 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
