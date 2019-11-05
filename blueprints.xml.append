@@ -16563,9 +16563,6 @@
 	<mod:setAttributes img="jelly_button_pirate"/>
 	<mod-overwrite:class>해적 요격기</mod-overwrite:class>
 </mod:findName>
-<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
-	<mod-overwrite:cloakImage>kestral_2</mod-overwrite:cloakImage>
-</mod:findName>
 <mod:findName type="shipBlueprint" name="BOSS_SPECIAL">
 	<mod-overwrite:class>미완성 반란군 기함</mod-overwrite:class>
 </mod:findName>
