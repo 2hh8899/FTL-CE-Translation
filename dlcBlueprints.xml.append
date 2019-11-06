@@ -457,7 +457,7 @@
 
 <weaponBlueprint name="ARTILLERY_FED_C">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>대공 주포</title>
 	<short>Flak A.</short>
 	<desc>일곱 파편을 발사하는, 장전은 느리지만 위력은 강력한 대공포. 재사용 대기 40초.</desc>
@@ -503,7 +503,7 @@
 
 <weaponBlueprint name="SHOTGUN">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>대공포 마크 II</title>
 	<tip>tip_flak</tip>
 	<short>Flak II</short>
@@ -551,7 +551,7 @@
 
 <weaponBlueprint name="SHOTGUN_2">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>대공포 마크 III</title>
 	<short>Flak III</short>
 	<tip>tip_flak</tip>
@@ -599,7 +599,7 @@
 
 <weaponBlueprint name="MISSILE_CHARGEGUN">
 	<type>BURST</type>
-	<flavorType>Charge Blast Missile</flavorType>
+	<flavorType>충전 미사일 블래스트</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>충전식 미사일 마크 II</title>
 	<tip>tip_charge</tip>
@@ -760,16 +760,16 @@
 
 <!-- END OF DLC DRONE OVERRIDES -->
 <mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER"><!-- YMMV -->
-    <mod-overwrite:flavorType>Debris Blast</mod-overwrite:flavorType>
+    <mod-overwrite:flavorType>파편 블래스트</mod-overwrite:flavorType>
 	<mod-overwrite:title>고급 대공포</mod-overwrite:title>
 	<mod-overwrite:short>Adv. Flak Gun</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="SHOTGUN"><!-- YMMV -->
-    <mod-overwrite:flavorType>Debris Blast</mod-overwrite:flavorType>
+    <mod-overwrite:flavorType>파편 블래스트</mod-overwrite:flavorType>
 	<mod-overwrite:short>Flak Gun II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="SHOTGUN_2"><!-- YMMV -->
-    <mod-overwrite:flavorType>Debris Blast</mod-overwrite:flavorType>
+    <mod-overwrite:flavorType>파편 블래스트</mod-overwrite:flavorType>
 	<mod-overwrite:short>Flak Gun III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="LASER_CHAINGUN_2">
