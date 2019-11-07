@@ -3055,19 +3055,19 @@
 	<text>졸탄족의 테라포밍 함선이 이 행성계를 지나쳐갑니다. 근처에 다른 함선은 없습니다.</text>
 	<text>경무장한 졸탄 수송선이 당신을 뒤따라 도약해옵니다. 그들은 모든 통신을 거절했기에 당신은 조용히 서로를 지켜보며 FTL을 충전합니다.</text>
 	<text>졸탄 수송선이 통신합니다. "상인 보호법에 의해 우리는 공식적으로 당신에게 안전거리를 유지한 채 무기를 꺼 두기를 요청합니다." 그들은 더 이상 통신을 받지 않습니다.</text>
-	<text>A civilian Zoltan ship recharges its FTL at this beacon. They hail you, "Greetings, Captain. It's been a long time since we last saw a Federation ship here. We transport goods for the Zoltan peace synod. Where are you heading?" After a little chat, they prepare to jump.</text>
-	<text>A Zoltan transport ship is performing maintenance at this beacon. They send a message, "Military vessel. We have no reason to think ill of you, but expect you to keep your distance. In case of aggression we will make full use of our right to self-defense granted to us by GSL Paragraph 23412, Section VII, part D."</text>
+	<text>졸탄족 민간 함선이 송신소에서 FTL을 충전합니다. 그들이 통신합니다. "안녕하십니까, 함장님. 연방 함선을 보는 것도 참 오랬만이군요. 우리는 졸탄 평화 교회에 물자를 실어나르고 있습니다. 당신은 어디로 가십니까?" 약간의 잡담 후 그들은 도약을 준비합니다.</text>
+	<text>졸탄 수송선이 송신소에서 정비 중입니다. 그들이 메세지를 보냅니다. "군용 함선은 들으시오. 당신을 나쁘게 생각하고 싶지 않지만, 거리를 유지하여 주시길 바라오. 저희는 성간 표준법 제  D조 8항 23412절에 의거하여 자주권을 행사할 권리가 있소."</text>
 </textList>
 <textList name="C_ZOLTAN_SURRENDER_TEXT">
-	<text>The ship sends white flag codes. The Zoltan want to surrender.</text>
-	<text>They send surrender signals and hail, "We were only defending ourselves. Let us be reasonable. No more damage has to be caused. We agree to comply with any of your demands". They offer everything they have if you let them go.</text>
-	<text>The ship shows heavy damage. You receive a hail, "Stop shooting, we can't bear this violence. Take our goods and leave us."</text>
-	<text>"This disturbance of galactic harmony is unnecessary and has to end. Worldly possessions can never be as valuable as sentient lives, so we agree to give up our cargo." They offer to transfer a bounty.</text>
+	<text>적 함선이 백기 신호를 보냅니다. 졸탄족이 항복하려고 합니다.</text>
+	<text>그들이 항복 신호를 보내고 통신합니다. "우리는 그저 자위권을 행사하고 있을 뿐이었소. 우리 둘 다 더 많은 피해를 감수할 수는 없소, 당신의 요구를 맞춰드리는 걸로 하겠소. 합리적으로 생각하기 바라오." 그들은 자신들을 풀어주는 댓가로 가진 모든 것을 내놓습니다.</text>
+	<text>적 함선이 심각한 손상을 입었습니다. 당신은 교신을 받습니다. "그만 공격하시오, 이 폭력을 더 견딜 수 없소. 우릴 내버려두는 대신 이걸 챙겨가시오."</text>
+	<text>"우주적 균형을 방해하는 것은 당장 사라져야 하오, 지각 있는 생명 앞에 세속적인 물건 따위가 무순 소용이겠소? 그러니 이 물자를 드리겠소." 그들이 물자를 전송하려고 합니다.</text>
 </textList>
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_ZOLTAN">
 	<event>					
-		<text>They transmit the prices. This took some time; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 물자를 전송합니다. 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3076,7 +3076,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>They transmit the supplies. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 물자를 전송합니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3085,7 +3085,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 물자를 전송합니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3094,7 +3094,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 물자를 전송합니다. 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3103,7 +3103,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 화물을 전송합니다. 당신의 해적질은 성공적이었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 		<choice>
@@ -3112,7 +3112,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying spare parts for FTL beacons and agree to give up their cargo. This makes you just another space pirate but you don't even have those fancy pirate markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 FTL 송신소의 여분 부품을 당신에게 넘겨주었습니다. 해적 도색을 하지 않고도 해적질을 할 수 있는걸 보여 주었습니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 		<choice>
@@ -3121,7 +3121,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying a copy of the Zoltan legal codex. You could research what the current punishment for piracy is. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 졸탄족 법전을 가지고 있었습니다. 당신의 해적질에 대한 처벌을 찾아볼 수도 있을 것입니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_CODEX"/>
 		<choice>
@@ -3130,7 +3130,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying valuable shield system parts and agree to give up their cargo. This makes you just another space pirate but you don't even have the fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 쓸만한 방어막 시스템 부품들을 당신에게 넘겨주었습니다. 해적 도색을 하지 않고도 해적질을 할 수 있는걸 보여 주었습니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_SHIELDS"/>
 		<choice>
@@ -3140,7 +3140,7 @@
 	</event>
 
 	<event>
-		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 화물을 전송합니다. 당신의 해적질은 성공적이었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GIRDERS"/>
 		<choice>
@@ -3149,7 +3149,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들이 화물을 전송합니다. 당신의 해적질은 성공적이었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GEMS"/>
 		<choice>
@@ -3158,7 +3158,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 화물을 내려놓고 도약할 준비를 합니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -3167,7 +3167,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 화물을 내려놓고 도약할 준비를 합니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CONDUITS"/>
 		<choice>
@@ -3177,7 +3177,7 @@
 	</event>
 
 	<event>
-		<text>They were carrying virtual reality substrates and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 가상 현실 게임 기판을 당신에게 넘겨 주었습니다. 해적 도색을 하지 않고도 해적질을 할 수 있는걸 보여 주었습니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GAMES"/>
 		<choice>
@@ -3186,7 +3186,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying sensor equipment and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 센서 부품을 당신에게 넘겨 주었습니다. 해적 도색을 하지 않고도 해적질을 할 수 있는걸 보여 주었습니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SENSORS"/>
 		<choice>
@@ -3195,7 +3195,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying air filters and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 공기 정화 필터를 당신에게 넘겨 주었습니다. 해적 도색을 하지 않고도 해적질을 할 수 있는걸 보여 주었습니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 		<choice>
@@ -3204,7 +3204,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 산업용 드론을 당신에게 넘겨 주었습니다. 해적 도색을 하지 않고도 해적질을 할 수 있는걸 보여 주었습니다. 상대는 FTL을 충전하여 곧장 떠났습니다. 당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -3213,7 +3213,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 당신에게 실험 장비를 넘겨 주었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다.당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -3222,7 +3222,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 당신에게 실험 장비를 넘겨 주었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다.당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -3231,7 +3231,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 당신에게 실험 장비를 넘겨 주었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다.당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -3240,7 +3240,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying solar panels. Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 당신에게 태양열 집광판을 넘겨 주었습니다. 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다.당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -3249,7 +3249,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying strange archaeological artifacts. What are you supposed to do with these? Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>그들은 당신에게 이상한 고고학 유물을 넘겨 주었습니다. 이걸로 무엇을 할 수 있을까요? 화물을 옮기는 약간의 시간 이후 그들은 FTL을 완전히 충전하여 곧장 떠났습니다.당신이 그들을 더 이상 공격 못하게 할 생각이었다면 옳은 선택인 것 같습니다.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RELICS"/>
 		<choice>
@@ -3261,21 +3261,21 @@
 
 <eventList name="DEAD_CREW_PIRACY_ZOLTAN">
 	<event>	
-		<text>There are no more life signs remaining on the civilian vessel. You murdered these poor Zoltan and this constitutes an act of piracy. Your crew might be disturbed.</text>
+		<text>민간 함선에서 생명체 신호가 사라졌습니다. 당신은 불쌍한 졸탄족을 살해하고 약탈을 저질렀습니다. 당신의 승무원들이 불안해할 것입니다.</text>
 		<choice hidden="true"> 
-			<text>See how the crew reacts.</text>
+			<text>승무원들이 어떻게 반응하는지 본다.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true"> 
-			<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew what they where signing on for a joyride here.</text>
+			<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. You crew almost expected things like this.</text>
+			<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true"> 
-			<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't go that cleanly.</text>
+			<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 	</event>
@@ -3283,7 +3283,7 @@
 
 <eventList name="DEAD_CREW_PIRACY_ZOLTAN_RESULTS">
 	<event>
-		<text>The crew is unusually quiet. A salvage team strips the ship of useful materials and checks its cargo.</text>
+		<text>승무원들은 평소와 달리 조용합니다. 인양팀은 선박을 벗겨내고 화물을 확인합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3291,7 +3291,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew accuses you of betraying everything the Federation stands for. A salvage team is sent in to strip the ship of useful materials and report on its cargo.</text>
+		<text>당신의 승무원은 당신이 연방의 모든 것을 배신했다고 비난합니다. 인양팀이 투입되어 선박의 유용한 자재들을 벗겨내고 화물에 대한 보고를 합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3299,23 +3299,23 @@
 		</choice>
 	</event>
 	<event>
-		<text>A heated discussion among your crew, concerning your moral integrity, leads to one of your crewman pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
+		<text>당신의 도덕성에 대한 승무원들간의 열띤 논쟁은, 결국 승무원 중 한 명이 당신을 향해 총을 뽑게 만듭니다. 당신은 승무원보다 더 빨리 총을 쏘았고 승무원은 차가운 금속 바닥으로 쓰러집니다. 함교에 있는 사람들은 아무 말도 없이 모두 자기 자리로 돌아갑니다. 당신은 숙소에 돌아가 어째서 이런 일이 생겼는지 고민합니다.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmembers watches silently from the doorway as you wipe the traitor's mind-backup.</text>
+			<text>반란을 일으킨 사람을 되살리는 것은 의미 없는 일일 것입니다. 당신이 함선에 저장된 배신자의 정신 정보를 지우는 동안, 승무원 중 한명이 출입구에서 조용히 지켜봅니다.</text>
 		</removeCrew>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You strip the ship of useful materials. Several crew members file formal complaints on how you handled this. Do you feel guilty?</text>
+		<text>당신은 그 배에 있는 유용한 물질들을 벗겨냅니다. 몇몇 승무원들이 처리 방법에 대한 공식적인 불만을 제기합니다. 죄책감이 느껴지십니까?</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>So many individuals have died by your hand during your mission... So the death of these civilians doesn't matter, right? The crew seems to think otherwise. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage.</text>
+		<text>임무 수행 중 많은 사람들이 당신에게 목숨을 잃었습니다. 이 민간인들의 죽음은 그리 중요치 않습니다. 그렇지 않습니까? 그러나 승무원들은 다르게 생각하는 것처럼 보입니다. 당신은 그 선박의 저장고에서 챙길 수 있는 모든 스크랩과 연료를 가져옵니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</event>
 	<event>
-		<text>You keep telling yourself this was necessary for the mission, but can't help but feel guilty. The looks your crew give you don't help either. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage and request a report on the ship's cargo.</text>
+		<text>당신은 계속해서 이것이 임무를 위해 필요하다고 스스로에게 말하지만, 죄책감을 느끼지 않을 수가 없습니다. 선원들의 표정은 말할 것도 없지요. 당신은 그 선박의 저장고에서 연료를 가져올 수 있었습니다. 또한 챙길 수 있는 모든 스크랩을 가져와 화물칸에 싣도록 합니다.</text>
 		<autoReward level="LOW">fuel</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3323,22 +3323,22 @@
 		</choice>
 	</event>
 	<event>
-		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. They decide to desert your mission and stay aboard the civilian ship.</text>
+		<text>배에는 더 이상 생명 징후가 남아 있지 않았고 당신은 인양팀을 투입합니다. 당신의 승무원 중 한 명이 통신을 통해 이 작전은 불필요하고 연방 협약에 어긋난다고 주장하며 공식적인 항의를 보냅니다. 그들은 당신의 임무를 포기하고 민간함선에 머물기로 결심합니다.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clonebay obviously does not revive your crewmember, since they did not die.</text>
+			<text>당신의 클론베이는 당신의 선원이 확실하게 죽지 않았기 때문에, 그를 되살리지는 못합니다.</text>
 		</removeCrew>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your crew are much more silent during the salvage operation than usual; no one talks to you anymore unless given orders. They find a weapons system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<text>승무원은 평소보다 인양 작업 중에 훨씬 더 조용했고, 명령이 없으면 아무도 더 이상 이야기하지 않습니다. 그들은 배에서 무기를 찾았습니다. 모든 민간인을 학살했으니, 이제 그 무기는 당신의 것입니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
 
 <eventList name="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS">
 	<event>
-		<text>Your crew has no problems with resorting to piracy. A salvage team strips the ship of useful materials and checks its cargo.</text>
+		<text>당신의 승무원들은 해적행위를 하는 것에 아무런 문제가 없습니다. 인양팀은 선박을 벗겨내고 화물을 확인합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3346,7 +3346,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew has no problems with resorting to piracy. A salvage team is sent in to strip the ship of useful materials and report on its cargo.</text>
+		<text>당신의 승무원들은 해적행위를 하는 것에 아무런 문제가 없습니다. 인양팀이 투입되어 선박의 유용한 자재들을 벗겨내고 화물에 대한 보고를 합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3354,15 +3354,15 @@
 		</choice>
 	</event>
 	<event>
-		<text>You strip the ship of useful materials. Your crew follows their orders.</text>
+		<text>당신은 그 배에 있는 유용한 재료들을 벗겨냅니다. 당신의 승무원들은 명령을 따릅니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>Your crew agrees this was ugly, but necessary. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage.</text>
+		<text>당신의 승무원들은 이것이 추잡한 짓임을 동의하지만, 꼭 필요한 일이었습니다. 당신은 선박 저장고에서 연료를 빼낼 수 있습니다. 또한 당신이 챙길 수 있는 모든 스크랩을 가져갑니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</event>
 	<event>
-		<text>Your crew does not question your course of action. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage and request a report on the ship's cargo.</text>
+		<text>당신의 승무원들은 당신의 행동 방침에 의문을 제기하지 않습니다. 당신은 선박 저장고에서 연료를 빼낼 수 있습니다. 또한 챙길 수 있는 스크랩을 모두 가져가고 선박 화물에 대한 신고를 요청합니다.</text>
 		<autoReward level="LOW">fuel</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3370,7 +3370,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew doesn't care any more than you about the civilians. They throw bodies out of the airlock and later find a weapons system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<text>당신의 승무원은 민간인에 대해 당신보다 더 신경 쓰지 않습니다 그들은 시신을 함선 바깥으로 던져버린 다음 곧이어 함선에서 무기 시스템을 찾았습니다. 모든 민간인을 학살했으니, 그 무기는 이제 당신 것입니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
@@ -3378,21 +3378,21 @@
 
 <eventList name="DESTROYED_PIRACY_ZOLTAN">
 	<event>	
-		<text>The ship explodes, leaving behind a substantial collection of useful scrap material. You just committed an act of piracy. This might disturb your crew.</text>
+		<text>함선이 폭발하자, 상당한 양의 수집할 수 있는 유용한 고철 재료가 남았습니다. 당신은 해적행위를 저질렀습니다. 승무원들이 불안해할 것입니다.</text>
 		<choice hidden="true"> 
-			<text>See how the crew reacts.</text>
+			<text>승무원들이 어떻게 반응하는지 살펴본다.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true"> 
-			<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew what they where signing on for a joyride here.</text>
+			<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. You crew almost expected things like this.</text>
+			<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true"> 
-			<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't go that cleanly.</text>
+			<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 	</event>
@@ -3401,7 +3401,7 @@
 
 <eventList name="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS">
 	<event>
-		<text>Your crew has gotten used to your hard style of leadership. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
+		<text>당신의 승무원들은 당신의 가차없는 리더십에 익숙해졌습니다. 스캔 결과, 함선의 화물 일부는 여전히 이상 없는 것으로 나타냅니다. 당신은 싹 긁어 올 것을 명령합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3409,22 +3409,22 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your hard-boiled crew doesn't care much about lives lost. You send in a salvage team.</text>
+		<text>당신의 무감각한 승무원들은 잃어버린 목숨에 대해 별로 신경 쓰지 않습니다. 당신은 인양팀을 투입합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>The crew isn't questioning your course of action. They follow their orders and salvage the ship.</text>
+		<text>승무원들은 당신의 행동 방침에 대해 별다른 의문을 제기하지 않습니다. 이들은 지시에 따라 배를 인양합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>Your hardcore crew has no problem with piracy. They salvage what remains of the ship.</text>
+		<text>당신의 강경한 선원들은 해적행위에도 아무런 문제가 없습니다. 그들은 배의 잔해를 인양합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
 
 <eventList name="DESTROYED_PIRACY_ZOLTAN_RESULTS">
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
+		<text>당신은 스크랩을 유용하게 사용할 것이지만, 길을 잃은 것 같은 기분을 금할 수 없습니다. 승무원들의 사기도 땅에 떨어집니다. 스캔 결과, 함선의 화물 일부는 여전히 이상 없는 것으로 나타냅니다. 당신은 싹 긁어 올 것을 명령합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3432,7 +3432,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew accuses you of betraying everything the Federation stands for. You don't care. Some of the cargo seems to have survived the explosion. You run a tight beam scan.</text>
+		<text>당신의 승무원은 당신이 연방의 모든 것을 배신했다고 비난합니다. 당신은 신경쓰지 않습니다. 화물 일부가 폭발에서 살아남은 것으로 보입니다. 빽빽한 빔 스캔을 실행합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3440,34 +3440,34 @@
 		</choice>
 	</event>
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get.</text>
+		<text>당신은 스크랩을 유용하게 사용할 것이지만, 길을 잃은 것 같은 기분을 금할 수 없습니다. 승무원들의 사기도 땅에 떨어집니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>The crew is shocked. Was this the right course of action?</text>
+		<text>승무원들이 충격을 받았습니다. 과연 이게 옳은 행동이었을까요?</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>The crew is shocked. Was this the right course of action?</text>
+		<text>승무원들이 충격을 받았습니다. 과연 이게 옳은 행동이었을까요?</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get.</text>
+		<text>당신은 스크랩을 유용하게 사용할 것이지만, 길을 잃은 것 같은 기분을 금할 수 없습니다. 승무원들의 사기도 땅에 떨어집니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>Your crew accuses you of betraying everything the Federation stands for.</text>
+		<text>당신의 승무원은 당신이 연방의 모든 것을 배신했다고 비난합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>The crew is disillusioned. Was this the right course of action?</text>
+		<text>승무원들이 환멸감을 느낍니다. 과연 이게 옳은 행동이었을까요?</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>During the salvaging, one of your crew members stares a long time at the wreckage. Finally they approach you, salute, then put a blaster to their head and pull the trigger. You simply can't believe it... how could they lose their nerve like this? Was this your fault?</text>
+		<text>함선을 인양하는 동안, 승무원 한 명이 잔해를 멍하니 바라봅니다. 마침내 그는 당신에게 다가가, 경례를 한 후 블래스터를 자신의 머리에 대고 발사합니다. 믿을 수 없는 관경입니다... 어떻게 이렇게 되버릴 수가 있을까요? 이게 다 당신의 책임일까요?</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>This person was obviously unstable. It is unthinkable what might happen if you were to revive them.</text>
+			<text>이 사람은 확실히 정신에 이상이 있습니다. 부활시켰을 때의 위험을 감수할 수 없을 것입니다.</text>
 		</removeCrew>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
@@ -3476,52 +3476,52 @@
 
 <eventList name="TE_LOOT_GOODS_ZOLTAN">
 	<event>
-		<text>The ship's cargo consists of spare parts for beacon construction. You prepare to take the containers on board.</text>
+		<text>선박의 화물엔 송신소 건설용 예비 부품이 이 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 	</event>
 	<event>
-		<text>The ship's cargo consists of spare parts for beacon construction. You prepare to take the containers on board.</text>
+		<text>선박의 화물엔 송신소 건설용 예비 부품이 이 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 	</event>
 	<event>
-		<text>The ship was carrying legal documents. This stuff could actually be worth something. The crew carefully secures the freight in the cargo holds.</text>
+		<text>적 선박은 졸탄족 법 문서를 가지고 있었습니다. 어딘가 쓸 만한 데가 있을 것입니다. 선원들이 조심스럽게 물건을 화물칸으로 옮깁니다.</text>
 		<augment name="TE_GOODS_ZOLTAN_CODEX"/>
 	</event>
 	<event>
-		<text>The ship was transporting high tech shield components. A fine bounty!</text>
+		<text>적 선박은 최신식 방어막 부품을 가지고 있었습니다. 쓸만한 보상이군요!</text>
 		<augment name="TE_GOODS_ZOLTAN_SHIELDS"/>
 	</event>
 
 	<event>
-		<text>The ship's cargo consists of deep space construction material. You prepare to take the containers on board.</text>
+		<text>선박의 화물엔 심층 우주 건설 자재가 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 	<event>
-		<text>The ship's cargo consists of virtual entertainment hardware. You prepare to take the containers on board.</text>
+		<text>선박의 화물엔 가상 엔터테인먼트 장비가 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_GAMES"/>
 	</event>
 	<event>
-		<text>The ship's cargo consists of weaponized antimatter fuel. What do the Zoltan want with this stuff? You prepare to take the containers on board.</text>
+		<text>선박의 화물엔 무기화된 반물질 연료가 들어 있었습니다. 졸탄족들이 이걸로 무얼 하려던 것일까요?당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 	</event>
 	<event>
-		<text>The ship's cargo consisted mainly of advanced lab equipment. Your crew carefully loads the remaining cargo into the holds.</text>
+		<text>선박의 화물엔 고급 실험 장비가 들어 있었습니다. 당신의 선원이 남은 화물을 조심스럽게 챙겨 옵니다.</text>
 		<augment name="TE_GOODS_RESEARCH"/>
 	</event>
 	<event>
-		<text>The ship's cargo consisted mainly of advanced lab equipment. Your crew carefully loads the remaining cargo into the holds.</text>
+		<text>선박의 화물엔 고급 실험 장비가 들어 있었습니다. 당신의 선원이 남은 화물을 조심스럽게 챙겨 옵니다.</text>
 		<augment name="TE_GOODS_RESEARCH"/>
 	</event>
 	<event>
-		<text>The ship's cargo consisted mainly of high performance power cables. Your crew loads the shipment into the cargo holds.</text>
+		<text>선박의 화물엔 고성능의 전력 도관이 들어 있었습니다. 당신의 선원이 화물을 화물칸에 싣습니다.</text>
 		<augment name="TE_GOODS_CONDUITS"/>
 	</event>
 	<event>
-		<text>The ship's cargo consisted mainly of sensor spare parts. What remains usable is taken aboard.</text>
+		<text>선박의 화물엔 센서 부품이 들어 있었습니다. 남은 것들 중 쓸만한 부분을 함선에 챙깁니다.</text>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 	</event>
 	<event>
-		<text>The ship was carrying a few crates with archaeological artifacts. What should you do with these?</text>
+		<text>선박의 화물엔 고고학적 유물이 들어 있었습니다. 이것으로 무엇을 할 수 있을까요?</text>
 		<augment name="TE_GOODS_RELICS"/>
 	</event>
 </eventList>
@@ -3588,9 +3588,9 @@
 </event>
 <textList name="BS_EVENT_ZOLTAN_TEXT">
 	<!-- <text>A Zoltan station hails, "Is it day or the sleep? Thousands of cycles, always in movement. My mind transcends the worldly realm. I have seen it!" It seems they have been out here for too long. You consider trying to find help for them but for now you are going have to dodge their fire.</text> -->
-	<text>A Zoltan station with strange markings appears on the vidscreen. After a short time they open fire; this must be some violent separatist sect.</text>
-	<text>You receive a hail from a small station, "As a result of jumping here, you have invaded the domain of warrior-monk Sandra-Zen the Sublime. Deactivate your weapons and submit to her authority." The station doesn't seem that big. A fast crew vote results in the decision to fight.</text>
-	<text>A nearby Zoltan outpost is harassed by some pirate ships, which are about to retreat. The station must have mistaken you for reinforcements and starts targeting you. One would think Zoltan commanders would be open to reason. This one definitely isn't.</text>
+	<text>이상한 도색을 한 졸탄족 정거장이 스크린에 나타납니다. 잠시 후 그들이 당신에세 공격을 가합니다. 폭력적인 분리주의자 분파인게 틀림없습니다!</text>
+	<text>당신은 소형 정거장에서 통신을 받습니다. "그대의 도약으로 인하여 숭고한 고승 산드라의 영역이 침범되었다. 무기를 내려놓고 그녀의 권위에 복종하라." 이 정거장은 그렇게 커 보이지 않습니다. 승무원들의 약식 투표로 정거장과 싸우기로 결정했습니다.</text>
+	<text>해적선이 근처의 졸탄족 전초기지를 공격하다 이내 도망갑니다. 불행히도 전초기지가 당신을 그들과 한패로 착각하고 당신에게 무기를 겨눕니다. 몇몇 졸탄족 선장은 당신의 말을 들어줄 수도 있을 것이지만, 이 자는 그럴 것 같진 않습니다.</text>
 	<text>As you arrive at the beacon a Zoltan military outpost appears on the radar. They refuse all hails and instead start firing. You will have time to wonder why later.</text>
 	<text>The commander of this Zoltan outpost claims that you have intruded into a military zone. They demand that you stand down and surrender immediately.</text>
 </textList>
