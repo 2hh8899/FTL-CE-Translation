@@ -2796,7 +2796,7 @@
 <weaponBlueprint name="BA_BEAM_NAGINATA">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>나기나카 빔</title>
+	<title>나기나타 빔</title>
 	<short>Naginata</short>
 	<desc>함체 전체를 갈라버릴 수 있는 고급 빔 무기.</desc>
 	<tooltip>향상된 공격범위를 가진 강력한 빔 무기. 방마다 2 피해.</tooltip>
@@ -3661,7 +3661,7 @@
 <weaponBlueprint name="BA_LASER_OLD">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>오래된 레이저</title>
+	<title>구식 레이저</title>
 	<short>Old Laser</short>
 	<desc>이 무기는 좋았던 때가 있었습니다.</desc>
 	<tooltip>1발; 발당 1 피해.</tooltip>
@@ -3700,7 +3700,7 @@
 <weaponBlueprint name="BA_LASER_DUAL_OLD">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>오래된 쌍발형 레이저</title>
+	<title>구식 쌍발형 레이저</title>
 	<short>Old D. Lasers</short>
 	<desc>버려진 약한 쌍발형 레이저. 없는 것보다야 낫습니다.</desc>
 	<tooltip>각각 1 피해를 주는 레이저 2발 사격.</tooltip>
@@ -16245,7 +16245,7 @@
 	<mod-overwrite:short>Peryton M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_COCKATRICE">
-	<mod-overwrite:title>코카트리스 미사일 발사가ㅣ</mod-overwrite:title>
+	<mod-overwrite:title>코카트리스 미사일 발사기ㅣ</mod-overwrite:title>
 	<mod-overwrite:short>Cockatrice M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_FIRE">
@@ -16271,11 +16271,11 @@
 	<mod-overwrite:short>Chaff L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_OLD">
-	<mod-overwrite:title>오래된 레이저 I</mod-overwrite:title>
+	<mod-overwrite:title>구식 레이저 I</mod-overwrite:title>
 	<mod-overwrite:short>Basic Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_DUAL_OLD">
-	<mod-overwrite:title>오래된 쌍발형 레이저 I</mod-overwrite:title>
+	<mod-overwrite:title>구식 쌍발형 레이저 I</mod-overwrite:title>
 	<mod-overwrite:short>Dual Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_1">
