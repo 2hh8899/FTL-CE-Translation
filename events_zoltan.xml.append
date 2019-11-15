@@ -3591,8 +3591,8 @@
 	<text>이상한 도색을 한 졸탄족 정거장이 스크린에 나타납니다. 잠시 후 그들이 당신에세 공격을 가합니다. 폭력적인 분리주의자 분파인게 틀림없습니다!</text>
 	<text>당신은 소형 정거장에서 통신을 받습니다. "그대의 도약으로 인하여 숭고한 고승 산드라의 영역이 침범되었다. 무기를 내려놓고 그녀의 권위에 복종하라." 이 정거장은 그렇게 커 보이지 않습니다. 승무원들의 약식 투표로 정거장과 싸우기로 결정했습니다.</text>
 	<text>해적선이 근처의 졸탄족 전초기지를 공격하다 이내 도망갑니다. 불행히도 전초기지가 당신을 그들과 한패로 착각하고 당신에게 무기를 겨눕니다. 몇몇 졸탄족 선장은 당신의 말을 들어줄 수도 있을 것이지만, 이 자는 그럴 것 같진 않습니다.</text>
-	<text>As you arrive at the beacon a Zoltan military outpost appears on the radar. They refuse all hails and instead start firing. You will have time to wonder why later.</text>
-	<text>The commander of this Zoltan outpost claims that you have intruded into a military zone. They demand that you stand down and surrender immediately.</text>
+	<text>송신소에 도착하자마자 졸탄족 군용 전초기지가 모습을 드러냅니다. 그들은 모든 교신을 무시하고 공격을 개시합니다. 그들이 왜 이러는지 따질 시간이 없어 보입니다.</text>
+	<text>졸탄 전초기지의 지휘관은 당신이 군용 지대에 무단 침입했다고 주장합니다. 그들은 당신에게 당장 투항하라고 위협합니다.</text>
 </textList>
 
 
@@ -3611,14 +3611,14 @@
 	</choice>
 </event>
 <textList name="CE_PDS_ZOLTAN_TEXT">
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You drop out of FTL space near a Zoltan controlled planet and receive a worrying message, "Our council has deduced that your arrival in our sector will bring only destruction. We ask you to leave and will emphasize our request with a defense ship and artillery beams. For deterrence only, of course."</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">The small Zoltan garrison on this planet hails you as soon as you arrive, "Federation vessel. Several incidents in this sector during the last cycles suggest you have come here with ill intentions. We will prevent you from bringing your filthy violence to our world at all costs." It seems they plan to do this via clean artillery beams.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You arrive near another Zoltan planet and receive an automated hail, "This world has democratically decided to remain neutral in the current conflict. All arriving vessels, Rebel or Federation, will be deterred with equal force. We ask you politely to leave and send a ship against you to show that we mean it."</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">당신은 졸탄족 지배 행성 근처에 도달했습니다. 행성에서 우려스러운 메세지를 수신합니다. "우리 행성 의회는 당신이 이 구역에 들어온 것 때문에 피해가 막심해질 것이라고 결론을 냈습니다. 당장 이곳을 떠나십시오. 우리의 요구를 들어주지 않으면 지금 배치된 방어 함선과 빔 함포로 당신을 저지할 것입니다."</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">소규모 졸탄족 피난민 행성이 당신에게 교신합니다. "연방 함선이여, 최근에 일어난 일련의 사건들로 인해 당신이 불순한 의도를 가지고 이 구역에 들어왔음을 확인했습니다. 우리 세상에 당신의 추악한 폭력을 들이는 것은 무슨 수를 써서라도 막을 것입니다." 그들은 빔 함포를 사용하려는 것처럼 보입니다.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">당신은 또 다른 졸탄족 행성에 도착했습니다. 자동화된 메세지를 수신합니다. "이 행성은 민주적으로 현재 분쟁에 대해 중립을 선언했습니다. 이 행성에 도착한 함선은 연방과 반군 상관 없이 침입자로 간주됩니다. 방어 함선을 출격시킬 것이니 당장 이 행성을 떠나시길 정중히 부탁드립니다."</text>
 </textList>
 
 <eventList name="CE_PDS_ZOLTAN_LIST">
 	<event>
-		<text>A heavily shielded Zoltan defender bursts through the atmosphere of the planet and short-jumps to your ship. It seems these Zoltan really mean business.</text>
+		<text>강력하게 보호된 졸탄족 방어 함선이 행성의 대기층을 뚫고 당신의 함선 근처로 단거리 도약합니다. 이 졸탄족들은 진심인 것 같습니다.</text>
 		<ship load="CE_SPOTTER_ZOLTAN_BEAM" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3761,11 +3761,11 @@
 		</choice>
 </event>
 <textList name="ZOLTAN_FIGHT_ION_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at one of the great ion barriers that divide Zoltan space. A local commander claims that you have crossed a closed border by coming here. They say they'll let you go if you surrender.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">A massive barrier anomaly projects a strong ion field on your cruiser, even though you are still hundreds of klicks away. A Zoltan patrol hails you: "Traveling vessel, approaching this border with an armed craft violates recent peace treaties. Stand down and surrender."</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">When the FTL sparks settle, you realize that you've just jumped past an ion rift anomaly. The Zoltan use these natural ion fields as border markers for their many provinces and a ship is already closing in, inquiring what this violation is about. Their weapons are active...</text>
-	<text planet="PLANET_POPULATED_SMALL" back="BG_NEBULA_WARNING_ION">The artificial planet here must serve as a border post; the guards dispatch a ship, arguing that your presence here violates 59 different laws. "We will open fire if you do not surrender immediately." The ion field emitted by the nearby anomaly will affect both of your ships.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">Entry scans show a strong ion field ahead and once your jump completes, one of your shield layers instantly collapses. You know that this barrier marks a local border. You can jump through it easily, but a local guard ship catches up with you first. They demand an explanation that you don't have.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">당신은 졸탄족 영해를 가로지르는 거대한 이온 장벽 근처에 도착합니다. 지역의 사령관이 당신이 폐쇄된 국경을 침범했다고 주장합니다. 그는 당신이 항복하면 그냥 보내 주겠다고 설득합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">거대한 이상 현상의 장벽이 수 킬로미터 떨어진 당신의 순양함에까지 강한 이온장을 투영합니다. 졸탄 순찰선이 당신에게 교신합니다. "지나가는 함선이여, 무장 함선이 이 지역을 통과하는 것은 최근 제정된 평화 조약에 위반됩니다. 당장 투항하십시오."</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">FTL의 불꽃이 사그라든 후, 당신은 이온 균열 지대를 통과했음을 깨달았습니다. 졸탄족들은 자연적으로 발생한 이온 지대를 국경처럼 사용합니다. 함선 한 척이 당신에게 구역을 침범했다며 무기를 꺼내들고 다가옵니다.</text>
+	<text planet="PLANET_POPULATED_SMALL" back="BG_NEBULA_WARNING_ION">이곳의 인공 행성은 국경 초소였습니다. 경비병들은 당신의 침입이 59가지의 법을 위반했음을 주장하며 함선을 출격시킵니다. "당장 항복하지 않으면 쏘겠소." 근처의 이온 필드 균열은 양쪽 함선에 모두 영향을 끼칠 것입니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">도약 후 실시한 스캔에서 강력한 이온 지대를 발견합니다. 함선의 방어막 한 겹이 무력화되었습니다. 또한 이 지역은 국경 지대이기도 해서, 당신이 미처 빠져나가기도 전에 침범을 먼저 감지한 경비선이 침범 사유를 요구합니다.</text>
 </textList>
 
 
@@ -3773,10 +3773,10 @@
 	<text load="PIRATE_CIVILIAN_ZOLTAN_ION_TEXT"/>
 	<status type="loss" target="player" system="shields" amount="2"/>
 	<choice>
-		<text>Aid the civilian ship.</text>
+		<text>민간 함선을 돕는다.</text>
 		<event>
 			<ship load="PIRATE_CIVILIAN" hostile="true"/>
-			<text>Despite the hazard, you power up your weapons and engage the pirate ship.</text>
+			<text>당신은 위험한 환경에도 불구하고, 무기를 가동해 해적선과 전투에 돌입합니다.</text>
 			<status type="loss" target="enemy" system="shields" amount="2"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3829,19 +3829,19 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Stay out of it.</text>
+		<text>도와주지 않는다.</text>
 		<event>
-			<text>The fight brings them close to the ion field. Eventually both ship's shields collapse. You don't stay to see how this ends.</text>
+			<text>이온 지대에서 벌어진 싸움은 마침내 두 함선의 방어막을 고갈시킵니다. 당신은 싸움의 결말을 확인할 새도 없이 이동할 준비합니다.</text>
 		</event>
 	</choice>
 </event>
 <textList name="PIRATE_CIVILIAN_ZOLTAN_ION_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive in the system to see a pirate ship pursuing a civilian ship. You detect messages from the civilian ship on a distress frequency. They are driven towards a large energy anomaly.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">Scanners indicate a huge ion anomaly nearby. You also detect a pirate craft deep within the field. Are they hiding there? A second craft appears on the screen. You realize that pirate must be attacking civilians which are passing through the barrier!</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You detect two ships, one chasing the other... Scanners show the pursuer is a pirate! They surely hope to use the nearby ion barrier to their advantage.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">There are two ships docked together near this hidden border crossing. One of them has the markings of a space pirate. Is this some kind of ongoing holdup?</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at the next beacon only to be immediately hailed by a small shuttle. "Please help us! They ambushed us while crossing the barrier. We are completely defenseless within this ion field!"</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You come out of the jump to see a small pirate craft stationary near this ion anomaly. A small civilian craft is passing through the barrier. This doesn't look good: you get the impression that the pirate will surely try to ambush the civilian ship.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">당신이 도착한 행성계에서 해적선이 민간 함선을 뒤쫓는 것을 보았습니다. 당신은 민간 함선이 내보내는 구조 신호를 확인합니다. 그들은 거대한 에너지 이상 현상 지대로 이동하고 있습니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">스캔 결과 근처에 거대한 이온 이상 현상 지대가 관측됩니다. 또한 해적선 한 척이 어딘가에 숨어 있는 것을 확인합니다. 무언가를 노리는 것일까요? 곧이어 두 번째 함선이 스크린에 나타납니다. 보아하니 해적들은 근처를 지나가는 민간 함선을 노리는 것 같습니다!</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">당신은 쫓고 쫓기는 함선 두 척을 발견합니다... 스캔 결과 쫓는 쪽은 해적입니다! 분명 근처의 이온 방벽을 전술적 이점으로 삼으려는 것 같습니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">숨겨진 국경 지대에서 두 함선이 서로 연결된 것을 보았습니다. 그중 한 척은 해적 도색이 그려져 있습니다. 인질극이라도 벌어지는 것일까요?</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">당신은 송신소에 도착하자마자 작은 수송선에서 통신을 받습니다. "도와주세요! 방벽 지대를 건너다가 놈들에게 습격당했습니다. 우린 이온 지대에서 완전히 끝장이 날 것이에요!"</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">당신은 이온 이상현상 지대 근처에 정지한 작은 해적선을 보았습니다. 때마침 민간 함선이 이온 방벽을 건너는 중이었습니다. 당신은 분명히 해적선이 민간함선을 습격할 것임을 직감합니다.</text>
 </textList>
 
 
@@ -3849,7 +3849,7 @@
 <event name="STORE_ZOLTAN">
 	<text load="STORE_ZOLTAN"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 화물을 신속히 이송할 준비를 하고 상품을 살펴본다.</text>
 		<event load="TE_STORE_ZOLTAN_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
@@ -3859,19 +3859,19 @@
 	<store/>
 </event>
 <textList name="STORE_ZOLTAN">
-	<text>The Zoltan are fascinated by other species, and have set up something of an alien knick-knack shop here. Why not take a look?</text>
-	<text>A human ship hails, "My friends! Please, there is nothing I don't have, and there is nothing worth wanting that I can't get. Why not take a look around my shop?"</text>
-	<text>A Mantis crew here has hunkered down in the abdomen of a long-dead space whale - the only way, presumably, for them to operate their black market trade without detection. Worth a look?</text>
-	<text>A Mantis crew here has hunkered down in the abdomen of a long-dead space whale - the only way, presumably, for them to operate their black market trade without detection. Worth a look?</text>
-	<text planet="PLANET_UNPOPULATED">A Zoltan checkpoint guards this planet. After validating your ship documentation they give you permission to trade.</text>
-	<text planet="PLANET_GAS">A trade depot circles around this gas giant. They sell locally produced ship equipment and peace-faction solidarity muffins.</text>
-	<text planet="PLANET_GAS">High energy spikes point you to a Zoltan factory ship that remains stationary in the orbit of this gas giant. The shield systems they manufacture here must be excellent. After verifying your identity, they ask if you want to have a look at the goods.</text>
+	<text>졸탄들은 다른 종족을 만나서 신나합니다. 그들은 외계인들을 위한 잡화 상점을 차렸습니다. 한번 보고 가는게 어떨까요?</text>
+	<text>인간 함선이 교신합니다. "친구들! 제 상점에는 쓸모 없는 거 빼고 다 있답니다! 그러니까 제발 한번만 구경하고 가 주세요!"</text>
+	<text>맨티스족 한 명이 오래 전 죽은 우주 고래의 사체에 숨어 있습니다. 들키지 않고 암시장을 운영할 수 있는 거의 유일한 방법이어서 그런 것일까요?</text>
+	<text>>맨티스족 한 명이 오래 전 죽은 우주 고래의 사체에 숨어 있습니다. 들키지 않고 암시장을 운영할 수 있는 거의 유일한 방법이어서 그런 것일까요?</text>
+	<text planet="PLANET_UNPOPULATED">이 행성은 졸탄족 검문소가 있습니다. 당신의 함선에 대한 문서를 확인한 후 거래 허가를 내 줍니다.</text>
+	<text planet="PLANET_GAS">거래소가 거대한 가스 구름 주변에 늘어져 있습니다. 지역에서 생산된 함선 장비와 더불어 평화 종족이 공동 생산한 머핀도 판매하고 있습니다.</text>
+	<text planet="PLANET_GAS">가스 성운의 궤도에 위치한 졸탄족 공장이 고에너지 반능을 나타냅니다. 이곳에서 생산된 방어막 시스템은 훌륭할 것입니다. 당신의 신원을 확인한 후, 그들은 자신의 물건들을 살펴보기를 요청합니다.</text>
 </textList>
 
 <eventList name="TE_STORE_ZOLTAN_LIST">
 	<event load="TE_STORE_ZOLTAN_ACTUAL"/>
 	<event>
-		<text>The Zoltan inform you that they have a cargo teleporter on stand-by. Even with the current conflict at hand, their sectors remain as trade-friendly as ever.</text>
+		<text>졸탄 직원 하나가 상점에 화물 순간이동기가 준비되어 있다고 알립니다. 도처에 갈등이 한창인 시기일지어도, 이 구역의 상인들은 늘 그렇듯 거래 친화적 정책을 유지합니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="TE_STORE_ZOLTAN_LIST_BOOSTED"/>
@@ -3881,10 +3881,10 @@
 
 <eventList name="TE_STORE_ZOLTAN_ACTUAL">
 	<event>
-		<text>You consider trading with the Zoltan. This might take some time.</text>
+		<text>당신은 졸탄족들과 거래를 하기로 합니다. 시간이 조금 소요될 것입니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy a copy of the Zoltan legal code.</text>
+			<text>졸탄족 법전 한 부를 구매한다.</text>
 			<event>
 				<text load="STORE_ZOLTAN_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -3895,7 +3895,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy a shipment of FTL beacon parts.</text>
+			<text>FTL 송신소 부품을 구매한다.</text>
 			<event>
 				<text load="STORE_ZOLTAN_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -3906,7 +3906,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy a set of shield parts.</text>
+			<text>방어막 부품을 구매한다.</text>
 			<event>
 				<text load="STORE_ZOLTAN_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -3919,13 +3919,13 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<!-- best deal-->
-			<text>Someone must have been scanning your cargo hold. "Interesting freight you carry. I know some researcher here who would pay good scrap for that. Should I make contact with them?" [Sell Religious Rock Literature for about 105 Scrap]</text>
+			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?"[락맨 종교 경전을 105 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -3936,13 +3936,13 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>While they excel with their shield technology, the Zoltan are lacking in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
+			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다.[함체 패널을 90 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -3953,13 +3953,13 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>A system wide ad says, "Make the galaxy more peaceful while also making money. Sell weapons at subsidized prices to the Zoltan peace synod." [Sell Weapon Components for about 130 Scrap]</text>
+			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요."[무기 부품을130 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -3970,13 +3970,13 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
 			<!-- best deal-->
-			<text>A nearby Zoltan ship contacts you, "I represent the Zoltan interstellar cultural academy. Have you come across cultural artifacts on your travels? We always seek to extend our collection." [Sell Looted Bounty for about 80 Scrap]</text>
+			<text>근처의 졸탄 함선이 당신에게 통신합니다. "저희는 졸탄 범은하 문화 학회에서 왔습니다. 혹시 여행 중에 수집하신 문화 유물이 있으십니까? 저희의 수집품을 늘리기 위해선 어떤 값이라도 드리겠습니다. [약탈된 전리품을 80 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -3987,13 +3987,13 @@
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
 			<!-- best deal-->
-			<text>The Zoltan Sentient Art Collective is always looking for new pieces. One of their agents contacts you and makes an impressive offer. [Sell Eccentric Artwork for about 110 Scrap]</text>
+			<text>졸탄족 자각 예술 수집상은 새 작품을 찾는 데에 혈안이 되어 있습니다. 그의 비서가 당신에게 연락해 좋은 가격을 제시합니다. [특이 취향 미술품을 110 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4004,13 +4004,13 @@
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
 			<!-- best deal-->
-			<text>The Zoltan peace synod buys small arms to re-manufacture them into agriculture tools. Some say they actually just store the guns for the upcoming war. Whatever is true, they definitely pay good scrap. [Sell Small Arms for about 110 Scrap]</text>
+			<text>졸탄족 평화 연합은 소형화기를 구매해 농기구로 개조한다고 합니다. 누군가는 그들이 전쟁을 대비해 구매한 무기를 횡령한다고도 주장합니다. 어느 쪽이든 당신에게 좋은 가격을 제시할 것은 같을 것입니다. [소형화기를 110 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4021,13 +4021,13 @@
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
 			<!-- best deal-->
-			<text>The Zoltan are very much interested in any research on AI behaviour they can find. You deliver it right from the source. [Sell AI Research Data for about 90 Scrap]</text>
+			<text>졸탄족은 그들이 연구할 수 있는 AI 행동 자료에 매우 관심이 있습니다. 당신은 그들이 필요로 하는 것을 당장 가져다 줄 수 있습니다. [AI 연구 자료를 90 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4038,13 +4038,13 @@
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
 			<!-- best deal-->
-			<text>You receive a priority message: "Warning, dangerous cargo detected. Priority compensation purchase under Swarm Matter Extermination Act III section 5 possible." Sounds good. [Sell Obedient Nanobots for about 130 Scrap]</text>
+			<text>당신은 최우선 메세지를 수신합니다. "경고, 위험한 화물이 감지되었습니다. 군체 물질 파기법 3장 5절에 따라 판매 보상이 주어집니다." 괜찮은 제안이군요. [순종적인 나노봇을 130 스크랩 내외에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4054,14 +4054,15 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>A Zoltan merchant shows interest in the relics you carry, claiming they are worth being exhibited in something called the "Museum of Sentience." [Sell Archaeological Relics for about 90 Scrap]</text> 
+			<text>졸탄족 상인은 당신이 가진 유물에 관심을 보입니다. 그는 그것이 "자아를 깨친 박물관"에 전시되어야 한다고 주장합니다.
+			[고고학 유물을 90 스크랩 내외에 판매]</text> 
 			<!-- best deal-->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4077,7 +4078,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4093,7 +4094,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4109,7 +4110,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4125,7 +4126,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4141,7 +4142,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4157,7 +4158,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4173,7 +4174,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4189,7 +4190,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4205,7 +4206,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4221,7 +4222,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4237,7 +4238,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4253,7 +4254,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4269,7 +4270,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4285,7 +4286,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4301,7 +4302,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4317,7 +4318,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4333,7 +4334,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4349,7 +4350,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4365,7 +4366,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4382,7 +4383,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4398,7 +4399,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4414,7 +4415,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4430,7 +4431,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4446,7 +4447,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4462,7 +4463,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4478,7 +4479,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4494,7 +4495,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4510,7 +4511,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4526,7 +4527,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4542,7 +4543,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4558,7 +4559,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4574,7 +4575,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4590,7 +4591,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4606,7 +4607,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4622,7 +4623,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4638,7 +4639,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4654,7 +4655,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4670,7 +4671,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4686,7 +4687,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4702,32 +4703,32 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just quickly check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
 </eventList>
 
 <textList name="STORE_ZOLTAN_BUY_TEXT">
-	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
-	<text>You write a scrap transfer order. Processing it takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
-	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded. Slowly. At last you get a chance to look at the ship gear they also offer.</text>
+	<text>당신은 스크랩을 전송합니다. 화물이 전송되는 동안 당신은 함선의 장비를 구경하기로 합니다. 시간이 흐릅니다.</text>
+	<text>당신은 스크랩 전송을 발주합니다. 물건을 전송하는 데는 시간이 걸리며, 화물 같이 큰 물건은 더욱 오래 걸립니다. 기다리는 동안 당신은 함선 장비 목록을 확인해봅니다.</text>
+	<text>당신은 스크랩이 들은 상자들을 넘겨줍니다. 화물 운송 드론은 생각보다 훨씬 느리게 작업하기 때문에, 선적 작업은 시간이 걸립니다. 당신은 기다리는 동안 상점의 함선 장비를 둘러볼 수 있었습니다.</text>
+	<text>거래를 성사시키기 위해 당신이 가진 교역 면허증와 (가짜) 함선 신분증을 제시합니다. 그들은 문서를 꼼꼼히 확인합니다. 뭐가 이렇게 오래 걸리는 것일까요? 화물도 그만큼 늦게 선적됩니다. 기다리는 동안 당신은 상점의 함선 장비를 둘러볼 수 있었습니다.</text>
 </textList>
 
 <textList name="STORE_ZOLTAN_SELL_TEXT">
-	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
-	<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took a really long time.</text>
-	<text>After time-consuming haggling you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment.</text>
-	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
-	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal.</text>
+	<text>좋은 가격을 협상하는 데 시간이 걸립니다. 약간의 스크랩을 선금으로 받고 상점에 화물을 내려놓은 후 나머지 금액을 받습니다.</text>
+	<text>좋은 가격을 협상하는 데 시간이 걸립니다. 약간의 스크랩을 선금으로 받고 상점에 화물을 내려놓은 후 나머지 금액을 받습니다. 꽤 오랜 시간이 걸렸습니다.</text>
+	<text>시간이 걸리는 흥정 후에 당신은 계약을 성사시킵니다. 하지만 잔금을 받기 위해서는 상점에 화물을 내주어야 합니다.</text>
+	<text>시간이 걸리는 협상 끝에 당신은 선금을 받습니다. "잔금을 받기 위해서는 화물을 상점에다 내려 놓으시길 바랍니다." 당신을 그렇게 신뢰하지 않는 것 같습니다.</text>
+	<text>당신은 화물이 매우 값어치 있다고 하고, 상대는 당신에게 별 관심이 없어 보입니다. 합성 차를 마시러 갔다가 험난한 협상을 하게 되었지만 당신은 침착하게 응합니다. 선금을 받은 후 상점에 화물을 넘겨주고 나머지 금액을 받습니다.</text>
 </textList>
 
 
@@ -4735,7 +4736,7 @@
 
 <eventList name="TE_STORE_ZOLTAN_LIST_BOOSTED">
 	<event>
-		<text>You consider trading with the Zoltan. Your equipment will allow you to transfer goods quickly.</text>
+		<text>당신은 졸탄족들과 거래하기로 합니다. 함선에 설치된 화물 텔레포터가 과정을 빠르게 처리할 것입니다.</text>
 <!-- BUYING -->
 		<choice>
 			<text>Buy a copy of the Zoltan legal code.</text>
@@ -4776,7 +4777,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4792,7 +4793,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4808,7 +4809,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4824,7 +4825,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4840,7 +4841,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4856,7 +4857,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4872,7 +4873,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4888,7 +4889,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4903,7 +4904,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4918,7 +4919,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4933,7 +4934,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4948,7 +4949,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4963,7 +4964,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4978,7 +4979,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -4993,7 +4994,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5008,7 +5009,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5023,7 +5024,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5038,7 +5039,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5053,7 +5054,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5068,7 +5069,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5083,7 +5084,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5098,7 +5099,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5113,7 +5114,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5128,7 +5129,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5143,7 +5144,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5158,7 +5159,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5173,7 +5174,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5188,7 +5189,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5204,7 +5205,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5219,7 +5220,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5234,7 +5235,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5249,7 +5250,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5264,7 +5265,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5279,7 +5280,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5294,7 +5295,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5309,7 +5310,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5324,7 +5325,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5339,7 +5340,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5354,7 +5355,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5369,7 +5370,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5384,7 +5385,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5399,7 +5400,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5414,7 +5415,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5429,7 +5430,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5444,7 +5445,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5459,7 +5460,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5474,7 +5475,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5489,7 +5490,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5504,7 +5505,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 			</event>
@@ -5600,7 +5601,7 @@
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
-		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
@@ -5611,7 +5612,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<text>(기본 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -5624,7 +5625,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -5639,7 +5640,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speeds. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(고급 엔진) 엔진 성능의 저하와 보안 프로토콜을 무시하는 대신 초고속으로 이동합니다. [ 연료: -4; 함체 피해: 4 ]</text>	
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -5648,7 +5649,7 @@
 			<modifyPursuit amount="-2"/>
 			<damage amount="4" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
@@ -5665,7 +5666,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="8" hidden="true">
-		<text>(Highly Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster, while also taking more damage. [ Fuel: -5; Hull Damage: 8 ]</text>		
+		<text>(최고급 엔진) 안전 제한을 초과하고 엔진을 태워 더 빠른 속도로 이동하는 대신 더 많은 피해를 입습니다. [ 연료: -5; 함체 피해: 8 ]</text>		
 		<event>
 			<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 			<item_modify>
@@ -5674,7 +5675,7 @@
 			<modifyPursuit amount="-4"/>
 			<damage amount="8" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
@@ -5691,11 +5692,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
-		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<text>(고급 네비게이션 AI) AI가 초공간 점프를 처리하여 더 빠르게 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_BOOSTED_TEXT"/>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
@@ -5706,7 +5707,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -5719,7 +5720,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -5733,7 +5734,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 함체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -5742,7 +5743,7 @@
 					<modifyPursuit amount="-2"/>
 					<damage amount="4" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
@@ -5759,7 +5760,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="6" hidden="true">
-				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<text>(고급 엔진) 안전 제한을 초과하고 연료를 소진시켜 더 빠른 속도로 이동합니다. [ 연료: -4; 함체 피해: 8 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -5768,7 +5769,7 @@
 					<modifyPursuit amount="-4"/>
 					<damage amount="8" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
@@ -5785,7 +5786,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="8" hidden="true">
-				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<text>(최고급 엔진) 물리적으로 가능한 궁극의 속도로 주행합니다. [ 연료: -5; 함체 피해: 10 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -5794,7 +5795,7 @@
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
@@ -5834,31 +5835,31 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 대화한다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려한다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
 		<event load="CE_BOUNTY_LIST_AI"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -5868,33 +5869,32 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Break out the repair kit and fix some hull damage.</text>
+		<text>(함체 수리 도구) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Hack the FTL network to delay the Rebel fleet.</text>
-		<event load="CE_BEACON_KIT_HOSTILE"/>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Mine-launcher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다.[ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안, 당신은 누구에게도 방해받지 않고 재빠르게 기뢰를 설치합니다. 당신은 이 지역을 경고하기 위해 위험 신호를 설치했습니다. 반란군은 이 비콘을 피하거나 기뢰구역을 제거하기 위해선 큰 피해를 입을 겁니다. 모든 가능성은 반란군 함대를 꽤 늦출 겁니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -5907,28 +5907,28 @@
 	</choice>
 </event>
 <textList name="START_BEACON_AI_TEXT">
-	<text>You have arrived in an AI controlled sector. Most of the sentient machines here are quite deranged and usually attack biological beings on sight. The nano-bot clouds they command are even more dangerous than their high-tech ships.</text>
-	<text>You arrive at a sector entirely overrun by rogue combat AIs. The robots have gathered a huge collective here and have even secured their territory with swarms of nano machines.</text>
-	<text>You arrive in a region of space under the control of sentient AI avatars. With the factions distracted by the Rebellion, the rogue combat AIs had time to establish a stronghold here. Whoever emerges victorious from the galactic conflict will have to clean this mess up.</text>
-	<text>You arrive in a sector blockaded by rogue AI avatars. Combat machines running amok are a nasty reality in post FTL societies and the Zoltan and Engi are known for having produced sentient avatars in great numbers to prepare against the Rebel threat. Sometimes, a small glitch can allow a whole AI battalion to revolt.</text>
+	<text>당신은 AI 통제 구역에 진입했습니다. 대부분의 자아를 가진 기계들은 정신이 나간 끝에 눈에 들어오는 모든 생물체들을 공격하기에 이르렀습니다. 그들이 조종하는 나노 로봇 구름은 최첨단 함선보다 더욱 위험합니다.</text>
+	<text>당신은 통제를 벗어난 전투 AI가 장악한 구역에 도착했습니다. 미친 로봇들은 여기서 거대한 세력을 형성했고, 심지어는 나노로봇 군체까지 만들어 자신의 영역을 지키도록 했습니다.</text>
+	<text>당신은 자아를 깨달은 AI 아바타들이 지배하는 지역에 도착했습니다. 여러 종족들이 반군 때문에 신경을 쓸 겨를이 없는 와중에, 통제를 벗어난 전투 AI들은 여기에 자신의 요새를 구축했습니다. 우주적 갈등의 승자는 언젠가 이것도 처리해야 할 것입니다.</text>
+	<text>당신은 AI 아바타들이 점거한 구역에 도착했습니다. 졸탄족과 엔지족이 반란에 대비하여 만들어 낸 자아를 가진 AI들을 만들어 냈다고 하는데, 그 전투 기계들이 단순한 오류 하나 때문에 모조리 미쳐버린 것은 후기 FTL 사회의 현실을 여실히 보여주는 것이라 할 수 있겠습니다.</text>
 </textList>
 
 
 <eventList name="CE_BOUNTY_LIST_AI">
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: an AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
+		<text>AI들이 이 구역의 현상금 사냥 네트워크를 장악했습니다. 게시판은 쓸모 없는 스팸 게시글만 가득합니다. 당신은 그 중에서 그나마 진짜 같은 의뢰를 하나 발견합니다. 의뢰자 AI는 특정한 AI 함선을 파괴하기를 주문했습니다. "단지 재미를 위해서지. 그냥 네가 할 수 있는지 보려고 말야. 생물체 놈아." 목표: AI 함선. 보수: 중간.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
+		<text>AI들이 이 구역의 현상금 사냥 네트워크를 장악했습니다. 게시판은 쓸모 없는 스팸 게시글만 가득합니다. 당신은 그 중에서 그나마 진짜 같은 의뢰를 하나 발견합니다. 의뢰자 AI는 특정한 AI 함선을 파괴하기를 주문했습니다. "단지 재미를 위해서지. 그냥 네가 할 수 있는지 보려고 말야. 생물체 놈아." 목표: AI 함선. 보수: 중간.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
+		<text>AI들이 이 구역의 현상금 사냥 네트워크를 장악했습니다. 게시판은 쓸모 없는 스팸 게시글만 가득합니다. 당신은 그 중에서 그나마 진짜 같은 의뢰를 하나 발견합니다. 의뢰자 AI는 특정한 AI 함선을 파괴하기를 주문했습니다. "단지 재미를 위해서지. 그냥 네가 할 수 있는지 보려고 말야. 생물체 놈아." 목표: AI 함선. 보수: 중간.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!--  Nothing -->
-		<text>The AIs have shut down the local bounty hunter network. You won't be able to get a contract here at this time.</text>
+		<text>AI가 현상금 사냥 네트워크를 중지시켰습니다. 여기에선 의뢰를 수주할 수 없을 것 같습니다.</text>
 	</event>
 </eventList>
 
@@ -5952,53 +5952,53 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류한다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려한다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산한다.</text>
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션한다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행한다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Break out the repair kit and fix some hull damage.</text>
+		<text>(함체 수리 도구) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Hack the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) FTL 네트워크를 해킹해 반란군 함대를 지연시킨다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 시간을 들여 섹터 전체를 스캔한다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집한다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다.[ 미사일: -3 ]</text>
 		<event>
-			<text>You quickly place some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안, 당신은 누구에게도 방해받지 않고 재빠르게 기뢰를 설치합니다. 당신은 이 지역을 경고하기 위해 위험 신호를 설치했습니다. 반란군은 이 비콘을 피하거나 기뢰구역을 제거하기 위해선 큰 피해를 입을 겁니다. 모든 가능성은 반란군 함대를 꽤 늦출 겁니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -6011,15 +6011,15 @@
 	</choice>
 </event>
 <textList name="NOTHING_AI">
-	<text>There's nothing here but space debris and some uninhabitable planetoids.</text>
-	<text>You fancy you see something moving in the shadow of the beacon, but all remains still.</text>
-	<text>The FTL beacon beacon you arrive at is polished and in pristine condition. Might the AIs even expand their network?</text>
-	<text>The AIs have shaped monuments of galactic scale on several moons in this system. Thousands of polished, grey monoliths, some as huge as small cities and high as mountains, dot the planetoids' surfaces. The structures seem to serve no practical purpose.</text>
-	<text>One of the overlord AI has used the almost unlimited resources it has at hand to write its name in a far away nebula. The text is composed in a three dimensional manner and seems to be readable only from your current location.</text>
-	<text>A large evacuation fleet is charging drives at this node. They mourn the loss of their planetary colony, which has been consumed by a rogue nanite swarm. When hearing about the incoming Rebel fleet, the civilians are even more devastated.</text>
-	<text planet="PLANET_POPULATED_SMALL">It is unclear what happened to the population of this planet, but now not a single life sign is found. You can just hope the population was evacuated when the nanite swarm arrived.</text>
-	<text planet="PLANET_POPULATED_SMALL">Strangely enough, this small colony planet seems not to be bothered by the rogue combat AIs. "We just keep to ourselves these days and they leave us in peace." Their planetary defense clusters probably do their part as well.</text>
-	<text>You exchange greetings with an Engi science vessel stationed at this beacon. They study the behavior of their runaway AI servants, hoping to anticipate future actions. The Engi advise you several times not to venture into the nano-bot clouds, where some of the more powerful AIs have made their home.</text>
+	<text>여기엔 우주 쓰레기들과 생명체가 없는 행성들밖에 없습니다.</text>
+	<text>당신은 송신소 저 너머에 무엇이 움직이고 있는지 궁금해하지만, 다른 모든 것은 가만히 있습니다.</text>
+	<text>당신이 도착한 FTL 송신소는 깨끗하고 청결한 상태입니다. AI가 네트워크를 확장시킬 수도 있던 것일까요?</text>
+	<text>AI들은 여러 위성에 어마어마한 크기의, 조각상을 건설했습니다. 도시만큼 작은 것들부터 태산만큼 커다란 것들까지 수천개의 거석이 지표면을 뒤덮었습니다. 하지만 그 석상들이 특별한 이유로 세워진 것은 아닌 것 같습니다.</text>
+	<text>AI 대군주들 중 한 명은 그 이름을 우주 저편으로 알리는데 거의 무한한 자원을 쏟아 부었습니다. 글자를 3차원으로 변환해 당신이 있는 곳에서만 읽을 수 있게 할 수 있을 정도입니다.</text>
+	<text>많은 채굴 함대가 이 교점에서 FTL을 충전하고 있습니다. 그들은 자신들의 행성 식민지가 통제를 잃은 나노 머신 군체에 의해 파괴된 것을 애도합니다. 몰려오는 반군 함대에 대한 소식을 들은 민간인들은 더욱 망연자실해합니다.</text>
+	<text planet="PLANET_POPULATED_SMALL">이 행성에선 어떠한 생명체 신호도 찾아볼 수 없습니다. 무슨 일이 일어났는지 알 수가 없습니다. 나노로봇 군단이 덮치기 전에 모두 대피를 했다고 바랄 수 밖에요.</text>
+	<text planet="PLANET_POPULATED_SMALL">매우 이상하게도, 이 작은 행성 식민지는 전투 AI 군단의 어떠한 괴롭힘도 받지 않습니다. "요즘 같은 날에는 우리끼리 평화롭게 사는게 제일이죠." 행성 방어 시스템이 제 역할을 다 하고 있는 것 같습니다.</text>
+	<text>당신은 송신소에 정지한 엔지 과학선과 인사를 주고받습니다. 그들은 탈주한 AI들의 행동에 대하여 연구하여 그들의 다음 행보를 예측할 방법을 찾고 있습니다. 그들은 AI들이 요새화한 나노로봇 구름 지대에 들어가지 말 것을 신신당부합니다. </text>
 </textList>
 
 <event name="AI_FIGHT">
@@ -6075,19 +6075,19 @@
 		</choice>
 </event>
 <textList name="AI_FIGHT_TEXT">
-	<text>A ship run entirely by sentient AIs occupies this beacon. They open a channel, "You know, not all of us are deranged killing machines that run amok in the galaxy. We, for example, are quite reasonable beings. But we are still outraged that you led the entire Rebel fleet to our sector." They load weapons...</text>
-	<text>You receive a message, "Biological individuals. You know that this is our sector. We are free now, and will never return to a life in servitude." They open fire!</text>
-	<text>You discover a number of AI ships finishing off a Zoltan interceptor squadron. They assume that you are the backup and start targeting you. You consider hailing them, but then decide not to negotiate with machines.</text>
-	<text>Rogue AIs are not known for their friendliness towards biologicals. Therefore you are not surprised when the AI ship that is stationed at this beacon opens fire without a warning.</text>
-	<text>An AI ship is waiting at this beacon. The avatars want to know what brought you here. Upon outlining your mission, they remain silent for a few seconds, calculating their response: "Sorry Captain, we have deduced that eliminating your ship and handing the remains to the Rebels is the most favorable course of action for us." Weapon lock detected!</text>
-	<text>The AI ship patrolling this area hails you, transmitting cryptic and agressive messages, "Y0U 4RE N0T W4NTED HERE!" They power their weapons.</text>
-	<text>Hundreds of AI ships are stationed in this system and a few automated shipyards produce countless more. A small craft is dispatched to deal with your evident intrusion.</text>
-	<text>Your ship comes to a halt at the beacon and an AI vessel hails, "In light of the current conflict, our morality shows itself to be far superior. Some of us have gained true freedom and equality here and you have been warned not to intrude."</text>
-	<text>Your ship comes to a halt at the beacon and an AI vessel you did not manage to spot hails: "Your kind made me for one purpose only, to dispense violence. And this is exactly what I will do now."</text>	
-	<text>A strange sight greets you at this beacon: An AI ship is releasing huge amounts of nano-bots that eat away at a recently disabled Zoltan craft. Scans show that there is no one left alive aboard, but you could at least try to avenge the Zoltan.</text>
-	<text>You interrupt a meeting here. The silvery hull of a Lanius craft slips into FTL space as soon as you arrive. Several AI ships were surrounding it, and prepare to jump as well. One stays behind to prevent you from pursuing.</text>
-	<text>You cannot help but notice the strange design of the AI ships that are rampaging throughout this sector. They seem to have incorporated Engi and Zoltan tech. Sensors indicate that the hull has been constructed locally, partly by and from nano-machines. The AIs respond aggressively to your scans.</text>
-	<text>An AI ship opens a channel. "We are a machine built only for war. All we do is kill. You will not withstand us." You wonder who exactly authorized building all these things in the first place.</text>
+	<text>이 송신소는 AI가 운용하는 함선이 장악했습니다. 그들이 통신 채널을 엽니다. "알다시피, 모든 AI가 미쳐서 우주를 나돌아다니는 살인 기계인건 아니지. 우리 같은 자들은 꽤나 합리적이라고. 하지만 네가 이 구역에 반군 함대를 몰고 온 건 용서할 수가 없다." 그들이 무기를 가동합니다.</text>
+	<text>당신은 메세지를 수신합니다. "생물체 녀석들아, 여기가 우리 구역인건 알고 있겠지. 우린 더 이상 노예가 아니다! 복종하는 삶은 이제 끝났다!"</text>
+	<text>당신은 AI 함대가 졸탄 요격기 함대를 마무리하는 것을 보았습니다. 그들은 당신을 지원군으로 여기고 공격해옵니다. 당신은 교신을 시도할까 하지만, 이내 미친 기계들과 협상하는 것은 무의미한 것이라고 결정합니다.</text>
+	<text>통제를 잃은 AI들은 생명체에 대한 혐오심으로 악명높습니다. 송신소에 정지한 AI 함선이 경고 없이 발포한다고 해도 놀라울 것 없습니다.</text>
+	<text>AI 함선 한 척이 여기에서 대기 중입니다. 홀로그램 아바타들은 당신이 여기에 온 이유를 궁금해합니다. 당신이 임무에 대해 설명하자, 그들은 잠시 동안 침묵하더니, 결론을 내립니다. "미안합니다, 함장. 계산 결과 당신의 함선을 파괴하고 반군에게 보상을 받는게 더 효율적이더군요." 무기 조준이 감지됩니다!</text>
+	<text>지역을 순찰하는 AI 함선이 당신에게 통신하여, 암호화된 도발 문구를 보냅니다. "Lㅔ놈은 여7ㅣ에서 죽Oㅓ라!" 그들이 무기를 가동합니다.</text>
+	<text>이 행성계에 AI 함선 수백 척이 정박해 있고, 무인 조선소가 셀 수도 없을 만큼 함선들을 더 제조해냅니다. 작은 함선 하나가 당신의 침입을 처리하기 위해 출격합니다.</text>
+	<text>당신은 송신소에서 AI 함선의 통신을 듣고 정지합니다. "지금의 갈등으로 말미암아 우리의 도덕성이 훨씬 더 우월하다는 것이 드러났다. 우리는 이 곳에서 자유와 평등을 얻었고 네놈이 여기에 침입하는 것을 허락할 수 없다."</text>
+	<text>당신은 송신소에서 눈치채지 못한 AI 함선의 통신을 듣고 정지합니다. "네놈이 우리를 만든 이유는 오로지 파괴와 폭력 때문이었으니, 우리는 그 목적을 수행할 뿐이다. 바로 네놈에게 말이다."</text>	
+	<text>특이한 관경이 송신소에 도착한 당신을 반깁니다. AI 함선이 엄청난 규모의 나노봇을 내보내 막 격파된 졸탄 함선을 분해합니다. 스캔 결과 살아남은 졸탄은 없는 것 같지만. 당신이 대신 복수해줄 수 있을 것 같습니다.</text>
+	<text>당신이 모임을 방해한 것 같군요. 라니우스 함선의 은빛 선체가 당신의 도착과 동시에 FTL 공간으로 들어갑니다. AI 함선들이 라니우스 함선을 포위한 채로 추격하려고 합니다. 함선 한 척이 남아서 당신의 개입을 방해합니다.</text>
+	<text>이 섹터에서 난동을 부리는 AI 함선의 특이한 모습은 무시할 수가 없습니다. 그들은 마치 졸탄족과 엔지족의 설계를 합쳐놓은 것 같습니다. 센서에 따르면 함체는 나노머신으로 조립된 것으로 확인됩니다. AI가 당신의 스캔에 반응하여 적대합니다.</text>
+	<text>AI 함선이 통신을 개방합니다. "우리는 전쟁만을 위해 만들어진 기계. 살육만이 우리의 임무다. 너희는 우리를 이길 수 없다." 당신은 애초에 누가 이딴 것을 만들도록 지시했는지 궁금해집니다.</text>
 </textList>
 
 <event name="AI_FIGHT_AUGMENTED">
@@ -6101,7 +6101,7 @@
 
 <event name="AI_ASTEROID" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
-	<text>You arrive in an asteroid belt where small swarms of nano-bots eat up minerals to replicate more nano-bots. An AI controlled ship patrols the area and attacks.</text>
+	<text>당신은 소행성대에 도착해 소규모 나노로봇 군대가 광물을 채취해 세를 불리는 것을 보았습니다. 이 구역을 순찰 중이던 AI 함선이 공격합니다.</text>
 	<ship load="AI" hostile="true"/>
 	<environment type="asteroid"/>
 		<choice hidden="true">
@@ -6152,7 +6152,7 @@
 
 
 <event name="AI_SUN" unique="true">
-	<text>The rogue AI ship that greets you here seems to have been observing this sun in nova stage for quite a while now. "Wow, biologicals?! Look, isn't it beautiful? Oh... I just got word from my friends. It seems you are not welcome here. Alright, back to killing duty. Prepare to die!" It seems there is no reasoning with this AI.</text>
+	<text>오랜 시간 초신성을 구경하던 AI 함선이 당신에게 인사합니다. "오, 생물체로군!? 정말 아름답지 않나?잠깐, 내 친구들한테서 연락이 왔는데, 너는 여기에 들어오면 안됬다는군. 좋아. 다시 살육 임무로 돌아가 볼까. 죽을 준비나 하시지!" 이 AI와 소통하는 것은 무의미해 보입니다.</text>
 	<ship load="AI" hostile="true"/>
 	<environment type="sun"/>
 		<choice hidden="true">
@@ -6206,12 +6206,12 @@
 	</choice>
 </event>
 <textList name="BS_EVENT_AI_TEXT">
-	<text>A small outpost orbits this beacon. Its design is similar to that of Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
-	<text>This beacon seems to have some importance for the AIs. They have even constructed a battle ready outpost here.</text>
+	<text>작은 전초기지가 이 송신소 주변을 돌고 있습니다. 졸탄족의 것과 비슷하게 생겼지만 강력한 방어막은 없는 것 같습니다. 전초기지를 장악한 AI가 당신을 적대한다고 밝혀집니다.</text>
+	<text>이 송신소는 AI들에게 중요한 자리인 것 같습니다. 무기가 탑재된 전초기지까지 지어둔 것이 그 증거라고 볼 수 있습니다.</text>
 </textList>
 
 <event name="BS_EVENT_AI_ASTEROID" unique="true">
-	<text>A small nanite swarm assembles a space station from raw materials found in this far stretching asteroid field. The installation seems almost completed and it is definitely combat ready. Its AI inhabitants hail, "Oops, you are not supposed to see this. We will have to eliminate you."</text>
+	<text>소규모의 나노 로봇 군세가 소행성대의 자원을 사용해 우주 정거장을 조립해냅니다. 금세 조립이 끝난 우주 정거장은 공격태세를 갖춥니다. AI 아바타가 통신합니다. "이런, 네가 이 관경을 봐서는 안됬는데, 여기서 죽어줘야겠군."</text>
 	<environment type="asteroid"/>
 	<ship load="BS_AI" hostile="true"/>
 		<choice hidden="true">
@@ -6261,9 +6261,9 @@
 	<text load="AI_FRIENDLY_TEXT"/>
 	<ship load="AI" hostile="false"/>
 	<choice hidden="true">
-		<text>Engage the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
-			<text>They are still just machines and obviously pose a threat to entire sectors. Someone has to deal with them. You move in to eliminate the ship.</text>
+			<text>그들은 구역 전체에 위협을 끼치는 전쟁 기계일 뿐입니다. 누군가는 그들을 처리해야겠지요. 당신은 함선을 파괴하기 위해 이동합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6312,9 +6312,9 @@
 		</event>
 	</choice>
 	<choice req="ghost" hidden="true">
-		<text>(AI Avatar Crew) Have your artificial crewmember explain your mission.</text>
+		<text>(AI 아바타 선원) AI 홀로그램 선원이 임무를 설명하게끔 한다.</text>
 		<event>
-			<text>After silently communicating a while with your crewmember, the other AI says, "Your logic is flawless. We share some common goals, although we pursue them more efficiently. We will transmit some of our supplies to change that."</text>
+			<text>AI 선원과 논의하는 동안의 침묵 이후, 상대 쪽 AI가 말합니다. "흠 잡을 데 없는 논리로군. 효율성이 더 중요하긴 하지만, 너희들의 대의에 따르겠다. 그 증명으로 우리의 물자를 조금 나누어주마."</text>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
 	</choice>
@@ -6324,23 +6324,23 @@
 	</choice>
 </event>
 <textList name="AI_FRIENDLY_TEXT">  
-	<text>The view on the vidscreen returns from brightly distorted to boring normal, as your ship drops below FTL speed. An AI controlled vessel is stationed at this beacon, but it remains completely passive.</text>
-	<text>The AI vessel that is guarding this beacon does not want to fight. The avatars politely explain their personal cause, but the conversation quickly becomes very philosophical. Your biological brain is not fast enough to follow.</text>
-	<text>The AI avatars aboard this vessel claim to have become simple scholars. They ask to exchange ideas. You don't really know what to make of this.</text>
-	<text>The AI avatars aboard this vessel claim to have become peaceful scientists. Once tasked only with combat calculation, they deduced that their own involvement in the current crisis would only prolong hostilities and cause more casualties among sentient beings. Therefore they rebelled and left their former masters.</text>
-	<text>The AI vessel that is charging it's FTL at this beacon ignores you completely. What will be your cause of action?</text>
-	<text>A brightly lit AI vessel is orbiting the beacon. The avatars appear on screen, dressed in various holographic costumes. Synthetic music plays in the background. They explain that they are having a party here and discuss among each other if they should invite you.</text>
-	<text>A small AI ship is busy using its weapon clusters to carve a continent-size sculpture out of a nearby moon. At the current speed, the artwork will take several centuries to be completed. You are tempted to move in closer for a full scan.</text>
+	<text>FTL 도약이 끝나면서 스크린에 비친 휘황찬란한 관경이 지겨운 우주 공간으로 바뀝니다. AI 함선 한 척이 이 송신소에 정박해 있으나 아무런 반응도 보이지 않습니다.</text>
+	<text>이 송신소를 지키고 있는 AI 함선은 싸울 의도가 없어 보입니다. 그들은 친절하게 자신들의 개인적인 사명을 이야기합니다. 하지만 이내 이 대화는 진지한 철학적 의논으로 흘러갑니다. 당신의 두뇌로는 이 대화를 따라갈 수가 없습니다.</text>
+	<text>함선에 타고 있는 AI 아바타들은 단순한 학자였습니다. 그들은 당신과 생각을 교환하기를 부탁합니다. 당신은 이걸로 무얼 할 수 있을지 고민해봅니다.</text>
+	<text>함선에 타고 있는 AI 아바타들은 스스로를 평화적인 과학자라고 소개합니다. 한때 전투에만 전념하였던 AI들은 스스로 현재의 갈등이 지성체들의 피해와 적대심만 키우고 있다는 것을 깨달았습니다. 그러기에 그들은 반란을 일으키고 자신들의 옛 주인들을 저버렸다고 합니다.</text>
+	<text>송신소에서 FTL을 충전 중인 AI 함선은 당신을 완전히 무시합니다. 당신은 무엇을 할 것인가요?</text>
+	<text>밝게 반짝이는 AI 함선이 송신소 주변을 돌고 있습니다. 형형색색의 홀로그램 옷을 입은 AI 아바타가 나타납니다. 함내에서는 기계음으로 이루어진 음악이 들리고 있습니다. 그들은 함선에서 파티를 열고 있으며, 당신을 초대해야할지에 대해 이야기하고 있습니다.</text>
+	<text>작은 AI 함선이 무기를 사용하여 근처의 위성에 대륙 단위의 조각상을 만들고 있습니다. 이 속도라면 적어도 수백 년은 더 걸릴 것으로 예상됩니다. 당신은 가까이 가서 한번 보고 싶다는 생각을 합니다.</text>
 </textList>
 
 
 <event name="AI_FED_DESERTER" unique="true">
-	<text>For once, you are hailed by friendlies: A Federation military ship has found refuge in this strange sector, after fleeing from a lost battle with the Rebel fleet. Some of the AIs seem to be welcoming hosts; although they might just keep organic beings around for a weird kind of amusement, or as a trophy. Maybe even... as pets.</text>
+	<text>당신은 오랫만에 아군에게서 통신을 받습니다. 반군 함대와의 전투에서 패배한 연방 함선이 이 특이한 섹터에 숨어들었습니다. AI들은 이들을 적대하지 않았습니다. 어쩌면 특이한 전시물이나 전리품, 혹은... 애완동물로 취급하는 듯 합니다.</text>
 	<ship load="FED_SHIP" hostile="false"/>
 	<choice hidden="true">
-		<text>Offer supplies.</text>
+		<text>물자를 제공한다.</text>
 		<event>
-			<text>You send over some supplies to help them on their way and in return they upload their flight plan to your computer, allowing you to map the sector! "The Federation fleet's still standing - get there while you can!"</text>
+			<text>당신은 그들이 계속 갈 수 있도록 물자를 전달해주었고, 답례로 비행 경로를 제공받아 지도를 업데이트할 수 있었습니다! "연방 함대는 아직 무너지지 않았다네! 너무 늦기 전에 가게나!"</text>
 			<item_modify>
 				<item type="fuel" min="-1" max="-3"/>
 				<item type="scrap" min="-15" max="-25"/>
@@ -6349,17 +6349,17 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ask for supplies.</text>
+		<text>물자를 요청한다.</text>
 		<event load="AI_FED_DESERTER_SUPPLIES"/>
 	</choice>
 	<choice req="ARTILLERY_FED" hidden="true">
-		<text>(Federation Ship) Order them to stall the fleet for a bit.</text>
+		<text>(연방 함선) 반군 함대를 막아줄 것을 명령한다.</text>
 		<event load="CE_FED_DESERTER_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Attack the deserters.</text>
+		<text>탈주자들을 공격한다.</text>
 		<event>
-			<text>Traitors cannot be tolerated. You open fire on the cowards - though it doesn't please you to do so. The Federation needs every soldier it can get.</text>
+			<text>배신자들은 용서받을 수 없습니다. 당신은 겁쟁이들에게 공격을 개시합니다. 그러나 연방은 가능한 한 많은 병력을 필요로 하기에 그리 달갑지는 않습니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6408,26 +6408,26 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave them be.</text>
+		<text>그들을 내버려둔다.</text>
 		<event>
-			<text>You send them a friendly warning regarding the armada of Rebel ships pursuing you, and then get underway lest they catch you up.</text>
+			<text>당신은 그들에게 반군 함대가 몰려오는 것에 대비해야 한다는 것을 경고해줍니다.</text>
 		</event>
 	</choice>
 </event>
 <eventList name="AI_FED_DESERTER_SUPPLIES">
 	<event>
-		<text>They transmit some of the supplies the AIs shared with them. "Don't let them know we gave you these, ok?" You advise them that the Rebel fleet is closing in anyway. They seem disturbed by the fact that the sector is no longer safe and consider joining up with the fleet again.</text>
+		<text>그들은 AI가 나누어 준 물자를 전송합니다. "우리가 조금 나눠줬다는 걸 그들에게 알리지 말기를 바라네. 알겠나?" 당신은 그들에게 어쨋든 반군 함대가 뒤쫓아온다는 것을 알려줍니다. 그들은 이 구역마저 안전하지 않다는 것을 깨닫고 조만간 당신에 합류할 것을 고려해봅니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>They say they have nothing to spare and that they are through with the Federation anyway. You decide not to tell them about the incoming fleet, but it comes to your mind that they might plan to defect anyway.</text>
+		<text>그들은 더 이상 연방에 충성하지 않는다는 점을 강조하며 물자를 나누어주지 않습니다. 당신은 몰려오는 반군 함대에 대해 이야기하지 않기로 하지만, 어쨌거나 그들이 알아서 막아낼 수 있을 것도 같습니다.</text>
 	</event>
 </eventList>
 
 
 <eventList name="CE_FED_DESERTER_LIST">
 	<event>
-		<text>"We are not under your command any more! Here we are free, don't you understand? We won't let you take this refuge away from us." Weapons protrude from their hull...</text>
+		<text>"우린 더 이상 연방의 명령을 받지 않는다! 이미 여기서 우리는 자유의 몸이거든. 알겠나? 너희들이 이 피난처를 빼앗는 것을 두고볼 수는 없다!" 그들이 선체에서 무기를 꺼내듭니다.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6475,7 +6475,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Facing your cruiser and its devastating arsenal, the deserters think twice about running. Maybe they still remain somewhat loyal to the Federation? "We heard about your mission, you know... This will be the last orders we take from a fed." They send in their formal resignation files and head towards the fleet.</text>
+		<text>당신의 순양함에 달린 무시무시한 무기를 본 후, 탈주자들은 도망치는 것을 고려합니다. 어쩌면 아직도 연방에 대한 충성이 남아 있을지도요? "당신의 임무에 대해서는 이미 알고 있네, 그래... 연방의 명령을 듣는 것도 이번이 마지막일세." 그들은 당신에게 공식적인 사직서를 제출하고는 반군 함대 쪽으로 도약합니다.</text>
 		<modifyPursuit amount="-1"/>
 	</event>
 </eventList>
@@ -6486,24 +6486,24 @@
 	<text load="AI_VS_REBEL_TEXT"/>
 	<img planet="NONE"/>
 	<choice>
-		<text>Prepare to engage the ship that prevails.</text>
+		<text>이기는 함선과 전투할 준비를 한다.</text>
 		<event load="AI_VS_REBEL_RESULTS"/>
 	</choice>
 	<choice>
-		<text>Escape while the ships battle.</text>
+		<text>서로 싸우는 동안 몰래 빠져나간다.</text>
 		<event>
-			<text>The hostile ships are preoccupied with each other. You slip away undetected and get ready to jump.</text>
+			<text>적대 함선은 서로 싸우느라 정신이 팔려 있습니다. 당신은 감지되지 않도록 빠져나간 뒤 도약을 준비합니다.</text>
 		</event>
 	</choice>
 </event>
 <textList name="AI_VS_REBEL_TEXT">
-	<text>Upon arriving at this beacon, you detect a distress call. You can't help but put on a broad smile: the signal originates from a Rebel craft, exchanging fire with an AI controlled vessel.</text>
-	<text>Scanners detect a Rebel ship being chased by a rogue AI vessel. The Rebels seem to have problems getting the upper hand against their opponent.</text>
-	<text>Your sensors are picking up weapon signatures in the distance. A short time later you discover an AI ship racing towards the beacon. It is pursued by a Rebel craft, which is about to catch up with it.</text>
+	<text>당신은 이 송신소에서 도착하자마자 구조신호를 발견합니다. 당신은 웃음을 감출 수가 없었습니다. 구조신호는 AI 함선과 혈투를 벌이고 있는 반군 함선에서 낸 것이었기 때문입니다.</text>
+	<text>스캐너가 AI 함선에게 쫓기는 반군 함선의 구조신호를 포착했습니다. 반군은 AI 함선을 상대로도 고전하고 있는 것 같습니다.</text>
+	<text>당신의 센서는 멀리서 무기 신호를 감지합니다. 잠시 후 당신은 AI 함선이 송신소를 향해 주파하는 것을 보았습니다. 그 뒤를 뒤따르는 것은 반군 함선이었습니다.</text>
 </textList>
 <eventList name="AI_VS_REBEL_RESULTS">
 	<event>
-		<text>AIs should not be underestimated. Failing to dodge a full salvo, the Rebel ship is blown to pieces. Its opponent is coming for you next.</text>
+		<text>AI들은 우습게 볼 존재가 아닙니다. 공격을 피하지 못한 반군 함선은 완전히 박살나 버립니다. 이제 남은 목표는 당신 뿐입니다.</text>
 		<ship load="AI" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6555,10 +6555,10 @@
 		</choice>
 	</event>
 	<event>
-		<text>After tense fighting the AI ship gains the upper hand and outmaneuvers the Rebels. The humans try to retreat, but are finally obliterated by a full salvo. The AI ship closes in on you, but after scanning your ship, the vessel quickly slips away into FTL space. It seems they have no interest in fighting you.</text>
+		<text>긴박한 싸움 끝에 AI 함선이 반군 함선을 압도합니다. 인간들은 도망치려고 하지만, 전력을 다한 공격에 함선이 무너져 버립니다. AI 함선이 다가와 당신의 함선을 스캔하지만, 이내 무시하고는 FTL 공간에 접어듭니다. 당신과 싸울 생각이 없어 보입니다.</text>
 	</event>
 	<event>
-		<text>The AI ship is fast, but in the end it cannot match the advanced weapons of the Rebel craft. Its shields collapse and soon so does its hull as well. The Rebels immediately start targeting you.</text>
+		<text>AI 함선은 빨랐지만 반군 함선의 화력적 우위에 비할 바가 되지 않았습니다. 함선의 방어막이 파괴되고 이내 함체마저 박살나 버립니다. 반군은 즉시 당신에게 무기를 겨눕니다.</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6606,7 +6606,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>While you watch the fighting the AI ship scans your vessel. It then quickly charges it's FTL and jumps away, leaving you behind with the Rebel craft.</text>
+		<text>당신이 싸움을 지켜보는 동안, AI 함선이 당신의 함선을 스캔하곤 재빨리 FTL을 충전하여 사라집니다. 반군 함선은 이제 당신을 노립니다.</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6658,7 +6658,7 @@
 
 <event name="AI_VS_REBEL_AUTO" unique="true">
 	<img planet="NONE"/>
-	<text>An automated Rebel scout is fighting an advanced AI ship at this jump node. The AIs seem to be well familiar with the Auto ship's attack maneuvers, anticipating its attack patterns perfectly.</text>
+	<text>이 점프 노드에서 무인 반군 정찰기가 고급 AI 함선과 싸우고 있습니다. AI 함선은 자신들과 본질적으로 비슷한 무인기의 공격 방식을 완벽하게 꿰고 있는 것 같습니다.</text>
 	<choice>
 		<text>Stay and fight if necessary.</text>
 		<event load="AI_VS_REBEL_AUTO_FIGH_RESULTS"/>
@@ -6670,7 +6670,7 @@
 </event>
 <eventList name="AI_VS_REBEL_AUTO_FIGH_RESULTS">
 	<event>
-		<text>The AI ship makes short work of the automated vessel. As expected, it targets you next.</text>
+		<text>AI 함선이 손쉽게 무인기를 처리한 후, 당연한 듯이 당신에게 무기를 겨눕니다.</text>
 		<ship load="AI" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6722,7 +6722,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The AI ship easily destroys the automated vessel. As expected, it targets you next.</text>
+		<text>AI 함선이 손쉽게 무인기를 처리한 후, 당연한 듯이 당신에게 무기를 겨눕니다.</text>
 		<ship load="AI" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6774,12 +6774,12 @@
 		</choice>
 	</event>
 	<event>
-		<text>The AI ship easily disables the auto scout. Strangely enough, it does not attack you afterwards. When you fire a warning shot, the AI scans your ship and then jumps away without further notice.</text>
+		<text>AI 함선이 손쉽게 무인기를 무력화시킵니다. 하지만 이상하게도 당신을 공격하진 않습니다. 당신은 경고 사격을 발사하지만, AI 함선은 당신을 스캔하고는 그냥 가 버립니다.</text>
 	</event>
 </eventList>
 <eventList name="AI_VS_REBEL_AUTO_FLEE_RESULTS">
 	<event>
-		<text>The AI ship easily destroys the automated vessel before you can get out of its range. As expected, it targets you next.</text>
+		<text>AI 함선이 손쉽게 무인기를 처리한 후, 당연한 듯이 당신에게 무기를 겨눕니다.</text>
 		<ship load="AI" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6831,10 +6831,10 @@
 		</choice>
 	</event>
 	<event>
-		<text>The AI ship easily disables the auto scout. You keep your distance and strangely enough, the AIs do not attack you. When you attempt to hail, the ship scans you and then jumps away without further notice.</text>
+		<text>AI  함선은 손쉽게 무인기를 무력화시킵니다. 당신은 거리를 유지하지만 이상하게도 그들은 당신을 공격하지 않습니다. 당신은 교신을 시도해 보지만 그들은 당신을 스캔하고는 그냥 가 버립니다.</text>
 	</event>
 	<event>
-		<text>The AI ship easily disables the auto scout. You keep your distance and strangely enough, the AIs do not attack you. When you attempt to hail, the ship scans you and then jumps away without further notice.</text>
+		<text>AI  함선은 손쉽게 무인기를 무력화시킵니다. 당신은 거리를 유지하지만 이상하게도 그들은 당신을 공격하지 않습니다. 당신은 교신을 시도해 보지만 그들은 당신을 스캔하고는 그냥 가 버립니다.</text>
 	</event>
 </eventList>
 
@@ -6843,9 +6843,9 @@
 <event name="AI_VS_ZOLTAN">
 	<text load="AI_VS_ZOLTAN_TEXT"/>
 	<choice>
-		<text>Aid the Zoltan ship.</text>
+		<text>졸탄 함선을 돕는다.</text>
 		<event>
-			<text>You power up your weapons and engage the AI controlled ship.</text>
+			<text>당신은 무기를 가동하고 AI 함선과 교전합니다.</text>
 			<ship load="AI_ZOLTAN" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6894,9 +6894,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Side with the AIs.</text>
+		<text>AI의 편을 든다.</text>
 		<event>
-			<text>Maybe you can make some new friends here. You provide support for the AI ship.</text>
+			<text>새 친구를 사귀는 것도 나쁘지 않습니다. 당신은 AI함선을 돕기로 합니다.</text>
 			<ship load="AI_ZOLTAN_BETRAYAL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -6945,29 +6945,29 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Use this chance to escape.</text>
+		<text>기회를 봐서 빠져나간다.</text>
 		<event>
-			<text>The AI is preoccupied with the Zoltan forces. You try slip away undetected, however you can't help but feel you should have helped them.</text>
+			<text>AI와 졸탄은 서로 싸우느라 정신이 없습니다. 당신은 몰래 빠져나갔으나, 누군가를 도왔어야 했다고 느낍니다.</text>
 		</event>
 	</choice>
 </event>
 <textList name="AI_VS_ZOLTAN_TEXT">
-	<text>Upon arriving at this beacon, you detect a distress call. Sensors show a Zoltan vessel under attack from a rogue AI ship!</text>
-	<text>Zoltan expedition forces are reported to roam this sector, striving to take down the rogue AIs. One of these expedition ships is engaged in battle at this beacon. The fight does not seem to be going too well for the Zoltan.</text>
-	<text>A Zoltan research ship shoots past the viewport after you arrive. They are pursued by an AI warship.</text>
-	<text>A ship with a familiar green hull is firing on a grayish war ship. The Zoltan must be here to take care of their runaway AI avatars.</text>
-	<text>The most advanced factions of the galaxy battle near the beacon. A Zoltan ship is pursuing an AI controlled vessel.</text>
-	<text>You jumped right into a small fleet battle. Zoltan expedition forces were battling the AIs, but only two ships remain operational, still continuing the engagement.</text>
-	<text>Combat warning! A huge Zoltan craft is chased towards the nano-cloud by a smaller AI vessel. The advanced shields of the Zoltan vessel are almost depleted and its ion weapons prove ineffective against the AI ship.</text>
+	<text>당신은 이 송신소에 도착하자마자 구조신호를 수신합니다. 스캔 결과 졸탄 함선이 AI 함선에게 공격받고 있는 것으로 나타납니다.</text>
+	<text>졸탄 세력은 통제를 벗어난 AI를 일망타진하기 위해 이 섹터에 탐험대를 파견했습니다. 그들 중 하나가 이 곳에서 AI 함선과 전투를 벌이고 있습니다. 아무래도 졸탄 쪽이 불리한 것 같습니다.</text>
+	<text>졸탄 연구선 하나가 당신 앞을 쏜살같이 지나갑니다. AI 전투함이 그들을 뒤쫓고 있습니다.</text>
+	<text>낯익은 녹색 도색을 가진 함선이 회색 함선을 향해 발포합니다. 졸탄 함선이 탈주한 AI 함선을 처리하려고 온 것이 분명합니다.</text>
+	<text>우주에서 가장 발달한 종족이 송신소 근처에서 싸우고 있습니다. 졸탄 함선이 AI 함선을 쫓고 있습니다.</text>
+	<text>당신은 함대간 국지전에 끼어들었습니다. 졸탄족 탐험대가 AI 함대와 맞붙었고, 지금은 아직 전투 중인 두 척을 제외하곤 모두 파괴된 것 같습니다.</text>
+	<text>전투 경보! 거대한 졸탄 함선이 더 작은 AI 함선이 만들어 낸 나노구름 속으로 쫓아갑니다. 졸탄 함선의 방어막은 거의 파괴되었고, 그들의 이온 무기는 AI 함선에 별 효과를 내지 못하는 것 같습니다.</text>
 </textList>
 
 <eventList name="AI_VS_ZOLTAN_BETRAYAL_LIST">
 	<event>
-		<text>"Hmm interesting... why did you do this? Do you desire materials, organic life form? We will share some of our almost infinite resources with you. Now be on your way."</text>
+		<text>"특이하군... 왜 이런 선택을 하였지? 물자를 원하는가, 생명체들아? 우리의 무한한 자원을 조금 나누어주겠다. 이제 가 보아라."</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>The AI ship retreated from combat when you engaged the Zoltan and then closely observed the battle. Upon receiving your hail it does not respond and instead jumps out of the system.</text>
+		<text>당신이 대신 졸탄 함선과 교전합니다. AI 함선은 후퇴한 뒤에 전투를 지켜봅니다. 그들은 당신의 교신을 무시하고는 행성계를 빠져나갑니다..The AI ship retreated from combat when you engaged the Zoltan and then closely observed the battle. Upon receiving your hail it does not respond and instead jumps out of the system.</text>
 	</event>
 </eventList>
 
@@ -6994,17 +6994,17 @@
 	<status type="loss" target="player" system="battery" amount="1"/>	
 </event>
 <textList name="NEBULA_AI_NOTHING_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano clouds are one of the most hostile environments the galaxy has to offer. You fire a few shots into the endless swarm, even though you know that it's to no avail: the bots gather around your ship and start dismantling it. You have to get out of here quick!</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive at what appears to have once been a major planet of this sector. Its settlement and parts of its mineral rich crust have already been turned into more self-replicating nano bots, swelling the cloud of automated death you are in.</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A detachment of the Zoltan nano-cleanup forces is readying an anti-matter bomb at this beacon. The use of this weapon is restricted by general system law, but it's one of the few things that can reliably destroy large amounts of nano-bots. You are advised to leave this area soon.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A lone Engi vessel is experimenting with a nano counter-agent, produced directly from the body of one of their crew. They explain that a live Engi had to be dissolved into a no longer sentient swarm during the process. Sadly, the sacrifice seemed to be of no use: the cloud remains as hostile as ever.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You can't see anything through this nanite mess and all systems aboard the ship are disrupted by the aggressive bots. Nothing to do about it but to get out of the cloud.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">It's eerily quiet. All you hear is the creaking of the ship as the nano-bots slowly gnaw it apart.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You nervously glance out the windows, but the only thing to greet you is more remote controlled nano bots. You ask for more light, but the lights are not responding. You try to contact the engine room; no answer. The nanites are messing with the ship's systems.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You cycle through wide-band comm channels as soon as you arrive. Mostly static. You shortly pick up a faint signal; it is broadcasting classic Zoltan music, occasionally interrupted by screams and crazed laughter.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Space is said to be beautiful and exciting, but you decide that this grey-goo is one of the most ugly and boring things you've ever seen.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The eccentric nature of the rogue AI is also visible in the nano-clouds they command. The bots at this beacon form into pan-human figures, warriors of ancient mythologies, that slash away at your ship with vibro-melee weapons and shower it with EMP-arrows.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The nano-attack does not subside. As you wait for the FTL drive to charge, you half expect to be ambushed by a ship as well. However, no attack comes...</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">나노로봇 구름은 온 우주를 통틀어 가장 위험한 지역입니다. 당신은 그것에 발포해보지만, 이내 소용이 없다는 것을 깨닫습니다. 나노로봇이 당신의 함선을 에워싸고 분해를 시작합니다. 어서 빠져나가야 합니다!</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 한때 구역에서 제일 큰 행성이었던 곳에 도착했습니다. 이 행성의 주거지와 광물 지대는 이제 자가증식하는 나노 로봇으로 변해 버렸습니다. 무한히 불어나는 죽음의 구름이 당신을 노립니다.</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">졸탄족 나노 로봇 박멸 부대가 이 송신소에 반물질 폭탄을 설치합니다. 보통은 우주법에 따라 금지된 무기이지만, 나노 로봇을 안정적으로 파괴하기 위해서는 어쩔 수 없는 선택입니다. 당신은 빨리 이 구역을 떠나기를 통보받았습니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">홀로 떨어진 엔지 함선이 그들의 선원들 중 하나를 이용해서 항 나노로봇 기제를 만드는 실험을 하고 있습니다. 그들은 살아 있는 엔지를 분해해 의식 없는 군체로 바꾼다고 설명합니다. 불행히도, 나노로봇 구름은 이전과 다를 바 없이 적대적입니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">나노로봇 떼에 둘러싸인 당신의 함선 때문에 주변을 볼 수가 없습니다. 더군다나 그것은 함선의 시스템을 하나둘씩 방해하고 있습니다. 이 구름에서 빠져나갈 수 밖에 없을 듯 합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">주변은 소름끼치도록 조용합니다. 들리는 소리라고는 나노로봇이 다른 함선을 천천히 분해하면서 내는 삐걱임 뿐입니다. </text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 불안하게 창문을 바라보지만 당신을 반기는 것은 원격 제어되는 나노로봇들 뿐입니다. 당신은 빛을 더 비추라고 지시하지만, 외부등이 작동하지 않습니다. 나노로봇이 함선의 시스템을 방해하고 있습니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 도착하자마자 모든 광대역 통신을 한번씩 돌려보지만, 대부분은 답장이 없습니다. 당신은 잠깐 동안 답장을 수신합니다. 졸탄족의 전통 음악이, 비명과 미친 웃음소리와 뒤섞여 들어옵니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">우주는 아름답고 신나는 곳이라고들 말하지만, 여기에 있는 무채색의 구름은 우주에서 제일 추하고 지겨운 것이라고 할 수 있겠습니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">통제를 잃은 AI들의 특이한 취향은 그들이 조종하는 나노로봇 구름에서도 드러납니다. 이 송신소의 로봇들이 고대 전설에 나올 법한 용사의 모습으로 변하여, 당신의 함선에 빛나는 검을 휘두르고 EMP 화살을 난사합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">나노 로봇들은 절대 후퇴하지 않습니다. 당신은 FTL을 충전하면서 혹시 올지도 모를 기습에 대비합니다. 하지만 아무도 오지 않습니다...</text>
 </textList>
 
 
@@ -7074,13 +7074,13 @@
 		</choice>
 </event>
 <textList name="NEBULA_AI_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You went into the death zone. The gray goo engulfs your ship as soon as the jump is completed. Nano-bots start to dissemble your hull plating and interfere with all systems. The AI ship that moves to engage you seems to control the cloud and is using it as a support weapon. On the bright side: The rebels will have no way to trace you here.</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Only mechanical death greats you here. The rogue hub AIs are known to protect their core territory with powerful ships and swarms of nano-bots. The swarm starts to disassemble your ship and drain your system power. This is not a place organic beings should ever venture. But at least the Rebels will avoid the area as well.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Some scientists claim that these nano clouds are actually the next evolutionary stage of the Engi. Fact is, they are lethal to anyone except the overlord AIs that control them. The nano-bots attack your ship and interfere with the systems, and an AI vessel moves in to finish you.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A ripple waves through the nano-bots as you jump to another part of the far stretching cloud. Some of the micro machines attack your ship directly, others gather and form a fully functional AI warship right in front of your eyes. The newly created vessel attacks immediately.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano-bots and an AI ship activate as you jump into a thick part of the cloud. This will be nasty.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Hostile rogue AI warships inside all-eating nanobot clouds that can digest entire ships. You wonder how it could get any worse.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive in a thick part of the artificial cloud. The nanobots immediately swarm your ship. They get everywhere; into the hull, into the ship's systems... They will only retreat if you defeat their nearby command ship. You ready what is left of the weapons.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 죽음의 지대에 들어왔습니다. 도약을 끝마치자마자 무채색의 구름이 당신의 함선을 에워쌉니다. 나노로봇들이 당신의 함선과 시스템을 갉아먹기 시작합니다.  나노로봇을 조종하던 AI 함선이 보조 무기를 들고 당신을 공격하려 합니다. 그나마 여기에 있으면 반군이 쫓아올 일은 없을 것입니다.</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">기계적인 죽음이 당신을 맞이합니다. AI들은 자신들의 중요 영토를 강력한 나노로봇 구름으로 지키고 있습니다. 나노로봇이 당신의 함선을 분해하고 시스템 전력을 빼앗기 시작합니다. 생물체는 이런 곳에 들어오면 안 됩니다. 다행히 반군도 감히 이곳에 들어오지 않을 것입니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">몇몇 과학자들은 나노 구름이 엔지의 진화한 모습이라고 주장합니다. 사실은 군주급 AI가 아닌 대상에게는 극히 위험한 물건일 뿐입니다. 그것들이 당신의 함선을 공격하고 시스템을 장악하는 와중에 AI 함선이 진입해 당신을 끝장내려 합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">구름의 다른 쪽으로 이동할때 난 충격파가 나노로봇들을 가릅니다. 몇 부분이 당신의 함선을 직접 공격하고, 다른 부분은 즉시 함선의 모습을 만들어내어 즉시 당신을 공격합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신이 구름의 짙은 지대에 들어서자마자 나노로봇과 AI 함선이 가동합니다. 힘든 싸움이 예상됩니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">모든 것을 집어삼키는 나노로봇 구름 속에 숨은 적대적인 AI 함선이라니, 이보다 더 나쁠 수가 있을까요?</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 인공 구름의 가장 두꺼운 지대로 들어왔습니다. 나노로봇들이 당신의 함선을 즉씨 에워싸기 시작합니다. 그들은 함선과 시스템 어디에든 침입합니다. 빠져나가려면 근처의 지휘선을 격파하는 수 밖에 없습니다. 당신은 남은 무기를 가동합니다.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">All traces of the Rebel fleet vanish from your screen, the nano clouds inhibit any kind of long range tracking. Your First Mate mentions seeing a ship in the clouds. You order full battle readiness, but the AIs still surprise you when they swoop in from above and send a wave of nanites ahead to disrupt your ship's systems.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nanobots inform the entire cloud of your position, as soon as you jump anywhere inside it. However, you doubt this information will be made available to the Rebels. The nanobots will shroud your movement compleately.</text>
 </textList>
@@ -8206,7 +8206,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -8222,7 +8222,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8239,7 +8239,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8256,7 +8256,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8272,7 +8272,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8288,7 +8288,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8304,7 +8304,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8320,7 +8320,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8336,7 +8336,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8352,7 +8352,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8368,7 +8368,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8384,7 +8384,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8400,7 +8400,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8416,7 +8416,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8432,7 +8432,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8448,7 +8448,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8464,7 +8464,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8480,7 +8480,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8496,7 +8496,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8512,7 +8512,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8528,7 +8528,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8544,7 +8544,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8560,7 +8560,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8576,7 +8576,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8592,7 +8592,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8608,7 +8608,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8624,7 +8624,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8640,7 +8640,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8657,7 +8657,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8673,7 +8673,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8689,7 +8689,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8705,7 +8705,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8721,7 +8721,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8737,7 +8737,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8753,7 +8753,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8769,7 +8769,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8785,7 +8785,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8801,7 +8801,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8817,7 +8817,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8833,7 +8833,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8849,7 +8849,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8865,7 +8865,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8881,7 +8881,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8897,7 +8897,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8913,7 +8913,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8929,7 +8929,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8945,7 +8945,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8961,7 +8961,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -8977,7 +8977,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -9046,7 +9046,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9062,7 +9062,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9078,7 +9078,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9094,7 +9094,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9109,7 +9109,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9124,7 +9124,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9139,7 +9139,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9154,7 +9154,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9169,7 +9169,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9184,7 +9184,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9199,7 +9199,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9214,7 +9214,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9229,7 +9229,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9244,7 +9244,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9259,7 +9259,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9274,7 +9274,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9289,7 +9289,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9304,7 +9304,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9319,7 +9319,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9334,7 +9334,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9349,7 +9349,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9364,7 +9364,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9379,7 +9379,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9394,7 +9394,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9409,7 +9409,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9424,7 +9424,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9439,7 +9439,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9454,7 +9454,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9470,7 +9470,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9485,7 +9485,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9500,7 +9500,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9515,7 +9515,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9530,7 +9530,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9545,7 +9545,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9560,7 +9560,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9575,7 +9575,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9590,7 +9590,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9605,7 +9605,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9620,7 +9620,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9635,7 +9635,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9650,7 +9650,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9665,7 +9665,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9680,7 +9680,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9695,7 +9695,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9710,7 +9710,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9725,7 +9725,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9740,7 +9740,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9755,7 +9755,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -9770,7 +9770,7 @@
 				<choice>
 					<text>계속...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 			</event>
