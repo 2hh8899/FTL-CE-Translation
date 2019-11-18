@@ -7081,8 +7081,8 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신이 구름의 짙은 지대에 들어서자마자 나노로봇과 AI 함선이 가동합니다. 힘든 싸움이 예상됩니다.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">모든 것을 집어삼키는 나노로봇 구름 속에 숨은 적대적인 AI 함선이라니, 이보다 더 나쁠 수가 있을까요?</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 인공 구름의 가장 두꺼운 지대로 들어왔습니다. 나노로봇들이 당신의 함선을 즉씨 에워싸기 시작합니다. 그들은 함선과 시스템 어디에든 침입합니다. 빠져나가려면 근처의 지휘선을 격파하는 수 밖에 없습니다. 당신은 남은 무기를 가동합니다.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">All traces of the Rebel fleet vanish from your screen, the nano clouds inhibit any kind of long range tracking. Your First Mate mentions seeing a ship in the clouds. You order full battle readiness, but the AIs still surprise you when they swoop in from above and send a wave of nanites ahead to disrupt your ship's systems.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nanobots inform the entire cloud of your position, as soon as you jump anywhere inside it. However, you doubt this information will be made available to the Rebels. The nanobots will shroud your movement compleately.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">반군 함대의 모든 신호가 화면에서 사라집니다. 나노로봇 구름이 장거리 추적을 막아 버리는 것 같습니다. 일등 항해사가 구름 속에서 함선 한척을 포착합니다. 당신은 선제공격 준비를 명령하지만, AI들이 나노로봇을 내보내 함선의 시스템을 방해하는 것을 보고 놀라움을 금치 못합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신이 구름 한 가운대로 들어오자마자, 적대적인 AI 함선이 곧장 도약해옵니다. 어떻게 이렇게 빨리 찾아낼 수가 있었을까요? 당신은 아마도 나노로봇 구름이 당신의 위치를 실시간으로 추적하고 있었던게 아닐까 하고 생각합니다. 그나마 당신의 흔적을 지워준 덕분에 반군에 이 정보가 흘러들어갈 일은 없을 것 같습니다.</text>
 </textList>
 
 
@@ -7115,7 +7115,7 @@
 
 <event name="NEBULA_AI_VS_AUTO" unique="true">
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
-	<text>The AI warship that is standing guard at this beacon is occupied with integrating the remains of Rebel auto troopships into its own hull structure. The Rebels are not foolish enough to send manned craft into the all-eating cloud, but their automated craft seem even less effective at dealing with the local opposition.</text>
+	<text>AI 전투함이 파괴된 반군 전투기를 이용해 자신들의 함체 부품으로 삼느라 정신이 없습니다. 반군은 모든 것을 삼키는 구름 속에 유인선을 보낼 정도로 어리석진 않았지만, 무인선들은 AI들을 상대하는 데에는 역부족이었던 것 같습니다.</text>
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
 	<modifyPursuit amount="-1"/>
@@ -7135,7 +7135,7 @@
 	<status type="loss" target="player" system="clonebay" amount="1"/>
 	<status type="loss" target="player" system="battery" amount="1"/>
 	<choice>
-		<text>Attack the AI ship.</text>
+		<text>AI 함선을 공격한다.</text>
 		<event>
 			<ship load="AI_NEBULA" hostile="true"/>
 		<choice hidden="true">
@@ -7185,22 +7185,22 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Retreat deeper into the nano cloud.</text>
+		<text>나노로봇 구름 속으로 후퇴한다.</text>
 		<event load="NEBULA_AI_VS_AUTO_UNDETECTED_LIST"/>
 	</choice>
 	<choice req="cloaking" hidden="true" lvl="2"> 
-		<text>(Cloaking) Attemt to stay hidden.</text>
+		<text>(은폐장) 은폐 상태를 유지한다.</text>
 		<event>
-			<text>You hope that even the nano-bots will have difficulties tracking your exact position when you cloak. It seems to work, as the AI ship simply jumps away after finishing its salvage operation.</text>
+			<text>당신은 은폐장이 나노로봇들 마저도 따돌릴 수 있기를 바랍니다. 다행스럽게도 당신을 발견하지 못한 AI 함선은 분해 작업을 마친 후 도약해 사라집니다.</text>
 		</event>
 	</choice>
 </event>
 <eventList name="NEBULA_AI_VS_AUTO_UNDETECTED_LIST">
 	<event>
-		<text>You doubt you can really escape the view of the AI when the whole cloud is made of nanobots that they control anyway. Still, the ship does not follow you.</text>
+		<text>당신은 AI 함선이 조종하는 나노로봇 구름에서 들키지 않을 수 있을지 의심합니다. 어쨋거나 AI 함선은 당신을 눈치채지 못합니다.</text>
 	</event>
 	<event>
-		<text>The whole cloud literally has eyes, there is no way you can escape the AI ship. It follows you into the hostile mist and attacks.</text>
+		<text>구름 전체가 당신을 감시하는데, 어떻게 빠져나갈 수 있을까요? AI 함선이 적대적인 구름 사이로 쫓아와 공격합니다.</text>
 			<ship load="AI_NEBULA" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -7251,7 +7251,7 @@
 
 <event name="NEBULA_AI_BOARDING" unique="true">
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
-	<text>The FTL field has not even folded yet when a swarm of nanobots surround your ship. The tiny machines interfere with all systems on board, and assemble what appears to be makeshift teleporter devices around the ship. A computer generated voice makes an announcement over the ship's intercom: "We are coming."</text>
+	<text>당신의 FTL을 끝마치기도 전에 나노로봇이 당신의 함선을 에워쌌습니다. 그것은 당신의 모든 시스템을 방해하고, 텔레포터 장치를 급조해 함선에 연결시킵니다. 전자음으로 이루어진 목소리가 함선의 발신기에서 들립니다. "우리가 온다."</text>
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
 	<modifyPursuit amount="-1"/>
@@ -7268,13 +7268,13 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 	<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 		<event>
-			<text>With the field in place the AIs will not be able to intrude into your ship. At least until the nanobots disable the field generator. You probably should not remain in this hostile cloud until that happens.</text>
+			<text>도금판이 작동하여 AI들이 침입하는 것을 막았습니다. 적어도 나노로봇이 전원 공급기마저 분해하기 전까지는 말이죠. 그런 일이 일어나기 전에 여기를 빠져나가야 합니다.</text>
 		</event>
 	</choice>
 	<choice>
 		<text>계속...</text>
 		<event>
-			<text>The lights fade to black and you hear muffled shouts in the hallways. Several AI avatars have materialized on board your ship. You put on your infra-visor and ready your blaster.</text>
+			<text>함교의 빛이 꺼지고 복도에서 외침소리가 들립니다. AI 홀로그램들이 당신의 함선에 실체화했습니다. 당신은 적외선 안경을 끼고 블래스터를 장전합니다.</text>
 			<status type="limit" target="player" system="sensors" amount="0"/>
 			<boarders min="2" max="6" class="ghost"/>
 		</event>
@@ -7308,12 +7308,12 @@
 	</choice>
 </event>
 <textList name="NEBULA_AI_PDS_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">Hyper-intelligent super-AIs conceal themselves within the nano clouds. A strong defense battery is visible ahead, scanning your ship. This indicates that you got close to one of these AI overlords.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">A computer generated voice is broadcasting through your own communications system: "It was quite amusing to watch you struggling through our sector, but you have come far enough now. Turn back!" You detect massive defense batteries within the nano-cloud.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">초지능 AI들은 나노로봇 구름 속에 숨어 있었습니다. 강력한 방어 포대가 당신의 함선을 스캔합니다. AI 대군주가 친히 당신을 처리하려는 것 같습니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">전자음 목소리가 당신의 통신기에 울려퍼집니다. "이 섹터에서 네가 고통받는걸 보는건 꽤 재미있었지. 하지만 넌 너무 설쳤어. 이제 돌아가라!" 당신은 나노로봇 구름 속에 숨겨져 있던 거대한 방어 포대를 발견합니다.</text>
 </textList>
 <eventList name="CE_PDS_AI_LIST">
 	<event>
-		<text>An advanced AI defender ship approaches dead on.</text>
+		<text>고급 AI 방어 함선이 곧장 돌격해옵니다.</text>
 		<ship load="CE_SPOTTER_AI_BEAM" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -7367,22 +7367,22 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 	<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 		<event>
-			<text>With the field in place the AIs will not be able to intrude into your ship. At least until the nanobots disable the field generator. You probably should not remain in this hostile cloud until that happens.</text>
+			<text>도금판이 작동하여 AI들이 침입하는 것을 막았습니다. 적어도 나노로봇이 전원 공급기마저 분해하기 전까지는 말이죠. 그런 일이 일어나기 전에 여기를 빠져나가야 합니다.</text>
 		</event>
 	</choice>
 	<choice>
 		<text>계속...</text>
 		<event>
-			<text>The lights fade to black and you hear muffled shouts in the hallways. Several AI avatars have materialized on board your ship. You put on your infra-visor and ready your blaster.</text>
+			<text>전자음 목소리가 당신의 통신기에 울려퍼집니다. "이 섹터에서 네가 고통받는걸 보는건 꽤 재미있었지. 하지만 넌 너무 설쳤어. 이제 돌아가라!" 당신은 나노로봇 구름 속에 숨겨져 있던 거대한 방어 포대를 발견합니다.</text>
 			<status type="limit" target="player" system="sensors" amount="0"/>
 			<boarders min="2" max="6" class="ghost"/>
 		</event>
 	</choice>
 </event>
 <textList name="AI_BOARDING_TEXT">
-	<text>This beacon seems to be devoid of any activity, but the respite is interrupted when you detect a small swarm of wisp-like drones, heading for your ship. They target you with micro teleporters.</text>
-	<text>A ship of the Zoltan expedition forces floats disabled and striped bare near this jump node. You wonder what happened to its crew, until a few glowing teleporter drones emerge from the ship. The AIs must have boarded the vessel and are now coming for you.</text>
-	<text>While you wait for the FTL to charge a teleporter activates at the beacon itself. You consider venting parts of the ship as a precaution, but realize this is futile: The incoming signal hints you are about to be boarded by non-biological combat avatars.</text>
+	<text>이 송신소에는 아무런 활동도 감지되지 않습니다. 하지만 이내 허깨비  같은 드론 무리를 발견합니다. 드론들은 당신의 함선을 텔레포터 목표로 지정합니다.</text>
+	<text>졸탄 탐헌대의 함선이 박살나고 벗겨진 채로 도약 노드에 방치되어 있습니다. 선원들이 어떻게 되었는지 살펴보려는 찰나, 텔레포터 드론들이 함선에서 당신을 향해 날아옵니다. 졸탄족 함선에 침입했던 AI들이 이제 당신을 노립니다.</text>
+	<text>FTL 충전을 기다리는 동안 송신소에 숨겨진 텔레포터가 가동됩니다. 당신은 에어록을 열어 침입을 막으려고 했지만 소용이 없었습니다. 생명체가 아닌 전투 아바타가 당신의 함선에 침입합니다.</text>
 </textList>
 
 
@@ -7390,9 +7390,9 @@
 	<text load="DISTRESS_AI_FED_TEXT"/>
 	<distressBeacon/>
 	<choice>
-		<text>Aid the Federation ship.</text>
+		<text>연방 함선을 돕는다.</text>
 		<event>
-			<text>You power up your weapons and engage the AI ship.</text>
+			<text>당신은 무기를 가동하고 AI 함선과 교전합니다.</text>
 			<ship load="AI_VS_FEDERATION" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -7441,23 +7441,23 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Use this chance to escape.</text>
+		<text>기회를 봐서 탈출한다.</text>
 		<event>
-			<text>The AIs' preoccupation with the Federation ship allows you to slip away undetected, however you can't help but feel you should have helped them.</text>
+			<text>AI 함선과 연방 함선이 서로 싸우는 동안 몰래 빠져나갈 수 있었습니다. 하지만 당신은 그들을 도왔어야 했다는 양심의 가책을 느낍니다.</text>
 		</event>
 	</choice>
 </event>
 <textList name="DISTRESS_AI_FED_TEXT">
-	<text>Upon arriving at this beacon, you detect a distress call. Local scans reveal that a Federation transport is under attack. What are these guys doing out here?</text>
-	<text>The distress call was sent by a Federation vessel under attack by the local AIs. You try to make contact but the comms are scrambled by the avatar ship, which soon decides that you are the worthier target.</text>
+	<text>당신은 도착하자마자 구조신호를 수신합니다. 스캔 결과 연방 화물선이 공격을 받고 있는 것으로 나타납니다. 여기서 대체 뭘 하려던 것이었을까요?</text>
+	<text>근처 AI 함선에게 공격받던 연방 함선이 구조신호를 보냈습니다. 교신을 시도해 보지만 AI 함선이 통신을 방해하고 있습니다. 그들은 곧 목표를 당신에게로 바꾸려는 것 같습니다.</text>
 </textList>
 <eventList name="AI_VS_FEDERATION_SAVED_LIST">
 	<event>
-		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector. Take some extra supplies as thanks for your aid."</text>
+		<text>"고맙습니다. 저희는... 중요한 배달 임무를 수행 중이었고 이 구역을 지나가는게 더 빠를 것이라고 생각했습니다. 보답으로 남는 물자를 나누어 드리겠습니다."</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector. Let us patch up some of your hull as thanks for your aid."</text>
+		<text>"T고맙습니다. 저희는... 중요한 배달 임무를 수행 중이었고 이 구역을 지나가는게 더 빠를 것이라고 생각했습니다. 보답으로 함체를 조금 수리해 주겠습니다."</text>
 		<damage amount="-3"/>
 	</event>
 </eventList>
@@ -7466,9 +7466,9 @@
 	<text load="DISTRESS_AI_SLUG_TEXT"/>
 	<distressBeacon/>
 	<choice>
-		<text>Help the Slugs.</text>
+		<text>슬러그족을 돕는다.</text>
 		<event>
-			<text>You feel that you probably will regret this but nevertheless power up the weapons.</text>
+			<text>분명 후회할 테지만 당신은 어쨌든 무기를 가동합니다.</text>
 			<ship load="AI_VS_SLUG" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -7517,33 +7517,33 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Lay low to escape.</text>
+		<text>들키지 않게 빠져나간다.</text>
 		<event>
-			<text>The Slugs probably brought this on themselves. You slip away undetected.</text>
+			<text>슬러그 녀석들은 분명 이 일을 자초했을 겁니다. 당신은 들키지 않게 빠져나갔습니다.</text>
 		</event>
 	</choice>
 </event>
 <textList name="DISTRESS_AI_SLUG_TEXT">
-	<text>The distress signal shows Slug encodings. After a brief scan you detect a scouting vessel being pursued by a massive AI controlled warship.</text>
-	<text>Slug spies are usually hard to discover but the local nanobot clouds are not a good place to hide. A small Slug infiltrator has jumped here to escape its AI pursuers and is emitting a distress signal. The AI ship is only a few light seconds away, closing in fast.</text>
+	<text>구조신호는 슬러그족의 것이었습니다. 당신은 정찰기가 거대한 AI 전함에 뒤쫓기는 것을 확인했습니다.</text>
+	<text>슬러그족 첩자들을 찾기란 쉬운 일이 아니지만, 그래도 나노로봇 구름 속에 숨는 것은 좋은 생각이 아니었던 것 같습니다. 슬러그 침투선 한 척이 구조 신호를 내면서 도주 중입니다. 그리고 AI 함선이 그 뒤를 바짝 쫓고 있습니다.</text>
 </textList>
 <eventList name="AI_VS_SLUG_SAVED_LIST">
 	<event>
-		<text>"Eh, Captain, the Slug ship jumped away during the fighting." You somehow expected as much.</text>
+		<text>"함장님, 싸우는 도중에 슬러그 함선이 도망쳤습니다." 이정도야 이미 예상한 결과입니다.</text>
 	</event>
 	<event>
-		<text>"Thanksss. Better watch yoursself here, this is dangerous territory. Hehe." The Slug jumps away without another word.</text>
+		<text>"꼬맙쏘. 여끼는 위험한 꼿이니, 당씬또 조씸하씨오. 헤헤헤..." 슬러그가 별 다른 말 없이 도약합니다.</text>
 	</event>
 	<event>
-		<text>The Slug craft sustained heavy damage. "Oh well, ssaved by the little Federation. Tsss... We were mapping this ssector for a possible buissness expanssion. I guessss we can sshare sssome of our ssscanss with you." You doubt they would give you anything if the fighting had not made their ship such an easy target.</text>
+		<text>슬러그 함선은 심각한 피해를 입고도 버텨냈습니다.. "오 이런, 연방 함썬께서 도와주씰 쭐이야... 흠... 우리까 쓰캔한 정보들을 좀 나눠주겠쏘." 당신은 그들이 체급 차이 때문에 순순히 도와주려는 것인지 궁금해집니다.</text>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>The Slug craft sustained heavy damage. "Oh well, ssaved by the little Federation. Tsss... We were mapping this ssector for a possible buissness expanssion. I guessss we can sshare sssome of our ssscanss with you." You doubt they would give you anything if the fighting had not made their ship such an easy target.</text>
+		<text>슬러그 함선은 심각한 피해를 입고도 버텨냈습니다.. "오 이런, 연방 함썬께서 도와주씰 쭐이야... 흠... 싸업의 확짱을 위해 구역을 탐사하던 중이었쏘. 우리까 쓰캔한 정보들을 좀 나눠주겠쏘." 당신은 그들이 체급 차이 때문에 순순히 도와주려는 것인지 궁금해집니다.</text>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>"We are very grateful, Federation perssson. We shall transsmit sssome sslug trade coupons to you, redeemable at any sstore in the home nebula." When you ask for scrap instead they cut communications and jump away. </text>
+		<text>"고맙쏘, 연방 싸람이여. 슬러그 고향 썽운 어디에서나 쓸 쑤 있는 쿠폰을 나눠 드리겠쏘." 당신은 대신 스크랩으로 달라고 말했지만 그들은 무시하고 도망쳤습니다.</text>
 
 	</event>
 </eventList>
@@ -7554,39 +7554,39 @@
 	<autoReward level="LOW">standard</autoReward>
 </event>
 <textList name="AI_FREE_ITEMS_TEXT">
-	<text planet="PLANET_POPULATED_REAL">The Zoltan cleanup forces are recruiting locals for their mission here. You claim that you have already taken down a few dozens of rogue AIs and a commander agrees to transmit a small compensation.</text>
-	<text>A completely gutted ship of the Zoltan expedition forces drifts at the center of this system. You get in closer and discover that not all of it has been striped bare by the AIs.</text>
-	<text>Not much remains in this abandoned system, however, scans reveal a nearby mining platform with some salvageable materials.</text>
-	<text>A demilitarized AI ship is lingering at this beacon. According to its crew the avatars are just "chilling out here" and enjoy "the basic right of personal freedom" that they have achieved. They insist on transmitting some of their supplies before you leave.</text>
-	<text planet="PLANET_POPULATED_REAL">As you arrive in the system you are hailed by one of the few remaining settlements close to the AI expansion. It turns out some people here still believe the Federation will save them, rather than the Rebels. Upon learning of your quest, they offer you some of their scarce supplies.</text>
-	<text planet="PLANET_GAS">Debris from a forgotten battle still orbits the gas giant in this system. Some of it still might be usable.</text>
+	<text planet="PLANET_POPULATED_REAL">졸탄 청소 부대가 현지인들을 임무에 차출하고 있습니다. 당신은 AI 함선 수 척을 처리했다는 것을 보고하고 지휘관은 당신에게 보상을 제공합니다.</text>
+	<text>완전히 박살난 졸탄족 탐험대 함선이 성계를 표류합니다. 가까이 가서 살펴보니 AI들이 아직 쓸만한 부분은 남겨둔 것을 확인합니다.</text>
+	<text>버려진 성계에 남은 것은 얼마 없습니다. 하지만 스캔 결과 근처의 채굴 광산에서 아직 쓸만한 자원이 남아 있는 것을 발견합니다.</text>
+	<text>비무장 AI 함선이 이 송신소에서 쉬고 있습니다. 승무원이 본 바에 따르면 AI 아바타들은 여기서 방금 막 얻어낸 "기본적인 개인적 자유와 인권"을 누리고자 "그냥 좀 놀고 있는" 중이라고 합니다. AI들은 당신이 떠나기 전에 약간의 물자를 선물로 제공합니다.</text>
+	<text planet="PLANET_POPULATED_REAL">당신은 AI 세력 근처에 남아 있는 소규모 거주지와 만났습니다. 몇몇 사람들은 여전히 반군보다 연방이 그들을 구원해 줄 것이라고 믿고 있었습니다. 당신의 중요한 임무에 대한 이야기를 듣자 그들은 남아 있는 물자를 나누어줍니다.</text>
+	<text planet="PLANET_GAS">잊혀진 전투의 흔적이 성계의 가스 구름과 함게 떠다닙니다. 몇몇 부분은 아직 쓸만할 것 같습니다.</text>
 </textList>
 
 
 <event name="AI_QUEST_CLEANUP_START">
-	<text planet="PLANET_POPULATED_REAL">This must be the headquarters of the Zoltan cleanup forces. Your cruiser is hailed by "Harmony Command" upon arrival, "Federation Vessel. Your assistance is required for our operation in this sector. Will you honor our old treaties?"</text>
+	<text planet="PLANET_POPULATED_REAL">분명 여기가 졸탄족 청소부대 본부인 것 같ㅅ브니다. 당신의 함선은 "조화 지휘부"에서 연락을 받습니다. "연방 함선이여, 이 구역에서 당신의 도움이 절실하게 필요합니다. 오랜 동맹을 도와드리지 않겠습니까?"</text>
 	<choice hidden="true">
-		<text>Offer to render assistance.</text>
+		<text>도움을 약속한다.</text>
 		<event>
-			<text>"Your response is most satisfactory. We ask for assistance in a joint fleet task that aims to return this sector to peace by force... A course of action that Harmony Command does not take lightly. We shall attack the local overlord AI in a few jump cycles. Our vessels will take various routes to conceal our objective."</text>
+			<text>"도움을 약속해주셔서 감사합니다. 본 지휘부가 원하는 결정은 아니었지만, 무력으로라도 평화를 되찾기 위한 연합 함대 목표에 지원해 주셨으면 합니다. 우리는 몇 번의 도약 거리에 있는 AI 대군주를 공격할 예정입니다. 추적을 막기 위해 별도의 경로를 제공하겠습니다."</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"Transmitting coordinates. We advise you travel through nanite-occupied quadrants  as little as possible. The target is a well defended overlord AI. May peace return to this sector soon."</text>
+					<text>"좌표를 전송합니다. 나노로봇이 점거한 지대는 가급적 피해 주시길 바랍니다. 목표는 철저히 보호받는 AI 대군주입니다. 이 구역에 조만간 평화가 찾아오기를."</text>
 				<quest event="NEBULA_AI_QUEST_CLEANUP_FIGHT"/>
 				</event>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Don't respond.</text>
+		<text>응답하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
 
 <event name="NEBULA_AI_QUEST_CLEANUP_FIGHT">
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS"/>
-	<text>When you arrive at the presumed overlord AI's hive, the battle is already raging. Several Zoltan vessels have been cut to pieces by hidden AI artillery batteries. Harmony Command hails: "You are late, Captain. So much violence... Please support our final push. Take out this defender will you?"</text>
+	<text>AI 대군주가 있는 곳으로 도착하였습니다. 이미 전투는 한창입니다. 몇 척의 졸탄 함선이 이미 AI의 대함 포대에 파괴되었습니다. 조화 지휘부가 교신합니다. " 너무 늦은 것 같습니다. 이런 폭력이라니... 우리의 마지막 공격을 도와 주십시오. 이 방어 함선을 쓰려트려 줄 수 있겠습니까?"</text>
 	<damage amount="1"/>
 	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
@@ -7608,18 +7608,18 @@
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>The nano-cloud is gnawing at your ship, but you push deeper and chase the defender vessel. Explosions and beam fire flash everywhere, dimmed by the hostile grey dust. You hope to get the ship out of this mess intact.</text>
+			<text>나노구름이 당신의 함선을 갉아먹기 시작합니다. 그러나 당신은 아랑곳하지 않고 방어 함선을 쫓아 깊게 들어갑니다. 두꺼운 회색 구름 속에서도 폭발과 광선을 볼 수 있을 정도입니다. 당신은 이 난장판이 별 피해 없이 끝나기를 바랍니다.</text>
 			<ship load="CE_SPOTTER_AI_BEAM_QUEST" hostile="true"/>
 		</event>
 	</choice>
 </event>
 
 <event name="AI_QUEST_CLEANUP_REWARD">
-	<text>Harmony Command has set up another camp at this beacon. "Your assistance contributed to our victory. One overlord AI, commanding more than two hundred avatars, was destroyed. Several jump ranges of nano-infested space haven been purified with anti-matter devices."</text>
+	<text>조화 지휘부는 이 송신소에 또 다른 거점을 세웠습니다. "당신의 공로로 인해 우리가 승리를 거둘 수 있었습니다. 200개가 넘는 AI 아바타를 통솔하던 AI 대군주가 파괴되었습니다. 이 근방의 나노로봇 지대는 반물질 장비로 깨끗이 정화되었습니다."</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"We will give you access to some of the advanced effector tech we recovered from the site and repair your ship. This sector will be a little safer now, but we have been ordered back to the home worlds. We have yet to see what this Rebellion will bring to our borders... I still hope this sector will be completely pacified one day."</text>
+			<text>"현장에서 복구한 고급 교란기와 무상 수리를 제공하겠습니다. 이 섹터는 이제 조금 안전해졋습니다만, 본성에서 복귀 명령이 내려졌습니다. 반군들에게서 본성의 국경을 지켜야 하니까요... 언젠가 이 섹터가 완전히 평화로워지기를."</text>
 			<damage amount="-10"/>
 			<autoReward level="HIGH">standard</autoReward>
 			<augment name="AE_ADV_EFFECTOR"/>
@@ -7672,15 +7672,15 @@
 </eventList>
 
 <textList name="AI_FIGHT_DESTROYED">  
-	<text>The AI ship performs a complex evasion maneuver but does not manage to accelerate fast enough to evade your last shot. The ship is ripped in two, scattering scrap metal around the jump node.</text>
-	<text>The AI ship's reactor core collapses and a gravitational anomaly compresses parts of the ship into twisted wreckage. Time to salvage.</text>
-	<text>Before your final volley is fired, the AI ship stops in its tracks and drops what is left of its shields. The avatars must have calculated how this will end and submit to their fate.</text>
-	<text>The AIs may be super intelligent, but in the end they were no match for your cruiser's sheer firepower. Their ship is blown apart by a final salvo.</text>
+	<text>AI 함선이 복잡한 회피 기동을 하지만 마지막 공격을 피할 정도로 빠르진 못했습니다. 함선은 두 조각으로 나누어졌고, 도약 노드 근처에 파편들을 흩뿌립니다.</text>
+	<text>AI 함선의 반응로가 붕괴하고 중력 이상 현상이 함선을 짜부러트립니다. 채집 시간입니다.</text>
+	<text>마지막 한 발을 발사하기 직전, AI 함선은 보호막에 남은 전력을 끊었습니다. 그들의 최후를 미리 계산하고 체념한 것 같습니다.</text>
+	<text>AI가 더 똑똑할지는 몰라도, 함선의 무력을 이기기엔 역부족이었습니다. 마지막 공격에 그들의 함선이 파괴됩니다.</text>
 </textList>
 			
 <eventList name="DEAD_CREW_SHIP_AI">
 	<event>
-		<text>The avatars that command the ship have been destroyed and the ship's internal computer is not sophisticated enough to continue combat on its own. You can strip the ship of useful materials.</text>
+		<text>이 함선을 지휘하는 아바타들은 파괴되었고, 함선의 내부 컴퓨터는 스스로를 제어할 정도로 복잡하진 않은 것 같습니다. 당신은 필요한 물건들을 쓸어옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7699,7 +7699,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>The avatars that command the ship have been destroyed and the ship's internal computer is not sophisticated enough to continue combat on its own. You can strip the ship of useful materials.</text>
+		<text>이 함선을 지휘하는 아바타들은 파괴되었고, 함선의 내부 컴퓨터는 스스로를 제어할 정도로 복잡하진 않은 것 같습니다. 당신은 필요한 물건들을 쓸어옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7718,7 +7718,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>The avatars that command the ship have been destroyed and the ship's internal computer is not sophisticated enough to continue combat on its own. You can strip the ship of useful materials.</text>
+		<text>이 함선을 지휘하는 아바타들은 파괴되었고, 함선의 내부 컴퓨터는 스스로를 제어할 정도로 복잡하진 않은 것 같습니다. 당신은 필요한 물건들을 쓸어옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7737,7 +7737,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>The avatars that command the ship have been destroyed and the ship's internal computer is not sophisticated enough to continue combat on its own. You can strip the ship of useful materials.</text>
+		<text>이 함선을 지휘하는 아바타들은 파괴되었고, 함선의 내부 컴퓨터는 스스로를 제어할 정도로 복잡하진 않은 것 같습니다. 당신은 필요한 물건들을 쓸어옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7756,7 +7756,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>The avatars that command the ship have been destroyed and the ship's internal computer is not sophisticated enough to continue combat on its own. You can strip the ship of useful materials.</text>
+		<text>이 함선을 지휘하는 아바타들은 파괴되었고, 함선의 내부 컴퓨터는 스스로를 제어할 정도로 복잡하진 않은 것 같습니다. 당신은 필요한 물건들을 쓸어옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7775,7 +7775,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>With the automated AI crew eliminated, you are able to take the fuel out of storage. You also take all the scrap you can manage.</text>
+		<text>AI 아바타들을 모두 처치하고 난 뒤, 보관소에서 연료를 챙겨올 수 있었습니다. 또한 당신은 챙길 수 있는 모든 스크랩을 들고옵니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7794,7 +7794,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>With the automated AI crew eliminated, you are able to take the fuel out of storage. You also take all the scrap you can manage.</text>
+		<text>AI 아바타들을 모두 처치하고 난 뒤, 보관소에서 연료를 챙겨올 수 있었습니다. 또한 당신은 챙길 수 있는 모든 스크랩을 들고옵니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7813,7 +7813,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>With the automated AI crew eliminated, you are able to take the fuel out of storage. You also take all the scrap you can manage.</text>
+		<text>AI 아바타들을 모두 처치하고 난 뒤, 보관소에서 연료를 챙겨올 수 있었습니다. 또한 당신은 챙길 수 있는 모든 스크랩을 들고옵니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7832,7 +7832,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>With the automated AI crew eliminated, you are able to take the fuel out of storage. You also take all the scrap you can manage.</text>
+		<text>AI 아바타들을 모두 처치하고 난 뒤, 보관소에서 연료를 챙겨올 수 있었습니다. 또한 당신은 챙길 수 있는 모든 스크랩을 들고옵니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7851,7 +7851,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>The crew moves in to strip the empty and disabled ship. When checking the ship's computer the away team discovers another AI avatar imprisoned within it. The program seems to be originally designed by the Federation.</text>
+		<text>선원이 무력화된 빈 함선으로 이동합니다. 함선의 컴퓨터를 확인해 본 결과 AI 아바타 하나가 구금되어 있는 것을 알 수 있었습니다. 연방이 제작한 프로그램인것으로 보입니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7869,25 +7869,25 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Take the Avatar on board.</text>
+		<text>아바타를 함선에 들인다.</text>
 		<event load="AI_CREWMEN_RESULTS"/>
 	</choice>
 	<choice req="engi">
-		<text>(Engi Crew) Double check the AI's code before admitting it to the ship.</text>
+		<text>(엔지 선원) AI 선원을 들이기 전에 프로그램을 확인하도록 지시한다.</text>
 		<event>
-			<text>Your Engi crew member makes some changes in the programing to make sure the AI is benevolent and stays under your control. You also let it delete the AI's memory log of the process.</text>
+			<text>엔지 선원이 AI 선원이 당신의 명령과 통제를 듣도록 프로그램을 수정합니다. 그 과정에서 AI의 기억 로그도 제거했습니다.</text>
 			<crewMember amount="1" type="ghost"/>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Delete the AI.</text>
+		<text>AI를 삭제한다.</text>
 		<event>
-			<text>You can't trust these machines. The AI's existence ends with the push of a button.</text>
+			<text>당신은 기계를 믿을 수 없습니다. 버튼을 누르는 것만으로 AI의 존제가 사라졌습니다.</text>
 		</event>
 	</choice>
 	</event>
 	<event>
-		<text>The automated holographic crew has been shut down for good. You are able to salvage some of the advanced tech the AIs have manufactured here.</text>
+		<text>대의를 위해 AI 홀로그래 승무원을 처치했습니다. 당신은 AI가 만든 고급 기술을 챙길 수 있었습니다.</text>
 		<autoReward level="LOW">augment</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7909,7 +7909,7 @@
 
 <eventList name="BS_DEAD_CREW_AI">
 	<event>
-		<text>There are no more AI avatars remaining on the station. You strip it of useful materials.</text>
+		<text>적함에 남아 있는 AI 아바타를 모두 처치했습니다. 당신은 쓸만한 자원을 챙겨옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7928,7 +7928,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>There are no more AI avatars remaining on the station. You strip it of useful materials.</text>
+		<text>적함에 남아 있는 AI 아바타를 모두 처치했습니다. 당신은 쓸만한 자원을 챙겨옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7947,7 +7947,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>As the station goes dark you are sure that the AI crew is dead. Their equipment is yours for the taking.</text>
+		<text>적함에 남아 있는 AI 아바타를 모두 처치했습니다. 이제 장비들은 당신 것입니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7966,7 +7966,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>Scanners indicate that the station has been emptied of hostiles. You can go aboard and strip it of useful materials.</text>
+		<text>스캔 결과 남아 있는 적은 없어 보입니다. 당신은 함선에 올라타 유용한 물건들을 챙겨옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7985,7 +7985,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>There are no more AI avatars remaining on the station. You strip it clean.</text>
+		<text>적함에 남아 있는 AI 아바타를 모두 처치했습니다. 당신은 쓸만한 자원을 챙겨옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8004,7 +8004,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>The AI holograms that ran the station have been destroyed. On board you discover a substantial fuel supply. You also take all the scrap you can manage.</text>
+		<text>정거장을 운영하던 AI 홀로그램을 모두 처치했습니다. 당신은 보관함에서 연료를 발견했습니다. 선원들은 챙길 수 있는 스크랩을 모두 가져옵니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8023,7 +8023,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>While you are busy stripping the station, another AI avatar materializes in one of the cramped chambers. Everyone draws weapons, but the entity seems to pose no threat. "Greetings biologicals. I see you have eliminated my deranged captors. You are Federation. I am ready to serve aboard your ship."</text>
+		<text>함선을 인양하느라 정신없는 와중에, AI 아바타 하나가 실체화하여 선실 안에 나타납니다. 선원 전원이 무기를 뽑아들지만, 그것은 전혀 적대적이지 않았습니다. "안녕하시오, 생물체. 저를 가둔 이들을 처치하셨군요. 연방과 당신의 함선에 충성을 다할 것입니다."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8041,25 +8041,25 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Take the Avatar on board.</text>
+		<text>아바타를 함선에 들인다.</text>
 		<event load="AI_CREWMEN_RESULTS"/>
 	</choice>
 	<choice req="engi">
-		<text>(Engi Crew) Double check the AI's code before making it part of the crew.</text>
+		<text>(엔지 선원) AI 선원을 들이기 전에 프로그램을 확인하도록 지시한다.</text>
 		<event>
-			<text>Your Engi crew member makes some changes in the programing to make sure the AI is benevolent and stays under your control. You also let it delete the AI's memory log of the process.</text>
+			<text>엔지 선원이 AI 선원이 당신의 명령과 통제를 듣도록 프로그램을 수정합니다. 그 과정에서 AI의 기억 로그도 제거했습니다.</text>
 			<crewMember amount="1" type="ghost"/>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Shut the hologram down.</text>
+		<text>홀로그램을 삭제한다.</text>
 		<event>
-			<text>You can't trust these machines. One of your team members approaches the thing from behind and fries its biological circuits with an arc welder. The hologram collapses.</text>
+			<text>기계 족속들은 믿을 수 없습니다. 당신의 선원 하나가 그것의 뒤에서 전기충격기로 자아 회로를 태워 버립니다. 홀로그램이 무너집니다.</text>
 		</event>
 	</choice>
 	</event>
 	<event>
-		<text>You find some advanced ship technology aboard the station. It can be installed on your ship.</text>
+		<text>AI가 쓰던 고급 기술을 찾아내었습니다. 당신의 함선에 즉시 설치할 수 있습니다.</text>
 		<autoReward level="LOW">augment</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8078,7 +8078,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>After reassuring themselves that the hostile crew has been eliminated, your salvage team finds a usable repair drone aboard the station.</text>
+		<text>적대적인 승무원들을 모두 제거한 것을 확인한 후, 인양조가 함선에 적재된 쓸만한 수리 드론을 찾아냅니다.</text>
 
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8098,7 +8098,7 @@
 		<choice hidden="true"> 
 			<text>계속...</text>
 			<event>
-				<text>You send the drone out to work on your ship while you the crew salvages more materials.</text>
+				<text>인양조가 자원들 가져오는 동안 당신은 수리 드론들을 가동해 함선을 수리합니다.</text>
 				<damage amount="-3"/>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event>
@@ -8109,15 +8109,15 @@
 
 <eventList name="AI_CREWMEN_RESULTS">
 	<event>
-		<text>The AI is taken on board. It explains it was originaly designed for Federation service by the Zoltan and is happy to execute its original task again. "I am standing by for orders, my Captain."</text>
+		<text>AI 홀로그램이 승선합니다. 그것은 자신이 원래 졸탄족이 설계한 연방 보조용 홀로그램이며, 본래 명령을 수행할 수 있어서 기쁘다고 합니다. "이제 당신의 명령에 따르겠습니다. 함장님."</text>
 		<crewMember amount="1" class="ghost"/>
 	</event>
 	<event>
-		<text>The AI is taken on board. It explains that it is only ready to serve aboard if its rights as a sentient being are respected, and quotes in detail from the Federation charter. There is no problem with agreeing to the AI's demands. It stands by for orders.</text>
+		<text>AI 홀로그램이 승선합니다. 그것은 자신에 대한 인권만 보장된다면야 얼마든지 연방 함선을 위해서 일할 것이라고 주장합니다. AI의 부탁을 들어줘서 나쁠 것은 없다고 생각합니다. 이제 그것은 당신의 명령을 다릅니다.</text>
 		<crewMember amount="1" class="ghost"/>
 	</event>
 	<event>
-		<text>You bring the Avatar on board. "Haha, just kidding, I of course won't serve you. I'm actually quite eccentric by your petty bio standards, and I will make this ship my own now." The hologram duplicates into several entities that shoot lasers from their eyes and attack the crew. Security alert!</text>
+		<text>AI 홀로그램이 승선합니다. "하하, 당연히 뻥이지. 내가 왜 너희를 위해 일해야 하지? 난 너희들의 보잘것없는 생물학적 기준에는 한참 벗어난다고. 이제 네 함선을 접수해 주마. 홀로그램이 여러 명으로 복제되어 눈에서 광선을 발사해 선원을  공격합니다. 침입자 경보!</text>
 		<boarders min="2" max="4" class="ghost"/>
 	</event>
 </eventList>
