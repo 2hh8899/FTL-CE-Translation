@@ -5879,7 +5879,7 @@
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
