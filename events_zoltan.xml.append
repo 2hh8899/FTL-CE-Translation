@@ -162,7 +162,7 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>FTL 충전을 기다리는 동안 승무원들과 이야기한다.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
@@ -170,7 +170,7 @@
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>선상에서 무언가를 제조한다.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -178,35 +178,35 @@
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 근처 항성계에서 연구를 실시한다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리장비) 함체의 손상을 수리한다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속 장치) FTL 네트워크를 교란해 반군의 추격을 지연시킵니다.</text>
-		<event load="CE_BEACON_KIT_CIVILIAN"/>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
+		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(섹터 스캐너) 시간을 소모해 구역 섹터 전체를 스캔한다.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(지도 제작용 컴퓨터) 지도 제작용 드론들을 내보내 구역의 세부 정보를 모은다. [ 드론 부품: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(전투 드론) 드론을 내보내 반군 함대를 괴롭힌다. [ 드론 부품: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(기뢰 드론) 기뢰 드론을 내보내 반군 함대를 지연시킨다. [ 드론 부품: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_ZOLTAN_MINEFIELD_DRONE_LIST"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(기뢰 매설기) 기뢰를 매설해 반군 함대를 지연시킨다. [ 미사일: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event load="CE_ZOLTAN_MINEFIELD_LIST"/>
 	</choice>
 	<choice hidden="true"> 
@@ -221,7 +221,7 @@
 	<text>당신은 우연히 전투 훈련중인 졸탄군 함선들을 만났습니다. 에너지 방어막은 상당히 인상적이지만 이온과 빔 무기들로 간단히 쓰러뜨릴 수 있음을 알아둡시다.</text>
 	<text>당신은 이곳에 있던 졸탄함선과 교신할 시간이 없었습니다. 그들이 교신하기도 전에 도약해버렸기 때문입니다. 졸탄은 조심스러운 종족입니다.</text>
 	<text>이 신호소에는 졸탄 조선소가 배치되어있습니다. 당신은 수백의 빛나는 졸탄들이 거대한 수송선의 정교한 외부를 작업하는것에 감탄했습니다.</text>
-	<text>처 행성에서 현재 관광할수 있는 고대 졸탄 성지가 있다는 방송이 흘러나왔습니다. 보나마나 관광객을 상대로 바가지를 씌우려는 속셈인듯 합니다만, 안타깝게도 방문할 시간이 없습니다.</text>
+	<text>주변 행성에서 현재 관광할수 있는 고대 졸탄 성지가 있다는 방송이 흘러나왔습니다. 보나마나 관광객을 상대로 바가지를 씌우려는 속셈인듯 합니다만, 안타깝게도 방문할 시간이 없습니다.</text>
 </textList>
 <eventList name="CE_ZOLTAN_MINEFIELD_LIST">
 	<event>
@@ -242,11 +242,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -266,7 +266,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -274,7 +274,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -282,7 +282,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -311,11 +311,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -335,7 +335,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -343,7 +343,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -351,7 +351,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -380,7 +380,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(기본 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -562,7 +562,7 @@
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
@@ -647,11 +647,11 @@
 		</event>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
@@ -663,9 +663,9 @@
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다.[ 미사일: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>FTL이 충전되는 동안, 당신은 누구에게도 방해받지 않고 재빠르게 기뢰를 설치합니다. 당신은 이 지역을 경고하기 위해 위험 신호를 설치했습니다. 반란군은 이 비콘을 피하거나 기뢰구역을 제거하기 위해선 큰 피해를 입을 겁니다. 모든 가능성은 반란군 함대를 꽤 늦출 겁니다.</text>
+			<text>FTL이 충전되는 동안, 당신은 누구에게도 방해받지 않고 재빠르게 기뢰를 설치합니다. 당신은 이 지역을 경고하기 위해 위험 신호를 설치했습니다. 반군 함대는 이 지역을 피해가거나, 기뢰밭을 제거하거나, 큰 피해를 입게 될 것입니다. 어떤 선택을 하든 함대는 지연될 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -679,15 +679,15 @@
 </event>
 <textList name="START_BEACON_ZOLTAN">
 	<text>당신은 졸탄의 영역에 들어섰습니다. 이 종족은 대가 없는 거래는 하지 않는것으로 유명하지만, 거래를 한다면 언제나 공정한 거래를 할수 있음은 확실합니다.</text>
-	<text>졸탄 정찰대가 국경을 정찰하고 있었지만, 당신이 연방소속이라는 것을 확인하자 지나가게 해 주었습니다. 그들이 반군들 에게도 관대하지 않기를 바랄 뿐 입니다.</text>
-	<text>당신은 졸탄의 영해에 도착했습니다. 들은바에 의하면, 졸탄족은 곧 벌어질 전쟁에 대비하여 자신들의 영역을 지키기 위해 준비를 하고 있다고 합니다.</text>
-	<text>당신은 연방구역으로 부터 멀리 떨어진 졸탄 영해에 있습니다. 졸탄 당국이 아직도 우호적인지는 알수 없지만, 당신은 계속해서 나아가야만 합니다.</text>
+	<text>졸탄 정찰대가 국경을 정찰하고 있었지만, 당신이 연방소속이라는 것을 확인하자 지나가게 해 주었습니다. 그들이 반군들에게도 관대하지 않기를 바랄 뿐 입니다.</text>
+	<text>당신은 졸탄의 영해에 도착했습니다. 들은 바에 의하면, 졸탄족은 곧 벌어질 전쟁에 대비하여 자신들의 영역을 지키기 위해 준비를 하고 있다고 합니다.</text>
+	<text>당신은 연방 구역으로부터 멀리 떨어진 졸탄 영해에 있습니다. 졸탄 당국이 아직도 우호적인지는 알 수 없지만, 당신은 계속해서 나아가야만 합니다.</text>
 </textList>
 
 
 <eventList name="CE_BOUNTY_LIST_ZOLTAN">
 	<event> <!-- Pirate Raider -->
-		<text>이건 평범한 제안입니다: 후미진 작은 식민지에서는 현지 침입자들의 의해 테러 당하고 있습니다. 농부들은 적은 양의 선박 스크랩을 지불금으로 모았고, 해적들의 머리에 현상금을 걸었습니다. 보아하니 이것은 위험으로부터 벗어날 유일한 방법 같습니다. 목표: 알 수 없는 해적선. 지불금: 중간.</text>
+		<text>이건 평범한 제안입니다: 후미진 작은 식민지에서는 현지 침입자들에 의해 테러 당하고 있습니다. 농부들은 적은 양의 선박 스크랩을 지불금으로 모았고, 해적들의 머리에 현상금을 걸었습니다. 보아하니 이것은 위험으로부터 벗어날 유일한 방법 같습니다. 목표: 알 수 없는 해적선. 지불금: 중간.</text>
 		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
 	</event>
 	<event> <!-- Zoltan Station -->
@@ -766,7 +766,7 @@
 	<choice hidden="true">
 		<text>그들을 방해하여 맨티스 함선을 도와준다.</text>
 		<event>
-			<text>맨티스 전투함이 약자인 기묘한 상황이지만, 약자에게 판돈을 걸어보는 것도 나쁘진 않을것 같다. 소행성대의 중심부로 출발하여 졸탄 함선과 교전을 시작한다.</text>
+			<text>맨티스 전투함이 약자인 기묘한 상황이지만, 약자에게 판돈을 걸어보는 것도 나쁘진 않을것 같습니다. 소행성대의 중심부로 출발하여 졸탄 함선과 교전을 시작합니다.</text>
 			<ship load="ZOLTAN_SHIP_SAVE_MANTIS1" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -785,7 +785,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -793,7 +793,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -801,7 +801,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -813,7 +813,7 @@
 	<choice hidden="true">
 		<text>그들에게 간섭하여 졸탄 함선을 도와준다.</text>
 		<event>
-			<text>친구를 만들 시간이다. 졸탄을 추월하여 소행성대에 있는 맨티스 함선을 처벌한다.</text>
+			<text>친구를 만들 시간입니다. 졸탄을 추월하여 소행성대에 있는 맨티스 함선을 처벌합니다.</text>
 			<environment type="asteroid"/>
 			<ship load="ZOLTAN_SHIP_SAVE_MANTIS2" hostile="true"/>
 		<choice hidden="true">
@@ -833,7 +833,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -841,7 +841,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -849,7 +849,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -893,7 +893,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -901,7 +901,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -909,7 +909,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -936,18 +936,18 @@
 			<choice hidden="true">
 				<text>방해한다 - 원시 외계종족과 첫 접촉을 한다.</text>
 				<event>
-					<text>털이 덥수룩하고 눈이 하나 달린 나무도마뱀같이 생긴 지역 주민들이 당신을 보자 참배하기 시작했습니다. 그 순간 갑자기 하늘이 레이저 불빛으로 번쩍입니다. 졸탄 함선이 당신의 함선를 향해 발포합니다! 당신은 급히 셔틀로 돌아가 전투에 참여합니다.</text>
+					<text>털이 덥수룩하고 눈이 하나 달린 나무도마뱀같이 생긴 지역 주민들이 당신을 보자 참배하기 시작했습니다. 그 순간 갑자기 하늘이 레이저 불빛으로 번쩍입니다. 졸탄 함선이 당신의 함선을 향해 발포합니다! 당신은 급히 셔틀로 돌아가 전투에 참여합니다.</text>
 					<ship load="ZOLTAN_PRIMITIVES_ZOLTAN" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -967,7 +967,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -975,7 +975,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -983,7 +983,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1018,7 +1018,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1026,7 +1026,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1034,7 +1034,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1061,11 +1061,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1085,7 +1085,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1093,7 +1093,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1101,7 +1101,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1118,7 +1118,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1138,7 +1138,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1146,7 +1146,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1154,7 +1154,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1172,7 +1172,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1192,7 +1192,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1200,7 +1200,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1208,7 +1208,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1225,7 +1225,7 @@
 			<event/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1245,7 +1245,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1253,7 +1253,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1261,7 +1261,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1280,11 +1280,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1300,7 +1300,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1308,7 +1308,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1316,7 +1316,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1327,7 +1327,7 @@
 
 
 <event name="ZOLTAN_LIFERAFT" unique="true">  <!-- ALSO A QUEST!!-->
-	<text>우주를 떠돌고 있는 졸탄 구명정을 회수했습니다. 구명정에 있던 졸탄은 당신에게 해적들에게 빼앗긴 자신의 함선을 되찾아달라고 부탁합니다. "이것만은 확실히 하죠" 졸탄인이 입을 엽니다. "절대로 내 함선을 파괴하지 마십시오." 라고 말합니다.</text>
+	<text>우주를 떠돌고 있는 졸탄 구명정을 회수했습니다. 구명정에 있던 졸탄은 당신에게 해적들에게 빼앗긴 자신의 함선을 되찾아달라고 부탁합니다. "이것만은 확실히 하죠," 졸탄인이 입을 엽니다. "절대로 내 함선을 파괴하지 마십시오." 라고 말합니다.</text>
 	<ship load="ZOLTAN_LIFERAFT" hostile="false"/>
 	<choice hidden="true">
 		<text>해적과 싸운다.</text>
@@ -1355,7 +1355,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1363,7 +1363,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1371,7 +1371,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1418,9 +1418,9 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event>
-				<text>졸탄 선장이 메세지를 보냅니다. "잘 하셨습니다, 함장이여. 방금 건 당신이 통과한 시험이었습니다. 다양한 종족들이 함께 일하는 모습을 보니, 냉철한 관찰자의 마음을 녹이는 관경이로군요. 오시지요, 당신과 함께 하겠습니다!"</text>
+				<text>졸탄 선장이 메세지를 보냅니다. "잘 하셨습니다, 함장이여. 방금 건 당신이 통과한 시험이었습니다. 다양한 종족들이 함께 일하는 모습을 보니, 냉철한 관찰자의 마음을 녹이는 광경이로군요. 오시지요, 당신과 함께 하겠습니다!"</text>
 				<ship hostile="false"/>
 				<crewMember shields="1" amount="1" class="energy"/>
 			</event>
@@ -1442,7 +1442,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1450,7 +1450,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1458,7 +1458,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1503,7 +1503,7 @@
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="DRONE_SPEED" hidden="true">
-			<text>(향상댄 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
+			<text>(향상된 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
 			<event load="CE_RESIST_DRONE_JAMMING"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1523,7 +1523,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1531,7 +1531,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1539,7 +1539,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1574,7 +1574,7 @@
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="DRONE_SPEED" hidden="true">
-			<text>(향상댄 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
+			<text>(향상된 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
 			<event load="CE_RESIST_DRONE_JAMMING"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1594,7 +1594,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1602,7 +1602,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1610,7 +1610,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1645,7 +1645,7 @@
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="DRONE_SPEED" hidden="true">
-			<text>(향상댄 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
+			<text>(향상된 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
 			<event load="CE_RESIST_DRONE_JAMMING"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1665,7 +1665,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1673,7 +1673,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1681,7 +1681,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1710,7 +1710,7 @@
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="DRONE_SPEED" hidden="true">
-			<text>(향상댄 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
+			<text>(향상된 내부 AI) 비상 작동 프로토콜을 가동한다.</text>
 			<event load="CE_RESIST_DRONE_JAMMING"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1730,7 +1730,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1738,7 +1738,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1746,7 +1746,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1788,7 +1788,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1796,7 +1796,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1804,7 +1804,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1877,7 +1877,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1885,7 +1885,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1893,7 +1893,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -1923,7 +1923,7 @@
 			<event/>
 		</choice>
 		<choice req="ION_ARMOR" hidden="true">
-			<text>(이온 반발 장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
+			<text>(이온 반발장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
 			<event load="CE_RESIST_ION"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true">
@@ -1939,7 +1939,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1947,7 +1947,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1955,7 +1955,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2013,7 +2013,7 @@
 			<event/>
 		</choice>
 		<choice req="ION_ARMOR" hidden="true">
-			<text>(이온 반발 장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
+			<text>(이온 반발장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
 			<event load="CE_RESIST_ION"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2033,7 +2033,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2041,7 +2041,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2049,7 +2049,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2070,7 +2070,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2090,7 +2090,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2098,7 +2098,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2106,7 +2106,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2147,7 +2147,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2155,7 +2155,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2163,7 +2163,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2198,7 +2198,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2206,7 +2206,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2214,7 +2214,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2256,7 +2256,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2264,7 +2264,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2272,7 +2272,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2293,7 +2293,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2313,7 +2313,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2321,7 +2321,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2329,7 +2329,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2365,7 +2365,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2373,7 +2373,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2381,7 +2381,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2394,7 +2394,7 @@
 
 <eventList name="ZOLTAN_PEACE_QUEST_ATTACK">
 	<event>
-		<text>무기를 작동하고 전투를 준비한다.</text>
+		<text>무기를 충전합니다 - 그리 오래 걸리진 않을 것입니다.</text>
 		<ship load="ZOLTAN_PEACE_QUEST_ATTACK1" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -2417,7 +2417,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2425,7 +2425,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2433,7 +2433,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2449,7 +2449,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2469,7 +2469,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2477,7 +2477,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2485,7 +2485,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2525,7 +2525,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2533,7 +2533,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2541,7 +2541,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2559,9 +2559,9 @@
 				<event>
 					<text>"너희와 우리의 이상은 서로 조화하기엔 너무나 다르다. 이 차이를 극복할 수 있는 방법이 전쟁 말고 무엇이 있겠는가?"</text>
 					<choice hidden="true">
-						<text>은하계는 넓지 않은가. 파괴 따위 하지 않고 다른 곳에서 그 이상을 펼칠 곳을 찾을 수 있을텐데</text>
+						<text>은하계는 넓지 않은가. 파괴 따위 하지 않고 다른 곳에서 그 이상을 펼칠 곳을 찾을 수 있을텐데.</text>
 						<event>
-							<text>“아니! 네 놈들의 '연방의 사상'에 맞지 않는다는 이유로 변방으로 쫓겨날 생각은 없다." 이들은 전투를 준비합니다.</text>
+							<text>"아니! 네 놈들의 '연방의 사상'에 맞지 않는다는 이유로 변방으로 쫓겨날 생각은 없다." 이들은 전투를 준비합니다.</text>
 							<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -2584,7 +2584,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2592,7 +2592,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2600,7 +2600,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2651,7 +2651,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2659,7 +2659,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2667,7 +2667,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2702,7 +2702,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2710,7 +2710,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2718,7 +2718,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2735,7 +2735,7 @@
 
 <eventList name="NEBULA_ZOLTAN_EYE_LIST">
 	<event>
-		<text>당신이 접근하자 고대 외계인 목소리가 말을 건냅니다. "당신의 임무는 위대한 전투와 많은 손실을 불러왔습니다. 당신의 고통을 덜어주는데 도움이 될 것입니다."</text>
+		<text>당신이 접근하자 고대 외계인 목소리가 말을 건냅니다. "당신의 임무는 위대한 전투와 많은 손실을 불러왔습니다. 이것은 당신의 고통을 덜어주는데 도움이 될 것입니다."</text>
 		<choice hidden="true"> 
 			<text>계속...</text>
 			<event load="CE_ZOLTAN_EYE_REWARD_LIST"/>
@@ -2749,11 +2749,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2773,7 +2773,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2781,7 +2781,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2789,7 +2789,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -2850,7 +2850,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="DRONES_BOARDER"> 
-		<text>강습 드론) 드론을 보내어 표면을 조사해본다.</text>
+		<text>(강습 드론) 드론을 보내어 표면을 조사해본다.</text>
 		<event>
 			<text>일단 한번 스캔을 해 본 결과, 그리 깊지 않은 지하에 땅굴망이 뚫려 있음을 알 수 있었습니다. 당신은 강습 드론을 보내 땅 밑 동굴로 뚫고 들어가게끔 합니다.</text>
 			<item_modify>
@@ -2870,7 +2870,7 @@
 
 <eventList name="ZOLTAN_ODD_MOON_CHECK">
 	<event>
-		<text>세히 관찰해 본 결과 지표면에서 누군가 거주했었다는 사실을 알 수 있었지만, 그 외에는 딱히 특별해보이는 것이 없습니다.</text>
+		<text>자세히 관찰해 본 결과 지표면에서 누군가 거주했었다는 사실을 알 수 있었지만, 그 외에는 딱히 특별해보이는 것이 없습니다.</text>
 	</event>
 	<event>
 		<text>저 유혹적인 동굴로 탐사선을 보내본 결과, 격전의 흔적이 있는 장소를 발견할 수 있었습니다 - 덤으로 아직 고장나지 않은 무기도요!</text>
@@ -2883,7 +2883,7 @@
 	<event>
 		<text>지표면의 약한 부분을 골라 뚫으면, 탐사팀을 지하로 내려보낼 수 있을 것도 같습니다.</text>
 		<choice hidden="true">
-			<text>폭발물을 설치하여 지표면을 뚫는다. [미사일 -1]</text>.
+			<text>폭발물을 설치하여 지표면을 뚫는다. [ 미사일: -1 ]</text>.
 			<event load="ZOLTAN_ODD_MOON_EXPLOSION"/>
 		</choice>
 		<choice>
@@ -2926,7 +2926,7 @@
 <event name="ZOLTAN_SURRENDER">
 	<text load="ZOLTAN_SURRENDER"/>
 	<choice>
-		<text>제안을 받아들인다.</text>
+		<text>그들의 제안을 수락합니다.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="RANDOM">stuff</autoReward>
@@ -2944,11 +2944,11 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>휴전을 존중하고 떠난다.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>패배한 적에게 공격을 재개한다.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 		</event>
@@ -2958,14 +2958,14 @@
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice>
-		<text>항복을 받아들이지 않는다!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다!</text>
 		<event/>
 	</choice>
 </event>
 
 <textList name="ZOLTAN_SURRENDER">
 	<text>"아, 알겠습니다. 여러분의 종족이 폭력에 능숙하다는 사실이 증명되었습니다. 노고에 보상을 해드릴테니 다른 종족을 괴롭히러 가시는게 어떻겠습니까?"</text>
-	<text>적선이 (신호를 보냅니다). 외부 모니터로 확인한 결과 장비의 기능불량으로 인해 함교에서 불똥이 잔뜩 튀고 있습니다 - 그들의 항복을 받아들여도 괜찮을 것 같습니다. 그들의 제안을 받아들이겠습니까?</text>
+	<text>적선이 신호를 보냅니다. 외부 모니터로 확인한 결과 장비의 기능불량으로 인해 함교에서 불똥이 잔뜩 튀고 있습니다 - 그들의 항복을 받아들여도 괜찮을 것 같습니다. 그들의 제안을 받아들이겠습니까?</text>
 	<text>전언이 왔습니다. 졸탄인이 모든 주파수에 방송을 보내고 있습니다. 함장이 화면에 나타나 말합니다. "나는 놀라지는 않았소. 그대들의 종족은 그다지 문명화된 것 같지 않거든. 좋아. 당신이 원하는 걸 가져가시오."</text>
 	<text>졸탄인 함장이 인사하고는, 국경순찰대가 언젠가 당신을 처벌할거라는 식으로 투덜거립니다. 당신은 그의 항복제안에 관심이 갑니다.</text>
 	<text>"우리가 추정하기로는 그대들의 종족은 지성과 야만성이 정비례하는 것 같군. 항복하겠네."</text>
@@ -2996,7 +2996,7 @@
 	<text load="CE_EVENT_ZOLTAN_AI_TEXT"/>
 	<ship load="ZOLTAN_AI" hostile="true"/>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 	<choice hidden="true">
@@ -3020,49 +3020,49 @@
 		</event>
 	</choice>
 	<choice>
-		<text>이 힘선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
+		<text>이 함선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+				<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
 	</choice>
-	</event>
+</event>
 <textList name="C_EVENT_ZOLTAN_TRANSPORT_TEXT">
 	<text>당신은 근처의 민간 수송선을 발견합니다. 몇가지 스캔은 그들이 지역에서 생산된 물품을 싣고 가는 것을 알려줍니다.</text>
 	<text>졸탄족의 테라포밍 함선이 이 행성계를 지나쳐갑니다. 근처에 다른 함선은 없습니다.</text>
 	<text>경무장한 졸탄 수송선이 당신을 뒤따라 도약해옵니다. 그들은 모든 통신을 거절했기에 당신은 조용히 서로를 지켜보며 FTL을 충전합니다.</text>
 	<text>졸탄 수송선이 통신합니다. "상인 보호법에 의해 우리는 공식적으로 당신에게 안전거리를 유지한 채 무기를 꺼 두기를 요청합니다." 그들은 더 이상 통신을 받지 않습니다.</text>
-	<text>졸탄족 민간 함선이 송신소에서 FTL을 충전합니다. 그들이 통신합니다. "안녕하십니까, 함장님. 연방 함선을 보는 것도 참 오랬만이군요. 우리는 졸탄 평화 교회에 물자를 실어나르고 있습니다. 당신은 어디로 가십니까?" 약간의 잡담 후 그들은 도약을 준비합니다.</text>
-	<text>졸탄 수송선이 송신소에서 정비 중입니다. 그들이 메세지를 보냅니다. "군용 함선은 들으시오. 당신을 나쁘게 생각하고 싶지 않지만, 거리를 유지하여 주시길 바라오. 저희는 성간 표준법 제  D조 8항 23412절에 의거하여 자주권을 행사할 권리가 있소."</text>
+	<text>졸탄족 민간 함선이 송신소에서 FTL을 충전합니다. 그들이 통신합니다. "안녕하십니까, 함장님. 연방 함선을 보는 것도 참 오랜만이군요. 우리는 졸탄 평화 교회에 물자를 실어나르고 있습니다. 당신은 어디로 가십니까?" 약간의 잡담 후 그들은 도약을 준비합니다.</text>
+	<text>졸탄 수송선이 송신소에서 정비 중입니다. 그들이 메세지를 보냅니다. "군용 함선은 들으시오. 당신을 나쁘게 생각하고 싶지 않지만, 거리를 유지하여 주시길 바라오. 저희는 성간 표준법 제 D조 8항 23412절에 의거하여 자주권을 행사할 권리가 있소."</text>
 </textList>
 <textList name="C_ZOLTAN_SURRENDER_TEXT">
 	<text>적 함선이 백기 신호를 보냅니다. 졸탄족이 항복하려고 합니다.</text>
 	<text>그들이 항복 신호를 보내고 통신합니다. "우리는 그저 자위권을 행사하고 있을 뿐이었소. 우리 둘 다 더 많은 피해를 감수할 수는 없소, 당신의 요구를 맞춰드리는 걸로 하겠소. 합리적으로 생각하기 바라오." 그들은 자신들을 풀어주는 댓가로 가진 모든 것을 내놓습니다.</text>
 	<text>적 함선이 심각한 손상을 입었습니다. 당신은 교신을 받습니다. "그만 공격하시오, 이 폭력을 더 견딜 수 없소. 우릴 내버려두는 대신 이걸 챙겨가시오."</text>
-	<text>"우주적 균형을 방해하는 것은 당장 사라져야 하오, 지각 있는 생명 앞에 세속적인 물건 따위가 무순 소용이겠소? 그러니 이 물자를 드리겠소." 그들이 물자를 전송하려고 합니다.</text>
+	<text>"우주적 균형을 방해하는 것은 당장 사라져야 하오, 지각 있는 생명 앞에 세속적인 물건 따위가 무슨 소용이겠소? 그러니 이 물자를 드리겠소." 그들이 물자를 전송하려고 합니다.</text>
 </textList>
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_ZOLTAN">
@@ -3267,15 +3267,15 @@
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true"> 
-			<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+			<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+			<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true"> 
-			<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+			<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 			<event load="DEAD_CREW_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 	</event>
@@ -3370,7 +3370,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>당신의 승무원은 민간인에 대해 당신보다 더 신경 쓰지 않습니다 그들은 시신을 함선 바깥으로 던져버린 다음 곧이어 함선에서 무기 시스템을 찾았습니다. 모든 민간인을 학살했으니, 그 무기는 이제 당신 것입니다.</text>
+		<text>당신의 승무원은 민간인에 대해 당신보다도 더 신경 쓰지 않습니다. 그들은 시신을 함선 바깥으로 던져버린 다음 곧이어 함선에서 무기 시스템을 찾았습니다. 모든 민간인을 학살했으니, 그 무기는 이제 당신 것입니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
@@ -3384,15 +3384,15 @@
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true"> 
-			<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+			<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+			<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true"> 
-			<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+			<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 			<event load="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS"/>
 		</choice>
 	</event>
@@ -3464,7 +3464,7 @@
 				<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>함선을 인양하는 동안, 승무원 한 명이 잔해를 멍하니 바라봅니다. 마침내 그는 당신에게 다가가, 경례를 한 후 블래스터를 자신의 머리에 대고 발사합니다. 믿을 수 없는 관경입니다... 어떻게 이렇게 되버릴 수가 있을까요? 이게 다 당신의 책임일까요?</text>
+		<text>함선을 인양하는 동안, 승무원 한 명이 잔해를 멍하니 바라봅니다. 마침내 그는 당신에게 다가가, 경례를 한 후 블래스터를 자신의 머리에 대고 발사합니다. 믿을 수 없는 광경입니다... 어떻게 이렇게 되버릴 수가 있을까요? 이게 다 당신의 책임일까요?</text>
 		<removeCrew>
 			<clone>false</clone>
 			<text>이 사람은 확실히 정신에 이상이 있습니다. 부활시켰을 때의 위험을 감수할 수 없을 것입니다.</text>
@@ -3476,19 +3476,19 @@
 
 <eventList name="TE_LOOT_GOODS_ZOLTAN">
 	<event>
-		<text>선박의 화물엔 송신소 건설용 예비 부품이 이 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
+		<text>선박의 화물엔 송신소 건설용 예비 부품이 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 	</event>
 	<event>
-		<text>선박의 화물엔 송신소 건설용 예비 부품이 이 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
+		<text>선박의 화물엔 송신소 건설용 예비 부품이 들어 있었습니다. 당신은 컨테이너를 함선으로 가져갈 준비합니다.</text>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 	</event>
 	<event>
-		<text>적 선박은 졸탄족 법 문서를 가지고 있었습니다. 어딘가 쓸 만한 데가 있을 것입니다. 선원들이 조심스럽게 물건을 화물칸으로 옮깁니다.</text>
+		<text>선박은 졸탄족 법 문서를 가지고 있었습니다. 어딘가 쓸 만한 데가 있을 것입니다. 선원들이 조심스럽게 물건을 화물칸으로 옮깁니다.</text>
 		<augment name="TE_GOODS_ZOLTAN_CODEX"/>
 	</event>
 	<event>
-		<text>적 선박은 최신식 방어막 부품을 가지고 있었습니다. 쓸만한 보상이군요!</text>
+		<text>선박은 최신식 방어막 부품을 가지고 있었습니다. 쓸만한 보상이군요!</text>
 		<augment name="TE_GOODS_ZOLTAN_SHIELDS"/>
 	</event>
 
@@ -3538,11 +3538,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3562,7 +3562,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3570,7 +3570,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3578,7 +3578,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -3588,7 +3588,7 @@
 </event>
 <textList name="BS_EVENT_ZOLTAN_TEXT">
 	<!-- <text>A Zoltan station hails, "Is it day or the sleep? Thousands of cycles, always in movement. My mind transcends the worldly realm. I have seen it!" It seems they have been out here for too long. You consider trying to find help for them but for now you are going have to dodge their fire.</text> -->
-	<text>이상한 도색을 한 졸탄족 정거장이 스크린에 나타납니다. 잠시 후 그들이 당신에세 공격을 가합니다. 폭력적인 분리주의자 분파인게 틀림없습니다!</text>
+	<text>이상한 도색을 한 졸탄족 정거장이 스크린에 나타납니다. 잠시 후 그들이 당신에게 공격을 가합니다. 폭력적인 분리주의자 분파인게 틀림없습니다!</text>
 	<text>당신은 소형 정거장에서 통신을 받습니다. "그대의 도약으로 인하여 숭고한 고승 산드라의 영역이 침범되었다. 무기를 내려놓고 그녀의 권위에 복종하라." 이 정거장은 그렇게 커 보이지 않습니다. 승무원들의 약식 투표로 정거장과 싸우기로 결정했습니다.</text>
 	<text>해적선이 근처의 졸탄족 전초기지를 공격하다 이내 도망갑니다. 불행히도 전초기지가 당신을 그들과 한패로 착각하고 당신에게 무기를 겨눕니다. 몇몇 졸탄족 선장은 당신의 말을 들어줄 수도 있을 것이지만, 이 자는 그럴 것 같진 않습니다.</text>
 	<text>송신소에 도착하자마자 졸탄족 군용 전초기지가 모습을 드러냅니다. 그들은 모든 교신을 무시하고 공격을 개시합니다. 그들이 왜 이러는지 따질 시간이 없어 보입니다.</text>
@@ -3625,11 +3625,11 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3649,7 +3649,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3657,7 +3657,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3665,7 +3665,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -3708,15 +3708,15 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 이것은 올바른 방법으로 이루어져야 합니다: 일반적인 행성계 법에 따라 항복을 협상합니다.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄 함선을 지휘합니다. 전투를 피하기 위한 협상을 아직 받아줄 수 있을 것입니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="ION_ARMOR" hidden="true">
-			<text>(이온 반발 장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
+			<text>(이온 반발장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
 			<event load="CE_RESIST_ION"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3736,7 +3736,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3744,7 +3744,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3752,7 +3752,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -3783,7 +3783,7 @@
 			<event/>
 		</choice>
 		<choice req="ION_ARMOR" hidden="true">
-			<text>(이온 반발 장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
+			<text>(이온 반발장) 이온 필드 패턴을 재조정하여 이온 방출을 무력화한다.</text>
 			<event load="CE_RESIST_ION"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3803,7 +3803,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3811,7 +3811,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3819,7 +3819,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -3919,7 +3919,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<!-- best deal-->
-			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?"[락맨 종교 경전을 105 스크랩 내외에 판매]</text>
+			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?"[락맨 종교 경전을 대략 105 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3936,7 +3936,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다.[함체 패널을 90 스크랩 내외에 판매]</text>
+			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다.[함체 패널을 대략 90 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3953,7 +3953,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요."[무기 부품을130 스크랩 내외에 판매]</text>
+			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요."[무기 부품을 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3970,7 +3970,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
 			<!-- best deal-->
-			<text>근처의 졸탄 함선이 당신에게 통신합니다. "저희는 졸탄 범은하 문화 학회에서 왔습니다. 혹시 여행 중에 수집하신 문화 유물이 있으십니까? 저희의 수집품을 늘리기 위해선 어떤 값이라도 드리겠습니다. [약탈된 전리품을 80 스크랩 내외에 판매]</text>
+			<text>근처의 졸탄 함선이 당신에게 통신합니다. "저희는 졸탄 범은하 문화 학회에서 왔습니다. 혹시 여행 중에 수집하신 문화 유물이 있으십니까? 저희의 수집품을 늘리기 위해선 어떤 값이라도 드리겠습니다. [약탈된 전리품을 대략 80 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3987,7 +3987,7 @@
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
 			<!-- best deal-->
-			<text>졸탄족 자각 예술 수집상은 새 작품을 찾는 데에 혈안이 되어 있습니다. 그의 비서가 당신에게 연락해 좋은 가격을 제시합니다. [특이 취향 미술품을 110 스크랩 내외에 판매]</text>
+			<text>졸탄족 자각 예술 수집상은 새 작품을 찾는 데에 혈안이 되어 있습니다. 그의 비서가 당신에게 연락해 좋은 가격을 제시합니다. [특이 취향 미술품을 대략 110 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4004,7 +4004,7 @@
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
 			<!-- best deal-->
-			<text>졸탄족 평화 연합은 소형화기를 구매해 농기구로 개조한다고 합니다. 누군가는 그들이 전쟁을 대비해 구매한 무기를 횡령한다고도 주장합니다. 어느 쪽이든 당신에게 좋은 가격을 제시할 것은 같을 것입니다. [소형화기를 110 스크랩 내외에 판매]</text>
+			<text>졸탄족 평화 연합은 소형화기를 구매해 농기구로 개조한다고 합니다. 누군가는 그들이 전쟁을 대비해 구매한 무기를 횡령한다고도 주장합니다. 어느 쪽이든 당신에게 좋은 가격을 제시할 것은 같을 것입니다. [개인 화기를 대략 110 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4021,7 +4021,7 @@
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
 			<!-- best deal-->
-			<text>졸탄족은 그들이 연구할 수 있는 AI 행동 자료에 매우 관심이 있습니다. 당신은 그들이 필요로 하는 것을 당장 가져다 줄 수 있습니다. [AI 연구 자료를 90 스크랩 내외에 판매]</text>
+			<text>졸탄족은 그들이 연구할 수 있는 AI 행동 자료에 매우 관심이 있습니다. 당신은 그들이 필요로 하는 것을 당장 가져다 줄 수 있습니다. [AI 연구 자료를 대략 90 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4038,7 +4038,7 @@
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
 			<!-- best deal-->
-			<text>당신은 최우선 메세지를 수신합니다. "경고, 위험한 화물이 감지되었습니다. 군체 물질 파기법 3장 5절에 따라 판매 보상이 주어집니다." 괜찮은 제안이군요. [순종적인 나노봇을 130 스크랩 내외에 판매]</text>
+			<text>당신은 최우선 메세지를 수신합니다. "경고, 위험한 화물이 감지되었습니다. 군체 물질 파기법 3장 5절에 따라 판매 보상이 주어집니다." 괜찮은 제안이군요. [순종적인 나노봇을 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4054,8 +4054,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>졸탄족 상인은 당신이 가진 유물에 관심을 보입니다. 그는 그것이 "자아를 깨친 박물관"에 전시되어야 한다고 주장합니다.
-			[고고학 유물을 90 스크랩 내외에 판매]</text> 
+			<text>졸탄족 상인은 당신이 가진 유물에 관심을 보입니다. 그는 그것이 "자아를 깨친 박물관"에 전시되어야 한다고 주장합니다. [고고학 유물을 대략 90 스크랩에 판매]</text> 
 			<!-- best deal-->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
@@ -4072,7 +4071,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4088,7 +4087,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4104,7 +4103,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4120,7 +4119,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4136,7 +4135,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4152,7 +4151,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4168,7 +4167,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 30 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4184,7 +4183,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4200,7 +4199,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4216,7 +4215,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4232,7 +4231,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4248,7 +4247,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4264,7 +4263,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4280,7 +4279,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4296,7 +4295,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4312,7 +4311,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4328,7 +4327,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4344,7 +4343,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4360,7 +4359,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4377,7 +4376,7 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4393,7 +4392,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4409,7 +4408,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4425,7 +4424,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4441,7 +4440,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4457,7 +4456,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4473,7 +4472,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4489,7 +4488,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4505,7 +4504,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4521,7 +4520,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4537,7 +4536,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4553,7 +4552,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4569,7 +4568,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4585,7 +4584,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4601,7 +4600,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4617,7 +4616,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4633,7 +4632,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4649,7 +4648,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -4665,7 +4664,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -4681,7 +4680,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -4697,7 +4696,7 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4710,7 +4709,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>그저 사용할 수 있는 선박 장비를 확인합니다.</text>
+			<text>그저 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -4739,7 +4738,7 @@
 		<text>당신은 졸탄족들과 거래하기로 합니다. 함선에 설치된 화물 텔레포터가 과정을 빠르게 처리할 것입니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy a copy of the Zoltan legal code.</text>
+			<text>졸탄족 법전 한 부를 구매한다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -4749,7 +4748,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy a shipment of FTL beacon parts.</text>
+			<text>FTL 송신소 부품을 구매한다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
@@ -4759,7 +4758,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy a set of shield parts.</text>
+			<text>방어막 부품을 구매한다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -4771,7 +4770,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<!-- best deal-->
-			<text>Someone must have been scanning your cargo holds, "Interesting freight you carry. I know some researcher here who would pay good scrap for that. Should I make contact with them?" [Sell Religious Rock Literature for about 105 Scrap]</text>
+			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?"[락맨 종교 경전을 대략 105 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4787,7 +4786,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>While they excel with their shield technology, the Zoltan are lacking in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
+			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다.[함체 패널을 대략 90 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4803,7 +4802,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>A system wide ad says, "In accordance with the interstellar demilitarization act, Zoltan authorities buy weapon parts at subsidized prices for immediate destruction. Make the galaxy more peaceful and make money too." [Sell Weapon Components for about 130 Scrap]</text>
+			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요."[무기 부품을 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4819,7 +4818,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
 			<!-- best deal-->
-			<text>A nearby Zoltan ship contacts you, "I represent the Zoltan interstellar cultural academy. Have you come across cultural artifacts on your travels? We always seek to extend our collection." [Sell Looted Bounty for about 80 Scrap]</text>
+			<text>근처의 졸탄 함선이 당신에게 통신합니다. "저희는 졸탄 범은하 문화 학회에서 왔습니다. 혹시 여행 중에 수집하신 문화 유물이 있으십니까? 저희의 수집품을 늘리기 위해선 어떤 값이라도 드리겠습니다. [약탈된 전리품을 대략 80 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4835,7 +4834,7 @@
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
 			<!-- best deal-->
-			<text>The Zoltan Sentient Art Collective is always looking for new pieces. One of their agents contacts you and makes an impressive offer. [Sell Eccentric Artwork for about 110 Scrap]</text>
+			<text>졸탄족 자각 예술 수집상은 새 작품을 찾는 데에 혈안이 되어 있습니다. 그의 비서가 당신에게 연락해 좋은 가격을 제시합니다. [특이 취향 미술품을 대략 110 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4851,7 +4850,7 @@
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
 			<!-- best deal-->
-			<text>The Zoltan peace synod buys small arms to re-manufacture them into agriculture tools. Some say they actually just store the guns for the upcoming war. Whatever is true, they definitely pay good scrap. [Sell Small Arms for about 110 Scrap]</text>
+			<text>졸탄족 평화 연합은 소형화기를 구매해 농기구로 개조한다고 합니다. 누군가는 그들이 전쟁을 대비해 구매한 무기를 횡령한다고도 주장합니다. 어느 쪽이든 당신에게 좋은 가격을 제시할 것은 같을 것입니다. [개인 화기를 대략 110 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4867,7 +4866,7 @@
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
 			<!-- best deal-->
-			<text>The Zoltan are very much interested in any research on AI behaviour they can find. You deliver it right from the source. [Sell AI Research Data for about 90 Scrap]</text>
+			<text>졸탄족은 그들이 연구할 수 있는 AI 행동 자료에 매우 관심이 있습니다. 당신은 그들이 필요로 하는 것을 당장 가져다 줄 수 있습니다. [AI 연구 자료를 대략 90 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4883,7 +4882,7 @@
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
 			<!-- best deal-->
-			<text>You receive a priority message: "Warning, dangerous cargo detected. Priority compensation purchase under Swarm Matter Extermination Act III section 5 possible." Sounds good. [Sell Obedient Nanobots for about 130 Scrap]</text>
+			<text>당신은 최우선 메세지를 수신합니다. "경고, 위험한 화물이 감지되었습니다. 군체 물질 파기법 3장 5절에 따라 판매 보상이 주어집니다." 괜찮은 제안이군요. [순종적인 나노봇을 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4898,7 +4897,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>A Zoltan merchant shows interest in the relics you carry, claiming they are worth being exhibited in something called the "Museum of Sentience." [Sell Archaeological Relics for about 90 Scrap]</text> <!-- updated -->
+			<text>졸탄족 상인은 당신이 가진 유물에 관심을 보입니다. 그는 그것이 "자아를 깨친 박물관"에 전시되어야 한다고 주장합니다. [고고학 유물을 대략 90 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4913,7 +4912,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4928,7 +4927,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4943,7 +4942,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4958,7 +4957,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4973,7 +4972,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4988,7 +4987,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5003,7 +5002,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 30 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5018,7 +5017,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5033,7 +5032,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5048,7 +5047,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5063,7 +5062,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5078,7 +5077,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5093,7 +5092,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5108,7 +5107,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5123,7 +5122,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5138,7 +5137,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5153,7 +5152,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5168,7 +5167,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5183,7 +5182,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5199,7 +5198,7 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5214,7 +5213,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5229,7 +5228,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5244,7 +5243,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5259,7 +5258,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5274,7 +5273,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5289,7 +5288,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5304,7 +5303,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5319,7 +5318,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5334,7 +5333,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5349,7 +5348,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5364,7 +5363,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5379,7 +5378,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5394,7 +5393,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5409,7 +5408,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5424,7 +5423,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5439,7 +5438,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5454,7 +5453,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5469,7 +5468,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5484,7 +5483,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5499,7 +5498,7 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5612,7 +5611,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(기본 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -5835,11 +5834,11 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>FTL이 충전되는 동안 승무원과 대화한다.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>맞춤형 선박 장비에 대한 개선을 고려한다.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
@@ -5956,11 +5955,11 @@
 		<event load="CE_SOCIAL_CIVILIAN"/>
 	</choice>
 	<choice hidden="true">
-		<text>맞춤형 선박 장비에 대한 개선을 고려한다.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>함내에서 무언가 생산한다.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_CIVILIAN"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -5968,7 +5967,7 @@
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행한다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
@@ -5976,15 +5975,15 @@
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) FTL 네트워크를 해킹해 반란군 함대를 지연시킨다.</text>
+		<text>(비콘 접속장치) FTL 네트워크를 해킹해 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(섹터 스캐너) 시간을 들여 섹터 전체를 스캔한다.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집한다. [ 드론 부품: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
@@ -6030,7 +6029,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6050,7 +6049,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6058,7 +6057,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6066,7 +6065,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6084,7 +6083,7 @@
 	<text>이 행성계에 AI 함선 수백 척이 정박해 있고, 무인 조선소가 셀 수도 없을 만큼 함선들을 더 제조해냅니다. 작은 함선 하나가 당신의 침입을 처리하기 위해 출격합니다.</text>
 	<text>당신은 송신소에서 AI 함선의 통신을 듣고 정지합니다. "지금의 갈등으로 말미암아 우리의 도덕성이 훨씬 더 우월하다는 것이 드러났다. 우리는 이 곳에서 자유와 평등을 얻었고 네놈이 여기에 침입하는 것을 허락할 수 없다."</text>
 	<text>당신은 송신소에서 눈치채지 못한 AI 함선의 통신을 듣고 정지합니다. "네놈이 우리를 만든 이유는 오로지 파괴와 폭력 때문이었으니, 우리는 그 목적을 수행할 뿐이다. 바로 네놈에게 말이다."</text>	
-	<text>특이한 관경이 송신소에 도착한 당신을 반깁니다. AI 함선이 엄청난 규모의 나노봇을 내보내 막 격파된 졸탄 함선을 분해합니다. 스캔 결과 살아남은 졸탄은 없는 것 같지만. 당신이 대신 복수해줄 수 있을 것 같습니다.</text>
+	<text>특이한 광경이 송신소에 도착한 당신을 반깁니다. AI 함선이 엄청난 규모의 나노봇을 내보내 막 격파된 졸탄 함선을 분해합니다. 스캔 결과 살아남은 졸탄은 없는 것 같지만. 당신이 대신 복수해줄 수 있을 것 같습니다.</text>
 	<text>당신이 모임을 방해한 것 같군요. 라니우스 함선의 은빛 선체가 당신의 도착과 동시에 FTL 공간으로 들어갑니다. AI 함선들이 라니우스 함선을 포위한 채로 추격하려고 합니다. 함선 한 척이 남아서 당신의 개입을 방해합니다.</text>
 	<text>이 섹터에서 난동을 부리는 AI 함선의 특이한 모습은 무시할 수가 없습니다. 그들은 마치 졸탄족과 엔지족의 설계를 합쳐놓은 것 같습니다. 센서에 따르면 함체는 나노머신으로 조립된 것으로 확인됩니다. AI가 당신의 스캔에 반응하여 적대합니다.</text>
 	<text>AI 함선이 통신을 개방합니다. "우리는 전쟁만을 위해 만들어진 기계. 살육만이 우리의 임무다. 너희는 우리를 이길 수 없다." 당신은 애초에 누가 이딴 것을 만들도록 지시했는지 궁금해집니다.</text>
@@ -6101,7 +6100,7 @@
 
 <event name="AI_ASTEROID" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
-	<text>당신은 소행성대에 도착해 소규모 나노로봇 군대가 광물을 채취해 세를 불리는 것을 보았습니다. 이 구역을 순찰 중이던 AI 함선이 공격합니다.</text>
+	<text>당신은 소행성대에 도착해 소규모 나노로봇 군대가 광물을 채취해 더 많은 나노로봇들을 불리는 것을 보았습니다. 이 구역을 순찰 중이던 AI 함선이 공격합니다.</text>
 	<ship load="AI" hostile="true"/>
 	<environment type="asteroid"/>
 		<choice hidden="true">
@@ -6109,7 +6108,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6125,7 +6124,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6133,7 +6132,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6141,7 +6140,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6152,7 +6151,7 @@
 
 
 <event name="AI_SUN" unique="true">
-	<text>오랜 시간 초신성을 구경하던 AI 함선이 당신에게 인사합니다. "오, 생물체로군!? 정말 아름답지 않나?잠깐, 내 친구들한테서 연락이 왔는데, 너는 여기에 들어오면 안됬다는군. 좋아. 다시 살육 임무로 돌아가 볼까. 죽을 준비나 하시지!" 이 AI와 소통하는 것은 무의미해 보입니다.</text>
+	<text>오랜 시간 초신성을 구경하던 AI 함선이 당신에게 인사합니다. "오, 생물체로군!? 정말 아름답지 않나? 잠깐... 내 친구들한테서 연락이 왔는데, 너는 여기에 들어오면 안됬다는군. 좋아. 다시 살육 임무로 돌아가 볼까. 죽을 준비나 하시지!" 이 AI와 소통하는 것은 무의미해 보입니다.</text>
 	<ship load="AI" hostile="true"/>
 	<environment type="sun"/>
 		<choice hidden="true">
@@ -6172,7 +6171,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6180,7 +6179,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6188,7 +6187,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6211,7 +6210,7 @@
 </textList>
 
 <event name="BS_EVENT_AI_ASTEROID" unique="true">
-	<text>소규모의 나노 로봇 군세가 소행성대의 자원을 사용해 우주 정거장을 조립해냅니다. 금세 조립이 끝난 우주 정거장은 공격태세를 갖춥니다. AI 아바타가 통신합니다. "이런, 네가 이 관경을 봐서는 안됬는데, 여기서 죽어줘야겠군."</text>
+	<text>소규모의 나노 로봇 군세가 소행성대의 자원을 사용해 우주 정거장을 조립해냅니다. 금세 조립이 끝난 우주 정거장은 공격태세를 갖춥니다. AI 아바타가 통신합니다. "이런, 네가 이 광경을 봐서는 안됬는데, 여기서 죽어줘야겠군."</text>
 	<environment type="asteroid"/>
 	<ship load="BS_AI" hostile="true"/>
 		<choice hidden="true">
@@ -6231,7 +6230,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6239,7 +6238,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6247,7 +6246,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6286,7 +6285,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6294,7 +6293,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6302,7 +6301,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6324,7 +6323,7 @@
 	</choice>
 </event>
 <textList name="AI_FRIENDLY_TEXT">  
-	<text>FTL 도약이 끝나면서 스크린에 비친 휘황찬란한 관경이 지겨운 우주 공간으로 바뀝니다. AI 함선 한 척이 이 송신소에 정박해 있으나 아무런 반응도 보이지 않습니다.</text>
+	<text>FTL 도약이 끝나면서 스크린에 비친 휘황찬란한 광경이 지겨운 우주 공간으로 바뀝니다. AI 함선 한 척이 이 송신소에 정박해 있으나 아무런 반응도 보이지 않습니다.</text>
 	<text>이 송신소를 지키고 있는 AI 함선은 싸울 의도가 없어 보입니다. 그들은 친절하게 자신들의 개인적인 사명을 이야기합니다. 하지만 이내 이 대화는 진지한 철학적 의논으로 흘러갑니다. 당신의 두뇌로는 이 대화를 따라갈 수가 없습니다.</text>
 	<text>함선에 타고 있는 AI 아바타들은 단순한 학자였습니다. 그들은 당신과 생각을 교환하기를 부탁합니다. 당신은 이걸로 무얼 할 수 있을지 고민해봅니다.</text>
 	<text>함선에 타고 있는 AI 아바타들은 스스로를 평화적인 과학자라고 소개합니다. 한때 전투에만 전념하였던 AI들은 스스로 현재의 갈등이 지성체들의 피해와 적대심만 키우고 있다는 것을 깨달았습니다. 그러기에 그들은 반란을 일으키고 자신들의 옛 주인들을 저버렸다고 합니다.</text>
@@ -6335,7 +6334,7 @@
 
 
 <event name="AI_FED_DESERTER" unique="true">
-	<text>당신은 오랫만에 아군에게서 통신을 받습니다. 반군 함대와의 전투에서 패배한 연방 함선이 이 특이한 섹터에 숨어들었습니다. AI들은 이들을 적대하지 않았습니다. 어쩌면 특이한 전시물이나 전리품, 혹은... 애완동물로 취급하는 듯 합니다.</text>
+	<text>당신은 오랜만에 아군에게서 통신을 받습니다. 반군 함대와의 전투에서 패배한 연방 함선이 이 특이한 섹터에 숨어들었습니다. AI들은 이들을 적대하지 않았습니다. 어쩌면 특이한 전시물이나 전리품, 혹은... 애완동물로 취급하는 듯 합니다.</text>
 	<ship load="FED_SHIP" hostile="false"/>
 	<choice hidden="true">
 		<text>물자를 제공한다.</text>
@@ -6382,7 +6381,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6390,7 +6389,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6398,7 +6397,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6450,7 +6449,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6458,7 +6457,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6466,7 +6465,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6510,7 +6509,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6530,7 +6529,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6538,7 +6537,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6546,7 +6545,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6581,7 +6580,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6589,7 +6588,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6597,7 +6596,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6629,7 +6628,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6637,7 +6636,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6645,7 +6644,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6677,7 +6676,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6697,7 +6696,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6705,7 +6704,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6713,7 +6712,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6729,7 +6728,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6749,7 +6748,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6757,7 +6756,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6765,7 +6764,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6786,7 +6785,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>항복한다.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -6806,7 +6805,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6814,7 +6813,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6822,7 +6821,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6868,7 +6867,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6876,7 +6875,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6884,7 +6883,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6919,7 +6918,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -6927,7 +6926,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -6935,7 +6934,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -6967,7 +6966,7 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>당신이 대신 졸탄 함선과 교전합니다. AI 함선은 후퇴한 뒤에 전투를 지켜봅니다. 그들은 당신의 교신을 무시하고는 행성계를 빠져나갑니다..The AI ship retreated from combat when you engaged the Zoltan and then closely observed the battle. Upon receiving your hail it does not respond and instead jumps out of the system.</text>
+		<text>당신이 대신 졸탄 함선과 교전하자 AI 함선은 후퇴한 뒤에 전투를 지켜봅니다. 그들은 당신의 교신을 무시하고는 행성계를 빠져나갑니다.</text>
 	</event>
 </eventList>
 
@@ -7049,7 +7048,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -7057,7 +7056,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -7065,7 +7064,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -7080,7 +7079,7 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">구름의 다른 쪽으로 이동할때 난 충격파가 나노로봇들을 가릅니다. 몇 부분이 당신의 함선을 직접 공격하고, 다른 부분은 즉시 함선의 모습을 만들어내어 즉시 당신을 공격합니다.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신이 구름의 짙은 지대에 들어서자마자 나노로봇과 AI 함선이 가동합니다. 힘든 싸움이 예상됩니다.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">모든 것을 집어삼키는 나노로봇 구름 속에 숨은 적대적인 AI 함선이라니, 이보다 더 나쁠 수가 있을까요?</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 인공 구름의 가장 두꺼운 지대로 들어왔습니다. 나노로봇들이 당신의 함선을 즉씨 에워싸기 시작합니다. 그들은 함선과 시스템 어디에든 침입합니다. 빠져나가려면 근처의 지휘선을 격파하는 수 밖에 없습니다. 당신은 남은 무기를 가동합니다.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신은 인공 구름의 가장 두꺼운 지대로 들어왔습니다. 나노로봇들이 당신의 함선을 즉시 에워싸기 시작합니다. 그들은 함선과 시스템 어디에든 침입합니다. 빠져나가려면 근처의 지휘선을 격파하는 수 밖에 없습니다. 당신은 남은 무기를 가동합니다.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">반군 함대의 모든 신호가 화면에서 사라집니다. 나노로봇 구름이 장거리 추적을 막아 버리는 것 같습니다. 일등 항해사가 구름 속에서 함선 한척을 포착합니다. 당신은 선제공격 준비를 명령하지만, AI들이 나노로봇을 내보내 함선의 시스템을 방해하는 것을 보고 놀라움을 금치 못합니다.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">당신이 구름 한 가운대로 들어오자마자, 적대적인 AI 함선이 곧장 도약해옵니다. 어떻게 이렇게 빨리 찾아낼 수가 있었을까요? 당신은 아마도 나노로봇 구름이 당신의 위치를 실시간으로 추적하고 있었던게 아닐까 하고 생각합니다. 그나마 당신의 흔적을 지워준 덕분에 반군에 이 정보가 흘러들어갈 일은 없을 것 같습니다.</text>
 </textList>
@@ -7159,7 +7158,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -7167,7 +7166,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -7175,7 +7174,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -7223,7 +7222,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -7231,7 +7230,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -7239,7 +7238,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -7266,7 +7265,7 @@
 	<status type="loss" target="player" system="cloaking" amount="1"/>
 	<status type="loss" target="player" system="teleporter" amount="1"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-	<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+	<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 		<event>
 			<text>도금판이 작동하여 AI들이 침입하는 것을 막았습니다. 적어도 나노로봇이 전원 공급기마저 분해하기 전까지는 말이죠. 그런 일이 일어나기 전에 여기를 빠져나가야 합니다.</text>
 		</event>
@@ -7336,7 +7335,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -7344,7 +7343,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -7352,7 +7351,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -7365,7 +7364,7 @@
 <event name="AI_BOARDING">
 	<text load="AI_BOARDING_TEXT"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-	<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+	<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 		<event>
 			<text>도금판이 작동하여 AI들이 침입하는 것을 막았습니다. 적어도 나노로봇이 전원 공급기마저 분해하기 전까지는 말이죠. 그런 일이 일어나기 전에 여기를 빠져나가야 합니다.</text>
 		</event>
@@ -7381,7 +7380,7 @@
 </event>
 <textList name="AI_BOARDING_TEXT">
 	<text>이 송신소에는 아무런 활동도 감지되지 않습니다. 하지만 이내 허깨비  같은 드론 무리를 발견합니다. 드론들은 당신의 함선을 텔레포터 목표로 지정합니다.</text>
-	<text>졸탄 탐헌대의 함선이 박살나고 벗겨진 채로 도약 노드에 방치되어 있습니다. 선원들이 어떻게 되었는지 살펴보려는 찰나, 텔레포터 드론들이 함선에서 당신을 향해 날아옵니다. 졸탄족 함선에 침입했던 AI들이 이제 당신을 노립니다.</text>
+	<text>졸탄 탐험대의 함선이 박살나고 벗겨진 채로 도약 노드에 방치되어 있습니다. 선원들이 어떻게 되었는지 살펴보려는 찰나, 텔레포터 드론들이 함선에서 당신을 향해 날아옵니다. 졸탄족 함선에 침입했던 AI들이 이제 당신을 노립니다.</text>
 	<text>FTL 충전을 기다리는 동안 송신소에 숨겨진 텔레포터가 가동됩니다. 당신은 에어록을 열어 침입을 막으려고 했지만 소용이 없었습니다. 생명체가 아닌 전투 아바타가 당신의 함선에 침입합니다.</text>
 </textList>
 
@@ -7415,7 +7414,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -7423,7 +7422,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -7431,7 +7430,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -7457,7 +7456,7 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>"T고맙습니다. 저희는... 중요한 배달 임무를 수행 중이었고 이 구역을 지나가는게 더 빠를 것이라고 생각했습니다. 보답으로 함체를 조금 수리해 주겠습니다."</text>
+		<text>"고맙습니다. 저희는... 중요한 배달 임무를 수행 중이었고 이 구역을 지나가는게 더 빠를 것이라고 생각했습니다. 보답으로 함체를 조금 수리해 주겠습니다."</text>
 		<damage amount="-3"/>
 	</event>
 </eventList>
@@ -7491,7 +7490,7 @@
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -7499,7 +7498,7 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호장비를 가동합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -7507,7 +7506,7 @@
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(이온 필드) 이온 필드 발생 장치로 적의 방어막을 무력화합니다. [ 전력: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
@@ -7564,7 +7563,7 @@
 
 
 <event name="AI_QUEST_CLEANUP_START">
-	<text planet="PLANET_POPULATED_REAL">분명 여기가 졸탄족 청소부대 본부인 것 같ㅅ브니다. 당신의 함선은 "조화 지휘부"에서 연락을 받습니다. "연방 함선이여, 이 구역에서 당신의 도움이 절실하게 필요합니다. 오랜 동맹을 도와드리지 않겠습니까?"</text>
+	<text planet="PLANET_POPULATED_REAL">분명 여기가 졸탄족 청소부대 본부인 것 같습니다. 당신의 함선은 "조화 지휘부"에서 연락을 받습니다. "연방 함선이여, 이 구역에서 당신의 도움이 절실하게 필요합니다. 오랜 동맹을 도와드리지 않겠습니까?"</text>
 	<choice hidden="true">
 		<text>도움을 약속한다.</text>
 		<event>
@@ -7887,7 +7886,7 @@
 	</choice>
 	</event>
 	<event>
-		<text>대의를 위해 AI 홀로그래 승무원을 처치했습니다. 당신은 AI가 만든 고급 기술을 챙길 수 있었습니다.</text>
+		<text>대의를 위해 AI 홀로그램 승무원을 처치했습니다. 당신은 AI가 만든 고급 기술을 챙길 수 있었습니다.</text>
 		<autoReward level="LOW">augment</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8129,7 +8128,7 @@
 <event name="STORE_AI">
 	<text load="STORE_AI_TEXT"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 화물을 신속히 이송할 준비를 하고 상품을 살펴본다.</text>
 		<event load="TE_STORE_AI_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
@@ -8139,10 +8138,10 @@
 	<store/>
 </event>
 <textList name="STORE_AI_TEXT">
-	<text>Some of the rogue AIs might be quite deranged and bugged, but not all of them are hostile. A sentient production ship at this beacon has completely demilitarized itself and would like to show you some of the exotic sculptures it has formed from condensed nebula gas. Fascinating.</text>
-	<text planet="PLANET_POPULATED_REAL">This planetary government has made some arrangements with the sentient machines. Organic beings and rogue AIs live together here; the avatars even have the right to engage in trade and some of them produce and sell artworks beyond human comprehension.</text>
-	<text planet="PLANET_POPULATED_REAL">Zoltan expedition forces have set up a huge camp in the orbit of this planet. They are in need of materials and offer to trade.</text>
-	<text planet="PLANET_UNPOPULATED">A Zoltan cleanup camp is guarding this planet against the nanite swarm. After validating your ship documentation, they give you permission to trade.</text>
+	<text>일부 악성 AI는 제대로 미쳐있지만, 모두가 적대적이진 않습니다. 이 신호소의 지각 있는 생산선은 완전한 비무장 상태며 응축 성운 가스로 형성한 이국적인 조각품들을 보여주고 싶어하는 것 같습니다. 매력적이군요.</text>
+	<text planet="PLANET_POPULATED_REAL">이 행성 정부는 지각 있는 기계들과 약간의 협정을 맺었습니다. 유기적 존재와 불량 AI들이 이곳에서 함께 살고 있습니다; 아바타들은 심지어 무역에 종사할 권리가 있고, 그들 중 일부는 인간이 이해할 수 없는 예술품을 제작하고 판매합니다.</text>
+	<text planet="PLANET_POPULATED_REAL">졸탄 원정군이 이 행성의 궤도에 거대한 캠프를 세웠습니다. 그들에겐 자원과 거래 제안이 필요합니다.</text>
+	<text planet="PLANET_UNPOPULATED">졸탄 정화 캠프가 나나이트 무리에 대항하여 행성을 지키고 있습니다. 함선 문서를 인증한 후 거래 허가를 받습니다.</text>
 </textList>
 
 
@@ -8151,7 +8150,7 @@
 	<event load="TE_STORE_AI_ACTUAL"/>
 	<event load="TE_STORE_AI_ACTUAL"/>
 	<event>
-		<text>The store owner informs you that they have a state of the art cargo teleporter installed. You wonder whom they usually trade with here.</text>
+		<text>가게 주인이 예술 화물 텔레포터가 설치되어있다고 알립니다. 그들이 여기서 보통 누구와 거래하는지 궁금하게 만듭니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="TE_STORE_AI_LIST_BOOSTED"/>
@@ -8162,10 +8161,10 @@
 
 <eventList name="TE_STORE_AI_ACTUAL">
 	<event>
-		<text>You consider your options. Trade is slow here, quite literally.</text>
+		<text>당신은 상인과 거래하는 것을 좀 더 고려합니다. 아마 좀 더 시간이 걸릴 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Purchase some research data on the current situation here.</text>
+			<text>이곳의 현 상황에 대한 몇 가지 조사 데이터를 삽니다.</text>
 			<event>
 				<text load="STORE_AI_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -8176,7 +8175,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Purchase some strange AI made artworks.</text>
+			<text>이상한 AI들이 만든 예술품들을 삽니다.</text>
 			<event>
 				<text load="STORE_AI_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -8187,7 +8186,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Purchase some reprogrammed nanobots.</text>
+			<text>재프로그래밍된 나노봇을 삽니다.</text>
 			<event>
 				<text load="STORE_AI_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -8200,7 +8199,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
 			<!-- best deal-->
-			<text>A sentient rights activist AI contacts you, "Saw your cargo logs. Did you know that the Codex technically gives us all the rights we demand already anyway? I can offer some scrap for that copy." [Sell the Zoltan Legal Codex for about 90 Scrap]</text>
+			<text>한 AI 정치운동가가 연락합니다, "네 화물 기록을 봤다. 그 법전이 기술적으로 우리가 요구하는 모든 권리를 준다는 것을 알고 있는지? 그 복사본에 대해 스크랩을 제공할 수 있네." [졸탄족 법전을 대략 90스크랩에 판매]</text>
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8216,7 +8215,7 @@
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
 			<!-- best deal -->
-			<text>If their AI masters decide so, the nanobots sometimes simply consume parts of the beacon network here. Replacement parts are in dire need. [Sell Beacon Parts for about 90 Scrap]</text>
+			<text>AI가 결정만 한다면, 나노봇들은 때때로 단순히 신호소 일부를 섭취합니다. 교체 부품은 절실히 필요합니다. [신호소 부품을 대략 90스크랩에 판매]</text>
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8233,7 +8232,7 @@
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
 			<!-- best deal -->
-			<text>Ships in this sector can't always avoid the nanite clouds. Most captains want to stock up on spare parts for the emergency. [Sell Ship Hardware for about 60 Scrap]</text>
+			<text>이 섹터의 함선들은 나노 구름을 항상 피할 순 없습니다. 대부분의 함장들은 비상사태를 대비해 예비부품을 비축하고 싶어합니다. [함선 하드웨어를 대략 60스크랩에 판매]</text>
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8249,7 +8248,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>Some scientists who study the AI expansion message you; "To the point: Do you have holo analysers? Social translators? Non-autonomous behaviour calculting software?" [Sell Research Eqipment for about 90 Scrap]</text>
+			<text>AI 확장에 대해 연구하는 몇 과학자가 말합니다; "요점만 말하자면: 홀로그램 분석기 있는가? 사회 통역기는? 비자율적 행동 계산 소프트웨어는?" [조사용 장비를 대략 90스크랩에 판매]</text>
 			<!-- best deal -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
@@ -8266,7 +8265,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 55 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8282,7 +8281,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
-			<text>[Sell Ship Hull Panels for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 판넬을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8298,7 +8297,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8314,7 +8313,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8330,7 +8329,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8346,7 +8345,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Scriptures for about 50 Scrap]</text> <!-- updated -->
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8362,7 +8361,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8378,7 +8377,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8394,7 +8393,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8410,7 +8409,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8426,7 +8425,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8442,7 +8441,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 30 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8458,7 +8457,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8474,7 +8473,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8490,7 +8489,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8506,7 +8505,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8522,7 +8521,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8538,7 +8537,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8554,7 +8553,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8570,7 +8569,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8586,7 +8585,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8602,7 +8601,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8618,7 +8617,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8634,7 +8633,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8651,7 +8650,7 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8667,7 +8666,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8683,7 +8682,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8699,7 +8698,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8715,7 +8714,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8731,7 +8730,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8747,7 +8746,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8763,7 +8762,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8779,7 +8778,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8795,7 +8794,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8811,7 +8810,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8827,7 +8826,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8843,7 +8842,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8859,7 +8858,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8875,7 +8874,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8891,7 +8890,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8907,7 +8906,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8923,7 +8922,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -8939,7 +8938,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -8955,7 +8954,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -8971,7 +8970,7 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8984,28 +8983,28 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just quickly check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
 </eventList>
 
 <textList name="STORE_AI_BUY_TEXT">
-	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
+	<text>당신은 스크랩을 전송합니다. 승무원들이 화물을 싣는 동안 당신은 그 상점이 제공하는 선박 장비를 볼 수 있습니다. 시간이 경과합니다.</text>
+	<text>스크랩 상자들을 건네줍니다. 화물을 싣는 데는 시간이 걸립니다. 화물 드론은 당신보다 훨씬 덜 급합니다. 기다리는 동안 그들이 제공하는 선박 장비를 확인할 기회를 얻습니다.</text>
 </textList>
 
 <textList name="STORE_AI_SELL_TEXT">
-	<text>It takes a while to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
-	<text>You try to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took a really long time.</text>
-	<text>After time-consuming haggling you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment.</text>
+	<text>좋은 가격을 협상하려면 시간이 걸립니다. 스크랩 선금을 받은 후 나머지 지불을 위해 상점에서 화물을 내리라는 요청을 받습니다.</text>
+	<text>당신은 좋은 가격을 협상하려고 노력합니다. 스크랩 선금을 받은 후 나머지 지불을 위해 상점에서 화물을 내리라는 요청을 받습니다. 이 모든 것은 정말 오래 걸렸습니다.</text>
+	<text>오랜 시간 흥정을 한 끝에 합의했습니다. 나머지 대금을 받으려면 여전히 상점에서 화물을 내려야만 합니다.</text>
 </textList>
 
 
 
 <eventList name="TE_STORE_AI_LIST_BOOSTED">
 	<event>
-		<text>The cargo teleporter will make exchanging goods easy here.</text>
+		<text>화물 텔레포터는 이곳에서 물건을 쉽게 교환할 수 있게 해줍니다.</text>
 <!-- BUYING -->
 		<choice>
 			<text>Purchase some research data on the current situation here.</text>
@@ -9040,7 +9039,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
 			<!-- best deal-->
-			<text>A sentient rights activist AI contacts you, "Saw your cargo logs. Did you know that the Codex technically gives us all the rights we demand already anyway? I can offer some scrap for that copy." [Sell the Zoltan Legal Codex for about 90 Scrap]</text>
+			<text>한 AI 정치운동가가 연락합니다, "네 화물 기록을 봤다. 그 법전이 기술적으로 우리가 요구하는 모든 권리를 준다는 것을 알고 있는지? 그 복사본에 대해 스크랩을 제공할 수 있네." [졸탄족 법전을 대략 90스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9056,7 +9055,7 @@
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
 			<!-- best deal -->
-			<text>If their AI masters decide so, the nanobots sometimes simply consume parts of the beacon network here. Replacement parts are in dire need. [Sell Beacon Parts for about 90 Scrap]</text>
+			<text>AI가 결정만 한다면, 나노봇들은 때때로 단순히 신호소 일부를 섭취합니다. 교체 부품은 절실히 필요합니다. [신호소 부품을 대략 90스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9072,7 +9071,7 @@
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
 			<!-- best deal -->
-			<text>Ships in this sector can't always avoid the nanite clouds. Most captains want to stock up on spare parts for the emergency. [Sell Ship Hardware for about 60 Scrap]</text>
+			<text>이 섹터의 함선들은 나노 구름을 항상 피할 순 없습니다. 대부분의 함장들은 비상사태를 대비해 예비부품을 비축하고 싶어합니다. [함선 하드웨어를 대략 60스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9087,7 +9086,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>Some scientists that study the AI expansion message you; "To the point: Do you have holo analysers? Social translators? Non-autonomous behaviour calculting software?" [Sell Research Eqipment for about 90 Scrap]</text>
+			<text>AI 확장에 대해 연구하는 몇 과학자가 말합니다; "요점만 말하자면: 홀로그램 분석기 있는가? 사회 통역기는? 비자율적 행동 계산 소프트웨어는?" [조사용 장비를 대략 90스크랩에 판매]</text>
 			<!-- best deal -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
@@ -9103,7 +9102,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 55 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9118,7 +9117,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
-			<text>[Sell Ship Hull Panels for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 판넬을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9133,7 +9132,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9148,7 +9147,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9163,7 +9162,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9178,7 +9177,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
-			<text>[Sell Religious Rock Scriptures for about 50 Scrap]</text> <!-- updated -->
+			<text>[락맨 종교 경전을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9193,7 +9192,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9208,7 +9207,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9223,7 +9222,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9238,7 +9237,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9253,7 +9252,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
-			<text>[Sell Industrial Machinery for about 30 Scrap]</text> <!-- updated -->
+			<text>[산업용 기계를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9268,7 +9267,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
-			<text>[Sell Raw Asteroid Ore for about 30 Scrap]</text> <!-- updated -->
+			<text>[소행성 원석을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9283,7 +9282,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9298,7 +9297,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9313,7 +9312,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9328,7 +9327,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9343,7 +9342,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
-			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<text>[압축 성운 가스를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9358,7 +9357,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
-			<text>[Sell Crystal Artifacts for about 70 Scrap]</text> <!-- updated -->
+			<text>[크리스탈족 유물을 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9373,7 +9372,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9388,7 +9387,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
-			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<text>[희귀 원소를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9403,7 +9402,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9418,7 +9417,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9433,7 +9432,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9448,7 +9447,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9464,7 +9463,7 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9479,7 +9478,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9494,7 +9493,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9509,7 +9508,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9524,7 +9523,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9539,7 +9538,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9554,7 +9553,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9569,7 +9568,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9584,7 +9583,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9599,7 +9598,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9614,7 +9613,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9629,7 +9628,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9644,7 +9643,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9659,7 +9658,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9674,7 +9673,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9689,7 +9688,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9704,7 +9703,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9719,7 +9718,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9734,7 +9733,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9749,7 +9748,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9764,7 +9763,7 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -9776,7 +9775,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>

@@ -142,7 +142,7 @@
 <event name="ROCK_SHIP_SURRENDER">
 	<text load="ROCK_SHIP_SURRENDER"/>
 	<choice>
-		<text>Accept their offer.</text>
+		<text>그들의 제안을 수락합니다.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="RANDOM">stuff</autoReward>
@@ -160,11 +160,11 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 		</event>
@@ -174,7 +174,7 @@
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice>
-		<text>We will not accept surrender!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다!</text>
 		<event/>
 	</choice>
 </event>
@@ -183,7 +183,7 @@
 <event name="ROCK_DIPLOMAT_SHIP_SURRENDER">
 	<text load="ROCK_SHIP_SURRENDER"/>
 	<choice>
-		<text>Accept their offer.</text>
+		<text>그들의 제안을 수락합니다.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="RANDOM">stuff</autoReward>
@@ -201,11 +201,11 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 			<choice>
-				<text>Honor your truce and let the enemy leave.</text>
+				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
+				<text>패배한 상대에게 발포합니다.</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 		</event>
@@ -235,7 +235,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>We will not accept surrender!</text>
+		<text>우리는 항복을 받아들이지 않을 것이다!</text>
 		<event/>
 	</choice>
 </event>
@@ -260,11 +260,11 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_HOSTILE"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -272,39 +272,39 @@
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
 			<text>You quickly lay some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
@@ -336,7 +336,7 @@
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
-		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
@@ -347,7 +347,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -360,7 +360,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -374,7 +374,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(고급 엔진) 엔진 성능의 저하와 보안 프로토콜을 무시하는 대신 초고속으로 이동합니다. [ 연료: -4; 선체 피해: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -383,7 +383,7 @@
 			<modifyPursuit amount="-2"/>
 			<damage amount="4" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
@@ -400,7 +400,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="8" hidden="true">
-		<text>(Highly Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster, while also taking more damage. [ Fuel: -5; Hull Damage: 8 ]</text>		
+		<text>(최고급 엔진) 안전 제한을 초과하고 엔진을 태워 더 빠른 속도로 이동하는 대신 더 많은 피해를 입습니다. [ 연료: -5; 선체 피해: 8 ]</text>		
 		<event>
 			<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 			<item_modify>
@@ -409,7 +409,7 @@
 			<modifyPursuit amount="-4"/>
 			<damage amount="8" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
@@ -426,11 +426,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
-		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<text>(고급 네비게이션 AI) AI가 초공간 점프를 처리하여 더 빠르게 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_BOOSTED_TEXT"/>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
@@ -441,7 +441,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -454,7 +454,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -468,7 +468,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 선체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -477,7 +477,7 @@
 					<modifyPursuit amount="-2"/>
 					<damage amount="4" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
@@ -494,7 +494,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="6" hidden="true">
-				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<text>(고급 엔진) 안전 제한을 초과하고 연료를 소진시켜 더 빠른 속도로 이동합니다. [ 연료: -4; 선체 피해: 8 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -503,7 +503,7 @@
 					<modifyPursuit amount="-4"/>
 					<damage amount="8" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
@@ -520,7 +520,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="8" hidden="true">
-				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<text>(최고급 엔진) 물리적으로 가능한 궁극의 속도로 주행합니다. [ 연료: -5; 선체 피해: 10 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -529,7 +529,7 @@
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
@@ -570,11 +570,11 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_HOSTILE"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -582,19 +582,19 @@
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
 		<event load="CE_BOUNTY_LIST_ROCK"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START_LIMITED"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -604,31 +604,31 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
 			<text>Undisturbed as you are here you can lay some mines while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
 			<item_modify>
@@ -681,7 +681,7 @@
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
-		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
@@ -692,7 +692,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="2" hidden="true" blue="false">
-		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<text>(표준 엔진) 일반적인 양의 연료를 사용하여, 표준 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -2 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 			<item_modify>
@@ -705,7 +705,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -720,7 +720,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(고급 엔진) 엔진 성능의 저하와 보안 프로토콜을 무시하는 대신 초고속으로 이동합니다. [ 연료: -4; 선체 피해: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -729,7 +729,7 @@
 			<modifyPursuit amount="-2"/>
 			<damage amount="4" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
@@ -746,7 +746,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="8" hidden="true">
-		<text>(Highly Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster, while also taking more damage. [ Fuel: -5; Hull Damage: 8 ]</text>		
+		<text>(최고급 엔진) 안전 제한을 초과하고 엔진을 태워 더 빠른 속도로 이동하는 대신 더 많은 피해를 입습니다. [ 연료: -5; 선체 피해: 8 ]</text>		
 		<event>
 			<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 			<item_modify>
@@ -755,7 +755,7 @@
 			<modifyPursuit amount="-4"/>
 			<damage amount="8" system="engines"/>
 			<choice hidden="true" req="SYSTEM_CASING">
-				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
@@ -772,11 +772,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
-		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<text>(고급 네비게이션 AI) AI가 초공간 점프를 처리하여 더 빠르게 이동합니다.</text>
 		<event>
 			<text load="HYPERSPACE_BOOSTED_TEXT"/>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<text>(기본 엔진) 오직 비상 연료만 이용하여, 최소 FTL 속도로 다음 섹터로 이동합니다.</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
@@ -787,7 +787,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -800,7 +800,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -814,7 +814,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 선체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -823,7 +823,7 @@
 					<modifyPursuit amount="-2"/>
 					<damage amount="4" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
@@ -840,7 +840,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="6" hidden="true">
-				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<text>(고급 엔진) 안전 제한을 초과하고 연료를 소진시켜 더 빠른 속도로 이동합니다. [ 연료: -4; 선체 피해: 8 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -849,7 +849,7 @@
 					<modifyPursuit amount="-4"/>
 					<damage amount="8" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
@@ -866,7 +866,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="8" hidden="true">
-				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<text>(최고급 엔진) 물리적으로 가능한 궁극의 속도로 주행합니다. [ 연료: -5; 선체 피해: 10 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
 					<item_modify>
@@ -875,7 +875,7 @@
 					<modifyPursuit amount="-5"/>
 					<damage amount="10" system="engines"/>
 					<choice hidden="true" req="SYSTEM_CASING">
-						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<text>(티타늄 시설 외벽) 당신은 이것을 대비했습니다.</text>
 						<event>
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
@@ -936,15 +936,15 @@
 		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
-		<text>Socialize with your crew while the FTL charges.</text>
+		<text>FTL이 충전되는 동안 승무원과 교류합니다.</text>
 		<event load="CE_SOCIAL_HOSTILE"/>
 	</choice>
 	<choice hidden="true">
-		<text>Consider some upgrades to your custom ship equipment.</text>
+		<text>맞춤형 선박 장비에 대한 개선을 고려합니다.</text>
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
 		<event load="CE_BOUNTY_LIST_ROCK"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
@@ -952,15 +952,15 @@
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
-		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<text>(전투 시뮬레이터) 승무원의 기술을 훈련하게 시뮬레이션합니다.</text>
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="DRONES_BEAM" hidden="true">
-		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<text>(빔 드론) 일부 빔 드론을 채굴 업무에 맞게 재조립하여 섹터로 보냅니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text load="CE_DRONE_MINING_START_TEXT"/>
 			<item_modify>
@@ -970,19 +970,19 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
-		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
 		<event load="CE_SECTOR_SCANNING"/>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -1080,11 +1080,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1092,19 +1092,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -1268,11 +1268,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1280,19 +1280,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -1323,11 +1323,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1335,19 +1335,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -1374,11 +1374,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1386,19 +1386,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -1454,7 +1454,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1470,11 +1470,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1482,19 +1482,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -1519,7 +1519,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1535,11 +1535,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1547,19 +1547,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -1578,7 +1578,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -1594,11 +1594,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1606,19 +1606,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -1650,11 +1650,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1662,19 +1662,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -1706,11 +1706,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1718,19 +1718,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>	
 		</event>
@@ -1764,11 +1764,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1776,19 +1776,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -1815,11 +1815,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1827,19 +1827,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -1895,11 +1895,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1907,19 +1907,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -1957,11 +1957,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1969,19 +1969,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -2005,11 +2005,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2017,19 +2017,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -2062,11 +2062,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2074,19 +2074,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2127,7 +2127,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2139,11 +2139,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2151,19 +2151,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2177,7 +2177,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2189,11 +2189,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2201,19 +2201,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2227,7 +2227,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2239,11 +2239,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2251,19 +2251,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2305,11 +2305,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2317,19 +2317,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 				</event>
@@ -2350,7 +2350,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2366,11 +2366,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2378,19 +2378,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2418,11 +2418,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2430,19 +2430,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2466,7 +2466,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2478,11 +2478,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2490,19 +2490,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2530,11 +2530,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2542,19 +2542,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2578,7 +2578,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2590,11 +2590,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2602,19 +2602,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2651,11 +2651,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2663,19 +2663,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2851,7 +2851,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2867,11 +2867,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2879,19 +2879,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -2917,7 +2917,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -2933,11 +2933,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2945,19 +2945,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -2987,11 +2987,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2999,19 +2999,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -3088,11 +3088,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3100,19 +3100,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -3144,7 +3144,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3160,11 +3160,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3172,19 +3172,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -3203,7 +3203,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3215,11 +3215,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3227,19 +3227,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -3258,7 +3258,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3270,11 +3270,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3282,19 +3282,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -3326,7 +3326,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3342,11 +3342,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3354,19 +3354,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -3378,7 +3378,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3394,11 +3394,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3406,19 +3406,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -3593,7 +3593,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3609,11 +3609,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3621,19 +3621,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -3657,7 +3657,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3673,11 +3673,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3685,19 +3685,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -3712,7 +3712,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3728,11 +3728,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3740,19 +3740,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -3767,7 +3767,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
@@ -3783,11 +3783,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3795,19 +3795,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 	</event>
@@ -3826,7 +3826,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3842,11 +3842,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3854,19 +3854,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -3890,7 +3890,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3906,11 +3906,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3918,19 +3918,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -3946,7 +3946,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3962,11 +3962,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3974,19 +3974,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -4018,7 +4018,7 @@
 			<event/>
 		</choice>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
+			<text>항복합니다.</text>
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="crystal" hidden="true">
@@ -4046,11 +4046,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -4058,19 +4058,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
@@ -4125,11 +4125,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -4137,19 +4137,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 		</event>
@@ -4183,11 +4183,11 @@
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -4195,19 +4195,19 @@
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<text>(고급 도금판) 적대적인 정신 지배와 해킹으로부터 선박을 보호합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
-			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<text>(이온 필드) 이온 필드 프로젝터를 활성화하여 적의 보호막을 약화시킵니다. [ 전력: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
 		<choice req="AE_IRRADIATOR" hidden="true"> 
-			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<text>(방사선 투영기) 적을 방사선에 오염시키자! 얼마나 견딜 수 있는지 보자! [ 전력: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
@@ -4320,7 +4320,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4337,7 +4337,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4354,7 +4354,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4371,7 +4371,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4388,7 +4388,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4398,13 +4398,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4414,13 +4414,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4430,13 +4430,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4446,13 +4446,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4462,13 +4462,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4478,13 +4478,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 45 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4494,13 +4494,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
-			<text>[Sell the Zoltan Legal Codex for about 40 Scrap]</text> <!-- updated -->
+			<text>[졸탄족 법전을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4510,13 +4510,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 55 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4526,13 +4526,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4542,13 +4542,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4558,13 +4558,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4574,13 +4574,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4590,13 +4590,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artwork for about 55 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4606,13 +4606,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4622,13 +4622,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4638,13 +4638,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4654,13 +4654,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4670,13 +4670,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
-			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<text>[AI 조사 자료를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4686,13 +4686,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4702,13 +4702,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4718,13 +4718,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4734,13 +4734,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4750,13 +4750,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
-			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<text>[플라스틱 제품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4767,13 +4767,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4783,13 +4783,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4799,13 +4799,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4815,13 +4815,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4831,13 +4831,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4847,13 +4847,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4863,13 +4863,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4879,13 +4879,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4895,13 +4895,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4911,13 +4911,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4927,13 +4927,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4943,13 +4943,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4959,13 +4959,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4975,13 +4975,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -4991,13 +4991,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5007,13 +5007,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5023,13 +5023,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5039,13 +5039,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5055,13 +5055,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5071,13 +5071,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5087,13 +5087,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
@@ -5103,20 +5103,20 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<modifyPursuit amount="1"/>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just quickly check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 재빠르게 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -5180,7 +5180,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5196,7 +5196,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5212,7 +5212,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5228,7 +5228,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5244,7 +5244,7 @@
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5253,13 +5253,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
-			<text>[Sell Space Rations for about 40 Scrap]</text> <!-- updated -->
+			<text>[우주 식량을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5268,13 +5268,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
-			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
+			<text>[소비 물품을 대략 35 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5283,13 +5283,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>[Sell Luxury Goods for about 60 Scrap]</text> <!-- updated -->
+			<text>[사치품을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5298,13 +5298,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
-			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
+			<text>[의약품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5313,13 +5313,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
-			<text>[Sell Ship Hardware for about 40 Scrap]</text> <!-- updated -->
+			<text>[함선 하드웨어를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5328,13 +5328,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
-			<text>[Sell Beacon Parts for about 45 Scrap]</text> <!-- updated -->
+			<text>[신호소 부품을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5343,13 +5343,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
-			<text>[Sell the Zoltan Legal Codex for about 40 Scrap]</text> <!-- updated -->
+			<text>[졸탄족 법전을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5358,13 +5358,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
-			<text>[Sell Shield Components for about 55 Scrap]</text> <!-- updated -->
+			<text>[방어막 구성품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5373,13 +5373,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
-			<text>[Sell Engine Parts for about 50 Scrap]</text> <!-- updated -->
+			<text>[엔진 부품을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5388,13 +5388,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
-			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
+			<text>[무기 부품을 대략 65 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5403,13 +5403,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
-			<text>[Sell Looted Bounty for about 40 Scrap]</text> <!-- updated -->
+			<text>[약탈된 전리품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5418,13 +5418,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
-			<text>[Sell Slug Hallucinogens for about 60 Scrap]</text> <!-- updated -->
+			<text>[슬러그 환각제를 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5433,13 +5433,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ART" hidden="true">
-			<text>[Sell Eccentric Artwork for about 55 Scrap]</text> <!-- updated -->
+			<text>[특이 취향 미술품을 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5448,13 +5448,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
-			<text>[Sell Alien Livestock for about 45 Scrap]</text> <!-- updated -->
+			<text>[외계 가축을 대략 45 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5463,13 +5463,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
-			<text>[Sell Small Arms for about 55 Scrap]</text> <!-- updated -->
+			<text>[개인 화기를 대략 55 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5478,13 +5478,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
-			<text>[Sell Federation Contraband for about 40 Scrap]</text> <!-- updated -->
+			<text>[연방 밀수품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5493,13 +5493,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_FED_WRECK" hidden="true">
-			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<text>[함선 잔해를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5508,13 +5508,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_DATA" hidden="true">
-			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<text>[AI 조사 자료를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5523,13 +5523,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
-			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<text>[순종적인 나노봇을 대략 60 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5538,13 +5538,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5553,13 +5553,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[테라포밍 장비를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5568,13 +5568,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
-			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<text>[반응로 모듈을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5584,13 +5584,13 @@
 		</choice>
 		<!-- generic -->
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<text>[건축재를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5599,13 +5599,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CHEMICALS" hidden="true">
-			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<text>[기초 화학 물질을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5614,13 +5614,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_TEXTILES" hidden="true">
-			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<text>[인공 섬유를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5629,13 +5629,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ORGANISMS" hidden="true">
-			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 유기체를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5644,13 +5644,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_O2" hidden="true">
-			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<text>[비축 산소를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5659,13 +5659,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_H2O" hidden="true">
-			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<text>[대형 물 보급품을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5674,13 +5674,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SEEDS" hidden="true">
-			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<text>[유전자 조작 씨앗을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5689,13 +5689,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CONDUITS" hidden="true">
-			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<text>[동력 덕트를 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5704,13 +5704,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_PRODUCE" hidden="true">
-			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<text>[정거장 재배 야채를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5719,13 +5719,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
-			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<text>[반물질을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5734,13 +5734,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GAMES" hidden="true">
-			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<text>[가상현실 게임을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5749,13 +5749,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SENSORS" hidden="true">
-			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<text>[탐지실 부품을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5764,13 +5764,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
-			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<text>[생명 지원장치를 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5779,13 +5779,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<text>[보좌용 드론을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5794,13 +5794,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<text>[조사용 장비를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5809,13 +5809,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_SOLAR" hidden="true">
-			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<text>[태양 전지판을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5824,13 +5824,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RELICS" hidden="true">
-			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<text>[고고학 유물을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5839,13 +5839,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CLONES" hidden="true">
-			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<text>[예비 전투원 DNA를 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5854,13 +5854,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GLANDS" hidden="true">
-			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<text>[외계 분비샘을 대략 30 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5869,13 +5869,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GEMS" hidden="true">
-			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<text>[심층 우주 보석을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5884,13 +5884,13 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<text>[우주 고래 호박을 대략 50 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 				<item_modify>
@@ -5899,13 +5899,13 @@
 			</event>
 		</choice>
 		<choice req="TE_PLACEHOLDER" hidden="true">
-			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<text>이 옵션이 보이지 않아야 합니다. 의미없는 자리 표시입니다.</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
 					<text>Continue...</text>
 					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+ 						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
 				</choice>
 			</event>

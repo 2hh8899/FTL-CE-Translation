@@ -41,7 +41,7 @@
 		</event>
 	</choice>
 	<choice req="engi" hidden="true">
-		<text>[엔지 승무원] 더 좋은 거래를 협상한다.</text>
+		<text>(엔지 승무원) 더 좋은 거래를 협상한다.</text>
 		<event>
 			<text>당신의 엔지 승무원은 선체의 피해 상황을 스캔하여 수리 비용을 계산했습니다. 피난선에서 불만과 항의의 목소리가 나왔으나, 이내 그들의 비축된 연료보다 선체의 수리가 급선무임을 인정하고 더 좋은 거래를 제안했습니다.</text>
 			<choice>
@@ -66,29 +66,29 @@
 	<choice hidden="true">
 		<text>이 피난선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+				<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -294,7 +294,7 @@
 				<text>괴로운 일이었지만, 이것은 연방과 모두의 자유를 위한 것입니다. 당신은 당신의 마음이 바뀌기 전에 떠났습니다.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>당신은 도약 직전 클론 배양실를 확인해보지만, 작동하지 않는 것 같습니다.</text>
+					<text>당신은 도약 직전 클론 배양실을 확인해보지만, 작동하지 않는 것 같습니다.</text>
 				</removeCrew>
 			</event>
 		</choice>
@@ -338,7 +338,7 @@
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 근처 항성계에서 연구를 실시한다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
@@ -371,7 +371,7 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리장비) 함체의 손상을 수리한다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event>
 			<text>당신은 함선의 전체 피해 보고를 요청하고 다음 결정에 대해 생각합니다.</text>
 			<choice hidden="true">
@@ -387,7 +387,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>[라니우스 승무원] 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
+						<text>(라니우스 승무원) 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-1"/>
@@ -408,7 +408,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>[라니우스 승무원] 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
+						<text>(라니우스 승무원) 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-2"/>
@@ -430,7 +430,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>[라니우스 승무원] 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
+						<text>(라니우스 승무원) 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-4"/>
@@ -448,7 +448,7 @@
 		</event>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(지도 제작용 컴퓨터) 지도 제작용 드론들을 내보내 구역의 세부 정보를 모은다. [ 드론 부품: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text>지도 제작용 드론들은 소형 FTL 추진기를 사용해 연료 없이도 구역을 정찰할 수 있습니다. 당신도 곧 드론들을 뒤따라갈 수 있기를 바랍니다.</text>
 			<item_modify>
@@ -458,7 +458,7 @@
 		</event>
 	</choice>
 	<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-		<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다.. [ 스크랩: -15 ]</text>
+		<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다. [ 스크랩: -15 ]</text>
 		<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 	</choice>
 	<choice req="AE_PRODUCTION" hidden="true">
@@ -479,7 +479,7 @@
 	<text>어쨋든 당신은 여기서 기다려야만 하기에, 함선의 맞춤 장비를 제작하는데 시간을 활용하기로 합니다.</text>
 	<text>당신은 승무원들이 육체 노동으로 잠시나마 비참한 상황을 잊어버리길 바랍니다.</text>
 	<text>당신은 여기서 기다려야만 하기에, 잠깐의 시간을 할애해 함선을 고치는 것도 좋아 보입니다.</text>
-	<text>적어도 기다리는 것보다는 함선을 수리하는 게 승무원들의 사기진작에 도움이 될 것입니다.
+	<text>적어도 기다리는 것보다는 함선을 수리하는 게 승무원들의 사기진작에 도움이 될 것입니다.</text>
 	<text>승무원들의 폐쇄공포증이 더욱 커져만 갑니다. 고립감에 완전히 미쳐버리기 전에 무언가 할 일을 주는게 좋아 보입니다.</text>
 </textList>
 
@@ -513,7 +513,7 @@
 				<augment name="ROCK_ARMOR"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -537,7 +537,7 @@
 				<augment name="SYSTEM_CASING"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -561,7 +561,7 @@
 				<augment name="ION_ARMOR"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -585,7 +585,7 @@
 				<augment name="AUTO_COOLDOWN"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -609,7 +609,7 @@
 				<augment name="SHIELD_RECHARGE"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -633,7 +633,7 @@
 				<augment name="SCRAP_COLLECTOR"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -657,7 +657,7 @@
 				<augment name="AE_AMMO_MANUFACTURER"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -681,7 +681,7 @@
 				<augment name="AE_DRONE_MANUFACTURER"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -705,7 +705,7 @@
 				<augment name="AE_AUG_GENERATOR"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -729,7 +729,7 @@
 				<augment name="AE_SECTOR_SCANNER"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -753,7 +753,7 @@
 				<weapon name="BA_BOMB_HEAL_2"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -777,7 +777,7 @@
 				<weapon name="BA_BOMB_NANO_1"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -801,7 +801,7 @@
 				<drone name="COMBAT_BEAM"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -825,7 +825,7 @@
 				<augment name="AE_NEBULA_SCANNER"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -853,7 +853,7 @@
 						<drone name="REPAIR"/>
 						
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -877,7 +877,7 @@
 						<drone name="DE_BATTLE_3"/>
 						
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -901,7 +901,7 @@
 						<drone name="DE_BOARDER_3"/>
 						
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -925,7 +925,7 @@
 						<drone name="BOARDER_ION"/>
 						
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -954,7 +954,7 @@
 				</item_modify>
 				<augment name="O2_MASKS"/>				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -978,7 +978,7 @@
 				<augment name="FIRE_EXTINGUISHERS"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -1002,7 +1002,7 @@
 				<augment name="TELEPORT_HEAL"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -1026,7 +1026,7 @@
 				<augment name="ZOLTAN_BYPASS"/>
 				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -1050,7 +1050,7 @@
 				</item_modify>
 				<drone name="DE_DRONE_SHIELD_SMALL"/>				
 				<choice req="engi" hidden="true">
-					<text>[엔지 승무원] 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
+					<text>(엔지 승무원) 엔지 승무원으로 하여금 제작 작업을 감독하게 한다.</text>
 					<event>
 						<text load="CE_AUGMENT_UPGRADE_ENGI_TEXT"/>
 						<item_modify>
@@ -1077,7 +1077,7 @@
 	<event>
 	<text>당신은 반드시 승무원이 필요하다는 것을 강조합니다. 할 일 없이 그저 심심풀이로 승무원을 복제한다니 미치광이 과학자가 따로 없다고 힐난하는 사람들도 있습니다. 씁쓸한 농담이 함선을 떠돕니다.</text>
 			<choice req="human">
-				<text>[인간 승무원] 인간 승무원을 복제한다.</text>
+				<text>(인간 승무원) 인간 승무원을 복제한다.</text>
 	<event>
 		<text>당신의 승무원이 필요한 DNA를 제공하는데 동의합니다. 당신이 기다리는 동안 복제 작업이 끝나고 자각을 가진 인간 하나가 연구소 바깥을 빠져나옵니다.</text>
 		<item_modify>
@@ -1087,7 +1087,7 @@
 	</event>
 			</choice>
 			<choice req="mantis">
-				<text>[맨티스 승무원] 맨티스 승무원을 복제한다.</text>
+				<text>(맨티스 승무원) 맨티스 승무원을 복제한다.</text>
 	<event>
 		<text>맨티스 승무원이 즉시 필요한 DNA를 제공하는데 동의합니다. 이미 맨티스 종족은 그들의 세력을 강화하기 위해 생물학 기술을 적극 활용하는 것으로 잘 알려져 있습니다.</text>
 		<item_modify>
@@ -1097,9 +1097,9 @@
 	</event>
 			</choice>
 			<choice req="slug">
-				<text>[슬러그 승무원] 슬러그 승무원을 복제한다.</text>
+				<text>(슬러그 승무원) 슬러그 승무원을 복제한다.</text>
 	<event>
-		<text>얼마 후, 유전학적 원본과 거의 구분할 수 없는 슬러그 하나가 연구소의 실린더를 빠져나옵니다. 복제 작업은 성공적이었고, 복제품은 탄생의 충격을 약간 겪고는 있지만 임무를 수행하는 데에는 문제가 없어 보입니다. </text>
+		<text>얼마 후, 유전학적 원본과 거의 구분할 수 없는 슬러그 하나가 연구소의 실린더를 빠져나옵니다. 복제 작업은 성공적이었고, 복제품은 탄생의 충격을 약간 겪고는 있지만 임무를 수행하는 데에는 문제가 없어 보입니다.</text>
 		<item_modify>
 			<item type="scrap" min="-10" max="-10"/>
 		</item_modify>
@@ -1135,7 +1135,7 @@
 				<choice>
 					<text>인공 섬유를 제조한다.</text>
 					<event>
-						<text>선상 생산라인이 합성 섬유 몇 상자를 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다. </text>
+						<text>선상 생산라인이 합성 섬유 몇 상자를 만들어냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 			
 						<augment name="TE_GOODS_TEXTILES"/>
 						<item_modify>
@@ -1144,7 +1144,7 @@
 					</event>
 				</choice>
 				<choice>
-					<text>표준화된 심층 우주 건설 자재를 제조한다. </text>
+					<text>표준화된 심층 우주 건설 자재를 제조한다.</text>
 					<event>
 						<text>선상 생산라인이 규격화된 철근들을 제조해냅니다. 멋지군요! 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 		
@@ -1157,7 +1157,7 @@
 				<choice>
 					<text>일반적인 목적의 전력선을 제조한다.</text>
 					<event>
-						<text>선상 생산라인이 매우 유연한 초소형 케이블들을 제 시간에 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다. </text>
+						<text>선상 생산라인이 매우 유연한 초소형 케이블들을 제 시간에 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 화물칸에 싣습니다.</text>
 	
 						<augment name="TE_GOODS_CONDUITS"/>
 						<item_modify>
@@ -1179,7 +1179,7 @@
 				<choice>
 					<text>태양열 전지판을 제조한다.</text>
 					<event>
-						<text>선상 생산라인의 로봇 팔이 행성과 정거장에 쓰일 진보된 태양열 전지판을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 조심히 화물칸에 싣습니다. </text>
+						<text>선상 생산라인의 로봇 팔이 행성과 정거장에 쓰일 진보된 태양열 전지판을 제조해냅니다. 곧이어 승무원들이 만들어진 물품을 조심히 화물칸에 싣습니다.</text>
 
 						<augment name="TE_GOODS_SOLAR"/>
 						<item_modify>
@@ -1194,7 +1194,7 @@
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>[엔지 승무원] 간단한 산업용 기계를 제조한다. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
+			<text>(엔지 승무원) 간단한 산업용 기계를 제조한다. [ 스크랩: -15; 강화 장치: 산업용 기계 ]</text>
 			<event>
 				<text>선상 생산 설비가 표준화된 기계를 재조해냅니다. 곧이어 승무원들이 물품을 정리해 화물칸에 싣습니다.</text>
 				<item_modify>
@@ -1204,9 +1204,9 @@
 			</event>
 		</choice>
 		<choice req="rock" hidden="true">
-			<text>[락맨 승무원] 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
+			<text>(락맨 승무원) 단단한 함체 패널을 제조한다. [ 스크랩: -15; 강화 장치: 함체 패널 ]</text>
 			<event>
-				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다. </text>
+				<text>스크랩이 단단한 함체 패널로 바뀌었습니다. 선적용 기계 팔조차 무게를 견딜 수 없어 인공 중력을 재조정해서야 화물칸에 실을 수 있었습니다.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
@@ -1214,7 +1214,7 @@
 			</event>
 		</choice>
 		<choice req="slug" hidden="true">
-			<text>[슬러그 승무원] 개인 화기들을 제조한다. [ 스크랩: -20; 강화 장치: 개인 화기 ]</text>
+			<text>(슬러그 승무원) 개인 화기들을 제조한다. [ 스크랩: -20; 강화 장치: 개인 화기 ]</text>
 			<event>
 				<text>선상 생산라인이 스크랩을 저지력 높은 자동 블래스터로 제조해냅니다. 소규모 분대 정도는 충분히 무장시킬 수 있습니다.</text>
 				<item_modify>
@@ -1224,9 +1224,9 @@
 			</event>
 		</choice>
 		<choice req="ghost" hidden="true">
-			<text>[AI 아바타 승무원] AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
+			<text>(AI 아바타 승무원) AI 승무원을 개인적인 미술 프로젝트에 할당한다. [ 스크랩: -20 강화 장치: 특이 취향 미술품 ]</text>
 			<event>
-				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다. </text>
+				<text>완성된 작품은 확실히... 특이하군요. 아마 당신의 유기적인 뇌로는 미술품의 진정한 의미를 이해하긴 어려운가 봅니다. AI 아바타 승무원은 흔쾌히 임무를 위해 미술품을 판매하는 것에 동의합니다.</text>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
 				</item_modify>
@@ -1234,9 +1234,9 @@
 			</event>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>[크리스탈 승무원] 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
+			<text>(크리스탈 승무원) 희귀한 크리스탈 물품을 합성한다. [ 스크랩: -30 강화 장치: 크리스탈족 유물 ]</text>
 			<event>
-				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 관경이 아닐 수 없습니다. </text>
+				<text>크리스탈 승무원이 생산라인을 재구성한 뒤 컨베이어 벨트 위로 올라섭니다. 기계 팔이 그의 몸에서 쏟아져 나온 투명한 수정 파편들을 작은 구슬들로 재가공합니다. 희한한 광경이 아닐 수 없습니다.</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-30" max="-30"/>
@@ -1247,7 +1247,7 @@
 		<choice req="shields" lvl="7" hidden="true">
 			<text>(고급 실드) 방어막 구성 부품을 제조한다. [ 스크랩: -30 강화 장치: 방어막 구성품 ]</text>
 			<event>
-				<text>선상 생산라인이 방어막 연결부와 케이싱을 조립합니다. 곧이어 승무원들이 구성품들을 진공 포장 상자에 싣습니다. </text>
+				<text>선상 생산라인이 방어막 연결부와 케이싱을 조립합니다. 곧이어 승무원들이 구성품들을 진공 포장 상자에 싣습니다.</text>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
 				</item_modify>
@@ -1257,7 +1257,7 @@
 		<choice req="engines" lvl="6" hidden="true">
 			<text>(고급 엔진) 엔진 부품을 제조한다. [ 스크랩: -30 강화 장치: 엔진 부품 ]</text>
 			<event>
-				<text>재추진 장치와 연소 케이싱이 여럿 제조되어 상자에 담깁니다. 당신은 생산 결과에 매우 만족합니다. </text>
+				<text>재추진 장치와 연소 케이싱이 여럿 제조되어 상자에 담깁니다. 당신은 생산 결과에 매우 만족합니다.</text>
 				<item_modify>
 					<item type="scrap" min="-20" max="-20"/>
 				</item_modify>
@@ -1301,7 +1301,7 @@
 		<event load="CE_COMBAT_SIM_START"/>
 	</choice>
 	<choice req="AE_SCIENCE" hidden="true">
-		<text>(선상 과학실) 근처 항성계에서 연구를 실시한다.</text>
+		<text>(선상 과학실) 주변 행성계에 대한 조사를 수행합니다.</text>
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_FUEL_RECYCLE" hidden="true"> 
@@ -1334,11 +1334,11 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(함체 수리장비) 함체의 손상을 수리한다.</text>
+		<text>(함체 수리장비) 함체 피해를 일부 회복합니다.</text>
 		<event>
 			<text>당신은 함선의 전체 피해 보고를 요청하고 다음 결정에 대해 생각합니다.</text>
 			<choice hidden="true">
-				<text>도움을 기다리는 동안 긴급 수리를 시행한다. [ Hullpoints: +5; 스크랩: -15 ]</text>
+				<text>도움을 기다리는 동안 긴급 수리를 시행한다. [ 선체 내구도: +5; 스크랩: -15 ]</text>
 				<event>
 					<text load="CE_QUICK_MAINTENANCE_TEXT"/>
 					<item_modify>
@@ -1350,7 +1350,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>[라니우스 승무원] 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
+						<text>(라니우스 승무원) 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-1"/>
@@ -1371,7 +1371,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>[라니우스 승무원] 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
+						<text>(라니우스 승무원) 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-2"/>
@@ -1393,7 +1393,7 @@
 						<event/>
 					</choice>
 					<choice hidden="true" req="anaerobic">
-						<text>[라니우스 승무원] 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
+						<text>(라니우스 승무원) 라니우스 승무원의 금속 형성 능력을 이용해 선체를 더욱 보강한다.</text>
 						<event>
 							<text load="CE_LANIUS_MAINTENANCE_TEXT"/>
 							<damage amount="-4"/>
@@ -1406,12 +1406,12 @@
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
 		<text>(섹터 스캐너) 기다리는 동안 구역을 스캔한다.</text>
 		<event>
-			<text>없는 어둠 속에서 할 수 있는 일은 많지 않습니다. 당신은 모든 승무원을 스캔 임무에 투입합니다. 그들은 함께 적당한 시간을 보내고 항성계들에 대한 가상 도표를 만들어냈습니다. 승무원들은 곧 연료를 구해서 구역의 다른 곳으로 떠나기를 희망합니다. 당신의 지도가 갱신되었습니다. </text>
+			<text>없는 어둠 속에서 할 수 있는 일은 많지 않습니다. 당신은 모든 승무원을 스캔 임무에 투입합니다. 그들은 함께 적당한 시간을 보내고 항성계들에 대한 가상 도표를 만들어냈습니다. 승무원들은 곧 연료를 구해서 구역의 다른 곳으로 떠나기를 희망합니다. 당신의 지도가 갱신되었습니다.</text>
 			<reveal_map/>
 		</event>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
-		<text>(지도 제작용 컴퓨터) 지도 제작용 드론들을 내보내 구역의 세부 정보를 모은다. [ 드론 부품: -3 ]</text>
+		<text>(지도 제작용 컴퓨터) 지도 제작 드론을 보내 섹터의 자세한 정보를 수집합니다. [ 드론 부품: -3 ]</text>
 		<event>
 			<text>지도 제작용 드론들은 소형 FTL 추진기를 사용해 연료 없이도 구역을 정찰할 수 있습니다. 당신도 곧 드론들을 뒤따라갈 수 있기를 바랍니다.</text>
 			<item_modify>
@@ -1421,19 +1421,19 @@
 		</event>
 	</choice>
 	<choice req="AE_PRODUCTION" hidden="true">
-		<text>(선상 생산라인)기다리는 동안 교역품들을 생산한다.</text>
+		<text>(선상 생산라인) 기다리는 동안 교역품들을 생산한다.</text>
 		<event load="CE_ONBOARD_PRODUCTION_NO_FUEL"/>
 	</choice>
 	<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
-		<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다.. [ 스크랩: -15 ]</text>
+		<text>(AI 아바타 생성기) 지각있는 홀로그램 승무원을 만들어낸다. [ 스크랩: -15 ]</text>
 		<event load="CE_HOLOGRAM_BIRTH_LIST"/>
 	</choice>
 	<choice req="AE_CLONE_LAB" hidden="true">
-		<text>(선상 클론 실험실)기다리는 동안 탄소 생물체 승무원 하나를 복제한다. </text>
+		<text>(선상 클론 실험실) 기다리는 동안 탄소 생물체 승무원 하나를 복제한다.</text>
 		<event load="CE_CLONING_NO_FUEL"/>
 	</choice>
 <!--	<choice req="energy">
-		<text>(Zoltan Crew) 당신의 졸탄 승무원이 불안한 제안 하나를 해옵니다.</text>
+		<text>(졸탄 승무원) 당신의 졸탄 승무원이 불안한 제안 하나를 해옵니다.</text>
 		<event load="CE_NO_FUEL_ZOLTAN_SACRIFICE"/>
 	</choice> -->
 	<choice hidden="true"> 
@@ -1455,7 +1455,7 @@
 		<choice hidden="true">
 			<text>"알겠다. 자네는 연방의 진정한 영웅으로 영원히 기억될 것이다."</text>
 			<event>
-				<text>졸탄 승무원이 오랜 시간 명상을 한 끝에 깊은 무아지경에 빠져듭니다. 그리고는 스스로 반응로 저장 공간으로 뛰어들어 밝게 타올랐습니다. 엔진이 정상적으로 작동하기 시작합니다만, 떠나버린 승무원에 대한 슬픔을 떨칠 수는 없을 것입니다. </text>
+				<text>졸탄 승무원이 오랜 시간 명상을 한 끝에 깊은 무아지경에 빠져듭니다. 그리고는 스스로 반응로 저장 공간으로 뛰어들어 밝게 타올랐습니다. 엔진이 정상적으로 작동하기 시작합니다만, 떠나버린 승무원에 대한 슬픔을 떨칠 수는 없을 것입니다.</text>
 				<removeCrew class="energy">
 					<clone>false</clone>
 					<text>Your .</text>
@@ -1467,7 +1467,7 @@
 <textList name="CE_NO_FUEL_ZOLTAN_SACRIFICE_TEXT">
 	<text>졸탄 승무원이 궁극적인 희생을 자처합니다. 스스로의 몸을 파괴해 반응로와 융합시켜 구역을 빠져나갈 도약을 위한 전력을 제공하는 것입니다. "연료가 없으면 얼마 안 가 반란군 함선이 우리를 따라잡을 것입니다. 우리는 버틸 수 없을 것입니다. 제 목숨보다 임무의 성공이 더 위중하단 걸 알고 있습니다." </text>
 	<text>"제 몸을 희생해서 함선의 FTL 드라이브에 동력을 공급할 수 있습니다. 그렇게 하면 구역을 빠져나갈 연료가 생길지도 모르지요." 스스로의 목숨을 희생하는 요구치고는 너무나도 평온한 태도입니다.</text>
-	<text>졸탄 승무원이 스스로를 반응로와 융합해 스스로를 연료로 사용하라고 차분히 설명합니다. 임무와 대의를 위해 스스로를 희생하는 제안을 한 것입니다. </text>
+	<text>졸탄 승무원이 스스로를 반응로와 융합해 스스로를 연료로 사용하라고 차분히 설명합니다. 임무와 대의를 위해 스스로를 희생하는 제안을 한 것입니다.</text>
 </textList>
 
 <event name="NO_FUEL_FLEET_DLC">
@@ -1535,7 +1535,7 @@
 	</event>
 	<event>
 		<fleet>rebel</fleet>
-		<text>저 멀리서, 반란군 함대가 당신의 스캐너 거리 바깥에서 느슨한 대형을 이룹니다. 무인 관측수 한 기가 다가옵니다. 반란군들은 빠져나갈 방법조차 없는 당신을 장거리 포격으로 끝장내려고 합니다. </text>
+		<text>저 멀리서, 반란군 함대가 당신의 스캐너 거리 바깥에서 느슨한 대형을 이룹니다. 무인 관측수 한 기가 다가옵니다. 반란군들은 빠져나갈 방법조차 없는 당신을 장거리 포격으로 끝장내려고 합니다.</text>
 		<ship load="CE_SPOTTER_REBEL_FLEET_NO_FUEL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1583,7 +1583,7 @@
 		</choice>
 	</event>
 	<event>
-	<text>전투기 몇 분대가 움직일 수 없는 당신의 함선을 포위합니다. 그들은 무기 사정거리 바깥에서 순양함들이 진입하기를 기다립니다. </text>
+	<text>전투기 몇 분대가 움직일 수 없는 당신의 함선을 포위합니다. 그들은 무기 사정거리 바깥에서 순양함들이 진입하기를 기다립니다.</text>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -1593,7 +1593,7 @@
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>순양함에 상당량의 연료가 있는 것을 탐지해냈습니다. 당신은 이 상황을 타개할 수 있을 것 같습니다. </text>
+					<text>순양함에 상당량의 연료가 있는 것을 탐지해냈습니다. 당신은 이 상황을 타개할 수 있을 것 같습니다.</text>
 					<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1819,14 +1819,14 @@
 </event>
 </eventList>
 <textList name="C_NO_FUEL_FLEET_TEXT">
-	<text>A shockwave ripples through your ship as a Rebel cruiser jumps in right in front of you. A scarred Rebel, apparently an Admiral, appears on the vidscreen, "This is the RS 'BS Loadout.' A lot of the men you killed were under my command. I'm glad I can deal with your personally.</text>
-	<text>Waiting like this is unbearable. Everyone is on their station and battle ready. Finally the cruiser jumps in and hails, "This is the RS 'Hyper Cheese'. We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
-	<text>You don't have to wait long for the cruiser. It enters the system with impulse engines on full drive. You receive a hail: "This is the RS 'We're Gonna Git Ya!' Looks like you made some terrible mistakes, Captain. We were called in to finally finish you. Farewell." They cut communication and open fire.</text>
-	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message, "This is the RS 'How Are You Supposed To Beat Me?'. Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
-	<text>A shockwave ripples through your ship as a Rebel cruiser jumps in right in front of you. A scarred Rebel, apparently an Admiral, appears on the vidscreen, "This is the RS 'Slow Boat To Wherever.' A lot of the men you killed were under my command. I'm glad I can deal with your personally now."</text>
-	<text>Waiting like this is unbearable. Everyone is on their station and battle ready. Finally the cruiser jumps in and hails, "This is the RS 'Chilled Jam Session.' We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
-	<text>You don't have to wait long for the cruiser. It enters the system with full impulse engines. You receive a hail: "This is the RS 'Hyperspace Admiral'. Looks like you made some terrible mistakes, Captain. We were called in to finally finish you. Farewell." They cut communication and open fire.</text>
-	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message, "This is the RS 'FTL Throne' Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
+	<text>반란군 순양함이 당신의 코 앞으로 도약하며 낸 충격파가 함선을 뒤흔듭니다. 얼굴에 흉터가 난, 반란군의 제독처럼 보이는 자가 스크린에 나타납니다. "여기는 순양함 '완전 사기 무장'호다. 내 많은 부하들이 네놈에게 목숨을 잃었지. 이제 개인적으로 네놈에게 복수할 수 있겠군."</text>
+	<text>이런 상황에서 기다린다는 건 견딜 수 없는 일입니다. 모든 승무원들이 각자 위치에서 전투를 기다립니다. 마침내 반란군 순양함이 도약해옵니다. "여기는 순양함 '하이퍼 편법'호다. 네놈의 연료가 바닥났다고 들었는데..." 반란군이 비열한 웃음을 짓고는 통신을 끊어버립니다.</text>
+	<text>순양함이 오기까지는 오래 걸리지 않았습니다. 녀석은 행성계에 최대 출력으로 도달했습니다. 당신은 통신을 수신합니다. "여기는 순양함 '네놈은 여기서 죽는다'호다. 끔찍한 실수를 했나 보군, 함장. 마침내 네놈을 끝장내려 왔다. 잘 가라." 그들은 통신을 끊고 공격해옵니다.</text>
+	<text>순양함이 도달했을 때 당신은 이미 모든 전투병력을 배치하였습니다. 그들이 통신을 보냅니다. "여기는 순양함 '우리를 이길 수 있나?'호다. 네놈에게 항복을 권유하고도 싶었지만, 네놈은 내 부하들에게 일말의 자비심도 없었지. 도망칠 수 있을거라 생각하지 마라."</text>
+	<text>반란군 순양함이 당신의 코 앞으로 도약하며 낸 충격파가 함선을 뒤흔듭니다. 얼굴에 흉터가 난, 반란군의 제독처럼 보이는 자가 스크린에 나타납니다. "여기는 순양함 '느린 놈은 죽는다'호다. 내 많은 부하들이 네놈에게 목숨을 잃었지. 이제 개인적으로 네놈에게 복수할 수 있겠군."</text>
+	<text>이런 상황에서 기다린다는 건 견딜 수 없는 일입니다. 모든 승무원들이 각자 위치에서 전투를 기다립니다. 마침내 반란군 순양함이 도약해옵니다. "여기는 순양함 '잔잔한 연주 시간'호다. 네놈의 연료가 바닥났다고 들었는데..." 반란군이 비열한 웃음을 짓고는 통신을 끊어버립니다.</text>
+	<text>순양함이 오기까지는 오래 걸리지 않았습니다. 녀석은 행성계에 최대 출력으로 도달했습니다. 당신은 통신을 수신합니다. "여기는 순양함 '초우주 제독님'호다. 끔찍한 실수를 했나 보군, 함장. 마침내 네놈을 끝장내려 왔다. 잘 가라." 그들은 통신을 끊고 공격해옵니다.</text>
+	<text>순양함이 도달했을 때 당신은 이미 모든 전투병력을 배치하였습니다. 그들이 통신을 보냅니다. "여기는 순양함 'FTL 왕좌'호다. 네놈에게 항복을 권유하고도 싶었지만, 네놈은 내 부하들에게 일말의 자비심도 없었지. 도망칠 수 있을거라 생각하지 마라.</text>
 </textList>
 
 
@@ -1843,7 +1843,7 @@
 		<text>그들은 당신의 함선에 접근하여 정박했습니다. 그들은 당신의 함선에 승선하여 제안을 했습니다.</text>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
 		<choice>
-			<text>흔쾌히 거래한다. </text>
+			<text>흔쾌히 거래한다.</text>
 			<event load="FUEL_TRADER_HIGH_LIST"/>
 		</choice>
 		<choice>
@@ -2140,7 +2140,7 @@
 			</event>
 		</choice>
 		<choice req="cloaking" hidden="true"> 
-			<text>(은폐) 은폐하여 그들이 조준하기전에 탐사범위에서 벗어난다.</text>
+			<text>(은폐장) 은폐하여 그들이 조준하기전에 탐사범위에서 벗어난다.</text>
 			<event>
 				<text>당신의 향상된 은폐 장치는 당신이 쉽게 그들의 화망에서 벗어날 수 있도록 도와주었습니다. 마침내 적 함선은 도약해서 사라져버렸습니다.</text>
 			</event>
@@ -2153,7 +2153,7 @@
 	<text load="FUEL_TRADER_TEXT_LIST"/>
 	<ship load="CIVILIAN_SHIP" hostile="false"/>
 	<choice>
-		<text>흔쾌히 거래한다. </text>
+		<text>흔쾌히 거래한다.</text>
 		<event load="FUEL_TRADER_HIGH_LIST"/>
 	</choice>
 	<choice>
@@ -2163,21 +2163,21 @@
 	<choice>
 		<text>우리는 가능한 한 모든 자원이 필요하다. 함선을 공격하고 자원을 빼앗는다!</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
@@ -2185,7 +2185,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2196,7 +2196,7 @@
 	<text load="FUEL_TRADER_DISTRESS_TEXT_LIST"/>
 	<ship load="CIVILIAN_SHIP" hostile="false"/>
 	<choice>
-		<text>흔쾌히 거래한다. </text>
+		<text>흔쾌히 거래한다.</text>
 		<event load="FUEL_TRADER_HIGH_LIST"/>
 	</choice>
 	<choice>
@@ -2206,21 +2206,21 @@
 	<choice>
 		<text>우리는 가능한 한 모든 자원이 필요하다. 함선을 공격하고 자원을 빼앗는다!</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
@@ -2228,7 +2228,7 @@
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2251,7 +2251,7 @@
 	<event>
 		<text>당신은 여행자들을 위한 작은 정거장을 발견하였습니다. 하지만 여기 있는 함선들에는 초광속 도약장치를 장착한 함선이 얼마 되지 않는 것 같습니다. 여기서 팔고 있는 연료는 얼마 되지 않고 시세보다 비싸지만, 그런걸 따질 겨를이 없군요.</text>
 		<choice hidden="true">
-			<text>>20 스크랩으로 연료 5개를 구입한다.</text>
+			<text>20 스크랩으로 연료 5개를 구입한다.</text>
 			<event>
 				<text>당신은 흔쾌히 거래하였습니다.</text>
 				<item_modify>
@@ -2286,7 +2286,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>당신은 우연히 장거리 스캐너에도 감지되지 않는 무허가 정거장에 도착했습니다. 그들은 말수가 그리 많지는 않지만 거래를 요청했습니다. </text>
+		<text>당신은 우연히 장거리 스캐너에도 감지되지 않는 무허가 정거장에 도착했습니다. 그들은 말수가 그리 많지는 않지만 거래를 요청했습니다.</text>
 		<ship load="BS_PIRATE" hostile="false"/>
 		<choice hidden="true">
 			<text>30 스크랩으로 연료 5개를 구입한다.</text>
@@ -2323,7 +2323,7 @@
 			<event/>
 		</choice>
 		<choice>
-			<text>무력으로 연료를 빼앗는다. </text>
+			<text>무력으로 연료를 빼앗는다.</text>
 			<event>
 				<text>당신은 범죄자들의 우주 정거장과 교전합니다.</text>
 				<ship hostile="true"/>
@@ -2890,29 +2890,29 @@
 	<choice>
 		<text>이 힘선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+				<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -2992,29 +2992,29 @@
 	<choice>
 		<text>낼 요금따윈 없다. 물건을 빼앗는다!</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+				<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3033,29 +3033,29 @@
 	<choice>
 		<text>이타적은 무슨. 물건을 빼앗는다!</text>
 		<event>
-			<text>당신은 민간 함선에 대해 해적질을 시도하려고 합니다. 승무원들을 불쾌하게 만들 것입니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
 			<choice hidden="true"> 
-				<text>작전을 강행하고 승무원들의 반응을 살펴본다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>민간 함선을 내버려둔다.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 법의 승인을 받은 것이다. 연방을 지키기 위한 임무를 위해서라면 시행되어야만 한다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨들의 함선을 이끌고 있다. 승무원들은 도덕적 행위 따위를 위해 승선하지 않은 것을 안다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 그들이 여기에서 도덕적 즐거움을 위해 서명하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(맨티스 함선) 당신은 우주에서 가장 흉포한 맨티스들의 함선을 이끌고 있다. 이정도 쯤이야 당연하지 않은가.</text>
+				<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 당신의 승무원들은 이런 행위를 기대합니다.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(슬러그 함선) 당신은 교활한 사기꾼 슬러그들의 함선을 이끌고 있다. 임무에서 비겁한 짓을 해도 내색하지 않을 것이다.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 당신의 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 		</event>
@@ -3070,7 +3070,7 @@
 	<choice hidden="true"> 
 		<text>연료와 교환하기 위해 함선을 떠날 지원자가 있는지 물어본다. [ 연료: +20 ]</text>
 		<event>
-			<text>승무원 중 한 명이 임무를 위해 스스로를 희생합니다. 당신은 그를 기다리고 있는 무시무시한 운명에 대해서 생각하지 않도록 노력합니다. </text>
+			<text>승무원 중 한 명이 임무를 위해 스스로를 희생합니다. 당신은 그를 기다리고 있는 무시무시한 운명에 대해서 생각하지 않도록 노력합니다.</text>
 			<crewMember amount="-1"/>
 			<item_modify>
 				<item type="fuel" min="20" max="20"/>
@@ -3150,7 +3150,7 @@
       </event>
    </choice>
    <choice hidden="true" req="slug">
-      <text>[슬러그 승무원] 당신의 슬러그 승무원이 구매자로 내세운다.</text>
+      <text>(슬러그 승무원) 당신의 슬러그 승무원을 구매자로 내세운다.</text>
       <event>
          <text>당신의 승무원들을 보자마자 슬러그는 그 끊임없던 웃음을 멈췄습니다. 당신은 두 슬러그가 텔레파시로 어떤 정신적 대결을 벌이는지 모르지만 거래는 잘 진행되는 것으로 보였습니다.</text>
          <item_modify>

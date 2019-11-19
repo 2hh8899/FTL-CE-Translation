@@ -1166,7 +1166,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_MANTIS">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<title>카즈'트롯 라이트 버스트 함포</title>
 	<short>Kaz'trt</short>
 	<desc>승무원을 사멸시키지만, 수동으로 조준할 수 없는 경포입니다. 재사용 대기 20초.</desc>
@@ -1208,7 +1208,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_MANTIS_2"> 
 	<type>BOMB</type>
-	<title>샤'앜 내부 텔레포터</title>
+	<title>샤'아크 내부 텔레포터</title>
 	<short>Sha'k</short>
 	<locked>1</locked>
 	<desc>자가 순간이동 파편집속탄으로 함선과 승무원을 무력화시키는 은닉 순간이동 함포입니다. 재사용 대기 30초.</desc>
@@ -1243,7 +1243,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_MANTIS_2_ENEMY"> 
 	<type>BOMB</type>
-	<title>샤'앜 내부 텔레포터</title>
+	<title>샤'아크 내부 텔레포터</title>
 	<short>Sha'k</short>
 	<locked>1</locked>
 	<desc>자가 순간이동 파편집속탄으로 함선과 승무원을 무력화시키는 은닉 순간이동 함포입니다. 재사용 대기 30초.</desc>
@@ -1280,7 +1280,7 @@
 	<tip>ce_tip_stungun</tip>
 	<title>블리스 신경 마비기</title>
 	<short>Bliss</short>
-	<flavorType>Stungun</flavorType>
+	<flavorType>스턴건</flavorType>
 	<desc>함선의 승무원 전체를 영구적으로 마비시킬 수 있는 불법 뇌파포입니다. 20초간 기절시킬 수 있습니다. 재사용 대기 40초.</desc>
 	<tooltip>자동으로 전체 적 승무원을 20초간 기절시키기를 시도합니다. 모든 방어막을 관통합니다. 재사용 대기 40초.</tooltip>
 	<radius>70</radius>
@@ -1324,7 +1324,7 @@
 	<tip>ce_tip_stungun</tip>
 	<title>블리스 신경 마비기</title>
 	<short>Bliss</short>
-	<flavorType>Stungun</flavorType>
+	<flavorType>스턴건</flavorType>
 	<desc>함선의 승무원 전체를 영구적으로 마비시킬 수 있는 불법 뇌파포입니다. 20초간 기절시킬 수 있습니다. 재사용 대기 40초.</desc>
 	<tooltip>자동으로 전체 적 승무원을 20초간 기절시키기를 시도합니다. 모든 방어막을 관통합니다. 재사용 대기 40초.</tooltip>
 	<radius>70</radius>
@@ -1367,7 +1367,7 @@
 	<tip>ce_tip_stungun</tip>
 	<title>블리스 신경 마비기</title>
 	<short>Bliss</short>
-	<flavorType>Stungun</flavorType>
+	<flavorType>스턴건</flavorType>
 	<desc>함선의 승무원 전체를 영구적으로 마비시킬 수 있는 불법 뇌파포입니다. 20초간 기절시킬 수 있습니다. 재사용 대기 40초.</desc>
 	<tooltip>자동으로 전체 적 승무원을 20초간 기절시키기를 시도합니다. 모든 방어막을 관통합니다. 재사용 대기 40초.</tooltip>
 	<radius>70</radius>
@@ -1407,7 +1407,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_ROCK">
 	<type>BURST</type>
-	<flavorType>Swarm Missile Blast</flavorType>
+	<flavorType>스웜 미사일 블래스트</flavorType>
 	<title>엠페러 미사일 다발 포대</title>
 	<tip>tip_flak</tip>
 	<short>Emperor</short>
@@ -1461,7 +1461,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_ROCK_PLASMA">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<tip>ce_tip_plasma</tip>
 	<title>마더 썬 플라즈마 투사기</title>
 	<short>Mother Sun</short>
@@ -1503,7 +1503,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_ROCK_PLASMA_ENEMY">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<tip>ce_tip_plasma</tip>
 	<title>마더 썬 플라즈마 투사기</title>
 	<short>Mother Sun</short>
@@ -1546,7 +1546,7 @@
 
 <weaponBlueprint name="BA_ARTILLERY_STEALTH">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Blast</flavorType>
+	<flavorType>스웜 미사일 블래스트</flavorType>
 	<title>밸런타인 미사일 포대</title>
 	<tip>tip_flak</tip>
 	<short>Valentine</short>
@@ -2796,7 +2796,7 @@
 <weaponBlueprint name="BA_BEAM_NAGINATA">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>나기나카 빔</title>
+	<title>나기나타 빔</title>
 	<short>Naginata</short>
 	<desc>함체 전체를 갈라버릴 수 있는 고급 빔 무기.</desc>
 	<tooltip>향상된 공격범위를 가진 강력한 빔 무기. 방마다 2 피해.</tooltip>
@@ -3537,7 +3537,7 @@
 
 <weaponBlueprint name="BA_MINES_TECH">
 	<type>LASER</type>
-	<flavorType>Tech Mines</flavorType>
+	<flavorType>고기술 기뢰</flavorType>
 	<tip>ce_tip_mines_tech</tip>
 	<title>바알 기뢰 사출기</title>
 	<short>Baal</short>
@@ -3579,7 +3579,7 @@
 
 <weaponBlueprint name="BA_MINES_TECH_ENEMY">
 	<type>LASER</type>
-	<flavorType>Tech Mines</flavorType>
+	<flavorType>고기술 기뢰</flavorType>
 	<tip>ce_tip_mines_tech</tip>
 	<title>바알 기뢰 사출기</title>
 	<short>Baal</short>
@@ -3661,7 +3661,7 @@
 <weaponBlueprint name="BA_LASER_OLD">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>오래된 레이저</title>
+	<title>구식 레이저</title>
 	<short>Old Laser</short>
 	<desc>이 무기는 좋았던 때가 있었습니다.</desc>
 	<tooltip>1발; 발당 1 피해.</tooltip>
@@ -3700,7 +3700,7 @@
 <weaponBlueprint name="BA_LASER_DUAL_OLD">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>오래된 쌍발형 레이저</title>
+	<title>구식 쌍발형 레이저</title>
 	<short>Old D. Lasers</short>
 	<desc>버려진 약한 쌍발형 레이저. 없는 것보다야 낫습니다.</desc>
 	<tooltip>각각 1 피해를 주는 레이저 2발 사격.</tooltip>
@@ -3737,7 +3737,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_1">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 레이저 마크 I</title>
 	<short>Light L.I</short>
@@ -3779,7 +3779,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_2">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 레이저 마크 II</title>
 	<short>Light L.II</short>
@@ -3821,7 +3821,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_3">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 레이저 마크 III</title>
 	<short>Light L.III</short>
@@ -3863,7 +3863,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_AUTO">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 오토 레이저</title>
 	<short>Light Auto</short>
@@ -3905,7 +3905,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_SCATTER_1">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 산발형 레이저 마크 I</title>
 	<short>Light Sc. I</short>
@@ -3949,7 +3949,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_SCATTER_2">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 산발형 레이저 마크 II</title>
 	<short>Light Sc. II</short>
@@ -3993,7 +3993,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_SCATTER_3">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 산발형 레이저 마크 III</title>
 	<short>Light Sc. III</short>
@@ -4165,7 +4165,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_ARTILLERY">
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<tip>ce_tip_laser_light</tip>
 	<title>경량 레이저 대포</title>
 	<short>Light Arti.</short>
@@ -4738,7 +4738,7 @@
 	<title>레이저 대포 마크 II</title>
 	<short>Arti. II</short>
 	<desc>이 고급 레이저 대포는 충전 속도가 느리지만 큰 피해를 주며 1의 방어막도 관통합니다.</desc>
-	<tooltip>1발, 5 피해와 고확률 화재 및 균열.</tooltip>
+	<tooltip>1발, 6 피해와 고확률 화재 및 균열.</tooltip>
 	<damage>6</damage>
 	<stun>5</stun>
 	<shots>1</shots>
@@ -5453,7 +5453,7 @@
 	<tip>ce_tip_effector</tip>
 	<title>이펙터 마크 I</title>
 	<short>Effect I</short>
-	<flavorType>Ion Field Projector</flavorType>
+	<flavorType>이온장 발생기</flavorType>
 	<locked>1</locked>
 	<desc>방어막을 뚫고 지속적으로 시스템을 교란시킬 수 있는 기본 이온장 발생기.</desc>
 	<tooltip>피해 없이 지속적으로 2 시스템 바를 이온화하려 시도. 방어막 무시.</tooltip>
@@ -5496,7 +5496,7 @@
 	<title>이펙터 마크 II</title>
 	<short>Effect II</short>
 	<locked>1</locked>
-	<flavorType>Ion Field Projector</flavorType>
+	<flavorType>이온장 발생기</flavorType>
 	<desc>적함 내부에 이온장을 발생시켜 시스템을 교란시키는 충전형 발생 장치.</desc>
 	<tooltip>피해 없이 지속적으로 선택한 곳의 1 시스템 바를 이온화하려 시도. 방어막 무시.</tooltip>
 	<damage>0</damage>
@@ -5538,7 +5538,7 @@
 	<title>중형 이펙터</title>
 	<short>H. Effector</short>
 	<locked>1</locked>
-	<flavorType>Ion Field Projector</flavorType>
+	<flavorType>이온장 발생기</flavorType>
 	<desc>적함의 시스템을 심각하게 교란시키는 느린 충전형 이온장 발생기.</desc>
 	<tooltip>피해 없이 지속적으로 선택한 곳의 4 시스템 바를 이온화하려 시도. 방어막 무시.</tooltip>
 	<damage>0</damage>
@@ -5580,7 +5580,7 @@
 	<title>적응형 이펙터</title>
 	<short>A. Effector</short>
 	<locked>1</locked>
-	<flavorType>Ion Field Projector</flavorType>
+	<flavorType>이온장 발생기</flavorType>
 	<desc>최대 3까지 발사할 때마다 신속하게 적의 방어에 적응하고 이온 피해를 올리는 지능형 이온장 발생기.</desc>
 	<tooltip>피해 없이 지속적으로 선택한 곳의 1 시스템 바를 이온화하려 시도. 연사할때마다 이온 피해가 증가합니다. 방어막 무시.</tooltip>
 	<damage>0</damage>
@@ -5627,7 +5627,7 @@
 	<title>적응형 이펙터</title>
 	<short>A. Effector</short>
 	<locked>1</locked>
-	<flavorType>Ion Field Projector</flavorType>
+	<flavorType>이온장 발생기</flavorType>
 	<desc>적의 약점을 신속하게 분석하는 지능형 이온장 발생기. 최대 3까지 발사할 때마다 이온 피해를 올립니다.</desc>
 	<tooltip>피해 없이 지속적으로 선택한 곳의 1 시스템 바를 이온화하려 시도. 연사할때마다 이온 피해가 증가합니다. 방어막 무시.</tooltip>
 	<damage>0</damage>
@@ -6004,6 +6004,7 @@
 <weaponBlueprint name="BA_MISSILES_ONI">
 	<type>LASER</type>
 	<tip>ce_tip_missiles_tech</tip>
+	<flavorType>고기술 미사일</flavorType>
 	<title>오니 미사일</title>
 	<short>Oni</short>
 	<desc>적 방어 드론의 목표 시스템을 교란하는 첨단 은폐 미사일 발사기입니다. 이 미사일은 오직 고급 방어 드론으로만 격추됩니다.</desc>
@@ -6043,6 +6044,7 @@
 <weaponBlueprint name="BA_MISSILES_IFRIT">
 	<type>LASER</type>
 	<tip>ce_tip_missiles_tech</tip>
+	<flavorType>고기술 미사일</flavorType>
 	<title>이프리트 미사일</title>
 	<short>Ifrit</short>
 	<desc>미사일 1발 값에 4발을 쏘게 만들어주는 완벽한 설계의 미사일 발사기. 이 은폐 미사일은 오직 고급 방어 드론으로만 격추됩니다.</desc>
@@ -6082,7 +6084,7 @@
 
 <weaponBlueprint name="BA_MISSILES_SWARM_1">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Launcher</flavorType>
+	<flavorType>스웜 미사일 발사기</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
 	<title>오우거 미사일 포대</title>
 	<short>Ogre</short>
@@ -6126,7 +6128,7 @@
 
 <weaponBlueprint name="BA_MISSILES_SWARM_1_ENEMY">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Launcher</flavorType>
+	<flavorType>스웜 미사일 발사기</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
 	<title>오우거 미사일 포대</title>
 	<short>Ogre</short>
@@ -6169,7 +6171,7 @@
 
 <weaponBlueprint name="BA_MISSILES_SWARM_2">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Launcher</flavorType>
+	<flavorType>스웜 미사일 발사기</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
 	<title>레비아탄 미사일 포대</title>
 	<short>Leviath</short>
@@ -6213,7 +6215,7 @@
 
 <weaponBlueprint name="BA_MISSILES_SWARM_2_ENEMY">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Launcher</flavorType>
+	<flavorType>스웜 미사일 발사기</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
 	<title>레비아탄 미사일 포대</title>
 	<short>Leviath</short>
@@ -6256,7 +6258,7 @@
 
 <weaponBlueprint name="BA_MISSILES_SWARM_3">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Launcher</flavorType>
+	<flavorType>스웜 미사일 발사기</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
 	<title>타이탄 미사일 포대</title>
 	<short>Titan</short>
@@ -6300,7 +6302,7 @@
 
 <weaponBlueprint name="BA_MISSILES_SWARM_3_ENEMY">
 	<type>LASER</type>
-	<flavorType>Swarm Missile Launcher</flavorType>
+	<flavorType>스웜 미사일 발사기</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
 	<title>타이탄 미사일 포대</title>
 	<short>Titan</short>
@@ -6347,7 +6349,7 @@
 
 <weaponBlueprint name="BA_SHOTGUN_ION_1">
 	<type>BURST</type>
-	<flavorType>Ion Flak Gun</flavorType>
+	<flavorType>이온 대공포</flavorType>
 	<title>이온 대공포 마크 I</title>
 	<tip>tip_flak</tip>
 	<short>Ion Flak I</short>
@@ -6397,7 +6399,7 @@
 
 <weaponBlueprint name="BA_SHOTGUN_ION_2">
 	<type>BURST</type>
-	<flavorType>Ion Flak Gun</flavorType>
+	<flavorType>이온 대공포</flavorType>
 	<title>이온 대공포 마크 II</title>
 	<tip>tip_flak</tip>
 	<short>Ion Flak II</short>
@@ -6734,7 +6736,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_CHAINGUN">  
 	<type>LASER</type>
-	<flavorType>Antipersonnel Laser</flavorType>
+	<flavorType>대인 레이저</flavorType>
 	<title>경량 연사식 발칸</title>
 	<short>Light Vulcan</short>
 	<tip>ce_tip_chain_laser_light</tip>
@@ -6781,7 +6783,7 @@
 
 <weaponBlueprint name="BA_SHOTGUN_SMALL">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>대공포 마크 I</title>
 	<tip>tip_flak</tip>
 	<short>Flak I</short>
@@ -6827,7 +6829,7 @@
 
 <weaponBlueprint name="BA_SHOTGUN_SCATTER">
 	<type>BURST</type>
-	<flavorType>Laser Projectile Blast</flavorType>
+	<flavorType>레이저 탄환 블래스트</flavorType>
 	<title>산발형 레이저 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Scatter Flak</short>
@@ -6876,7 +6878,7 @@
 
 <weaponBlueprint name="BA_SHOTGUN_MISSILES">
 	<type>BURST</type>
-	<flavorType>Swarm Missile Blast</flavorType>
+	<flavorType>스웜 미사일 블래스트</flavorType>
 	<title>미사일 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
@@ -6928,7 +6930,7 @@
 
 <weaponBlueprint name="BA_SHOTGUN_MISSILES_ENEMY">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>미사일 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
@@ -6982,7 +6984,7 @@
 
 <weaponBlueprint name="BA_PLASMA_1">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>플라즈마 투사기 마크 I</title>
 	<tip>ce_tip_plasma</tip>
 	<short>Plasma I</short>
@@ -7026,7 +7028,7 @@
 
 <weaponBlueprint name="BA_PLASMA_1_ENEMY">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>플라즈마 투사기 마크 I</title>
 	<tip>ce_tip_plasma</tip>
 	<short>Plasma I</short>
@@ -7070,7 +7072,7 @@
 
 <weaponBlueprint name="BA_PLASMA_2">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>플라즈마 투사기 마크 II</title>
 	<tip>ce_tip_plasma</tip>
 	<short>Plasma II</short>
@@ -7113,7 +7115,7 @@
 
 <weaponBlueprint name="BA_PLASMA_2_ENEMY">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<title>플라즈마 투사기 마크 II</title>
 	<tip>ce_tip_plasma</tip>
 	<short>Plasma II</short>
@@ -7160,7 +7162,7 @@
 	<title>신경 마비기 마크 I</title>
 	<tip>ce_tip_stungun</tip>
 	<short>Neural Stun I</short>
-	<flavorType>Stungun</flavorType>
+	<flavorType>스턴건</flavorType>
 	<desc>방어막을 뚫고 다수의 승무원들을 마비시킬 수 있는 실험적인 파장 생성기.</desc>
 	<tooltip>고확률로 넓은 범위의 승무원들을 5초간 기절. 모든 방어막을 관통합니다.</tooltip>
 	<radius>105</radius>
@@ -7205,7 +7207,7 @@
 	<title>신경 마비기 마크 II</title>
 	<tip>ce_tip_stungun</tip>
 	<short>Neural Stun II</short>
-	<flavorType>Stungun</flavorType>
+	<flavorType>스턴건</flavorType>
 	<desc>Advanced field generation device that pierces shields and can incapacitate entire ship crews.</desc>
 	<desc>방어막을 뚫고 함선 승무원 전체를 무력화시킬 수 있는 고급 파장 생성기.</desc>
 	<tooltip>고확률로 매우 넓은 범위의 승무원들을 10초간 기절. 모든 방어막을 관통합니다.</tooltip>
@@ -7500,7 +7502,7 @@
 
 <weaponBlueprint name="BA_MISSILE_CHARGEGUN_SMALL">
 	<type>BURST</type>
-	<flavorType>Charge Blast Missile</flavorType>
+	<flavorType>충전 미사일 블래스트</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>충전식 미사일 마크 I</title>
 	<tip>tip_charge</tip>
@@ -8747,7 +8749,7 @@
 
 <weaponBlueprint name="BA_MISSILES_ONI_ENEMY">
 	<type>LASER</type>
-	<flavorType>Tech Missiles</flavorType>
+	<flavorType>고기술 미사일</flavorType>
 	<title>오니 미사일</title>
 	<short>Oni</short>
 	<desc>Enemy weapon. You shouldn't see this description.</desc>
@@ -8786,7 +8788,7 @@
 
 <weaponBlueprint name="BA_MISSILES_IFRIT_ENEMY">
 	<type>LASER</type>
-	<flavorType>Tech Missiles</flavorType>
+	<flavorType>고기술 미사일</flavorType>
 	<title>이프리트 미사일</title>
 	<short>Ifrit</short>
 	<desc>Enemy weapon. You shouldn't see this description.</desc>
@@ -16243,7 +16245,7 @@
 	<mod-overwrite:short>Peryton M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_COCKATRICE">
-	<mod-overwrite:title>코카트리스 미사일 발사가ㅣ</mod-overwrite:title>
+	<mod-overwrite:title>코카트리스 미사일 발사기ㅣ</mod-overwrite:title>
 	<mod-overwrite:short>Cockatrice M.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_FIRE">
@@ -16269,11 +16271,11 @@
 	<mod-overwrite:short>Chaff L.</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_OLD">
-	<mod-overwrite:title>오래된 레이저 I</mod-overwrite:title>
+	<mod-overwrite:title>구식 레이저 I</mod-overwrite:title>
 	<mod-overwrite:short>Basic Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_DUAL_OLD">
-	<mod-overwrite:title>오래된 쌍발형 레이저 I</mod-overwrite:title>
+	<mod-overwrite:title>구식 쌍발형 레이저 I</mod-overwrite:title>
 	<mod-overwrite:short>Dual Laser I</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_1">
@@ -16562,9 +16564,6 @@
 <mod:findName type="shipBlueprint" name="TUTORIAL_PIRATE">
 	<mod:setAttributes img="jelly_button_pirate"/>
 	<mod-overwrite:class>해적 요격기</mod-overwrite:class>
-</mod:findName>
-<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
-	<mod-overwrite:cloakImage>kestral_2</mod-overwrite:cloakImage>
 </mod:findName>
 <mod:findName type="shipBlueprint" name="BOSS_SPECIAL">
 	<mod-overwrite:class>미완성 반란군 기함</mod-overwrite:class>
