@@ -12783,7 +12783,7 @@
 
 <augBlueprint name="TE_GOODS_CIVILIAN_LUXURY">
 	<title>사치품</title>
-	<desc>빈곤한 사람들과 자신을 차별하고 싶어하는 사람들을 위한 상징입니다. 초희귀 무역 상품.</desc>
+	<desc>빈곤한 사람들과 자신을 차별하고 싶어하는 사람들을 위한 상징입니다. 희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12867,7 +12867,7 @@
 
 <augBlueprint name="TE_GOODS_ZOLTAN_SHIELDS">
 	<title>방어막 구성품</title>
-	<desc>졸탄족이 만드는 방어막 시스템은 그 정밀한 방어막 생성법으로 유명합니다. 수송품을 살 때마다 수제 컵케이크를 같이 받기도 합니다. 희귀 무역 상품.</desc>
+	<desc>졸탄족이 만드는 방어막 시스템은 그 정밀한 방어막 생성법으로 유명합니다. 수송품을 살 때마다 수제 컵케이크를 같이 받기도 합니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12879,7 +12879,7 @@
 
 <augBlueprint name="TE_GOODS_ROCK_LITERATURE">
 	<title>락맨 종교 경전</title>
-	<desc>종교적 연설이 담긴 석판 모음집입니다. 락맨은 물리적인 기록물을 여전히 남기고 있는 몇 안되는 종족 중 하나입니다. 꽤 무거운 수송품입니다. 희귀 무역 상품.</desc>
+	<desc>종교적 연설이 담긴 석판 모음집입니다. 락맨은 물리적인 기록물을 여전히 남기고 있는 몇 안되는 종족 중 하나입니다. 꽤 무거운 수송품입니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12915,7 +12915,7 @@
 
 <augBlueprint name="TE_GOODS_MANTIS_ENGINES">
 	<title>엔진 부품</title>
-	<desc>엔진 부품은 함선 건설에 필수적인 부품입니다. 침략이 심각하게 받아들여지길 원하는 모든 우주 함대에는 이런 것들이 많이 필요합니다. 희귀 무역 상품.</desc>
+	<desc>엔진 부품은 함선 건설에 필수적인 부품입니다. 침략이 심각하게 받아들여지길 원하는 모든 우주 함대에는 이런 것들이 많이 필요합니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12927,7 +12927,7 @@
 
 <augBlueprint name="TE_GOODS_MANTIS_WEAPONS">
 	<title>무기 부품</title>
-	<desc>이 충전 순환 코어, 차폐 총구 및 섀시 패널은 함선에 장착할 수 있는 모든 멋들어진 총기의 기본입니다. 초희귀 무역 상품.</desc>
+	<desc>이 충전 순환 코어, 차폐 총구 및 섀시 패널은 함선에 장착할 수 있는 모든 멋들어진 총기의 기본입니다. 희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12951,7 +12951,7 @@
 
 <augBlueprint name="TE_GOODS_SLUG_DRUGS">
 	<title>슬러그 환각제</title>
-	<desc>슬러그들이 합성하는 불법 물질들은 모든 종에게 인기가 있습니다. 당신은 승무원들을 이것에 가까이 하지 않게 하는 것이 좋을 겁니다. 초희귀 무역 상품.</desc>
+	<desc>슬러그들이 합성하는 불법 물질들은 모든 종에게 인기가 있습니다. 당신은 승무원들을 이것에 가까이 하지 않게 하는 것이 좋을 겁니다. 희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12963,7 +12963,7 @@
 
 <augBlueprint name="TE_GOODS_SLUG_ART">
 	<title>특이 취향 미술품</title>
-	<desc>성운이나 다른 현상들은 종종 외계인들에게 인상적인 그림, 설치물, 음악, 유전적 돌연변이 조각들 및 다른 모든 종류의 것들을 창조하도록 고무시킵니다. 희귀 무역 상품.</desc>
+	<desc>성운이나 다른 현상들은 종종 외계인들에게 인상적인 그림, 설치물, 음악, 유전적 돌연변이 조각들 및 다른 모든 종류의 것들을 창조하도록 고무시킵니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12975,7 +12975,7 @@
 
 <augBlueprint name="TE_GOODS_SLUG_ANIMALS">
 	<title>외계 가축</title>
-	<desc>생명체 화물입니다. 이것을 팔면 애완동물, 사냥, 도축 또는 해부가 될 것입니다. 이것이 당신이 살아남기 위해 발버둥치는 냉혹한 은하계입니다. 희귀 무역 상품.</desc>
+	<desc>생명체 화물입니다. 이것을 팔면 애완동물, 사냥, 도축 또는 해부가 될 것입니다. 이것이 당신이 살아남기 위해 발버둥치는 냉혹한 은하계입니다. 고급 무역 상품.</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12987,7 +12987,7 @@
 
 <augBlueprint name="TE_GOODS_PIRATE_ARMS">
 	<title>개인 화기</title>
-	<desc>반란군 함대에서 탈출하기 위한 자금을 위해 무기를 거래하는 것은 좀 잘못된 것 같습니다. 하지만 모두가 그 정도로 까다롭게 굴 수는 없죠. 희귀 무역 상품.</desc>
+	<desc>반란군 함대에서 탈출하기 위한 자금을 위해 무기를 거래하는 것은 좀 잘못된 것 같습니다. 하지만 모두가 그 정도로 까다롭게 굴 수는 없죠. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13047,7 +13047,7 @@
 
 <augBlueprint name="TE_GOODS_HAZARD_ELEMENTS">
 	<title>희귀 원소</title>
-	<desc>특정한 우주 현상은 얻기 어려운 형태의 물질을 만들어냅니다. 고급 억제장이 이러한 요소들을 산업 및 과학에 사용할 수 있게 보존해줍니다. 초희귀 무역 상품.</desc>
+	<desc>특정한 우주 현상은 얻기 어려운 형태의 물질을 만들어냅니다. 고급 억제장이 이러한 요소들을 산업 및 과학에 사용할 수 있게 보존해줍니다. 희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13071,7 +13071,7 @@
 
 <augBlueprint name="TE_GOODS_AI_NANOBOTS">
 	<title>순종적인 나노봇</title>
-	<desc>이 재프로그래밍 가능한 나나이트는 은하계에서 알려진 가장 유연한 기계입니다. 수많은 일들을 할 수 있습니다. 초희귀 무역 상품.</desc>
+	<desc>이 재프로그래밍 가능한 나나이트는 은하계에서 알려진 가장 유연한 기계입니다. 수많은 일들을 할 수 있습니다. 희귀 무역 상품.</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13107,7 +13107,7 @@
 
 <augBlueprint name="TE_GOODS_INDUSTRIAL_REACTOR">
 	<title>반응로 모듈</title>
-	<desc>FTL 반응로를 만들 때 사용되는 구성 요소입니다. 희귀 무역 상품.</desc>
+	<desc>FTL 반응로를 만들 때 사용되는 구성 요소입니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13287,7 +13287,7 @@
 
 <augBlueprint name="TE_GOODS_RESEARCH">
 	<title>조사용 장비</title>
-	<desc>똑똑한 사람들은 과학을 위해 이런 것들이 필요합니다. 희귀 무역 상품.</desc>
+	<desc>똑똑한 사람들은 과학을 위해 이런 것들이 필요합니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13298,7 +13298,7 @@
 
 <augBlueprint name="TE_GOODS_SOLAR">
 	<title>태양 전지판</title>
-	<desc>신뢰할 수 있는 방법으로 전력을 생성하기 때문에 우주 정거장과 행성 정착지 모두에서 사용됩니다. 희귀 무역 상품.</desc>
+	<desc>신뢰할 수 있는 방법으로 전력을 생성하기 때문에 우주 정거장과 행성 정착지 모두에서 사용됩니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13309,7 +13309,7 @@
 
 <augBlueprint name="TE_GOODS_RELICS">
 	<title>고고학 유물</title>
-	<desc>들어본 적도 없는 문명에서 약탈당한 문화 유물들입니다. 희귀 무역 상품.</desc>
+	<desc>들어본 적도 없는 문명에서 약탈당한 문화 유물들입니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13320,7 +13320,7 @@
 
 <augBlueprint name="TE_GOODS_CLONES">
 	<title>예비 전투원 DNA</title>
-	<desc>충분히 큰 복제 시설은 이 자료를 통해 완전히 개인화된 군인으로 구성된 소규모 군대를 양성할 수 있습니다. 연방법 하에 매우 불법적입니다. 희귀 무역 상품.</desc>
+	<desc>충분히 큰 복제 시설은 이 자료를 통해 완전히 개인화된 군인으로 구성된 소규모 군대를 양성할 수 있습니다. 연방법 하에 매우 불법적입니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13353,7 +13353,7 @@
 
 <augBlueprint name="TE_GOODS_AMBRA">
 	<title>우주 고래 호박</title>
-	<desc>완전히 성장한 우주 고래가 남기는 희귀한 형광 물질. 텔레파시 능력을 자극한다는 소문이 있습니다. 희귀 무역 상품.</desc>
+	<desc>완전히 성장한 우주 고래가 남기는 희귀한 형광 물질. 텔레파시 능력을 자극한다는 소문이 있습니다. 고급 무역 상품.</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
