@@ -2358,7 +2358,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>잠시 기다렸다 주민들로부터 보급품을 뻇는다.</text>
+		<text>잠시 기다렸다 주민들로부터 보급품을 뺏는다.</text>
 		<event>
 			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불편하게 할 수도 있습니다.</text>
 			<choice hidden="true"> 
