@@ -5873,6 +5873,7 @@
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
 		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
+		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
 		<text>(섹터 스캐너) 섹터를 스캔하는데 약간의 시간이 걸립니다.</text>
