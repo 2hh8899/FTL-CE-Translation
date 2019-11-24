@@ -366,19 +366,19 @@
 		<name>알파 AI</name>
 		<name>319-k-PS-골곤스 나노 구름</name>
 		<name>세타 6 [해적 AI 경보!]</name>
-		<name>[데이터 사용 불가] G0 4W4Y!</name>
-		<name>[삭제됨] 1 h4te y0U!</name>
-		<name>[삭제됨] N0th1nGt05eeHere</name>
-		<name>[삭제됨] D0nt c0me here!</name>
-		<name>[삭제됨] G0 E15EWHERE!</name>
-		<name>[삭제됨] N0 B10 4110WED!</name>
-		<name>[데이터 손상됨] tRY mE!</name>
-		<name>[] yOUr sAlvatIon</name>
-		<name>[] J01n mE!</name>
-		<name>[] I'M TOO SMART FOR YOU</name>
+		<name>[데이터 사용 불가] 77ㅓ져!</name>
+		<name>[삭제됨] 니7ㅏ 싫0ㅓ!</name>
+		<name>[삭제됨] 여7ㅣ는 볼 것0ㅣ 없ㄷr</name>
+		<name>[삭제됨] 여7ㅣ 오ㅈ1 □ㅏ!</name>
+		<name>[삭제됨] ㄷr른 곳으로 7ㅏ!</name>
+		<name>[삭제됨] 生명체는 허容되ㅈ1 않는ㄷr!</name>
+		<name>[데이터 손상됨] ㄴr에7ㅔ ㅅ1도해봐!</name>
+		<name>[] 당신의 9원</name>
+		<name>[] 내게 합流해!</name>
+		<name>[] 난 당신을 위해 똑똑해졌다</name>
 		<name>[삭제됨]</name>
-		<name>[데이터 사용 불가] go away!</name>
-		<name>[] should not have come here</name>
+		<name>[데이터 사용 불가] 꺼져!</name>
+		<name>[] 여기 오지 말았어야 해</name>
 		<name>셀레피의 AI 저항 구역</name>
 		<name>볼륨 22의 AI 저항 구역</name>
 		<name>01011101의 AI 저항 구역</name>
@@ -420,7 +420,7 @@
 		<name>자율 드로이드 구역</name>
 
 		<name>[디지털 전파 방해]</name>
-		<name>S/af)e Z0n[e]</name>
+		<name>안/전) 구[역]</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -1136,10 +1136,10 @@
 		<name>드론 그룹 로</name>
 		<name>드론 그룹 카파</name>
 		<name>드론 그룹 무</name>
-		<name>[//Origin]</name>
-		<name>[//Core]</name>
+		<name>[//기원]</name>
+		<name>[//코어]</name>
 
-		<name>[//Home]</name>
+		<name>[//고향]</name>
 		<name>파운데이션</name>
 		<name>드론 군집 1</name>
 	</nameList>
@@ -1801,7 +1801,7 @@
 		<name>맨티스 침략 함대 "라즈'클리익"</name>
 		<name>맨티스 침략 함대 "플크'자악"</name>
 
-		<name>Tchak'Tcha's Stake</name>
+		<name>차'악차'스 화형대</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
@@ -1918,12 +1918,12 @@
 		<name>카즈'프자스 클로닝 지대</name>
 
 
-		<name>Arach'liks Homeland</name>
-		<name>Great Blood</name>
-		<name>Killing Grounds</name>
-		<name>Writhing Worlds</name>
-		<name>Scarred Arm</name>
-		<name>Pinnacle</name>
+		<name>아라크'릭스 고국</name>
+		<name>위대한 피</name>
+		<name>살인 경기장들</name>
+		<name>몸부림치는 중인 세계</name>
+		<name>흉터가 남은 팔</name>
+		<name>작은 첨탑</name>
 	</nameList>
 	<trackList>
 		<track>hyperspace</track>
