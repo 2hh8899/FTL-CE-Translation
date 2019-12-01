@@ -13,3 +13,5 @@
 [[모드로더 및 모드 설치법]](https://subsetgames.com/ftl_mods.html)은 여기서 확인이 가능합니다.
 
 모드.ftl 파일의 확장자를 .zip으로 바꾼 후, 내용물의 **/data** 폴더 안에 이 깃헙의 파일들을 다 때려박아 교체하시면 한글패치가 됩니다.
+
+### [[이곳]](https://github.com/2hh8899/FTL-CE-KR-Patch)에서 패치 파일 형태로 변환작업중입니다.
