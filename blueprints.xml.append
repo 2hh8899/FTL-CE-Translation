@@ -11107,9 +11107,9 @@
 <droneBlueprint name="DE_DRONE_LIGHT_SCATTER">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Scatter Drone</title>
+	<title>경량 산발형 드론</title>
 	<short>Light Scatter</short>
-	<desc>Dangerous drone that shreds enemy crew with a light scatter laser.</desc>
+	<desc>경량 산발형 레이저로 적 승무원을 갈기갈기 찢는 위험한 드론.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
