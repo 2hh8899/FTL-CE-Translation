@@ -376,7 +376,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<quest event="CE_BOUNTY_LANIUS"/>
 	</event>
 	<event> <!--  Nothing -->
-		<text>이 섹터에는 잡을 수 있는 현상범이 없습니다. 대부분의 사람들이 이미 떠났어요.</text>
+		<text>이 섹터에는 잡을 수 있는 현상범이 없습니다. 대부분의 사람들이 이미 떠났습니다.</text>
 	</event>
 </eventList>		
 		
@@ -1495,7 +1495,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice>
 		<text>그들은 쉬운 목표다. 그들의 장비를 빼앗아라.</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이 행위는 승무원들을 불편하게할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이 행위는 승무원들을 불편하게 할 수도 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -3336,7 +3336,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice>
 		<text>계속...</text>
 		<event>
-			<text>당신은 침입자의 함성과 함께 뒤따라 온 침입자 무리의 함성을 들을 수 있었다. 침입자 경보!</text>
+			<text>당신은 침입자의 함성과 함께 뒤따라 온 침입자 무리의 함성을 들을 수 있었습니다. 침입자 경보!</text>
 			<boarders min="3" max="4" class="human"/>
 		</event>
 	</choice>
@@ -3436,15 +3436,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 <eventList name="CE_LANIUS_STRANDED_RESCUE">
 	<event>
-		<text>에어락을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화디고 있습니다.</text>
+		<text>에어락을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화되고 있습니다.</text>
 		<boarders min="3" max="4" class="anaerobic"/>
 	</event>
 	<event>
-		<text>에어락을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화디고 있습니다.</text>
+		<text>에어락을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화되고 있습니다.</text>
 		<boarders min="3" max="4" class="anaerobic"/>
 	</event>
 	<event>
-		<text>에어락을 열고 라니우스를 탑승시켰습니다. 무리는 매우 감사를 표현했고 무리의 지도자는 엄하게 그들을 통제하고 있습니다. 생존자들이 당신 배를 먹으려는 시도는 즉시 처벌되었습니다. 젊은 라니우스 중 하나는 수준 높은 말투로 묻습니다. "음식"과 교환 할 수있는 "작업"이 있는지 말입니다..</text>
+		<text>에어락을 열고 라니우스를 탑승시켰습니다. 무리는 매우 감사를 표현했고 무리의 지도자가 엄하게 그들을 통제합니다. 생존자들이 당신 배를 먹으려는 시도는 즉시 처벌되었습니다. 젊은 라니우스 중 하나는 수준 높은 말투로 묻습니다. "음식"과 교환 할 수있는 "작업"이 있는지 말입니다..</text>
 			<choice hidden="true">
 				<text>라니우스를 고용하고 30 스크랩을 먹입니다.</text>
 				<event>
