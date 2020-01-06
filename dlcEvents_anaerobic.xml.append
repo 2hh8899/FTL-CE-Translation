@@ -376,7 +376,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<quest event="CE_BOUNTY_LANIUS"/>
 	</event>
 	<event> <!--  Nothing -->
-		<text>이 섹터에는 이용할 수 있는 법적인 표시가 없다. 대부분의 사람들이 이미 떠났다. </text>
+		<text>이 섹터에는 잡을 수 있는 현상범이 없습니다. 대부분의 사람들이 이미 떠났습니다.</text>
 	</event>
 </eventList>		
 		
@@ -463,7 +463,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 
 <event name="LANIUS_DISTRESS_EMPTY" unique="true">
-	<text>당신은 교전준비를 갖춘 채 구조신호가 흘러나오는 신호기에 도착합니다. 하지만 당신은 첫눈에 이곳이 텅 비어있단 사실을 알게 됩니다. 구조신호는 달 궤도에 떠다니고 있던 조그마한 플라스틱 인공위성에서 흘러나오고 있었습니다. 반복재생되는 신호의 내용은 원래 여기 거주하던 사람들이 라니우스의 위협으로 인해 구역을 버리게 된 사연이었습니다. 당신은 근처에서 아무런 거주지의 흔적도 발견하지 못합니다.</text>
+	<text>당신은 교전준비를 갖춘 채 구조신호가 흘러나오는 신호소에 도착합니다. 하지만 당신은 첫눈에 이곳이 텅 비어있단 사실을 알게 됩니다. 구조신호는 달 궤도에 떠다니고 있던 조그마한 플라스틱 인공위성에서 흘러나오고 있었습니다. 반복재생되는 신호의 내용은 원래 여기 거주하던 사람들이 라니우스의 위협으로 인해 구역을 버리게 된 사연이었습니다. 당신은 근처에서 아무런 거주지의 흔적도 발견하지 못합니다.</text>
 	<distressBeacon/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -537,7 +537,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 </event>
 
 <event name="LANIUS_DISTRESS_TOOLATE" unique="true">
-	<text>신호기에 도착하자마자, 당신은 구조신호가 어디서 흘러나오는지 재빨리 수색합니다. 하지만 이내 신호가 끊어집니다. 그때 당신의 눈에는 웬 작은 함대가 근처에서 벌어졌던 거대한 전투의 폐허에서 그 잔해들을 흡수하고 있는 광경이 들어옵니다. 당신은 대체 어디서 그 구조신호를 보냈을까, 하는 의문을 숨길 수 없었지만, 저 함대를 도발하는 위험을 감수하진 않기로 결정합니다.</text>
+	<text>신호소에 도착하자마자, 당신은 구조신호가 어디서 흘러나오는지 재빨리 수색합니다. 하지만 이내 신호가 끊어집니다. 그때 당신의 눈에는 웬 작은 함대가 근처에서 벌어졌던 거대한 전투의 폐허에서 그 잔해들을 흡수하고 있는 광경이 들어옵니다. 당신은 대체 어디서 그 구조신호를 보냈을까, 하는 의문을 숨길 수 없었지만, 저 함대를 도발하는 위험을 감수하진 않기로 결정합니다.</text>
 	<distressBeacon/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -818,7 +818,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-			<text>라니우스는 우주 전투 태도에 신경쓰지 않고, 오직 더 많은 금속만 원합니다. 그들은 기묘하게 표현된 리스트를 보냈는데, 배의 어느 부분을 벗겨 낼 것인지 자세히 설명합니다. "그 후...넌...자유다!"</text>
+			<text>라니우스는 우주 전투수칙에 신경쓰지 않고, 오직 더 많은 금속만 원합니다. 그들은 기묘하게 표현된 리스트를 보냈는데, 배의 어느 부분을 벗겨 낼 것인지 자세히 설명합니다. "그 후...넌...자유다!"</text>
 				<choice>
 					<text>제안을 수용하고 그들이 당신의 배를 파괴하게 내버려둡니다.</text>
 					<event>
@@ -901,7 +901,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-			<text>라니우스는 우주 전투 태도에 신경쓰지 않고, 오직 더 많은 금속만 원합니다. 그들은 기묘하게 표현된 리스트를 보냈는데, 배의 어느 부분을 벗겨 낼 것인지 자세히 설명합니다. "그 후...넌...자유다!"</text>
+			<text>라니우스는 우주 전투수칙에 신경쓰지 않고, 오직 더 많은 금속만 원합니다. 그들은 기묘하게 표현된 리스트를 보냈는데, 배의 어느 부분을 벗겨 낼 것인지 자세히 설명합니다. "그 후...넌...자유다!"</text>
 				<choice>
 					<text>제안을 수용하고 그들이 당신의 배를 파괴하게 내버려둡니다.</text>
 					<event>
@@ -984,7 +984,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-			<text>라니우스는 우주 전투 태도에 신경쓰지 않고, 오직 더 많은 금속만 원합니다. 그들은 기묘하게 표현된 리스트를 보냈는데, 배의 어느 부분을 벗겨 낼 것인지 자세히 설명합니다. "그 후...넌...자유다!"</text>
+			<text>라니우스는 우주 전투수칙에 신경쓰지 않고, 오직 더 많은 금속만 원합니다. 그들은 기묘하게 표현된 리스트를 보냈는데, 배의 어느 부분을 벗겨 낼 것인지 자세히 설명합니다. "그 후...넌...자유다!"</text>
 				<choice>
 					<text>제안을 수용하고 그들이 당신의 배를 파괴하게 내버려둡니다.</text>
 					<event>
@@ -1066,7 +1066,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 </eventList>
 <textList name="CE_PLAYER_SURRENDER_LANIUS_TEXT">
 	<text>라니우스 배가 정박한 후 섬뜩한 소리로 당신을 환영합니다. "그으으으으으으음소오오오오오오옥!"</text>
-	<text>라니우스 배가 정박한 후 환영합니다:"물질...필요." 이것은 예상되었습니다...</text> - 여기까지 번역함-
+	<text>라니우스 배가 정박한 후 환영합니다:"물질...필요." 이것은 예상되었습니다...</text>
 	<text>통신 보고서에 의하면 라니우스가 당신에게 신호를 보내고 있다. 선장은 화면에 나타나지만, 아무런 말도 하지 않고 있습니다. 함선은 당신에게 점점 다가가고, 스크랩 복구 팔은 점차 확장됩니다.</text>
 	<text>라니우스가 채널을 엽니다. 당신이 하는 말을 그들이 이해할 수 있을지 궁금해하며 쇼를 꾸미고 살려달라고 애원한다.</text>
 	<text>컴퓨터는 당신의 항복 메세지를 번역합니다. 라니우스는 이를 이해한 것 같습니다.</text>
@@ -1145,7 +1145,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>갈등을 피한다.</text>
+		<text>충돌을 피한다.</text>
 		<event>
 			<text>당신의 승무원들은 민간인을 그러한 운명에 빠뜨리는 것을 불행하게도 생각하지만 당신은 더 좋은 것들이 있다고 그들을 납득시킵니다. 하지만 당신은 당신의 착각에 대해선 얘기하지 않습니다.</text>
 		</event>
@@ -1219,7 +1219,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 
 <event name="LANIUS_SLUG_DISTRESS" unique="true">
-	<text>이 시스템의 조난 신호는 라니우스의 공격을 받고 있는 슬러그 선박에서 나옵니다! 라니우스가 함체 도금을 뜯고 있는 슬러그 함선은 도움을 요청합니다.</text>
+	<text>이 성계의 조난신호는 라니우스의 공격을 받고 있는 슬러그 선박에서 나옵니다! 라니우스에게 함체 도금을 뜯기고 있는 슬러그 선박이 도움을 요청합니다.</text>
 	<distressBeacon/>
 	<choice>
 		<text>라니우스 함선을 공격한다.</text>
@@ -1273,15 +1273,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice>
-		<text>슬러그 함선을 그들의 운명에 맡기고 떠납니다.</text>
+		<text>슬러그 선박을 그들의 운명에 맡기고 떠납니다.</text>
 		<event>
-			<text>당신은 라니우스 배를 혼자 남겨두고, 다음 신호소로 출발할 준비를 합니다.</text>
+			<text>당신은 라니우스 배를 홀로 남겨두고, 다음 신호소로 출발할 준비를 합니다.</text>
 		</event>
 	</choice>
 </event>
 
 <event name="LANIUS_DISTRESS_TRAP" unique="true">
-	<text>당신은 너무 늦었습니다 - 함선 시스템에서 방출한 조난 신호는 당신 뿐만 아니라 라니우스 함선을 끌여들였습니다. 원래의 목표를 모두 먹어치운 라니우스 함선은 이제 당신의 함선에 주의를 돌립니다.</text>
+	<text>당신은 너무 늦었습니다 - 함선 시스템에서 방출한 조난신호는 당신 뿐만 아니라 라니우스 함선을 끌여들였습니다. 원래의 목표를 모두 먹어치운 라니우스 함선은 이제 당신의 함선에 주의를 돌립니다.</text>
 	<ship load="LANIUS_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1335,7 +1335,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 </event>
 
 <event name="LANIUS_MANTIS_DISTRESS" unique="true">
-	<text>맨티스 함선에 있는 시스템은 조난 신호가 오작동하고 있는 것 같습니다...아마 라니우스 함선이 함체와 하위 시스템을 채굴했기 때문입니다! 맨티스 함선이 오래 갈 것처럼 여겨지지 않습니다.</text>
+	<text>맨티스 함선에 있는 시스템은 조난신호가 오작동하고 있는 것 같습니다... 아마 라니우스 함선이 함체와 하위 시설을 채굴했기 때문입니다! 맨티스 함선이 오래 갈 것처럼 여겨지지 않습니다.</text>
 	<distressBeacon/>
 	<choice>
 		<text>라니우스 함선을 공격한다.</text>
@@ -1397,7 +1397,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 </event>
 
 <event name="LANIUS_ROCK_DISTRESS" unique="true">
-	<text>락맨 함선에 있는 시스템에서 발생한 신호는 점차 약해지고 있습니다... 그들의 선체 (와 그들의 승무원)은 라니우스 함선의 레이저와 무기에 의해 찢겨지고 있습니다! </text>
+	<text>락맨 함선에 있는 시스템에서 발생한 신호는 점차 약해지고 있습니다... 그들의 선체(와 그들의 승무원)은 라니우스 함선의 레이저와 무기에 의해 찢겨지고 있습니다! </text>
 	<distressBeacon/>
 	<choice>
 		<text>라니우스 함선을 공격한다.</text>
@@ -1489,13 +1489,13 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice>
 		<text>떠난다.</text>
 		<event>
-			<text>그들이 잘되길 바라며 점프할 준비를 합니다.</text>
+			<text>그들이 잘되길 바라며 도약할 준비를 합니다.</text>
 		</event>
 	</choice>
 	<choice>
 		<text>그들은 쉬운 목표다. 그들의 장비를 빼앗아라.</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것이 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이 행위는 승무원들을 불편하게 할 수도 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -1505,7 +1505,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 해적질을 하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
@@ -1961,7 +1961,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 <event name="LANIUS_NOBOARDERS_PDS" unique="true">
 	<img back="BG_WARNING_ASB_ALLIED" planet="NONE"/>
-	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">도착하자마자 당신은 혼돈에 둘러싸여 버렸습니다: 행성에 설치된 대함 포대는 다수의 라니우스 함선에게 사격하고 있고, 전투선 중 하나가 당신이 그들의 행성 방어를 도와주러 왔다고 착각해버렸습니다. 전투 위치로!</text>
+	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">도착하자마자 당신은 혼란에 둘러쌓였습니다. 행성에 설치된 대함포대는 다수의 라니우스 함선에게 사격하고 있고, 전투선 중 하나가 당신이 그들의 행성 방어를 도와주러 왔다고 착각해버렸습니다. 전투 위치로!</text>
 	<!--<boarders min="2" max="2" class="anaerobic"/> -->
 	<environment type="PDS" target="enemy"/>
 	<ship load="LANIUS_BOARDERS_PDS" hostile="true"/>
@@ -2201,7 +2201,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice>
-		<text>갈등을 피한다.</text>
+		<text>충돌을 피한다.</text>
 		<event>
 			<text>이 전쟁이나 라니우스의 침공으로부터 고통받는 모든 사람들을 구하는 것이 당신의 임무는 아닙니다.</text>
 		</event>
@@ -2264,7 +2264,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice>
-		<text>갈등을 피한다.</text>
+		<text>충돌을 피한다.</text>
 		<event>
 			<text>이 전쟁이나 라니우스의 침공으로부터 고통받는 모든 사람들을 구하는 것이 당신의 임무는 아닙니다.</text>
 		</event>
@@ -2820,7 +2820,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<text>당신은 즉시 도약을 준비합니다. 놈들이 신호기를 무력화한다면 이 주위에 있고싶지도 않습니다.</text>
 	</event>
 	<event>
-		<text>당신은 도약할 준비를 하지만, 신호기에 붙어있던 라니우스 선박이 쇄도해 오자 크게 놀랍니다. 게다가 완전 무장하고 있는 것 같습니다!</text>
+		<text>당신은 도약할 준비를 하지만, 신호소에 붙어있던 라니우스 선박이 쇄도해 오자 크게 놀랍니다. 게다가 완전 무장하고 있는 것 같습니다!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3336,7 +3336,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice>
 		<text>계속...</text>
 		<event>
-			<text>당신은 침입자의 함성과 함꼐 뒤따라 온 침입자 무리의 함성을 들을 수 있었다. 침입자 경보!</text>
+			<text>당신은 침입자의 함성과 함께 뒤따라 온 침입자 무리의 함성을 들을 수 있었습니다. 침입자 경보!</text>
 			<boarders min="3" max="4" class="human"/>
 		</event>
 	</choice>
@@ -3352,7 +3352,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 </event>
 
 <event name="CE_LANIUS_DECONSTRUCT" unique="true">
-	<text>이 신호소에서 만난 외로운 라니우스는 황폐하고 희미한 불빛을 지닌 셔틀을 보냅니다. 당신은 그 존재가 연방 언어에 매우 능통하다는 것에 놀랍니다: "독특한 서비스를 이용할 수 있다! 금속은 생존에 필요합니다. 죽음이 다가오고 있습니다. 선박 해체를 동의하십니까? 금속 많으시죠! 모두에게 유익합니다!"</text>
+	<text>이 신호소에서 만난 외로운 라니우스는 황폐하고 희미한 불빛을 지닌 셔틀을 보냅니다. 당신은 그 존재가 연방 언어에 매우 능통하다는 것에 놀랍니다. "독특한 서비스를 이용할 수 있어요! 금속은 생존에 필요해요. 죽음이 다가오고 있어요. 선박을 벗겨내는데 동의하세요? 금속 많으시군요! 모두에게 유익해요!"</text>
 	<choice hidden="true">
 		<text>라니우스에게 함체 4 포인트 분해하는 것을 허락합니다.</text>
 		<event>
@@ -3436,15 +3436,15 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 <eventList name="CE_LANIUS_STRANDED_RESCUE">
 	<event>
-		<text>에어록을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화디고 있습니다.</text>
+		<text>에어락을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화되고 있습니다.</text>
 		<boarders min="3" max="4" class="anaerobic"/>
 	</event>
 	<event>
-		<text>에어록을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화디고 있습니다.</text>
+		<text>에어락을 열고 라니우스를 탑승시켰습니다. 그룹은 매우 감사해하지만, 그들은 완전히 굶주렸습니다. 이윽고 그들은 당신의 배룰 먹기 시작합니다. 승무원은 생존자들을 설득하려 했지만 상황은 빠르게 악화되고 있습니다.</text>
 		<boarders min="3" max="4" class="anaerobic"/>
 	</event>
 	<event>
-		<text>에어록을 열고 라니우스를 탑승시켰습니다. 무리는 매우 감사를 표현했고 무리의 지도자는 엄하게 그들을 통제하고 있습니다. 생존자들이 당신 배를 먹으려는 시도는 즉시 처벌되었습니다. 젊은 라니우스 중 하나는 수준 높은 말투로 묻습니다. "음식"과 교환 할 수있는 "작업"이 있는지 말입니다..</text>
+		<text>에어락을 열고 라니우스를 탑승시켰습니다. 무리는 매우 감사를 표현했고 무리의 지도자가 엄하게 그들을 통제합니다. 생존자들이 당신 배를 먹으려는 시도는 즉시 처벌되었습니다. 젊은 라니우스 중 하나는 수준 높은 말투로 묻습니다. "음식"과 교환 할 수있는 "작업"이 있는지 말입니다..</text>
 			<choice hidden="true">
 				<text>라니우스를 고용하고 30 스크랩을 먹입니다.</text>
 				<event>
