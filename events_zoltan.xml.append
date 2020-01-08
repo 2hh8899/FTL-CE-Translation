@@ -3919,7 +3919,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<!-- best deal-->
-			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?"[락맨 종교 경전을 대략 105 스크랩에 판매]</text>
+			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?" [락맨 종교 경전을 대략 105 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3936,7 +3936,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다.[함체 패널을 대략 90 스크랩에 판매]</text>
+			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다. [함체 패널을 대략 90 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3953,7 +3953,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요."[무기 부품을 대략 130 스크랩에 판매]</text>
+			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요." [무기 부품을 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4770,7 +4770,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<!-- best deal-->
-			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?"[락맨 종교 경전을 대략 105 스크랩에 판매]</text>
+			<text>누군가가 당신의 화물을 스캔한 것 같습니다. "흥미로운 물건을 가지고 계시는군요. 저 물건을 좋은 가격에 사 드릴 연구자를 하나 아는데, 소개해 드릴까요?" [락맨 종교 경전을 대략 105 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4786,7 +4786,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다.[함체 패널을 대략 90 스크랩에 판매]</text>
+			<text>졸탄족의 방어막 기술은 독보적이지만, 선체 제조 기술은 부족합니다. 수입된 함체 패널은 높은 가치를 가집니다. [함체 패널을 대략 90 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4802,7 +4802,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요."[무기 부품을 대략 130 스크랩에 판매]</text>
+			<text>자동 광고 시스템이 말합니다. "우주를 더 평화적으로 만들면서 돈도 버십시오. 지금 무기를 졸탄 평화 연합에 판매하세요." [무기 부품을 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -6319,7 +6319,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Alright, let's move on.</text>
+		<text>좋아, 이제 이동한다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9008,7 +9008,7 @@
 		<text>화물 텔레포터는 이곳에서 물건을 쉽게 교환할 수 있게 해줍니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Purchase some research data on the current situation here.</text>
+			<text>이곳의 현 상황에 대한 몇 가지 조사 데이터를 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -9018,7 +9018,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Purchase some strange AI-made artworks.</text>
+			<text>이상한 AI들이 만든 예술품들을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -9028,7 +9028,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Purchase some reprogrammed nanobots.</text>
+			<text>재프로그래밍된 나노봇을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
