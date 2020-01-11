@@ -2367,7 +2367,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>당신은 그 배에 있는 유용한 물질들을 벗겨냅니다. 몇몇 승무원들이 처리 방법에 대한 공식적인 불만을 제기합니다. 당신은 죄책감을 느끼십니까?</text>
+		<text>당신은 그 배에 있는 유용한 물질들을 벗겨냅니다. 몇몇 승무원들이 처리 방법에 대한 공식적인 불만을 제기합니다. 죄책감을 느끼십니까?</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
@@ -2430,7 +2430,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>당신의 선원들은 민간인에 대해 당신보다 더 신경 쓰지 않습니다 그들은 시신을 에어락에 버린 다음 함선에서 무기 시스템을 찾았습니다. 모든 민간인을 학살되고 나서야, 당신은 무기를 함선으로 가져올 수 있었습니다.</text>
+		<text>당신의 선원들은 민간인에 대해 당신보다 더 신경 쓰지 않습니다. 그들은 시신을 에어락에 버린 다음 함선에서 무기 시스템을 찾았습니다. 모든 민간인을 학살하고 나서야, 당신은 무기를 함선으로 가져올 수 있었습니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
@@ -2484,7 +2484,7 @@
 
 <eventList name="DESTROYED_PIRACY_ENGI_RESULTS">
 	<event>
-		<text>당신은 그 스크랩을 유용하게 쓰겠지만, 웬지 길을 잃은 것 같은 기분을 떨쳐낼 수 없습니다. 승무원들의 사기가 최저입니다. 스캔 결과 선박의 화물 일부가 아직 손상되지 않은 것으로 밝혀졌습니다.  당신은 쓸어오라고 명령합니다.</text>
+		<text>당신은 그 스크랩을 유용하게 쓰겠지만, 왠지 길을 잃은 것 같은 기분을 떨쳐낼 수 없습니다. 승무원들의 사기가 최저입니다. 스캔 결과 선박의 화물 일부가 아직 손상되지 않은 것으로 밝혀졌습니다. 당신은 쓸어오라고 명령합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -2500,7 +2500,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>당신은 그 스크랩을 유용하게 쓰겠지만, 웬지 길을 잃은 것 같은 기분을 떨쳐낼 수 없습니다. 승무원들의 사기가 최저입니다.</text>
+		<text>당신은 그 스크랩을 유용하게 쓰겠지만, 왠지 길을 잃은 것 같은 기분을 떨쳐낼 수 없습니다. 승무원들의 사기가 최저입니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -2512,7 +2512,7 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>당신은 그 스크랩을 유용하게 쓰겠지만, 웬지 길을 잃은 것 같은 기분을 떨쳐낼 수 없습니다. 승무원들의 사기가 최저입니다.</text>
+		<text>당신은 그 스크랩을 유용하게 쓰겠지만, 왠지 길을 잃은 것 같은 기분을 떨쳐낼 수 없습니다. 승무원들의 사기가 최저입니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
