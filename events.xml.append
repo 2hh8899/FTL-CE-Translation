@@ -36077,25 +36077,25 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
 </eventList>
 
 <textList name="STORE_BUY_TEXT_BOOSTED">
-	<text>You transfer the scrap and the dedicated equipment allows you to transfer the cargo with minimal time loss. You check the ship equipment the shop also offers.</text>
-	<text>You transfer the scrap and the teleporter does the rest. There is still a lot of time to brows the ship equipment catalog.</text>
-	<text>You hand over the crates with the scrap. Teleporting the cargo is authorized. You still have time until the FTL is charged and decide check the ship equipment they offer here.</text>
-	<text>You write a scrap transfer order. Processing it takes a while, but loading the cargo becomes an easy task with the heavy duty 텔레포터. You check the ship equipment catalog.</text>
+	<text>당신은 스크랩을 전송했고 전용 장비는 화물 이송에 대한 시간 손실을 최소화합니다. 당신은 가게에서 제공하는 장비 또한 확인합니다.</text>
+	<text>당신은 스크랩을 전송하고 텔레포터는 나머지를 맡습니다. 선박 장비 목록을 찾아볼 시간은 아직 많이 남아 있습니다.</text>
+	<text>당신은 상자를 스크랩과 함께 넘겨줍니다. 화물 순간이동이 허가되었습니다. 당신은 FTL 충전까지는 아직 시간이 남아있어서 여기서 제공하는 선박 장비를 확인하기로 결정합니다.</text>
+	<text>당신은 스크랩 전송 주문서를 작성합니다. 처리에는 시간이 좀 걸리지만, 화물을 싣는 일은 튼튼한 텔레포터에게 손쉬운 일입니다. 당신은 선박 장비 카탈로그를 확인합니다.</text>
 </textList>
 
 <textList name="STORE_SELL_TEXT_BOOSTED">
-	<text>The trader transfers the scrap. While your crew prepares to teleport the cargo you have a look at the ship equipment the shop also offers.</text>
-	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to teleport the cargo to the store to get the rest of your payment.</text>
-	<text>After some haggling, you reach an agreement. You prepare to teleport the cargo to the shop in order to receive the rest of your payment.</text>
-	<text>After time-consuming negotiations, you get an advance payment. "You get the rest after you transfer the cargo. Let's see what the heavy duty teleporter can do."</text>
-	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. After transfering your scrap advance you are asked to transfer the cargo to the shop in order to seal the deal.</text>
+	<text>상인이 스크랩을 전송합니다. 승무원들이 화물을 순간이동시킬 준비하는 동안, 당신은 그 상점에서 제공하는 선박 장비를 또한 볼 수 있었습니다.</text>
+	<text>좋은 가격을 협상하려면 시간이 걸립니다. 선금으로 약간의 스크랩을 받았고 남은 대금을 받으려면 상점에 화물을 순간이동시켜야 합니다.</text>
+	<text>시간을 들여 흥정을 한 후, 당신은 합의에 도달합니다. 당신은 남은 대금을 받기 위해 상점에 화물을 순간이동시킬 준비합니다.</text>
+	<text>시간을 소모하는 협상 끝에 선금을 받았습니다. "남은 대금은 화물 이송 이후에 받죠. 튼튼한 텔레포터가 뭘 할 수 있는지 한번 보죠."</text>
+	<text>당신은 이 물건들이 실제로 많은 가치가 있다고 주장헀지만 거래자는 물건에 정말 관심없는 척 했습니다. 당신은 선금을 받은 후 거래를 성사시키기 위해 화물을 상점으로 전송합니다.</text>
 </textList>
 
 <!-- END OF TE EVENTS -->
