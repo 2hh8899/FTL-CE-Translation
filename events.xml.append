@@ -35289,7 +35289,7 @@
 
 <textList name="STORE_BUY_TEXT">
 	<text>스크랩을 전송합니다. 승무원이 화물을 적재하는 동안 상점에서 제공하는 함선 장비를 살펴봅니다. 시간이 경과하는군요.</text>
-	<text>스크랩 전송 명령서를 작성합니다. 멸령을 처리하는데 시간이 좀 걸리고, 화물을 싣는데 더 많은 시간이 걸립니다. 기다리는 동안 함선 장비 목록을 확인합니다.</text>
+	<text>스크랩 전송 명령서를 작성합니다. 명령을 처리하는데 시간이 좀 걸리고, 화물을 싣는데 더 많은 시간이 걸립니다. 기다리는 동안 함선 장비 목록을 확인합니다.</text>
 	<text>당신은 그 상자들을 스크랩과 함께 건네주었습니다. 화물을 싣는데는 시간이 걸립니다. 화물용 드론은 당신보다 훨씬 덜 급하군요. 기다리는 동안 당신은 그들이 제공하는 선박 장비를 확인할 기회를 얻었습니다.</text>
 	<text>거래를 성사시키려면 당신의 무역 면허증과 (위조) 선박 등록에 대해 자세히 설명해야 합니다. 모든 것이 이중 확인됩니다. 왜 이 이렇게 오래 걸렸을까요? 드디어 화물이 실립니다. 천천히. 마침내 당신은 그들이 제공하는 선박 장비를 볼 수 있는 기회를 얻게 됩니다.</text>
 </textList>
@@ -36507,10 +36507,10 @@ IDEAS
 	</choice>
 </event>
 <textList name="SE_START_BEACON_CIVILIAN_HOME_TEXT">
-	<text>Since the beginning of the Rebellion, Federation control has faded in the core worlds. Several main planets have declared independence and some local militia might even cooperate with the Rebels. You better lay low here.</text>
-	<text>You arrive in a bustling core sector. Hundreds of small trade ships dot the horizon and your scans show several planets with millions of inhabitants nearby. Let's hope the local militias let you pass their territories without problems.</text>
-	<text>Independent militia and local gangs have taken over this busy core sector after the Federation had to withdraw. Some individuals remain loyal to the old order, but you probably can't trust everyone here.</text>
-	<text>You arrive in an independent sector that tries to remain neutral in the war. The individuals here mostly care about keeping their businesses running. Let's hope the Rebel fleet pursuing you does not disturb them too much.</text>
+	<text>반란 초기부터, 핵심 지구에서의 연방 통제력은 희미해졌습니다. 몇몇 주요 행성들은 독립을 선언했고 일부 현지 민병대는 반란군들과 협력할 수도 있습니다. 당신은 여기서 조심히 이동하는 게 좋겠군요.</text>
+	<text>당신은 분주한 핵심 구역에 도착했습니다.  수백 척의 소형 무역선이 지평선에 드문두문 있었고 스캔 결과 근처에 수백만 명의 주민이 살고 있는 여러 행성이 보입니다. 현지 민병대가 당신이 그들의 영토를 문제없이 지나가게 해주길 바랍니다.</text>
+	<text>연방이 철수한 이후 독립 민병대와 현지 갱단들이 분주한 핵심 구역을 장악했습니다. 어떤 이들은 여전히 옛 질서에 충성스럽지만, 당신은 아마 여기 있는 모든 이들을 믿을 수 있는 것은 아닐 겁니다.</text>
+	<text>당신은 전쟁에서 중립을 지키려는 독립된 구역에 도착합니다. 여기 있는 사람들은 대부분 사업을 계속 운영하는 데 신경을 씁니다. 당신을 쫓고 있는 반란군 함대가 그들을 너무 방해하지 않기를 바랍니다.</text>
 </textList>
 
 
@@ -36621,17 +36621,17 @@ IDEAS
 </event>
 <textList name="NOTHING_CIVILIAN_TEXT">
 	<text planet="NONE" back="BG_DARK">도약 이후 도착한 곳은 단지 빈 공간 뿐입니다. 이 도약 신호소는 단지 연결 용도로만 사용되고 있습니다.</text>
-	<text planet="NONE">You jump into an unremarkable system. A squadron of local militia ships are surrounding a Federation cargo vessel nearby. No one takes notice of you.</text>
-	<text>Your scans reveal a bustling mining base on a nearby planet. Thousands of life signs detected. Strong militia units are guarding the perimeter.</text>
-	<text>Your arrive at a busy connection beacon. Several civilian ships are charging their FTL, more jump in after you. You engage in a little chit chat about the war, working in the cover story for your (fake) ship ID in order to arouse less suspicion.</text>
-	<text>A trade caravan is charging their jump drives here. Their militia guard units request that you leave your weapon targeting off-line. They cease communication and jump away after a while.</text>
-	<text planet="PLANET_POPULATED_SMALL">Your scans reveal an ore refinery and several factories, all producing on full capacity. Thousands of life signs detected. A militia assault squadron is patrolling the area and the commander asks you politely to move on. "Nothing to see here sir."</text>
-	<text planet="PLANET_POPULATED_SMALL">You discover a nearby planet with millions of inhabitants. Dock control informs you that they cannot give you permission to land. They don't give any reason and refuse further communication.</text>
+	<text planet="NONE">당신은 눈에 띄지 않는 성계를 향해 도약합니다. 현지 민병선 편대가 근처 연방 화물선을 에워싸고 있습니다. 아무도 당신을 눈여겨보지 않습니다.</text>
+	<text>스캔 결과 근처 행성의 북적거리는 채굴 기지가 발견합니다. 수천 명의 생명신호를 감짛바니다. 강력한 민병대가 주변을 지키고 있습니다.</text>
+	<text>당신은 바쁜 연결 송신소에 도착합니다. 몇 척의 민간선이 FTL을 충전하고 있었고, 당신 뒤 따라 더 많은 민간선이 도약합니다. 당신은 전쟁에 대해 작은 잡담을 나누며, 의심을 덜 불러일으키기 위해 당신의 (위조) 선박증을 위한 변명을 합니다.</text>
+	<text>상인 캐러밴이 이곳에서 점프 드라이브를 충전하고 있습니다. 그들의 민병 경호선은 당신에게 무기를 꺼달라고 요청합니다. 그들은 통신을 중단하고 잠시 뒤 도약합니다.</text>
+	<text planet="PLANET_POPULATED_SMALL">스캔 결과 생산능력을 모두 가동 중인 한 광석 정제소와 몇 개의 공장이 보였습니다. 수천 명의 생명신호가 발견되었습니다. 민병 돌격 편대가 이 지역을 순찰하고 있고 지휘관은 정중히 이동할 것을 요청합니다. "여기 볼 것은 없습니다, 선장님."</text>
+	<text planet="PLANET_POPULATED_SMALL">당신은 수백만 명의 주민이 살고 있는 가까운 행성을 발견합니다. 정박 통제소에서는 착륙 허가를 줄 수 없다는 것을 알려줍니다. 그들은 어떠한 이유도 대지 않고 더 이상의 대화를 거부합니다.</text>
 	<text>근처 민간인 구역에 신호소가 설치되어 있습니다. 아무도 당신을 반기지 않습니다.</text>
 	<text planet="PLANET_POPULATED_SMALL">근처의 행성에서 주거의 흔적과 예술의 흔적이 보입니다. 기초적인 수준의 방어 시스템에서 반복적인 메시지가 전달됩니다. "경고, 격리5단계는 FHA Act22 법령에 따라 행해집니다. 11조 2항. 경고, 격리 5단계는..."</text>
-	<text planet="NONE">Your arrive at a simple connection beacon. An Engi refugee transport lingers nearby but they don't reply to your hails.</text>
+	<text planet="NONE">당신은 단순한 연결 신호소에 도착합니다. 엔지 난민 수송선이 근처에 남아있었지만 그들은 당신의 교신에 응답하지 않습니다.</text>
 	<text planet="NONE" back="BG_DARK">점프를 완료 후 스캐너는 아무것도 기록하지 않습니다. 이 도약 신호소의 운항은 거의 없어보입니다.</text>
-	<text planet="PLANET_POPULATED_REAL">You arrived at a densely populated coreworld planet. Things have not turned to the better since the sector declared independence. The many poor still live delusional lives in the overpopulated planetary slums and on the factory continents, while the few rich dwell in well guarded space habitats.</text>
+	<text planet="PLANET_POPULATED_REAL">당신은 인구 밀도가 높은 핵심지구 행성에 도착합니다. 구역이 독립을 선언한 이후 상황은 호전되지 않습니다. 많은 가난한 사람들이 여전히 인구과잉 행성의 빈민가에서 망상 생활하며 살고 있는 것에 반해 공장 대륙에 살고 있는 소수의 부자들은 잘 보호되는 우주 거주지에 살고 있습니다.</text>
 </textList>
 
 
@@ -36640,17 +36640,17 @@ IDEAS
 	<choice hidden="true"> 
 		<text>계속...</text>
 		<event>
-			<text>Standard ship inspection reveals a worrying find: Some of your supplies are gone. Theft? Sabotage? This might already have happened at one of the many stations you docked. Still, a certain train of thought gnaws at you: Could a crewmember be involved in this?</text>
+			<text>표준 선박 검사 결과 걱정거리가 발견되었습니다. 당신의 보급품 일부가 사라졌습니다. 도둑질? 사보타주? 이건 이미 정박했던 여러 정거장 중 한 곳에서 일어났었을 수도 있습니다. 그런데, 승무원이 이 일에 관여했을지도 모른다는, 그런 불길한 생각이 당신을 갉아먹습니다.</text>
 			<choice req="slug" hidden="true">
-				<text>(슬러그 승무원) "Do you have any idea what is going on here?"</text>
+				<text>(슬러그 승무원) "여기서 무슨 일이 일어나고 있는지 짐작이 가나?"</text>
 				<event load="CE_CIVILIAN_THEFT_SLUG"/>
 			</choice>
 			<choice req="sensors" lvl="2" hidden="true">
-				<text>(고급 센서) Double check the sensor logs.</text>
+				<text>(고급 센서) 센서 로그를 두 번 확인합니다.</text>
 				<event load="CE_CIVILIAN_THEFT_SCANNER"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Order an investigation.</text>
+				<text>수사를 명령합니다.</text>
 				<event load="CE_CIVILIAN_THEFT_INVESTIGATE"/>
 			</choice>
 		</event>
@@ -36658,20 +36658,20 @@ IDEAS
 </event>
 <textList name="CE_CIVILIAN_THEFT_TEXT">
 	<text planet="NONE" back="BG_DARK">도약 이후 도착한 곳은 단지 빈 공간 뿐입니다. 이 도약 신호소는 단지 연결 용도로만 사용되고 있습니다.</text>
-	<text planet="NONE">You jump into an unremarkable system. A squadron of local militia ships are surrounding a Federation cargo vessel nearby. No one takes notice of you.</text>
-	<text>Your scans reveal a bustling mining base on a nearby planet. Thousands of life signs detected. Strong militia units are guarding the perimeter.</text>
-	<text>Your arrive at a busy connection beacon. Several civilian ships are charging their FTL, more jump in after you. You engage in a little chit chat about the war, working in the cover story for your (fake) ship ID in order to arouse less suspicion.</text>
-	<text>A trade caravan is charging their jump drives here. Their militia guard units request that you leave your weapon targeting off-line. They cease communication and jump away after a while.</text>
-	<text planet="PLANET_POPULATED_SMALL">Your scans reveal an ore refinery and several factories, all producing on full capacity. Thousands of life signs detected. A militia assault squadron is patrolling the area and the commander asks you politely to move on. "Nothing to see here sir."</text>
+	<text planet="NONE">당신은 눈에 띄지 않는 성계를 향해 도약합니다. 현지 민병선 편대가 근처 연방 화물선을 에워싸고 있습니다. 아무도 당신을 눈여겨보지 않습니다.</text>
+	<text>스캔 결과 근처 행성의 북적거리는 채굴 기지가 발견합니다. 수천 명의 생명신호를 감짛바니다. 강력한 민병대가 주변을 지키고 있습니다.</text>
+	<text>당신은 바쁜 연결 송신소에 도착합니다. 몇 척의 민간선이 FTL을 충전하고 있었고, 당신 뒤 따라 더 많은 민간선이 도약합니다. 당신은 전쟁에 대해 작은 잡담을 나누며, 의심을 덜 불러일으키기 위해 당신의 (위조) 선박증을 위한 변명을 합니다.</text>
+	<text>상인 캐러밴이 이곳에서 점프 드라이브를 충전하고 있습니다. 그들의 민병 경호선은 당신에게 무기를 꺼달라고 요청합니다. 그들은 통신을 중단하고 잠시 뒤 도약합니다.</text>
+	<text planet="PLANET_POPULATED_SMALL">스캔 결과 생산능력을 모두 가동 중인 한 광석 정제소와 몇 개의 공장이 보였습니다. 수천 명의 생명신호가 발견되었습니다. 민병 돌격 편대가 이 지역을 순찰하고 있고 지휘관은 정중히 이동할 것을 요청합니다. "여기 볼 것은 없습니다, 선장님."</text>
 	<text>근처 민간인 구역에 신호소가 설치되어 있습니다. 아무도 당신을 반기지 않습니다.</text>
 	<text planet="PLANET_POPULATED_SMALL">근처의 행성에서 주거의 흔적과 예술의 흔적이 보입니다. 기초적인 수준의 방어 시스템에서 반복적인 메시지가 전달됩니다. "경고, 격리5단계는 FHA Act22 법령에 따라 행해집니다. 11조 2항. 경고, 격리 5단계는..."</text>
-	<text planet="NONE">Your arrive at a simple connection beacon. An Engi refugee transport lingers nearby but they don't reply to your hails.</text>
+	<text planet="NONE">당신은 단순한 연결 신호소에 도착합니다. 엔지 난민 수송선이 근처에 남아있었지만 그들은 당신의 교신에 응답하지 않습니다.</text>
 	<text planet="NONE" back="BG_DARK">점프를 완료 후 스캐너는 아무것도 기록하지 않습니다. 이 도약 신호소의 운항은 거의 없어보입니다.</text>
 </textList>
 
 <eventList name="CE_CIVILIAN_THEFT_INVESTIGATE">
 	<event>
-		<text>The investigation reveals nothing out of the ordinary. All the cargo logs are in orders, but the stuff is not there. Maybe someone just counted wrong? You order to update the date and prepare to move on. You hope to get at the bottom of this some day.</text>
+		<text>조사 결과 특이한 점은 없습니다. 화물 일지는 모두 정리했지만, 물건은 없습니다. 아마 누군가 잘못 센 모양이죠? 당신은 날짜를 갱신하고 이동할 준비를 합니다. 당신은 언젠가 이 일의 진상을 밝혀내길 바랍니다.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36680,7 +36680,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>You order an exact list of what supplies are missing and have the crew questioned. No one knows how this could have happened.</text>
+		<text>당신은 어떤 보급품이 누락되었는지 꼼꼼한 몰록을 명령하고는 선원들을 심문합니다. 어떻게 이런 일이 일어날 수 있었는지 아무도 알 수 없었습니다.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36689,7 +36689,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>Whatever happened here, it looks like you won't find out now. Some security vids are missing and the cargo logs have been manipulated. You order everyone to be on the lookout.</text>
+		<text>여기서 무슨 일이 있었을지라도, 이제는 알 수 없는 것 같습니다. 일부 보안 비디오가 사라지고 화물 일지도 조작됐습니다. 당신은 모든 사람들에게 경계하라고 명령합니다..</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36698,14 +36698,14 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>Scanner logs that the supplies simply have been misplaced. The crewmen responsible for this is found quickly. You suspend some of their off-time privileges. Let's hope this won't happen again.</text>
+		<text>스캐너 일지에 따르면 단순히 보급품이 잘못 배치되었을 뿐입니다. 이에 책임이 있는 선원들은 빨리 발견합니다. 당신은 그의 시간외 특권을 일시중단합니다. 다시는 이런 일이 없기를 바랍니다.</text>
 	</event>
 </eventList>
 
 
 <eventList name="CE_CIVILIAN_THEFT_SCANNER">
 	<event>
-		<text>Security feeds indicate that some locals used old Federation ID codes to secretly enter your ship at the last station. You won't get the stuff back that they stole, but at least you know what happened now.</text>
+		<text>보안 자료들은 일부 현지인이 전 연방 ID 코드를 사용하여 마지막 정거장에서 당신의 함선으로 몰래 침입했음을 알려줍니다. 당신은 그들이 훔친 물건을 돌려받지는 못하겠지만, 적어도 지금 무슨 일이 일어났는지 알 수 있었습니다.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36714,20 +36714,20 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>The internal scanners show a weak radiation source in the life support room. A sweep team discovers that the missing fuel cells, along with the other supplies, had been assembled into a makeshift bomb. Clearly a sabotage attempt. You order everyone to be on the lookout and put the supplies back into the holds.</text>
+		<text>내부 스캐너에서 생명유지실에 약한 복사 에너지원이 보입니다. 한 수색팀은 다른 보급품들과 함께 없어진 연료 전지가 조잡한 폭탄으로 조립되었다는 것을 발견합니다. 방해 공작이 분명합니다. 당신은 모든 사람들에게 경계하도록 명령하고 물자를 짐칸에 다시 넣습니다.</text>
 	</event>
 	<event>
-		<text>The logs reveals that the supplies simply have been misplaced. The crewman responsible for this is found quickly. You suspend some of their off-time privileges. Let's hope this won't happen again.</text>
+		<text>일지에 따르면 단순히 보급품이 잘못 배치되었을 뿐입니다. 이에 책임이 있는 선원을 빨리 발견합니다. 당신은 그의 시간외 특권을 일시중단합니다. 다시는 이런 일이 없기를 바랍니다.</text>
 	</event>
 	<event>
-		<text>The logs reveals that the supplies simply have been misplaced. The crewman responsible for this is found quickly. You suspend some of their off-time privileges. Let's hope this won't happen again.</text>
+		<text>일지에 따르면 단순히 보급품이 잘못 배치되었을 뿐입니다. 이에 책임이 있는 선원을 빨리 발견합니다. 당신은 그의 시간외 특권을 일시중단합니다. 다시는 이런 일이 없기를 바랍니다.</text>
 	</event>
 </eventList>
 
 
 <eventList name="CE_CIVILIAN_THEFT_SLUG">
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain. But let me tell you: there wass plenty opportunity for theft in thiss sector. We might never find out what happened to thiss sssuppliess."</text>
+		<text>슬러그는 모욕당한 것 같군요. "썬장님은 제가 했따고 생가하는 모양이시지만, 전 훔쳐가지 않았써요. 하지만 제가 말씀드리고 싶은 것은, 이 구역에서 도둑질의 기회가 충분히 있었따는 거에요. 우린 보급품에 무슨 일이 일어났는지 결코 알아낼 쑤 없쓸꺼에요."</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36736,45 +36736,45 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy, Captain. They have hidden the suppliess and have plansss to sabotage the ship. They must have a perssonal cloaking device."</text>
+		<text>슬러그는 모욕당한 것 같군요. "썬장님은 제가 했따고 생가하는 모양이시지만, 전 훔쳐가지 않았써요." 슬러그는 몇 분 동안 정신 집중합니다. "흠... 누꾼가 타고 있는 것 같따요. 반란군 쓰파이에요, 선장님. 그가 보끕품을 숨기고 배를 사보타주할 계획을 가지꼬 있어요. 그는 개인용 은폐 장치를 가진 게 뜰림없써요."</text>
 		<boarders min="1" max="1" class="human"/>
 		<choice hidden="true">
-			<text>Reconfigure the sensors.</text>
+			<text>센서를 재설정합니다.</text>
 			<event>
-				<text>Upon being discovered, the Rebel deploys some combat avatars to aid them in their attempt to escape. They are trying to get to the shuttle bay. Don't let them get away!</text>
+				<text>스파이는 발각되자마자, 자신의 탈출 시도를 돕기 위해 몇몇 전투 아바타를 배치합니다. 그는 셔틀실로 가려고 합니다. 그가 도망가지 못하게 막아라!</text>
 				<boarders min="2" max="3" class="ghost"/>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewman there. They are awfully nervous."</text>
+		<text>"제가 썬장님의 마음을 읽을 쑤 없었다면, 선장님은 제가 훔쳤을 꺼라 생각했곘죠. 하지만 선장님은 오히려 따른 승무원들을 의심해야 해요. 그는 몹씨 긴장하꼬 있꺼뜬요."</text>
 		<choice hidden="true">
-			<text>"What is this about?"</text>
+			<text>"이게 무슨 일이지?"</text>
 			<event>
-				<text>Your other crewman shamefully admits that they were planning to abandon your mission. The missing supplies are discovered in one of the shuttles.</text>
+				<text>다른 승무원은 부끄럽다는 듯이 자신이 임무를 포기할 계획이었다는 것을 인정합니다. 없어진 물자는 셔틀 중 한 곳에서 발견됩니다.</text>
 				<choice hidden="true">
 					<text>승무원을 처벌합니다.</text>
 					<event>
-						<text>Your crewman's free time privileges are suspended for some jumps. You also give an inspiring lecture on the significance of the mission, hoping to put some sense into them.</text>
+						<text>당신 승무원의 휴식 특권이 일부 도약 기간 동안 정지되었습니다. 당신은 또한 그에게 어떤 의미를 부여하기를 바라면서 임무의 중요성에 대해 자극적인 강의를 합니다.</text>
 					</event>
 				</choice>
 				<choice hidden="true">
 					<text>승무원을 해고합니다.</text>
 					<event>
-						<text>A crewman that can't be trusted is worthless. You reclaim the stolen supplies, but send the crewman away in the shuttle. The remaining crew agrees that this was the best thing to do.</text>
+						<text>믿을 수 없는 선원은 가치가 없습니다. 당신은 훔친 물건을 되찾지만, 승무원을 셔틀로 보냅니다. 남은 선원들은 이것이 최선의 방법이었다는 것에 동의합니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>This also makes room in the clonebay's database for a new crewman.</text>
+							<text>또한 클론실의 데이터베이스에 새로운 승무원을 위한 자리를 만듭니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
 				<choice hidden="true">
 					<text>승무원을 처형합니다.</text>
 					<event>
-						<text>Deserting is punishable by death under Federation protocol. You line up a firing squad in the cargo bay. It is over quickly.</text>
+						<text>탈영은 연방 규약에 따라 사형에 처해질 수 있습니다. 당신은 화물칸에 총살 집행대를 놓습니다. 이건 신속히 끝났습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>The deletion of the deserter's mental-backup is also executed in accordance with Federation law.</text>
+							<text>탈영병의 마인드 백업 삭제 또한 연방법에 따라 시행됩니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -36782,11 +36782,11 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewman there. He is awfully nervous."</text>
+		<text>"제가 썬장님의 마음을 읽을 쑤 없었다면, 선장님은 제가 훔쳤을 꺼라 생각했곘죠. 하지만 선장님은 오히려 따른 승무원들을 의심해야 해요. 그는 몹씨 긴장하꼬 있꺼뜬요."</text>
 		<choice hidden="true">
-			<text>"What is this about?"</text>
+			<text>"이게 무슨 일이지?"</text>
 			<event>
-				<text>Your other crewman shamefully admits that they simply misplaced the supplies. You suspend some of their off-time privileges. Let's hope this won't happen again.</text>
+				<text>다른 승무원은 그가 단순히 물자를 잘못 둔 것이라고 수치스럽게 인정합니다. 당신은 그의 시간외 특권을 일시중단합니다. 다시는 이런 일이 없기를 바랍니다.</text>
 			</event>
 		</choice>
 	</event>
@@ -36800,13 +36800,13 @@ IDEAS
 	<choice req="sensors" lvl="2" hidden="true">
 		<text>(고급 센서) 뭔가가 바깥에 있다. 다른 스캔을 시행해라!</text>
 		<event>
-			<text>Your scanners discover nothing out of the ordinary, but before you can finish charging your FTL an automated Rebel infiltrator suddenly de-cloaks a few klicks away. The AI ship jumps away immediately. It must have been following you and will surely inform the Rebel fleet of your position.</text>
+			<text>스캐너는 특이한 점을 발견하지 못했지만, FTL 충전을 마치기 전 무인 반란군 침투기가 몇 키로 떨어진 곳에서 은폐를 해제합니다. AI 선박은 즉시 도약합니다. 그건 당신을 쫓아온 것이 틀림없었고 반란군 함대에 당신의 위치를 분명히 알려줄 겁니다.</text>
 		</event>
 	</choice>
 	<choice req="sensors" lvl="3" hidden="true">
 		<text>(최고급 센서) 모든 환경 열원에 대해 전체 동적 스캔을 실행합니다.</text>
 		<event>
-			<text>Scanners show no strange heat sources nearby, but discover that your own engine heat output is way higher than it should be. A Rebel infiltrator is hiding in your heat trail! It must have been following you for a while. You brake hard and turn to engage it.</text>
+			<text>스캐너는 근처에 이상한 열원을 보이지 않는다고 하지만, 당신 엔진의 열 산출량이 필요량보다 훨씬 높다는 것을 발견합니다. 반란군 침투기가 당신의 온도 자취 안에 숨어있었습니다! 놈은 한동안 따라다닌 모양입니다. 당신은 브레이크를 세게 밟은 다음 함선을 돌려 침투기와 교전합니다.</text>
 			<status type="limit" target="enemy" system="cloaking" amount="0"/>
 			<ship load="CE_INFILTRATOR_AUTO" hostile="true"/>
 		<choice hidden="true">
@@ -36919,14 +36919,14 @@ IDEAS
 		</choice>
 </event>
 <textList name="MILITIA_TEXT">
-	<text>As you jump into the system a local militia ship confronts you. "The Rebel fleet has put a price on your head. You are a wanted criminal. We will take you, alive or dead". It seems you won't make many friends here.</text>
-	<text>Soon after arriving in the system you are hailed by a small militia ship. "Not everyone wants to stick with this fancy Federation of yours you know? The Rebels promised us independence and we will have it." They move in to engage.</text>
-	<text>At first it appears you've arrived in an peaceful colony system, but a ship appears from behind a small moon and engages you. They hail, "Federation sympathizers are not welcome here anymore. We will fire upon you until your charge your FTL and leave."</text>
-	<text>Some of the local militia seem to be cooperating with the Rebels. One of their ships is docked at a nearby depot, but moves in to intercept when you arrive.</text>
-	<text>The Rebels must have informed the sector's militia that they are looking for you. Several of their ships patrol nearby, one breaks course and engages you.</text>
-	<text>As you arrive you are immediately hailed by a militia ship, "We know that you are carrying intel the Rebels want. It was a mistake to come here. We won't bend to Federation rule again!" They charge 무기.</text>
-	<text>After jump completion a militia ship hails you, "Federation Sympathizer. You are under arrest. Hand over your ships control to us." You have to assume that these guys are cooperating with the Rebels... "Comply or prepare to be fired on." They lose patience fast and start to fire.</text>
-	<text>The militia escort of a small trade caravan takes your still hot weapon signatures for an act of aggression. They can't be reasoned with and engage.</text>
+	<text>당신이 성계에 도약하자에 현지 민병대와 맞닥뜨립니다. "반란군 함대가 당신 머리에 현상금을 매겼습니다. 당신은 수배자입니다. 우린 당신을 데려갈 겁니다, 생사와 관계없이!" 여기서 친구를 많이 사귈 것 같지는 않군요.</text>
+	<text>성계에 도착한 후 곧 당신은 작은 민병대 함선에 의해 교신을 받습니다. "모두가 당신이 아는 이 화려한 연방에 머무는 것을 원하는 것은 아니시겠죠? 반란군들은 우리에게 독립을 약속했고 우리는 반드시 독립할 겁니다." 그들은 교전하기 위해 움직입니다.</text>
+	<text>처음에 당신은 평화로운 식민지 성계에 도착한 것처럼 보였지만, 작은 위성 뒤에서 배가 나타나 당신과 교전합니다. 그들은 교신합니다, "연방에 동조하는 이들은  더 이상 여기서에 환영받지 못합니다. 당신이 FTL을 충전하고 떠날 때까지 우리는 발포할 것입니다."</text>
+	<text>현지 민병대 중 일부는 반란군에 협조하고 있는 것 같습니다. 그들의 배들 중 하나는 근처 기지에 정박해 있었지만, 당신이 도착하자 요격하기 위해 움직입니다.</text>
+	<text>반란군은 섹터 민병대들에게 당신을 찾고 있다고 알린 모양입니다. 그들의 배 몇 척이 근처를 순찰했고, 한 척이 항로를 이탈해 당신과 교전합니다.</text>
+	<text>당신이 도착하자마자 즉시 민병대의 함선에 의해 교신받습니다, "우리는 당신이 반란군이 원하는 정보를 가지고 있다는 것을 압니다. 여기 온 건 실수입니다. 우린 다시 연방 통치에 굴복하지 않을 겁니다!" 그들은 무기를 충전합니다.</text>
+	<text>도약 완료 후 민병선 한 척이 당신에게 교신합니다, "연방 동조자. 널 체포한다. 네 함선 통제권을 우리에게 넘겨라. " 당신은 이 사람들이 반란군에 협조하고 있다고 추정합니다... "순응하거나 그렇지 않으면 발포당할 준비해라."그들은 인내심을 빨리 잃고 사격하기 시작합니다.</text>
+	<text>작은 상인 캐러번의 민병 호위선은 여전히 식지 않은 당신의 무기 모습을 공격 행위로 받아들인 모양입니다. 그들은 논리적으로 설득되지 않았고 교전에 들어섭니다.</text>
 </textList>
 
 
@@ -36996,9 +36996,9 @@ IDEAS
 		</choice>
 </event>
 <textList name="BS_EVENT_MILITIA_TEXT">
-	<text>A nearby station has been taken over by local militia. They refuse all hails and start firing on you.</text>
-	<text>After jump completion you register a small military installation. They identify themselves as "independent", but that they start firing on you for no reason suggests that they might be sympathizing with the Rebel fleet.</text>
-	<text>You receive a hail from a small station, "The Rebels want you dead and we want peace in our sector. So... we will destroy your ship, hand the remains to the fleet and things can finally go back to normal here." Weapon lock detected!</text>
+	<text>인근 정거장이 현지 민병대에 의해 점령되었습니다. 그들은 모든 교신을 거부하고 당신에게 사격을 시작합니다.</text>
+	<text>도약 완료 후 당신은 소규모 군사 시설을 알아차립니다. 그들은 자신들이 "독립되었다"는 것을 인정하지만, 아무런 이유없이 당신에게 사격을 시작하는 것을 보아 그들이 반란군 함대에 동조하고 있다는 것을 암시합니다.</text>
+	<text>당신은 작은 정거장에서 교신을 받습니다, "반란군들은 당신이 죽길 원하고 우린 구역의 평화를 원합니다. 그러니.. 우린 당신의 배를 파괴하고, 잔해를 함대에 넘겨 결국 이곳에서 모든 걸 정상으로 되돌릴 겁니다." 무기 조준이 감지됩니다!</text>
 </textList>
 
 
@@ -37015,7 +37015,7 @@ IDEAS
 		<event load="CIVILIAN_TRADE_DEPOT_LIST_BOOSTED"/>
 	</choice>
 	<choice>
-		<text>Load weapons and try to rob their goods.</text>
+		<text>무기를 장전하고 그들의 물건을 강탈합니다.</text>
 		<event>
 			<text>당신은 해적행위에 관한 일을 저지르려고 합니다. 이것은 당신의 승무원들을 불안해하게 만들 수 있습니다.</text>
 			<status type="clear" target="enemy" system="teleporter" amount="100"/>
@@ -37051,14 +37051,14 @@ IDEAS
 	</choice>
 </event>
 <textList name="CIVILIAN_TRADE_DEPOT_TEXT">
-	<text planet="PLANET_POPULATED_REAL">A transmission from the nearby planet indicates an outpost in orbit which offers trade goods.</text>
-	<text planet="PLANET_POPULATED_REAL">The space station is offering local goods. They do not offer ship equipment though.</text>
-	<text planet="PLANET_POPULATED_REAL">무역 정거장이 근처 행성을 돕니다. 상선 여러 척이 도킹되어 있습니다. 여기서 흥정을 할 수 있을 것 같군요. They seem to trade only in bulk goods and are not interested in buying.</text>
-	<text planet="PLANET_POPULATED_REAL">A space mall sells trade goods to ships coming and going from this settlement.</text>
-<text>You spot a civilian trade depot nearby. Passive scans indicate they are storing locally produced goods. They notice your interest and offer a sale. They don't sell ship equipment though...</text>
-	<text>An unprotected trade depot lingers nearby. They reluctantly offer to sell some of their goods. The station's chief seems nervous because of all the firepower you brought here.</text>
-	<text>A civilian trade depot hails, "Federation? Well we don't care, not many militia units or Rebels come around here. Just keep your big guns holstered, alright?" They offer to sell some goods.</text>
-	<text>A trade depot is storing and trading goods here. They greet you, "OK... we detect a lot of weaponry on your ship. Do we have to call in the militia or do you just want to politely buy some stuff?" They seem to feel threatened.</text>
+	<text planet="PLANET_POPULATED_REAL">근처의 행성 온 방송은 무역품을 제공하는 전초기지가 궤도에 있다는 것을 나타냅니다.</text>
+	<text planet="PLANET_POPULATED_REAL">우주 정거장에서 현지 상품을 제공하고 있습니다. 하지만 선박 장비를 제공하지 않습니다.</text>
+	<text planet="PLANET_POPULATED_REAL">무역 정거장이 근처 행성을 돕니다. 상선 여러 척이 도킹되어 있습니다. 여기서 흥정을 할 수 있을 것 같군요. 그들은 오직 대량 상품만 장사하는 것처럼 보였고 구매에는 관심없어 보입니다.</text>
+	<text planet="PLANET_POPULATED_REAL">한 우주 쇼핑몰이 이 정착지에서 오고 가는 배들에게 무역품을 판매합니다.</text>
+<text>당신은 근처에 민간 무역 정거장을 발견합니다. 수동 스캔 결과, 현지에서 생산된 제품을 저장하고 있는 것으로 나타났습니다. 그들은 당신의 관심을 알아차리고 판매를 제의합니다. 비록 선박 장비는 파지 않지만요...</text>
+	<text>보호되지 않은 무역 정거장이 근처에 남아 있습니다. 그들은 마지못해 자기 상품의 일부를 팔겠다고 제의합니다. 정거장 우두머리는 여기 당신이 가지고 온 무기 때문에 좀 불안해보입니다.</text>
+	<text>한 민간 무역 정거장이 교신합니다, "연방? 글쎄 저흰 신경 쓰지 않아요. 이 근처에는 민병대나 반란군이 별로 많지는 않아요. 당신 큰 무기는 계속 꺼내지 말자구요, 알았죠?" 그들은 몇 가지 물건을 팔겠다고 제의합니다.</text>
+	<text>무역 정거장이 여기서 상품을 보관하고 거래하고 있습니다. 그들은 당신을 맞이합니다. "그래... 우린 당신 배에서 많은 무기를 감지했어. 우리가 민병대를 부를까 아니면 단지 조용히 물건만 사고 갈 껀가?" 그들은 위협을 느끼는 것 같습니다.</text>
 </textList>
 
 
@@ -37102,17 +37102,17 @@ IDEAS
 		</choice>
 <!-- SELLING, YOK! -->
 		<choice hidden="true">
-			<text>Change your mind and 떠난다.</text>
+			<text>생각을 바꾸고 떠납니다.</text>
 			<event/>
 		</choice>
 	</event>
 </eventList>
 
 <textList name="CIVILIAN_TRADE_DEPOT_BUY_TEXT">
-	<text>You transfer the scrap. While your crew loads the cargo. 시간이 경과하는군요.</text>
-	<text>You write a scrap transfer order. Processing it takes a while, loading the cargo takes even longer.</text>
-	<text>You hand over the crates with the scrap. Loading the cargo takes its time, the cargo drones are in much less of a hurry than you.</text>
-	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double-checked. Why is this taking so long? Then the cargo is finally loaded, slowly.</text>
+	<text>당신은 스크랩을 전송합니다. 승무원이 화물을 적재하는 동안 말이죠. 시간이 경과하는군요.</text>
+	<text>스크랩 전송 명령서를 작성합니다. 명령을 처리하는데 시간이 좀 걸리고, 화물을 싣는데 더 많은 시간이 걸립니다.</text>
+	<text>당신은 그 상자들을 스크랩과 함께 건네주었습니다. 화물을 싣는데는 시간이 걸립니다. 화물용 드론은 당신보다 훨씬 덜 급하군요.</text>
+	<text>거래를 성사시키려면 당신의 무역 면허증과 (위조) 선박 등록에 대해 자세히 설명해야 합니다. 모든 것이 이중 확인됩니다. 왜 이 이렇게 오래 걸렸을까요? 드디어 화물이 실립니다.</text>
 </textList>
 
 <eventList name="CIVILIAN_TRADE_DEPOT_LIST_BOOSTED">
@@ -37151,7 +37151,7 @@ IDEAS
 		</choice>
 <!-- SELLING, YOK! -->
 		<choice hidden="true">
-			<text>Change your mind and 떠난다.</text>
+			<text>생각을 바꾸고 떠납니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -37774,22 +37774,22 @@ IDEAS
 		</choice>
 </event>
 <textList name="GANG_TEXT">
-	<text>"Hey you, Fed cruiser! Glad you came, these bangers won't leave us alone." The hail comes from a nearby civilian ship. You don't have to decide if you want to help: The gang ship already changed course engages you.</text>
-	<text>As local authority has broken down, some petty criminals have organized small gangs. Most of their members are simply common pirates with fancier ships.</text>
-	<text>A ship with gang markings demands your surrender. You doubt these fools will be missed.</text>
-	<text>You spot a gang ship looting a small civilian freighter. There is doubt that they destroyed it themselves, but as you scan them they react aggressively and move in to attack.</text>
-	<text>After your jump drive cooled down, a ship of a local gang sends a message: "You want to fight?" They definitely want to and come at you dead on.</text>
+	<text>"이봐요, 연방 순양함! 와주셔서 기뻐요, 저 고물딱지들이 우릴 가만두지 않을 거에요." 교신은 인근 민간 선박에서 날아옵니다. 당신은 그들을 도울지말지 결정할 필요가 없습니다. 갱단 선박이 이미 항로를 바꿔 당신과 교전합니다.</text>
+	<text>지방 당국이 붕괴되면서 일부 잡범들이 소규모 작은 갱단을 조직했습니다. 그들의 대부분의 멤버들은 공상적인 배와 함께 있는 평범한 해적들입니다.</text>
+	<text>갱단 표시가 있는 배가 당신에게 항복을 요구합니다. 당신은 이 멍청한 놈들이 놓칠지도 모른다는 의심을 합니다.</text>
+	<text>갱단이 작은 민간 화물선을 약탈하는 것을 목격합니다. 그들 스스로 화물선을 파괴했다는 것에 의심이 들지만, 당신이 스캔하자 그들은 공격적인 반응과 함께 공격하기 위해 움직입니다.</text>
+	<text>당신의 점프 드라이브를 식힌 후, 한 지역 갱단의 배가 메시지를 보냅니다. "넌 싸움을 원하냐?" 그들은 분명 당신을 죽이려고 합니다.</text>
 </textList>
 
 <textList name="GANG_SHAKEDOWN_TEXT">
-	<text>Since interstellar authority has broken down, pirates, militia units and local gangs share control of the coreworlds and keep a relative stable peace. A local banger crew seem to know who you are. They threaten to sell you out to the Rebel fleet and demand some scrap to keep quiet.</text>
-	<text>A small gang ship hails you, "This is our beacon. Some say you are a wanted criminal, but you don't look like a cool one. Got some scrap? Else the Rebels might get a little tip on your whereabouts soon, if you get my meaning..." This seems to be some kind of shakedown.</text>
-	<text>A militia ship with gang markings hails, "Federation!? No way! You are that ship everyone is looking for! You better hand over some scrap or we gonna put the fleet on your ass within a standard hour."</text>
-	<text>A ship with the markings of a local gang jumps in shortly after you. They hail, "Hey there, glad we caught up with you. You are this rogue Federation ship, right? The Rebels would pay a lot for some intel on your whereabouts. What's about you make us a better offer first?" They giggle.</text>
+	<text>성간 권위가 무너진 이후로, 해적, 민병대, 현지 갱단들이 핵심지구에 대한 통제권을 공유하며 비교적 안정된 평화를 유지하고 있습니다. 현지 고물선 선원들은 당신이 누군지 알고 있는 것 같습니다. 그들은 당신을 반란군 함대에 팔아넘기겠다고 위협하며 약간의 스크랩만 준다면 눈 감아주겠다고 합니다.</text>
+	<text>작은 갱단 배 한 척이 당신과 교신합니다, "여긴 우리 송신소다. 누군 당신을 수배범이라 부르지만, 당신은 그렇게 멋있어 보이진 않는다고. 스크랩 좀 있냐? 없으면 반란군들이 곧 당신의 행방을 알지도 모른다고, 내 뜻을 이해한다면 말이지..." 이건 일종의 강탈인 것 같습니다.</text>
+	<text>갱단 마크가 붙은 민병선이 교신합니다, "연방!? 절대 안돼! 넌 모두가 찾고 잇는 배야! 네가 스크랩을 넘겨주지 않으면 우린 한 시간 안에 함대를 당신 엉덩이에 처박아 놓을 거다."</text>
+	<text>당신이 도약한 직후 현지 갱단 표시가 있는 배가 곧바로 도약합니다. 그들은 교신합니다, "이봐 거기, 만나서 반가워. 당신 이 범죄자 연방선 맞지? 반란군들이 당신의 행방을 알기 위해 많은 돈을 줄거야. 그 전에 당신이 먼저 우리에게 더 나은 제안을 해주는게 어때?" 그들은 낄낄거립니다.</text>
 </textList>
 
 <event name="GANG_MANTIS" unique="true">
-	<text>A small gang vessel hails you: "Glad you are here, friend. See that ship on your nine? That's a Mantis expedition ship. My drive is almost charged, I'll inform the militia while you hold them off, okay?" It seems you won't have much other choice.</text>
+	<text>작은 갱단 선박이 당신에게 교신합니다, "친구, 여기서 당신을 만나 기쁘군. 9시에 저 배 보여? 저건 맨티스 원정선이야. 내 드라이브를 거의 다 충전되었어. 당신이 저놈들을 저지하는 동안 난 민병대에 알려줄께, 이해했지?" 다른 선택의 여지가 별로 없을 것 같군요.</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -37842,24 +37842,24 @@ IDEAS
 </event>
 
 <event name="SE_QUEST_PASSANGERS_START" unique="true">
-	<text planet="PLANET_POPULATED_REAL">While the FTL drive charges, you skim the virtual billboard of the nearby planet. A group of individuals wants to get off world, to a destination which lies almost on your route. You could make some scrap on the side by bringing them there.</text>
+	<text planet="PLANET_POPULATED_REAL">FTL 드라이브가 충전되는 동안, 당신은 근처 행성의 VR 게시판을 훑어봅니다. 한 그룹의 사람들이 거의 당신의 항로에 놓여있는 목적지로 떠나길 원합니다. 당신은 그들을 거기로 데려간다면 부업으로 약간의 스크랩을 챙길 수 있을 겁니다.</text>
 	<choice hidden="true">
-		<text>Contact them and fix a pick up point.</text>
+		<text>그들에게 연락하고 픽업 지점을 정합니다.</text>
 		<event>
-			<text>The militia system control double checks your ship ID, but then gives you permission to land as long as you "do not cause any trouble". You put the ship down in a busy spaceport and take your passengers on board. They agree to remain in the cargo hold for the time of the journey.</text>
+			<text>민병대 통제 시스템은 당신의 선박 ID를 이중으로 확인하지만, 당신이 "문제 일으키지 않는 한" 착륙 허가를 내줍니다. 당신은 배를 붐비는 우주 공항에 내려놓고 승객들을 태웁니다. 그들은 여행 기간 동안 화물칸에 머무르기로 동의합니다.</text>
 			<quest event="SE_QUEST_PASSANGERS_ARRIVE"/>
 		</event>
 	</choice>
 	<choice>
-		<text>Continue on your way.</text>
+		<text>계속 갈 길 갑니다.</text>
 		<event>
-			<text>One never knows what problems passengers might cause. You decide to move on.</text>
+			<text>승객들이 어떤 문제를 일으킬지 아무도 모릅니다. 당신은 앞으로 나아가기로 결심합니다.</text>
 		</event>
 	</choice>
 </event>
 
 <event name="SE_QUEST_PASSANGERS_ARRIVE" unique="true">
-	<text>You arrived at the destination of your customers.</text>
+	<text>당신은 승객들의 목적지에 도착했습니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="SE_QUEST_PASSANGERS_RESULTS"/>
@@ -37868,26 +37868,26 @@ IDEAS
 
 <eventList name="SE_QUEST_PASSANGERS_RESULTS">
 	<event>
-		<text planet="PLANET_POPULATED_REAL">One of the major coreworlds lies in front of you. The passengers, a group of human merchants, take a public shuttle down to the surface. They were quite wealthy and you receive a nice tip for the timely delivery.</text>
+		<text planet="PLANET_POPULATED_REAL">주요 핵심세계 중 하나가 당신 앞에 놓여 있습니다. 인간 상인들의 그룹인, 승객들은 공용 셔틀을 타고 지표로 내려갑니다. 승객들은 꽤 부자였고 당신은 때 맞춰 운송할 수 있어서 좋은 팁을 받았습니다.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text planet="PLANET_POPULATED_REAL">One of the major coreworlds lies in front of you. You land at the cheapest pad you can find but the docking fees still eat up quite a bit of your profit. Your passengers complain about "the state of the ship" as they leave. Coreworlders...</text>
+		<text planet="PLANET_POPULATED_REAL">주요 핵심세계 중 하나가 당신 앞에 놓여 있습니다. 당신은 찾을 수 있는 가장 싼 착륙장에 도착하지만 정박 수수료는 여전히 당신의 이익을 꽤 많이 깍아먹습니다. 승객들은 떠날 때 "배 상태"에 대해 불평합니다. 핵심세계사람들이란...</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your passengers, a group of local freedom fighters, point you to the station at which they have to report in. You became friends during the journey; most of them are ex-Federation. They have taken a different path, but are still offering some ammunition on top of the payment to help you out.</text>
+		<text>당신의 승객, 현지 자유 투사 단체는 알려주어야 할 정거장을 가리킵니다. 당신은 여행 중 친구가 되었습니다. 이들 대부분은 연방 탈퇴자입니다. 비록 그들이 다른 길을 선택했지만, 여전히 당신을 돕기 위해 보수 이외에 약간의 탄약을 제공합니다.</text>
 		<ship load="BS_MILITIA" hostile="false"/>
 		<status type="limit" target="enemy" system="teleporter" amount="0"/>
 		<autoReward level="MED">missiles</autoReward>
 	</event>
 	<event>
-		<text planet="PLANET_UNPOPULATED">You set the ship down on a barren colony planet. Your passengers, a mining crew, head off to their next standard-year shift. After receiving the meager payment that was agreed on, you and the crew take a quick stroll in the local town. A cattle market is on.</text>
+		<text planet="PLANET_UNPOPULATED">당신은 배를 황량한 식민지 행성에 착륙시킵니다. 당신 승객들, 광산 직원들은 다음 표준 연도 근무지로 향합니다. 합의된 얼마되지 않는 보수를 받은 후, 당신과 승무원은 현지 마을을 잠깐 산책합니다. 가축 시장이 열리고 있습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice>
-			<text>Buy a small herd of fine cattle.</text>
+			<text>건강한 가축 무리를 삽니다.</text>
 			<event>
-				<text>Sealing the documentation and driving the livestock into the cargo holds takes its time. You hope the animals survive all the usual breaches, fires, boarding crews and missile impacts...</text>
+				<text>서류를 밀봉하고 가축을 화물칸으로 옮기는 데는 시간이 걸립니다. 당신은 동물들이 모든 일반적인 균열, 화재, 강습 그리고 미사일 충돌에서 살아남기를 바랍니다...</text>
 				<modifyPursuit amount="1"/>
 				<item_modify>
 					<item type="scrap" min="-18" max="-14"/>
@@ -37896,23 +37896,23 @@ IDEAS
 			</event>
 		</choice>
 		<choice>
-			<text>Get the ship back into orbit.</text>
+			<text>배를 다시 궤도로 보냅니다.</text>
 			<event>
-				<text>You are glad to have artificial gravity under your feet again.</text>
+				<text>당신은 다시 발 밑에 인공 중력을 가지게 되어 기쁩니다.</text>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your passengers, a group of local freedom fighters, point you to the station at which they have to report in. One of them addresses you for the first time as you dock the station, "Captain, I'm not here by my free will. These men, they will hand me over to the Rebels. Please, help me!"</text>
+		<text>당신의 승객, 현지 자유 투사 단체는 알려주어야 할 정거장을 가리킵니다. 그 중 한 명이 당신이 정거장에 정박하면서 처음으로 말을 겁니다, "선장님, 난 내 의지로 여기 온 것이 아니에요. 이 사람들이, 날 반란군에게 넘겨줄 겁니다. 제발, 도와주세요!"</text>
 		<ship load="BS_MILITIA" hostile="false"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>"Shut up!" The militia intervene. "This man is a Federation war criminal. You will open the airlock and they will leave your ship with us." They draw their weapons as a precaution.</text>
+				<text>"닥쳐!" 민병대가 끼어듭니다. "이 놈은 연방 전범입니다. 당신이 에어록을 열어주면 그는 우리와 함께 떠날 겁니다." 그들은 대비 차원에서 무기를 뽑습니다.</text>
 				<choice hidden="true">
-					<text>Signal the intruder alert.</text>
+					<text>침입자 경고 신호를 보냅니다.</text>
 					<event>
-						<text>The Federation sympathizer manages to jump through the security doors before they fall shut between you and the militia. "Thank you, Captain!" You hear pulse rifles from within the ship and impacts resonate through the hallways as the station opens fire. Let's hope this person was worth all this.</text>
+						<text>연방 동조자는 당신과 민병대 사이에 문이 닫히기 전에 간신히 보안문을 통과합니다. "고맙습니다, 선장님!" 당신은 배 안에서 펄스 소총 소리가 들었고 정거장이 발포할 때 복도를 통해 충격이 울려 퍼집니다. 이 사람이 이 모든 것을 가치있게 여기길 바랍니다.</text>
 						<crewMember amount="1" class="human"/>
 						<boarders min="2" max="2" class="human"/>
 						<ship hostile="true"/>
@@ -37963,9 +37963,9 @@ IDEAS
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Just ask for your payment.</text>
+					<text>그냥 보수를 달라고 요청합니다.</text>
 						<event>
-							<text>"Here it is. We take our leave now." The group slowly retreats into the airlock, weapons still drawn. The Federation sympathizer just stares at the ground as the bulkhead doors close. Time to get out of here...</text>
+							<text>"여기 있습니다. 이제 저희는 휴가를 받아요." 그룹은 여전히 무기를 뽑은 체로, 천천히 에어록으로 물러납니다. 연방 동조자는 칸막이 벽 문이 닫힐 때 그저 지면을 빤히 쳐다봅니다. 여길 나갈 시간입니다...</text>
 						<autoReward level="MED">scrap_only</autoReward>
 						<status type="limit" target="enemy" system="teleporter" amount="0"/>
 					</event>
@@ -37974,23 +37974,23 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">One of the secondary coreworlds lies in front of you. The passengers, a group of civilians, take a public shuttle down to the surface. As you count your scrap, a video message comes in.</text>
+		<text planet="PLANET_POPULATED_SMALL">2차 핵심세계 중 하나가 당신 앞에 놓여 있습니다. 민간인 단체 승객들은 공용 셔틀을 타고 지표면으로 내려갑니다. 당신이 스크랩을 셀 때, 비디오 메시지가 나타납니다.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 		<choice>
 			<text>계속...</text>
 			<event>
-				<text>It shows a young human. "I just wanted to thank you for the nice trip I had on your ship. I bet my Rebel superior also would like to meet you." He moves closer to the screen. "We are onto you now. We will catch you!"</text>
+				<text>화면은 한 젊은이를 보여줍니다. "난 당신 배에서 보낸 멋진 여행에 단지 감사를 전하고 싶을 뿐이야. 내 반란군 상관 또한 당신을 만나고 싶어할게 틀림없지." 그는 화면 가까이 다가갑니다. "우린 지금 당신을 쫓고 있어. 우리가 당신을 잡을 거야!"</text>
 				<choice>
 					<text>계속...</text>
 					<event>
-						<text>This is bad, your position has been compromised.</text>
+						<text>상황이 안 좋아요, 당신 위치가 위태롭습니다.</text>
 						<modifyPursuit amount="1"/>
 					</event>
 				</choice>
 				<choice hidden="true" req="slug">
-					<text>(Slugman Crew) Your Slug doubts that.</text>
+					<text>(슬러그 승무원) 슬러그는 그걸 의심합니다.</text>
 					<event>
-						<text>Your Slug calmly responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
+						<text>슬러그는 침착하게 대응합니다. "네네, 알고 있써요. 당씬은 정말로 우리가 여행 내내 상꽌에게 자료를 전송하는 껄 모를 쭐 알았나요? 그는 좌표를 잘못 받았써요." 반란군은 연방에 욕설을 퍼붓고 방송을 닫았습니다. 노련한 슬러그는 당신을 여기서 구해줍니다.</text>
 					</event>
 				</choice>
 			</event>
@@ -37999,23 +37999,23 @@ IDEAS
 </eventList>
 
 <event name="CIVILIAN_DISTRESS_RIOT" unique="true">
-	<text planet="PLANET_UNPOPULATED">The main colony on this barren planet is in unrest. Citizens demonstrate in the street, they want to join the Rebellion and demand the resignation of their rulers. The local magistrate wanted to call in the militias with the distress call, and is quite surprised by your visit.</text>
+	<text planet="PLANET_UNPOPULATED">이 척박한 행성의 주요 식민지는 불안정합니다. 시민들은 거리에서 시위를 벌이며, 반란군에 가담해 통치자의 퇴임을 요구하고 있습니다. 현지 치안 판사는 조난신호와 함께 민병대를 부르고 싶어했고, 당신의 방문에 매우 놀랐습니다.</text>
 	<distressBeacon/>
 	<choice hidden="true">
-		<text>Land the ship and 조사한다.</text>
+		<text>배를 착륙시키고 조사합니다.</text>
 		<event load="CIVILIAN_DISTRESS_RIOT_DISCUSS"/>
 	</choice>
 	<choice hidden="true" req="WEAPONS_STUNGUN">
-		<text>(신경 충격기) Offer to incapacitate the rioters.</text>
+		<text>(신경 충격기) 폭도들을 무력화시키겠다고 제안합니다.</text>
 		<event>
-			<text>The colony counsel first rejects your offer, saying they do not want to deny their people free speech. Then a group of desperate activists storms the premise of the magistrates villa. You are contacted again on a private channel, with a generous offer. Stun projectors fully power, you come down hard and knock out the Rebel sympathizers. They are taken into custody and supplies are sent into orbit.</text>
+			<text>식민지 변호인은 먼저 당신의 제안을 거부하며, 그는 자신의 사람들이 자유롭게 말하는 것을 부정하고 싶지 않다고 말합니다. 그러자 한 무리의 필사적인 활동가들이 치안판사 별장의 전제를 맹렬히 공격합니다. 당신은 후한 제안과 함께 사적인 채널로 다시 연락받습니다. 기절 충격기를 완전히 가동시키자, 반란군 동조자들을 쓰러뜨릴 수 있습니다. 그들은 감금되고 물자는 궤도로 보내집니다.</text>
 			<autoReward level="MED">stuff</autoReward>
 		</event>
 	</choice>		
 	<choice hidden="true" req="WEAPONS_LASER_ALL">
-		<text>(Lasers) Show the Rebel sympathizers what they get.</text>
+		<text>(레이저) 반란군 동조자들에게 그들이 얻을 것을 보여줍니다.</text>
 		<event>
-			<text>You fly a strafing run and open fire on the rioters. The crowd scatters; many lie dead in the street. The local authorities are terrified by your actions. Some militia ships have arrived by now and one intercepts you as you get back into orbit.</text>
+			<text>당신은 저공비행하며 폭격했고 폭도들에게 발포합니다. 군중은 흩어졌고, 많은 사람들이 거리에 죽어 있습니다. 현지 당국은 당신의 행동에 겁을 먹고 있습니다. 지금쯤 민병선 몇 척이 도착했고 한 척이 궤도로 돌아오면서 당신을 가로막습니다.</text>
 			<ship load="MILITIA_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -38066,36 +38066,36 @@ IDEAS
 	<choice hidden="true">
 		<text>끼어들지 않는다.</text>
 		<event>
-			<text>It's better not to draw too much attention here. 당신은 도약할 준비를 합니다.</text>
+			<text>여기서는 너무 주의를 끌지 않는 것이 좋습니다. 당신은 도약할 준비를 합니다.</text>
 		</event>
 	</choice>
 </event>
 <eventList name="CIVILIAN_DISTRESS_RIOT_DISCUSS">
 	<event>
-		<text>You set the ship down near a busy protest camp. The activists declare they have no leaders, but everyone is happy to talk with you. They hope for better lives with the Rebellion. You and the crew share some stories from your journey.</text>
+		<text>당신은 분주한 시위 캠프 근처에 배를 착륙시켰습니다. 운동가들은 자신들의 대표가 없다고 선언하지만, 모든 사람들이 당신과 대화하는 것을 기뻐합니다. 그들은 반란과 함께 더 나은 삶을 살기를 희망합니다. 당신과 승무원들은 당신의 여정에서 얻은 몇 가지 이야기를 공유합니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>It turns out that the activists share a lot of your views, while they also disagree on other points. As the FTL is almost charged you get ready for lift off. The local magistrate, an ex-Federation official, thanks your for your efforts with a small scrap donation.</text>
+				<text>운동가들은 당신의 많은 의견을 공유하는 반면, 다른 점에서도 의견이 일치하지 않는 것으로 밝혀졌습니다. FTL은 거의 충전 상태이기 때문에 이륙 준비를 해야 합니다. 연방 전 관리인인, 현지 치안 판사는 당신의 노력에 소량의 스크랩 기부금으로 감사를 표합니다.</text>
 			<autoReward level="MED">scrap_only</autoReward>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The protests have developed into a full out riot. The administration building is being set ablaze and militia marines are deployed to control the crowds. As you watch the chaos from a bar near the landing pad you realize that there nothing you can do here. You are just a bystander, a crisis tourist.</text>
+		<text>시위는 전면적인 폭동으로 발전했습니다. 정부 청사는 불타오르고 민병대는 군중을 통제하기 위해 배치됩니다. 당신은 착륙장 근처의 바에서 이 혼란을 볼때, 여기서 할 수 있는 것이 아무것도 없다는 사실을 깨닫습니다. 당신은 그저 방관자일 뿐이고, 위기의 관광객입니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>You get the ship back into orbit and prepare to 떠난다.</text>
+				<text>배를 궤도로 되돌리고 떠날 준비합니다.</text>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The situation in town is tense. Your arrival is met with hostile remarks by the locals. You realize that anti-Federation propaganda has been spread here for quite a while and decide that you better get back to the ship quickly.</text>
+		<text>마을의 상황이 긴박합니다. 당신의 도착은 현지인들의 적대적인 발언에 부딪힙니다. 당신은 반연방 선전이 꽤 오랫동안 이곳에 퍼져 있었다는 것을 깨닫고 서둘러 배로 돌아가는 것이 낫다는 결정을 합니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>As you take off you spot a group of armed individuals on a nearby roof. They have an RPG 7000! You put full power to the thrusters, but cannot evade the rocket. Luckily, spaceship hull armor can take such a hit easily.</text>
+				<text>당신이 이륙할 때, 당신은 근처의 지붕에 무장한 사람들을 발견합니다. 그들은 RPG 7000을 가지고 있습니다! 당신은 추친기에 전력을 완전히 공급하지만, 로켓을 피할 수 없었습니다. 불행히도, 배 선체 장갑은 이런 공격에 취약합니다.</text>
 			<damage amount="2"/>
 			</event>
 		</choice>
@@ -38103,28 +38103,28 @@ IDEAS
 </eventList>
 
 <event name="CIVILIAN_RELAX" unique="true">
-	<text planet="PLANET_POPULATED_REAL">You arrive at one of the major coreworld planets. Some of its settlements have several million inhabitants. Your crew is exhausted and traumatized from the journey, the endless work and all the fighting. Your First Mate formally suggests giving a shore 떠난다.</text>
+	<text planet="PLANET_POPULATED_REAL">당신은 핵심세계의 주요 행성들 중 하나에 도착합니다. 몇몇 정착지에는 수백만의 주민이 살고 있습니다. 당신의 승무원들은 이 여정, 끝없는 일, 그리고 모든 싸움으로 지치고 충격을 받았습니다. 당신의 일등항해사는 공식적으로 상륙을 제안합니다.</text>
 	<choice hidden="true">
-		<text>Spend one jump cycle on the planet to relax.</text>
+		<text>행성에서 도약 주기 하나만큼 휴식을 취합니다.</text>
 		<event load="CIVILIAN_RELAX_RESULTS"/>
 	</choice>		
 	<choice hidden="true">
-		<text>Tell them to hold on just a little longer. The Federation depends on us.</text>
+		<text>조금만 더 참으라고 말합니다. 연방은 우리 손에 달려 있습니다.</text>
 		<event/>
 	</choice>
 </event>
 <eventList name="CIVILIAN_RELAX_RESULTS">
 	<event>
-		<text>You spend the time on the planet in a fancy club, partying with the crew like there is no tomorrow. Which might be actually true for some, or all of you. Waking up with a bad headache, you prepare to get the ship back on route. Your team is grateful for the day of distraction.</text>
+		<text>당신은 화려한 클럽에서 내일이 없는 것처럼, 승무원들과 파티를 하면서 시간을 보냅니다. 사실 당신들 중 일부 혹은 모두에게 해당될 수도 있습니다. 심한 두통에 깨어난 당신은 배를 다시 항해할 준비를 합니다. 당신 팀은 적절한 휴식에 감사해합니다.</text>
 		<modifyPursuit amount="1"/>
 	</event>
 	<event>
-		<text>While your crewmen do their own things you spend the time on the planet in a small bar. After some drinks you get into a conversation with an ex-Federation officer. Times have changed. You talk about the old days and in the end she agrees to share some local sector maps to help you out.</text>
+		<text>당신 선원들이 그들 자신의 시간을 즐기는 동안, 당신은 행성에 있는 작은 바에서 시간을 보냅니다. 술을 좀 마시고 나면 전 연방 장교와 대화를 나눕니다. 시대가 변했습니다. 당신은 옛날 얘기를 했고 결국 그녀는 당신을 돕기 위해 현지 구역 지도를 공유하기로 동의합니다.</text>
 		<modifyPursuit amount="1"/>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>While your crewmen do their own things you spend the evening on the planet in a local canteen.</text>
+		<text>당신 선원들이 그들 자신의 시간을 즐기는 동안, 당신은 행성에 있는 작은 술집에서 시간을 보냅니다.</text>
 		<modifyPursuit amount="1"/>
 		<choice>
 			<text>계속...</text>
@@ -38142,19 +38142,19 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>You stay on board the ship to further plan your journey. As your crew returns, one of them brings a guest. It turns out they have become lovers and the unknown individual even wants to join your cause in order to be able to stay with your crew member.</text>
+		<text>당신은 여정을 더 계획하기 위해 배에 머무릅니다. 승무원들이 돌아왔고, 그 중 한 명이 손님을 데리고 옵니다. 알고 보니 그는 연인 사이가 되었고, 신원이 불분명한 이는 심지어 당신의 승무원과 함께 지내기 위해 당신의 대의에 동참하고 싶어합니다.</text>
 		<modifyPursuit amount="1"/>
 		<choice hidden="true">
-			<text>"Whatever. Welcome on board."</text>
+			<text>"아무렴요. 승선을 환영합니다."</text>
 			<event>
-				<text>You give a quick speech about crew discipline, the dangers of your mission and that everyone will be treated the same on board. Your crewman's partner is still eager to join. Can love bloom in outer space? Perhaps soon you will find out.</text>
+				<text>당신은 승무원의 규율, 임무의 위험성, 그리고 모든 사람이 선내에서 똑같은 대우를 받을 것이라 짧게 말합니다. 승무원의 애인은 아직도 합류를 간절히 열망합니다. 사랑은 외우주에서 꽃을 피울 수 있을까요? 아마 곧 알게 될 겁니다.</text>
 			<crewMember amount="1"/>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>"This isn't exactly protocol. Sorry."</text>
+			<text>"이건 정확히 합의된 것이 아닙니다. 죄송합니다."</text>
 			<event>
-				<text>"I said NO!" ... Such stuff on board only causes problems and might even endanger the mission. They say goodbye to each other on the cargo ramp while you prepare the ship for take off.</text>
+				<text>"전 안됀다고 했어요!"... 배에 승선한 이런 이들은 문제를 일으킬 뿐이고 심지어 임무를 위태롭게 할 수도 있습니다. 그들은 화물 경사로에서 당신이 이륙할 준비하는 동안 서로 작별을 고합니다.</text>
 			</event>
 		</choice>
 	</event>
@@ -38162,15 +38162,15 @@ IDEAS
 
 
 <event name="CE_QUEST_CURATOR_START" unique="true">
-	<text>You arrive at a quiet part of the sector. To your surprise the scanners pick up an autonomous drone, alone in space. The thing actually hails your ship, claiming it has a proposal to make.</text>
+	<text>당신은 구역의 조용한 부문에 도착합니다. 놀랍게도 당신의 스캐너는 우주에 혼자 있는 무인 드론을 포착합니다. 그 드론은 실제로 배에서 제안할 것이 있다고 주장합니다.</text>
 	<choice hidden="true">
-		<text>Open a channel and hear what the robot has to say.</text>
+		<text>채널을 열고 로봇이 말하는 것을 들어봅니다.</text>
 		<event load="CE_QUEST_CURATOR_START_OFFER"/>
 	</choice>
 	<choice hidden="true">
-		<text>A talking drone? How quaint. Let's move on.</text>
+		<text>말하는 드론? 참 기이하군. 어서 이동하죠.</text>
 		<event>
-			<text>The drones protests in text form, but that does not keep you from scraping it as you pass into your jump vector. Free drone parts.</text>
+			<text>드론이 텍스트 형태로 항의를 하지만, 그렇다고 도약 진로에 들어갈때 드론을 회수하는 것을 막을 수는 없습니다. 무료 드론 부품이군요.</text>
 			<item_modify>    
 				<item type="drones" min="1" max="1"/>
 			</item_modify>
@@ -38184,24 +38184,24 @@ IDEAS
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"Would you be interested in joining our little club of explorers? You will roam the galaxy in search for strange treasures, a great adventure!"</text>
+			<text>"우리의 작은 탐험가 클럽에 가입하고 싶으신가요? 당신은 이상한 보물, 위대한 모험을 찾아 은하계를 돌아다닐 거예요!"</text>
 			<choice hidden="true">
-				<text>Agree to collect some of the artifacts the Curator is looking for.</text>
+				<text>큐레이터에서 찾고 있는 유물 중 일부를 수집하는 데 동의합니다.</text>
 				<event>
-					<text>The drone sounds elated. "Excellent, Captain! You will be duly compensated, according to the amount of items you secure. Transmitting a catalog with items of interest... Attaching locations of my sisters as well... See you."</text>
+					<text>드론은 마냥 행복한 소리를 냅니다. "선장님, 훌륭합니다! 귀하는 귀하가 확보한 물품의 양에 따라 적절한 보상을 받을 겁니다. 관심 항목이 포함된 카탈로그를 전송하는 중입니다... 제 언니들의 위치도 첨부하고 있어요... 또 만나요."</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>The drone floats away. One of the artifacts can be found a few light years away. You tag the location on your map.</text>
+							<text>드론이 떠내려갑니다. 그 유물들 중 하나는 몇 광년 떨어진 곳에서 발견됩니다. 당신은 지도의 위치에 태그를 답니다.</text>
 							<quest event="CE_QUEST_CURATOR_ITEM_1"/>
 						</event>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>No time for mercenary work. There is vital information which needs to get to the Federation!</text>
+				<text>용병 일을 할 시간이 없습니다. 연방에 전달해야 할 중요한 정보가 있어요!</text>
 				<event>
-					<text>The drone puts on a disappointed sounding voice. "This could have been an adventure for a lifetime, Captain. I suppose I will have to wait for another ship and crew." As the Curator's drone moves away from your ship, you get ready to leave this section of space.</text>
+					<text>드론이 실망스러운 목소리를 냅니다. "이건 일생일대의 모험이 될 수도 있어요, 선장님. 다른 배와 선원을 기다려야 할 것 같네요." 큐레이터 드론이 배에서 멀어질 때, 당신은 이 우주 구역을 떠날 준비를 합니다.</text>
 				</event>
 			</choice>
 		</event>
@@ -38210,10 +38210,10 @@ IDEAS
 </eventList>
 
 <textList name="CE_QUEST_CURATOR_START_OFFER_DRONE_OFFER_TEXT">
-	<text>"Greeting, Captain. I am 127 Praf, an autonomous AI drone. I represent an individual of great fame in this part of the galaxy, a collector of interstellar artifacts known as "The Curator." My AI brethren and I seek to recruit help to enlarge our master's collection."</text>
-	<text>"Greeting, Captain. I am Lux, an autonomous AI drone. I represent an individual of great fame in this part of the galaxy, a collector of interstellar artifacts known as "The Curator". My AI brethren and I seek to recruit help to enlarge our master's collection."</text>
-	<text>"Greeting, Captain. I am 431-Glassmade, an autonomous AI drone. I represent an individual of great fame in this part of the galaxy, a collector of interstellar artifacts known as "The Curator." My AI brethren and I seek to recruit help to enlarge our master's collection."</text>
-	<text>"Greeting, Captain. I am FiPs-25f, an autonomous AI drone. I represent an individual of great fame in this part of the galaxy, a collector of interstellar artifacts known as "The Curator." My AI brethren and I seek to recruit help to enlarge our master's collection."</text>
+	<text>"안녕하세요, 선장님. 전 자율형 AI 드론, 127 프라프에요. 전 은하계의 이 구역에서 유명한 한 사람을 대표해요, "더 큐레이터"라고 알려진 성간 유물 수집가말이죠. 저와 AI 자매들은 주인님의 수집품을 확대하기 위해 도움을 청하고자 해요."</text>
+	<text>"안녕하세요, 선장님. 전 자율형 AI 드론, 럭스에요. 전 은하계의 이 구역에서 유명한 한 사람을 대표해요, "더 큐레이터"라고 알려진 성간 유물 수집가말이죠. 저와 AI 자매들은 주인님의 수집품을 확대하기 위해 도움을 청하고자 해요."</text>
+	<text>"안녕하세요, 선장님. 전 자율형 AI 드론, 431-유리메이드에요. 전 은하계의 이 구역에서 유명한 한 사람을 대표해요, "더 큐레이터"라고 알려진 성간 유물 수집가말이죠. 저와 AI 자매들은 주인님의 수집품을 확대하기 위해 도움을 청하고자 해요."</text>
+	<text>"안녕하세요, 선장님. 전 자율형 AI 드론, FiPs-25f에요. 전 은하계의 이 구역에서 유명한 한 사람을 대표해요, "더 큐레이터"라고 알려진 성간 유물 수집가말이죠. 저와 AI 자매들은 주인님의 수집품을 확대하기 위해 도움을 청하고자 해요."</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_1">
@@ -38221,18 +38221,18 @@ IDEAS
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>You gathered a valuable item for the Curator.</text>
+			<text>당신은 큐레이터를 위한 귀중품을 수집합니다.</text>
 			<choice hidden="true">
-				<text>Travel on to gather more artifacts.</text>
+				<text>더 많은 유물들을 모으기 위해 계속 여행합니다.</text>
 				<event>
-					<text>You tag the location of another item the Curator is interested in on your map.</text>
+					<text>당신은 큐레이터가 관심 있는 다른 물건의 위치를 지도에서 태그를 답니다.</text>
 					<quest event="CE_QUEST_CURATOR_ITEM_2"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Turn in the item to receive your reward.</text>
+				<text>물건을 제출하고 보상을 받습니다.</text>
 				<event>
-					<text>After consulting the register that the drone uploaded, you locate the nearest of the Curator's servants. Let's hope this was worth it.</text>
+					<text>드론이 업로드된 레지스터와 상의한 후, 당신은 큐레이터 하수인들 중 가장 가까운 장소를 찾습니다. 이게 그럴만한 가치가 있길 바랍니다.</text>
 					<quest event="CE_QUEST_CURATOR_REWARD_1"/>
 				</event>
 			</choice>
@@ -38240,16 +38240,16 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_1">
-	<text planet="PLANET_UNPOPULATED">The Diamond Sharks from the seas of Galtefor 5 are known for their seven sets of pure carbon teeth. You arrive to the water dominated planet and capture one of the creatures with the help of some local fisherman.</text>
-	<text planet="PLANET_UNPOPULATED">This planet is home to a unique breed of Solthian Octopus. Its purple-colored head bears a striking resemblance to the banner of many pirate ships. Your crew in environmental suits stun the creature and brings it on board.</text>
-	<text>This part of the galaxy is inhabited by a certain kind of Ionic Eels. A dangerous predator, the Ionic Eel has been known to prey on leviathans thrice its size! It stresses your shields, but you manage to capture the creature.</text>
-	<text planet="PLANET_UNPOPULATED">The Lermak Whale has been driven nearly extinct due to the Mantis's craving for its flesh. A small colony of the whales has survived at this planet. You hunt down one of the creatures.</text>
-	<text>Sentient Radiant Fish from the depths of Smaral Beta's oceans are a little studied speies. These large fish are know to be extremely rare - they project multi-colored light bursts, with which to lure prey. You manage to convince one of the eloquent fish to meet the Curator.</text>
-	<text planet="PLANET_UNPOPULATED">The rare Suffa plants are cultivated by, and have some of the energized properties of, the Zoltans. An exiled hydroponics lab is using the unique climate of this planet to grow the bright red bushes. You manage to convince one of the Zoltan to give you a sample.</text>
-	<text planet="PLANET_UNPOPULATED">After some digging, you unearth a Rockman ceremonial gong on an archaeological site at this planet. They are used in the more important religious ceremonies of the Rockman. Legend has it striking it three times can summon a hundred saints to aid a Rock basilisk in battle.</text>
-	<text>Oldschool Slug hacking modules are a pretty obsolete combat tech, but have quite some collection value. The Curator was right assuming that you could easily find one at the huge space scrapyard that surrounds this beacon.</text>
-	<text>A derelict Engi station, remote-jumped here from another sector, holds an original operational codex. These are the first behavioral programs used by the Engi. Since obsolete Codexes are almost always deleted when Engis develop new versions, it is quite a rare find.</text>
-	<text>A Mantis egg sack from one of their abandoned hatcheries. Why the Curator would want to risk his life with a Mantis brood is beyond you.</text>
+	<text planet="PLANET_UNPOPULATED">갈테포 5의 바다에서 온 다이아몬드 상어는 7 세트의 순수한 탄소 이빨로 알려져 있습니다. 당신은 물이 지배하는 행성에 도착해서 어떤 현지 어부의 도움으로 상어들 중 하나를 잡습니다.</text>
+	<text planet="PLANET_UNPOPULATED">이 행성은 독특한 유형의 솔티안 문어의 서식지입니다. 문어의 보라색 머리는 많은 해적선의 깃발과 놀랄 만큼 닮았습니다. 환경 슈트를 입은 당신의 선원들은 문어를 기절시키고 배로 가져옵니다.</text>
+	<text>은하계의 이 부문에서는 이온 장어가 확실해보이는 동물이 살고 있습니다.  위험한 포식자인, 이온 장어는 자기 몸집보다 두 배나 큰 레비아탄을 잡아먹는 것으로 알려져 있습니다! 이온 장어는 방어막을 압박하지만, 당신은 간신히 그 생명체를 잡을 수 있었습니다.</text>
+	<text planet="PLANET_UNPOPULATED">레막 고래는 고래 살점에 대한 맨티스의 갈망 때문에 거의 멸종된 상태입니다. 고래들의 작은 집단이 행성에서 살아남았습니다. 당신은 그 생물들 중 하나를 사냥합니다.</text>
+	<text>스마랄 베타의 바다 깊은 곳에서 온 지성 있는 물고기들은 조금 연구된 종족입니다. 이 큰 물고기는 매우 희귀한 것으로 알려져 있습니다 - 그들은 먹이를 유인하기 위해 다양한 색깔의 빛의 폭발을 투사합니다. 당신은 말재주 좋은 물고기 한 마리를 간신히 설득해서 큐레이터를 만나게 합니다.</text>
+	<text planet="PLANET_UNPOPULATED">희귀한 서파 식물은 동력을 공급할 수 있는 특성을 가진 일부 졸탄들에게서 재배됩니다. 한 추방당한 수경 연구소가 이 행성의 독특한 기후를 이용하여 눈부시게 붉은 덤블을 기르고 있습니다. 당신은 졸탄 중 한 명을 설득해서 샘플을 보내도록 합니다.</text>
+	<text planet="PLANET_UNPOPULATED">땅을 좀 파자, 당신은 이 행성의 고고학 유적지에서 락맨 제례용 징을 발굴합니다. 그것들은 락맨의 더 중요한 종교 의식에 사용됩니다. 전설에 의하면 세 번 울리면 락 바질리스크를 돕기 위해 백 명의 성인을 소환할 수 있다고 합니다.</text>
+	<text>구식 슬러그 해킹모듈은 오래된 전투 기술이지만, 수집 가치는 상당합니다. 큐레이터가 이 신호소를 둘러싸고 있는 거대한 우주 고철장에서 쉽게 찾을 수 있을 거라고 생각한 것은 옳았군요.</text>
+	<text>다른 구역에서 이곳으로 원격 도약한, 유기된 엔지 정거장은 원본 운영 코덱스를 보유하고 있습니다. 이건 엔지에 의해 사용된 최초의 행동 프로그램입니다. 엔지가 새로운 버전을 개발하면 구식 코덱스는 거의 항상 삭제되기 때문에, 이건 꽤 진귀한 발견물입니다.</text>
+	<text>맨티스의 버려진 부화장 중 한 곳에 맨티스 알 자루가 있습니다. 왜 큐레이터는 맨티스 새끼와 함께 자신의 목숨을 거는 위험을 원하는 걸까요.</text>
 </textList>
 
 
@@ -38258,18 +38258,18 @@ IDEAS
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>You gathered a valuable item for the Curator.</text>
+			<text>당신은 큐레이터를 위한 귀중품을 수집합니다.</text>
 			<choice hidden="true">
-				<text>Travel on to gather more artifacts.</text>
+				<text>더 많은 유물들을 모으기 위해 계속 여행합니다.</text>
 				<event>
-					<text>You tag the location of another item the Curator is interested in on your map.</text>
+					<text>당신은 큐레이터가 관심 있는 다른 물건의 위치를 지도에서 태그를 답니다.</text>
 					<quest event="CE_QUEST_CURATOR_ITEM_3"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Turn in the items to receive your reward.</text>
+				<text>물건들을 제출하고 보상을 받습니다.</text>
 				<event>
-					<text>After consulting the register that the drone uploaded, you locate the nearest of the Curator's servants. Let's hope all this was worth it.</text>
+					<text>드론이 업로드된 레지스터와 상의한 후, 당신은 큐레이터 하수인들 중 가장 가까운 장소를 찾습니다. 이 모든 것이 그럴만한 가치가 있길 바랍니다.</text>
 					<quest event="CE_QUEST_CURATOR_REWARD_2"/>
 				</event>
 			</choice>
@@ -38277,11 +38277,11 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_2">
-	<text planet="PLANET_POPULATED_REAL">This planet is known to house some of the most obscure music shops in the galaxy. You purchase some ancient gel-jazz album the Curator is looking for.</text>
-	<text planet="PLANET_POPULATED_REAL">This planet's population reached a trillion, but it can easily sustain itself. Cities are dotted with small fields. Urban agriculture once again proves to be an efficient concept. You gather the exotic vegetables the Curator is looking for, but can't help feeling like you're fetching his groceries.</text>
-	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains a fresh sandwich and a hand-held antimatter weapon.</text>
-	<text planet="PLANET_UNPOPULATED">An abandoned archaeological excavation site of a Khaz'akzhak-period Mantis temple. You load some chitin plated facade parts into your cargo holds. No idea what the Curator wants with these.</text>
-	<text>The Curator's catalog was right, you detect a herd of FTL-Swimmers lingering in subspace a few light years away. A modulated sensor pulse drives the strange space creatures into realspace and you manage to capture one of their young for the Curator.</text>
+	<text planet="PLANET_POPULATED_REAL">이 행성은 은하계에서 가장 이해하기 힘든 음악 가게들을 수용하고 있는 것으로 알려져 있습니다. 당신은 큐레이터가 찾고 있는 고대 젤 재즈의 앨범을 구입합니다.</text>
+	<text planet="PLANET_POPULATED_REAL">이 행성의 인구는 1조에 달했지만, 행성 스스로 손쉽게 지탱할 수 있었습니다. 도시에는 작은 재배소가 산재합니다. 도시 농업은 다시 한번 효율적인 개념이라는 걸 증명합니다. 당신은 큐레이터가 찾고 있는 이국적인 야채를 모으지만, 그의 식료품을 가져오는 듯한 기분을 느끼지 않을 수 없습니다.</text>
+	<text planet="PLANET_UNPOPULATED">큐레이터 카탈로그는 졸탄 타임캡슐이 이 행성의 지층에 숨겨져 있다고 주장합니다. 오랜 스캔 후 당신은 뚫을 수 없는 포스필드로 보호받는 원형 장치를 찾아 발굴합니다. 거기엔 신선한 샌드위치와 휴대용 반물질 무기가 들어 있었습니다.</text>
+	<text planet="PLANET_UNPOPULATED">한 버려진 고고학 발굴현장은 카즈'악잨 시기의 맨티스 사원입니다. 당신은 약간의 키틴질 도금이 된 표면 부품을 화물칸에 싣습니다. 큐레이터가 이걸로 뭘 원하는건지 모르겠군요.</text>
+	<text>큐레이터의 카탈로그가 옳았군요, 당신은 몇 광년 떨어진 심층우주에서 FTL-스위머가 계속 맴돌고 있는 것을 발견합니다. 개조된 감지기 펄스가 이상한 우주 생물을 실제 우주로 끌어내렸고 당신은 큐레이터를 위해 그들의 새끼들 중 하나를 포획합니다.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_3">
@@ -38289,18 +38289,18 @@ IDEAS
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>You gathered a valuable item for the Curator.</text>
+			<text>당신은 큐레이터를 위한 귀중품을 수집합니다.</text>
 			<choice hidden="true">
-				<text>Travel on to gather more artifacts.</text>
+				<text>더 많은 유물들을 모으기 위해 계속 여행합니다.</text>
 				<event>
-					<text>You tag the location of another item the Curator is interested in on your map.</text>
+					<text>당신은 큐레이터가 관심 있는 다른 물건의 위치를 지도에서 태그를 답니다.</text>
 					<quest event="CE_QUEST_CURATOR_ITEM_4"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Turn in the items to receive your reward.</text>
+				<text>물건들을 제출하고 보상을 받습니다.</text>
 				<event>
-					<text>After consulting the register that the drone uploaded, you locate the nearest of the Curator's servants. Let's hope all this was worth it.</text>
+					<text>드론이 업로드된 레지스터와 상의한 후, 당신은 큐레이터 하수인들 중 가장 가까운 장소를 찾습니다. 이 모든 것이 그럴만한 가치가 있길 바랍니다.</text>
 					<quest event="CE_QUEST_CURATOR_REWARD_3"/>
 				</event>
 			</choice>
@@ -38308,11 +38308,11 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_3">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewmen is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
-	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
-	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
-	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
-	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. A shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
+	<text planet="PLANET_UNPOPULATED">큐레이터는 이 행성에서 마그마 벌레 유충을 얻는데 관심이 있습니다. 당신은 무기를 재조정하고 지층을 뚫습니다. 당신 선원 중 한 명이 원정 임무로 보내졌고 거대한 생물체를 찾는 데 성공합니다.</text>
+	<text planet="PLANET_UNPOPULATED">희귀한 품종의 발광 세이버-염소는 이 행성의 적도 산악 지역에 살고 있다고 합니다. 당신 승무원들은 스턴 블래스터과 함께 하이킹을 하러 갑니다. 당신은 사냥하는 동안 아무도 다치지 않아서 기쁩니다.</text>
+	<text planet="PLANET_UNPOPULATED">큐레이터 드론이 제공한 정보가 사실임을 증명합니다. 고대 졸탄 유물인, 이 특별한 문틀은 이 행성의 극점 근처에 숨겨져 있습니다. 이 장치는 단 한 명의 FTL 여행을 가능하게 하지만, 장치를 통과하고 돌아온 이들 중 어떤 사람도 보고를 하지 않습니다.</text>
+	<text>우주 고래는 거의 멸종될 정도로 사냥되고 있습니다. 이 송신소는 전설적인 생물체들이 죽으려고 모여든 우주 부문에 가깝습니다. 고래의 끊임없는 시체들 중 몇 구는 큰 행성 궤도 주위를 돌고 있습니다. 당신은 큐레이터가 찾고 있는 얼어붙은 우주 고래 기름을 모읍니다.</text>
+	<text planet="PLANET_UNPOPULATED">이 행성의 버려진 수도원 근처에서 고대 졸탄 모놀리스가 발견되었습니다. 이러한 장치가 실제로 어떤 용도로 사용되는지 아는 사람은 거의 없습니다. 광택나는 유물에서 조각을 떼어내자 오싹한 느낌이 듭니다. 큐레이터는 물질을 연구하려고 합니다.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_4">
@@ -38320,18 +38320,18 @@ IDEAS
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>You gathered a valuable item for the Curator.</text>
+			<text>당신은 큐레이터를 위한 귀중품을 수집합니다.</text>
 			<choice hidden="true">
-				<text>Travel on to gather more artifacts.</text>
+				<text>더 많은 유물들을 모으기 위해 계속 여행합니다.</text>
 				<event>
-					<text>You tag the location of another item the Curator is interested in on your map.</text>
+					<text>당신은 큐레이터가 관심 있는 다른 물건의 위치를 지도에서 태그를 답니다.</text>
 					<quest event="CE_QUEST_CURATOR_ITEM_5"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Turn in the items to receive your reward.</text>
+				<text>물건들을 제출하고 보상을 받습니다.</text>
 				<event>
-					<text>After consulting the register that the drone uploaded, you locate the nearest of the Curator's servants. Let's hope all this was worth it.</text>
+					<text>드론이 업로드된 레지스터와 상의한 후, 당신은 큐레이터 하수인들 중 가장 가까운 장소를 찾습니다. 이 모든 것이 그럴만한 가치가 있길 바랍니다.</text>
 					<quest event="CE_QUEST_CURATOR_REWARD_4"/>
 				</event>
 			</choice>
@@ -38339,11 +38339,11 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_4">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewmen is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
-	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
-	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
-	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
-	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. A shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
+	<text planet="PLANET_UNPOPULATED">큐레이터는 이 행성에서 마그마 벌레 유충을 얻는데 관심이 있습니다. 당신은 무기를 재조정하고 지층을 뚫습니다. 당신 선원 중 한 명이 원정 임무로 보내졌고 거대한 생물체를 찾는 데 성공합니다.</text>
+	<text planet="PLANET_UNPOPULATED">희귀한 품종의 발광 세이버-염소는 이 행성의 적도 산악 지역에 살고 있다고 합니다. 당신 승무원들은 스턴 블래스터과 함께 하이킹을 하러 갑니다. 당신은 사냥하는 동안 아무도 다치지 않아서 기쁩니다.</text>
+	<text planet="PLANET_UNPOPULATED">큐레이터 드론이 제공한 정보가 사실임을 증명합니다. 고대 졸탄 유물인, 이 특별한 문틀은 이 행성의 극점 근처에 숨겨져 있습니다. 이 장치는 단 한 명의 FTL 여행을 가능하게 하지만, 장치를 통과하고 돌아온 이들 중 어떤 사람도 보고를 하지 않습니다.</text>
+	<text>우주 고래는 거의 멸종될 정도로 사냥되고 있습니다. 이 송신소는 전설적인 생물체들이 죽으려고 모여든 우주 부문에 가깝습니다. 고래의 끊임없는 시체들 중 몇 구는 큰 행성 궤도 주위를 돌고 있습니다. 당신은 큐레이터가 찾고 있는 얼어붙은 우주 고래 기름을 모읍니다.</text>
+	<text planet="PLANET_UNPOPULATED">이 행성의 버려진 수도원 근처에서 고대 졸탄 모놀리스가 발견되었습니다. 이러한 장치가 실제로 어떤 용도로 사용되는지 아는 사람은 거의 없습니다. 광택나는 유물에서 조각을 떼어내자 오싹한 느낌이 듭니다. 큐레이터는 물질을 연구하려고 합니다.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_5">
@@ -38351,11 +38351,11 @@ IDEAS
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>You gathered a valuable item for the Curator. All the artifacts of interest to him from this part of the galaxy have been retrieved.</text>
+			<text>당신은 큐레이터를 위한 귀중품을 수집합니다. 은하계의 이 부분에서 그가 관심 갖는 모든 유물들이 회수되었습니다.</text>
 			<choice hidden="true">
-				<text>Turn in the items to receive your reward.</text>
+				<text>물건들을 제출하고 보상을 받습니다.</text>
 				<event>
-					<text>After consulting the register that the drone uploaded, you locate the nearest of the Curator's servants. Let's hope all this was worth it.</text>
+					<text>드론이 업로드된 레지스터와 상의한 후, 당신은 큐레이터 하수인들 중 가장 가까운 장소를 찾습니다. 이 모든 것이 그럴만한 가치가 있길 바랍니다.</text>
 					<quest event="CE_QUEST_CURATOR_REWARD_5"/>
 				</event>
 			</choice>
@@ -38363,20 +38363,20 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_5">
-	<text>The curator wants a certain asteroid from a mineral field in this system. You find the piece of Rock at the exact location you where given. It seems to be made of completely ordinary stone. What the Curator wants with this remains a mystery.</text>
-	<text planet="PLANET_UNPOPULATED">A legendary breed of changer lizards inhabits this world. You scanners uncover them while posing as a heard of sheep-like cattle. The crew captures one of the shape shifter animals an brings it aboard.</text>
-	<text>The Curator's data was right: A small portion of space whale ambra is found in this system. The rare substance is left behind by the space inhabiting behemoth once in a decade. It is said to stimulate telepathic abilities.</text>
-	<text planet="PLANET_POPULATED_REAL">The antique industrial drones of this volume are a great tourist attraction. You steel one of the robots for the Curator.</text>
-	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains an old acoustic guitar and a pair of severed humanoid hands...</text>
+	<text>큐레이터는 이 성계의 광물 지대에서 어떤 소행성을 원합니다. 당신은 광석의 조각을 주어진 정확한 위치에서 찾을 수 있었습니다. 그건 완전 평범한 돌로 만들어진 것 같습니다. 큐레이터가 이걸로 뭘 원하는지는 여전히 수수께끼로 남아있습니다.</text>
+	<text planet="PLANET_UNPOPULATED">전설적인 품종의 변화 도마뱀이 이 행성에 살고 있습니다. 스캐너는 양처럼 들리는 가축 소리를 들으면서 도마뱀을 탐지합니다. 선원들은 형체 변형 동물들 중 한 마리를 잡아 배에 싣습니다.</text>
+	<text>큐레이터의 데이터는 옳았습니다. 이 성계에서는 우주 고래 아메바의 작은 부분이 발견됩니다. 이 희귀한 물질은 10년에 한 번 베헤모스에 서식하는 공간에 의해 남겨집니다. 이건 텔레파시 능력을 자극한다고 합니다.</text>
+	<text planet="PLANET_POPULATED_REAL">이 고대 산업용 드론의 음량은 훌륭한 관광 명소입니다. 당신은 큐레이터를 위해 로봇 하나를 훔칩니다.</text>
+	<text planet="PLANET_UNPOPULATED">큐레이터 카탈로그는 졸탄 타임캡슐이 이 행성의 지층에 숨겨져 있다고 주장합니다. 오랜 스캔 후 당신은 뚫을 수 없는 포스필드로 보호받는 원형 장치를 찾아 발굴합니다. 거기엔 오래된 어쿠스틱 기타와 한 쌍의 절단된 인간형 손이 있었습니다...</text>
 </textList>
 
 <eventList name="CE_QUEST_CURATOR_REWARD_1">
 <event>
-	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange item you gathered on board. Afterwards you meet the AI servant in the holds.</text>
+	<text>당신은 큐레이터 드론 중 하나를 찾았습니다. 지성 있는 드론은 화물선을 준비하여 당신이 배에 수집한 기묘한 물건을 가져갑니다. 그 후 당신은 짐칸 안에서 AI 하수인을 만납니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"Thank you for your help Captain. The cargo crew will transmit some scrap for your work. Nice meeting you!" The drone emits a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
+			<text>"선장님 도와주셔서 감사해요. 화물 선원이 당신의 업무를 위해 약간의 스크랩을 보낼 거에요. 만나서 반가웠어요!" 드론이 장밋빛 빛을 내뿜으며 에어록에서 물러납니다. 당신은 앞으로 이동할 준비합니다.</text>
 			<autoReward level="MED">scrap_only</autoReward>
 		</event>
 	</choice>
@@ -38385,11 +38385,11 @@ IDEAS
 
 <eventList name="CE_QUEST_CURATOR_REWARD_2">
 <event>
-	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds.</text>
+	<text>당신은 큐레이터 드론 중 하나를 찾았습니다. 지성 있는 드론은 화물선을 준비하여 당신이 배에 수집한 기묘한 물건들을 가져갑니다. 그 후 당신은 짐칸 안에서 AI 하수인을 만납니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"My master appreciates your effort, Captain. The cargo crew will transmit some supplies as thanks. Nice meeting you!" The drone emits a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
+			<text>"제 주인님은 당신의 노력에 감사해요, 선장님. 화물 선원이 감사의 뜻으로 보급품 일부를 전송할 거에요. 만나서 반가웠어요!" 드론이 장밋빛 빛을 내뿜으며 에어록에서 물러납니다. 당신은 앞으로 이동할 준비합니다.</text>
 			<autoReward level="HIGH">standard</autoReward>
 		</event>
 	</choice>
@@ -38398,11 +38398,11 @@ IDEAS
 
 <eventList name="CE_QUEST_CURATOR_REWARD_3">
 <event>
-	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds.</text>
+	<text>당신은 큐레이터 드론 중 하나를 찾았습니다. 지성 있는 드론은 화물선을 준비하여 당신이 배에 수집한 기묘한 물건들을 가져갑니다. 그 후 당신은 짐칸 안에서 AI 하수인을 만납니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"My master is very pleased, Captain. So many rare artifacts! The cargo crew will transmit some supplies and a special little something as thanks. Nice meeting you!" The drone covers itself in a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
+			<text>"선장님, 제 주인님은 매우 기뻐하고 계세요. 희귀한 유물들이 정말 많군요! 화물 선원이 보급품 일부와 약간 특별한 것 감사의 뜻으로 전송할 거에요. 만나서 반가웠어요!" 드론이 장밋빛 빛으로 자신의 몸을 가리며 에어록에서 물러납니다. 당신은 앞으로 이동할 준비합니다.</text>
 			<autoReward level="MEDIUM">augment</autoReward>
 		</event>
 	</choice>
@@ -38411,16 +38411,16 @@ IDEAS
 
 <eventList name="CE_QUEST_CURATOR_REWARD_4">
 <event>
-	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds.</text>
+	<text>당신은 큐레이터 드론 중 하나를 찾았습니다. 지성 있는 드론은 화물선을 준비하여 당신이 배에 수집한 기묘한 물건들을 가져갑니다. 그 후 당신은 짐칸 안에서 AI 하수인을 만납니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"My master is very pleased, Captain. So many rare artifacts! The cargo crew will transmit some supplies and a special little something as thanks. Nice meeting you!" The drone emits a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
+			<text>"선장님, 제 주인님은 매우 기뻐하고 계세요. 희귀한 유물들이 정말 많군요! 화물 선원이 보급품 일부와 약간 특별한 것 감사의 뜻으로 전송할 거에요. 만나서 반가웠어요!"</text>
 			<autoReward level="HIGH">standard</autoReward>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"We aslo threw in a special little something as thanks. Nice meeting you!" The drone emits a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
+					<text>"저희 또한 감사의 뜻으로 작은 특별한 걸 드릴께요. 만나서 반가웠어요!" 드론이 장밋빛 빛을 내뿜으며 에어록에서 물러납니다. 당신은 앞으로 이동할 준비합니다.</text>
 					<autoReward level="MEDIUM">augment</autoReward>
 				</event>
 			</choice>
@@ -38431,11 +38431,11 @@ IDEAS
 
 <eventList name="CE_QUEST_CURATOR_REWARD_5">
 <event>
-	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds. The drone floats towards you, its lights blinking with delight.</text>
+	<text>당신은 큐레이터 드론 중 하나를 찾았습니다. 지성 있는 드론은 화물선을 준비하여 당신이 배에 수집한 기묘한 물건들을 가져갑니다. 그 후 당신은 짐칸 안에서 AI 하수인을 만납니다. 드론은 당신을 향해 나아갔고, 드론의 불빛은 기쁨으로 깜빡거립니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>"My master and I are very pleased, Captain. All these rare and curious things! The cargo crew will transmit some supplies and equipment."</text>
+			<text>"제 주인님과 전 매우 기뻐해요, 선장님. 이 모든 희귀하고 신기한 것들요! 화물 승무원이 보급품 일부와 장비를 전송해 줄 거에요."</text>
 			<autoReward level="HIGH">augment</autoReward>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -38448,92 +38448,92 @@ IDEAS
 
 <eventList name="CE_QUEST_CURATOR_REWARD_DRONE">
 	<event>
-		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
+		<text>"당신은 또한 제 주인에게 '관찰할 가치가 있는 탐험가'로 여겨진다는 사실을 알아야 해요. 전 제 정신상태를 아바타로 옮긴 후 당신의 승무원으로 합류하여 어떤 흥미로운 것들을 발견할 건지 보고 싶어요. 제 동행을 허락해주신다면 추가 보상이 있을 거에요."</text>
 		<choice>
-			<text>Welcome aboard drone!</text>
+			<text>드론의 승선을 환영합니다!</text>
 			<event>
-				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
+				<text>"아주 좋아요!" 드론은 작은 아바타 생성기를 배치하고 독자적인 홀로그램 형태의 승무원으로 합류합니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">Ian Banks</crewMember>
 			</event>
 		</choice>
 		<choice>
-			<text>Politely decline the drone's offer.</text>
+			<text>드론의 제안을 정중히 거절합니다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
+		<text>"당신은 또한 제 주인에게 '관찰할 가치가 있는 탐험가'로 여겨진다는 사실을 알아야 해요. 전 제 정신상태를 아바타로 옮긴 후 당신의 승무원으로 합류하여 어떤 흥미로운 것들을 발견할 건지 보고 싶어요. 제 동행을 허락해주신다면 추가 보상이 있을 거에요."</text>
 		<choice>
-			<text>Welcome aboard drone!</text>
+			<text>드론의 승선을 환영합니다!</text>
 			<event>
-				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
+				<text>"아주 좋아요!" 드론은 작은 아바타 생성기를 배치하고 독자적인 홀로그램 형태의 승무원으로 합류합니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">KJ4VOV</crewMember>
 			</event>
 		</choice>
 		<choice>
-			<text>Politely decline the drone's offer.</text>
+			<text>드론의 제안을 정중히 거절합니다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
+		<text>"당신은 또한 제 주인에게 '관찰할 가치가 있는 탐험가'로 여겨진다는 사실을 알아야 해요. 전 제 정신상태를 아바타로 옮긴 후 당신의 승무원으로 합류하여 어떤 흥미로운 것들을 발견할 건지 보고 싶어요. 제 동행을 허락해주신다면 추가 보상이 있을 거에요."</text>
 		<choice>
-			<text>Welcome aboard drone!</text>
+			<text>드론의 승선을 환영합니다!</text>
 			<event>
-				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
+				<text>"아주 좋아요!" 드론은 작은 아바타 생성기를 배치하고 독자적인 홀로그램 형태의 승무원으로 합류합니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">127 Praf</crewMember>
 			</event>
 		</choice>
 		<choice>
-			<text>Politely decline the drone's offer.</text>
+			<text>드론의 제안을 정중히 거절합니다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
+		<text>"당신은 또한 제 주인에게 '관찰할 가치가 있는 탐험가'로 여겨진다는 사실을 알아야 해요. 전 제 정신상태를 아바타로 옮긴 후 당신의 승무원으로 합류하여 어떤 흥미로운 것들을 발견할 건지 보고 싶어요. 제 동행을 허락해주신다면 추가 보상이 있을 거에요."</text>
 		<choice>
-			<text>Welcome aboard drone!</text>
+			<text>드론의 승선을 환영합니다!</text>
 			<event>
-				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
+				<text>"아주 좋아요!" 드론은 작은 아바타 생성기를 배치하고 독자적인 홀로그램 형태의 승무원으로 합류합니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">ClAIr 03-p</crewMember>
 			</event>
 		</choice>
 		<choice>
-			<text>Politely decline the drone's offer.</text>
+			<text>드론의 제안을 정중히 거절합니다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
+		<text>"당신은 또한 제 주인에게 '관찰할 가치가 있는 탐험가'로 여겨진다는 사실을 알아야 해요. 전 제 정신상태를 아바타로 옮긴 후 당신의 승무원으로 합류하여 어떤 흥미로운 것들을 발견할 건지 보고 싶어요. 제 동행을 허락해주신다면 추가 보상이 있을 거에요."</text>
 		<choice>
-			<text>Welcome aboard drone!</text>
+			<text>드론의 승선을 환영합니다!</text>
 			<event>
-				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
+				<text>"아주 좋아요!" 드론은 작은 아바타 생성기를 배치하고 독자적인 홀로그램 형태의 승무원으로 합류합니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">JulI jQ-4</crewMember>
 			</event>
 		</choice>
 		<choice>
-			<text>Politely decline the drone's offer.</text>
+			<text>드론의 제안을 정중히 거절합니다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
+		<text>"당신은 또한 제 주인에게 '관찰할 가치가 있는 탐험가'로 여겨진다는 사실을 알아야 해요. 전 제 정신상태를 아바타로 옮긴 후 당신의 승무원으로 합류하여 어떤 흥미로운 것들을 발견할 건지 보고 싶어요. 제 동행을 허락해주신다면 추가 보상이 있을 거에요."</text>
 		<choice>
-			<text>Welcome aboard drone!</text>
+			<text>드론의 승선을 환영합니다!</text>
 			<event>
-				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
+				<text>"아주 좋아요!" 드론은 작은 아바타 생성기를 배치하고 독자적인 홀로그램 형태의 승무원으로 합류합니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">SumRu xT</crewMember>
 			</event>
 		</choice>
 		<choice>
-			<text>Politely decline the drone's offer.</text>
+			<text>드론의 제안을 정중히 거절합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -38556,13 +38556,13 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_PDS_CIV_TEXT">
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">Another busy core planet lies in front of you. The planetary government has outsourced its defense sector to private contractors. It seems these corporate people are on more than friendly terms with the Rebels.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">After jump completion, the dock control of this densely populated planet hails you, "The Rebel fleet has put a price on your head. You are a wanted criminal. We will bring you in, alive or dead". It seems you won't make many friends here.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">또다른 바쁜 중심 행성이 당신 앞에 있습니다. 행성 정부는 방어 구역을 민간업체에 위탁했습니다. 이 회사 사람들은 반란군과 좀 친분이 있는 것 같군요.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">도약 완료 후, 이 인구 고밀도 행성의 정박 통제소는 당신과 교신합니다, "반란군 함대는 당신의 머리에 현상금을 매겼습니다. 당신은 수배범입니다. 우린 당신을 데려갈 겁니다, 생사와 상관없이." 여기서 친구를 많이 사귈 수 있을 것 같지 않군요.</text>
 </textList>
 
 <eventList name="CE_PDS_CIV_LIST">
 	<event>
-		<text>A small ship is sent after you to spot for the planetary beam 함포. This might get nasty.</text>
+		<text>행성 빔 포대가 당신을 찾기 위해 작은 배를 뒤 따라 보냅니다. 이건 끔찍할 수도 있겠군요.</text>
 		<ship load="CE_SPOTTER_CIV_BEAM" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -38640,21 +38640,21 @@ IDEAS
 	<text>당신은 장거리 신호소에 도착했습니다. 초광속 도약 장치가 충전되면 다음 구역으로 넘어갈 수 있습니다.</text>
 	<text>당신은 장거리 신호소에 도착했습니다. 초광속 도약 장치가 충전되면 다음 구역으로 넘어갈 수 있습니다.</text>
 	<text>당신은 장거리 신호소에 도착했습니다. 초광속 도약 장치가 충전되면 다음 구역으로 넘어갈 수 있습니다.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">You arrive near the main planet of the sector. A major jump relay located here allows space ships to perform extreme long-range jumps. The place is quite busy. Several vessels wait in line and prepare to travel closer to the Federation coreworld, undoubtedly fleeing from the slowly approaching Rebel fleet.</text>
-	<text>You've arrived at a busy Long-Range Beacon - A massive jump relay that can throw ships a great distance. You can use this installation to travel to another sector.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">This well defended planet is orbited by a long-range relay. The only way out of this sector.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">The local planetary economy is wealthy enough to maintain a Long-Range Relay. Permission to jump is still granted for remenants of the Federation.</text>
-	<text>Your cruiser arrives at a busy Long-Range Relay.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">당신은 그 구역의 주요 행성 근처에 도착합니다. 여기에 위치한 대형 도약 송신소는 우주선이 극단적인 장거리 도약을 수행할 수 있도록 해줍니다. 이 장소는 좀 분주합니다. 여러 척의 선박들이 줄을 서서 기다리고 있었었고, 천천히 다가오는 반란군 함대에 확실히 도망치면서 연방 핵심지구로 더 가까이 이동할 준비를 합니다.</text>
+	<text>당신은 분주한 장거리 신호소에 도착했습니다 - 거대한 점프 계전기는 배를 멀리 던질 수 있습니다. 당신은 이 시설을 사용하여 다른 섹터로 이동할 수 있습니다.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">잘 방어되고 있는 이 행성은 장거리 계전기 옆 궤도를 돌고 있습니다. 이 구역을 벗어날 수 있는 유일한 방법이죠.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">지역 행성 경제는 장기간의 계전기를 유지할 만큼 충분히 부유합니다. 연방의 잔당들에게는 도약 허가가 여전히 승인됩니다.</text>
+	<text>당신의 순양함은 분주한 장거리 신호소에 도착합니다.</text>
 
 
-	<text>The readings were right: a long-range jump relay is located at this beacon. It lies almost abandoned and you wonder who constructed it in the first place.</text>
-	<text>You found an abandoned long-range relay. It is still functional, you could use it to cover a great distance.</text>
-	<text>Several stations were guarding this long-range relay, but they have been devastated by Fleet bombardment. Smoldering debris bumps against your 방어막. The main installation barely survived the battle.</text>
-	<text>You reached another long range beacon. Some kind of battle fleet must have come through here lately: The surrounding guard outposts are unresponsive and show no lifesigns. Lucky for you, the invaders left the relay intact. You will have to decide where to go from here.</text>
-	<text>After some extensive scanning, you find an antique long-range jump node in this system. Miraculously, the installation is still powered and functional.</text>
-	<text>A brief scan locates the long range relay.</text>
-	<text>You arrive at a busy jump relay. A guarded refugee caravan prepares to leave towards the Federation coreworlds. The arrival of your cruiser is met with suspicion, even though you repeatedly state that you come in peace.</text>
-	<text>Burnt out ship husks indicate a recent battle at this long range node. The relay itself shows signs of sabotage: internal explosions have ripped broad holes into the structure's shimmering hull. Whoever tried to destroy the relay did not succeed; its jump field is still stable.</text>
+	<text>측정값은 맞았습니다. 이 신호소에 장거리 도약 계전기가 있습니다. 그건 거의 버려진 채로 놓여있었고 당신은 애초에 누가 맨 처음 이 장소에 계전기를 건설했는지 궁금해합니다.</text>
+	<text>당신은 버려진 장거리 계전기를 찾았습니다. 이건 여전히 작동 가능했고, 당신은 이걸 먼 거리를 이동하는 데 사용할 수 있습니다.</text>
+	<text>이 장거리 신호소는 몇몇 정거장이 지키고 있었지만, 함대 폭격으로 그들은 모두 파괴당했습니다. 연기가 자욱한 잔해가 방어막에 부딪힙니다. 주요 시설은 간신히 살아남았습니다.</text>
+	<text>당신은 또다른 장거리 신호소에 도착했습니다. 최근에 전투 함대가 왔을 겁니다. 주변 경비 전초기지는 반응이 없었고 생명신호 역시 없습니다. 당신은 운 좋게도, 침략자들이 계전기를 그대로 두었군요. 당신은 여기서 어디로 갈지 결정해야 합니다.</text>
+	<text>광범위한 스캔 후, 이 성계에서 오래된 장거리 점프 노드를 찾을 수 있습니다. 기적적으로, 시설에는 여전히 동력이 공급되고 작동 가능합니다.</text>
+	<text>간단한 스캔을 통해 장거리 계전기를 찾았습니다.</text>
+	<text>당신은 분주한 도약 계전기 앞에 도착합니다. 보호받는 난민 캐러밴이 연방의 핵심세계를 향해 떠날 준비를 하고 있습니다. 당신은 평화롭게 들어왔다고 반복해서 말했지만, 당신 순양함의 도착은 불신에 부닥칩니다.</text>
+	<text>다 타버린 선박 코팅은 이 장거리 노드에서 최근 전투가 발생했음을 나타냅니다. 계전기 스스로 사보타주 흔적을 보여줍니다. 내부 폭발이 건축물의 빛나는 선체에 구멍을 뚫었습니다. 계전기를 파괴하려 했던 사람이 누구였던지 간에 성공하지 못했습니다. 계전기의 도약장은 여전히 안정적입니다.</text>
 </textList>
 
 
