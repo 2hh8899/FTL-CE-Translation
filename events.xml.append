@@ -3471,7 +3471,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<status type="loss" target="enemy" system="reactor" amount="2"/>
 		<ship hostile="true"/>
@@ -3879,7 +3879,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>반란군은 아직 비장의 카드를 가지고 있는 모양입니다. 기함은 전투 장치에 전력을 공급합니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>반란군은 아직 비장의 카드를 가지고 있는 모양입니다. 기함은 전투 장치에 전력을 공급합니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<ship hostile="true"/>
@@ -4852,7 +4852,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>반란군은 아직 비장의 카드를 가지고 있는 모양입니다. 기함은 전투 장치에 전력을 공급합니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>반란군은 아직 비장의 카드를 가지고 있는 모양입니다. 기함은 전투 장치에 전력을 공급합니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<ship hostile="true"/>
@@ -5756,7 +5756,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<status type="loss" target="enemy" system="reactor" amount="2"/>
 		<ship hostile="true"/>
@@ -6499,7 +6499,7 @@
 
 <eventList name="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR_PIRATE">
 	<event>
-		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<status type="loss" target="enemy" system="reactor" amount="2"/>
 		<ship hostile="true"/>
@@ -6557,7 +6557,7 @@
 
 <eventList name="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR">
 	<event>
-		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<status type="loss" target="enemy" system="reactor" amount="2"/>
 		<ship hostile="true"/>
@@ -6611,7 +6611,7 @@
 
 <eventList name="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR_ENGI">
 	<event>
-		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용고 있습니다!</text>
+		<text>이 적은 전투 장치를 갖추고 있는 것 같습니다. 강한 방사능을 당신의 함선에 보냅니다. 당신의 상대는 더러운 무기를 사용하고 있습니다!</text>
 		<status type="loss" target="player" system="oxygen" amount="2"/>
 		<ship hostile="true"/>
 		<choice hidden="true">
@@ -31185,7 +31185,7 @@
 	<choice hidden="true" req="doors" lvl="3">
 		<text>(고급 문 제어실) 높은 수준의 보안 도킹을 시행하고 항성으로부터 멀리 배를 견인합니다.</text>
 		<event>
-			<text>당신의 최첨단 에어록은 민간선을 자석으로 고정시켰고 다음 태양 플레엉가 일어나기 직전에 가까스로 벗어날 수 있었습니다. 승무원과 선박은 구조되었습니다. 그들은 자신들의 행운을 믿을 수 없고 신속한 구조에 대한 감사로 보급품을 제공합니다.</text>
+			<text>당신의 최첨단 에어록은 민간선을 자석으로 고정시켰고 태양 플레어가 일어나기 직전에 가까스로 벗어날 수 있었습니다. 승무원과 선박은 구조되었습니다. 그들은 자신들의 행운을 믿을 수 없고 신속한 구조에 대한 감사로 보급품을 제공합니다.</text>
 			<autoReward level="LOW">standard</autoReward>
 		</event>
 	</choice>
