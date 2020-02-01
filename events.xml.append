@@ -24756,11 +24756,19 @@
 		<text>맨티스 선원이 통신에 접속하자, 광대역 신호가 맨티스어로 전송됩니다. 성계 가장자리에서 작은 맨티스 선박이 접근합니다. 당신의 맨티스 선원은 그들보다 훨씬 우월해 보였고, 짧고 공격적인 대화 끝에 당신에게 노예를 공물로 바칩니다.</text>
 		<ship load="MANTIS_CLAN" hostile="false"/>
 		<choice hidden="true">
+<<<<<<< HEAD
 			<text>Accept their offer, 노예를 풀어주고 다음 정거장에 내려줍니다.</text>
 			<event load="CE_SLAVER_RELEASE"/>
 		</choice>
 		<choice hidden="true">
 			<text>Accept their offer and 노예를 함선에서 일하게 강요합니다.</text>
+=======
+			<text>그의 제안을 받아들이지만, 노예를 풀어주고 다음 정거장에 내려줍니다.</text>
+			<event load="CE_SLAVER_RELEASE"/>
+		</choice>
+		<choice hidden="true">
+			<text>그의 제안을 받아들이고 노예를 함선에서 일하게 강요합니다.</text>
+>>>>>>> 6cc6ac469c8a8aa401b41e13a6d3081323315314
 			<event load="CE_SLAVERY"/>
 		</choice>
 	</event>
@@ -24949,7 +24957,11 @@
 </eventList>
 
 <textList name="CE_CONVERSATION_ROCK_GENERIC_TEXT">
+<<<<<<< HEAD
 		<text>록맨은 이 구역에서 좀 지루해보입니다. "난 우리가 명예로운 싸움을 하길 원하오."</text>
+=======
+		<text>락맨은 이 구역에서 좀 지루해보입니다. "난 우리가 명예로운 싸움을 하길 원하오."</text>
+>>>>>>> 6cc6ac469c8a8aa401b41e13a6d3081323315314
 	<text>락맨은 3,000명이 넘는 살아있는 락맨 성자들이 있다고 언급했고, 그리고 그 중 단 하나도 신경 쓰지 않는다고 말합니다.</text>
 	<text>락맨은 10,000명이 넘는 죽은 락맨 성자들이 있다고 언급했고, 그리고 그 중 누구도 무덤으로 가지 않았다고 합니다.</text>
 	<text>락맨은 어디에서도 찾을 수 없습니다. 컴퓨터는 승무원이 개인 숙소에 있다고 알려줍니다. "전술 계획 중이오 선장, 급한 일이오?"</text>
@@ -31053,7 +31065,11 @@
 		</event>
 	</choice>
 	<choice>
+<<<<<<< HEAD
 		<text>그들은 쉬운 목표다. Seize their cargo!</text>
+=======
+		<text>그들은 쉬운 목표다. 그들의 화물을 약탈해라!</text>
+>>>>>>> 6cc6ac469c8a8aa401b41e13a6d3081323315314
 		<event>
 			<text>당신은 해적행위에 관한 일을 저지르려고 합니다. 이것은 당신의 승무원들을 불안해하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
@@ -31185,7 +31201,11 @@
 	<choice hidden="true" req="doors" lvl="3">
 		<text>(고급 문 제어실) 높은 수준의 보안 도킹을 시행하고 항성으로부터 멀리 배를 견인합니다.</text>
 		<event>
+<<<<<<< HEAD
 			<text>당신의 최첨단 에어록은 민간선을 자석으로 고정시켰고 태양 플레어가 일어나기 직전에 가까스로 벗어날 수 있었습니다. 승무원과 선박은 구조되었습니다. 그들은 자신들의 행운을 믿을 수 없고 신속한 구조에 대한 감사로 보급품을 제공합니다.</text>
+=======
+			<text>당신의 최첨단 에어록은 민간선을 자석으로 고정시켰고 다음 태양 플레어가 일어나기 직전에 가까스로 벗어날 수 있었습니다. 승무원과 선박은 구조되었습니다. 그들은 자신들의 행운을 믿을 수 없고 신속한 구조에 대한 감사로 보급품을 제공합니다.</text>
+>>>>>>> 6cc6ac469c8a8aa401b41e13a6d3081323315314
 			<autoReward level="LOW">standard</autoReward>
 		</event>
 	</choice>
