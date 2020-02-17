@@ -18088,7 +18088,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>정거장 발전기 코어가 폭발하고, 구조물이 조갖조각 찢어집니다. 사방으로 비산하는 고철 물결로부터 당신은 모을 수 있는 것들을 모읍니다.</text>
+		<text>정거장 발전기 코어가 폭발하고, 구조물이 조각조각 찢어집니다. 사방으로 비산하는 고철 물결로부터 당신은 모을 수 있는 것들을 모읍니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -31496,7 +31496,7 @@
 </eventList>
 
 <event name="CE_DISTRESS_MELTDOWN" unique="true"> 
-	<text>당신이 조난신호 위치에 도착하자, 작은 화물선이 당신과 교신합니다. "깜짝이야! 당신이 또다른 해적이 아니어서 다행이에요. 우리는 몇몇 무법자들에게 매복공격당했고 저희 방어막 전원 연결 장치가 수리할 수 없을 정도로 손상됬어요. 에너지는 있지만, 방어막을 제대로 안정시킬 수는 없어요." 만약 화물선에 다른 싸움이 걸린자면, 이들은 이런 식으로 완전 무방비 상태가 될 겁니다.</text>
+	<text>당신이 조난신호 위치에 도착하자, 작은 화물선이 당신과 교신합니다. "깜짝이야! 당신이 또다른 해적이 아니어서 다행이에요. 우리는 몇몇 무법자들에게 매복공격당했고 저희 방어막 전원 연결 장치가 수리할 수 없을 정도로 손상됬어요. 에너지는 있지만, 방어막을 제대로 안정시킬 수는 없어요." 만약 화물선에 다른 싸움이 걸린다면, 이들은 이런 식으로 완전 무방비 상태가 될 겁니다.</text>
 	<distressBeacon/>
 	<ship load="C_CIVILIAN_TRANSPORT" hostile="false"/>
 	<choice>
@@ -31551,7 +31551,7 @@
 	<choice hidden="true" req="energy">
 		<text>(졸탄 승무원) 졸탄에게 방어막 동력을 공급하게 합니다.</text>
 		<event>
-			<text>당신은 함선과 도킹했고 졸탄 승무원은 침착하게 방어실로 걸어갑니다. 졸탄은 어떤 것도 건들이지 않습니다. 단지 몇 초간 집중더하던 갑자기 빛이 깜빡거렸고, 전력 수준이 증가하며, 배 방어막 거품들이 강하게 생성됩니다.</text>
+			<text>당신은 함선과 도킹했고 졸탄 승무원은 침착하게 방어실로 걸어갑니다. 졸탄은 어떤 것도 건들이지 않습니다. 단지 몇 초간 집중하더니 갑자기 빛이 깜빡거렸고, 전력 수준이 증가하며, 배 방어막 거품들이 강하게 생성됩니다.</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event load="TE_REWARD_GOODS_CHEAP"/>

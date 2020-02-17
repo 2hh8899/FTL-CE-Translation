@@ -7252,6 +7252,7 @@
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
 	<title>어댑티드 포커스 빔 마크 I</title>
+	<flavorType>연사식 빔</flavorType>
 	<short>Adaptive I</short>
 	<tooltip>포커스 빔 무기; 방마다 1 피해; 연사할수록 피해량이 증가.</tooltip>
 	<desc>최신 개발 무기 시스템으로 적의 방어막에 맞춰 빔 패턴을 조정하여 매 발사마다 0.25 피해를 늘려 최대 2까지 오릅니다.</desc>
@@ -7284,6 +7285,7 @@
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
 	<title>어댑티브 포커스 빔 마크 II</title>
+	<flavorType>연사식 빔</flavorType>
 	<short>Adaptive II</short>
 	<desc>고급 무기 시스템으로 적의 방어막에 맞춰 빔 패턴을 조정하여 매 발사마다 0.5 피해를 늘려 최대 3까지 오릅니다.</desc>
 	<tooltip>포커스 빔 무기; 방마다 1 피해와 저확률 균열; 연사할수록 피해량이 증가.</tooltip>
@@ -7316,6 +7318,7 @@
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
 	<title>어댑티브 포커스 빔 마크 III</title>
+	<flavorType>연사식 빔</flavorType>
 	<short>Adaptive III</short>
 	<desc>초고급 무기 시스템으로 적의 방어막에 맞춰 빔 패턴을 조정하여 매 발사마다 1 피해를 늘려 최대 4까지 오릅니다.</desc>
 	<tooltip>포커스 빔 무기; 방마다 1 피해; 1의 방어막을 관통합니다; 연사할수록 피해량이 증가.</tooltip>
@@ -7348,6 +7351,7 @@
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
 	<title>어댑티브 포커스 빔</title>
+	<flavorType>연사식 빔</flavorType>
 	<short>Adaptive</short>
 	<desc>초고급 무기 시스템으로 적의 방어막에 맞춰 빔 패턴을 조정하여 매 발사마다 1 피해를 늘려 최대 4까지 오릅니다.</desc>
 	<tooltip>포커스 빔 무기; 방마다 1 피해; 1의 방어막을 관통합니다; 연사할수록 피해량이 증가.</tooltip>
