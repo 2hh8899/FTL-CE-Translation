@@ -4,18 +4,18 @@
 <ship name="PIRATE_CIVILIAN" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>The pirate ship breaks apart. You hasten to contact the civilian ship.</text>
+		<text>해적선이 산산조각납니다. 당신은 민간 함선에 급히 연락해봅니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the civilian ship.</text>
+			<text>민간선과 교신을 시도합니다.</text>
 			<event load="SAVE_CIVILIAN_LIST"/>    
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the pirate ship. You hasten to contact the civilian ship.</text>
+		<text>해적선에 생명 징후가 더 이상 감지되지 않습니다. 당신은 민간 함선에 급히 연락해봅니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the civilian ship.</text>
+			<text>민간선과 교신을 시도합니다.</text>
 			<event load="SAVE_CIVILIAN_LIST"/>    
 		</choice>
 	</deadCrew>
@@ -24,13 +24,13 @@
 <ship name="PIRATE_NO_ESCAPE" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>With the pirate ship destroyed, your ship's system is restored to full functionality. You salvage what you can from the debris.</text>
+		<text>해적선이 파괴되자, 당신의 함선이 모든 기능을 회복합니다. 당신은 잔해에서 챙길 수 있는 것을 건져냅니다.</text>
 		<autoReward level="RANDOM">fuel</autoReward>
 		<status type="clear" target="player" system="engines" amount="100"/>
 		<status type="clear" target="player" system="hacking" amount="100"/>
 	</destroyed>
 	<deadCrew>
-		<text>With the pirate ship disabled, your engines come online again. You salvage what you can from their ship.</text>
+		<text>해적선이 비활성화되자, 엔진이 다시 작동합니다. 당신은 함선에서 건져낼 만한 것을 가져옵니다.</text>
 		<autoReward level="MED">fuel</autoReward>
 		<status type="clear" target="player" system="engines" amount="100"/>
 		<status type="clear" target="player" system="hacking" amount="100"/>
@@ -40,11 +40,11 @@
 <ship name="JELLY_PIRATE_MERCHANT" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>You contact the delivery ship, who are grateful for your assistance. They offer you a reward for saving them.</text>
+		<text>당신의 도움에 감사해하는 수송선과 연락합니다. 그들은 당신에게 도움의 보상을 제공합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>You contact the delivery ship, who are grateful for your assistance. They offer you a reward for saving them.</text>
+		<text>당신의 도움에 감사해하는 수송선과 연락합니다. 그들은 당신에게 도움의 보상을 제공합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</deadCrew>
 </ship>
@@ -54,14 +54,14 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>The ship obliterated, only scant fuel canisters can be scavenged from the wreckage before the ion storm clears and you have to jump away.</text>
+		<text>함선이 파괴되고, 이온 폭풍이 가라앉기 전에 챙긴 잔해에선 얼마 없는 연료만을 얻어냈습니다. 이제 도약해야만 합니다.</text>
 		<autoReward level="LOW">fuel</autoReward>
 	</destroyed>
 	<gotaway>
-		<text>The pirate jumped away.</text>
+		<text>해적이 도약해버렸습니다.</text>
 	</gotaway>
 	<deadCrew>
-		<text>With the ship in one piece, you are able to salvage most of the fuel supplies before the ion storm clears and you have to jump away.</text>
+		<text>배를 온전히 남긴 덕분에, 이온 폭풍이 걷히기 전 잔해에서 대부분의 연료를 인양해낼 수 있었습니다. 이제 도약해야만 합니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</deadCrew>
 </ship>
@@ -69,14 +69,14 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>The ship obliterated, only scant ammunition crates can be scavenged from the wreckage before the ion storm clears and you have to jump away.</text>
+		<text>함선이 파괴되고, 이온 폭풍이 가라앉기 전에 챙긴 잔해에선 얼마 없는 탄약 상자만을 얻어냈습니다. 이제 도약해야만 합니다.</text>
 		<autoReward level="LOW">missiles</autoReward>
 	</destroyed>
 	<gotaway>
-		<text>The pirate jumped away.</text>
+		<text>해적이 도약해버렸습니다.</text>
 	</gotaway>
 	<deadCrew>
-		<text>With the ship in one piece, you are able to salvage most of the ammunition before the ion storm clears and you have to jump away.</text>
+		<text>배를 온전히 남긴 덕분에, 이온 폭풍이 걷히기 전 잔해에서 대부분의 탄약을 인양해낼 수 있었습니다. 이제 도약해야만 합니다.</text>
 		<autoReward level="HIGH">missiles</autoReward>
 	</deadCrew>
 </ship>
@@ -84,31 +84,31 @@
 <ship name="QUEST_SLUG_PIRATE_TRAP2" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>With the pirate taken care of, you search again for the cache he was protecting, but it is lost in the clouds. You console yourself with salvage from the well-armed pirate ship.</text>
+		<text>해적을 처리한 후 그가 보호하려던 캐시를 찾아보았지만, 성운 속으로 사라져버린 것 같습니다. 잘 무장된 해적선에서 잔해를 인양하는 것으로 스스로를 위로합니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Scan in subspace for traces of the cache.</text> 
+			<text>(심층 우주 스캐너) 심층우주 스캔으로 캐시를 추적합니다.</text> 
 			<event>
-				<text>You pick up a faint stream of tachyons from below, leading you to the cache. It contains a weapon with security protocols fully wiped.</text>
+				<text>아래쪽에서 캐시로 이어지는 희미한 타키온 줄기를 찾아냈습니다. 보안 프로토콜이 완전히 지워진 무기가 들어 있었습니다.</text>
 				<autoReward level="LOW">weapon</autoReward>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the pirate defeated, you search again for the cache he was protecting, but it is lost in the clouds. You console yourself with salvage from the well-armed pirate ship.</text>
+		<text>해적이 패배한 후 그가 보호하려던 캐시를 찾아보았지만, 성운 속으로 사라져버린 것 같습니다. 잘 무장된 해적선에서 잔해를 인양하는 것으로 스스로를 위로합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Scan in subspace for traces of the cache.</text> 
+			<text>(심층 우주 스캐너) 심층우주 스캔으로 캐시를 추적합니다.</text> 
 			<event>
-				<text>You pick up a faint stream of tachyons from below, leading you to the cache. It contains a weapon with security protocols fully wiped.</text>
+				<text>아래쪽에서 캐시로 이어지는 희미한 타키온 줄기를 찾아냈습니다. 보안 프로토콜이 완전히 지워진 무기가 들어 있었습니다.</text>
 				<autoReward level="LOW">weapon</autoReward>
 			</event>
 		</choice>
@@ -119,10 +119,10 @@
 	<surrender chance="0.8" min="4" max="4" load="CE_COMBAT_FLUFF_AUTO"/>
 	<escape timer="80" min="30" max="30"/>
 	<gotaway>
-		<text>The ship jumps away without a word. You hope they didn't leave to get reinforcements.</text>
+		<text>함선은 아무 말 없이 도약합니다. 지원군을 받으러 간 것이 아니길 바랍시다.</text>
 	</gotaway>
 	<destroyed>
-		<text>The ship explodes, leaving behind a collection of useful scrap material.</text>
+		<text>함선이 폭발하며, 쓸만한 스크랩을 남깁니다.</text>
 		<autoReward level="MED">fuel</autoReward>
 	</destroyed>
 </ship>
@@ -131,14 +131,14 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED_REBEL"/>
 	<escape timer="80" min="30" max="30"/>
 	<gotaway>
-		<text>The ship jumps away without a word. You hope they didn't leave to get reinforcements.</text>
+		<text>함선은 아무 말 없이 도약합니다. 지원군을 받으러 간 것이 아니길 바랍시다.</text>
 	</gotaway>
 	<destroyed>
-		<text>The ship explodes, leaving behind a collection of useful scrap material.</text>
+		<text>함선이 폭발하며, 쓸만한 스크랩을 남깁니다.</text>
 		<autoReward level="MED">fuel</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>With the crew dead you are free to scrap the ship.</text>
+		<text>모든 선원이 사망했기에 당신은 자유롭게 함선을 해체합니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</deadCrew>
 </ship>
@@ -147,14 +147,14 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape timer="80" min="30" max="30"/>
 	<gotaway>
-		<text>The ship jumps away without a word. You hope they didn't leave to get reinforcements.</text>
+		<text>함선은 아무 말 없이 도약합니다. 지원군을 받으러 간 것이 아니길 바랍시다.</text>
 	</gotaway>
 	<destroyed>
-		<text>The ship explodes, leaving behind a collection of useful scrap material.</text>
+		<text>함선이 폭발하며, 쓸만한 스크랩을 남깁니다.</text>
 		<autoReward level="MED">fuel</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>With the crew dead you are free to scrap the ship.</text>
+		<text>모든 선원이 사망했기에 당신은 자유롭게 함선을 해체합니다.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</deadCrew>
 </ship>
@@ -162,13 +162,13 @@
 <ship name="REBEL_AUTO_HACKSHIELDS" auto_blueprint="SHIPS_AUTO">
 	<surrender chance="0.8" min="4" max="4" load="CE_COMBAT_FLUFF_AUTO"/>
 	<destroyed>
-		<text>The ship explodes, leaving behind a collection of useful scrap material.</text>
+		<text>함선이 폭발하며, 쓸만한 스크랩을 남깁니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<status type="clear" target="player" system="shields" amount="100"/>
 		<status type="clear" target="player" system="hacking" amount="100"/>
 	</destroyed>
 	<deadCrew>
-		<text>The ship explodes, leaving behind a collection of useful scrap material.</text>
+		<text>함선이 폭발하며, 쓸만한 스크랩을 남깁니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<status type="clear" target="player" system="shields" amount="100"/>
 		<status type="clear" target="player" system="hacking" amount="100"/>
@@ -179,10 +179,10 @@
 <ship name="REBEL_AUTO_REFUEL" auto_blueprint="SHIPS_AUTO">
 	<surrender chance="0.8" min="4" max="4" load="CE_COMBAT_FLUFF_AUTO"/>
 	<destroyed>
-		<text>The ship breaks apart and you quickly salvage what you can.</text>
+		<text>배가 산산조각나고 당신은 재빠르게 가능한 만큼 인양합니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The outpost hails you after the scout was destroyed, "Thanks for the help. We've been harassed non-stop by those scouts. Take this on the house."</text>
 				<autoReward level="MED">standard</autoReward>
@@ -264,7 +264,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The outpost hails you, "The pompous bastards expected free service just because they defeated the Federation. Take this for the help."</text>
 				<autoReward level="MED">fuel</autoReward>
@@ -275,7 +275,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The outpost hails you, "The pompous bastards expected free service just because they defeated the Federation. Take this for the help."</text>
 				<autoReward level="MED">fuel</autoReward>
@@ -349,7 +349,7 @@
 		<text>You scrap the wreckage.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>With the threat gone, you contact the Federation outpost. They respond, "Our location has been compromised! Take everything you can and please drop our survivors off at the next station." One soldier offers to stay and fight.</text>
 				<crewMember amount="1"/>
@@ -364,7 +364,7 @@
 		<text>You scrap the wreckage.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You contact the station once the Rebel ship is destroyed. The lone survivor responds, "This base is no longer safe. Let me join your crew and I'll have the station's drones patch up your ship."</text>
 				<crewMember amount="1"/>
@@ -536,7 +536,7 @@
 		<text>The Rebels destroyed, you pick the bones of their ship and wait for the small Engi ship to catch up.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DISTRESS_ENGI_REBEL_RESULT"/>
 		</choice>
 	</destroyed>
@@ -544,7 +544,7 @@
 		<text>The Rebels destroyed, you pick the bones of their ship and wait for the small Engi ship to catch up.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DISTRESS_ENGI_REBEL_RESULT"/>
 		</choice>
 	</deadCrew>
@@ -652,7 +652,7 @@
 		<text>You strip what you can and contact the Engi ships.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ENGI_UNLOCK_4"/>
 		</choice>
 	</deadCrew>
@@ -747,7 +747,7 @@
 		<text>With the Slug ship destroyed, you retrieve some scrap and return to the Rock ship.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SLUG_DISTRESS_ROCK_RESULT"/>
 		</choice>
 	</destroyed>
@@ -755,7 +755,7 @@
 		<text>With the Slugs no longer a threat, you strip the ship and return to the Rockmen.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SLUG_DISTRESS_ROCK_RESULT"/>
 		</choice>
 	</deadCrew>
@@ -833,7 +833,7 @@
 		<text>You salvage what you can from the ship.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The Zoltan looks deeply dissatisfied with your aiming and demands to be dropped off at your earliest convenience.</text>
 				<choice>
@@ -878,7 +878,7 @@
 		<text>You take out the ship and contact the research station.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Thank you for rescuing us! They held us hostage to ambush unsuspecting passersby. Please, take this."</text>
 				<autoReward level="LOW">stuff</autoReward>
@@ -890,7 +890,7 @@
 		<text>You disable the ship and contact the research station.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Thank you for rescuing us! They held us hostage to ambush unsuspecting passersby. Please, take this."</text>
 				<autoReward level="LOW">stuff</autoReward>
@@ -1099,7 +1099,7 @@
 		<text>You pick through the remains and contact the settlement.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIRATE_STATION_CROPS_RESULT"/>
 		</choice>
 	</destroyed>
@@ -1107,7 +1107,7 @@
 		<text>You pick through the remains and contact the settlement.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIRATE_STATION_CROPS_RESULT"/>
 		</choice>
 	</deadCrew>
@@ -1361,7 +1361,7 @@
 	<gotaway>
 		<text>The pirate has abandoned pursuit of both you and its former prey. You attempt to hail the damaged ship.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIRATE_BRIBER_WIN"/>
 		</choice>
 	</gotaway>
@@ -1369,7 +1369,7 @@
 		<text>The pirate explodes, leaving behind a substantial collection of useful scrap material. You go to examine the ship you just saved.</text>
 		<autoReward level="RANDOM">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIRATE_BRIBER_WIN"/>
 		</choice>
 	</destroyed>
@@ -1377,7 +1377,7 @@
 		<text>The pirates are all dead, leaving the ship dead in space. You scrounge what you can from their ship before contacting its former prey.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIRATE_BRIBER_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1391,7 +1391,7 @@
 		<text>You salvage the remains and contact the wise man.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</destroyed>
@@ -1399,7 +1399,7 @@
 		<text>You salvage the ship and contact the wise man.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</deadCrew>
@@ -1410,7 +1410,7 @@
 		<text>You salvage the remains and contact the wise man.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</destroyed>
@@ -1418,7 +1418,7 @@
 		<text>You salvage the ship and contact the wise man.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</deadCrew>
@@ -1429,7 +1429,7 @@
 		<text>You salvage the remains and contact the wise man.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</destroyed>
@@ -1437,7 +1437,7 @@
 		<text>You salvage the ship and contact the wise man.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</deadCrew>
@@ -1516,7 +1516,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text load="AUTO_SUICIDE_SUCCESS_TEXT"/>
 					<damage amount="2"/>
@@ -1703,7 +1703,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text load="BS_PIRATE_SUICIDE_SUCCESS_TEXT"/>
 				<damage amount="4"/>
@@ -1803,7 +1803,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The AI teleports several holo-projection units aboard your ship. Remote controlled combat avatars materialize in the corridors. Intruder alert!</text>
 				<boarders min="2" max="3" class="ghost"/>
@@ -1830,7 +1830,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text load="BS_AUTO_SUICIDE_SUCCESS_TEXT"/>
 				<damage amount="2"/>
@@ -1865,7 +1865,7 @@
 	<destroyed>
 		<text>The station breaks apart and the fuel depot ignites, leaving the place burning in multicolored chemical fires. The asteroid barrage further obstructs your salvaging attempts, but at last your newfound guerrilla friends hail you again, "Nicely done Sir, we saw the whole thing."</text>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"This place is too exposed; we need to jump now, but you might find this useful. Good luck out there." They transmit some stolen Rebel security codes and the coordinates of an enemy weapons depot. This might be worth a look.</text>
 				<autoReward level="MED">standard</autoReward>
@@ -2071,7 +2071,7 @@
 		<text>The station's generator core overloads and blows the installation to atoms. Mr. Johnson will probably not be too happy, but you could still meet him at the coordinates he has given you.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Your crew reports, "FTL charged and ready, Sir!"</text>
 				<quest event="CE_JUNTA_JOB_FAIL"/>    
@@ -2439,7 +2439,7 @@
 	<destroyed>
 		<text>Your crew bursts into loud cheering as the Rebel battleship is finally torn apart by bright explosions. The destruction of one of their elite assets will make the Rebel fleet more cautious; you have bought yourself some time.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Unfortunately, there is no time for celebration; multiple cruisers are closing in. If you want to tell the tale of what you just accomplished here then you will have to jump now.</text>
 				<item_modify>
@@ -2476,7 +2476,7 @@
 	<deadCrew>
 		<text>The battleship's crew of highly trained space marines lie dead in the cold corridors. The odds were heavily stacked against you, but you still managed to disabled one of the mightiest ship classes in the galaxy. You order your crew to set its FTL to overload. The destruction of one of their elite assets will make the Rebel fleet more cautious; you have bought yourself some time.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Unfortunately, there is no time for celebration; multiple cruisers are closing in. If you want to tell the tale of what you just accomplished here then you will have to jump now.</text>
 				<item_modify>
@@ -2742,7 +2742,7 @@
 				<modifyPursuit amount="-1"/>
 				<autoReward level="RANDOM">standard</autoReward>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
 						<text>You contact the Federation outpost during the salvaging operation. A lone survivor responds, "This base is no longer safe. Let me join your crew and we'll have the station's drones patch up your ship."</text>
 						<crewMember amount="1"/>
@@ -2766,7 +2766,7 @@
 		<autoReward level="HIGH">standard</autoReward>
 		<modifyPursuit amount="-3"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>While your crew is busy on the cruiser you contact the station. A lone survivor responds, "This base is no longer safe. Let me join your crew and we'll have the station's drones patch up your ship."</text>
 				<crewMember amount="1"/>
@@ -2928,7 +2928,7 @@
 				<text>You send an FTL package to the closest trade union station. A cargo ship with a scout escort jumps in a few cycles later. You are hailed, "Let us scan your combat logs please... I see, everything in order. Well done, Captain, we will transmit the cargo now."</text>
 				<modifyPursuit amount="1"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="TE_LOOT_GOODS_UNION"/>
 				</choice>
 			</event>
@@ -2949,7 +2949,7 @@
 				<text>You send an FTL package to the closest trade union station. A cargo ship with a scout escort jumps in a few cycles later. You are hailed, "Let us scan your combat logs please... I see, everything in order. Well done, Captain, we will transmit the cargo now."</text>
 				<modifyPursuit amount="1"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="TE_LOOT_GOODS_UNION"/>
 				</choice>
 			</event>
@@ -2980,7 +2980,7 @@
 				<ship hostile="false"/>
 				<damage amount="-10"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="C_PIRACY_SUCCESS"/>
 				</choice>
 			</event>
@@ -2993,13 +2993,13 @@
 	<destroyed>
 		<text>The repair drones can't keep up with patching up the damage you're causing. The station's drone control fails and the structure breaks apart. As you scrap the wreckage you find one of the drones still operational.</text>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You send it out to work on your ship but it soon ceases functioning.</text>
 				<damage amount="-3"/>
 				<autoReward level="LOW">standard</autoReward>
 				<choice hidden="true"> 
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="C_PIRACY_SUCCESS"/>
 				</choice>
 			</event>
@@ -3008,13 +3008,13 @@
 	<deadCrew>
 		<text>The station's crew is dead. You seize control of the repair drone systems.</text>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>While you strip the station, you also send some of the drones out to work on your ship.</text>
 				<damage amount="-5"/>
 				<autoReward level="MED">standard</autoReward>
 				<choice hidden="true"> 
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="C_PIRACY_SUCCESS"/>
 				</choice>
 			</event>
@@ -3041,7 +3041,7 @@
 					<item type="fuel" min="5" max="7"/>
 				</item_modify>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="C_PIRACY_SUCCESS"/>
 				</choice>
 			</event>
@@ -3055,7 +3055,7 @@
 		<text>The fuel depot is hit and the entire station is incinerated within seconds. A few containers get blasted away and you take them aboard along with some of the scrap.</text>
 		<autoReward level="LOW">fuel</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="C_PIRACY_SUCCESS"/>
 		</choice>
 	</destroyed>
@@ -3063,7 +3063,7 @@
 		<text>The station's crew lie dead in the corridors. You strip everything that looks useful and plunder their fuel supply.</text>
 		<autoReward level="MED">fuel</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="C_PIRACY_SUCCESS"/>
 		</choice>
 	</deadCrew>
@@ -3217,7 +3217,7 @@
 		<fleet>fed</fleet>
 		<text>The Rebel squadrons jump away one after another; there are so many jumps that the ship's computer is unable to distinguish the individual FTL signatures. The battle-group commander contacts you again, "Well done! We've got them on the run for a change. We will intercept them at [encrypted]. Join up with us there again."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>They transmit the coordinates for the next engagement. After the fleet jumps out you stay behind a little to collect scrap from the many wrecks.</text>
 				<autoReward level="HIGH">standard</autoReward>
@@ -3228,7 +3228,7 @@
 	<destroyed>
 		<text>The lead ship fires a final barrage before its FTL core detonates. The vessel is torn into two pieces, one smashing into the rear section of a nearby Federation cruiser. The rest of the Rebels jump away one by one and the combat dies down.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>fed</fleet>
 				<text>The battle-group commander contacts you again, "Well done! We've got them on the run for a change. We will intercept them at [encrypted]. Join up with us there again." They transmit the coordinates for the next engagement. After the fleet jumps out you stay behind to collect scrap from the many wrecks.</text>
@@ -3240,7 +3240,7 @@
 	<deadCrew>
 		<text>The Rebel squadron commanders are all dead and the rest of the ships decide to retreat. There are so many jumps that the computer is unable to distinguish the individual FTL signatures.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<fleet>fed</fleet>
 			<event>
 				<text>The battle-group commander contacts you again, "Well done! We've got them on the run for a change. We will intercept them at [encrypted]. Join up with us there again." They transmit the coordinates for the next engagement. After the fleet jumps out you stay behind to collect scrap from the many wrecks.</text>
@@ -3258,7 +3258,7 @@
 	<destroyed>
 		<text>You managed to take out the fighter. Around you, the fighting has died down by now. It seems some of the Rebel cruisers have already retreated. The rest of the Rebel ships also jump away one by one.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>fed</fleet>
 				<text>The battle-group commander contacts you again, "Well done! We've got them on the run for a change. We will intercept them at [encrypted]. Join up with us there again." They transmit the coordinates for the next engagement. After the fleet jumps out, you stay behind to collect scrap from the many wrecks.</text>
@@ -3270,7 +3270,7 @@
 	<deadCrew>
 		<text>You manage to take out the fighter's crew. Around you, the fighting has died down by now. It seems some of the Rebel cruisers have already retreated. The rest of the Rebel ships also get away one by one. There are so many jumps that the computer is unable to distinguish the individual FTL signatures.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>fed</fleet>
 				<text>The battle-group commander contacts you again, "Well done! We've got them on the run for a change. We will intercept them at [encrypted]. Join up with us there again." They transmit the coordinates for the next engagement. After the fleet jumps out, you stay behind to collect scrap from the many wrecks.</text>
@@ -3288,7 +3288,7 @@
 	<destroyed>
 		<text>Together with your remaining wingmen you manage to take out the support craft. The Federation fleet has taken heavy losses though. "All Federation craft, this is battle-group command. Dynamic simulations no longer show any possible positive outcome for this engagement. All craft: Scatter and retreat. Regroup at Federation High Command."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>rebel</fleet>
 				<text>This did not go well. It seems there is no stopping the Rebel fleet. You quickly scrap some of the wreckage and prepare to jump before the cruisers spot you.</text>
@@ -3299,7 +3299,7 @@
 	<deadCrew>
 		<text>You managed to take out the support craf'ts crew. The Federation fleet has taken heavy losses though. "All Federation craft, this is battle-group command. Dynamic simulations no longer show any possible positive outcome for this engagement. All craft scatter and retreat. Regroup at Federation High Command."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>rebel</fleet>
 				<text>This did not go well. It seems there is no stopping the Rebel fleet. You quickly scrap some of the wreckage and prepare to jump before the cruisers spot you.</text>
@@ -3316,7 +3316,7 @@
 	<destroyed>
 		<text>You managed to take out the troopship. The Federation fleet has taken heavy losses though. "All Federation craft, this is battle-group command. Dynamic simulations no longer show any possible positive outcome for this engagement. All craft scatter and retreat. Regroup at Federation High Command."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>rebel</fleet>
 				<text>This did not go well. It seems there is no stopping the Rebel fleet. You quickly scrap some of the wreckage and prepare to jump before the cruiser spot you.</text>
@@ -3327,7 +3327,7 @@
 	<deadCrew>
 		<text>You managed to take out the Rebel marines. The Federation fleet has taken heavy losses though. "All Federation craft, this is battle-group command. Dynamic simulations no longer show any possible positive outcome for this engagement. All craft scatter and retreat. Regroup at Federation High Command."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<fleet>rebel</fleet>
 				<text>This did not go well. It seems there is no stopping the Rebel fleet. You quickly scrap some of the wreckage and prepare to jump before the cruiser spot you.</text>
@@ -3463,7 +3463,7 @@
 	<gotaway>
 		<text>The patrol craft jumps away. The traitor has probably already relayed your position to the Rebels. You have to get out of here.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You order an investigation of the incident. It turns out your ex-crewman had stored away some of your supplies in a shuttle, probably for an escape plan. You put the scrap back in your cargo bay.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -3474,7 +3474,7 @@
 		<text>The ship breaks apart, you move in to salvage what remains usable.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You order an investigation of the incident. It turns out the traitor had stored away some of your supplies in a shuttle, probably part of an escape plan. You put the scrap back in your cargo bay.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -3485,7 +3485,7 @@
 		<text>The patrol craft's crew is dead and the ship goes quiet. You send in a salvage crew and let them strip the ship of anything useful.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You order an investigation of the incident. It turns out the traitor had stored away some of your supplies in a shuttle, probably as part of an escape plan. You put the scrap back in your cargo bay.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -3528,7 +3528,7 @@
 		<text>You salvage the remains and contact the wise man.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</destroyed>
@@ -3536,7 +3536,7 @@
 		<text>You salvage the ship and contact the wise man.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ZOLTAN_RIFT_SUCCESS"/>
 		</choice>
 	</deadCrew>
@@ -3978,7 +3978,7 @@
 	<surrender chance="0.5" min="1" max="5">
 		<text>You just lost your redundant environmental scanners. The acid levels must be off the chart.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true">
@@ -4001,7 +4001,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text load="AUTO_SUICIDE_SUCCESS_TEXT"/>
 				<damage amount="4"/>
@@ -4036,7 +4036,7 @@
 	<surrender chance="0.5" min="1" max="5">
 		<text>You just lost your redundant environmental scanners. The acid levels must be off the chart.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true">
@@ -4082,7 +4082,7 @@
 	<surrender chance="0.5" min="1" max="5">
 		<text>The hull of your opponent immediately corrodes wherever it is hit, leaving trails of ugly yellow fog behind. Your ship probably does not look much better.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true">
@@ -4143,7 +4143,7 @@
 	<surrender chance="0.5" min="1" max="5">
 		<text>The Rebel ship has taken heavy damage from both battle and the environment. Multiple hazard warnings tell you that your hull will not withstand the acid much longer either.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true">
@@ -4214,7 +4214,7 @@
 	<surrender chance="0.5" min="1" max="5">
 		<text>Additional hazard warnings pop up on your screen. This does not look good...</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true">
@@ -4446,7 +4446,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"More Mantis incoming, Captain." You order the bridge sealed and continue the assault.</text>
 					<boarders min="1" max="2" class="mantis"/>
@@ -4462,7 +4462,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"More Mantis incoming Captain Captain." You order the bridge sealed and continue the assault.</text>
 					<boarders min="1" max="2" class="mantis"/>
@@ -4480,7 +4480,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The left behind warriors aboard the wreckages won't give up. "Here they come again. That must be the last of them." You order your crew to reload all blasters and prepare for some more combat.</text>
 					<boarders min="1" max="2" class="mantis"/>
@@ -4503,7 +4503,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Here they come again. This must be the last of them." While the crew mops up the remaining Mantis you scan the debris for usable parts.</text>
 					<autoReward level="HIGH">standard</autoReward>
@@ -4935,7 +4935,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The AI teleports several holo-projection units aboard your ship. Remote controlled combat avatars materialize in the corridors. Intruder alert!</text>
 				<boarders min="2" max="3" class="ghost"/>
@@ -4955,7 +4955,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text load="AUTO_SUICIDE_SUCCESS_TEXT"/>
 					<damage amount="2"/>
@@ -5027,49 +5027,49 @@
 		<text>"You successfully completed this attack training session and eliminated the hostile before it got away. The combat simulator will now evaluate your crew's performance.</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<choice req="weapons" max_lvl="1" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your ship and crew has passed this test by destroying the hostile craft, but performed below average in most areas. Consider avoiding any real ship-to-ship combat scenarios with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your ship and crew passed this test by destroying the hostile craft, but performed below average in most areas. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your ship and crew passed this test by destroying the hostile craft and performed well considering the circumstances."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="4" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored average results in this scenario. Your team is combat ready and fit for front-line service."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="5" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored decently in this scenario."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="6" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored well in this scenario, and remained disciplined in a hectic situation. This shows good promise."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="7" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored well in this scenario by efficiently eliminating the hostile."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="8" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew and ship scored exceptionally well in this scenario. Your rating qualifies you for a promotion to the rank of [Lieutenant]."</text>
 			</event>
@@ -5090,49 +5090,49 @@
 		<status type="clear" target="player" system="hacking" amount="100"/>
 		<status type="clear" target="player" system="artillery" amount="100"/>
 		<choice req="engines" max_lvl="1" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to its destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to its destruction. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew and performed well considering the circumstances, but your current ship configuration reduces your chances of survival in a real combat situation."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="4" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored average results in this scenario. You evaded a significant part of the enemy fire, but would still have taken considerable damage in a real fight."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="5" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored decently in this scenario. You evaded the enemy fire as best as possible while trying to outmaneuver your opponent."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="6" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored well in this scenario remained steady under heavy fire. This shows good promise."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="7" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew scored well in this scenario remained calm while being under attack. Your team navigated confidently and was able to evade a significant portion of the hostile fire."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="8" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"Your crew and ship scored exceptionally in this scenario and easily outmaneuver the opponent. Special Message: Well done [Rank]. Consider applying for special forces training. You show some promise."</text>
 			</event>
@@ -5187,7 +5187,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The factory teleports holo-projection units aboard your ship. Remote controlled combat avatars materialize in the corridors. Intruder alert!</text>
 				<boarders min="3" max="5" class="ghost"/>
@@ -5197,7 +5197,7 @@
 	<destroyed>
 		<text>Your guns keep pounding into the wall while molten metal and acrid fog spill through the entire hangar. When your mindless opponent is finally blown apart it takes most of the wall down with it. You stare into the neighboring small-bay through a cruiser sized hole. Small explosions erupt where the hangar took damage during the fight.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place! When the screen turns red again you realize that you won't get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm, you have to jump out of this place now!</text>
 				<autoReward level="HIGH">standard</autoReward>
@@ -5246,7 +5246,7 @@
 			<item type="scrap" min="-5" max="-5"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="C_AUTO_CRUISER_RESCUE_PLANET_LIST"/>
 		</choice>
 	</gotaway>
@@ -5254,7 +5254,7 @@
 		<text>You loot the cruiser remains and contact the settlement.</text>
 		<autoReward level="MED">stuff</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="C_AUTO_CRUISER_RESCUE_PLANET_LIST"/>
 		</choice>
 	</destroyed>
@@ -5284,7 +5284,7 @@
 			<item type="scrap" min="-5" max="-5"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="C_AUTO_CRUISER_RESCUE_PLANET_DISTRESS_LIST"/>
 		</choice>
 	</gotaway>
@@ -5292,7 +5292,7 @@
 		<text>You loot the cruiser remains and contact the settlement.</text>
 		<autoReward level="MED">stuff</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="C_AUTO_CRUISER_RESCUE_PLANET_DISTRESS_LIST"/>
 		</choice>
 	</destroyed>
@@ -5320,7 +5320,7 @@
 				<quest event="CE_QUEST_AUTO_SURVEYOR_HUNT_FIGHT"/>
 				<ship hostile="false"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="C_PIRACY_SUCCESS"/>
 				</choice>
 			</event>
@@ -5533,7 +5533,7 @@
 		<environment type="PDS" target="enemy"/>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a small craft contacts you on secured channels: "Oh dear, the leader of the Claret Skulls is dead. The Purple Tentacles will surely want to know about this. Maybe you should tell them your story." The pirate blatantly blinks at you several times and transmits some coordinates.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_LORD_LADY_KILLED"/>
@@ -5545,7 +5545,7 @@
 		<environment type="PDS" target="enemy"/>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a small craft contacts you on secured channels: "Oh dear, the leader of the Claret Skulls is dead. The Purple Tentacles will surely want to know about this. Maybe you should tell them your story." The pirate blatantly blinks at you several times and transmits some coordinates.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_LORD_LADY_KILLED"/>
@@ -5595,7 +5595,7 @@
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Oh no! The leader of the Purple Tentacles is dead! Anyway, I got you this treasure map you wanted, X marks the spot and all. Have fun." They transmit coordinates and jump away. This must be where your reward waits.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_REWARD"/>
@@ -5607,7 +5607,7 @@
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Oh no! The leader of the Purple Tentacles is dead! Anyway, I got you this treasure map you wanted, X marks the spot and all. Have fun." They transmit coordinates and jump away. This must be where your reward waits.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_REWARD"/>
@@ -5657,7 +5657,7 @@
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Well thanks Mr. Federation. Now the Tentacles know we wanted them out of the pictures. What remains of them will be all over us. You better watch your back in the future!" They jump away without another word.</text>
 			</event>
@@ -5668,7 +5668,7 @@
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Well thanks Mr. Federation. Now the Tentacles know we wanted them out of the pictures. What remains of them will be all over us. You better watch your back in the future!" They jump away without another word.</text>
 			</event>
@@ -6421,7 +6421,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text load="AUTO_SUICIDE_SUCCESS_TEXT"/>
 					<damage amount="2"/>
@@ -6464,7 +6464,7 @@
 		<text>The ship breaks apart, you move in to salvage what remains usable.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You to examine the refueling platform. A few fuel capsules have been left behind.</text>
 				<item_modify>
@@ -6477,7 +6477,7 @@
 		<text>The pirates are dead and the ship goes quiet. You send in a salvage crew and let them strip the ship of anything useful.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true"> 
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You to examine the refueling platform. A few fuel capsules have been left behind.</text>
 				<item_modify>
