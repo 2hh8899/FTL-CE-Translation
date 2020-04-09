@@ -184,7 +184,7 @@
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>The outpost hails you after the scout was destroyed, "Thanks for the help. We've been harassed non-stop by those scouts. Take this on the house."</text>
+				<text>정찰선이 파괴되자 초소가 당신에게 통신을 걸어옵니다, "도와줘서 감사합니다. 저 정찰선들에게 끊임없이 고통 받아왔거든요. 이걸 받아주세요."</text>
 				<autoReward level="MED">standard</autoReward>
 			</event>
 		</choice>
@@ -194,7 +194,7 @@
 <ship name="REBEL_AUTO_MAP" auto_blueprint="SHIPS_AUTO">
 	<surrender chance="0.8" min="4" max="4" load="CE_COMBAT_FLUFF_AUTO"/>
 	<destroyed>
-		<text>You access the recent scans from the unguarded station. Your map has been updated with details of the surrounding area.</text>
+		<text>미보호된 정거장에서 최신 스캔에 액세스합니다. 지도에 세부사항들이 업데이트되었습니다.</text>
 		<reveal_map/>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</destroyed>
