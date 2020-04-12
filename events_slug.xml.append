@@ -96,81 +96,81 @@
 	
 <eventList name="SLUG_SURRENDER_LIST">
 	<event>
-		<text>"Here! We have lotsss of fuel! Take it all!"</text>
+		<text>"여기이! 연료가 무지무지 많아요오! 다 가져가시어요오!"</text>
 		<autoReward level="HIGH">fuel_only</autoReward>
 		<ship hostile="false"/>
 			<choice>
-				<text>Leave them alone and prepare to jump.</text>
+				<text>그들을 내버려두고 도약할 준비합니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>That does not suffice. Prepare to die!</text>
+				<text>이건 충분하지 않다. 죽을 준비해라!</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK_SLUG"/>
 			</choice>
 
 	</event>
 	<event>
-		<text>They transfer a meager amount of material. "There... now keep your word..."</text>
+		<text>그들이 얼마되지 않는 양의 물질을 전송합니다. "짜... 이제 약쏙을 지켜쭈세요오..."</text>
 		<autoReward level="LOW">stuff</autoReward>
 		<ship hostile="false"/>
 			<choice>
-				<text>Leave them alone and prepare to jump.</text>
+				<text>그들을 내버려두고 도약할 준비합니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>That does not suffice. Prepare to die!</text>
+				<text>이건 충분하지 않다. 죽을 준비해라!</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK_SLUG"/>
 			</choice>
 	</event>
 	<event>
-		<text>"Take it and leave ussss be."</text>
+		<text>"다 가쪄가시고 우릴 껀들이지만 말아쭈씨어요오."</text>
 		<autoReward level="MED">stuff</autoReward>
 		<ship hostile="false"/>
 			<choice>
-				<text>Leave them alone and prepare to jump.</text>
+				<text>그들을 내버려두고 도약할 준비합니다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>That does not suffice. Prepare to die!</text>
+				<text>이건 충분하지 않다. 죽을 준비해라!</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK_SLUG"/>
 			</choice>
 	</event>		
 </eventList>
 
 <event name="SLUG_UNLOCK_SURRENDER">  <!-- this is the hidden special surrender event-->
-	<text>"You have besssted us! Will you accept what is in our storeesss in exchange for our livess?"</text>
+	<text>"땅신은 쩌를 이겼써요! 물건을 드릴 테니 목숨만끔은 살려쭈시겠씀니까아?"</text>
 	<choice hidden="true">
-		<text>Let them live.</text>
+		<text>살려준다.</text>
 		<event>
-			<text>"Take thisss newly developed weapon we're transporting... They're not going to be happy we gave it up, that isss for ssure..."</text>
+			<text>"저희가 배달하떤 이 신무기를 가쪄가쎄요오... 분명 고객들은 씨러하겠찌만요오..."</text>
 			<choice>
-				<text>Accept the prototype weapon.</text>
+				<text>시험용 신무기를 받는다.</text>
 				<event>
-					<text>This odd beam weapon does no damage to ships but instead greatly hurts the crew! Diabolical!</text>
+					<text>이 괴상한 빔 무기는 함선에는 아무런 피해를 주지 않으면서 승무원에게 엄청난 피해를 입힙니다! 정말 악랄하군요!</text>
 					<weapon name="BEAM_BIO"/>
 					<ship hostile="false"/>
 			<choice>
-				<text>Thank you. Now prepare to die!</text>
+				<text>고맙군. 이제 죽을 준비해라!</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			<choice>
-				<text>Leave them alone and prepare to jump.</text>
+				<text>그들을 내버려두고 도약할 준비합니다.</text>
 				<event/>
 			</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>We don't want the weapon, we want information.</text>
+				<text>우린 무기는 필요없다, 정보를 내놔!</text>
 				<event>
-					<text>You ask where they were delivering the weapon. "By telling you we will probably die jussst as like as not... Oh well." They give you the coordinates of the a prototype cruiser's mobile construction platform.</text>
+					<text>당신은 이 무기를 어디로 배달하고 있었는지 묻습니다. "당신에게 말하든 말드은..우린 죽고 말겠찌요오오...으쩌겠어요오오." 슬러그는 당신에게 신형 함선을 건조하고 있는, 이동식 조선소의 좌표를 넘겨줍니다.</text>
 					<quest event="SLUG_UNLOCK_1"/>
 					<ship hostile="false"/>
 			<choice>
-				<text>Thank you. Now prepare to die!</text>
+				<text>고맙군. 이제 죽을 준비해라!</text>
 				<event load="CE_SURRENDER_SHIP_ATTACK"/>
 			</choice>
 			<choice>
-				<text>Leave them alone and prepare to jump.</text>
+				<text>그들을 내버려두고 도약할 준비합니다.</text>
 				<event/>
 			</choice>
 				</event>
@@ -186,69 +186,69 @@
 
 <eventList name="CE_SURRENDER_SHIP_ATTACK_SLUG">
 	<event>
-		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
+		<text>물건을 옮기는 데 시간이 좀 걸립니다. 상대의 FTL은 이미 충전되어 있었고 도약을 시작합니다. 현명한 결정이군요.</text>
 	</event>
 	<event>
-		<text>You opponent was scared like a Slug in open space. After droping the agreed amount of supplies, they immediately put as much distance between your two ships as possible. They are already out of weapon range.</text>
+		<text>상대는 열린 우주에 있는 슬러그처럼 겁먹습니다. 합의된 보급품을 떨어뜨린 후, 상대는 즉시 두 선박 사이의 거리를 최대한으로 벌립니다. 상대는 이미 무기 사정거리에 벗어났습니다.</text>
 	</event>
 	<event>
-		<text>You opponent is heavily damaged, but they have called for backup during the fight and several ship already circle the beacon. This won't work, you have to get out of here.</text>
+		<text>상대는 심각한 피해를 입었지만, 그들은 싸움 중에 지원을 요청했고 이미 여러 함선이 송신소 주변을 선회하고 있습니다. 이건 안됩니다, 여기서 빠져나가야 합니다.</text>
 	</event>
 	<event>
-		<text>"Foolish Aliens. You can't deceived the deceiver!" They activate a backup cloaking device and slip away.</text>
+		<text>"멍쭝한 외꼐인. 당신은 사기꾼을 쏙일 쑨 없을 껄요!" 그들은 백업 은폐 장치를 작동시키고 도망칩니다.</text>
 	</event>
 	<event>
-		<text>The Slugs must have anticipated this, but hey put up quite a show. "This is outrageous. What a gross violation of galactic conduct. How uncivilized! We would never deceive anyone like this ourselves."</text>
+		<text>슬러그들은 이걸 예상한 것이 틀림없었지만, 상당한 쇼를 합니다. "이런 잔악무또한... 이껀 은하적 행위에 대한 심깍한 위빤이에요오. 얼마나 미깨한가! 우리 자신도 이런 싸람들을 쏙이진 않을 꺼에요오."</text>
 	</event>
 	<event>
-		<text>Its hard to cheat telepaths. The Slugs new what you where planning, their ship already slipped away when you finished loading the prices.</text>
+		<text>텔레파시 능력자들을 속이는 것은 어렵습니다. 슬러그들은 새로운 당신의 계획을 짤 때, 그들은 대가를 다 싣어주고는 이미 사라졌습니다.</text>
 	</event>
 	<event>
-		<text>Your opponent is terrified. "What? Please, you can't do this!" You cut the transmission and order an attack course.</text>
+		<text>상대는 겁에 질렸습니다. "뭐라꼬? 제빨 이러찌 마요!" 당신은 전송을 끊고 공격 항로를 명령합니다.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_SURRENDER_BETRAYAL"/>
 		</choice>
 	</event>
 	<event>
-		<text>The defeated captain informs you that you commit a direct violation of the galactic rules of engagement. The ship also charges weapons again.</text>
+		<text>패배한 선장은 당신이 은하계 교전수칙을 정면으로 위반한다고 알려줍니다. 또한 이 선박은 무기를 다시 충전합니다.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_SURRENDER_BETRAYAL"/>
 		</choice>
 	</event>
 	<event>
-		<text>"We gave you all we had!" It was not enough...</text>
+		<text>"우린 까진 걸 쩐부 쭸짢아요!" 그건 충분하지 않군요...</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_SURRENDER_BETRAYAL"/>
 		</choice>
 	</event>
 	<event>
-		<text>You opponent did not anticipate this kind of deception from a Federation captain. They try to get away, but you will catch up with them shortly.</text>
+		<text>상대는 이런 기만을 예상하지 못했습니다. 그들은 도망치려 하지만, 당신은 곧 그들을 따라잡을 것입니다.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_SURRENDER_BETRAYAL"/>
 		</choice>
 	</event>
 	<event>
-		<text>No one that attacks a proud Federation vessel should be allowed to get away with it! You decide that your opponent has to die.</text>
+		<text>자랑스러운 연방 선박을 공격하는 놈들이 도망치는 것은 용납할 수 없다! 당신은 상대를 죽이기로 결정합니다.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="CE_SURRENDER_BETRAYAL"/>
 		</choice>
 	</event>
 </eventList>
 
 <event name="SECRET_WORD_ABADOTH_CONCLUSION">
-	<text>A Zoltan ship decloaks and demands your reason for being here!</text>
+	<text>졸탄 함선이 갑자기 모습을 드러내더니, 여기에 도달한 이유를 말하라고 요구합니다!</text>
 	<choice>
-		<text>Explain about finding the dead crewman.</text>
+		<text>죽은 승무원에 대해 설명한다.</text>
 		<event>
-			<text>There is a moment of silence, and suddenly the Zoltan ship cloaks - must have been the wrong word to use... now you've got a fight on your hands!</text>
+			<text>잠시 침묵이 감돌더니, 이내 졸탄 함선은 그 모습을 은폐합니다. 분명 잘못된 암호를 말한 것이 틀림없습니다... 이제 당신의 손으로 싸움을 헤쳐나갈 차례입니다!</text>
 			<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -256,11 +256,11 @@
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -302,19 +302,19 @@
 		</event>
 	</choice>
 	<choice req="engi" hidden="true">
-		<text>(Engi Crew) Say ABADOTH.</text>
+		<text>(엔지 승무원) "아바도트."</text>
 		<event>
-			<text>Your Engi crewman easily recalls the phrase the deadman used from its memory banks. There is a moment of silence, and the ship's captain solemnly thanks you for the information. He wishes you well on your journey, and he offers several upgrades to assist you in exchange for your service to the Zoltan race.</text>
+			<text>엔지 승무원은 자신의 메모리에서 망자의 유언을 어렵잖게 떠올릴 수 있었습니다. 잠시 침묵이 감돌더니, 선장이 담담히 감사를 표해옵니다. 이들은 남은 여정에 행운을 빌어주며, 당신이 졸탄 종족에 봉사해 준 대가로 함선을 얼마간 개조해주었습니다.</text>
 			<autoReward level="MED">standard</autoReward> 
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Say ANODYNE.</text>
+		<text>"아노다인."</text>
 		<event>
-			<text>There is a moment of silence, and suddenly the Zoltan ship cloaks - must have been the wrong word to use... now you've got a fight on your hands!</text>
+			<text>잠시 침묵이 감돌더니, 이내 졸탄 함선은 그 모습을 은폐합니다. 분명 잘못된 암호를 말한 것이 틀림없습니다... 이제 당신의 손으로 싸움을 헤쳐나갈 차례입니다!</text>
 			<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -322,11 +322,11 @@
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -368,19 +368,19 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Say ABADOTH.</text>
+		<text>"아바도트."</text>
 		<event>
-			<text>There is a moment of silence, and the ship's captain solemnly thanks you for the information. He wishes you well on your journey, and he offers several upgrades to assist you in exchange for your service to the Zoltan race.</text>
+			<text>잠시 침묵이 감돌더니, 선장이 담담히 감사를 표해옵니다. 이들은 남은 여정에 행운을 빌어주며, 당신이 졸탄 종족에 봉사해 준 대가로 함선을 얼마간 개조해주었습니다.</text>
 			<autoReward level="MED">standard</autoReward> 
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Say ABATODH.</text>
+		<text>"아바토드."</text>
 		<event>
-			<text>There is a moment of silence, and suddenly the Zoltan ship cloaks - must have been the wrong word to use... now you've got a fight on your hands!</text>
+			<text>잠시 침묵이 감돌더니, 이내 졸탄 함선은 그 모습을 은폐합니다. 분명 잘못된 암호를 말한 것이 틀림없습니다... 이제 당신의 손으로 싸움을 헤쳐나갈 차례입니다!</text>
 			<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -388,11 +388,11 @@
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -463,7 +463,7 @@
 		<event load="CE_AUGMENT_UPGRADE_NEBULA"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_NEBULA"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -475,7 +475,7 @@
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some of your hull damage.</text>
+		<text>(함체 수리장비) 선체 손상 일부를 수리합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
@@ -501,7 +501,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here you can lay some mines while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -509,23 +509,23 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="NOTHING_SLUG">
-	<text>You arrive at the beacon and are relieved at the sight of open space. Nebulae are terribly claustrophobic.</text>
-	<text>This beacon marks a "small" gap in the nebula. No colonies or ships in scanning distance.</text>
-	<text>You are relieved to see your sensors blink back on after the jump. No ships detected.</text>
-	<text>The Slugs rely heavily on their telepathic powers and are reluctant to give up that advantage by extending beyond nebulae. It's unlikely you'll encounter any this far from the clouds.</text>
-	<text>You arrive in an area clear of nebulae and quickly check to see if the sensors are working. Everything is fine and no ships are detected in the vicinity.</text>
+	<text>송신소에 도착하여 탁 트인 우주를 보고 안도감을 느낍니다. 성운지대는 밀실공포증에는 최악입니다.</text>
+	<text>이 송신소는 성운지대에 있는 '작은' 틈으로 표시됩니다. 스캔 영역 내에 거주지나 함선은 감지되지 않습니다.</text>
+	<text>도약을 마친 후 센서에 아무 반응이 없는 것을 보고 안도합니다. 함선이 감지되지 않습니다.</text>
+	<text>슬러그들은 그들이 가진 텔레파시 능력의 장점을 최대로 높일 수 있는 성운지대에 머물고 싶어합니다. 성운지대로부터 이렇게까지 멀리 떨어진 곳에서 슬러그를 만날 가능성은 거의 없습니다.</text>
+	<text>성운지대에서 벗어나 센서의 작동여부를 급히 확인합니다. 아무 이상 없습니다. 근처에 함선이 감지되지 않습니다.</text>
 </textList>
 
 
 
 
 <event name="START_BEACON_SLUG">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -534,7 +534,7 @@
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_SLUG_ACTUAL"/>
 			</choice>
 		</event>
@@ -547,7 +547,7 @@
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_SLUG_ACTUAL"/>
 			</choice>
 		</event>
@@ -561,7 +561,7 @@
 			</item_modify>
 			<modifyPursuit amount="-1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_SLUG_ACTUAL"/>
 			</choice>
 		</event>
@@ -581,13 +581,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_SLUG_ACTUAL"/>
 			</choice>
 		</event>
@@ -607,13 +607,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_SLUG_ACTUAL"/>
 			</choice>
 		</event>
@@ -628,7 +628,7 @@
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
@@ -641,7 +641,7 @@
 						<item type="fuel" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
@@ -655,7 +655,7 @@
 					</item_modify>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
@@ -675,13 +675,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_SLUG_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
@@ -701,13 +701,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_SLUG_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
@@ -727,13 +727,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_SLUG_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_SLUG_ACTUAL"/>
 					</choice>
 				</event>
@@ -769,7 +769,7 @@
 		<event load="CE_AUGMENT_UPGRADE_NEBULA"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_NEBULA"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
@@ -795,7 +795,7 @@
 		</event>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some of your hull damage.</text>
+		<text>(함체 수리장비) 선체 손상 일부를 수리합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
@@ -821,7 +821,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here you can lay some mines while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -829,30 +829,30 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="START_BEACON_SLUG">
-	<text>The only thing that can render a nebula more dangerous is if it's also home to the Slugs. This particular nebula is just that.</text>
-	<text>This nebula is home to the telepathic Slugs. They'd sell their own slime for a crate of scrap, but they much prefer to just take it.</text>
-	<text>You're told the Slug home world is somewhere in this nebula. You can't see them, but you know they're watching.</text>
-	<text>The Slugs that live in this nebula field are a leisure-centered civilization. Everything in Slug life is done in the pursuit of more currency and more time in which to spend it on extravagant ventures. This, inevitably, leads to much treachery in open space.</text>
-	<text>The Slugs developed on an ocean planet where the ability to telepathically sense another organism was more important than sight. Today they use this ability to navigate unfettered the depths of the nebulae they inhabit.</text>
+	<text>성운지대가 더욱 위험해질 수 있는 유일한 방법은 그 지대가 슬러그들의 본거지가 될 때 뿐입니다. 이 성운지대가 바로 그런 지대입니다.</text>
+	<text>이 성운지대는 텔레파시 능력을 가진 슬러그들의 본거지입니다. 그들은 스크랩 한 상자를 위해 자신의 점액을 팔 수도 있지만 대부분의 경우 그냥 뺏어갑니다.</text>
+	<text>이 성운지대 어딘가에 슬러그들의 본거지가 있다는 이야기를 듣습니다. 당신은 그들을 볼 수 없지만 그들은 당신을 지켜보고 있습니다.</text>
+	<text>이 성운지대에 살고 있는 슬러그들은 여가 활동을 즐기는 종족입니다. 슬러그들의 인생은 더 많은 금전 확보와 그것을 사치스러운 활동에 사용하기 위한 시간을 마련하는 것이 전부입니다. 이는 어쩔수 없이 우주 공간에서 일어나는 배신의 증가로 이어집니다.</text>
+	<text>슬러그들은 바다로 이루어진 행성에서 진화했기 때문에 시야보다는 텔레파시를 통하여 다른 생명체를 감지하는 능력이 중요했습니다. 그들은 이제 이 능력을 거주지인 성운 지대의 깊은 구름 속을 자유롭게 항해하기 위해 사용합니다.</text>
 </textList>
 
 
 <eventList name="CE_BOUNTY_LIST_SLUG">
 	<event> <!-- Slug Competition -->
-		<text>Job offers are plenty in this sector, but payment is mostly slim. Slugs from all slithers of life seek to recruit mercenaries to take out competitors. Target: Slug Ship. Payment: Medium.</text>
+		<text>이 구역에서는 일자리 제안이 많지만, 보수는 대부분 보잘 것 없습니다. 모든 미끄러진 곳에서 온 생명체인 슬러그들은 경쟁자들을 끌어내기 위해 용병을 모집하려 합니다. 목표: 슬러그 선박. 보수: 중간.</text>
 		<quest event="CE_BOUNTY_SLUG_NEBULA"/>
 	</event>
 	<event> <!-- Slug Competition -->
-		<text>Job offers are plenty in this sector, but payment is mostly slim. Slugs from all slithers of life seek to recruit mercenaries to take out competitors. Target: Slug Ship. Payment: Medium.</text>
+		<text>이 구역에서는 일자리 제안이 많지만, 보수는 대부분 보잘 것 없습니다. 모든 미끄러진 곳에서 온 생명체인 슬러그들은 경쟁자들을 끌어내기 위해 용병을 모집하려 합니다. 목표: 슬러그 선박. 보수: 중간.</text>
 		<quest event="CE_BOUNTY_SLUG_NEBULA"/>
 	</event>
 	<event> <!-- Pirate Nebula -->
-		<text>A certain pirate ship has been ambushing traders in these nebula for ages. The crews bounty has grown to a substantial amount. Target: Legendary Pirate. Payment: High.</text>
+		<text>해적선으로 보이는 함선이 오랫동엔 이 성운 상인들을 덥치기 위해 매복해 왔습니다. 해적 현상금은 상당이 커졌습니다. 목표: 전설적인 해적. 보수: 높음.</text>
 		<quest event="CE_BOUNTY_PIRATE_NEBULA"/>
 	</event>
 </eventList>
@@ -887,7 +887,7 @@
 		<event load="CE_AUGMENT_UPGRADE_NEBULA"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_NEBULA"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -899,7 +899,7 @@
 		<event load="CE_RESEARCH"/>
 	</choice>
 	<choice req="AE_REPAIR_KIT" hidden="true">
-		<text>(Hull Repair Kit) Repair some of your hull damage.</text>
+		<text>(함체 수리장비) 선체 손상 일부를 수리합니다.</text>
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
@@ -925,7 +925,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here, you hide away some mines in the gas clouds. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -933,24 +933,24 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="NEBULA_NOTHING_SLUG">
-	<text>When it comes to Slugs, no news is not necessarily good news. However, if they are watching, they don't seem to want to confront you.</text>
-	<text>It's not unusual to feel paranoia in a Slug controlled nebula, but for once it is unfounded.</text>
-	<text>Either this part of Slug space is deserted, or it's too dense for even Slugs to detect your presence. Time to move.</text>
-	<text>This area of the nebula seems entirely empty until a small Slug transport and its escorts emerges suddenly from the clouds, only to disappear again in a matter of seconds.</text>
-	<text>You explore around the beacon and are shocked when a rock the size of a small moon suddenly looms ahead of you. Scans reveal the solid-looking rock is just a husk, almost entirely mined out of useful minerals.</text>
-	<text>There are a number of small stations for travelers in the area, lit up by guiding lights and advertisements. Only Slug ships are docked so you decide it's better to avoid a confrontation and steer clear.</text>
+	<text>슬러그와 관련된 거라면 무소식이 희소식은 아닙니다. 하지만 만일 그들이 지금 당신을 보고있는 거라면, 당신과 맞설 생각은 없어 보이는군요.</text>
+	<text>슬러그들이 점령한 성운지대를 지날때 편집증에 시달리는 것은 흔한 일입니다. 다만 이번만큼은 근거없는 의심이었습니다.</text>
+	<text>슬러그들이 점령한 이 구역은 버림받은 곳이거나 밀도가 너무 높아 슬러그들 조차 당신을 감지할 수 없나봅니다. 이동할 시간입니다.</text>
+	<text>이 구역의 성운 지대는 텅텅 비어 있는 듯합니다. 갑자기 소형 슬러그 수송함과 호위함이 구름 너머로 나타났다가 순식간에 다시 사라졌습니다.</text>
+	<text>송신소 주위를 살펴보던 중, 작은 달 크기의 암석이 당신을 향해 다가오는 것을 보고 깜짝 놀랍니다. 스캔을 해보니 단단해 보이던 돌은 유용한 광물을 모두 채광한 후 남은 단순한 껍데기입니다.</text>
+	<text>이 지역은 다수의 여행자용 우주 정거장이 유도 광선과 광고를 켜고 있습니다. 살펴보니 슬러그 함선만 보입니다. 쓸모없는 분쟁을 피하고 이동하는 편이 낫다고 판단합니다.</text>
 </textList>
 
 <event name="SLUG_FIGHT" unique="true">
-	<text>It's rare for the Slugs to stay exposed in open space for long periods - the ship here may be lost, or just passing through, but either way it moves in to attack!</text>
+	<text>슬러그들이 탁 트인 우주에서 장시간 노출되어 있는 경우는 드뭅니다. 이 함선이 길을 잃은 건지 아니면 그저 지나가던 길이었던 건지는 모르지만, 어찌됐건 당신을 공격합니다.</text>
 	<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -958,11 +958,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1000,10 +1000,10 @@
 </event>
 
 <event name="SLUG_MANTIS" unique="true">
-	<text>You intercept comm chatter from an incoming Mantis ship. "Look. This ship appears not to be owned by the squishy ones. Maybe they won't smell so bad when we cut them open." They move in on your position.</text>
+	<text>접근해오는 맨티스 함선의 통신을 도청합니다. "이봐! 이 함선은 그 물컹한 놈들의 함선이 아냐. 최소한 놈들은 썰었을 때 거지같은 똥내가 나진 않을꺼야!" 적함이 공격해옵니다.</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1011,11 +1011,11 @@
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1057,7 +1057,7 @@
 	<text load="SLUG_PIRATE"/>
 	<ship load="PIRATE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1065,11 +1065,11 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1110,15 +1110,15 @@
 	<text load="SLUG_REBEL"/>
 	<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장하고 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1157,27 +1157,27 @@
 
 <eventList name="NEBULA_SLUG_HULLFIX_RESULT1">
 	<event>
-		<text>You pull up to the automatic station and, after a short time, they repair 10 hull damage. You begin to offer your thanks but discover that you can't detach from the station.</text>
+		<text>자동화된 정거장에 정박하자 잠시 후에 선체 피해를 10 복구해줍니다. 감사의 뜻을 전하는 와중, 함선을 정거장에서 분리시킬 수 없음을 깨닫습니다.</text>
 		<damage amount="-10"/>
 		<choice>
-			<text>Demand an explanation.</text>
+			<text>설명을 요구한다.</text>
 			<event load="NEBULA_SLUG_HULLFIX_RESULT2"/>
 		</choice>
 	</event>
 	<event>
-		<text>You dock with the station hoping for a quick turnaround, but the automatic machines take their sweet time. When the process finally finishes, you notice only one damage has been repaired.</text>
+		<text>단시간 내에 끝날 것이라 기대하고 정거장에 정박하지만 무인 기계들은 제 멋대로 작동하고 있습니다. 간신히 수리가 끝나고 보니 겨우 1의 피해만이 복구되었습니다.</text>
 		<damage amount="-1"/>
 		<choice>
-			<text>Demand an explanation.</text>
+			<text>설명을 요구한다.</text>
 			<event load="NEBULA_SLUG_HULLFIX_RESULT2"/>
 		</choice>
 	</event>
 	<event>
-		<text>As you dock with the station your readings go haywire. An EMP blast resonates throughout the ship and your engines shut down. You're a sitting duck as a ship reveals itself and silently moves in to attack!</text>
+		<text>정거장에 정박하자 계기판에 이상이 표시됩니다. EMP 폭발이 함선 전체에 퍼지며 엔진이 작동을 중지합니다. 한 척의 함선이 나타나 취약해진 당신을 노리고 공격해옵니다.</text>
 		<status type="limit" target="player" system="engines" amount="1"/>
 		<ship load="JELLY_STATUS_ENGINES" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1185,7 +1185,7 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1225,26 +1225,26 @@
 
 <eventList name="NEBULA_SLUG_HULLFIX_RESULT2">
 	<event>
-		<text>"We're glad you have enjoyed our servicessss. Perhaps some fuel would be an appropriate compensssation?"</text>
+		<text>"우리 써비쓰에 만족했다니 기쁘꾼요. 아마 약깐의 연료가 쩍당한 보쌍이 되지 않껬써요오?"</text>
 		<choice hidden="true">
-			<text>Give them the 15 fuel they demand.</text>
+			<text>그들이 요구하는 15 개의 연료를 줍니다.</text>
 			<event>
-				<text>You transfer the fuel and they release your ship. "Tell your friendsss about us!" Their portable station slips into the clouds.</text>
+				<text>당신이 연료를 전달하자 그들은 함선을 풀어줍니다. "당씬 친구들에게도 잘 얘기해쭤요오!" 이동식 정거장은 구름 너머로 사라집니다.</text>
 				<item_modify>
 					<item type="fuel" min="-15" max="-15"/>
 				</item_modify>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>That's ridiculous!</text>
+			<text>멍청한 소리!</text>
 			<event>
-				<text>"I'm ssssorry to hear that." He presses a button and an explosion rocks the ship. They must have planted a bomb while 'repairing'! Prepare for a fight!</text>
+				<text>"안타깝꾼요오." 슬러그가 버튼을 누르자 함선이 폭발로 흔들립니다. '수리'를 하는 동안 폭탄을 설치한 듯 싶습니다. 전투를 준비하라!</text>
 				<ship load="JELLY" hostile="true"/>
 				<damage amount="4"/>
 				<damage amount="1" system="random"/>  <!--DLC-->
 				<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1252,7 +1252,7 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1291,24 +1291,24 @@
 		</choice>
 	</event>
 	<event>
-		<text>"We're glad you have enjoyed our servicessss. Now for payment. To enssssure your cooperation we've taken the liberty of installing a limiter on your weapons system."</text>
+		<text>"우리 써비쓰에 만족했다니 기쁘꾼요. 이제 똔을 지뿔할 시깐이야. 문제없이 협쪼할 쑤 있또록 무기 시썰에 제한을 껄어 놓았어."</text>
 		<choice hidden="true">
-			<text>Give them the 50 scrap they demand.</text>
+			<text>그들이 요구하는 50 스크랩을 줍니다.</text>
 			<event>
-				<text>You transfer the scrap and they release your ship. "Tell your friendsss about us!" Their portable station slips into the clouds.</text>
+				<text>당신이 스크랩을 전달하자 그들은 함선을 풀어줍니다. "당씬 친구들에게도 잘 얘기해쭤요오!" 이동식 정거장은 구름 너머로 사라집니다.</text>
 				<item_modify>
 					<item type="scrap" min="-50" max="-50"/>
 				</item_modify>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Let's get out of here!</text>
+			<text>여길 빠져나가자!</text>
 			<event>
-				<text>You activate your thrusters and force your way away from the station. A ship quickly moves in to engage. You'll need to get out of here fast; there may not be time to get the weapons fully operational!</text>
+				<text>당신은 추진기를 작동시키고 강제로 정거장을 벗어납니다. 한 척의 선박이 교전을 위해 다가옵니다. 여기서 최대한 빨리 벗어나야 합니다. 무기를 완전히 가동할 수 없습니다!</text>
 				<status type="divide" target="player" system="weapons" amount="2"/>
 				<ship load="JELLY_STATUS_WEAPONS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1316,7 +1316,7 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1357,11 +1357,11 @@
 </eventList>
 <eventList name="NEBULA_SLUG_HULLFIX_REQUEST">
 	<event>
-		<text>"Ahhh. A fellow businessman. We offer to fix 10 damage for 50 ssscrap."</text>
+		<text>"아아아. 동업짜로군요오. 쩌희는 피해를 10 쑤리해쭈는 대신 50 스끄랩을 받아요오."</text>
 		<choice hidden="true">
-			<text>Accept.</text>
+			<text>받아들인다.</text>
 			<event>
-				<text>You perform the transaction and watch carefully as their machines patch the hull however, everything seems fine. Once they're complete you get ready to jump.</text>
+				<text>거래를 마치고 기계가 수리를 하는 동안 유심히 살펴봅니다. 그러나 아무 문제도 없어 보입니다. 수리가 끝나고 당신은 도약할 준비를 합니다.</text>
 				<damage amount="-10"/>				
 				<item_modify>
 					<item type="scrap" min="-50" max="-50"/>
@@ -1369,17 +1369,17 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Decline.</text>
+			<text>거절한다.</text>
 			<event>
-				<text>"Too bad. Farewell, traveler." Their mobile station slips into the clouds.</text>
+				<text>"안타깝꾼요오. 잘 가쎄요오. 여행자씨." 이동식 정거장은 구름 너머로 사라집니다.</text>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Just before the transmission is cut you hear, "They're not falling for it. Just kill the crew and we can ssstrip..." Looks like you're not getting out of here without a fight.</text>
+		<text>딱 통신이 끊어지려는 순간 한 마디가 당신의 귀를 스칩니다, "안 쏙는 것 같따요. 그냥 다 쭉이고 배를 해쩨..." 싸우지 않고 나갈 길은 없어 보이는군요.</text>
 		<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1387,7 +1387,7 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1427,50 +1427,50 @@
 
 
 <event name="NEBULA_SLUG_FAKE_STORE" unique="true">
-	<text>A Slug transport ship is stationed near the beacon with a military escort ship. They message you, "We have been waiting for a customer for agesss. Care to see our waresss?"</text>
+	<text>근처 송신소에 슬러그 수송선이 군용 호위함과 함께 정박해 있습니다. 수송선으로부터 메시지를 받습니다, "오랫똥안 쏜님을 끼다려왔씀니다아아. 물껀 좀 뽀시고 가시껬써요오?"</text>
 	<environment type="nebula"/>
 	<ship load="JELLY" hostile="false"/>
 	<choice hidden="true">
-		<text>Decline.</text>
+		<text>거절한다.</text>
 		<event>
-			<text>"Oh well... We ssshall wait here then." You cautiously put distance between your ships before preparing to jump.</text>
+			<text>"오, 할 쑤 없찌요오... 우린 여기써어 기따리껬씀니다아아." 당신은 도약을 준비하기 전에 조심스레 함선 간의 거리를 벌립니다.</text>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ask to see the goods.</text>
+		<text>보겠다고 대답한다.</text>
 		<event>
-			<text>"Before we get ahead of ourssselves, I need to explain sssome ground ruless of our transsaction. Thesse are dangerous times, yess?"</text>
+			<text>"꺼래를 시작하끼 전에에, 거래 뀨칙을 쪼오금 썰명하겠씀니다아아. 요쯤 쫌 위험한 쎄상이니까요오, 아시껬죠오?"</text>
 			<choice>
-				<text>Continue.</text>
+				<text>계속.</text>
 				<event>
-					<text>"Firssst... We accept no tradesss, couponss or refundss. Purchasess are final. Underssstand?"</text>
+					<text>"먼쩌어... 쩌희는 물물꾜환, 환뿔 또는 꾸폰은 안받아요오. 구입한 순간 끝임니다아. 아씨껬찌요오?"</text>
 					<choice>
-						<text>Understood.</text>
+						<text>알았다.</text>
 						<event>
-							<text>"We hold no liability for productsss damaged post ssale. We offer no insurance or customer sservice. Not a problem?"</text>
+							<text>"쩌희는 판매 후 손상에 때해서도 뽀상해 뜨리지 않씀니다아. 뽀험도 고객 써비스도 제꽁하지 않아요. 문제 없쬬오?"</text>
 							<choice hidden="true">
-								<text>Not a problem.</text>
+								<text>문제될 건 없다.</text>
 								<event load="NEBULA_SLUG_FAKE_STORE_LIST"/>
 							</choice>
 							<choice hidden="true">
-								<text>Forget this.</text>
+								<text>그만둔다.</text>
 								<event load="NEBULA_SLUG_FAKE_STORE_LEAVING"/>
 							</choice>
 						</event>
 					</choice>
 					<choice>
-						<text>Forget this.</text>
+						<text>그만둔다.</text>
 						<event>
-							<text>"Fine... Not everyone appreciates good dealss..."</text>
+							<text>"쫗아요오... 좋은 거래를 할 쑤 있는 사람은 별로 없찌요오..."</text>
 						</event>
 					</choice>
 					<choice hidden="true" req="slug">
-						<text>(Slug Crew) Our Slug senses someone aboard the ship. Investigate it.</text>
+						<text>(슬러그 승무원) 우리 슬러그 승무원이 배에 누군가 승선한 것을 감지합니다. 그걸 조사합니다.</text>
 						<event>
-							<text>It looks like the merchant was trying to stall you while someone teleported on board. You catch him before he could finish and he teleports away. You immediately prepare for battle.</text>
+							<text>누군가 함선에 올라탈 동안 상인이 당신을 붙잡고 있으려고 한 것 같습니다. 침입자는 일을 마치기 전에 발각되자 텔레포트해서 떠납니다. 당신은 즉시 전투 태세를 갖춥니다.</text>
 							<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1478,11 +1478,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1526,19 +1526,19 @@
 </event>
 <eventList name="NEBULA_SLUG_FAKE_STORE_LIST">  <!-- if you stay for the whole thing -->
 	<event>
-		<text>"Great. Let me show you our waress. It's not often I meet patient alienss, have this complimentary fuel as well."</text>
+		<text>"완벽해요오오. 이제 쌍품들을 뽀여드리지요오. 짬을성 있는 외계인들을 만나는 껀 흔치 않죠오오. 덤으로 연료 쫌 뜨리지요오."</text>
 		<item_modify>
 			<item type="fuel" min="5" max="5"/>
 		</item_modify>
 		<store/>
 	</event>
 	<event>
-		<text>"During our discussion, my man hass taken the liberty of disabling your weaponss to prevent any complications while completing our... transssaction..." You suddenly register multiple weapon locks, but your own weapons are not responding. Get out of there!</text>
+		<text>"우리가 대화하는 똥안... 우리의... 거래를 방해하는 문쩨가 생기쮜 않또록 제 부하가 당신 함썬에 있는 무끼들을 좀 쏜 봤써요오..." 당신은 갑자기 다수의 무기 조준을 알아차리지만, 우리 무기가 반응하지 않습니다. 여길 빠져나가야 합니다!</text>
 		<boarders min="1" max="1" class="slug"/>
 		<status type="limit" target="player" system="weapons" amount="0"/>
 		<ship load="JELLY_STATUS_WEAPONS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1546,11 +1546,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1587,19 +1587,19 @@
 		</choice>
 	</event>
 	<event>
-		<text>"Thank you. If you could do me one more courtesssy... please die quietly." You suddenly hear gunshots aboard the ship. He must have been stalling for time while they boarded your ship!</text>
+		<text>"고맙씀니다. 한 가지 더 호의만 베뿔어 쭈세요오... 쪼용히 쭉어주시면 됨니다아." 당신은 갑자기 함선에서 총성을 듣습니다. 상인은 강습자들이 함선에 올라 탈 시간을 벌고 있었던게 틀림없습니다!</text>
 		<boarders min="2" max="2" class="slug"/>
 		<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1638,22 +1638,22 @@
 </eventList>
 <eventList name="NEBULA_SLUG_FAKE_STORE_LEAVING">  <!-- if you try and leave early, maybe attack-->
 	<event>
-		<text>"Very well... Impatient alienss..." You prepare to jump.</text>
+		<text>"할 쑤 없찌요오... 참을썽 없는 외계인들 같뚜니..." 당신은 도약을 준비합니다.</text>
 	</event>
 	<event>
-		<text>You prepare to leave but notice noises on your ship. It looks like the merchant was trying to stall you while they hacked into your systems. You barely have time to order an alert before a military ship flies through the clouds intent on your destruction!</text>
+		<text>떠날 준비를 하는 도중 선내에서 소리가 들려옵니다. 상인은 당신의 함선을 해킹할 시간을 벌고 있었던 겁니다. 당신을 파괴하려고 온 군함이 구름을 통과하기 전, 당신은 가까스로 경보를 울립니다!</text>
 		<boarders min="1" max="1" class="slug"/>
 		<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1696,7 +1696,7 @@
 	<environment type="nebula"/>
 	<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1704,11 +1704,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1746,10 +1746,10 @@
 </event>
 
 <event name="NEBULA_SLUG_MANTIS" unique="true">
-	<text>The Mantis attack ship here looks to have been hunting Slugs on their home turf - a rare test of honor for the mightiest Mantis crews. Weapons up!</text>
+	<text>이 곳의 맨티스 전투함은 슬러그들의 본거지까지 와서 사냥을 하고 있었습니다. 이건 흔치 않은일입니다. 가장 용맹스러운 맨티스 승무원들이 명예를 얻기 위해 거쳐야 하는 시험과정이거든요. 무기를 올려라!</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1757,15 +1757,15 @@
 			<event load="CE_PLAYER_SURRENDER_MANTIS"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1804,7 +1804,7 @@
 </event>
 
 <event name="NEBULA_SLUG_PIRATE" unique="true">
-	<text>You're surprised to find a ship without Slug markings stranded all the way out here and move in to provide assistance. When you see the pirate insignia on the hull you quickly reconsider.</text>
+	<text>슬러그 표시가 없는 함선이 이곳까지 와서는 좌초한 것을 발견하고 깜짝 놀랐습니다. 돕기 위해 다가가지만 선체에 있는 해적 표식을 발견하고 도움에 대해 다시 고려해봅니다.</text>
 	<ship load="PIRATE" hostile="false"/>
 	<environment type="nebula"/>
 	<choice>
@@ -1813,7 +1813,7 @@
 			<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1821,15 +1821,15 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1867,24 +1867,24 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Keep your distance and hope they haven't seen you yet.</text>
+		<text>거리를 유지하고 아직 그들이 당신을 발견하지 않았길 바랍니다.</text>
 		<event/>
 	</choice>
 </event>
 
 
 <event name="NEBULA_SLUG_MEDBAY" unique="true"> 
-	<text>A Slug ship hails you, "We've detected ssome worrying radiation coming from your medical unit, perhaps you sshould take a look?" As he signs off, your medical bay shuts off.</text>
+	<text>슬러그 선박이 당신에게 교신합니다, "당신의 의무씰에는 문제 있을 쩡도의 방싸능이 깜지되었써요오. 아마 한 번 쌀펴봐야 하지 않껬써요오?" 그가 신호를 보내자, 당신의 의료실이 꺼집니다.</text>
 	<status type="limit" target="player" system="medbay" amount="0"/>
 	<status type="limit" target="player" system="clonebay" amount="0"/>
 	<ship load="JELLY_STATUS_MEDBAY" hostile="true"/>
 	<environment type="nebula"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) "Well, we in return detected some worrying malfunction in your remote teleporters..."</text>
+		<text>(텔레포터 교란장치) "음, 우린 그 답례로 네 원격 텔레포터 오작동을 감지했지..."</text>
 		<event>
-			<text>"Yes... it appearss our engineering crew won't be able to help you then." The Slug snickers. "We will, uhm, try to reconfigure our weapon array and uhm... teleport sssome repair bombss!? Pleasse remain at your current position, will you?" Weapon lock detected. Their guns don't look like they are designed to fix things.</text>
+			<text>"끄래요...우리 기쑬자들이 땅신을 도와줄 쑤 없껬꾼요." 슬러그는 낄낄거리며 웃습니다. "우린, 음, 우리 무기를 재설쩡하고 흠... 수리 폭탄 몇 개를 뽀내뜨릴까요오!? 현 위찌 그대로 계쎄요오, 그러실 쑤 있죠오?"무기 조준이 감지됩니다. 그들의 대포는 물건을 고치도록 설계된 것 같지는 않군요.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1930,24 +1930,24 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>The Slug crew teleports aboard from a nearby station. They don't look like engineers. Your order your crew to repel the boarders.</text>
+			<text>슬러그 함선의 승무원이 근처 정거장에서 텔레포트 해 옵니다. 기술자들로는 보이지 않습니다. 당신은 승무원들에게 침입자들을 격퇴하라고 명령합니다.</text>
 			<boarders min="2" max="2" class="slug"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -1985,21 +1985,21 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="medbay" lvl="2">
-		<text>(Improved Medbay) Try to squeeze some extra power to the system.</text>
+		<text>(향상된 의료실) 시설에 여분의 전력을 짜냅니다.</text>
 		<event>
-			<text>The Slug crew teleports aboard from a nearby station. They don't look like engineers. Fearing the imminent battle you desperately try to get the medbay working again. Its lights flicker back on and you turn to face the intruders.</text>
+			<text>슬러그 함선의 승무원이 근처 정거장에서 텔레포트 해 옵니다. 기술자들로는 보이지 않습니다. 임박한 전투를 걱정하며 의료실 재가동을 위해 부단히 노력합니다. 조명이 들어오는 것과 동시에 몸을 돌려 침입자와 마주합니다.</text>
 			<boarders min="2" max="2" class="slug"/>
 			<status type="divide" target="player" system="medbay" amount="2"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2043,7 +2043,7 @@
 	<environment type="nebula"/>
 	<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2051,11 +2051,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2093,22 +2093,22 @@
 </event>
 
 <event name="SLUG_DISTRESS_QUESTION_FALSE">  
-	<text>"That issss... incorrect. Further, I have taken advantage of your lack of acuity to beam aboard your ship and steal your stuff!"</text>
+	<text>"정땁으은... 틀렸써. 덤으로, 난 니뜰이 생각하는 똥안 너희 함썬에 올라타 물건을 훔쳤찌이롱!"</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Activate the jammer device.</text>
+		<text>(텔레포터 교란장치) 방해장치를 활성화한다.</text>
 		<event>
-			<text>The thief won't be able to teleport away again. You could order your crew to apprehend him. But you could also approach the matter more "diplomatically".</text>
+			<text>도둑은 다시 순간이동할 수 없습니다. 당신은 선원들에게 그를 체포하라고 명령할 수도 있습니다. 하지만 당신은 그 문제에 좀 더 "외교적"으로도 접근할 수 있습니다.</text>
 			<choice hidden="true">
-				<text>Have the crew search the ship and eliminate the hostile.</text>
+				<text>선원들에게 배를 수색해서 적을 제거하도록 합니다.</text>
 				<event>
-					<text>Your crew systematically searches the ship till it uncovers the cloaked intruder. The cornered Slug does not want to go down without a fight, it tries to escape by breaching your hull.</text>
+					<text>당신 승무원들은 은폐한 침입자를 찾아낼 때까지 조직적으로 배를 수색합니다. 궁지에 몰린 슬러그는 싸우지 않고 떠나려하지 않았고, 그는 당신의 선체에 구멍을 내고 탈출하려 합니다.</text>
 					<boarders breach="true" min="1" max="1" class="slug"/>
 				</event>
 			</choice>
 			<choice>
-				<text>Offer to hire the Slug thief.</text>
+				<text>슬러그 도둑에게 고용을 제의합니다.</text>
 				<event>
-					<text>You make an announcement over the ship's intercom and describe the situation the thief fiends itself in. As expected, the Slug does what reason and greed would suggest and joins your crew.</text>
+					<text>당신은 선박 인터폰으로 결정을 발표하며 악령 같은 도둑이 자초한 상황을 묘사합니다. 예상한 대로, 슬러그는 이성과 욕심이 제안하는 행동을 하며 당신의 승무원으로 합류합니다.</text>
 					<item_modify>
 						<item type="scrap" min="-25" max="-25"/>
 					</item_modify>
@@ -2119,9 +2119,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>You search the ship but find no trace of the Slug thief. A lot of equipment is missing though.</text>
+			<text>당신은 배를 수색하지만 슬러그 도둑의 흔적은 찾을 수 없습니다. 많은 장비가 사라졌습니다.</text>
 			<item_modify steal="true">
 				<item type="scrap" min="-35" max="-35"/>
 				<item type="fuel" min="-4" max="-2"/>
@@ -2135,21 +2135,21 @@
 
 <eventList name="SLUG_DISTRESS_ROCK_FIGHT">
 	<event>
-		<text>You charge weapons and the Slugs immediately back down. When you return to the freighter, the Rockmen have already repaired the worst of their damage and jump away without another word.</text>
+		<text>당신이 무기를 충전하자 슬러그들은 바로 후퇴합니다. 화물선으로 가보니 락맨은 이미 위험한 고장부위의 수리를 대부분 마치고는 아무 말 없이 도약합니다.</text>
 	</event>
 	<event>
-		<text>You power up weapons and the Slugs quickly change course to meet your charge.</text>
+		<text>당신이 무기에 전력을 공급하자 슬러그들은 당신과의 교전을 위해 급히 항로를 바꿉니다.</text>
 		<ship load="JELLY_DISTRESS_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2188,16 +2188,16 @@
 </eventList>
 <eventList name="SLUG_DISTRESS_ROCK_AVOID">
 	<event>
-		<text>You have no desire to provoke Slugs in their own territory. You leave them alone.</text>
+		<text>당신은 슬러그들 영역 내에서 그들을 자극하고 싶지 않습니다. 그들을 내버려둡니다.</text>
 	</event>
 	<event>
-		<text>You have no desire to provoke the Slugs in their own territory. You leave them alone.</text>
+		<text>당신은 슬러그들 영역 내에서 그들을 자극하고 싶지 않습니다. 그들을 내버려둡니다.</text>
 	</event>
 	<event>
-		<text>After the Slugs board the ship you are surprised to see the Rock ship spring to life and decimate the other ship. They message you, "Pathetic. You are either a coward or an ally of the Slugs. Either way, you don't deserve to live."</text>
+		<text>슬러그들이 암석선에 승선한 후 당신은 암석선이 살아나 슬러그 선박을 박살내는 것에 놀랍니다. 락맨에게서 메세지가 왔습니다. "어처구니가 없군. 당신은 겁쟁이거나 슬러그 동료겠지. 뭐든 간에 살 자격 같은건 없소."</text>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2205,11 +2205,11 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2249,22 +2249,22 @@
 
 
 <event name="SLUG_DISTRESS_MANTIS" unique="true">
-	<text>The distress call appears to be emanating from a Slug ship caught in open space by a Mantis raider. They contact you on emergency frequencies, "Pleassse, we'll give you all we have if you sssave ussss!"</text>
+	<text>조난신호는 열린 우주에 있는 맨티스 약탈자에게 공격받고 있던 슬러그 선박으로부터 나오고 있었습니다. 슬러그들이 긴급 통신 채널을 열고 말합니다. "쩨에발, 도와쭈씨면 우리가 가진 껄 다 뜨릴께요오오."</text>
 	<choice hidden="true">
-		<text>Attack the Mantis ship.</text>
+		<text>맨티스 선박을 공격한다.</text>
 		<event>
-			<text>You lock onto the Mantis ship and engage.</text>
+			<text>당신은 맨티스 선박을 조준하고 교전합니다.</text>
 			<ship load="SLUG_DISTRESS_MANTIS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2302,20 +2302,20 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Attack the Slug ship.</text>
+		<text>슬러그 선박을 공격한다.</text>
 		<event>
-			<text>You move to finish what the Mantis have started.</text>
+			<text>당신은 맨티스들이 시작한 일을 마무리짓기 위해 움직입니다..</text>
 			<ship load="SLUG_DISTRESS_MANTIS_SLUG" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2353,7 +2353,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Of all the species in the galaxy, these two deserve one another. You power up the jump drive.</text>
+		<text>우주에 있는 모든 종족 사이에서, 저 두 종족은 서로 잘 어울리는 한 쌍입니다. 당신은 점프 드라이브를 충전합니다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2363,15 +2363,15 @@
 	<environment type="nebula"/>
 	<ship load="JELLY_UNLOCK1" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2409,23 +2409,23 @@
 </event>
 
 <event name="SLUG_UNLOCK_1"> <!-- This is the quest after you decline the weapon -->
-	<text>You arrive to discover an impressive cruiser being worked on by a few smaller ships and guarded by an assault ship. The mobile construction platform is slowly slipping into the clouds. You have not yet been noticed.</text>
+	<text>당신은 인상적인 순양함을 건조하는 몇 개의 조그만 선박과 경비중인 전투선을 발견합니다. 이동식 건설 플랫폼이 서서히 구름 속으로 빠져습니다. 딩신은 아직 이들의 눈에 띄지 않았습니다.</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Charge them before they escape.</text>
+		<text>그들이 탈출하기 전에 공격합니다.</text>
 		<event>
-			<text>As you approach, the assault ship swoops in on an intercept trajectory. Prepare for a fight!</text>
+			<text>다가가자, 전투선이 요격 궤도로 날아옵니다. 전투를 대비하라!</text>
 			<ship load="JELLY_UNLOCK2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2463,22 +2463,22 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Try to tail them without being noticed.</text>
+		<text>눈치 채이지 않게 따라갑니다.</text>
 		<event load="SLUG_UNLOCK_2"/>
 	</choice>
 		<!-- Changed this part to be easier
-			<text>It's not long before they detect your presence. The assault ship moves in to attack!</text>
+			<text>머지않아 그들은 당신의 존재를 알아차립니다. 전투선이 공격을 위해 움직입니다!</text>
 			<ship load="JELLY_UNLOCK2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2516,31 +2516,31 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="cloaking" lvl="1">
-		<text>(Cloaking) Cloak and slip into the clouds.</text>
+		<text>(은폐장) 은폐하고 구름 속으로 들어갑니다.</text>
 		<event load="SLUG_UNLOCK_2"/>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="2">
-		<text>(Advanced Piloting) Quickly maneuver into the clouds and stay out of their detection range.</text>
+		<text>(고급 조타실) 신속하게 구름 속으로 이동하여 탐지 범위를 벗어납니다.</text>
 		<event load="SLUG_UNLOCK_2"/>
 	</choice> -->
 </event>
 <event name="SLUG_UNLOCK_2">   <!-- if you use cloaking or piloting from SLUG_UNLOCK_1-->
-	<text>You slip into the nebula undetected but at this rate you are likely to get lost and lose track of them.</text>
+	<text>당신은 성운지대로 들어섰지만 이 속도라면 길을 잃고 그들을 놓칠 가능성이 큽니다.</text>
 	<choice hidden="true">
-		<text>Fly slowly toward their last known position.</text>
+		<text>마지막으로 확인된 위치를 향해 천천히 이동합니다.</text>
 		<event>
-			<text>You are advancing slowly when suddenly the assault ship bursts through the clouds. They must have been able to detect you with their telepathy!</text>
+			<text>당신이 천천히 전진하던 도중 갑자기 전투선이 갑자기 구름속에서 튀어나옵니다. 그들은 텔레파시를 사용하여 당신을 감지한 것 같습니다!</text>
 			<ship load="JELLY_UNLOCK2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2578,30 +2578,30 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Wait and hope the escort leaves.</text>
+		<text>기다리면서 호위함이 떠나기를 빌어본다.</text>
 		<event>
-			<text>You wait for a time before attempting to advance toward the platform. However, after some frantic searching you can't tell if they left or you simply miscalculated your trajectory... You give up the search and prepare to leave.</text>
+			<text>잠시 기다린 후에 플랫폼을 향해 다가갑니다. 필사적인 탐색에도 불구하고 당신은 그들이 이곳을 떠난건지 아니면 그저 당신이 궤도를 잘못 계산한건지 알 수가 없습니다... 당신은 탐색을 포기하고 이동할 준비를 합니다.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="slug">
-		<text>(Slug Crew) Have your crew member monitor their life signatures.</text>
+		<text>(슬러그 승무원) 승무원에게 그들의 생명신호를 감시하게 합니다.</text>
 		<event>
-			<text>You try to stay just far enough away that they won't detect your life signatures without actively searching for you. After a time, your Slug tells you the ship with a larger crew has jumped away. He guides the helm toward the platform...</text>
+			<text>당신은 상대가 적극적으로 탐색하지 않으면 당신의 생명신호를 감지할 수 없는 거리를 유지하기 위해 노력합니다. 잠시후에 슬러그 승무원은 다수의 선원을 태우고 있던 선박이 여길 떠났다는 것을 알려주었습니다. 그는 배 키를 플랫폼으로 향하게 합니다...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
-					<text>The only ship left near the cruiser is an interceptor. This should be easy!</text>
+					<text>순양함 옆에는 한 척의 요격기만이 남아 있습니다. 아주 손쉽게 해결될 것 같군요!</text>
 					<ship load="JELLY_UNLOCK3" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2641,24 +2641,24 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Improved Sensors) Try to maintain a lock on their ships from a distance.</text>
+		<text>(향상된 센서) 먼거리에서 그들의 선박에 대한 추적을 고정합니다.</text>
 		<event>
-			<text>You overclock your sensors, trying to get them to function in the clouds. They work just enough to let you keep tabs on their general position. After a time, the assault ship and most of the escort jumps away from the platform. You take the opportunity and move in to attack.</text>
+			<text>당신은 센서를 오버클럭시켜, 구름 내에서도 작동할 수 있도록 합니다. 센서는 그들의 일반적인 위치를 감시할 수 있을만큼 충분히 작동합니다. 잠시 후에 공격함과 대부분의 호위함이 플랫폼을 떠납니다. 기회를 잡은 당신은 공격하기 위해 접근합니다.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
-					<text>The only ship left near the cruiser is an interceptor. This should be easy!</text>
+					<text>순양함 옆에는 한 척의 요격기만이 남아 있습니다. 아주 손쉽게 해결될 것 같군요!</text>
 					<ship load="JELLY_UNLOCK3" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2701,19 +2701,19 @@
 	
 <event name="SLUG_DRINK" unique="true">
 	<environment type="nebula"/>
-	<text>A Slug Captain hails and invites himself aboard your ship to present a flask of something slimy. "Now, most gracioussss Captain, you must join me please in a drink to our alliance!"</text>
+	<text>슬러그 선장은 교신하더니 당신 함선에 스스로 타 무언가 물컹거리는 액체가 들어있는 유리병을 선물합니다. "이제, 짜비로우운 함장님, 우리의 똥맹을 위해 저와 함께 한 짠 하씨쬬!"</text>
 	<ship load="JELLY" hostile="false"/>
 	<choice hidden="true">
-		<text>Drink.</text>
+		<text>마신다.</text>
 		<event load="SLUG_DRINK_DRINK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Refuse.</text>
+		<text>거절한다.</text>
 		<event>
-			<text>The Slug feigns offense at your refusal, but you sense that he respects your caution. This does not, however, prevent him from returning to his ship and opening fire.</text>
+			<text>슬러그들은 당신의 거절에 불쾌한 듯한 태도를 보이지만, 당신의 조심성을 존경하고 있음을 느낍니다. 그러나, 이러한 감정도 슬러그들이 자신의 함선으로 돌아가서 당신을 공격하는 일을 막지는 못했습니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2721,11 +2721,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2763,22 +2763,22 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew) Have your Rockman pose as Captain.</text>
+		<text>(락맨 승무원) 락맨을 함장으로 내세운다.</text>
 		<event load="SLUG_DRINK_ROCK"/>
 	</choice>
 </event>
 
 <eventList name="SLUG_DRINK_ROCK">
 	<event>
-		<text>Even if there was something malicious in the drink, you doubt it would affect the Rock digestive system. The Slug casually celebrates your newfound trust by repairing part of your ship and offering to sell you his wares.</text>
+		<text>음료에 무언가 악의적인 물건이 들어있다 하더라도 락맨의 소화기관에 영향을 주지는 못할 겁니다. 슬러그는 아무렇지 않은 태도로 새로 형성된 신뢰 관계를 축하하기 위해 당신의 함선을 수리해주고 자신이 가진 물건의 판매를 제안합니다.</text>
 		<damage amount="-10"/>
 		<store/>
 	</event>
 	<event>
-		<text>Your crewman is able to identify a heavy anesthetic contained in the flask when they feel slightly drowsy (Thankfully the Rock digestion system is very robust). His ruse discovered, the Slug immediately returns to his ship and opens fire.</text>
+		<text>당신의 승무원은 살짝 나른한 기분이 들었고, (락맨의 소화 기관은 굉장히 강건합니다.) 플라스크 안에 강력한 마취제가 들어있음을 확인했습니다. 계략이 들통나자 슬러그들은 함선으로 돌아가서 공격을 개시합니다.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2786,11 +2786,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2830,26 +2830,26 @@
 
 <event name="QUEST_SLUG_PIRATE_TRAP2"> 
 	<environment type="nebula"/>
-	<text>You catch up with the two Slug ships and they're already carrying out their raid! One is in close combat with the pirate, the other seems to be heading for a small space cache the pirate was protecting. </text>
+	<text>슬러그 함선 두 척을 따라가보니 이미 약탈을 시작한 상황입니다. 한 척은 해적과 근접 교전을 하고 있고 다른 한 척은 해적이 보호하려고 하는 작은 우주 은닉처를 향해 이동하고 있습니다.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>Suddenly the first ship bursts into flames, and an urgent call arrives from the remaining Slugs. "We sssugest you dissstract the pirate vesssel while we retrieve the valuablesss. Fifty fifty sssplit."</text>
+			<text>갑자기 교전중이던 함선이 불타오르면서 남아있는 슬러그 함선에게서 긴급 무선이 도착합니다. "우리까 귀쭝품들을 회쑤하는 동안 해쩍선의 주의를 끌어줄 껏을 쩨에에안하겠슴니다. 50대50으로 나누쬬오."</text>
 			<choice hidden="true">
-				<text>Engage the pirate.</text>
+				<text>해적과 교전한다.</text>
 				<event>
-					<text>There's money to be made here. The Slugs know that. You turn on the pirate and intercept just before he can reach the cache!</text>
+					<text>돈을 벌 기회입니다. 슬러그들도 알고 있을 겁니다. 당신을 해적을 기습적으로 공격하여 은닉처에 도착하기 직전에 차단합니다!</text>
 					<ship load="QUEST_SLUG_PIRATE_TRAP1" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2887,16 +2887,16 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Head for the cache.</text>
+				<text>은닉처로 간다.</text>
 				<event>
-					<text>When he sees you making for the cache the Slug Captain hails, "Foolish alienss, no eye for profit. Bessst of luck to you." They jump off, leaving you toe to toe with the pirate!</text>
+					<text>당신이 은닉처를 향해 이동하는 것을 보고 슬러그 함선이 메세지를 보냅니다. "멍쭝한 외꼐인드으을. 돈 뻐는 방뻡을 몰라. 행운을 빌어쭈찌." 슬러그들은 떠나고 당신은 해적과 마주한 상태로 남겨집니다.</text>
 					<ship load="QUEST_SLUG_PIRATE_TRAP2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice hidden="true">
@@ -2904,7 +2904,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2947,19 +2947,19 @@
 
 <eventList name="SLUG_DISTRESS_TRICK_LIST">
 	<event>
-		<text>As soon as you board their ship their hostile intentions become clear. Despite being outnumbered, your crew is able to break free of the Slug trap and fight back to the airlock. You pull away from the enemy ship but not before a few Slugs make it on board.</text>
+		<text>슬러그 함선에 올라타자마자 당신은 슬러그들의 악의 가득한 노림수를 깨닫습니다. 수적 열세에도 불구하고 승무원들은 슬러그들의 함정에서 벗어나 에어록까지 후퇴하는데 성공합니다. 적함으로부터 이탈하지만 슬러그 몇 마리가 이미 올라타는데 성공했습니다.</text>
 		<boarders min="1" max="3" class="slug"/>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -2996,14 +2996,14 @@
 		</choice>
 	</event>
 	<event>
-		<text>As soon as you board their ship their hostile intentions become clear. On your way back to the airlock, one of your crewman is taken out by a well aimed Slug blaster shot.</text>
+		<text>슬러그 함선에 올라타자마자 당신은 슬러그들의 악의가득한 노림수를 깨닫습니다. 에어록까지 돌아가는 와중에 승무원 한 명이 슬러그의 정확한 저격에 쓰러집니다.</text>
 		<ship hostile="true"/>
 		<removeCrew>
 			<clone>true</clone>
-			<text>Fortunately, your crewmember was immediately revived by the Clone Bay.</text>
+			<text>다행스럽게도, 희생된 승무원은 클론 배양실을 가동해 곧바로 재생시킬 수 있었습니다.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3011,11 +3011,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3052,28 +3052,28 @@
 		</choice>
 	</event>
 	<event>
-		<text>You cautiously board their ship and immediately smell the stale air of a malfunctioning life support system. In no time at all you're able to fix up the problem and head off again with some extra scrap in your hold.</text>
+		<text>조심스럽게 슬러그 함선에 올라타자 고장난 생명유지장치에서 나오는 공기의 퀴퀴한 냄새가 느껴집니다. 순식간에 고장난 부위를 수리한 후 추가 스크랩을 챙겨서 떠납니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
 
 	
 <event name="SLUG_DISTRESS_PILOTING" unique="true"> <!-- changed to engines-->
-	<text>The distress signal originates from a tampered jump beacon. A Slug vessel jumps in and its captain announces he has hacked your engine system. "Of course if you, asss one of the few remaining sshipsss in the Federation, ssswear allegiance to the SSSlug Empire you will be free to go."</text>
+	<text>조난신호는 조작된 도약 송신소로부터 나오고 있습니다. 슬러그 함선이 도약해왔고 선장은 당신의 엔진 시설을 해킹했다고 선언합니다. "물론 네가 이쩨 얼마남찌도 않은 다른 연방 썬박들처러엄, 쑬러그 왕국에 충썽을 맹세한따며언 살려보내쭈마아."</text>
 	<environment type="nebula"/>
 	<status type="limit" target="player" system="engines" amount="1"/>
 	<ship load="JELLY_STATUS_ENGINES" hostile="false"/>
 	<choice hidden="true">
-		<text>Swear allegiance.</text>
+		<text>충성을 맹세한다.</text>
 		<event load="SLUG_DISTRESS_PILOTING_SWEAR"/>
 	</choice>
 	<choice hidden="true">
-		<text>Never!</text>
+		<text>그럴 일 없다!</text>
 		<event>
-			<text>The Slug is unimpressed by your bravado and moves in to attack. Get the shields up, you're a sitting duck with malfunctioning thrusters!</text>
+			<text>슬러그들이 당신의 허세에도 별 감흥 없이 공격해옵니다. 방어막을 올리십시오, 고장난 추진기만 가지고서는 무방비 상태나 다름 없습니다!</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3081,11 +3081,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3123,13 +3123,13 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="2">
-		<text>(Improved Piloting) Override his control.</text>
+		<text>(향상된 조타실) 슬러그들의 제어를 무효화한다.</text>
 		<event>
-			<text>You quickly re-wire through a secondary control module. Once they realize you're not likely to agree to their demands they move in to attack.</text>
+			<text>당신은 보조 제어 모듈을 사용하여 빠르게 조타실의 제어를 되찾습니다. 당신이 자신들의 요구에 쉽게 응하지 않을 것 같자 슬러그들은 공격해옵니다.</text>
 			<status type="clear" target="player" system="engines" amount="100"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3137,11 +3137,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3182,11 +3182,11 @@
 
 <eventList name="SLUG_DISTRESS_PILOTING_SWEAR">
 	<event>
-		<text>"Wow, I didn't think you'd go through with it..." He turns to his second in command, "Looks like I owe you some scrap." Strangely enough, they simply let you pass.</text>
+		<text>"놀랍꾸운. 네가 태도를 꽌철할 쭐은 몰랐다아..." 슬러그 함장은 자신의 부사령관을 보면서 "스끄랩을 쫌 쭤야겠꾼." 라고 말합니다. 이상하게도 당신을 그냥 보내줍니다.</text>
 		<status type="clear" target="player" system="engines" amount="100"/>
 	</event>
 	<event>
-		<text>Words come cheap, especially these ones. You assure the Slug of your loyalty and he welcomes you to the fold: "...and finally, let me introduce you to your new Slug Empire Overseer. He will ensure you stay true to the cause." A bored-looking Slug teleports over.</text>
+		<text>말은 쉽습니다. 특히 이런 말은 더더욱 그렇지요. 당신이 슬러그 왕국에 충성을 맹세하자 슬러그들은 당신을 환영합니다. "...마지막으로오, 너의 새로운 슬러그 왕국 감시짜아를 소개하찌이이. 네가 충성심을 유지할 수 있또록 보장할거시다아." 지루해보이는 얼굴의 슬러그가 텔레포트 해옵니다.</text>
 		<crewMember amount="1" class="slug"/>
 		<status type="clear" target="player" system="engines" amount="100"/>
 	</event>
@@ -3196,24 +3196,24 @@
 
 
 <event name="NEBULA_SLUG_CHOOSE_DEATH" unique="true">
-	<text>You are immediately hailed by a dangerous looking ship. "I'm feeling generouss today. I sshall allow you to choosse your own death. Which do you like leasst, sshields, oxygen, or weaponsss?"</text>
+	<text>당신은 즉시 위험해 보이는 배에 의해 교신을 받습니다. "오늘, 난 무찌 관대한 기뿐을 느껴어. 죽을 방법을 난 무지 과아안대해진 기분을 느껴어. 죽을 방법을 너의 마으음대로오 고오오를 쑤 있게 해주게따. 무어시 제일 너희에게쓸모없느냐아아? 방어어막, 산소오, 아니면 무기이이?"</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Shields.</text>
+		<text>방어막.</text>
 		<event>
-			<text>"Very good then!" Your shield power suddenly drops and they charge.</text>
+			<text>"아주 쪼아아!" 당신 함선의 방어막 전력이 갑자기 감소하는 동시에 적이 공격해옵니다.</text>
 			<status type="divide" target="player" system="shields" amount="2"/>
 			<ship load="JELLY_STATUS_SHIELDS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3252,21 +3252,21 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Oxygen.</text>
+		<text>산소.</text>
 		<event>
-			<text>"A being that would choose sssuffocation? Who am I to judge..." Your life support shuts off and they move in to attack.</text>
+			<text>"질식싸하고 싶따꼬오? 내 알 빠는 아니찌만..." 당신의 생명유지장치가 꺼짐과 동시에 적이 공격합니다.</text>
 			<status type="divide" target="player" system="oxygen" amount="2"/>
 			<ship load="JELLY_STATUS_OXYGEN" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3305,21 +3305,21 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Weapons.</text>
+		<text>무기.</text>
 		<event>
-			<text>"Your acceptance of death is almosst admirable... Almosst." Your weapons system registers a hacking module. You hardly have time to respond before they attack.</text>
+			<text>"네가 쭉음을 빧아들이느은 태도는 쯩말로 쫀경쓰럽군... 단지 그 뿐이찌만..." 무기 시스템이 해킹당했다는 것을 알아차립니다. 적이 공격하기 전까지 대비할 시간도 없습니다.</text>
 			<status type="divide" target="player" system="weapons" amount="2"/>
 			<ship load="JELLY_STATUS_WEAPONS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3357,29 +3357,29 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Offer 35 scrap to leave you alone.</text>
+		<text>35 스크랩을 대가로 못 본척 해달라고 한다.</text>
 		<event>
-			<text>"I really am feeling generousss..." They take the scrap and leave.</text>
+			<text>"나는 쩡말로 관때해진 기뿐이야아..." 그는 스크랩을 받고 떠납니다.</text>
 			<item_modify>
 				<item type="scrap" min="-35" max="-35"/>
 			</item_modify>
 		</event>
 	</choice>
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
-		<text>(Effector) Configure you Effector to identify and counter system intrusions while you distract the Slug.</text> 
+		<text>(이펙터) 당신이 주의를 돌리는 사이 이펙터를 시스템의 침입을 식별하고 대응하도록 설정합니다.</text> 
 		<event>
-			<text>Your pretend that you want to buy yourself free until your equipment starts to effectorize the Slugs ship's Hacking Module. Their commander seems not amused. "What? Imposssible! Engage them anyway!" He cuts communication and charges weapons.</text>
+			<text>장비가 슬러그 선박의 해킹 모듈을 무력화시키기 전까지 무료 구매를 원하는 척합니다. 슬러그 지휘관은 즐겁지 않은 것 같군요. "뭐라꼬요? 불가능해요오! 어쨌든 놈들과 교쩐해라!" 그는 통신을 끊고 무기를 충전합니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3419,16 +3419,16 @@
 </event>
 
 <event name="NEBULA_SLUG_DOORS" unique="true">  <!-- NEEDS CODE TO GIVE FIRE WEAPONS-->
-	<text>There are few more vicious beasts in the galaxy than a Slug with their back to the wall. The faltering ship at this beacon disables your door system and then charges fire-weapons - they're going to burn you out!</text>
+	<text>궁지에 몰린 슬러그보다 포악한 생물체는 전 우주 내에도 몇 없을 겁니다. 이 곳의 송신소에서 비틀거리던 함선이 아군 함선의 문 제어 시스템을 마비시키고 화염 무기를 가동시킵니다. 당신을 불태워 죽일 생각입니다.</text>
 		<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 		<text load="CE_PRE_FIGHT_TEXT"/>
 			<status type="limit" target="player" system="doors" amount="0"/>
 			<ship load="JELLY_STATUS_DOORS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3436,11 +3436,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3478,12 +3478,12 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
-		<text>(Effector) Effectorize the enemy hacking module.</text> 
+		<text>(이펙터) 적 해킹 모듈을 무력화합니다.</text> 
 		<event>
-			<text>Your Effectors are far superior to the enemy hacking software. Your door system comes back online.</text>
+			<text>당신의 이펙터는 적의 해킹 소프트웨어보다 더 우월합니다. 문 제어 시설이 다시 온라인됩니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3491,11 +3491,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3536,16 +3536,16 @@
 
 
 <event name="NEBULA_SLUG_OXYGEN" unique="true">  <!-- NEEDS CODE TO GIVE FIRE WEAPONS-->
-	<text>The Slugs here use a tactic you hoped you'd never see; they sabotage your oxygen production system and then charge fire-weapons - you're going to suffocate!</text>
+	<text>슬러그들은 당신이 꿈에도 보기 싫었던 전술을 구사해옵니다. 일단 주변의 인공위성을 해킹해 당신 함선의 산소실을 무력화한 슬러그들은, 이제 방화 무기들에 출력을 넣고 있습니다. 당신은 질식사하고 말겁니다!</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship load="JELLY_STATUS_OXYGEN_FIRE" hostile="true"/>
 			<status type="limit" target="player" system="oxygen" amount="0"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3553,11 +3553,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3595,13 +3595,13 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="oxygen" lvl="2">
-		<text>(Improved Life Support) Try to squeeze some extra power to the system.</text>
+		<text>(향상된 생명유지장치) 시설에 여분의 전력을 짜냅니다.</text>
 		<event>
-			<text>Thankfully your improved subsystem is able to counter their hacking enough to keep the life support barely functional. That should keep you alive at least...</text>
+			<text>향상된 생명유지장치 덕분에 적의 해킹에도 불구하고 생명유지장치를 간신히 작동시킬 수 있었습니다. 최소한 목숨은 부지 할 수 있겠군요...</text>
 			<ship load="JELLY_STATUS_OXYGEN_FIRE" hostile="true"/>
 			<status type="divide" target="player" system="oxygen" amount="2"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3609,11 +3609,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3651,12 +3651,12 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
-		<text>(Effector) Use the Effector to counter the cyber-attack.</text> 
+		<text>(이펙터) 이펙터를 사용하여 사이버 공격에 대응합니다.</text> 
 		<event>
-			<text>Luckily the Slug's hacking routines are no match for your Effector device. Your life support comes back online.</text>
+			<text>운좋게도 슬러그의 해킹 루틴은 당신의 이펙터 장치에 상대가 되지 않습니다. 생명유지장치가 다시 온라인 상태가 됩니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3664,11 +3664,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3717,9 +3717,9 @@
 	<ship load="BS_SLUG" hostile="false"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 	<event>
-	<text>You consider dealing with the station.</text>
+	<text>당신은 정거장과 거래를 하는 것을 고려합니다.</text>
 	<choice>
 		<text>Purchase Slug mind-maps of the nebula.</text>
 		<event>
@@ -3731,15 +3731,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Purchase an unknown weapon from a weapon shop. [Scrap: -50]</text>
+		<text>Purchase an unknown weapon from a weapon shop. [스크랩: -50]</text>
 		<event load="BS_EVENT_SLUG_BLACKMARKET_NEBULA_TRADE"/>
 	</choice>
 	<choice hidden="true" req="slug">
-		<text>(Slug Crew) Have your slug negotiate a better deal.</text>
+		<text>(슬러그 승무원) Have your slug negotiate a better deal.</text>
 		<event>
 			<text>After the slugs intensely stare at each other for some time, the dealer agrees to improve his offer. You can only imagine how difficult it must be to barter with someone who can read minds.</text>
 			<choice hidden="true">
-				<text>Take the deal and purchase an unknown weapon. [ Scrap: 40 ]</text>
+				<text>Take the deal and purchase an unknown weapon. [ 스크랩: 40 ]</text>
 				<event>
 					<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable. And after all it really was a bargain.</text>	
 					<item_modify>
@@ -3749,7 +3749,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Change your mind.</text>
+				<text>생각을 바꿉니다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3768,15 +3768,15 @@
 			<text>The Slugs are not highly regarded among the Federation and your crew agrees that these individuals can't be trusted with keeping quiet about your whereabouts. You decide to punish these Slugs for the countless betrayals the Federation has suffered from their kind.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3841,15 +3841,15 @@
 				<text>These Slugs need to be taught a lesson.</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3912,15 +3912,15 @@
 				<text load="CE_PRE_FIGHT_TEXT"/>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -3987,21 +3987,21 @@
 	<event>
 		<text>"Very well. Thiss ssstation hass a wide array of electronic warfare capabilitiesss. Let'ss ssse what we can effectorize..."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Your ship computer registers a cyber-attack directed at the weapons-targeting systems. The station locks onto your ship!</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="weapons" amount="2"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4039,20 +4039,20 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(Effector) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
 			<event>
 				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4093,22 +4093,22 @@
 	<event>
 		<text>"Prepare to burn then." Your ship computer registers an enemy cyber-attack.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Warning lights flicker all over your ship airlocks as your door systems are sabotaged by the station's hacking modules.</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="oxygen" amount="2"/>
 				<status type="limit" target="player" system="doors" amount="0"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4146,20 +4146,20 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(Effector) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
 			<event>
 				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4200,22 +4200,22 @@
 	<event>
 		<text>"All right, hope you don't feel too defenssseless without your sshields." An Effector hidden inside the station targets your shield system and interferes with you medical equipment.</text>
 		<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 			<event>
 				<text>You engage the station and prepare for the worst.</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="shields" amount="2"/>
 				<status type="loss" target="player" system="medbay" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4253,20 +4253,20 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(Effector) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
 			<event>
 				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4307,22 +4307,22 @@
 	<event>
 		<text>"We will ssstart by immobilizzzing you." Your ship's engines are targeted by an electronic warfare device and start to fail. Even worse, you partialy lose helm control as well.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>You hope your shields will be able to take the enemy fire and move to engage.</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="engines" amount="2"/>
 				<status type="limit" target="player" system="pilot" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4360,20 +4360,20 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(Effector) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
 			<event>
 				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4418,12 +4418,12 @@
 	<text>You detect a weak brainwave emitter nearby. One of your crew members walks to a console to check it out, but then decides to broadcast their personal teleporter ID into open space?!</text>
 	<environment type="nebula"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-		<text>(Teleporter Disruptor) This is a kidnapping attempt - We need teleporter disruption right away!</text>
+		<text>(텔레포터 교란장치) This is a kidnapping attempt - We need teleporter disruption right away!</text>
 		<event>
 			<text>Your crewman has already started to dematerialize, but the disruption field prevents them from being teleported away altogether. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -4431,11 +4431,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4478,7 +4478,7 @@
 			<text>The rest of the bridge-personel jumps at your crewman, preventing them from sending their last ID sequence. Once the plating is polarized, the crewmen stops resisting. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -4486,11 +4486,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4533,7 +4533,7 @@
 			<text>Your own mind controll system allows your crewmember to regain control over their body, preventing them from sending their last ID sequence. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -4541,11 +4541,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4583,11 +4583,11 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Your crewmember is teleported away the same instant and a ship reveals itself nearby: "Greetingss. Asss you can ssee we have controlled and kidnapped your crewman. You will have to pay a ranssom if you want to get them back alive." Your crewman desperately looks at you from the vidscreen, being held at gunpoint by an especially slimy Slug. "Don't compromise the mission, Sir. Do what you must do!"</text>
 			<choice hidden="true">
-				<text>Pay. [ Scrap: -30 ]</text>
+				<text>지불한다. [ 스크랩: -30 ]</text>
 				<event>
 					<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed.</text>
 					<item_modify>
@@ -4603,15 +4603,15 @@
 							<text>"I sssee. We wanted to avoid unnecessary bloodshed, but if it is your wish we will still fight you for more profit."</text>
 							<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4655,11 +4655,11 @@
 				<event load="NEBULA_SLUG_HOSTAGE_NEGOTIATE"/>
 			</choice>
 			<choice hidden="true" req="weapons" lvl="5"> 
-				<text>(Weapons) Threaten.</text>
+				<text>(무기) 혈박한다.</text>
 				<event load="NEBULA_SLUG_HOSTAGE_THREATEN"/>
 			</choice>
 			<choice hidden="true">
-				<text>Attack.</text>
+				<text>공격한다.</text>
 				<event>
 					<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs puts a blaster to your crewmens head, making you watch as it pulls the trigger.</text>
 					<removeCrew>
@@ -4668,7 +4668,7 @@
 					</removeCrew>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -4676,11 +4676,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4730,7 +4730,7 @@
 		</removeCrew>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -4738,11 +4738,11 @@
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -4782,7 +4782,7 @@
 	<event>
 		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times. "Alright, you got your discount, now pay up or we lay waste to your crewman right here on the spot."</text>
 		<choice hidden="true">
-			<text>Pay. [ Scrap: -15 ]</text>
+			<text>지불한다. [ 스크랩: -15 ]</text>
 			<event>
 				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 				<item_modify>
@@ -4795,7 +4795,7 @@
 			<event>
 				<text>The Slugs are no longer willing to listen. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
-					<text>Pay. [ Scrap: -15 ]</text>
+					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
 						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
@@ -4812,7 +4812,7 @@
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(Improved Medbay) Stabilize your crewman.</text>
+							<text>(향상된 의료실) Stabilize your crewman.</text>
 							<event>
 								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
 							</event>
@@ -4820,7 +4820,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Attack.</text>
+					<text>공격한다.</text>
 					<event>
 						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
@@ -4832,11 +4832,11 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5"> 
-			<text>(Weapons) Threaten.</text>
+			<text>(무기) 혈박한다.</text>
 			<event>
 				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
-					<text>Pay. [ Scrap: -15 ]</text>
+					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
 						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
@@ -4853,7 +4853,7 @@
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(Improved Medbay) Stabilize your crewman.</text>
+							<text>(향상된 의료실) Stabilize your crewman.</text>
 							<event>
 								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
 							</event>
@@ -4861,7 +4861,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Attack.</text>
+					<text>공격한다.</text>
 					<event>
 						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
@@ -4873,7 +4873,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Attack.</text>
+			<text>공격한다.</text>
 			<event>
 				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 				<removeCrew>
@@ -4886,7 +4886,7 @@
 	<event>
 		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times. "Alright, you got your dissscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
 		<choice hidden="true">
-			<text>Pay. [ Scrap: -15 ]</text>
+			<text>지불한다. [ 스크랩: -15 ]</text>
 			<event>
 				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 				<item_modify>
@@ -4899,7 +4899,7 @@
 			<event>
 				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time is running out!"</text>
 				<choice hidden="true">
-					<text>Pay. [ Scrap: -15 ]</text>
+					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
 						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
 						<item_modify>
@@ -4916,7 +4916,7 @@
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(Improved Medbay) Stabilize your crewman.</text>
+							<text>(향상된 의료실) Stabilize your crewman.</text>
 							<event>
 								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
 							</event>
@@ -4924,7 +4924,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Attack.</text>
+					<text>공격한다.</text>
 					<event>
 						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
@@ -4936,11 +4936,11 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5"> 
-			<text>(Weapons) Threaten.</text>
+			<text>(무기) 혈박한다.</text>
 			<event>
 				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
-					<text>Pay. [ Scrap: -15 ]</text>
+					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
 						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
 						<item_modify>
@@ -4949,7 +4949,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Attack.</text>
+					<text>공격한다.</text>
 					<event>
 						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
@@ -4961,7 +4961,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Attack.</text>
+			<text>공격한다.</text>
 			<event>
 				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 				<removeCrew>
@@ -4975,15 +4975,15 @@
 		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times, but suddenly lashes out to grab a blaster, guns down one of the Slug and runs for the ship's teleporters. "I got this Cap, but you have to cover my escape. Strike now!" You engage the Slug craft to distract its crew and your crewman manages to teleport back in one piece.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<text>(내부 이펙터) 역겨운 사이버 공격을 준비해라. 그들을 무력화해라!</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -5027,7 +5027,7 @@
 	<event>
 		<text>The Slugs agree that you could probably overpower them in direct combat. "But that won't sssave your friend." They casually beat and tase your crewman as a reminder. "We are not animalss though and there iss no need for more violence. You got your disscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
 		<choice hidden="true">
-			<text>Pay. [ Scrap: -15 ]</text>
+			<text>지불한다. [ 스크랩: -15 ]</text>
 			<event>
 				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 				<item_modify>
@@ -5040,7 +5040,7 @@
 			<event>
 				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
-					<text>Pay. [ Scrap: -15 ]</text>
+					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
 						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
@@ -5057,7 +5057,7 @@
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(Improved Medbay) Stabilize your crewman.</text>
+							<text>(향상된 의료실) Stabilize your crewman.</text>
 							<event>
 								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
 							</event>
@@ -5065,7 +5065,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Attack.</text>
+					<text>공격한다.</text>
 					<event>
 						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
@@ -5077,11 +5077,11 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5"> 
-			<text>(Weapons) Threaten.</text>
+			<text>(무기) 혈박한다.</text>
 			<event>
 				<text>The Slugs remain unimpressed. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
-					<text>Pay. [ Scrap: -15 ]</text>
+					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
 						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
@@ -5098,7 +5098,7 @@
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(Improved Medbay) Stabilize your crewman.</text>
+							<text>(향상된 의료실) Stabilize your crewman.</text>
 							<event>
 								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
 							</event>
@@ -5106,7 +5106,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Attack.</text>
+					<text>공격한다.</text>
 					<event>
 						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
@@ -5118,7 +5118,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Attack.</text>
+			<text>공격한다.</text>
 			<event>
 				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 				<removeCrew>
@@ -5137,11 +5137,11 @@
 	<text load="NEBULA_STORE_SLUG"/>
 	<environment type="nebula"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) Prepare to quickly transfer cargo and have a look at the goods.</text>
 		<event load="TE_STORE_SLUG_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TE_STORE_SLUG_LIST"/>
 	</choice>
 	<store/>
@@ -5159,7 +5159,7 @@
 	<event>
 		<text>Upon docking you discover that this trader has access to a cargo teleporter. You will be able to make a quick deal here.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="TE_STORE_SLUG_LIST_BOOSTED"/>
 		</choice>
 	</event>
@@ -5211,7 +5211,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5228,7 +5228,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5244,7 +5244,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5260,7 +5260,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5276,7 +5276,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5292,7 +5292,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5308,7 +5308,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5324,7 +5324,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5340,7 +5340,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5356,7 +5356,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5372,7 +5372,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5388,7 +5388,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5404,7 +5404,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5420,7 +5420,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5436,7 +5436,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5452,7 +5452,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5468,7 +5468,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5484,7 +5484,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5500,7 +5500,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5516,7 +5516,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5532,7 +5532,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5548,7 +5548,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5564,7 +5564,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5580,7 +5580,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5596,7 +5596,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5612,7 +5612,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5628,7 +5628,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5645,7 +5645,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5661,7 +5661,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5677,7 +5677,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5693,7 +5693,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5709,7 +5709,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5725,7 +5725,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5741,7 +5741,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5757,7 +5757,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5773,7 +5773,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5789,7 +5789,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5805,7 +5805,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5821,7 +5821,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5837,7 +5837,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5853,7 +5853,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5869,7 +5869,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5885,7 +5885,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5901,7 +5901,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5917,7 +5917,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5933,7 +5933,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5949,7 +5949,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5961,11 +5961,11 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>The merchants greets you full of exitement, looks like the Slug already knows what you have to offer: "Preciouss Ambra... we ssshall pay well!" [Sell Space Whale Ambra for about 80 Scrap]</text> <!-- updated -->
+			<text>상인들은 신난 상태로 당신을 맞이합니다. 슬러그는 이미 당신이 제안할 것을 알고 있는 것처럼 보입니다. "귀쭝한 호박.. 우린 제때로 잘 쳐쭐꺼에요!" [우주 고래 호박을 대략 80 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5981,7 +5981,7 @@
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6054,7 +6054,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6070,7 +6070,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6085,7 +6085,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6100,7 +6100,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6115,7 +6115,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6130,7 +6130,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6145,7 +6145,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6160,7 +6160,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6175,7 +6175,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6190,7 +6190,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6205,7 +6205,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6220,7 +6220,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6235,7 +6235,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6250,7 +6250,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6265,7 +6265,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6280,7 +6280,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6295,7 +6295,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6310,7 +6310,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6325,7 +6325,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6340,7 +6340,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6355,7 +6355,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6370,7 +6370,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6385,7 +6385,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6400,7 +6400,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6415,7 +6415,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6430,7 +6430,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6445,7 +6445,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6461,7 +6461,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6476,7 +6476,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6491,7 +6491,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6506,7 +6506,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6521,7 +6521,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6536,7 +6536,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6551,7 +6551,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6566,7 +6566,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6581,7 +6581,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6596,7 +6596,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6611,7 +6611,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6626,7 +6626,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6641,7 +6641,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6656,7 +6656,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6671,7 +6671,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6686,7 +6686,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6701,7 +6701,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6716,7 +6716,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6731,7 +6731,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6746,7 +6746,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6757,11 +6757,11 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_AMBRA" hidden="true">
-			<text>The merchants greets you full of exitement, looks like the Slug already knos what you have to offer: "Preciouss Ambra... we ssshall pay well!" [Sell Space Whale Ambra for about 80 Scrap]</text> <!-- updated -->
+			<text>상인들은 신난 상태로 당신을 맞이합니다. 슬러그는 이미 당신이 제안할 것을 알고 있는 것처럼 보입니다. "귀쭝한 호박.. 우린 제때로 잘 쳐쭐꺼에요!" [우주 고래 호박을 대략 80 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6776,7 +6776,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -6784,7 +6784,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
