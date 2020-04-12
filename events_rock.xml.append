@@ -110,11 +110,11 @@
 </eventList>
 
 <textList name="ROCK_FIGHT_DESTROYED">  
-	<text>Victory! You narrowly avoid a hull breach as one of the Rock crew is propelled by the explosion straight towards your bridge.</text>
-	<text>The Rock ship disintegrates, a jump drive burnout turning its crew to stardust.</text>
-	<text>The enemy hull is torn apart by a final volley. They're with the sandman now.</text>
-	<text>You blink and they're gone. All that remains of the Rock ship are the more sturdier pieces of hull infrastructure; there might be something you can use.</text>
-	<text>Rockmen rarely go without a fight, but go they do. Their ship in pieces; you're free to take what you can.</text>
+	<text>승리했습니다! 당신은 락맨 선원 중 한 명이 폭발로 함교로 직진할때 선체 균열을 가까스로 피할 수 있었습니다.</text>
+	<text>암석선이 부서지고, 점프 드라이브는 불타며 암석선의 승무원들을 우주먼지로 만듭니다.</text>
+	<text>적의 선체가 마지막 일제사격으로 갈기갈기 찢어집니다. 그들은 이제 꿈나라로 가버렸군요.</text>
+	<text>당신이 눈을 깜빡이자 그들은 사라집니다. 암석선의 남은 것은 더 튼튼한 선체 하부 구조입니다. 거기에 사용할 수 있는 무언가가 있을지도 모릅니다.</text>
+	<text>락맨이 싸우지 않고 가는 경우는 거의 드물지만, 그래도 그들은 갑니다. 그들의 배는 산산조각이 났고, 당신은 가져갈 수 있는 것을 자유롭게 가져갑니다.</text>
 </textList>
 
 
@@ -130,11 +130,11 @@
 </eventList>
 
 <textList name="ROCK_DIPLOMAT_DESTROYED">  
-	<text>The Rock agents and their Crystal helpers are shattered in a silent explosion. Their ship in pieces; you're free to take what you can.</text>
-	<text>The dim shape of the Crystal-Rock hybrid ship eventually succumbs to the assault, exploding into a cloud of crystal armor and metal.</text>
-	<text>The final shots chip away at the hull of the crystal-plated Rock vessel, causing it to shatter into thousands of pieces, usable scrap and metalwork intertwined with the debris.</text>
-	<text>The bastard vessel submits to the force of the attack and breaks apart into crystal shards and assorted scrap materials.</text>
-	<text>The shiny blue ship before you submits to the barrage from your arsenal and shatters into bits, the inner workings ripe for the picking.</text>
+	<text>암석 요원과 크리스탈 보조자들은 소리없이 폭발하며 산산이 부저집니다. 그들의 배는 산산조각이 났고, 당신은 가져갈 수 있는 것을 마음대로 가져갑니다.</text>
+	<text>크리스탈-암석 혼합 선의 어둑한 형상은 결국 공격에 굴복하고, 크리스탈 장갑과 금속으로 된 구름 속으로 폭발합니다.</text>
+	<text>마지막 사격은 크리스탈로 도금된 암석선의 선체를 조금씩 벗겨내었고, 잔해와 함께 사용 가능한 고철과 금속으로 된 수천 개의 파편으로 부숩니다.</text>
+	<text>혼합선은 공격의 힘에 굴복했고 크리스탈 조각과 각종 스크랩 재료로 분해됩니다.</text>
+	<text>당신이 무기고에서 일제사격을 하기 전에 빛나는 푸른 선박은 산산조각납니다. 내부는 회수하기 적당히 익었습니다.</text>
 </textList>
 
 
@@ -170,7 +170,7 @@
 		</event>
 	</choice>
 	<choice  req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
+		<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 협상은 적합한 절차에 의해서 진행되어야 합니다. 표준 우주 법안에 의해 협상안을 재조정합니다.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice>
@@ -211,15 +211,15 @@
 		</event>
 	</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
+		<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 협상은 적합한 절차에 의해서 진행되어야 합니다. 표준 우주 법안에 의해 협상안을 재조정합니다.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice req="crystal" hidden="true">
-		<text>(Crystal Crew) Have your Crystal crewmen to deescalate the situation.</text>
+		<text>(크리스탈 승무원) 크리스탈 승무원에게 이 상황을 완화시키게 합니다.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="HIGH">standard</autoReward>
-			<text>Your crewmen request to talk to the crystal envoy aboard the diplomat vessel. The strange beings have a long conversation in their strange resonance language. Afterwards, your crewmen informs you that this incident will not cause any disturbance in Federation-Crystal relations. The crystal envoy apologizes, also in the name of the Rock, and sends over a crate with supplies.</text>
+			<text>당신 선원은 외교선에 승선한 크리스탈 사절과 대화할 것을 요청합니다. 이상한 존재들은 그들의 이상한 공명 언어로 긴 대화를 나눕니다. 그 후, 크리스탈 승무원은 이 사건이 연방-크리스탈 관계에 어떤 장애도 일으키지 않을 것이라고 알려드립니다. 크리스탈 사절은 바위의 이름으로 사과하고, 또한 보급품이 든 상자를 보냅니다.</text>
 		<status type="limit" target="enemy" system="artillery" amount="0"/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -268,7 +268,7 @@
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -306,7 +306,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>You quickly lay some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -314,25 +314,25 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="NOTHING_ROCK">
-	<text>You receive a message meant to degrade you as aliens. You half expect an attack but it seems to have come from a small civilian shuttle.</text>
-	<text>No one bothers your ship as you float among numerous space stations and mining platforms. The Rock certainly run efficient operations.</text>
-	<text>You arrive and detect signs of battle. A few ships are taking passes at each other near a small station. You don't know if it's a territory issue, a contest, or a rite of passage but you decide it's best to stay out of it.</text>
-	<text>There's not much at this beacon. Just a few abandoned depots, stripped clean.</text>
-	<text>A few freighters pass by but they refuse all communications. Must not want to sully their reputation by talking with foreigners.</text>
-	<text>You see a small trading post and ask about refueling but they respond, "Go away! We don't serve your kind here."</text>
-	<text>You see a Zoltan merchant and ask about his wares. He responds, "Sorry, but it took years to gain their trust. I can't be seen communicating with you. I hope you understand." He cuts communications.</text>
+	<text>당신을 외계인으로 비하하는 메세지를 받았습니다. 반쯤 공격받을 거라 예상했지만 소형 민간 왕복선에서 전송한 듯 합니다.</text>
+	<text>다수의 우주 정거정과 탄광 지구를 돌아다녔지만 아무도 당신의 함선에 신경 쓰지 않습니다. 락맨은 확실히 효율적인 운영을 합니다.</text>
+	<text>전투의 흔적을 발견했습니다. 몇몇 함선이 조그만 정거장 주변에서 서로에게 사양하고 있습니다. 영토 문제인지, 시합인지 또는 통과 의례인지 모르겠지만, 관여하지 않기로 결정합니다.</text>
+	<text>이 송신소에는 별게 없습니다. 몇 개의 텅텅 비어있는 버려진 창고가 있습니다.</text>
+	<text>소수의 화물선이 모든 통신을 차단한 상태로 지나갑니다. 외부인과의 대화로 자신들의 명성에 먹칠하고 싶지 않은 듯 합니다.</text>
+	<text>조그만 교역소를 발견하고 급유 요청을 하지만, 그들이 답합니다. "가시오! 우리는 당신네 종족들을 상대하지 않으니!"</text>
+	<text>졸탄 상인을 발견하고 상품에 대해 묻습니다. 그가 답하길, "죄송합니다만, 락맨의 신뢰를 얻기까지 오랜 시간이 걸렸습니다. 그대와의 대화를 들켜서는 안됩니다. 부디 이해해 주시기를." 그가 통신을 끊습니다.</text>
 </textList>
 
 
 
 
 <event name="START_BEACON_ROCK">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -341,7 +341,7 @@
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_ACTUAL"/>
 			</choice>
 		</event>
@@ -354,7 +354,7 @@
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_ACTUAL"/>
 			</choice>
 		</event>
@@ -368,7 +368,7 @@
 			</item_modify>
 			<modifyPursuit amount="-1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_ACTUAL"/>
 			</choice>
 		</event>
@@ -388,13 +388,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_ACTUAL"/>
 			</choice>
 		</event>
@@ -414,13 +414,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_ACTUAL"/>
 			</choice>
 		</event>
@@ -435,7 +435,7 @@
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
@@ -448,7 +448,7 @@
 						<item type="fuel" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
@@ -462,7 +462,7 @@
 					</item_modify>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
@@ -482,13 +482,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_ROCK_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
@@ -508,13 +508,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_ROCK_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
@@ -534,13 +534,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_ROCK_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
@@ -578,7 +578,7 @@
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
@@ -630,7 +630,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>Undisturbed as you are here you can lay some mines while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -638,14 +638,14 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="START_BEACON_ROCK">
-	<text>The Rock people have a particularly aggressive stance toward alien races trespassing in their space. You should tread carefully here.</text>
-	<text>The Rock people are a powerful and proud race. It is not unheard of to have a peaceful journey through their lands but don't count on it.</text>
-	<text>The Rock don't really patrol their borders, but passage through most of their territory is forbidden for all "foreigners". You might not be welcome here.</text>
+	<text>락맨은 특히 자신들의 영토를 무단침입하는 외계 종족들에게 공격적인 자세를 취합니다. 조심하셔야 합니다.</text>
+	<text>락맨은 강하고 거만한 종족입니다. 그들의 영토를 평화롭게 지나간 경우가 없지는 않지만 너무 기대는 마십시오.</text>
+	<text>락맨은 실제로 국경을 순찰하지는 않지만, 대부분의 지역을 통과하는 것은 모든 "이방인들"에게 금지되어 있습니다. 당신은 여기서 환영받지 않을 수도 있습니다.</text>
 </textList>
 
 
@@ -653,23 +653,23 @@
 
 <eventList name="CE_BOUNTY_LIST_ROCK">
 	<event> <!-- Pirate Raider -->
-		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Medium.</text>
+		<text>이건 평범한 제안입니다: 후미진 작은 식민지에서는 현지 침입자들에 의해 테러 당하고 있습니다. 농부들은 적은 양의 선박 스크랩을 지불금으로 모았고, 해적들의 머리에 현상금을 걸었습니다. 보아하니 이것은 위험으로부터 벗어날 유일한 방법 같습니다. 목표: 알 수 없는 해적선. 보수: 중간.</text>
 		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
 	</event>
 	<event> <!-- Mantis Raider -->
-		<text>The Mantis are raiding colonies in this sector and the locals lack the military power to defend themselves. You could become their exterminator. Target: Mantis Invaders. Payment: High.</text>
+		<text>맨티스가 이 구역의 식민지를 습격하고 있었고 현지 주민들은 스스로를 방어할 군사력이 부족합니다. 당신은 그들을 제거할 수 있습니다. 목표: 맨티스 침략자. 보수: 높음.</text>
 		<quest event="CE_BOUNTY_MANTIS_RAIDERS"/>
 	</event>
 	<event> <!-- Rock Intrigue -->
-		<text>A territorial dispute has aggregated a local Rock basilisk. Social etiquette forbids him to take action personally, but the Rockman is willing to pay an outsider to do the deed. You'll be paid to make it look like a pirate ambush, conducted by foreign invader. Target: Rock Ship. Payment: High.</text>
+		<text>영토 분쟁으로 현지 암석 바질리스크들이 집결했습니다. 사회적 예절은 락맨이 개인적으로 행동을 취하는 것을 금지하지만, 락맨은 기꺼이 외부인에게 돈을 주고 개인적인 행위를 할 것입니다. 외래 침략자가 지휘하는 해적 매복처럼 보이게 하는 대가를 받게 될 것입니다. 목표: 락맨 함선. 보수: 많음.</text>
 		<quest event="CE_BOUNTY_ROCK"/>
 	</event>
 	<event> <!-- Rock Intrigue -->
-		<text>A territorial dispute has aggregated a local Rock basilisk. Social etiquette forbids him to take action personally, but the Rockman is willing to pay an outsider to do the deed. You'll be paid to make it look like a pirate ambush, conducted by foreign invader. Target: Rock Ship. Payment: High.</text>
+		<text>영토 분쟁으로 현지 암석 바질리스크들이 집결했습니다. 사회적 예절은 락맨이 개인적으로 행동을 취하는 것을 금지하지만, 락맨은 기꺼이 외부인에게 돈을 주고 개인적인 행위를 할 것입니다. 외래 침략자가 지휘하는 해적 매복처럼 보이게 하는 대가를 받게 될 것입니다. 목표: 락맨 함선. 보수: 많음.</text>
 		<quest event="CE_BOUNTY_ROCK"/>
 	</event>
 	<event> <!--  Nothing -->
-		<text>There are no legal marks available in this sector. Public orders is just too well maintained here, no Rock has need for a mercenary bounty hunter right now.</text>
+		<text>이 구역에서는 법적인 현상범이 없습니다. 아마도 이 구역의 법 질서가 잘 유지되어 있어 현상금 사냥꾼 용병이 필요하지 않은 것 같습니다.</text>
 	</event>
 </eventList>
 
@@ -677,7 +677,7 @@
 
 
 <event name="START_BEACON_ROCK_HOME">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -686,7 +686,7 @@
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 			</choice>
 		</event>
@@ -699,7 +699,7 @@
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 			</choice>
 		</event>
@@ -714,7 +714,7 @@
 			<modifyPursuit amount="-1"/>
 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 			</choice>
 		</event>
@@ -734,13 +734,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 			</choice>
 		</event>
@@ -760,13 +760,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 			</choice>
 		</event>
@@ -781,7 +781,7 @@
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
@@ -794,7 +794,7 @@
 						<item type="fuel" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
@@ -808,7 +808,7 @@
 					</item_modify>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
@@ -828,13 +828,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
@@ -854,13 +854,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
@@ -880,13 +880,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_ROCK_HOME_ACTUAL"/>
 					</choice>
 				</event>
@@ -910,16 +910,16 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="mind" amount="100"/>
 	<choice req="crystal" hidden="true">
-		<text>(Crystal Crew) Ask your crystal companion for the way to their home.</text>
+		<text>(크리스탈 승무원) 크리스탈 동료에게 그들의 고향으로 가는 길을 묻습니다.</text>
 		<event>
-			<text>The crystal being looks at the beacon map for a while. Then it points at one of the nodes. "It is there." That's just a few beacons away! Excitement sweeps over the whole crew. Will you see the homeworld of the crystals after all?</text>
+			<text>크리스탈 생명체는 잠시 신호소 지도를 봅시다. 그런 다음 교점 하나를 가리킵니다. "거기 있소." 고향은 단지 몇 신호소 거리에 불과합니다! 흥분이 승무원 전체를 휩씁니다. 어쨋든 크리스탈 홈월드를 볼 수 있을까요?</text>
 			<quest event="ROCK_CRYSTAL_BEACON"/>
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Prepare the jump drive.</text>
+		<text>점프 드라이브를 준비한다.</text>
 		<event>
-		<text>You have to get to the exit beacon and jump to the next sector before the pursuing Rebels catch you.</text>
+		<text>추격하는 반란군에게 잡히기 전에 당신은 다음 출구 송신소로 가서 다음 구역으로 도약해야 합니다.</text>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
 		<status type="clear" target="player" system="medbay" amount="100"/>
@@ -948,7 +948,7 @@
 		<event load="CE_BOUNTY_LIST_ROCK"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -986,9 +986,9 @@
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [4 Missiles]</text>
+		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [4 미사일]</text>
 		<event>
-			<text>Undisturbed as you are here, you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 현지인들에게 경고하기 위해 위험 표지판도 설치했습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -996,7 +996,7 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 		</event>
@@ -1005,17 +1005,17 @@
 
 
 <event name="ROCK_UNLOCK3">
-	<text>You arrive at a massive Rockman shipyard and notice the ship that had just tried to kill you is docked and already being repaired. "Well fought! I must say I did not expect you to survive."</text>
+	<text>거대한 락맨 조선소에 도착해보니 방금 당신을 죽이려고 한 함선이 이미 도착해 수리를 마친 상태입니다. "잘 싸웠소! 솔직히 당신들이 살아남을 것은 예상 못했지만 말이오."</text>
 	<ship load="ROCK_UNLOCK1" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>I am convinced of your strength and pledge to assist your cause. We'll immediately send an advanced cruiser to the Federation fleet and we will prepare our warships to move out.</text>
-			<unlockShip id="6">The Rock deliver a cruiser to the hangar. The Bulwark has been unlocked!</unlockShip>
+			<text>당신들의 저력은 정말 감탄스럽군. 지원을 해주겠소. 즉각 최신형 순양함을 연방 함대에 보내고 우리 전함들도 출격 준비를 하겠소.</text>
+			<unlockShip id="6">락맨들이 함선을 격납고에 보내주었습니다. 불워크가 해금되었습니다!</unlockShip>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
-					<text>"Now that that's taken care of, let us patch up your hull. Maybe we can improve your system casing while we're at it."</text>
+					<text>"자 이제 시험도 끝났으니 선체를 수리해주겠소. 수리하면서 장갑도 강화해주도록 하겠소."</text>
 					<augment name="SYSTEM_CASING"/>
 					<damage amount="-29"/>
 				</event>
@@ -1025,27 +1025,27 @@
 </event>
 
 <event name="CE_ROCK_NURSERY" unique="true">
-	<text>Fluctuating life signs are reported near the surface of a hazy, pock-marked moon in the vicinity. It seems this is a Rock nursery where the young are 'acclimatized' to their religion - only there's been some kind of coup and the students are running amok!</text>
+	<text>근처에 있는 안개가 가득하고 구멍이 뚫려있는 달의 표면에서 요동치는 생명 신호가 잡힙니다. 이곳은 어린 락맨이 '적응'해가는 탁아소인 듯 하지만, 쿠데타 같은 일어나 학생들이 날뛰고 있습니다!</text>
 	<choice hidden="true">
-		<text>Transfer an away team to investigate.</text>
+		<text>원정대를 보내 조사합니다.</text>
 		<event>
-			<text>Your away team reports combat between students and authorities - it seems some of the students were considered to have dissident personalities and were to be imprisoned pro-actively.</text>
+			<text>원정대의 보고에 따르면 학생들이 정부측과 전투를 벌이고 있습니다. 몇몇의 학생들이 반체제적인 성격으로 의심받아 투옥된 것 같습니다.</text>
 			<choice hidden="true">
-				<text>Order the away team to side with the students.</text>
+				<text>원정대에게 학생들의 편에 서도록 명령한다.</text>
 				<event>
-					<text>It's not long before the violence on the planet becomes a full-scale battle, your away team and their military-grade weaponry in the very center of it.</text>
+					<text>이 행성의 폭력사태가 아군 원정대와 그들이 보유한 군용 무기를 중심에 둔 상태로 총력전이 되기까지 얼마 걸리지 않을 것 같습니다.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ROCK_NURSERY_STUDENTS"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">	
-				<text>Order the away team to side with the authorities.</text>
+				<text>원정대에게 정부측에 서도록 명령한다.</text>
 				<event>
-					<text>It's not long before the violence on the planet becomes a full-scale battle, your away team and their military-grade weaponry in the very center of it.</text>
+					<text>이 행성의 폭력사태가 아군 원정대와 그들이 보유한 군용 무기를 중심에 둔 상태로 총력전이 되기까지 얼마 걸리지 않을 것 같습니다.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ROCK_NURSERY_AUTHORITY"/>
 					</choice>
 				</event>
@@ -1053,22 +1053,22 @@
 		</event>
 	</choice>		
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
-			<text>As long as they're not shooting at the ship it's best to leave them be.</text>
+			<text>그들이 함선에 발포하지 않는 이상, 그냥 두는 것이 최선일 듯 합니다.</text>
 		</event>
 	</choice>		
 	<choice hidden="true" req="weapons" lvl="6">
-		<text>(Improved Weapons) Fire a warning shot near to the commotion to announce your arrival.</text>
+		<text>(향상된 무기) 소란의 주변에 경고사격을 하여 당신의 도착을 알립니다.</text>
 		<event>
-			<text>You dispatch a barrage of weapons fire that crashes home into an unused quarry near to the installation. Weapons fire on the surface ceases for as long as it takes for the moon's defense force to be dispatched to your location!</text>
+			<text>무기를 일제사격하자 시설 주위의 버려진 채석장에 착탄합니다. 지표에 착탄한 무기 폭발이 달 주둔 방위대가 당신을 공격하기 위해 오는 시간을 최대한 지연시켜줍니다!</text>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1112,151 +1112,151 @@
 </event>
 <eventList name="ROCK_NURSERY_STUDENTS">
 	<event>
-		<text>Things, in the end, do not go well. The enemy succeeds in flanking your team and they're forced to retreat to the ship.</text>
+		<text>상황이 잘 해결되지 않았습니다. 적들이 원정대를 측면 공격하는데 성공하였고 아군은 함선으로 후퇴하였습니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The staff and authorities subdue the last of the renegade students; prison transport ships are already in orbit.</text>
+				<text>직원들과 정부군이 변절자 학생들의 진압을 완료했습니다. 감옥 수송선이 이미 궤도에 와 있습니다.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_LOSE"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>  <!-- JUSTIN - TO DO - Test if this works. i don't think it does...-->
-		<text>The fight goes poorly, and your team eventually finds itself out on the flank with a wounded Rock combatant in tow. They make a desperate push for the shuttle coordinates, but one falls. The survivor helps the injured Rock aboard.</text>
+		<text>전투 결과가 나쁩니다. 원정대는 부상당한 락맨 전투원과 함께 적의 측면 공격에 노출 되었습니다. 필사적으로 수송기 좌표를 향해 이동하지만 결국 한 명이 쓰러집니다. 생존자는 부상당한 락맨과 함께 승선합니다.</text>
 		<crewMember amount="-1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The staff and authorities subdue the last of the renegade students; prison transport ships are already in orbit.</text>
+				<text>직원들과 정부군이 변절자 학생들의 진압을 완료했습니다. 감옥 수송선이 이미 궤도에 와 있습니다.</text>
 				<crewMember amount="1" class="rock"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_LOSE"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your team hunkers down in the main quad and succeeds in holding off the enemy combatants and claiming control of the institution!</text>
+		<text>원정대가 중앙 사령실에서 태세를 갖추고 시설의 지휘권을 확보할 때까지 적의 공격을 막아내는데 성공했습니다!</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The students secure the remaining staff and prepare to leave the solar system - there is only one path open to them now, that of the outlaw.</text>
+				<text>학생들이 남아있는 직원들을 구속하고, 태양계를 떠날 준비를 합니다. 그들에게 남은 길은 범죄자가 되는 것 밖에 없습니다.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_WIN"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your team comes under heavy fire. One is blinded by a flash bomb and staggers past the lip of a quarry and to their death far below, the other succeeds in joining with friendly forces and ultimately claims control of the institution!</text>
+		<text>부대원들이 맹렬한 공격을 받습니다. 한 명은 섬광탄에 눈이 멀어 비틀거리다가 채석장의 경계선을 너머 죽음이 기다리고 있는 지하로 떨어집니다. 다른 승무원들은 다행히 아군과 합류하여 결국 시설의 통제권을 확보합니다!</text>
 				<removeCrew>
 					<clone>true</clone>
-					<text>You get back to find your crew-member cloned, though annoyed with the command decisions that lead to their death.</text>
+					<text>당신은 그의 죽음으로 이끈 명령을 결정했다는 것에 짜증이 났지만, 당신 승무원을 복제하는 것을 지켜봅니다.</text>
 				</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The students secure the remaining staff and prepare to leave the solar system - there is only one path open to them now, that of the outlaw.</text>
+				<text>학생들이 남아있는 직원들을 구속하고, 태양계를 떠날 준비를 합니다. 그들에게 남은 길은 범죄자가 되는 것 밖에 없습니다.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_WIN"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>	
-		<text>As the battle proceeds the action moves away from your team's location. During the lull they're able to secure some abandoned weapons. By the time they're done the battle is largely over and they return to the ship.</text>
+		<text>전투가 진행되면서 교전지역이 원정대의 위치에서부터 멀어집니다. 소강상태 동안 원정대가 유기된 무기를 발견했습니다. 작업이 끝났을 즈음에는 이미 대부분의 전투가 마무리되었고 원정대는 함선으로 귀환합니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
 <eventList name="ROCK_NURSERY_AUTHORITY">
 	<event>
-		<text>Things, in the end, do not go well. The enemy succeeds in flanking your team and they're forced to retreat to the ship.</text>
+		<text>상황이 잘 해결되지 않았습니다. 적들이 원정대를 측면 공격하는데 성공하였고 아군은 함선으로 후퇴하였습니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The students secure the remaining staff and prepare to leave the solar system - there is only one path open to them now, that of the outlaw.</text>
+				<text>학생들이 남아있는 직원들을 구속하고, 태양계를 떠날 준비를 합니다. 그들에게 남은 길은 범죄자가 되는 것 밖에 없습니다.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_LOSE"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>  <!-- JUSTIN - TO DO - Test if this works. i don't think it does...-->
-		<text>The fight goes poorly, and your team eventually finds itself out on the flank with a wounded Rock combatant in tow. They make a desperate push for the shuttle coordinates, but one falls. The survivor helps the injured Rock aboard.</text>
+		<text>전투 결과가 나쁩니다. 원정대는 부상당한 락맨 전투원과 함께 적의 측면 공격에 노출 되었습니다. 필사적으로 수송기 좌표를 향해 이동하지만 결국 한 명이 쓰러집니다. 생존자는 부상당한 락맨과 함께 승선합니다.</text>
 				<removeCrew>
 					<clone>true</clone>
-					<text>You get back to find your crew-member cloned, though annoyed with the command decisions that lead to their death.</text>
+					<text>당신은 그의 죽음으로 이끈 명령을 결정했다는 것에 짜증이 났지만, 당신 승무원을 복제하는 것을 지켜봅니다.</text>
 				</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The students secure the remaining staff and prepare to leave the solar system - there is only one path open to them now, that of the outlaw.</text>
+				<text>학생들이 남아있는 직원들을 구속하고, 태양계를 떠날 준비를 합니다. 그들에게 남은 길은 범죄자가 되는 것 밖에 없습니다.</text>
 				<crewMember amount="1" class="rock"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_LOSE"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your team hunkers down in the main quad and succeeds in holding off the enemy combatants and claiming control of the institution!</text>
+		<text>원정대가 중앙 사령실에서 태세를 갖추고 시설의 지휘권을 확보할 때까지 적의 공격을 막아내는데 성공했습니다!</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The staff and authorities subdue the last of the renegade students; prison transport ships are already in orbit.</text>
+				<text>직원들과 정부군이 변절자 학생들의 진압을 완료했습니다. 감옥 수송선이 이미 궤도에 와 있습니다.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_WIN"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your team comes under heavy fire. One is blinded by a flash bomb and staggers past the lip of a quarry and to their death far below, the other succeeds in joining with friendly forces and ultimately claims control of the institution!</text>
+		<text>부대원들이 맹렬한 공격을 받습니다. 한 명은 섬광탄에 눈이 멀어 비틀거리다가 채석장의 경계선을 너머 죽음이 기다리고 있는 지하로 떨어집니다. 다른 승무원들은 다행히 아군과 합류하여 결국 시설의 통제권을 확보합니다!</text>
 				<removeCrew>
 					<clone>true</clone>
-					<text>You get back to find your crew-member cloned, though annoyed with the command decisions that lead to their death.</text>
+					<text>당신은 그의 죽음으로 이끈 명령을 결정했다는 것에 짜증이 났지만, 당신 승무원을 복제하는 것을 지켜봅니다.</text>
 				</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The staff and authorities subdue the last of the renegade students; prison transport ships are already in orbit.</text>
+				<text>직원들과 정부군이 변절자 학생들의 진압을 완료했습니다. 감옥 수송선이 이미 궤도에 와 있습니다.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="CE_ROCK_NURSERY_WIN"/>
 				</choice>
 			</event>
 		</choice>
 	</event>
 	<event>	
-		<text>As the battle proceeds the action moves away from your team's location. During the lull they're able to secure some abandoned weapons. By the time they're done the battle is largely over and they return to the ship.</text>
+		<text>전투가 진행되면서 교전지역이 원정대의 위치에서부터 멀어집니다. 소강상태 동안 원정대가 유기된 무기를 발견했습니다. 작업이 끝났을 즈음에는 이미 대부분의 전투가 마무리되었고 원정대는 함선으로 귀환합니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
 <eventList name="CE_ROCK_NURSERY_WIN">
 	<event>
-		<text>In return for your support during the fight the survivors reward you with the funds set aside for prison transport. You leave before anyone changes their mind!</text>
+		<text>당신의 전투 지원에 보답하고자, 생존자들은 죄수 수송용 자금을 보상금으로 건네줬습니다. 그들의 마음이 변하기 전에 떠납니다!</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 </eventList>
 <eventList name="CE_ROCK_NURSERY_LOSE">
 <event>
-	<text>Fully aware that their victory was threatened by your arrival, the survivors immediately dispatch a ship to eliminate you!</text>
+	<text>당신의 도착이 자신들의 승리에 위협이 된다는 것을 알아차리고 생존자들이 당신을 제거하기 위해 함선을 보냈습니다!</text>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1300,18 +1300,18 @@
 
 
 <event name="CE_ROCK_ZOLTAN_HELP" unique="true">
-	<text>It seems a Zoltan ship came here to liberate a Rock settlement from their 'oppressive belief system', and that said Rock did not appreciate it. The chase is headed your way and the Zoltan and their pursuers will be here at any moment!</text>
+	<text>졸탄 함선이 락맨 거주지를 '억압적인 믿음 체계'로부터 해방하기 위하여 온 것 같지만 락맨은 그들을 반기지 않았습니다. 추격자가 당신과 졸탄 쪽으로 향하고 있고 곧 여기 도착할 겁니다!</text>
 	<choice hidden="true">
-		<text>Stay and defend the Zoltan.</text>
+		<text>남아서 졸탄 함선을 보호한다.</text>
 		<event>
-			<text>The... extreme nature of Rock faith is well-known, the Zoltan can hardly be blamed for trying to broaden their horizons. The pursuing Rock ship quickly assesses the situation and decides two captured alien ships are better than one.</text>
+			<text>락맨의 신념에 대한 극단적인... 천성은 유명합니다. 졸탄인들의 영역 확장 시도에 대해 비난하긴 어렵습니다. 추격해오는 락맨 함선은 두 이종족 함선을 포획하는 것이 하나만 포획하는 것보다 낫다고 계산했습니다.</text>
 			<ship load="ROCK_ZOLTAN_HELP_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1353,16 +1353,16 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Stay and attack the Zoltan.</text>
+		<text>남아서 졸탄 함선을 포획한다</text>
 		<event>
-			<text>This is Rock territory, and therefore Rock law - the Zoltan should have known better than to interfere. Maybe the Rock will reward your initiative?</text>
+			<text>이 곳은 락맨의 영역이고 졸탄들은 락맨의 법을 어기지 않았어야 합니다. 아마 락맨은 당신의 진취성에 보상을 해줄까요?</text>
 			<ship load="ROCK_ZOLTAN_HELP_ZOLTAN" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1404,31 +1404,31 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
-			<text>This is none of your concern - power up the jump drive!</text>
+			<text>당신이 관여할 문제가 아닙니다. 점프 드라이브에 전력을 넣습니다!</text>
 		</event>
 	</choice>
 </event>
 <ship name="ROCK_ZOLTAN_HELP_ROCK" auto_blueprint="SHIPS_ROCK"> 
 	<destroyed>
-		<text>The Rock ship's hull breaks apart. You salvage the wreck before contacting the Zoltan ship.</text>
+		<text>락맨 함선의 선체가 파괴됩니다. 당신은 졸탄 함선에 통신을 넣기 전에 잔해를 수거합니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The Zoltan show little emotion, but express their gratitude with a small payment.</text>
+				<text>졸탄은 감정 표현이 적지만 작은 답례로 감사의 마음을 전합니다.</text>
 				<autoReward level="RANDOM">stuff</autoReward>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the ship's crew dead you salvage the ship before contacting the Zoltan.</text>
+		<text>함선의 승무원이 모두 사망하자 당신은 졸탄 함선에 통신을 넣기 전에 전리품을 수거합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
-				<text>The Zoltan show little emotion, but express their gratitude with a small payment.</text>
+				<text>졸탄은 감정 표현이 적지만 작은 답례로 감사의 마음을 전합니다.</text>
 				<autoReward level="RANDOM">stuff</autoReward>
 			</event>
 		</choice>
@@ -1436,11 +1436,11 @@
 </ship>
 <ship name="ROCK_ZOLTAN_HELP_ZOLTAN" auto_blueprint="SHIPS_ZOLTAN"> 
 	<destroyed>
-		<text>The Rock ship arrives just as you put the finishing blows to the Zoltan ship. They're not of a mind to thank you, and you get the impression it'd be best if you left post-haste...</text>
+		<text>당신이 졸탄 함선에 최후의 일격을 가하는 것과 동시에 락맨 함선이 도착합니다. 락맨이 감사해하는 것 같이 보이지 않습니다. 빨리 이 곳을 벗어나는 것이 최선일듯 합니다...</text>
 		<autoReward level="LOW">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>By the time the Rock ship arrives you've all but tied a bow around their quarry. The injured and dying Zoltan are easily taken into custody. After the having taken possession of the Zoltan ship, the Rock grudgingly transfers over what you assume must be the bounty.</text>
+		<text>락맨 함선이 도착해보니 당신이 그들의 사냥감을 묶어놓고 있습니다. 부상당해 죽어가는 졸탄들은 손쉽게 구속됩니다. 락맨 함선이 마지못한 태도로 현상금이라고 생각되는 것을 보냈습니다.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</deadCrew>
 </ship>
@@ -1450,7 +1450,7 @@
 	<text load="ROCK_SHIP"/>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1458,7 +1458,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1499,15 +1499,15 @@
 		</choice>
 </event>
 <textList name="ROCK_SHIP">  <!-- JUSTIN - make surrender possible-->
-	<text>You encounter a Rock vessel and attempt to open trading frequencies, but they take it as an act of cultural transgression and open fire.</text>
-	<text>You jump into the middle of a Rock excavation project on a nearby moon. Unimpressed with your intrusion they move to defend themselves!</text>
-	<text>You intercept chatter from an approaching Rock ship: "Weapons, moving in to engage, arm the tubes." There is no talking to these guys.</text>
-	<text>As you jump in, a vast figure appears on the view-screen. The Rock captain rubs the green, moss-like appendage on his chin and then orders his crew to open fire.</text>
-	<text>It looks quiet, but you realize your computer is being scanned. A hidden Rock vessel hails you: "Why do you fill your computer with lies?! These are not the holy words!" Before you can interject they open fire.</text>
-	<text>You notice a Rock ship performing combat exercises. However, they quickly change their course to engage your ship. They apparently treat unregistered alien ships as handy target practice. </text>
-	<text>A loud 'thud' resounds through the ship after jump completion - you've just shunted a Rock fighter and he's already preparing to fire!</text>
-	<text>You're intercepted by a Rock salvage operation. They don't seem to mind that you're still on board while they junk your ship.</text>
-	<text>The Rock military has found you. "Foreign vessel. You have invaded our domain. Surrender and we might let you live."</text>
+	<text>락맨 함선과 조우하여 거래 주파수를 열려고 하지만, 상대는 문화적 이단행위로 간주하고 공격합니다.</text>
+	<text>근처 달에 있는 락맨 발굴 프로젝트의 한 가운데에 도착했습니다. 락맨들은 당신의 침입에 화를 내며 공격해옵니다!</text>
+	<text>접근하는 락맨 함선의 통신을 도청합니다. "무기를 장전시오. 교전하겠소." 이들과는 대화가 필요 없습니다.</text>
+	<text>도약을 마치자 엄청나게 거대한 물체가 화면에 나타납니다. 락맨 함장이 턱에 난 초록색 이끼 같은 것을 문지르면서 승무원들에게 공격 명령을 내립니다.</text>
+	<text>이곳은 조용해 보이지만 당신의 컴퓨터가 스캔되고 있는 것을 깨닫습니다. 숨어 있던 락맨 함선이 통신을 보냅니다. "어째서 네놈의 컴퓨터엔 거짓만 가득차 있는가?! 이것들은 성스러운 말이 아니다!" 당신이 대꾸할 시간도 없이 상대가 공격합니다.</text>
+	<text>락맨 함선의 전투 훈련을 목격합니다. 갑자기 경로를 바꿔서 당신을 공격합니다. 보아하니 등록되지 않은 외계 함선을 손쉬운 사격 연습 대상으로 사용하나 봅니다.</text>
+	<text>도약을 마치자 엄청난 '쿵' 소리가 함선 안에 울려퍼집니다. 락맨 전투함과 충돌한 듯 합니다. 상대는 이미 사격준비를 하고 있습니다!</text>
+	<text>당신은 락맨 폐선 인양꾼들과 마주쳤습니다. 이들은 우주선 안에 누가 있던 말던 폐선으로 취급하나 봅니다.</text>
+	<text>록 군인들이 당신을 찾았습니다. "이방인 선박. 당신은 우리 영토를 침범했소. 항복한다면 우리가 당신을 살려줄지도 모르오."</text>
 </textList>
 
 
@@ -1515,7 +1515,7 @@
 	<text load="ROCK_PIRATE"/>
 	<ship load="ROCK_PIRATE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1523,7 +1523,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1566,15 +1566,15 @@
 
 <eventList name="ROCK_LOOTING_STRIP">
 	<event>
-		<text>You salvage what you can from the ship. No one bothers you during the operation.</text>
+		<text>챙길 수 있는 물건들은 모두 챙겼습니다. 작전 도중 방해는 없었습니다.</text>
 		<autoReward level="low">standard</autoReward>
 	</event>
 	<event>
-		<text>A Rock patrol ship jumps in while you are salvaging the ship. They message you, "Filthy pirates! Prepare to die!" You doubt explaining your mission will convince them of your need.</text>
+		<text>배에서 쓸 만한 물건들을 찾는 도중 락맨 순찰 함선이 도약해왔습니다. 그들이 메시지를 보내옵니다. "더러운 해적들 같으니! 죽을 각오 하시오!" 사정 설명을 한다 해도 그들이 납득해 줄 것 같지 않습니다.</text>
 		<autoReward level="low">standard</autoReward>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -1582,7 +1582,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1625,20 +1625,20 @@
 </eventList>
 <eventList name="ROCK_LOOTING_LEAVE">
 	<event>
-		<text>The Rock people are not known for setting traps but you hasten to leave anyway.</text>
+		<text>락맨이 함정을 설치한다는 것은 들어본 적이 없지만, 서둘러 떠나기로 합니다.</text>
 	</event>
 	<event>
-		<text>The Rock people are not known for setting traps but you hasten to leave anyway.</text>
+		<text>락맨이 함정을 설치한다는 것은 들어본 적이 없지만, 서둘러 떠나기로 합니다.</text>
 	</event>
 	<event>
-		<text>Before you have a chance to leave, a Rock patrol ship arrives and you intercept their comm chatter, "...appears we've finally found them. Their killing spree ends now!" Before you can plead your innocence they move in to attack.</text>
+		<text>당신이 떠날 틈도 없이 락맨 경비함이 도착하고 당신은 그들의 통신을 도청합니다. "드디어 놈들을 찾아낸 것같소. 그들의 살인 행위는 이제 끝날 것이오!" 결백함을 호소하기도 전에 그들이 공격을 개시합니다.</text>
 		<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1682,19 +1682,19 @@
 
 
 <event name="ROCK_MANTIS_HUNTER" unique="true">  <!-- JUSTIN TO DO - test the ship status effect-->
-	<text>A Mantis ship here is adorned with Rock body parts! It would be a gorier display if they had internal organs, but the message is clear enough, this is a hunter of a very specialized kind.</text>
+	<text>맨티스 함선이 락맨의 신체 부분으로 장식되어 있습니다! 내장까지 있었다면 더 잔인해보였겠지만 메세지는 충분히 전달되었습니다. 특정 종족만 사냥하는 사냥꾼입니다.</text>
 	<ship load="MANTIS_FIGHT" hostile="false"/>
 	<choice hidden="true">
-		<text>Attack!</text>
+		<text>공격!</text>
 		<event>
-			<text>No species deserves a Mantis hunter on their back - time to make the galaxy a little safer. Engage!</text>
+			<text>어떠한 종족도 이 맨티스 사냥꾼에게 당해야 할 이유는 없습니다. 은하계를 조금 더 안전하게 만들 시간입니다. 교전개시!</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1736,23 +1736,23 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>그들을 무시한다.</text>
 		<event>
-			<text>The Mantis take no interest in your ship - they're lying in wait for the next Rock ship to venture through. You're able to spin up the engines and jump at your leisure.</text>		
+			<text>맨티스는 당신에게 관심이 없습니다. 그들은 다음에 나타날 암석선을 기다리고 있습니다. 당신은 여유롭게 엔진을 가동하고 도약할 수 있습니다.</text>		
 		</event>
 	</choice>
 	<choice hidden="true" req="ROCK_ARMOR">
-		<text>(Rock Ship) Ram the bastards.</text>
+		<text>(락맨 함선) 놈들을 들이받습니다.</text>
 		<event>
-			<text>Before they have a chance to react, you ram your ship into theirs, causing irreparable damage to their engines. Luckily your ship's armored hull is hardly dented from the impact. The Mantis ship careens away and you move in to attack.</text>
+			<text>적이 반응하기 전에 함선으로 그들을 들이받아 엔진에 회복 불가능한 피해를 줬습니다. 장갑 덕분에 당신 함선의 선체는 충격에 상처조차 나지 않았습니다. 맨티스 함선은 위태위태하게 날라가고 당신은 공격 준비를 합니다.</text>
 			<status type="limit" target="enemy" system="engines" amount="0"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1794,16 +1794,16 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew) Put your Rock crew member on the comm.</text>
+		<text>(락맨 승무원) 락맨 승무원이 통신하게 합니다.</text>
 		<event>
-			<text>The two aliens face one another over the vidscreen. "Cave-dwelling pebble-man!" yells the furious Mantis Captain. "See, I paint my ship with your companions! I paint my ship with you!"</text>
+			<text>두 외계인이 화면을 통해 마주합니다. "동굴에 처박힌 조약돌 같은 놈!" 격분한 맨티스 함장이 미친듯이 소리지릅니다. "두고 보라고, 내 함선을 네놈들 피로 피칠갑할테다! 너와 함께 말이지!"</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1849,21 +1849,21 @@
 
 
 <event name="ROCK_MANTIS_FREIGHTER" unique="true">
-	<text>A curious sight greets you at this beacon, a disabled Rock freighter drifts in space while two Mantis craft battle it out - presumably over who deserves the spoils.</text>
+	<text>송신소에서 신기한 광경을 목격합니다. 고장난 락맨 화물선이 떠다니고 있고 두 척의 맨티스 함선이 싸우고 있습니다. 전리품을 누가 챙길지를 두고 다투는 듯 합니다.</text>
 	<choice hidden="true">
-		<text>Wait, then attack the surviving Mantis.</text>
+		<text>기다렸다가, 살아남은 맨티스를 공격합니다.</text>
 		<event load="ROCK_MANTIS_FREIGHTER_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>	
+		<text>그들을 무시한다.</text>	
 		<event>
-			<text>There's quite enough action here already - prepare for jump.</text>
+			<text>이 지역은 이미 충분히 소란스럽습니다. 도약을 준비해라.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="DRONES_REPAIR">
-		<text>(Repair Drone) Repair the Rock ship.</text>
+		<text>(수리 드론) 락맨 함선을 수리합니다.</text>
 		<event>
-			<text>While the two Mantis fight you approach the Rock ship and send a repair drone through one of the many breaches. It fixes the ship up enough to make at least a single jump. You're surprised when, instead, they embark on a kamikaze run on the two Mantis, which results in the obliteration of all three!</text>
+			<text>맨티스 함선들이 싸우는 동안 락맨 함선에 접근하여 균열 중 하나로 수리 드론을 보냅니다. 드론이 최소 1회의 도약은 할 수 있을 정도로 함선을 수리합니다. 그러나 락맨 함선이 도약 대신 맨티스 함선들을 향해 자살 공격을 감행하고 세 척 다 흔적도 없이 사라지는 광경을 보면서 당신은 충격에 빠집니다!</text>
 			<autoReward level="HIGH">standard</autoReward>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
@@ -1871,19 +1871,19 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="DRONES_SHIP_REPAIR">
-		<text>(Hull Repair Drone) Repair their hull.</text>
+		<text>(함체 수리 드론) 락맨 선체를 수리합니다.</text>
 		<event>
-			<text>While the two Mantis fight you approach the Rock ship and use a drone to fix up the ship. Once the breaches are fixed the life support flickers back on. In a matter of moments they are already in pursuit of one of the Mantis ships. Meanwhile the second Mantis turns toward you.</text>
+			<text>맨티스 함선들이 싸우는 동안 락맨 함선에 접근하여 드론을 보내 함선을 수리합니다. 균열난 부분이 수리되자 생명 유지 장치가 깜빡이며 다시 작동됩니다. 락맨 함선은 순식간에 맨티스 함선 한 척에 공격을 가합니다. 남아있는 맨티스 함선이 당신을 향해 선회합니다.</text>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
 			<ship load="MANTIS_ROCK_MANTIS_FREIGHTER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1925,9 +1925,9 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="WEAPONS_BOMB_REPAIR">
-		<text>(Repair Unit) Teleport a repair kit.</text>
+		<text>(함체 수리 폭탄) 수리킷을 순간이동시킵니다.</text>
 		<event>
-			<text>While the two Mantis fight, you teleport a repair unit to aid the Rock ship. The device fixes the ship up enough to make at least a single jump. You're surprised when, instead, they embark on a suicide run on the two Mantis, which results in the obliteration of all three!</text>
+			<text>맨티스 함선들이 싸우는 동안 락맨 함선에 접근하여 균열 중 하나로 수리 드론을 보냅니다. 드론이 최소 1회의 도약은 할 수 있을 정도로 함선을 수리합니다. 그러나 락맨 함선이 도약 대신 맨티스 함선들을 향해 자살 공격을 감행하고 세 척 다 흔적도 없이 사라지는 광경을 보면서 당신은 충격에 빠집니다.</text>
 			<item_modify>
 				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
@@ -1937,15 +1937,15 @@
 </event>
 <eventList name="ROCK_MANTIS_FREIGHTER_LIST">
 	<event>
-		<text>The Mantis craft are both too busy slaughtering one another to notice you. Eventually the smaller ship gets the upper hand when it overrides the enemy door system and flushes the crew into space. Now's the time!</text>
+		<text>맨티스 함선은 서로를 살육하느라 당신을 눈치채지 못합니다. 결국 작은 쪽 함선이 상대의 문 제어 시스템을 해킹하여 승무원들을 우주 공간으로 쏟아내고 승기를 잡습니다. 지금입니다!</text>
 		<status type="loss" target="enemy" system="weapons" amount="2"/>
 		<ship load="MANTIS_ROCK_MANTIS_FREIGHTER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1986,14 +1986,14 @@
 		</choice>
 	</event>
 	<event>
-		<text>The Mantis craft may have their differences, but when it comes to you they are of one mind. The smaller ship suffers a power failure as it moves to engage, but the larger one lets off a volley of fire and moves in to attack!</text>
+		<text>맨티스 함선들 간에 의견차이는 있었지만 당신에 대해서는 의견이 일치합니다. 작은 함선은 전력이 고장났지만 큰 함선은 당신을 향해 일제사격을 하며 공격해옵니다.</text>
 		<ship load="MANTIS_ROCK_MANTIS_FREIGHTER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2038,19 +2038,19 @@
 
 
 <event name="ROCK_ATHIEST" unique="true">
-	<text>You encounter a small craft with minimal propulsion. Its Rock crew member explains that the Rock home-world is run on lies and propaganda that keep the populace in check, and that they want no part of it.</text>
+	<text>최소한의 추진기를 장착한 소형 함선과 조우했습니다. 탑승하고 있는 락맨 승무원의 말에 의하면 락맨 고향세계는 거짓과 대중을 감시하는 정치 선전으로 운영되고 있다고 하며, 자신은 그런 자들의 일부가 되고 싶지 않다고 설명합니다.</text>
 	<ship load="ROCK_SHIP" hostile="false"/>
 	<choice hidden="true">
-		<text>Tell them their Gods sent them here to join your crew.</text>
+		<text>그의 신이 당신의 승무원이 되기 위해 이 곳에 보냈다고 한다.</text>
 		<event>
 			<text load="ROCK_ATHIEST_BAD"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2092,27 +2092,27 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Promise to share with them the truths they've been denied.</text>
+		<text>그가 접근을 거부당한 진실을 공유하기로 약속합니다.</text>
 		<event load="ROCK_ATHIEST_GOOD"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Improved Sensors) Show them to your data suite.</text>
+		<text>(향상된 센서) 그에게 자료 모음을 보여줍니다.</text>
 		<event>
-			<text>The Rock Captain is impressed by the data you've collected and agrees to stay with you until they find their footing in the galaxy.</text>
+			<text>락맨 함장은 당신이 모은 정보에 감탄하고 자신이 은하계에서 기반을 마련할 때까지 당신과 함께하는 것을 동의합니다.</text>
 			<crewMember amount="1" class="rock"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="AE_SECTOR_SCANNER">
-		<text>(Sector Scanner) Show them to your data suite.</text>
+		<text>(섹터 스캐너) 그에게 자료 모음을 보여줍니다.</text>
 		<event>
-			<text>The Rock Captain is impressed by the data you've collected and agrees to stay with you until they find their footing in the galaxy.</text>
+			<text>락맨 함장은 당신이 모은 정보에 감탄하고 자신이 은하계에서 기반을 마련할 때까지 당신과 함께하는 것을 동의합니다.</text>
 			<crewMember amount="1" class="rock"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="AE_SECTOR_MAPPING">
-		<text>(Mapping Computer) Show them to your data suite.</text>
+		<text>(지도 제작용 컴퓨터) 그에게 자료 모음을 보여줍니다.</text>
 		<event>
-			<text>The Rock Captain is impressed by the data you've collected and agrees to stay with you until they find their footing in the galaxy.</text>
+			<text>락맨 함장은 당신이 모은 정보에 감탄하고 자신이 은하계에서 기반을 마련할 때까지 당신과 함께하는 것을 동의합니다.</text>
 			<crewMember amount="1" class="rock"/>
 		</event>
 	</choice>
@@ -2123,7 +2123,7 @@
 	<text load="ROCK_FIGHT_ASTEROID"/>
 	<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2173,7 +2173,7 @@
 	<environment type="asteroid"/>
 	<ship load="ROCK_PIRATE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2223,7 +2223,7 @@
 	<text load="ROCK_PIRATE_SUN"/>
 	<ship load="ROCK_PIRATE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2269,31 +2269,31 @@
 </event>
 
 <event name="ROCK_QUEST_MARRIAGE">
-	<text>A vast tunnel network near the surface of Numa V indicates an advanced Rock civilization. This must be where you were asked to deliver the passenger.</text>
+	<text>누마 V의 표면 근처의 거대한 땅굴망은 진보된 암석 문명이 있음을 알려줍니다. 여기가 당신의 승객이 데려다 달라는 목적지로 추정됩니다.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>Realizing arrival is imminent, the passenger - silent so far - pleads with you not to hand her over. She's interrupted by the Grand Basilisk's Chief Aide, "To the alien vessel holding the Basilisk's wife. Deliver her to us. You will be rewarded... well."</text>
+			<text>도착할 때가 되었다는 사실을 깨닫자, 지금까지도 조용하게 있던 승객은 제발 신랑에게 보내지 말아 달라고 간청합니다. 그녀의 애원은 위대한 바실리스크 우두머리의 보좌관에 의해 중단됩니다. "바실리스크 님의 신부를 데리고 있는 외계인 함선에 고하오. 신부를 넘기기 바라오. 대가는... 잘 치러 주겠소이다."</text>
 			<choice hidden="true">
-				<text>Hand her over.</text>
+				<text>신부를 넘긴다.</text>
 				<event>
-					<text>"May your children erode into dust!" she screams as she's bundled into the waiting shuttle. The Rock guards on board hurriedly drop off an exotic piece of technology and return to the Grand Basilisk.</text>
+					<text>"너희 같은 놈들은 삼대가 모조리 갈려 죽어버려야 해!" 신부는 대기하고 있던 셔틀로 끌려가며 울부짖습니다. 승선한 암석 경호원들은 서둘러 이국적인 선박에서 떨어졌고 위대한 바실리스크에게 돌아갔습니다.</text>
 					<augment name="RANDOM"/>
 					<autoReward level="LOW">scrap_only</autoReward>
 				</event>					
 			</choice>
 			<choice hidden="true">
-				<text>Refuse to comply.</text>
+				<text>따르는 것을 거절한다.</text>
 				<event>
-					<text>"I was led to believe your kind did not know mercy. I will join you, but quickly, we must jump away - they will not tolerate..." She's interrupted by weapons fire from the Basilisk's escort!</text>
+					<text>"당신들 종족은 자비가 무엇인지 모른다 생각했는데. 당신들에게 합류하겠소. 하지만 서둘러야 할것이외다, 저들은 관용따위를 모르니 황급히 도약해야..." 그녀의 말은 바실리스크의 호위함들이 퍼붓는 맹공의 소리에 끊겼습니다!</text>
 					<crewMember amount="1" class="rock">Ariadne</crewMember>  
 					<ship load="ROCK_QUEST_MARRIAGE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2341,12 +2341,12 @@
 <event name="ROCK_BOARDERS_SHIP" unique="true">
 	<text load="ROCK_BOARDERS_SHIP"/>	
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Don't let them get on board!</text>
+		<text>(텔레포터 교란장치) 놈들을 승선시키게 하지 마라!</text>
 		<event>
-			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
+			<text>락맨들을 텔레포터 잠금을 풀 수 없었고 대신 짐승 같은 힘으로 공격하기로 결심합니다.</text>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2354,7 +2354,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2396,17 +2396,17 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>We've been boarded!</text>
+			<text>우린 강습당했다!</text>
 			<boarders min="1" max="3" class="rock"/>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2449,20 +2449,20 @@
 	</choice>
 </event>
 <textList name="ROCK_BOARDERS_SHIP">
-	<text>You passively scan a small Rock station that is next to the beacon, however they must not have appreciated your curiosity. A Rock ship pulls away from the station and you register an incoming teleporter signal as well!</text>
-	<text>You find a Rock ship docked with a damaged Mantis fighter. Before you have a chance to hail them, the ship moves in to attack you and you register teleporter symbols from the disabled ship. They're using Mantis tech to board you!</text>
+	<text>당신은 조심스럽게 송신소 옆의 소형 락맨 정거장을 탐색합니다. 그들은 당신의 호기심을 달가워하지 않습니다. 락맨 함선이 정거장에서 나오는 것과 동시에 당신의 함선을 향해 발사된 텔레포터 신호도 감지됩니다!</text>
+	<text>당신은 손상된 맨티스 전투함과 락맨 함선이 도킹해있는 것을 발견합니다. 통신을 연결할 틈도 없이, 락맨 함선이 공격하기 시작하면서 손상된 함선에서 텔레포트 신호가 감지됩니다. 그들은 맨티스 기술을 이용해 침투하고 있습니다!</text>
 </textList>
 
 <event name="ROCK_BOARDERS_ASTEROID" unique="true">
 	<text load="ROCK_BOARDERS_ASTEROID"/>	
 	<environment type="asteroid"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Don't let them get on board!</text>
+		<text>(텔레포터 교란장치) 놈들을 승선시키게 하지 마라!</text>
 		<event>
-			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
+			<text>락맨들을 텔레포터 잠금을 풀 수 없었고 대신 짐승 같은 힘으로 공격하기로 결심합니다.</text>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2508,17 +2508,17 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>A loud clunk reverberates through the ship. At first you think the hull has been hit but the noise came from some Rock intruders teleporting aboard the ship!</text>
+			<text>요란한 쿵쿵 소리가 배 안에 울려 퍼집니다. 처음에 당신은 선체가 부딪혔다고 생각했지만, 그 소음은 선상으로 순간이동하는 몇몇 암석 침입자들에게 들려왔습니다!</text>
 			<boarders min="1" max="2" class="rock"/>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2561,20 +2561,20 @@
 	</choice>
 </event>
 <textList name="ROCK_BOARDERS_ASTEROID">
-	<text>You arrive in an asteroid field and immediately begin evasive maneuvers. The ship AI warns you about several medium size asteroids on a direct collision course. There is an incoming teleporter signal as well.</text>
-	<text>Your shields are being taxed as the they deflect the debris from an asteroid field. As you weave your way between the rocks you happen upon a Rock pirate stronghold. You register teleport signatures.</text>
+	<text>소행성 지대에 도착해서 큰 소리가 함선 전체에 울려퍼지는 것을 듣고 회피 기동을 실시합니다. 선박 AI는 당신에게 중간 크기의 몇몇 소행성들이 직접 충돌 코스에 있다고 경고합니다. 또한 들어오는 텔레포터 신호도 있습니다.</text>
+	<text>함선의 방어막은 소행성 지대의 잔해를 방어하는데 집중되고 있습니다. 암석들 사이로 빠져나가는 중에 락맨 해적 근거지를 발견합니다. 당신 텔레포터 신호를 눈치챕니다.</text>
 </textList>
 
 <event name="ROCK_BOARDERS_SUN" unique="true">
 	<text load="ROCK_BOARDERS_SUN"/>	
 	<environment type="sun"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Don't let them get on board!</text>
+		<text>(텔레포터 교란장치) 놈들을 승선시키게 하지 마라!</text>
 		<event>
-			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
+			<text>락맨들을 텔레포터 잠금을 풀 수 없었고 대신 짐승 같은 힘으로 공격하기로 결심합니다.</text>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2620,9 +2620,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>You hear the telltale sounds of a teleporter and hollow shouts, "Prepare to burn, fleshy meat-sack aliens!" A detonations in the engine room resonates through the entire ship. The Rock must have teleport bombs and breaching equipment as well. You order your crew to fend off the boarders and seize their supplies.</text>
+			<text>당신은 숨길 수 없는  텔레포터의 소리와 공허한 외침을 듣습니다, "불탈 준비하시오, 살찐 고기 주머니 외계인들이어!" 엔진실의 폭발음이 배 전체에 울려 퍼집니다. 락맨은 순간이동 폭탄과 균열 장비 역시 가지고 있었습니다. 당신은 승무원들에게 강습자들을 막아내고 물자를 압수하라 명령합니다.</text>
 			<autoReward level="MED">standard</autoReward>
 			<damage amount="2" system="engines" effect="fire"/> 
 			<boarders min="2" max="3" class="rock"/>
@@ -2630,16 +2630,16 @@
 	</choice>
 </event>
 <textList name="ROCK_BOARDERS_SUN">
-	<text>As soon as you arrive the ship's computer puts a temperature warning on the vidscreen. Hostile teleporter targeting has been detected as well.</text>
-	<text>With their high resistance to heat, outlaw Rocks often settle very close to stars. That is why it is hardly surprising when your ship detects a teleporter signal as you stumble past a hidden settlement.</text>
+	<text>당신이 도착하자마자 선박 컴퓨터는 온도 경고를 화면에 띄웁니다. 적 텔레포터 조준 역시 감지됩니다.</text>
+	<text>열에 대한 강한 저항력 덕분에 락맨 무법자들은 많은 경우 항성 주위에 자리를 잡습니다. 그렇기에 우연히 발견한 락맨 거주지를 지나는 중에 침투자들이 들어와도 별로 놀랍지 않습니다.</text>
 </textList>
 
 <event name="ROCK_UNLOCK2">
-	<text>You arrive at the coordinates given and find yourself dangerously close to an M-class star! The other ship messages you, "Let's see how long your puny ship can handle this heat! Prepare for a challenge!"</text>
+	<text>락맨이 준 좌표에 가보니 위험할 정도로 적색 왜성에 가까운 장소였습니다! 다른 함선에서 통신이 들어옵니다. "당신들의 약해빠진 함선이 이 열기에 얼마나 버틸 수 있는지 봅시다! 각오 단단히 하시오!"</text>
 	<environment type="sun"/>
 	<ship load="ROCK_UNLOCK2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2682,23 +2682,23 @@
 
 
 <event name="ROCK_STARSHIP_MINE" unique="true">
-	<text>The burnt out hull of a Rock mine layer drifts by. Behind the wreck drifts a live mine; an automated drone that drills into ships' hulls before exploding. It locks onto your ship's signature and heads your way!</text>
+	<text>불타버린 락맨 함선이 기뢰지대 주변을 표류하고 있습니다. 함선의 선체에 구멍을 뚫고 들어가 폭발하는 자동화 드론이 난파선 후방에서 아직 작동하고 있습니다. 드론이 당신 함선의 신호를 포착하고 다가오고 있습니다!</text>
 	<choice hidden="true">
-		<text>Attempt evasive maneuvers.</text>
+		<text>회피 기동을 시도한다.</text>
 		<event>
-			<text>The ship's turning circle proves too wide and the mine bites down onto the hull. You can hear it now, chewing through the armor.</text>
+			<text>선회 반경이 너무 넓어서 기뢰가 선체에 달라붙었습니다. 장갑을 뚫고 있는 소리가 들립니다.</text>
 			<choice hidden="true">
-				<text>Send someone out there to defuse it.</text>
+				<text>누군가를 내보내서 해체를 시도합니다.</text>
 				<event load="ROCK_STARSHIP_MINE_DEFUSE"/>
 			</choice>
 			<choice hidden="true" req="O2_MASKS"> <!--JUSTIN - TO DO - Missile weapons-->
-				<text>(Adaptive Gel Suits) Have your crew suit up before sending them out to deal with the mine.</text>
+				<text>(적응형 젤 슈트) 기뢰를 처리하기 전에 승무원에게 슈트를 입힙니다.</text>
 				<event load="ROCK_STARSHIP_MINE_DEFUSE"/>
 			</choice>
 			<choice hidden="true" req="WEAPONS_MISSILES"> <!--JUSTIN - TO DO - Missile weapons-->
-				<text>(Missile Weapon) Attempt a controlled detonation using a missile.</text>
+				<text>(미사일 무기) 미사일을 사용해 폭발 제어를 시도합니다.</text>
 				<event>
-					<text>After drawing straws, a crew member goes out to fix a modified warhead to the mine. You detonate the missile in a way that dislodges it and it blows up shortly after. The ship takes some damage in the blasts, but you're still sailing.</text>
+					<text>제비뽑기에서 뽑힌 승무원은 나가서 기뢰에 조정해놓은 탄두를 부착합니다. 당신은 미사일을 기폭시켜서 함선에서 떨어지게 합니다. 잠시 후 기뢰가 폭발하면서 함선도 피해를 입지만 항해에는 문제가 없습니다.</text>
 					<damage amount="3"/>
 					<damage amount="1" system="random"/>  <!--DLC-->
 					<item_modify>
@@ -2708,9 +2708,9 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="DRONES_BEAM">
-				<text>(Beam Drone) Use a drone to cut away the mine with a precision beam.</text>
+				<text>(빔 드론) 드론의 빔을 이용해 정밀하게 기뢰를 제거한다.</text>
 				<event>
-					<text>Carefully guided from the bridge, your beam drone removes the mine's grappling arms and sends it drifting off into space, where you shoot at it until it detonates at a safe distance.</text>
+					<text>빔 드론이 함교에서 보내는 지시에 따라 조심스럽게 기뢰의 갈고리 팔을 잘라냅니다. 당신은 기뢰가 우주 저편으로 떠내려 간 후에 안전한 거리에서 기폭시킵니다.</text>
 					<item_modify>
 						<item type="drones" min="-1" max="-1"/>
 					</item_modify>
@@ -2720,15 +2720,15 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="engines" lvl="5">
-		<text>(Improved Engines) Reverse thrusters!</text>
+		<text>(향상된 엔진) 추진기 역뱡향 가동!</text>
 		<event>
-			<text>It stresses the inertial dampeners, but you reverse course and outrun the mine. You prepare to jump off.</text>
+			<text>관성 감쇠기에 부담을 주긴 했지만 경로를 전환해 기뢰를 피했습니다. 도약 준비를 합니다.</text>
 		</event>
 	</choice>
 	<choice req="DE_DRONE_DEFENSE_MINESWEEPER" hidden="true">
-		<text>(Ion Defense Drone) Use your minesweeper drone to safely disable the device. [ Drone Parts: -1 ]</text>
+		<text>(이온 방어 드론) 기뢰 제거 드론을 사용하여 기뢰를 안전하게 비활성화합니다. [ 드론 부품: -1 ]</text>
 		<event>
-			<text>The drone heads towards the mine and hits it with a pinpoint ion blast. The device shuts down and you take it apart for scrap.</text>
+			<text>드론이 기뢰 쪽으로 향하더니 정확한 이온 블래스트를 명중시킵니다. 기뢰는 꺼지고 당신은 스크랩으로 분해합니다.</text>
 			<item_modify>    
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>	
@@ -2736,15 +2736,15 @@
 		</event>
 	</choice>
 	<choice req="FTL_JUMPER" hidden="true"> 
-		<text>(Advanced Navigation AI) Let the navigation AI take over.</text>
+		<text>(고급 항법 AI) 항법 AI에게 인계합니다.</text>
 		<event>
-			<text>Your navigation AI confuses the mine with a complex set of randomized maneuvers. You manage to get out of its homing range and prepare to jump away.</text>
+			<text>당신의 항법 AI는 기뢰를 복잡한 무작위 기동으로 혼란시킵니다. 당신은 간신히 기뢰의 유도 범위를 벗어났고 도약할 준비합니다.</text>
 		</event>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Remotely activate the mines safety protocols.</text>
+		<text>(기뢰무기) 원격으로 기뢰 안전 프로토콜을 작동시킵니다.</text>
 		<event>
-			<text>The mine deactivates in the last second and harmlessly bumps against your ship's hull. Everyone on board sights with relief. You take the device apart for scrap.</text>
+			<text>기뢰는 마지막 순간 작동이 중지되었고 함선의 선체에 위험없이 부딪힙니다. 승선한 모든 이들은 안심하게 구경합니다. 당신은 기뢰를 스크랩으로 분해합니다.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 		</event>
 	</choice>
@@ -2752,28 +2752,28 @@
 
 <eventList name="ROCK_STARSHIP_MINE_DEFUSE_SUITED_UP">
 	<event>
-		<text>Your crewmember dons the seals the gel suit and exits the airlock. They make quick work of the basic device and return inside to relief all round. The mine makes good scrap pickings too.</text>
+		<text>승무원은 젤 슈트를 입고 감압실을 나섭니다. 기뢰의 기본 장치를 빠르게 처리하고 돌아와서 모두를 안심시킵니다. 기뢰는 좋은 스크랩 자원입니다.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your crewmember seals the gel suit and exits the airlock. When they open up the mine housing, though, they panic. The red wire or the blue?! 3... 2... 1...</text>
+		<text>승무원은 젤 슈트를 입고 감압실을 나섭니다. 그러나 기뢰의 덮개을 열고 나서 혼란에 빠집니다. 빨간 선이야 파란 선이야?! 3...2...1...</text>
 		<choice hidden="true">
-			<text>Red!</text>
+			<text>빨간색!</text>
 			<event load="ROCK_STARSHIP_MINE_DEFUSE2_SUITED_UP"/>
 		</choice>
 		<choice hidden="true">
-			<text>Blue!</text>
+			<text>파란색!</text>
 			<event load="ROCK_STARSHIP_MINE_DEFUSE2_SUITED_UP"/>
 		</choice>
 	</event>
 </eventList>
 <eventList name="ROCK_STARSHIP_MINE_DEFUSE2_SUITED_UP">
 	<event>
-		<text>You open your eyes and everything is still where it was a moment ago. You did it!</text>
+		<text>당신은 눈을 뜹니다. 모든 것이 방금 전 그대로입니다. 당신은 해냈습니다!</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>The weapon detonates. While the bridge is illuminated by flames pouring from the hull, your bomb disposal volunteer struggles to stabilize their trajectory. They manage to return to the ship badly bruised and only on emergency energy, but their advanced environmental suit saved them. You put out the fires and prepare to move on.</text>
+		<text>폭탄이 터지고 모든 것이 어둠에 잠깁니다. 선체에 넘쳐흐르는 화염으로 함교가 빛나는 동안, 폭탄 처리를 자원한 승무원은 궤적을 안정시키기 위해 애씁니다. 그는 심하게 멍들고 오직 비상 에너지로만 배로 귀환할 수 있엇지만, 고급 환경 슈트가 그를 구했습니다. 당신은 화재를 진압하고 나아갈 준비합니다.</text>
 		<damage amount="5"/>
 		<damage amount="1" system="room" effect="breach"/>  <!--DLC-->
 	</event>
@@ -2785,7 +2785,7 @@
 <event name="CE_ROCK_BLACKHOLE_FREE_STUFF" unique="true">
 	<text load="CE_ROCK_BLACKHOLE_NOTHING_TEXT"/>
 	<choice req="FTL_JUMPER" hidden="true">
-		<text>(Advanced Navigation AI) Take quick evasive action.</text>
+		<text>(고급 항법 AI) Take quick evasive action.</text>
 		<event>
 			<text>Your navigation AI automatically throws the ship back into higher space before it comes to a full stop near the anomaly. This saves you from getting stuck here.</text>
 		</event>
@@ -2797,7 +2797,7 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text load="CE_ROCK_BLACKHOLE_STUFF_SHIP_TEXT"/>
 			<modifyPursuit amount="1"/>
@@ -2826,7 +2826,7 @@
 <event name="CE_ROCK_BLACKHOLE_SHIP" unique="true">
 	<text load="CE_ROCK_BLACKHOLE_SHIP_TEXT"/>
 	<choice req="FTL_JUMPER" hidden="true">
-		<text>(Advanced Navigation AI) Take quick evasive action.</text>
+		<text>(고급 항법 AI) Take quick evasive action.</text>
 		<event>
 			<text>Your navigation AI automatically throws the ship back into higher space before it comes to a full stop near the anomaly. This saves you from getting stuck here.</text>
 		</event>
@@ -2838,7 +2838,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text load="CE_ROCK_BLACKHOLE_SHIP_BATTLE_TEXT"/>
 			<modifyPursuit amount="1"/>
@@ -2847,7 +2847,7 @@
 			</item_modify>
 			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2855,7 +2855,7 @@
 			<event load="CE_PLAYER_SURRENDER_ZOLTAN"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2913,7 +2913,7 @@
 	<text load="ROCK_PIRATE"/>
 	<ship load="ROCK_PIRATE_ESCAPE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -2921,7 +2921,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2971,11 +2971,11 @@
 			<text>This guy need to be taught a lesson! You charge weapons and hope that you have enough firepower to penetrate the thick hull of the Rock station.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3017,7 +3017,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="rock">
-		<text>(Rock Crew) Have your Rock crew member pose as Captain and let them execute a traditional Rock collision-greeting [ Hull Damage: 2 ].</text>
+		<text>(락맨 승무원) Have your Rock crew member pose as Captain and let them execute a traditional Rock collision-greeting [ 선체 손상: 2 ].</text>
 		<event>
 			<text>Your Rock crew member takes the helm and rams the ship directly into the station, using medium engine power and little dignity. The station's armor-plating is barely scratched but your front hull takes some dents. A Rock officer addresses your crew member via vid-comm, "You command this alien vessel? We have to acknowledge that your greeting was executed in the most traditional and honorable way. We shall give you permission to dock."</text>
 			<damage amount="2"/>
@@ -3027,13 +3027,13 @@
 				<event load="TE_STORE_ROCK_LIST"/>
 			</choice>
 			<choice req="AE_TRADE_BOOSTER" hidden="true">
-				<text>(Cargo Teleporter) Prepare to quickly transfer cargo and contact the trader.</text>
+				<text>(화물 전송기) 화물을 신속히 이송할 준비하며 상인과 접촉합니다.</text>
 				<event load="TE_STORE_ROCK_LIST_BOOSTED"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) Negotiating to have the Rock traders make an exception for you.</text>
+		<text>(졸탄 함선) 락맨 상인들에게 당신을 위한 예외를 두도록 협상합니다.</text>
 		<event>
 			<text>Good words and a little scrap sometimes help.</text>
 			<item_modify>
@@ -3044,7 +3044,7 @@
 				<event load="TE_STORE_ROCK_LIST"/>
 			</choice>
 			<choice req="AE_TRADE_BOOSTER" hidden="true">
-				<text>(Cargo Teleporter) Prepare to quickly transfer cargo and contact the trader.</text>
+				<text>(화물 전송기) 화물을 신속히 이송할 준비하며 상인과 접촉합니다.</text>
 				<event load="TE_STORE_ROCK_LIST_BOOSTED"/>
 			</choice>
 			<store/>
@@ -3076,7 +3076,7 @@
 			<environment type="asteroid"/>
 			<ship load="BS_ROCK_COLONY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3118,7 +3118,7 @@
 		</event>
 	</choice>
 	<choice req="ROCK_ARMOR" hidden="true">
-		<text>(Rock Ship) Demand tribute.</text>
+		<text>(락맨 함선) Demand tribute.</text>
 		<event>
 			<text>The colonists become quite docile when learning that you command a Rock military vessel. They would never think of disobeying orders from someone that must be holding imperial authority. A fine assortment of supplies is presented to you.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -3140,7 +3140,7 @@
 	<text load="BS_EVENT_ROCK_OUTPOST_TEXT"/>
 	<ship load="BS_ROCK_OUTPOST" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3148,7 +3148,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3199,7 +3199,7 @@
 	<text load="BS_EVENT_ROCK_OUTPOST_ASTEROID_TEXT"/>
 	<ship load="BS_ROCK_OUTPOST" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3254,7 +3254,7 @@
 	<text load="BS_EVENT_ROCK_OUTPOST_SUN_TEXT"/>
 	<ship load="BS_ROCK_OUTPOST_NO_SURRENDER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3308,7 +3308,7 @@
 <event name="CE_ROCK_MILITARY">
 	<text load="CE_ROCK_MILITARY_TEXT"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CE_ROCK_MILITARY_LIST"/>
 	</choice>
 </event>
@@ -3322,7 +3322,7 @@
 		<text>The ship's computer rates the Rock vessel as a significant threat. This will be a tough one.</text>
 		<ship load="CE_ROCK_MILITARY_CRUISER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3330,7 +3330,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3374,7 +3374,7 @@
 		<text>The ship's computer rates the Rock vessel as "a significant threat." This will be a tough one.</text>
 		<ship load="CE_ROCK_MILITARY_RAMSHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3382,7 +3382,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3532,11 +3532,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="crystal">
-		<text>(Crystal Crew) Inquire what this is.</text>
+		<text>(크리스탈 승무원) Inquire what this is.</text>
 		<event>
 			<text>Your Crystalline companion says, "Amazing. It looks like we have found on of the abandoned links to my home worlds. I did not even know this one was here. It is in a bad state, but I can try to reactivate it."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="ROCK_CRYSTAL_BEACON_RANDOM_LIST"/>
 			</choice>
 		</event>
@@ -3574,7 +3574,7 @@
 	<text load="CE_PDS_ROCK_TEXT"/>
 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CE_PDS_ROCK_LIST"/>
 	</choice>
 </event>
@@ -3589,7 +3589,7 @@
 		<text>Soon, a garrison ship races towards you. The Rock will likely target your ship with their long-range planetary artillery if you don't get away in time.</text>
 		<ship load="CE_SPOTTER_ROCK_ARTILLERY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3597,7 +3597,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3645,7 +3645,7 @@
 	<img planet="NONE" back="BG_WARNING_MINES"/>
 	<text planet="NONE" back="BG_WARNING_MINES">Shortly before you jump in, the computer already warns you of mines ahead. A Rock military ship sends a long-range hail. "This area is off-limits, even for our kind. You foreign spies will be executed on the spot!" A Rock minelayer is approaching.</text>
 	<choice req="WEAPONS_MINES" hidden="true"> 
-		<text>(Minelauncher) Deactivate the mines from afar.</text>
+		<text>(기뢰무기) Deactivate the mines from afar.</text>
 		<event>
 			<text>Your minelauncher remotely activates the Rock safety protocols. The minefield is disarmed and you can even take some of the explosives aboard. This might come in handy. The Rock are shocekd by the ineffectiveness of their defensive measures. They decide to engage you in direct combat.</text>
 		<item_modify>
@@ -3653,7 +3653,7 @@
 		</item_modify>
 		<ship load="CE_MINELAYER_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3661,7 +3661,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3703,12 +3703,12 @@
 		</event>
 	</choice>
 	<choice req="FTL_JUMPER" hidden="true"> 
-		<text>(Advanced Navigation AI) Plot a safe course through the field.</text>
+		<text>(고급 항법 AI) Plot a safe course through the field.</text>
 	<event>
 		<text>Your navigation computer calculates a complex course that lets you avoid triggering any mines, but the minelayer class still comes after you.</text>
 		<ship load="CE_MINELAYER_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3716,7 +3716,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3758,12 +3758,12 @@
 	</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 	<event>
 		<text>You try to slowly maneuver out of the field, but are intercepted by the Rock ship. A few of the mines have been triggered, but maybe you can escape before they home in on your ship?</text>
 		<ship load="CE_MINELAYER_ROCK_HAZARD" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3771,7 +3771,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3822,7 +3822,7 @@
 	<ship load="PIRATE_SMOG_ROCK" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="5"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3830,7 +3830,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다.  [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3881,12 +3881,12 @@
 	<text load="NEBULA_ROCK_ACID_TEXT"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<choice req="ROCK_ARMOR" hidden="true">
-		<text>(Rock Plating) Polarize the ceramic underlayer.</text>
+		<text>(암석 장갑) Polarize the ceramic underlayer.</text>
 		<event>
 			<text>Fortunately, the advanced armor-plating provides ample protection against the caustic environment. As you wait for the FTL to charge, a Rock pirate closes in. This vessel is well protected against the hazard, just like your own ship.</text>
 			<ship load="PIRATE_ACID_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3894,7 +3894,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다.  [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3936,13 +3936,13 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text load="NEBULA_ROCK_ACID_PIRATE_TEXT"/>
 			<damage amount="1"/>
 			<ship load="PIRATE_ACID_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -3950,7 +3950,7 @@
 			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주 스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다.  [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4014,7 +4014,7 @@
 	<text load="ROCK_CRYSTAL_TEXT"/>
 	<ship load="ROCK_CRYSTAL_DIPLOMATE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
@@ -4022,7 +4022,7 @@
 			<event load="CE_PLAYER_SURRENDER_ROCK"/>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Have your Crystal crewmen negotiate a free passage.</text>
+			<text>(크리스탈 승무원) Have your Crystal crewmen negotiate a free passage.</text>
 			<event>
 				<text>The Rock must be disappointed. With the Crystal aboard your ship, they cannot attack you without risking a minor diplomatic crisis. Their new allies would be upset. They send over a symbolic amount of scrap as a badly faked sign of goodwill and mockingly wish you a safe journey through their sector.</text>
 				<ship hostile="false"/>
@@ -4030,11 +4030,11 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 이 사람들은 여전히 전투를 피하기 위해 이성을 가질지도 모릅니다.</text>
 			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4090,7 +4090,7 @@
 			<event load="ROCK_CRYSTAL_DIPLOMAT_MEETING"/>
 		</choice>
 		<choice req="crystal" hidden="true">
-			<text>(Crystal Crew) Have your Crystal crewmen greet the envoy.</text>
+			<text>(크리스탈 승무원) Have your Crystal crewmen greet the envoy.</text>
 			<event>
 				<text>The crystal beings converse in their native resonance language. After a while, the envoy addresses you again: "This is all most interesting, Captain. You should really visit our home world. Uncovering the ancient gateways that lead to it from this sector is one part of my mission here. Please allow me to send one of my disciples with you. This might aid both of us in our endeavor."</text>
 				<crewMember amount="1" class="crystal">Piece</crewMember>
@@ -4109,11 +4109,11 @@
 			<text>"This is a most tragic development. Although I have to admit that I have started to enjoy military engagements during the time spend with my ancient sons and daughters. I will give you, what they call 'a honorable death.'" The envoy ship activates its weapon clusters.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4167,11 +4167,11 @@
 				<boarders min="1" max="2" class="rock"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4, 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -4223,7 +4223,7 @@
 	<event>
 		<text>You meet the envoy in person and discuss the current state of the galaxy. "There is so little understanding between our ancient children and the Federation. We have revealed ourself to the Rock, because some of them follow an ill-fated path." The figure uncovers its head, showing its crystalline face. "Maybe it is time that we reveal ourself to you as well."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>"I would like to travel with the Federation and learn more about it. But there is more: Hidden wormholes in Rock territory and the Rock home-worlds. Locating these is a part of my mission here. Perhaps you can take me to this sectors; in the end you might even be able to visit our realm and learn about our ways."</text>
 				<crewMember amount="1" class="crystal">Wutz</crewMember>
@@ -4242,11 +4242,11 @@
 <event name="STORE_ROCK">
 	<text load="STORE_ROCK"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 화물을 신속히 이송할 준비를 하고 상품을 살펴봅니다.</text>
 		<event load="TE_STORE_ROCK_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TE_STORE_ROCK_LIST"/>
 	</choice>
 	<store/>
@@ -4265,9 +4265,9 @@
 	<event load="TE_STORE_ROCK_ACTUAL"/>
 	<event load="TE_STORE_ROCK_ACTUAL"/>
 	<event>
-		<text>Upon docking you discover that this trader has access to a cargo teleporter. You will be able to make a quick deal here.</text>
+		<text>도킹할 때 당신은 이 상인이 화물 전송기에 접속할 수 있다는 것을 알았습니다. 당신은 이곳에서 거래를 신속하게 할 수 있을 겁니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="TE_STORE_ROCK_LIST_BOOSTED"/>
 		</choice>
 	</event>
@@ -4275,10 +4275,10 @@
 
 <eventList name="TE_STORE_ROCK_ACTUAL">
 	<event>
-		<text>You consider dealing with the Rockmen. This might take some time.</text>
+		<text>당신은 상인과 거래하는 것을 좀 더 고려합니다. 아마 좀 더 시간이 걸릴 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy a load of raw ore.</text>
+			<text>적재할 소행성 원석을 삽니다.</text>
 			<event>
 				<text load="STORE_ROCK_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -4289,7 +4289,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy some reject hull parts.</text>
+			<text>불합격 처리된 선체 패널 부품을 삽니다.</text>
 			<event>
 				<text load="STORE_ROCK_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -4300,7 +4300,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy exotic religious scripts.</text>
+			<text>이국적인 종교 원서를 삽니다.</text>
 			<event>
 				<text load="STORE_ROCK_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -4314,11 +4314,11 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
 			<!-- best deal-->
-			<text>As you show them your cargo the Rockmen are amazed. "Do you even know what that is? Sell it to us, now!" [Sell Crystal Artifacts for about 140 Scrap]</text>
+			<text>당신이 그들에게 화물을 보여주자 락맨들이 경악합니다. "그게 뭔지 아시오? 당장, 우리에게 파시오!" [크리스탈족 유물을 대략 140 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4331,11 +4331,11 @@
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
 			<!-- best deal-->
-			<text>Nebula are rare in Rock space. The Rockmen still need Gas to produce FTL fuel and pay accordingly. [Sell Compressed Nebula Gas for about 85 Scrap]</text>
+			<text>성운은 락맨 우주에서 굉장히 드뭅니다. 락맨은 FTL 연료를 생산하기 위해선 여전시 가스가 필요했고 그에 따른 비용을 지불하고자 합니다. [압축 성운 가스를 대략 85 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4348,11 +4348,11 @@
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
 			<!-- best deal-->
-			<text>The Rock bluntly inform you, "We scanned your ship and discovered good machinery in your cargo hold. We want them." [Sell Industrial Machinery for about 70 Scrap]</text>
+			<text>락맨은 당신에게 단도직입적으로 알려줍니다, "우린 당신 배를 스캔했고 당신 화물칸에서 좋은 기계들을 발견했소. 우린 그것들을 원하외다." [산업용 기계를 대략 70 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4365,11 +4365,11 @@
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
 			<!-- best deal-->
-			<text>The Rock trade chief contacts you personally: "I see that you carry ceremonial earths. We will pay adequately." [Sell Rare Elements for about 130 Scrap]</text>
+			<text>락맨 무역 책임자는 개인적으로 당신에게 연락합니다. "당신은 의례용 흙을 가지고 다니구요. 우린 충분한 대가를 지불할 거요." [희귀 원소를 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4382,11 +4382,11 @@
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
 			<!-- best deal-->
-			<text>The Rock see polymers as quite an exotic material. You could actual sell that trash for a good price here. [Sell Plastic Items for about 70 Scrap]</text>
+			<text>락맨은 고분자 물질을 상당히 이색적인 소재로 여깁니다. 당신은 이 쓰레기를 여기서 좋은 가격에 팔 수 있습니다. [플라스틱 제품을 대략 70 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4402,7 +4402,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4418,7 +4418,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4434,7 +4434,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4450,7 +4450,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4466,7 +4466,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4482,7 +4482,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4498,7 +4498,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4514,7 +4514,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4530,7 +4530,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4546,7 +4546,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4562,7 +4562,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4578,7 +4578,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4594,7 +4594,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4610,7 +4610,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4626,7 +4626,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4642,7 +4642,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4658,7 +4658,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4674,7 +4674,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4690,7 +4690,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4706,7 +4706,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4722,7 +4722,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4738,7 +4738,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4754,7 +4754,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4771,7 +4771,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4787,7 +4787,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4803,7 +4803,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4819,7 +4819,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4835,7 +4835,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4851,7 +4851,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4867,7 +4867,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4883,7 +4883,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4899,7 +4899,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4915,7 +4915,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4931,7 +4931,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4947,7 +4947,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4963,7 +4963,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4979,7 +4979,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4995,7 +4995,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5011,7 +5011,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5027,7 +5027,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5043,7 +5043,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5059,7 +5059,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5075,7 +5075,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5091,7 +5091,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5107,7 +5107,7 @@
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5139,10 +5139,10 @@
 
 <eventList name="TE_STORE_ROCK_LIST_BOOSTED">
 	<event>
-		<text>You consider dealing with the Rockmen. Goods will be exchanged in no time.</text>
+		<text>당신은 락맨과 거래하는 것을 고려합니다. 물건은 신속히 교환될 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy a load of raw ore.</text>
+			<text>적재할 소행성 원석을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -5152,7 +5152,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy some reject hull parts.</text>
+			<text>불합격 처리된 선체 패널 부품을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -5162,7 +5162,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy exotic religious scripts.</text>
+			<text>이국적인 종교 원서를 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -5174,11 +5174,11 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_CRYSTAL_ARTIFACTS" hidden="true">
 			<!-- best deal-->
-			<text>As you show them your cargo the Rockmen are amazed. "Do you even know what that is? Sell it to us, now!" [Sell Crystal Artifacts for about 140 Scrap]</text>
+			<text>당신이 그들에게 화물을 보여주자 락맨들이 경악합니다. "그게 뭔지 아시오? 당장, 우리에게 파시오!" [크리스탈족 유물을 대략 140 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5190,11 +5190,11 @@
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
 			<!-- best deal-->
-			<text>Nebula are rare in Rock space. The Rockmen still need Gas to produce FTL fuel and pay accordingly. [Sell Compressed Nebula Gas for about 85 Scrap]</text>
+			<text>성운은 락맨 우주에서 굉장히 드뭅니다. 락맨은 FTL 연료를 생산하기 위해선 여전시 가스가 필요했고 그에 따른 비용을 지불하고자 합니다. [압축 성운 가스를 대략 85 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5206,11 +5206,11 @@
 		</choice>
 		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
 			<!-- best deal-->
-			<text>The Rock bluntly inform you, "We scanned your ship and discovered good machinery in your cargo hold. We want them." [Sell Industrial Machinery for about 70 Scrap]</text>
+			<text>락맨은 당신에게 단도직입적으로 알려줍니다, "우린 당신 배를 스캔했고 당신 화물칸에서 좋은 기계들을 발견했소. 우린 그것들을 원하외다." [산업용 기계를 대략 70 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5222,11 +5222,11 @@
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
 			<!-- best deal-->
-			<text>The Rock trade chief contacts you personally: "I see that you carry ceremonial earths. We will pay adequately." [Sell Rare Elements for about 130 Scrap]</text>
+			<text>락맨 무역 책임자는 개인적으로 당신에게 연락합니다. "당신은 의례용 흙을 가지고 다니구요. 우린 충분한 대가를 지불할 거요." [희귀 원소를 대략 130 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5238,11 +5238,11 @@
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
 			<!-- best deal-->
-			<text>The Rock see polymers as quite an exotic material. You could actual sell that trash for a good price here. [Sell Plastic Items for about 70 Scrap]</text>
+			<text>락맨은 고분자 물질을 상당히 이색적인 소재로 여깁니다. 당신은 이 쓰레기를 여기서 좋은 가격에 팔 수 있습니다. [플라스틱 제품을 대략 70 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5257,7 +5257,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5272,7 +5272,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5287,7 +5287,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5302,7 +5302,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5317,7 +5317,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5332,7 +5332,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5347,7 +5347,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5362,7 +5362,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5377,7 +5377,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5392,7 +5392,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5407,7 +5407,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5422,7 +5422,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5437,7 +5437,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5452,7 +5452,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5467,7 +5467,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5482,7 +5482,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5497,7 +5497,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5512,7 +5512,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5527,7 +5527,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5542,7 +5542,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5557,7 +5557,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5572,7 +5572,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5588,7 +5588,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5603,7 +5603,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5618,7 +5618,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5633,7 +5633,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5648,7 +5648,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5663,7 +5663,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5678,7 +5678,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5693,7 +5693,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5708,7 +5708,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5723,7 +5723,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5738,7 +5738,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5753,7 +5753,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5768,7 +5768,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5783,7 +5783,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5798,7 +5798,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5813,7 +5813,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5828,7 +5828,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5843,7 +5843,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5858,7 +5858,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5873,7 +5873,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5888,7 +5888,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5903,7 +5903,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -5911,7 +5911,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just check the available ship equipment.</text>
+			<text>그저 사용할 수 있는 선박 장비만 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
