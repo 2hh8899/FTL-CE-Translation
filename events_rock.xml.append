@@ -219,7 +219,7 @@
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="HIGH">standard</autoReward>
-			<text>당신 선원은 외교선에 승선한 크리스탈 사절과 대화할 것을 요청합니다. 이상한 존재들은 그들의 이상한 공명 언어로 긴 대화를 나눕니다. 그 후, 크리스탈 승무원은 이 사건이 연방-크리스탈 관계에 어떤 장애도 일으키지 않을 것이라고 알려드립니다. 크리스탈 사절은 바위의 이름으로 사과하고, 또한 보급품이 든 상자를 보냅니다.</text>
+			<text>당신 선원은 외교선에 승선한 크리스탈 사절과 대화할 것을 요청합니다. 이상한 존재들은 그들의 이상한 공명 언어로 긴 대화를 나눕니다. 그 후, 크리스탈 승무원은 이 사건이 연방-크리스탈 관계에 어떤 장애도 일으키지 않을 것이라고 알려줍니다. 크리스탈 사절은 바위의 이름으로 사과하고, 또한 보급품이 든 상자를 보냅니다.</text>
 		<status type="limit" target="enemy" system="artillery" amount="0"/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -1355,7 +1355,7 @@
 	<choice hidden="true">
 		<text>남아서 졸탄 함선을 포획한다</text>
 		<event>
-			<text>이 곳은 락맨의 영역이고 졸탄들은 락맨의 법을 어기지 않았어야 합니다. 아마 락맨은 당신의 진취성에 보상을 해줄까요?</text>
+			<text>이 곳은 락맨의 영역이고 졸탄들은 락맨의 법을 어기지 않았어야 합니다. 락맨이 당신의 진취성에 보상을 해줄까요?</text>
 			<ship load="ROCK_ZOLTAN_HELP_ZOLTAN" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -2773,7 +2773,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>폭탄이 터지고 모든 것이 어둠에 잠깁니다. 선체에 넘쳐흐르는 화염으로 함교가 빛나는 동안, 폭탄 처리를 자원한 승무원은 궤적을 안정시키기 위해 애씁니다. 그는 심하게 멍들고 오직 비상 에너지로만 배로 귀환할 수 있엇지만, 고급 환경 슈트가 그를 구했습니다. 당신은 화재를 진압하고 나아갈 준비합니다.</text>
+		<text>폭탄이 터지고 모든 것이 어둠에 잠깁니다. 선체에 넘쳐흐르는 화염으로 함교가 빛나는 동안, 폭탄 처리를 자원한 승무원은 궤적을 안정시키기 위해 애씁니다. 그는 심하게 멍들고 오직 비상 에너지로만 배로 귀환할 수 있었지만, 고급 환경 슈트가 그를 구했습니다. 당신은 화재를 진압하고 나아갈 준비합니다.</text>
 		<damage amount="5"/>
 		<damage amount="1" system="room" effect="breach"/>  <!--DLC-->
 	</event>
@@ -4331,7 +4331,7 @@
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
 			<!-- best deal-->
-			<text>성운은 락맨 우주에서 굉장히 드뭅니다. 락맨은 FTL 연료를 생산하기 위해선 여전시 가스가 필요했고 그에 따른 비용을 지불하고자 합니다. [압축 성운 가스를 대략 85 스크랩에 판매]</text>
+			<text>성운은 락맨 우주에서 굉장히 드뭅니다. 락맨은 FTL 연료를 생산하기 위해선 여전히 가스가 필요했고 그에 따른 비용을 지불하고자 합니다. [압축 성운 가스를 대략 85 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
@@ -5190,7 +5190,7 @@
 		</choice>
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
 			<!-- best deal-->
-			<text>성운은 락맨 우주에서 굉장히 드뭅니다. 락맨은 FTL 연료를 생산하기 위해선 여전시 가스가 필요했고 그에 따른 비용을 지불하고자 합니다. [압축 성운 가스를 대략 85 스크랩에 판매]</text>
+			<text>성운은 락맨 우주에서 굉장히 드뭅니다. 락맨은 FTL 연료를 생산하기 위해선 여전히 가스가 필요했고 그에 따른 비용을 지불하고자 합니다. [압축 성운 가스를 대략 85 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
