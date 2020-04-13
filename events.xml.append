@@ -12667,7 +12667,7 @@
 			<choice req="AE_REQUISITION" hidden="true"> 
 				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 해적행위를 하고 있다.</text>
 				<event>
-					<text>The station chief appears in screen, visibly scared. Drone trading is restricted and he knows that you could get him in front of a court for the deal he offered. You confiscate the drone parts and let it slip this time.</text>
+					<text>정거장 우두머리는 눈에 띄게 겁에 질린 모습으로 화면에 나타납니다. 드론 거래는 법으로 제한되어 있고, 그는 자신이 제안한 거래로 인해 당신이 그를 재판장으로 데려갈 수 있다는 사실을 깨닫습니다. 당신은 드론 부품을 압수하며 이번만 봐주겠다며 관용을 베풀었습니다.</text>
 					<item_modify>
 						<item type="drones" min="1" max ="3"/>
 					</item_modify>
@@ -14024,7 +14024,7 @@
 			<event load="CE_SURRENDER_BETRAYAL_RESULTS"/>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true"> 
-			<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 승무원들은 이 임무를 전부 원칙대로 수행하지는 않을 것을 알고 있습니다.</text>
+			<text>(슬러그 함선) 당신은 교활하고 신뢰할 수 없는 슬러그의 함선을 지휘하고 있습니다. 승무원들은 이 임무를 전부 원칙대로 수행하지는 않을 것을 알고 있습니다.</text>
 			<event>
 				<text>절박한 시기에는 절박한 방법을 쓸 수밖에 없고 규칙은 깨지라고 있는 것입니다, 그렇지 않습니까? 당신의 승무원들은 가끔 개개인의 삶에 대해선 아무런 의미가 없다는 것에 동의합니다. 우리는 어떠한 대가를 치르더라도 연방 기지에 도착해야 했고 긁어모을 수 있는 모든 자원이 필요합니다.</text>
 				<ship hostile="true"/>
@@ -15826,43 +15826,43 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="teleporter" lvl="1">
-		<text>(텔레포터) Offer to board their ship.</text>
+		<text>(텔레포터) 적 함선을 강습할 것을 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="WEAPONS_LIGHT_LASER">
-		<text>(경량형 레이저) Offer to shoot their crew.</text>
+		<text>(경량형 레이저) 적 선원만 쏴죽일 것을 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="BEAMS_BIO">
-		<text>(바이오 빔) Offer to 'remove' their crew.</text>
+		<text>(바이오 빔) 적 선원을 '제거'하겠다고 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="BEAMS_FIRE">
-		<text>(파이어 빔) Offer to incinerate their crew.</text>
+		<text>(파이어 빔) 적 선원을 소각하겠다고 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="BA_BOMB_BIO">
-		<text>(바이오 폭탄) Offer to dissolve their crew.</text>
+		<text>(바이오 폭탄) 적 선원을 용해해버리겠다고 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="WEAPONS_BOMB_FIRE">
-		<text>(소이 폭탄) Offer to burn the crew out.</text>
+		<text>(소이 폭탄) 적 선원을 태워버리겠다고 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="DRONES_LIGHT">
-		<text>(Light Drone) Offer to have your drone take care of the crew.</text>
+		<text>(경략형 드론) 드론으로 선원들만 죽일 것을 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="DE_DRONE_FIRE">
-		<text>(Fire Beam Drone) Offer to have your drone burn out the crew.</text>
+		<text>(파이어 빔 드론) 드론으로 선원들만 죽일 것을 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="DRONES_BOARDER">
-		<text>(강습 드론) Offer to have your drone take care of it.</text>
+		<text>(강습 드론) 강습 드론으로 선원들만 죽일 것을 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 	<choice hidden="true" req="AE_IRRADIATOR">
-		<text>(방사선 투영기) Offer to irradiate their crew.</text>
+		<text>(방사선 투영기) 적 선원들을 방사능에 오염시킬 것을 제안합니다.</text>
 		<event load="QUEST_CREWDEAD_CONTINUE"/>
 	</choice>
 </event>
@@ -17995,7 +17995,7 @@
 		<choice>
 			<text>더 많은 시간을 보내어 또다른 잔해를 수거합니다.</text>
 			<event>
-				<text>당신은 천천히 신호소 주위를 몇 차례 순회했고 선원들은 가치 있어 보이는 모든 표류물을 추적합니다. 수집한 것들은 나쁘진 않지만, 반란군 주요 함선을 파괴함으로써 얻으 시간들은 이미 대부분 잃은 것처럼 느껴집니다.</text>
+				<text>당신은 천천히 신호소 주위를 몇 차례 순회했고 선원들은 가치 있어 보이는 모든 표류물을 추적합니다. 수집한 것들은 나쁘진 않지만, 반란군 주요 함선을 파괴함으로써 얻은 시간들은 이미 대부분 잃은 것처럼 느껴집니다.</text>
 				<modifyPursuit amount="-1"/>
 				<autoReward level="RANDOM">standard</autoReward>
 			</event>
@@ -18621,7 +18621,7 @@
 </eventList>
 
 <event name="SE_START_BEACON_CIVILIAN">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -19538,7 +19538,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Most of the mapping drones made it to the pick-up point, but some where shot down by Rebel scouts or lost got lost in another way. Their brave sacrifice will not be forgotten.</text>
+		<text>대부분의 지도 제작 드론이 회수 지점에 도착했지만, 반란군 정찰기에 의해 격추되거나 실종된 다른 드론은 길을 잃었습니다. 그들의 용감한 희생은 잊혀지지 않을 것입니다.</text>
 		<choice req="DRONE_RECOVERY" hidden="true">
 			<text>(드론 회수 팔} 당신의 충성스런 드론을 회수합니다.</text> 
 			<event>
@@ -24865,7 +24865,7 @@
 		<choice>
 			<text>락맨이 고철을 사용 가능한 미사일로 변환하는 것을 허용합니다.</text>
 			<event>
-				<text>락맨 승무원은 작업을 시작합니다. "내가 레지탕지스로 활동하던 시절에 이걸 배웠소. 이러면 미사일로 쓸 수 있을 것이오, 선장." 락맨은 이렇게 적은 재료로 미사일을 만들 수 있다니 놀랍군요.</text>
+				<text>락맨 승무원은 작업을 시작합니다. "내가 레지스탕스로 활동하던 시절에 이걸 배웠소. 이러면 미사일로 쓸 수 있을 것이오, 선장." 락맨은 이렇게 적은 재료로 미사일을 만들 수 있다니 놀랍군요.</text>
 				<item_modify>
 					<item type="scrap" min="-25" max="-15"/>
 					<item type="missiles" min="4" max="9"/>
@@ -24922,7 +24922,7 @@
 		<choice>
 			<text>락맨이 고철을 사용 가능한 미사일로 변환하는 것을 허용합니다.</text>
 			<event>
-				<text>락맨 승무원은 작업을 시작합니다. "내가 레지탕지스로 활동하던 시절에 이걸 배웠소. 이러면 미사일로 쓸 수 있을 것이오, 선장." 락맨은 이렇게 적은 재료로 미사일을 만들 수 있다니 놀랍군요.</text>
+				<text>락맨 승무원은 작업을 시작합니다. "내가 레지스탕스로 활동하던 시절에 이걸 배웠소. 이러면 미사일로 쓸 수 있을 것이오, 선장." 락맨은 이렇게 적은 재료로 미사일을 만들 수 있다니 놀랍군요.</text>
 				<item_modify>
 					<item type="scrap" min="-25" max="-15"/>
 					<item type="missiles" min="4" max="9"/>
@@ -24949,7 +24949,7 @@
 </eventList>
 
 <textList name="CE_CONVERSATION_ROCK_GENERIC_TEXT">
-	<text>락맨은 이 구역에서 좀 지루해보입니다. "난 우리가 명예로운 싸움을 하길 원하오."</text>
+		<text>락맨은 이 구역에서 좀 지루해보입니다. "난 우리가 명예로운 싸움을 하길 원하오."</text>
 	<text>락맨은 3,000명이 넘는 살아있는 락맨 성자들이 있다고 언급했고, 그리고 그 중 단 하나도 신경 쓰지 않는다고 말합니다.</text>
 	<text>락맨은 10,000명이 넘는 죽은 락맨 성자들이 있다고 언급했고, 그리고 그 중 누구도 무덤으로 가지 않았다고 합니다.</text>
 	<text>락맨은 어디에서도 찾을 수 없습니다. 컴퓨터는 승무원이 개인 숙소에 있다고 알려줍니다. "전술 계획 중이오 선장, 급한 일이오?"</text>
@@ -24962,7 +24962,7 @@
 	<text>락맨은 다수의 전 친구들이 그를 연방에 합류한 이단자 취급한다고 설명합니다.</text>
 	<text>락맨은 때때로 고향 세계의 먼지 낀 공기를 갈망한다는 것을 인정합니다. 그는 감정을 없애기 위해 보통 무언가 박살냅니다.</text>
 	<text>락맨은 이 모든 것이 끝난 후에 그의 고향 동굴로 돌아갈 계획입니다. 그는 이를 이겨낼 수 있을 거라 확신합니다. "선장에 대해선 잘 모르르겠지만, 당신은 좀 질척질척하군, 하하하하하." ... "농담한 거요 선장. 이해하시겠소?"</text>
-	<text>락맨 승무원은 단지 당신에게 충성하고 배를 위협하는 외계인의 얼구을 박살낼 것이라는 것을 강조하고 싶었을 뿐입니다. 당신은 이 존재가 자신의 편이라는 것에 기쁩니다.</text>
+	<text>락맨 승무원은 단지 당신에게 충성하고 배를 위협하는 외계인의 얼굴을 박살낼 것이라는 것을 강조하고 싶었을 뿐입니다. 당신은 이 존재가 자신의 편이라는 것에 기쁩니다.</text>
 	<text>락맨 승무원은 그저 멍하니 무언가 중얼거리면서 복도를 지나갑니다. 선장의 권위가 좀 더 존중되었던 시절이 있었는데...</text>
 	<text>락맨 승무원은 고향세계의 상황에 지긋지긋합니다. "내 형제들이 변화를 받아들일지 의문이오."</text>
 	<text>대화를 하는 동안, 락맨은 고향세계를 떠나는 이유 중 하나는 그가 위대한 사랑과 결혼하는 것이 허용하지 않았기 때문이라 밝힙니다. 이 커플은 서로다른 계층이었습니다.</text>
@@ -25262,7 +25262,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>슬러그는 당신이 스트레스 받는 것처럼 보인다 생각합니다. "'야바위' 께임 한 번 하실레요오? 완쩐히 무작위적이고 공정하다 약속할 께요오오." 게임은 세 개의 섞은 카스그레인 퍼더 껍데기 중 하나에 숨겨진 토큰의 위치를 맞히는 겁니다. "이껀 당신 종족에게 쯜거운 일인가요오? 쩨게는 아주 째밋는 일이에요오!"</text>
+		<text>슬러그는 당신이 스트레스 받는 것처럼 보인다 생각합니다. "'야바위' 께임 한 번 하실레요오? 완쩐히 무작위적이고 공정하다 약속할 께요오오." 게임은 세 개의 섞은 카스그레인 퍼더 껍데기 중 하나에 숨겨진 토큰의 위치를 맞히는 겁니다. "이껀 당신 종족에게 즐거운 일인가요오? 쩨게는 아주 째밋는 일이에요오!"</text>
 		<choice>
 			<text>토큰을 찾는데 스크랩을 배팅합니다.</text>
 			<event>
@@ -25570,7 +25570,7 @@
 	<text>이건 좋지만, 당신은 이상한 느낌을 받기 시작합니다...</text>
 	<text>슬러그가 라벨이 붙어 있지 않은 병을 따준 다음 이상한 외계인 악기를 즉흥적으로 연주하기 시작합니다. 당신은 편안한 소파에서 몸을 뻗고 전망 포트 밖을 내다봅니다. 당신의 개인 단말기에서 삐 소리가 납니다. "어 선장님, 명령하신 피해 보고서를 재검토 하시겠습니까?" 당신은 단말기를 끕니다. 이건 잠깐 기다릴 수 있습니다.</text>
 	<text>슬러그가 여러분에게 준 이 성운은 "특이한 휴식 효과"라고 여겨졌지만, 당신은 실제로 아무것도 느낄 수 없었습니다.</text>
-	<text>그 마지막 술은 어떻게 다시 불렀죠? 당신은 이미 더 이상 기억할 수 없습니다...</text>
+	<text>그 마지막 술은 어떻게 다시 불렀죠? 당신은 이미 더 이상 기억할 수  없습니다...</text>
 	<text>술에 반쯤 취한 슬러그는 종종 연방을 완전히 포기하는 것을 고려했다고 솔직하게 인정합니다. "이 모든 갈뜽은 어리썩어요오. 하지만 갈등이 찌속되는 한 전 여전히 성운까스를 반란꾼에게 팔아먹으면서 많은 똔을 벌 수 있어요오. 적극쩍으로 연방 편을 드는 것보단 훨씬 덜 위험할꺼에요오."</text>
 	<text>은하 수입술을 쭈욱 들이키자, 슬러그는 그의 어린 시절을 얘기해줍니다. 자신의 부모님들은  회사의 부모들은 고립된 락 구역으로 값싼 엔지 기계 거래로 재산을 얻었지만, 몇몇 록 부문을 값싼 엔기 기계로 바꾸면서 부를 얻었지만, 일부 부패한 추문들로 인해 자신과 관계를 끊었다고 합니다.</text>
 	<text>슬러그가 젤리 같은 보라색 독한 술을 붓습니다. "껀배! 쩌희의 임무를 위해애! 이 모든 꺼시 가치있기를 바래요... 썬장님도 알다싶이, 반란이 시작되었을 때 전 졸탄 방어막 부품을 겁먹은 민깐인들에게 팔아 똔을 많이 벌어써요. 하지만 지금 이 모든 쩐쟁이 모두에게 정말 이익이 되는 건지 잘 모루겠어요."</text>
@@ -25813,7 +25813,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"선장님, 전 선박 센서 시설을 면밀히 검사했습니다. 그 실효성을 평가하니 참담하다는 결론을 내렸습니다."</text>
+		<text>"선장님, 전 선박 반응로 시설을 면밀히 검사했습니다. 그 실효성을 평가하니 참담하다는 결론을 내렸습니다."</text>
 		<choice req="reactor" max_lvl="24" blue="false">
 			<text>결론에 대해서 물어봅니다.</text>
 			<event>
@@ -25879,7 +25879,7 @@
 		<text load="CE_CONVERSATION_LANIUS_GENERIC_TEXT"/>
 	</event>
 	<event>
-		<text>You catch the Lanius while it is absorbing some random scrap item. This could still have been of use, but you decide to let it slide this time. The Lanius normally just eats modified Federation rations, enriched with minerals, and these seem to disgust the being quite a bit.</text>
+		<text>당신은 무작위 고철 물건을 흡수하는 중인 라니우스를 잡았습니다. 이 방법은 여전히 유용하겠지만, 당신은 이번엔 그냥 넘어가기로 결정합니다. 라니우스는 보통 단지 미네랄이 풍부하게 들어있는 변형된 연방 배급 식량을 먹었고, 그것들은 라니우스들에게 꽤나 역겨운 음식인 것처럼 보입니다.</text>
 				<item_modify steal="true">
 					<item type="scrap" min="-10" max="-1"/>
 				</item_modify>
@@ -30050,7 +30050,7 @@
 	<choice hidden="true" req="slug">
 		<text>(슬러그 승무원) 이럴 줄 알았어요...</text>
 		<event>
-			<text>선상 텔레파시 능력자는 정말로 개인의 안전에 이바지합니다. 슬러그 승무원은 반란군 스파이에게 이렇게 말합니다. "당씬은 블래스터 탄창이 비었따는 것을 깨닫지 못했나요오? 당씬이 씅선했을 때부터 우린 당씬의 의도를 파악하고 있었써요오. 잘못뙨 비행 데이터도 볼 쑤 있게 해드렸꾸요. 반란꾼은 오지 않은 꺼에요."</text>
+			<text>선상 텔레파시 능력자는 정말로 개인의 안전에 이바지합니다. 슬러그 승무원은 반란군 스파이에게 이렇게 말합니다. "당씬은 블래스터 탄창이 비었따는 것을 깨닫지 못했나요오? 당씬이 승썬했을 때부터 우린 당씬의 의도를 파악하고 있었써요오. 잘못뙨 비행 데이터도 볼 쑤 있게 해드렸꾸요. 반란꾼은 오지 않은 꺼에요."</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
@@ -30062,7 +30062,7 @@
 	<choice hidden="true" req="BOMB_1">
 		<text>(소형 폭탄) 주머니 단말기 안에 패닉 버튼을 누릅니다.</text>
 		<event>
-			<text>전승무원은 갑자기 고통 속에 숨을 헐떡입니다. 당신은 의자 뒤로 숨었고, 여러분은 의자 뒤에 숨었고, 그 직전에 그의 내장으로 폭탄이 순간이동됩니다. 선박 컴퓨터는 보고합니다, "배반자 대응절차 집행됨." 함교는 꽤 지저분해 보입니다. 청소는 나중에 하기로 하고, 당신은 방금 도약한 반란군 선박을 상대해야 할 것 같습니다.</text>
+			<text>전 승무원은 갑자기 고통 속에 숨을 헐떡입니다. 당신은 의자 뒤로 숨기 직전에 그의 내장으로 폭탄이 순간이동됩니다. 선박 컴퓨터는 보고합니다, "배반자 대응절차 집행됨." 함교는 꽤 지저분해 보입니다. 청소는 나중에 하기로 하고, 당신은 방금 도약한 반란군 선박을 상대해야 할 것 같습니다.</text>
 			<item_modify>
 				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
@@ -31185,7 +31185,7 @@
 	<choice hidden="true" req="doors" lvl="3">
 		<text>(고급 문 제어실) 높은 수준의 보안 도킹을 시행하고 항성으로부터 멀리 배를 견인합니다.</text>
 		<event>
-			<text>당신의 최첨단 에어록은 민간선을 자석으로 고정시켰고 태양 플레어가 일어나기 직전에 가까스로 벗어날 수 있었습니다. 승무원과 선박은 구조되었습니다. 그들은 자신들의 행운을 믿을 수 없고 신속한 구조에 대한 감사로 보급품을 제공합니다.</text>
+			<text>당신의 최첨단 에어록은 민간선을 자석으로 고정시켰고 다음 태양 플레어가 일어나기 직전에 가까스로 벗어날 수 있었습니다. 승무원과 선박은 구조되었습니다. 그들은 자신들의 행운을 믿을 수 없고 신속한 구조에 대한 감사로 보급품을 제공합니다.</text>
 			<autoReward level="LOW">standard</autoReward>
 		</event>
 	</choice>
@@ -31292,7 +31292,7 @@
 </eventList>
 
 <event name="CE_DISTRESS_DEFENSE" unique="true">
-	<text>조난신호는 작은 민간 정거장에서 들어오고 있었습니다. 그들은 근처 해적 거점에서 오는 배들에 의해 계속해서 습격당했고 실제론 반란군이 와서 자신들을 구해주기를 바랐습니다. "글쎄, 아마도 연방에 아직도 좋은 사람이 남아있는군요. 저희를도와주실 건가요?"</text>
+	<text>조난신호는 작은 민간 정거장에서 들어오고 있었습니다. 그들은 근처 해적 거점에서 오는 배들에 의해 계속해서 습격당했고 실제론 반란군이 와서 자신들을 구해주기를 바랐습니다. "글쎄, 아마도 연방에 아직도 좋은 사람이 남아있는군요. 저희를 도와주실 건가요?"</text>
 	<distressBeacon/>
 	<choice hidden="true">
 		<text>근처 소행성 지대에 위치한 해적 은신처를 공격하기 위해 안내해줄 것을 제의합니다.</text>
@@ -36201,7 +36201,7 @@ IDEAS
 </eventList>
 
 <event name="SE_START_BEACON_CIVILIAN_HOME">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -37163,7 +37163,7 @@ IDEAS
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 당신의 승무원은 자신들이 여기서 도덕적인 즐거움을 위해 계약하지 않았다는 것을 알고 있습니다.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 선원들은 자신들이 여기서 도덕적인 쾌락 따위를 위해 계약하지 않았다는 걸 잘 알고 있죠.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
@@ -37179,7 +37179,7 @@ IDEAS
 
 <eventList name="CE_PIRACY_ATTACK_ROCK">
 	<event>	
-		<text>당신 선원들은 당신이 이런 것들을 처리할 거라고 정말 기대했습니다. 결국 임무가 가장 중요합니다. 연방은 다시 확립되어야 합니다!</text>
+		<text>선원들은 당신이 이런 것쯤이야 쉽게 처리할 수 있을다고 기대합니다. 결국 임무가 가장 중요합니다. 연방은 다시 확고해져야 합니다!</text>
 		<ship hostile="true"/>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(대함포대) 자동 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
