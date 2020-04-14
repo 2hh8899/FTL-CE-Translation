@@ -86,11 +86,11 @@
 </eventList>
 
 <textList name="SLUG_FIGHT_DESTROYED">  
-	<text>The gelatinous hull plating of the attacking Slug ship wobbles a little before being sent flying in many directions by its destruction.</text>
-	<text>These sly Slugs receive their just desserts in the form of weapons fire pulverizing their ship into scrap.</text>
-	<text>These telepathic beings did not foresee this, their impressive arsenal failed to repell yours and their destruction was the inevitable result.</text>
-	<text>Your wits manage to outdo these sneaky Slugs, their ship exploding into a mess of purple armor-plating and scrap materials.</text>
-	<text>The days of this particular group of gastropods are numbered, their fate sealed with the destruction of their prized ship.</text>
+	<text>공격하던 슬러그 함선의 젤라틴 선체가 약간 흔들리더니 파괴되어 사방으로 날아갑니다.</text>
+	<text>간교한 슬러그들은 그들의 함선을 파괴시키는 공격의 형태로 정의로운 디저트를 받습니다.</text>
+	<text>이 텔레파시적 존재들은 이것까지 예측하진 못했으며, 그들의 인상적인 무기는 당신을 물리치지 못했고 파멸은 피할 수 없는 결과였습니다.</text>
+	<text>당신의 지혜는 이 교활한 민달팽이들을 능가할 수 있었습니다. 그들의 함선은 엉망진창의 보라색 장갑 조각들과 스크랩 자원으로 폭발합니다.</text>
+	<text>이 까다로운 복족이들의 시대는 끝입니다. 그들의 운명은 소중히 여기던 함선의 파괴로 봉인됩니다.</text>
 </textList>
 
 	
@@ -3070,7 +3070,7 @@
 	<choice hidden="true">
 		<text>그럴 일 없다!</text>
 		<event>
-			<text>슬러그들이 당신의 허세에도 별 감흥 없이 공격해옵니다. 방어막을 올리십시오, 고장난 추진기만 가지고서는 무방비 상태나 다름 없습니다!</text>
+			<text>슬러그들이 당신의 허세에도 별 감흥 없이 공격해옵니다. 방어막을 올릴 시간입니다, 고장난 추진기만 가지고서는 무방비 상태나 다름 없습니다!</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3366,7 +3366,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
-		<text>(이펙터) 당신이 주의를 돌리는 사이 이펙터를 시스템의 침입을 식별하고 대응하도록 설정합니다.</text> 
+		<text>(이펙터) 당신이 주의를 돌리는 사이 이펙터로 시스템의 침입을 식별하고 대응하도록 설정합니다.</text> 
 		<event>
 			<text>장비가 슬러그 선박의 해킹 모듈을 무력화시키기 전까지 무료 구매를 원하는 척합니다. 슬러그 지휘관은 즐겁지 않은 것 같군요. "뭐라꼬요? 불가능해요오! 어쨌든 놈들과 교쩐해라!" 그는 통신을 끊고 무기를 충전합니다.</text>
 			<ship load="JELLY" hostile="true"/>
@@ -3721,9 +3721,9 @@
 	<event>
 	<text>당신은 정거장과 거래를 하는 것을 고려합니다.</text>
 	<choice>
-		<text>Purchase Slug mind-maps of the nebula.</text>
+		<text>성운의 슬러그 정신 지도를 구매합니다.</text>
 		<event>
-			<text>Your map has been updated.</text>
+			<text>지도가 갱신됩니다.</text>
 			<item_modify>
 				<item type="scrap" min="-40" max="-15"/>
 			</item_modify>
@@ -3731,17 +3731,17 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Purchase an unknown weapon from a weapon shop. [스크랩: -50]</text>
+		<text>무기점에서 미지의 무기를 구입한다. [스크랩: -50]</text>
 		<event load="BS_EVENT_SLUG_BLACKMARKET_NEBULA_TRADE"/>
 	</choice>
 	<choice hidden="true" req="slug">
-		<text>(슬러그 승무원) Have your slug negotiate a better deal.</text>
+		<text>(슬러그 승무원) 슬러그에게 더 좋은 거래를 요청하도록 합니다.</text>
 		<event>
-			<text>After the slugs intensely stare at each other for some time, the dealer agrees to improve his offer. You can only imagine how difficult it must be to barter with someone who can read minds.</text>
+			<text>슬러그들이 한동안 서로를 뚫어지게 쳐다보더니, 상인은 제안을 수정하기로 결정합니다. 마음을 읽을 줄 아는 사람과 거래하는 것이 얼마나 어려운지 당신은 상상밖에 해볼 수 없습니다.</text>
 			<choice hidden="true">
-				<text>Take the deal and purchase an unknown weapon. [ 스크랩: 40 ]</text>
+				<text>무기점에서 미지의 무기를 구입한다. [ 스크랩: -40 ]</text>
 				<event>
-					<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable. And after all it really was a bargain.</text>	
+					<text>당신이 스크랩 이송 주문을 작성하고 슬러그는 당신의 함선으로 무기를 보내기로 동의합니다. 그 무기는 오래되었지만, 사용은 가능합니다. 결국에는 싸구려입니다.</text>	
 					<item_modify>
 						<item type="scrap" min="-40" max="-40"/>
 					</item_modify>
@@ -3755,17 +3755,17 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Have a Slug engineer fix up 10 hull damage.</text>
+		<text>슬러그 엔지니어에게 선체 손상을 10 수리하도록 부탁한다.</text>
 		<event load="BS_EVENT_SLUG_BLACKMARKET_NEBULA_REPAIR"/>
 	</choice>
 	<choice>
-		<text>Dealing with telepaths isn't without dangers. Better move on.</text>
+		<text>텔레파시를 다루는 자들과 거래하는 것은 위험합니다. 여길 뜹니다.</text>
 		<event/>
 	</choice>
 	<choice>
-		<text>Attack and raid the station.</text>
+		<text>정거장을 공격한다.</text>
 		<event>
-			<text>The Slugs are not highly regarded among the Federation and your crew agrees that these individuals can't be trusted with keeping quiet about your whereabouts. You decide to punish these Slugs for the countless betrayals the Federation has suffered from their kind.</text>
+			<text>슬러그들은 연방에서 고평가되지 않으며, 이들은 당신의 행방에 대해 조용히 있어 줄 것이라고는 믿을 수 없습니다. 연방에 대한 무수한 배신에 대해서 당신은 이 슬러그들을 처벌하기로 결정합니다.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3817,28 +3817,28 @@
 	</choice>
 </event>
 <textList name="BS_EVENT_SLUG_BLACKMARKET_TEXT">
-	<text>You find a busy Slug trade station hidden in this part of the nebula. They agree to let you dock and offer some services</text>
-	<text>A Slug station hails you shortly after you arrive, "Come travelerss, see our waress!"</text>
-	<text>As you jump in the crew already expects another Slug hacker trying to set your ship on fire. You are glad to just find a slimy Slug trade-post instead. They even offer their services to you. </text>
-	<text>This area of the nebula seems devoid of life, but as you charge your FTL a Slug station suddenly de-cloaks a few klicks behind you. They hail and explain that they are a trade-post open for buisness.</text>
+	<text>당신은 이 성운 부근에 숨어 있는 분주한 슬러그 교역소를 발견합니다. 그들은 당신이 도킹하고 몇몇 서비스를 이용하는 것을 허락합니다.</text>
+	<text>당신이 도착하자마자 슬러그 정거장이 당신에게 통신을 보냅니다. "어써와아아 여행자들! 우리 옷 쫌 봐아!"</text>
+	<text>당신이 도약할 때 선원들은 벌써 또다른 슬러그 해커가 당신의 함선에 불질이나 할 것을 기대했지만, 그 대신 점액질의 슬러그 교역소를 발견하여 상당히 기뻐합니다. 심지어 당신에게 서비스까지 제공하려고 합니다.</text>
+	<text>성운의 이 구역은 생명체가 없어 보였지만, 당신이 FTL을 충전하려는 순간 슬러그 정거장이 갑자기 당신 뒤에서 은폐를 해제합니다. 그들은 통신과 함께 이곳이 사업용 개방 교역소라고 설명합니다.</text>
 </textList>
 <eventList name="BS_EVENT_SLUG_BLACKMARKET_NEBULA_TRADE">
 	<event>
-		<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable.</text>
+		<text>당신이 스크랩 이송 주문을 작성하고 슬러그는 당신의 함선으로 무기를 보내기로 동의합니다. 그 무기는 오래되었지만, 사용은 가능합니다. 결국에는 싸구려입니다.</text>
 		<item_modify>
 			<item type="scrap" min="-50" max="-50"/>
 		</item_modify>
 		<weapon name="RANDOM"/>
 	</event>
 	<event>
-		<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. As it does not arrive after quite a time you go back to the shop only to find it empty. Inquiry for the owner only results in frustration, every Slug you ask denies that this shop is actually in business. It seems you got ripped off.</text>
+		<text>당신이 스크랩 이송 주문을 작성하고 슬러그는 당신의 함선으로 무기를 보내기로 동의합니다. 꽤 오랜 시간이 지나도 물품이 도착하지 않자 상점으로 돌아가 보지만 아무것도 없었습니다. 주인에 대한 문의는 좌절만은 초래했고, 모든 슬러그들은 이 상점이 실제로 영업 중이었다는 것에 부인합니다. 당한 것 같군요.</text>
 		<item_modify>
 			<item type="scrap" min="-50" max="-50"/>
 		</item_modify>
 		<choice>
-			<text>This is outrageous. Attack the station!</text>
+			<text>말도 안되는구만. 정거장을 공격해라!</text>
 			<event>
-				<text>These Slugs need to be taught a lesson.</text>
+				<text>이 슬러그들에게는 교훈이 필요합니다.</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -3887,27 +3887,27 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Vow to never deal with Slugs unprepared again and move on.</text>
+			<text>다시는 슬러그들을 상대하지 않기로 맹세하며 떠납니다.</text>
 			<event/>
 		</choice>
 	</event>
 </eventList>
 <eventList name="BS_EVENT_SLUG_BLACKMARKET_NEBULA_REPAIR">
 	<event>
-		<text>You transfer the scrap and the engineer sends out a drone that starts to replace damaged hull parts on your ship. Once the repair is complete you prepare the FTL drive.</text>
+		<text>당신은 스크랩을 옮기고 엔지니어가 선체 부품들을 교체해주는 드론을 함선에서 내보냅니다. 수리가 끝나고 당신은 FTL 드라이브를 준비합니다.</text>
 		<item_modify>
 			<item type="scrap" min="-30" max="-30"/>
 		</item_modify>
 		<damage amount="-10"/>				
 	</event>
 	<event>
-		<text>You transfer scrap and the engineer sends out a drone that starts to replace damaged hull parts on your ship. Strangely it leaves again after having only repaired some minor damage. The station then detaches your ship from the docking bay and does not even answer your hails. It seems the customer isn't exactly king here.</text>
+		<text>당신은 스크랩을 옮기고 엔지니어가 선체 부품들을 교체해주는 드론을 함선에서 내보냅니다. 이상하게도 그것은 약간의 손상만 고치고 다시 돌아가버립니다. 그 후 정거장은 당신의 함선을 도킹 베이에서 분리해버리고 당신의 통신에 대답도 하지 않습니다. 여기선 손님이 꼭 왕은 아닌 것 같군요.</text>
 		<item_modify>
 			<item type="scrap" min="-30" max="-30"/>
 		</item_modify>
 		<damage amount="-3"/>
 		<choice hidden="true">
-			<text>This is outrageous. Attack the station!</text>
+			<text>말도 안되는구만. 정거장을 공격해라!</text>
 			<event>
 				<text load="CE_PRE_FIGHT_TEXT"/>
 				<ship hostile="true"/>
@@ -3958,7 +3958,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Vow to never deal with Slugs unprepared again and move on.</text>
+			<text>다시는 슬러그들을 상대하지 않기로 맹세하며 떠납니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -3966,17 +3966,17 @@
 
 
 <event name="BS_EVENT_SLUG_HACK_NEBULA" unique="true">
-	<text>You are hailed by a well-armed Slug station. "Coming here was a misstake. Nothing perssonal, but we will sscrap your sship for our own profit. We have a very neoliberal economy, you know?"</text>
+	<text>잘 무장된 슬러그 정거장에서 통신을 받습니다. "여끼 온 건 씰쑤우야. 깨인저억인 감정은 없찌만, 우리 이익을 위해 니 함썬을 갈아뻐려야겠써어. 우린 신자유주의 경제가 찌인짜 발달되어있따구. 알아?"</text>
 	<environment type="nebula"/>
 	<ship load="BS_JELLY_STATUS" hostile="false"/>
 	<choice hidden="true">
-		<text>Attack!</text>
+		<text>공격!</text>
 		<event load="BS_EVENT_SLUG_HACK_NEBULA_RESULTS"/>
 	</choice>
 	<choice hidden="true">
-		<text>Offer 35 scrap to buy yourself out of this.</text>
+		<text>35스크랩으로 문제를 해결합니다.</text>
 		<event>
-			<text>"Hm... well thisss might jussst ssufice." They take the scrap and you hurry to leave.</text>
+			<text>"으음... 이거만으로또 추웅분할꺼 같아아." 그들은 스크랩을 가져가고 당신은 서둘러 떠납니다.</text>
 			<item_modify>
 				<item type="scrap" min="-35" max="-35"/>
 			</item_modify>
@@ -3985,11 +3985,11 @@
 </event>
 <eventList name="BS_EVENT_SLUG_HACK_NEBULA_RESULTS">
 	<event>
-		<text>"Very well. Thiss ssstation hass a wide array of electronic warfare capabilitiesss. Let'ss ssse what we can effectorize..."</text>
+		<text>"아주 좋아. 이 쩡거장은 엄청난 쩐자전 능력을 가지고 있따구우. 우리가 무력화할 쑤 있는 게 뭐어가 있는 지 보짜구..."</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Your ship computer registers a cyber-attack directed at the weapons-targeting systems. The station locks onto your ship!</text>
+				<text>당신 함선의 컴퓨터가 무기 표적 시스템을 향한 사이버 공격을 알립니다. 정거장이 당신의 함선을 조준합니다!</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="weapons" amount="2"/>
 		<choice hidden="true">
@@ -4039,9 +4039,9 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) 이펙터로 해킹 공격에 반격합니다.</text> 
 			<event>
-				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
+				<text>이펙터가 당신의 시스템에 침입한 정거장의 오버라이드 루틴을 제거해버립니다. 이제 소탕 시간입니다!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4091,11 +4091,11 @@
 		</choice>
 	</event>
 	<event>
-		<text>"Prepare to burn then." Your ship computer registers an enemy cyber-attack.</text>
+		<text>"불탈 준비나 하시지이." 당신 함선의 컴퓨터가 사이버 공격을 알립니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Warning lights flicker all over your ship airlocks as your door systems are sabotaged by the station's hacking modules.</text>
+				<text>정거장의 해킹 모듈에 의해 당신의 문 시스템이 파괴되어, 함선의 에어록 전체에 경고들이 깜박입니다.</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="oxygen" amount="2"/>
 				<status type="limit" target="player" system="doors" amount="0"/>
@@ -4146,9 +4146,9 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) 이펙터로 해킹 공격에 반격합니다.</text> 
 			<event>
-				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
+				<text>이펙터가 당신의 시스템에 침입한 정거장의 오버라이드 루틴을 제거해버립니다. 이제 소탕 시간입니다!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4198,11 +4198,11 @@
 		</choice>
 	</event>
 	<event>
-		<text>"All right, hope you don't feel too defenssseless without your sshields." An Effector hidden inside the station targets your shield system and interferes with you medical equipment.</text>
+		<text>"좋아. 빵어막이 없으니 바아아앙심하지 말라구우." 정거장 내부의 숨겨진 이펙터가 당신의 방어막을 목표로 하고 의료 장비 또한 교란합니다.</text>
 		<choice hidden="true">
 		<text>계속...</text>
 			<event>
-				<text>You engage the station and prepare for the worst.</text>
+				<text>역과 교전하며 최악의 상황에 대비할 시간입니다.</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="shields" amount="2"/>
 				<status type="loss" target="player" system="medbay" amount="1"/>
@@ -4253,9 +4253,9 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) 이펙터로 해킹 공격에 반격합니다.</text> 
 			<event>
-				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
+				<text>이펙터가 당신의 시스템에 침입한 정거장의 오버라이드 루틴을 제거해버립니다. 이제 소탕 시간입니다!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4305,11 +4305,11 @@
 		</choice>
 	</event>
 	<event>
-		<text>"We will ssstart by immobilizzzing you." Your ship's engines are targeted by an electronic warfare device and start to fail. Even worse, you partialy lose helm control as well.</text>
+		<text>"널 먼저 못움찍이게 해야겠써어어." 함선의 엔진이 전자기 장치의 표적이 되고 약해지기 시작합니다. 더 나쁜 소식은, 조타 능력도 잃었다는 것입니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>You hope your shields will be able to take the enemy fire and move to engage.</text>
+				<text>당신은 방어막이 적의 포격을 버텨낼 수 있기를 희망하며 교전을 시작합니다.</text>
 				<ship hostile="true"/>
 				<status type="divide" target="player" system="engines" amount="2"/>
 				<status type="limit" target="player" system="pilot" amount="1"/>
@@ -4360,9 +4360,9 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="WEAPONS_EFFECTOR">
-			<text>(이펙터) Use the Effector to counter their hacking attempts.</text> 
+			<text>(이펙터) 이펙터로 해킹 공격에 반격합니다.</text> 
 			<event>
-				<text>Your Effector manages to eliminate the station's override routines that have been introduced into your systems. Time to mop them up!</text>
+				<text>이펙터가 당신의 시스템에 침입한 정거장의 오버라이드 루틴을 제거해버립니다. 이제 소탕 시간입니다!</text>
 				<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4415,12 +4415,12 @@
 
 
 <event name="NEBULA_SLUG_HOSTAGE" unique="true">
-	<text>You detect a weak brainwave emitter nearby. One of your crew members walks to a console to check it out, but then decides to broadcast their personal teleporter ID into open space?!</text>
+	<text>근처에서 약한 뇌파 방출기를 감지했습니다. 당신 승무원 중 한 명이 확인을 위해 콘솔로 걸어가는데, 그러고는 개방된 우주 공간에 개인 텔레포터 ID를 전송합니다?!</text>
 	<environment type="nebula"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-		<text>(텔레포터 교란장치) This is a kidnapping attempt - We need teleporter disruption right away!</text>
+		<text>(텔레포터 교란장치) 이건 납치 시도다 - 당장 텔레포터 교란이 필요하다!</text>
 		<event>
-			<text>Your crewman has already started to dematerialize, but the disruption field prevents them from being teleported away altogether. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
+			<text>당신의 승무원은 이미 비물질화되기 시작했지만, 교란장이 그들의 텔레포터로 이동되는 것을 막았습니다. 정신 지배 신호의 근원에서 슬러그 함선이 나타납니다. 그들의 초기 계획이 좌절되면서, 이젠 직접 전투에 참여하기로 결정합니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4473,9 +4473,9 @@
 		</event>
 	</choice>
 	<choice req="AE_FIREWALL" hidden="true"> 
-		<text>(Advanced Plating) This is a kidnapping attempt - We need control-protection right away!</text>
+		<text>(고급 도금판) 이건 납치 시도다 - 보호가 당장 필요하다!</text>
 		<event>
-			<text>The rest of the bridge-personel jumps at your crewman, preventing them from sending their last ID sequence. Once the plating is polarized, the crewmen stops resisting. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
+			<text>나머지 선원들이 그 승무원에게 달려들어 마지막 ID 시퀀스를 보내는 것을 막아냅니다. 도금이 양극화되면서 승무원이 저항을 멈춥니다. 정신 지배 신호의 근원에서 슬러그 함선이 나타납니다. 그들의 초기 계획이 좌절되면서, 이젠 직접 전투에 참여하기로 결정합니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4528,9 +4528,9 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="mind"> 
-		<text>(Mind Control) This is a kidnapping attempt - Control that crewmen!</text>
+		<text>(정신 지배) 이건 납치 시도다 - 승무원을 통제해라!</text>
 		<event>
-			<text>Your own mind controll system allows your crewmember to regain control over their body, preventing them from sending their last ID sequence. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
+			<text>당신의 정신 지배 시스템이 승무원의 통제력을 되찾아, 마지막 ID 시퀀스를 보내는 것을 막아냅니다. 정신 지배 신호의 근원에서 슬러그 함선이 나타납니다. 그들의 초기 계획이 좌절되면서, 이젠 직접 전투에 참여하기로 결정합니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4585,22 +4585,22 @@
 	<choice>
 		<text>계속...</text>
 		<event>
-			<text>Your crewmember is teleported away the same instant and a ship reveals itself nearby: "Greetingss. Asss you can ssee we have controlled and kidnapped your crewman. You will have to pay a ranssom if you want to get them back alive." Your crewman desperately looks at you from the vidscreen, being held at gunpoint by an especially slimy Slug. "Don't compromise the mission, Sir. Do what you must do!"</text>
+			<text>당신의 승무원이 순간이동하는 동시에 근처에서 함선이 모습을 드러냅니다. "안녀엉. 우리가 너네 승무워언을 납찌했찌로옹. 살려서 되찾으려면 몸값을 내야 하아아아알 꺼얼." 많이 날씬한 슬러그에게 겨냥당하고 있는 당신의 승무원이 비디오 화면을 통해 당신을 필사적으로 바라봅니다. "임무를 위태롭게 하지 마십시오, 함장님. 반드시 해야 하는 임무를 완수하십시오!"</text>
 			<choice hidden="true">
 				<text>지불한다. [ 스크랩: -30 ]</text>
 				<event>
-					<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed.</text>
+					<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 눈에 띄게 겁먹은 것 같지만, 다치진 않은 것 같습니다.</text>
 					<item_modify>
 						<item type="scrap" min="-30" max="-30"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Leave.</text>
+						<text>떠난다.</text>
 						<event/>
 					</choice>
 					<choice hidden="true">
-						<text>Attack the Slug Kidnappers.</text>
+						<text>슬러그 납치범들을 공격한다.</text>
 						<event>
-							<text>"I sssee. We wanted to avoid unnecessary bloodshed, but if it is your wish we will still fight you for more profit."</text>
+							<text>"좋아아. 불필요오한 유혈사태는 피하고 싶었찌만, 이게 네가 원하는 꺼라면 우리 이익을 위해 싸워 주지이."</text>
 							<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -4651,7 +4651,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Negotiate.</text>
+				<text>협상한다.</text>
 				<event load="NEBULA_SLUG_HOSTAGE_NEGOTIATE"/>
 			</choice>
 			<choice hidden="true" req="weapons" lvl="5"> 
@@ -4661,10 +4661,10 @@
 			<choice hidden="true">
 				<text>공격한다.</text>
 				<event>
-					<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs puts a blaster to your crewmens head, making you watch as it pulls the trigger.</text>
+					<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들이 선원들의 머리에 블래스터를 가져다 대고, 방아쇠를 당기는 모습을 당신이 보게 만들었습니다.</text>
 					<removeCrew>
 						<clone>true</clone>
-						<text>"Oh... a clonebay? We did not forsssee that. Well then, undersstand thiss asss a preview of what will happen to all of you in a ssecond." The Slugs engage your ship.</text>
+						<text>"에... 클론 베이? 그으으건 못봤는데. 그럼, 네놈들한테 무슨 일이 일어날지 예고하는 걸로 이해하든지." 슬러그들이 당신의 함선을 조준합니다.</text>
 					</removeCrew>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
@@ -4723,10 +4723,10 @@
 
 <eventList name="NEBULA_SLUG_HOSTAGE_NEGOTIATE">
 	<event>
-		<text>The Slugs refuse to negotiate. Your crewman gets beaten and shock-prodded several times. "We are tired of this, you should have payed, but now you've sealed your friend'ss fate." The Slugs puts a blaster to your crewman's head, making you watch as it pulls the trigger. Filled by rage, you move in to attack.</text>
+		<text>슬러그들은 협상을 거부합니다. 승무원들은 몇 번이고 구타와 전기 고문을 당합니다. "이거에 지쳤어, 돈을 냈으면 충분했는데, 이제 친구의 운명을 버리는꾸나아아." 슬러그들이 선원들의 머리에 블래스터를 가져다 대고, 방아쇠를 당기는 모습을 당신이 보게 만들었습니다. 분노로 가득 찬 상태로 교전을 시작합니다.</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>"Oh... a clonebay? We did not forsssee that. Well then, undersstand thiss asss a preview of what will happen to all of you in a ssecond."</text>
+			<text>"에... 클론 베이? 그으으건 못봤는데. 그럼, 네놈들한테 무슨 일이 일어날지 예고하는 걸로 이해하든지." 슬러그들이 당신의 함선을 조준합니다.</text>
 		</removeCrew>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
@@ -4780,41 +4780,41 @@
 
 	</event>
 	<event>
-		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times. "Alright, you got your discount, now pay up or we lay waste to your crewman right here on the spot."</text>
+		<text>슬러그들은 약간의 긴장된 논의 끝에 몸값을 낮추는데 동의합니다. 승무원들은 몇 번이고 구타와 전기 고문을 당합니다. "쪼아아. 할인도 받았으니, 이제 돈을 내든가 아니면 승무워언 낭비나 하든지이."</text>
 		<choice hidden="true">
 			<text>지불한다. [ 스크랩: -15 ]</text>
 			<event>
-				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+				<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 눈에 띄게 겁먹은 것 같지만, 대부분 부상은 없는 것 같습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Negotiate.</text>
+			<text>협상한다.</text>
 			<event>
-				<text>The Slugs are no longer willing to listen. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
+				<text>슬러그들은 더 이상 듣고 싶어하지도 않습니다. "인질의 깨념도 이해하지 못하는꾸마아안." 한 슬러그가 변형된 충격 블래스터의 방아쇠를 당겨 당신의 승무원의 다리를 쏴 비명을 지르며 쓰러지게 만듭니다. "시간이 따 되어간따구!"</text>
 				<choice hidden="true">
 					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+						<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 심각한 부상 상태였고, 긴급한 의료 치료가 필요했습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
-							<text>Perform first aid.</text>
+							<text>응급처치를 한다.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
+								<text>당신의 노력은 헛수고였고, 슬러그 블래스터가 승무원에게 심각한 조직 손상을 입혀놓았습니다. 결국 상처에 굴복하고 말았습니다.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>승무원의 복제품은 이미 준비된 상태였습니다. 복제인간은 여기서 일어난 일을 받아들이는데 어려움을 겪고 있습니다. "그래서 인질극을 고조시키고, 저를 총살당하게 만들고는, 돈을 내서 저를 풀어주고, 피흘려 죽게 만든 겁니까? 도대체 뭡니까, 함장님?"</text>
 								</removeCrew>
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(향상된 의료실) Stabilize your crewman.</text>
+							<text>(향상된 의료실) 승무원을 안정시킨다.</text>
 							<event>
-								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
+								<text>당신의 승무원은 살아남았지만, 여전히 불안해합니다. "곧 슬러그 구역에서 벗어나는 게 좋겠습니다, 함장님."</text>
 							</event>
 						</choice>
 					</event>
@@ -4822,10 +4822,10 @@
 				<choice hidden="true">
 					<text>공격한다.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+						<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+							<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4834,28 +4834,28 @@
 		<choice hidden="true" req="weapons" lvl="5"> 
 			<text>(무기) 협박한다.</text>
 			<event>
-				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
+				<text>슬러그들은 더 이상 듣고 싶어하지도 않습니다. "인질의 깨념도 이해하지 못하는꾸마아안." 한 슬러그가 변형된 충격 블래스터의 방아쇠를 당겨 당신의 승무원의 다리를 쏴 비명을 지르며 쓰러지게 만듭니다. "시간이 따 되어간따구!"</text>
 				<choice hidden="true">
 					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+						<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 심각한 부상 상태였고, 긴급한 의료 치료가 필요했습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
-							<text>Perform first aid.</text>
+							<text>응급처치를 한다.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
+								<text>당신의 노력은 헛수고였고, 슬러그 블래스터가 승무원에게 심각한 조직 손상을 입혀놓았습니다. 결국 상처에 굴복하고 말았습니다.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmember's clone is already ready, but the clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed the ransom to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>승무원의 복제품은 이미 준비된 상태였습니다. 복제인간은 여기서 일어난 일을 받아들이는데 어려움을 겪고 있습니다. "그래서 인질극을 고조시키고, 저를 총살당하게 만들고는, 돈을 내서 저를 풀어주고, 피흘려 죽게 만든 겁니까? 도대체 뭡니까, 함장님?"</text>
 								</removeCrew>
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(향상된 의료실) Stabilize your crewman.</text>
+							<text>(향상된 의료실) 승무원을 안정시킨다.</text>
 							<event>
-								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
+								<text>당신의 승무원은 살아남았지만, 여전히 불안해합니다. "곧 슬러그 구역에서 벗어나는 게 좋겠습니다, 함장님."</text>
 							</event>
 						</choice>
 					</event>
@@ -4863,10 +4863,10 @@
 				<choice hidden="true">
 					<text>공격한다.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+						<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+							<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4875,50 +4875,50 @@
 		<choice hidden="true">
 			<text>공격한다.</text>
 			<event>
-				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+				<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+					<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 				</removeCrew>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times. "Alright, you got your dissscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
+		<text>슬러그들은 약간의 긴장된 논의 끝에 몸값을 낮추는데 동의합니다. 승무원들은 몇 번이고 구타와 전기 고문을 당합니다. "쪼아아. 할인도 받았으니, 이제 돈을 내든가 아니면 승무워언 낭비나 하든지이."</text>
 		<choice hidden="true">
 			<text>지불한다. [ 스크랩: -15 ]</text>
 			<event>
-				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+				<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 눈에 띄게 겁먹은 것 같지만, 대부분 부상은 없는 것 같습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Negotiate.</text>
+			<text>협상한다.</text>
 			<event>
-				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time is running out!"</text>
+				<text>슬러그들은 더 이상 듣고 싶어하지도 않습니다. "인질의 깨념도 이해하지 못하는꾸마아안." 한 슬러그가 변형된 충격 블래스터의 방아쇠를 당겨 당신의 승무원의 다리를 쏴 비명을 지르며 쓰러지게 만듭니다. "시간이 따 되어간따구!"</text>
 				<choice hidden="true">
 					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 심각한 부상 상태였고, 긴급한 의료 치료가 필요했습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
-							<text>Perform first aid.</text>
+							<text>응급처치를 한다.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewmen. The person succumbs to its wounds.</text>
+								<text>당신의 노력은 헛수고였고, 슬러그 블래스터가 승무원에게 심각한 조직 손상을 입혀놓았습니다. 결국 상처에 굴복하고 말았습니다.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>승무원의 복제품은 이미 준비된 상태였습니다. 복제인간은 여기서 일어난 일을 받아들이는데 어려움을 겪고 있습니다. "그래서 인질극을 고조시키고, 저를 총살당하게 만들고는, 돈을 내서 저를 풀어주고, 피흘려 죽게 만든 겁니까? 도대체 뭡니까, 함장님?"</text>
 								</removeCrew>
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(향상된 의료실) Stabilize your crewman.</text>
+							<text>(향상된 의료실) 승무원을 안정시킨다.</text>
 							<event>
-								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
+								<text>당신의 승무원은 살아남았지만, 여전히 불안해합니다. "곧 슬러그 구역에서 벗어나는 게 좋겠습니다, 함장님."</text>
 							</event>
 						</choice>
 					</event>
@@ -4926,10 +4926,10 @@
 				<choice hidden="true">
 					<text>공격한다.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+						<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+							<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4938,11 +4938,11 @@
 		<choice hidden="true" req="weapons" lvl="5"> 
 			<text>(무기) 협박한다.</text>
 			<event>
-				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
+				<text>슬러그들은 아무런 감명도 받지 않습니다. "인질의 깨념도 이해하지 못하는꾸마아안." 한 슬러그가 변형된 충격 블래스터의 방아쇠를 당겨 당신의 승무원의 다리를 쏴 비명을 지르며 쓰러지게 만듭니다. "시간이 따 되어간따구!"</text>
 				<choice hidden="true">
 					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 눈에 띄게 겁먹은 것 같지만, 대부분 큰 부상은 없는 것 같습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
@@ -4951,10 +4951,10 @@
 				<choice hidden="true">
 					<text>공격한다.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewman with them.</text>
+						<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+							<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4963,16 +4963,16 @@
 		<choice hidden="true">
 			<text>공격한다.</text>
 			<event>
-				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+				<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+					<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 				</removeCrew>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times, but suddenly lashes out to grab a blaster, guns down one of the Slug and runs for the ship's teleporters. "I got this Cap, but you have to cover my escape. Strike now!" You engage the Slug craft to distract its crew and your crewman manages to teleport back in one piece.</text>
+		<text>슬러그들은 약간의 긴장된 논의 끝에 몸값을 낮추는데 동의합니다. 당신의 승무원은 몇 번이고 구타와 전기 고문을 당하다가, 갑자기 한 슬러그를 후려치고 블래스터를 빼앗아 쓰러뜨리고는 함선의 텔레포터를 향해 달려나갑니다. "함장은 제가 처치했지만 저의 탈출은 당신이 엄호해주셔야 합니다. 당장 공격하시오!" 슬러그 함선과 교전하여 주위를 분산시키면 승무원들은 다시 텔레포터를 통해 돌아올 수 있을 것입니다.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -5025,41 +5025,41 @@
 
 <eventList name="NEBULA_SLUG_HOSTAGE_THREATEN">
 	<event>
-		<text>The Slugs agree that you could probably overpower them in direct combat. "But that won't sssave your friend." They casually beat and tase your crewman as a reminder. "We are not animalss though and there iss no need for more violence. You got your disscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
+		<text>슬러그들은 당신이 전투로 자신들을 충분히 제압 가능하다는 것에 동의합니다. "하지만 친구를 꾸할 순 없을꺼얼." 그들이 당신의 승무원을 구타하고 테이저로 고문합니다. "우린 멍청이도 아니고 더 이이상의 폭력도 필요 없지. 할인을 받으셔었으니, 돈을 내시던지 아니면 승무워언 쓰레기 폐기나 결정하아시든지."</text>
 		<choice hidden="true">
 			<text>지불한다. [ 스크랩: -15 ]</text>
 			<event>
-				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+				<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 눈에 띄게 겁먹은 것 같지만, 대부분 큰 부상은 없는 것 같습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Negotiate.</text>
+			<text>협상한다.</text>
 			<event>
-				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
+				<text>슬러그들은 더 이상 듣고 싶어하지도 않습니다. "인질의 깨념도 이해하지 못하는꾸마아안." 한 슬러그가 변형된 충격 블래스터의 방아쇠를 당겨 당신의 승무원의 다리를 쏴 비명을 지르며 쓰러지게 만듭니다. "시간이 따 되어간따구!"</text>
 				<choice hidden="true">
 					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+						<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 심각한 부상 상태였고, 긴급한 의료 치료가 필요했습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
-							<text>Perform first aid.</text>
+							<text>응급처치를 한다.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
+								<text>당신의 노력은 헛수고였고, 슬러그 블래스터가 승무원에게 심각한 조직 손상을 입혀놓았습니다. 결국 상처에 굴복하고 말았습니다.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>승무원의 복제품은 이미 준비된 상태였습니다. 복제인간은 여기서 일어난 일을 받아들이는데 어려움을 겪고 있습니다. "그래서 인질극을 고조시키고, 저를 총살당하게 만들고는, 돈을 내서 저를 풀어주고, 피흘려 죽게 만든 겁니까? 도대체 뭡니까, 함장님?"</text>
 								</removeCrew>
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(향상된 의료실) Stabilize your crewman.</text>
+							<text>(향상된 의료실) 승무원을 안정시킨다.</text>
 							<event>
-								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
+								<text>당신의 승무원은 살아남았지만, 여전히 불안해합니다. "곧 슬러그 구역에서 벗어나는 게 좋겠습니다, 함장님."</text>
 							</event>
 						</choice>
 					</event>
@@ -5067,10 +5067,10 @@
 				<choice hidden="true">
 					<text>공격한다.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+						<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+							<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -5079,28 +5079,28 @@
 		<choice hidden="true" req="weapons" lvl="5"> 
 			<text>(무기) 협박한다.</text>
 			<event>
-				<text>The Slugs remain unimpressed. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
+				<text>슬러그들은 아무런 감명도 받지 않습니다. "인질의 깨념도 이해하지 못하는꾸마아안." 한 슬러그가 변형된 충격 블래스터의 방아쇠를 당겨 당신의 승무원의 다리를 쏴 비명을 지르며 쓰러지게 만듭니다. "시간이 따 되어간따구!"</text>
 				<choice hidden="true">
 					<text>지불한다. [ 스크랩: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
+						<text>"유익한 거래에 만족하네, 헤헤." 그들은 스크랩을 가져가고 당신의 승무원을 텔레포트시킵니다. 심각한 부상 상태였고, 긴급한 의료 치료가 필요했습니다. 슬러그들은 협상 중에 FTL을 충전할 충분한 시간이 있었고 즉시 도망쳐버립니다.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
-							<text>Perform first aid.</text>
+							<text>응급처치를 한다.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
+								<text>당신의 노력은 헛수고였고, 슬러그 블래스터가 승무원에게 심각한 조직 손상을 입혀놓았습니다. 결국 상처에 굴복하고 말았습니다.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed the ransome to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>승무원의 복제품은 이미 준비된 상태였습니다. 복제인간은 여기서 일어난 일을 받아들이는데 어려움을 겪고 있습니다. "그래서 인질극을 고조시키고, 저를 총살당하게 만들고는, 돈을 내서 저를 풀어주고, 피흘려 죽게 만든 겁니까? 도대체 뭡니까, 함장님?"</text>
 								</removeCrew>
 							</event>
 						</choice>
 						<choice hidden="true" req="medbay" lvl="2">
-							<text>(향상된 의료실) Stabilize your crewman.</text>
+							<text>(향상된 의료실) 승무원을 안정시킨다.</text>
 							<event>
-								<text>Your crew member makes it, but remains deeply shaken. "I'd rather get out of Slug space soon, Captain."</text>
+								<text>당신의 승무원은 살아남았지만, 여전히 불안해합니다. "곧 슬러그 구역에서 벗어나는 게 좋겠습니다, 함장님."</text>
 							</event>
 						</choice>
 					</event>
@@ -5108,10 +5108,10 @@
 				<choice hidden="true">
 					<text>공격한다.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+						<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+							<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -5120,10 +5120,10 @@
 		<choice hidden="true">
 			<text>공격한다.</text>
 			<event>
-				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
+				<text>슬러그들은 당신의 무기 충전을 손쉽게 감지합니다. "이건 실쑤야아. 친구의 운명을 버리는꾸나아아." 슬러그들은 협상하는 사이 FTL을 충전할 만한 충분한 시간이 있었고 즉시 도망쳐 당신의 승무원을 대려가버렸습니다.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
+					<text>당신의 승무원은 떠나버렸고 노예로 팔릴 겁니다, 살아남는다면 말이죠. 클론 베이는 그들을 다시 데려올 수 없었습니다.</text>
 				</removeCrew>
 			</event>
 		</choice>
@@ -5137,7 +5137,7 @@
 	<text load="NEBULA_STORE_SLUG"/>
 	<environment type="nebula"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(화물 전송기) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 화물을 신속히 이송할 준비하며 상인과 접촉합니다.</text>
 		<event load="TE_STORE_SLUG_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
@@ -5147,9 +5147,9 @@
 	<store/>
 </event>
 <textList name="NEBULA_STORE_SLUG">
-	<text>A huge Slug teleports from nowhere onto the bridge! Before you can open fire, he's spread his wares across the helm and is brandishing things at you.</text>
-	<text>You cautiously approach a Slug colony on a huge asteroid. It's a brave person who sets foot on a Slug planet - it can take weeks to get the mucus out of your clothes - but there's business to be done.</text>
-	<text>A Slug pleasure station floods the channels with its advertisements here. They offer all kinds of services you have neither time, use, or money for. They also sell various things, from strange alien lifeforms to even weirder artworks.</text>
+	<text>거대 슬러그 함선이 어디선가 함교 위로 날아옵니다! 당신이 발포하려 하기 전에, 그는 자기 상품들을 당신을 향해 휘두르며 보여줍니다.</text>
+	<text>거대한 소행성에 있는 슬러그 식민지로 조심스럽게 다가갑니다. 슬러그 행성에 발을 디딘 용감한 사람이군요 - 옷에서 점액을 빼내는 데 몇 주가 걸릴 지도 모를 일이지만, 해야 하는 일이 있습니다.</text>
+	<text>한 슬러그 여가 기지가 광고로 채널을 가득 채웁니다. 그들은 시간, 소비, 돈조차 없는 모든 종류의 서비스들을 제공합니다. 또한 낯선 외계 생명체부터 심지어는 이상한 예술품에 이르기까지의 다양한 물건들도 판매합니다.</text>
 </textList>
 
 <eventList name="TE_STORE_SLUG_LIST">
@@ -5157,7 +5157,7 @@
 	<event load="TE_STORE_SLUG_ACTUAL"/>
 	<event load="TE_STORE_SLUG_ACTUAL"/>
 	<event>
-		<text>Upon docking you discover that this trader has access to a cargo teleporter. You will be able to make a quick deal here.</text>
+		<text>도킹할 때 당신은 이 상인이 화물 전송기에 접속할 수 있다는 것을 알았습니다. 당신은 이곳에서 거래를 신속하게 할 수 있을 겁니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="TE_STORE_SLUG_LIST_BOOSTED"/>
@@ -5169,10 +5169,10 @@
 
 <eventList name="TE_STORE_SLUG_ACTUAL">
 	<event>
-		<text>You consider haggling with the Slugs. This might take some time.</text>
+		<text>당신은 상인과 거래하는 것을 좀 더 고려합니다. 아마 좀 더 시간이 걸릴 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy exotic tube-bred animals.</text>
+			<text>이색적인 튜브 모양의 동물을 삽니다.</text>
 			<event>
 				<text load="STORE_SLUG_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -5183,7 +5183,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Purchase some fine pieces of art.</text>
+			<text>훌륭한 예술품 몇 점을 삽니다.</text>
 			<event>
 				<text load="STORE_SLUG_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -5194,7 +5194,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy a shipment of slug drugs.</text>
+			<text>슬러그 마약 수송품을 삽니다.</text>
 			<event>
 				<text load="STORE_SLUG_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -5207,7 +5207,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
 			<!-- best deal-->
-			<text>You feel like someone is poking around in your mind. "Hmm... you have raw ore? Hah, I already know how much you want. Deal!" [Sell Raw Asteroid Ore for about 70 Scrap]</text>
+			<text>누군가가 마음 속을 쿡쿡 쑤셔대는 것 같은 기분이 듭니다. "흠... 광물을 가지고 있는 건가? 하, 난 네가 얼마를 원하는지 이미 알고 있다구. 딜!"  [소행성 원석을 대략 70 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
 				<choice>
@@ -5223,7 +5223,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>You hear a voice in your head, "You remember your cargo lisst well. Come to my ssshop. I pay good sscrap for thesse fancy goods!" [Sell Luxury Goods for about 115 Scrap]</text>
+			<text>당신의 머릿속에서 목소리가 들려옵니다. "네 화아물은 기억하고 있겠찌. 내 상점으로 와아. 꼬오오오급 상품에 대해 좋은 쓰크랩을 주지!" [사치품을 대략 115 스크랩에 판매]</text>
 			<!-- best deal-->
 			<event>
 				<text load="STORE_SLUG_SELL_TEXT"/>
@@ -5998,27 +5998,27 @@
 
 
 <textList name="STORE_SLUG_BUY_TEXT">
-	<text>The Slugs can read minds so they should know what you want, right? They definitely aren't that cooperative. While they slowly load the cargo you have a look at the ship equipment the shop also offers.</text>
-	<text>You take extra care when transferring the scrap and have your crew stand by for security. Dealing with Slugs is never easy for non-telepaths. Loading the cargo takes some time. You check the ship equipment catalog while waiting.</text>
-	<text>The Slug invites you for a drink to celebrate the deal and the ship's computer says the stuff is not dangerous. It's still quite strong though. You can't command a ship like ths. While waiting for your head to clear you check the ship equipment they offer here.</text>
-	<text>To seal the deal you are invited for some Slug drinks. The scanner says it's safe but you get quite sick from it. Why can't trading ever be easy?</text>
+	<text>슬러그들은 마음을 읽을 수 있으니 당신이 뭘 원하는지는 알겠죠? 그들은 확실하게 그렇게까지 협조적이진 않았습니다. 그들이 천천히 화물을 싣는 동안, 당신은 그 상점이 제공하는 선박 장비들을 볼 수 있었습니다.</text>
+	<text>당신은 스크랩을 전송하면서 각별히 주의하며 승무원들이 안전을 위해 대기하도록 합니다. 슬러그를 다루는 것은 텔레파시가 없는 종족들에게는 결코 쉬운 일이 아닙니다. 화물을 싣는 데는 시간이 꽤 걸립니다. 기다리는 동안 선박 장비 카탈로그를 확인합니다.</text>
+	<text>슬러그가 거래를 축하하기 위해 당신을 초대하여 음료를 제공했고 함선의 컴퓨터는 위험하지 않다고 보고합니다. 그래도 여전히 심신에 끼치는 영향은 큽니다. 당신의 함선을 이런 식으로 지휘할 수는 없을 겁니다. 머리가 맑아지기를 기다리는 동안 그들이 제공하는 선박 장비들을 확인하기로 합니다.</text>
+	<text>거래를 성사시키기 위해 당신은 약간의 슬러그 음료를 위해 초대받습니다. 스캐너는 안전하다고 하지만, 이것에 의해서 상당한 고통이 동반됩니다. 왜 거래는 쉬울 수가 없을까요?</text>
 </textList>
 
 <textList name="STORE_SLUG_SELL_TEXT">
-	<text>You ask the trader to refrain from poking around in your mind, but you can't help assuming that he is intruding while you discuss. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
-	<text>You try to negotiate a good price, as far as this is possible with telepaths. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
-	<text>After time-consuming haggling you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment.</text>
-	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
-	<text>From reading your mind the Slug already knows the minimum you'll accept for your cargo and that's all he offers. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal.</text>
+	<text>당신은 상인에게 자기 정신 속을 찌르는 듯한 행위를 삼가해 달라고 부탁하지만, 그들의 소행이라고 단정지을 수도 없었습니다. 선불로 약간의 스크랩을 받고, 나머지 금액을 받기 위해 상점에서 물품을 하역합니다.</text>
+	<text>당신은 텔레파시로 가능한 한 좋은 가격을 협상하려고 노력합니다. 선불로 약간의 스크랩을 받고, 나머지 금액을 받기 위해 상점에서 물품을 하역합니다.</text>
+	<text>오랜 흥정 끝에 겨우 합의에 도달합니다. 스크랩을 완전히 받으려면 상점에 물품을 내려줘야 합니다.</text>
+	<text>오랜 시간 동안의 협상 끝에 선금을 받게 됩니다. "상점에 물품을 내리면 나머지도 받을 거야." 그들은 당신을 별로 신뢰하지 않는 것 같습니다.</text>
+	<text>당신의 마음을 읽는 것으로 미루어 볼 때, 슬러그는 당신의 화물에 대해 받아들일 최소치를 이미 알고 있었고 그것이 그가 제시하는 전부였습니다. 스크랩을 선적한 후 화물을 상점으로 옮김으로써 거래를 성사시킬 수 있었습니다.</text>
 </textList>
 
 
 <eventList name="TE_STORE_SLUG_LIST_BOOSTED">
 	<event>
-		<text>You consider haggling with the Slugs. The cargo teleporter will make the trade easier.</text>
+		<text>당신은 슬러그와 거래하는 것을 고려합니다. 물건은 신속히 교환될 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy exotic tube-bred animals.</text>
+			<text>이색적인 튜브 모양의 동물을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -6028,7 +6028,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Purchase some fine pieces of art.</text>
+			<text>훌륭한 예술품 몇 점을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -6038,7 +6038,7 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Buy a shipment of slug drugs.</text>
+			<text>슬러그 마약 수송품을 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -6050,7 +6050,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
 			<!-- best deal-->
-			<text>You have the feeling someone is poking around in your mind. "Hmm... you have raw ore? Hah, I already know how much you want. Deal!" [Sell Raw Asteroid Ore for about 70 Scrap]</text>
+			<text>누군가가 마음 속을 쿡쿡 쑤셔대는 것 같은 기분이 듭니다. "흠... 광물을 가지고 있는 건가? 하, 난 네가 얼마를 원하는지 이미 알고 있다구. 딜!"  [소행성 원석을 대략 70 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -6065,7 +6065,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
-			<text>You hear a voice in your head, "You remember your cargo lisst well. Come to my ssshop. I pay good sscrap for thesse fancy goods!" [Sell Luxury Goods for about 115 Scrap]</text>
+			<text>당신의 머릿속에서 목소리가 들려옵니다. "네 화아물은 기억하고 있겠찌. 내 상점으로 와아. 꼬오오오급 상품에 대해 좋은 쓰크랩을 주지!" [사치품을 대략 115 스크랩에 판매]</text>
 			<!-- best deal-->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
