@@ -4158,7 +4158,7 @@
 
 <eventList name="ROCK_CRYSTAL_DIPLOMAT_MEETING">
 	<event>
-		<text>도킹과 동시에, 의식용 함선이 갑자기 숨겨진 무기들을 작동시켜 당신의 함선으로 돌립니다. 한편, 탑승자들이 에어락 너머에서 분노합니다.</text>
+		<text>도킹과 동시에, 의식용 함선이 갑자기 숨겨진 무기들을 작동시켜 당신의 함선으로 돌립니다. 한편, 탑승자들이 에어록 너머에서 분노합니다.</text>
 		<boarders min="2" max="2" class="crystal"/>
 		<choice hidden="true">
 			<text>"무슨 일이냐?"</text>
