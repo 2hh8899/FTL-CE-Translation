@@ -37,7 +37,7 @@
 		<quest event="CE_BOUNTY_ENGI_REBEL_INVADER"/>
 	</event>
 	<event> <!-- Engi Pirate -->
-		<text>엔지는 그들 중 일부가 "적절한 행동 매개 변수에서 벗어남"이라고 비난합니다. 범법자들을 무장된 함선을 타고 집단에서 도망쳤고, 현지 엔지들은 이를 추격할 자원이나 화력을 가지고 있지 않습니다. 목표: 엔지 범죄자 함선. 보수: 높음.</text>
+		<text>엔지는 그들 중 일부가 "적절한 행동 매개 변수에서 벗어남"이라고 비난합니다. 범법자들은 무장된 함선을 타고 집단에서 도망쳤고, 현지 엔지들은 이를 추격할 자원이나 화력을 가지고 있지 않습니다. 목표: 엔지 범죄자 함선. 보수: 높음.</text>
 		<quest event="CE_BOUNTY_ENGI_PIRATE"/>
 	</event>
 	<event> <!-- Engi Infected -->
