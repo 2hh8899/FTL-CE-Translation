@@ -455,11 +455,11 @@
 		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
 	</event>
 	<event> <!-- Pirate Nebula -->
-		<text>해적선으로 보이는 함선이 오랫동엔 이 성운 상인들을 덥치기 위해 매복해 왔습니다. 해적 현상금은 상당이 커졌습니다. 목표: 전석적인 해적. 지불금: 중간.</text>
+		<text>해적선으로 보이는 함선이 오랫동엔 이 성운 상인들을 덮치기 위해 매복해 왔습니다. 해적 현상금은 상당이 커졌습니다. 목표: 전설적인 해적. 지불금: 중간.</text>
 		<quest event="CE_BOUNTY_PIRATE_NEBULA"/>
 	</event>
 	<event> <!-- Pirate Nebula -->
-		<text>해적선으로 보이는 함선이 오랫동엔 이 성운 상인들을 덥치기 위해 매복해 왔습니다. 해적 현상금은 상당이 커졌습니다. 목표: 전석적인 해적. 지불금: 중간.</text>
+		<text>해적선으로 보이는 함선이 오랫동엔 이 성운 상인들을 덮치기 위해 매복해 왔습니다. 해적 현상금은 상당이 커졌습니다. 목표: 전설적인 해적. 지불금: 중간.</text>
 		<quest event="CE_BOUNTY_PIRATE_NEBULA"/>
 	</event>
 	<event> <!--  Nothing -->
