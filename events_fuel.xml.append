@@ -66,7 +66,7 @@
 	<choice hidden="true">
 		<text>이 피난선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불안하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -2163,7 +2163,7 @@
 	<choice>
 		<text>우리는 가능한 한 모든 자원이 필요하다. 함선을 공격하고 자원을 빼앗는다!</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불안하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -2206,7 +2206,7 @@
 	<choice>
 		<text>우리는 가능한 한 모든 자원이 필요하다. 함선을 공격하고 자원을 빼앗는다!</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불안하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -2890,7 +2890,7 @@
 	<choice>
 		<text>이 힘선은 쉬운 먹잇감으로 보인다. 그들을 공격한다.</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불안하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -2992,7 +2992,7 @@
 	<choice>
 		<text>낼 요금따윈 없다. 물건을 빼앗는다!</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불안하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
@@ -3033,7 +3033,7 @@
 	<choice>
 		<text>이타적은 무슨. 물건을 빼앗는다!</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것은 당신의 승무원들을 불안하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
 				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
