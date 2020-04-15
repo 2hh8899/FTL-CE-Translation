@@ -4702,7 +4702,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
-			<text>[질병 샘플을 대략 40 스크랩에 판매] <!-- updated -->
+			<text>[질병 샘플을 대략 40 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_ROCK_SELL_TEXT"/>
 				<choice>
