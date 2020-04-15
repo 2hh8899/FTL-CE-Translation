@@ -4756,7 +4756,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>당신은 해냈습니다, 순양함의 선원들이 모두 죽었어요! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. 또한 당신이 잡혔다고 주장하는 반란군 암호화된 메시지도 보냅니다. 조사로 반란군 함대가 상당히 느려질 것이 분명합니다. 이 이상한 물체를 분석하려는 시도는 더 이상 결과를 낳지 않습니다. 당신은 도약할 준비를 합니다.</text>
+		<text>당신은 해냈습니다, 순양함의 선원들이 모두 죽었습니다! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. 또한 당신이 잡혔다고 주장하는 반란군 암호화된 메시지도 보냅니다. 조사로 반란군 함대가 상당히 느려질 것이 분명합니다. 이 이상한 물체를 분석하려는 시도는 더 이상 결과를 낳지 않습니다. 당신은 도약할 준비를 합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<modifyPursuit amount="-3"/>
 	</deadCrew>
@@ -5451,19 +5451,19 @@
 
 <ship name="REBEL_POW_MEETING_RELEASE" auto_blueprint="SHIPS_REBEL">
 	<surrender min="2" max="5">
-		<text>Something is not right here. You just lost internal sensors and door control. The Rebels have station a remote hacking satellite nearby and attempt to free the prisoners. The cadets escape from their holding cells and attempt to take over the ship!</text>
+		<text>무엇인가 잘못되었습니다. 내부 센서와 문 제어능력을 잃었습니다. 반란군이 근처에 원격 해킹 위성을 배치하여 죄수들을 석방하려고 시도합니다. 간부들이 감방에서 탈출하여 함선을 점령하려고 합니다!</text>
 		<status type="limit" target="player" system="sensors" amount="0"/>
 		<status type="limit" target="player" system="doors" amount="0"/>
 		<boarders min="2" max="2" class="human"/>
 	</surrender>
 	<destroyed>
-		<text>After destroying the Rebel ship you shut down the hacking satellite and salvage from it. A few more dead Rebel soldiers than usual have to be taken out the airlocks. A shame it had to end like this.</text>
+		<text>반란군 함선을 파괴한 후 해킹 위성을 차단하고 분해해버립니다. 죽어버린 반란군 병사들은 에어록을 통해 버립니다. 이렇게 끝난 것이 아쉽군요.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 		<status type="clear" target="player" system="doors" amount="100"/>
 	</destroyed>
 	<deadCrew>
-		<text>As you strip the Rebel ship you hear shouts in the corridors. The remaining cadets managed to escape their holding cells and attempt to escape to the Rebel ship while you are still docked. Security alert!</text>
+		<text>반란군 함선에서 쓸만한 것들을 모으던 중 복도에서 고함소리가 들립니다. 남은 간부들이 감방을 빠져나와 아직 도킹 중인 반란군 함선으로 도망치려고 합니다. 보안 경보!</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 		<status type="clear" target="player" system="doors" amount="100"/>
@@ -5488,21 +5488,21 @@
 	<deadCrew load="C_DEAD_CREW_PIRATE_CRUISER_DEFAULT"/>
 </ship>
 <textList name="C_PIRATE_CRUISER_SMUG_POWERUP_TEXT">
-	<text>The pirate Captain hails again: "Alright you got our full attention now. We will power up all our systems and eradicated you!" You detect that additional offensive components are activating on the cruiser.</text>
-	<text>The Pirates message you: "You want to play rough?" Your scanners indicate that the cruiser is powering up additional systems. Looks like they will be taking you seriously now.</text>
-	<text>You are hailed: "Hm you are still there? Are you sure you do not want to flee? Well, OK then..." The modified cruiser increases its power output and activates additional systems.</text>
+	<text>해적 선장이 다시 통신합니다: "좋아 충분한 관심을 받았나 보구만. 이제 모든 시스템에 전력을 넣어 너희들을 뿌리뽑아버리마!" 순양함에서 추가적인 전투 장비가 가동되는 것을 감지합니다.</text>
+	<text>해적이 메세지를 보냅니다: "난폭하게 노는 걸 좋아하나?" 스캐너에 따르면 순양함이 추가 시스템에 전원을 넣고 있습니다. 그들이 전투를 더욱 심각하게 받아들이는 것 같군요.</text>
+	<text>통신이 옵니다: "음 아직 거기 있냐? 진짜 도망치고 싶지 않은 거야? 자, 그러면..." 개조된 순양함의 출력이 높아지고 추가 시스템을 작동시킵니다.</text>
 </textList>
 
 
 <ship name="C_SHIP_PIRATE_CRUISER_QUEST_LADY" auto_blueprint="SHIPS_PIRATE_CRUISER">
 	<surrender  min="3" max="4" >
-		<text>The pirate lady hails you: "Well alright then. I would not be where I am now if could not admit defeat. What about I offer you a way better deal if you leave my flagship intact?"</text>
+		<text>해적 아가씨가 통신합니다: "좋아. 패배를 인정하지 않으면 이 세상에서 사라져 버리겠구만. 내 기함을 그대로 내버려두는 대신 더 좋은 거래를 하는 건 어때?"</text>
 		<choice>
 			<text>제안을 받아들인다.</text>
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="HIGH">weapon</autoReward>
-			<text>She transfers a generous amount of scrap and a ship weapon. "Very well. Now scat you ship rat, I've had enough of this."</text>
+			<text>그녀는 많은 양의 스크랩과 무기를 전송합니다. "아주 좋아. 이제 쥐새끼들아, 다시 흩어져라. 이제 이건 지긋지긋하군."</text>
 			<choice>
 				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
@@ -5529,25 +5529,25 @@
 		<text>해적 순양함은 가까운 궤도로 도약했고, 남은 당신은 그들의 ASB를 피해야 합니다. 당신은 그들이 지원군을 부르러 떠난 것이 아니길 빕니다.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
+		<text>마지막으로 상대의 탄약고를 명중시키고 순양함이 밝은 불꽃을 일으킵니다. 남은 것들을 인양하는 동안, 잔해들이 대기 중에서 타오를 때까지 천천히 행성으로 퍼져나갑니다. 대함포대는 잠잠해졌습니다.</text>
 		<environment type="PDS" target="enemy"/>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a small craft contacts you on secured channels: "Oh dear, the leader of the Claret Skulls is dead. The Purple Tentacles will surely want to know about this. Maybe you should tell them your story." The pirate blatantly blinks at you several times and transmits some coordinates.</text>
+				<text>많은 소형선들이 무슨 일이 일어났는지 보려고 근처로 모였습니다. 당신이 떠나기 직전 소형 기술 함선에게 보안 채널로 통신을 받습니다: "이런, 클라렛 스컬이 죽어버렸구만. 퍼플 텐타클이 분명히 이 소식을 알고 싶어할 거라구. 이야기해보러 가는 건 어떤가." 해적은 노골적으로 눈을 몇 번 깜빡이며 좌표를 전송합니다.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_LORD_LADY_KILLED"/>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The pirate elite troops are all dead and the anti-ship batteries go quiet. Strangely enough you can't manage to find the Commander of the Clare Skulls among the dead.</text>
+		<text>해적 정예부대는 모두 죽고 대함포대는 잠잠해집니다. 이상하게도 죽은 사람들 중에 클라렛 스컬의 지휘관은 찾을 수 없었습니다.</text>
 		<environment type="PDS" target="enemy"/>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a small craft contacts you on secured channels: "Oh dear, the leader of the Claret Skulls is dead. The Purple Tentacles will surely want to know about this. Maybe you should tell them your story." The pirate blatantly blinks at you several times and transmits some coordinates.</text>
+				<text>많은 소형선들이 무슨 일이 일어났는지 보려고 근처로 모였습니다. 당신이 떠나기 직전 소형 기술 함선에게 보안 채널로 통신을 받습니다: "이런, 클라렛 스컬이 죽어버렸구만. 퍼플 텐타클이 분명히 이 소식을 알고 싶어할 거라구. 이야기해보러 가는 건 어떤가." 해적은 노골적으로 눈을 몇 번 깜빡이며 좌표를 전송합니다.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_LORD_LADY_KILLED"/>
 			</event>
 		</choice>
@@ -5558,13 +5558,13 @@
 
 <ship name="C_SHIP_PIRATE_CRUISER_QUEST_LORD" auto_blueprint="SHIPS_PIRATE_CRUISER">
 	<surrender  min="3" max="4" >
-		<text>The pirate lord hails you: "I don't know who you are but you flexed your space muscles well enough now. We will pay you tribute if you spare our flagship"</text>
+		<text>해적 대장이 통신합니다: "네가 누군진 몰라도, 강하다는 걸 충분히 증명했소. 우리 기함만 살려준다면 경의를 표하도록 하지."</text>
 		<choice>
 			<text>제안을 받아들인다.</text>
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
-			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
+			<text>당신의 목적은 이 해적 대장을 제거하는 것이었지만, 당신은 여기서 자기 몸값을 내도록 허락했습니다. 그는 넉넉한 양의 물자를 전송합니다.</text>
 			<choice>
 				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
@@ -5591,25 +5591,25 @@
 		<text>해적 순양함은 가까운 궤도로 도약했고, 남은 당신은 그들의 ASB를 피해야 합니다. 당신은 그들이 지원군을 부르러 떠난 것이 아니길 빕니다.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
+		<text>마지막으로 상대의 탄약고를 명중시키고 순양함이 밝은 불꽃을 일으킵니다. 남은 것들을 인양하는 동안, 잔해들이 대기 중에서 타오를 때까지 천천히 행성으로 퍼져나갑니다. 대함포대는 잠잠해졌습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Oh no! The leader of the Purple Tentacles is dead! Anyway, I got you this treasure map you wanted, X marks the spot and all. Have fun." They transmit coordinates and jump away. This must be where your reward waits.</text>
+				<text>많은 소형선들이 무슨 일이 일어났는지 보려고 근처로 모였습니다. 당신이 떠나기 직전 소형 민간선에게 보안 채널로 통신을 받습니다: "오 이런! 퍼플 텐타클이 죽어버렸구만! 어쨌든 보물 지도를 구했구만, X 마크도 그렇고 여튼. 재미있게 놀라구." 그들은 좌표를 전송하고 도망칩니다. 이곳에 보상이 있을 것입니다.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_REWARD"/>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The pirate elite troops are all dead and the anti-ship batteries go quiet. You find their commander among the dead.</text>
+		<text>해적 정예부대는 모두 죽고 대함포대는 잠잠해집니다. 죽은 사람들 사이에 지휘관도 있었습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Oh no! The leader of the Purple Tentacles is dead! Anyway, I got you this treasure map you wanted, X marks the spot and all. Have fun." They transmit coordinates and jump away. This must be where your reward waits.</text>
+				<text>많은 소형선들이 무슨 일이 일어났는지 보려고 근처로 모였습니다. 당신이 떠나기 직전 소형 민간선에게 보안 채널로 통신을 받습니다: "오 이런! 퍼플 텐타클이 죽어버렸구만! 어쨌든 보물 지도를 구했구만, X 마크도 그렇고 여튼. 재미있게 놀라구." 그들은 좌표를 전송하고 도망칩니다. 이곳에 보상이 있을 것입니다.</text>
 				<quest event="C_QUEST_PIRATE_HOME_RIVALRY_REWARD"/>
 			</event>
 		</choice>
@@ -5620,13 +5620,13 @@
 
 <ship name="C_SHIP_PIRATE_CRUISER_QUEST_LORD_NO_REWARD" auto_blueprint="SHIPS_PIRATE_CRUISER">
 	<surrender  min="3" max="4" >
-		<text>The pirate lord hails you: "I don't know who you are but you flexed your space muscles well enough now. We will pay you tribute if you spare our flagship"</text>
+		<text>해적 대장이 통신합니다: "네가 누군진 몰라도, 강하다는 걸 충분히 증명했소. 우리 기함만 살려준다면 경의를 표하도록 하지."</text>
 		<choice>
 			<text>제안을 받아들인다.</text>
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
-			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
+			<text>당신의 목적은 이 해적 대장을 제거하는 것이었지만, 당신은 여기서 자기 몸값을 내도록 허락했습니다. 그는 넉넉한 양의 물자를 전송합니다.</text>
 			<choice>
 				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
@@ -5653,24 +5653,24 @@
 		<text>해적 순양함은 가까운 궤도로 도약했고, 남은 당신은 그들의 ASB를 피해야 합니다. 당신은 그들이 지원군을 부르러 떠난 것이 아니길 빕니다.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
+		<text>마지막으로 상대의 탄약고를 명중시키고 순양함이 밝은 불꽃을 일으킵니다. 남은 것들을 인양하는 동안, 잔해들이 대기 중에서 타오를 때까지 천천히 행성으로 퍼져나갑니다. 대함포대는 잠잠해졌습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Well thanks Mr. Federation. Now the Tentacles know we wanted them out of the pictures. What remains of them will be all over us. You better watch your back in the future!" They jump away without another word.</text>
+				<text>많은 소형선들이 무슨 일이 일어났는지 보려고 근처로 모였습니다. 당신이 떠나기 직전 소형 민간선에게 보안 채널로 통신을 받습니다: "음 고마워 연방 씨. 이제 텐타클들은 우리와 엮이고 싶어하지 않는다는 걸 알겠지. 잔당들은 우리 주변에 잔뜩 있겠지. 앞으로 뒤 조심하라고!" 그들은 다른 말 없이 도약합니다.</text>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The pirate elite troops are all dead and the anti-ship batteries go quiet. You find their commander among the dead.</text>
+		<text>해적 정예부대는 모두 죽고 대함포대는 잠잠해집니다. 죽은 사람들 사이에 지휘관을 찾았습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event>
-				<text>Many small ships have gathered nearby to witness what is happening. You are about to leave when a tiny civilian craft contacts you on secured channels: "Well thanks Mr. Federation. Now the Tentacles know we wanted them out of the pictures. What remains of them will be all over us. You better watch your back in the future!" They jump away without another word.</text>
+				<text>많은 소형선들이 무슨 일이 일어났는지 보려고 근처로 모였습니다. 당신이 떠나기 직전 소형 민간선에게 보안 채널로 통신을 받습니다: "음 고마워 연방 씨. 이제 텐타클들은 우리와 엮이고 싶어하지 않는다는 걸 알겠지. 잔당들은 우리 주변에 잔뜩 있겠지. 앞으로 뒤 조심하라고!" 그들은 다른 말 없이 도약합니다.</text>
 			</event>
 		</choice>
 	</deadCrew>
@@ -5682,13 +5682,13 @@
 
 <ship name="C_SHIP_PIRATE_CRUISER_QUEST_LORD_LADY_DEAD" auto_blueprint="SHIPS_PIRATE_CRUISER">
 	<surrender  min="3" max="4" >
-		<text>The pirate lord hails you: "You flexed your space muscles well enough. We are prepared to pay tribute for our lives."</text>
+		<text>해적 대장이 통신합니다: "강하다는 걸 충분히 증명했소. 우리 목숨을 위해 공물을 바칠 시간이 된 거 같군."</text>
 		<choice>
 			<text>제안을 받아들인다.</text>
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
-			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
+			<text>당신의 목적은 이 해적 대장을 제거하는 것이었지만, 당신은 여기서 자기 몸값을 내도록 허락했습니다. 그는 넉넉한 양의 물자를 전송합니다.</text>
 			<choice>
 				<text>휴전을 존중하고 적을 놓아줍니다.</text>
 				<event/>
@@ -5715,12 +5715,12 @@
 		<text>해적 순양함은 가까운 궤도로 도약했고, 남은 당신은 그들의 ASB를 피해야 합니다. 당신은 그들이 지원군을 부르러 떠난 것이 아니길 빕니다.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet. The galaxy is cleansed of one more pirate overlord.</text>
+		<text>마지막으로 상대의 탄약고를 명중시키고 순양함이 밝은 불꽃을 일으킵니다. 남은 것들을 인양하는 동안, 잔해들이 대기 중에서 타오를 때까지 천천히 행성으로 퍼져나갑니다. 대함포대는 잠잠해졌습니다. 은하계가 또 하나의 해적 권력자로부터 깨끗해졌습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 	</destroyed>
 	<deadCrew>
-		<text>The elite pirate troops are all dead and the anti-ship batteries go quiet. The galaxy is cleansed of one more pirate overlord.</text>
+		<text>정예 해적 부대는 모두 죽었고 대함포대는 조용해졌습니다. 은하계가 또 하나의 해적 권력자로부터 깨끗해졌습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 	</deadCrew>
@@ -5735,20 +5735,20 @@
 		<text load="PIRATE_FIGHT_DESTROYED"/>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
-				<text>The settlers pay up immediately after seeing what your ship is capable of. They give you everything they have.</text>
+				<text>정착민들이 당신의 함선이 한 일을 보고 즉시 돈을 지불합니다. 그들이 가진 모든 것입니다.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect the pirates bio-tags for the client.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 해적들의 바이오-태그를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
-				<text>The settlers pay up immediately after seeing what your ship is capable of. They give you everything they have.</text>
+				<text>정착민들이 당신의 함선이 한 일을 보고 즉시 돈을 지불합니다. 그들이 가진 모든 것입니다.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5759,23 +5759,23 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>The Rebel commissars bite cosmic dust, their ship explodes into a thousand pieces.</text>
+		<text>반란군의 함선은 수천 조각으로 터져나갑니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
-				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache containing the payment. The scrap speaks warmer than any words.</text>
+				<text>치안 판사는 공식 메세지를 보내며, 당신의 행동을 비난합니다. 인코딩된 첨부파일은 지불금이 포함된 근처의 공급 캐시로 이어져 있습니다. 스크랩은 그 어떤 말보다도 따뜻하죠.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect the Rebels bio-tags for the client.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 반군들의 바이오-태그를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
-				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache containing the payment. The scrap speaks warmer than any words.</text>
+				<text>치안 판사는 공식 메세지를 보내며, 당신의 행동을 비난합니다. 인코딩된 첨부파일은 지불금이 포함된 근처의 공급 캐시로 이어져 있습니다. 스크랩은 그 어떤 말보다도 따뜻하죠.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5788,7 +5788,7 @@
 		<text>승무원이 보고합니다, "저건 산산조각 났습니다, 함장님." 당신은 인양 작업을 시작하라는 명령을 내립니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The clients congratulate you on completing the job, claiming your contribution will be invaluable for the liberation of their planet.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
@@ -5803,7 +5803,7 @@
 		<text>The automated craft breaks apart under your heavy weapon fire. You really showed that robot.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The clients congratulate you on completing the job, claiming your contribution will be invaluable for the liberation of their planet.</text>
 				<autoReward level="MED">scrap_only</autoReward>
@@ -5819,7 +5819,7 @@
 		<text>The ganger ship's engines stutter and overheat, blowing the aft section of the ship clear off. The remaining wannabe criminals are sucked into open space.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5827,10 +5827,10 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect their biotags.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 선원들의 바이오-태그를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5846,7 +5846,7 @@
 		<text>The militia ship's engines suddenly stutter and overheat, blowing the aft section of the ship clear off. The remaining officers are sucked into open space.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5854,10 +5854,10 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect their biotags.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 선원들의 바이오-태그를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5873,7 +5873,7 @@
 		<text>The infected have been eliminated and further spread of the disease has been prevented.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The quarantine patrol has informed the local authorities of your task. They reluctantly deliver the payment and seem quite disturbed by what just happened here.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5884,7 +5884,7 @@
 		<text>No more life signs detected on the ship. You collect everything that can be salvaged without entering the conterminated ship.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The quarantine patrol has informed the local authorities of your task. They reluctantly deliver the payment and seem quite disturbed by what just happened here.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5903,7 +5903,7 @@
 		<text>The Rebel forward unit is destroyed, its remains trail dead on towards the edge of the system.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5911,10 +5911,10 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect the Rebels bio-tags for the client.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 반군들의 바이오-태그를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5930,7 +5930,7 @@
 		<text>The delinquent Engi pirates have been eliminated. Your intervention has restored Engi uniformity in this sector.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some parts in your wake and scuttles off immediately.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -5938,10 +5938,10 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to note the Engis identity codes for the client.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 엔지들의 신원 코드를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some parts in your wake and scuttles off immediately.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -5957,7 +5957,7 @@
 		<text>The deranged Engi have been eliminated; their circular ship is breaking apart at multiple impact points.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5965,10 +5965,10 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to note the Engis identity codes for the client.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 의뢰인을 위해 엔지들의 신원 코드를 수집하라고 명령합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5984,7 +5984,7 @@
 		<text>The demented Zoltan have been eliminated. Their station detonates with a bright flash of white light.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>Before handing over the scrap, the Zoltan give you a lengthly speech about the cruelty of causality. They stress how unnecessary but insignificant the death of their brethren ultimately is.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -5992,10 +5992,10 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the station. You order your crew pay respect to the fallen Zoltan while pillaging the station.</text>
+		<text>함선에서 더 이상 생명 징후가 포착되지 않습니다. 당신은 승무원들에게 정거장을 인양하는 동안 졸탄들에게 조의를 표하라고 했습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>Before handing over the scrap, the Zoltan give you a lengthly speech about the cruelty of causality. They stress how unnecessary but insignificant the death of their brethren ultimately is.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6018,7 +6018,7 @@
 		<text>You successfully hunted down the runaway AIs. Only a glowing wreckage remains of their advanced warship.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Zoltan are very happy with how you handled the situation. "Let's not speak about this nasty incident again, shall we? Good luck on your journey, Captain."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6029,7 +6029,7 @@
 		<text>You successfully hunted down the runaway AIs. The crew make sure that every data substrate and holo-projection unit aboard the ship is completely destroyed.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Zoltan are very happy with how you handled the situation. "Let's not speak about this nasty incident again, shall we? Good luck on your journey, Captain."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6051,7 +6051,7 @@
 		<autoReward level="MED">standard</autoReward>
 		<modifyPursuit amount="-1"/>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>You received an encoded message the very moment the cruisers FTL signature collapsed. It contains nothing but coordinates within this system, leading to a hidden supply cache. You collect your payment.</text>
 				<autoReward level="HIGH">weapon</autoReward>
@@ -6059,11 +6059,11 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>당신은 해냈습니다, 순양함의 선원들이 모두 죽었어요! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. The team also manages to access the ship's long-range comm systems. You send a message with Rebel encryption, claiming that you have been sighted elsewhere. The investigation will surely slow down the Rebel fleet.</text>
+		<text>당신은 해냈습니다, 순양함의 선원들이 모두 죽었습니다! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. The team also manages to access the ship's long-range comm systems. You send a message with Rebel encryption, claiming that you have been sighted elsewhere. The investigation will surely slow down the Rebel fleet.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<modifyPursuit amount="-1"/>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>You received an encoded message the very moment the cruisers FTL signature collapsed. It contains nothing but coordinates within this system, leading to a hidden supply cache. You collect your payment.</text>
 				<autoReward level="HIGH">weapon</autoReward>
@@ -6088,7 +6088,7 @@
 		<text>Your final barrage finds its mark and pierces through the cruiser fuel storage, turning the ship into a ball of liquid space-fire. Only a smoldering wreckage remains.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>Various pirate ships gather in the system to investigate what happened. The commander of a smaller vessel congratulates you personally. "Well done, merc. Don't worry, we have the metal. I would not dare messing with someone like you. Maybe we can even work together again one day?" They hand over a large payment.</text>
 				<autoReward level="MED">drone</autoReward>
@@ -6099,7 +6099,7 @@
 		<text>The pirate elite guard has been slain. You board the ship to salvage its tech.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>Various pirate ships gather in the system to investigate what happened. The commander of a smaller vessel congratulates you personally. "Well done, merc. Don't worry, we have the metal. I would not dare messing with someone like you. Maybe we can even work together again one day?" They hand over a large payment.</text>
 				<autoReward level="MED">drone</autoReward>
@@ -6137,7 +6137,7 @@
 		<text>노예선은 파괴되었습니다. 더이상 악독한 거래가 이루어지지는 않겠지만, 그 함선에서는 많은 이들이 목숨을 잃었을 겁니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The colonists no longer have to live with the constant thread of being kidnapped by Mantis invaders. They gladly pay their dues.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -6148,7 +6148,7 @@
 		<text>The slavers are taken care of, but it appears that none of the slaves survived the fight.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The colonists no longer have to live with the constant thread of being kidnapped by Mantis invaders. They gladly pay their dues.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -6164,7 +6164,7 @@
 		<text>The ship burns into a twisted shape of charred metal. You hit your mark.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Colonists immediately transmit the scrap when you contact them. "You did a good thing today. But we are afraid that there might be more ships coming soon. And there are also these rumors about a Rebel invasion..."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6175,7 +6175,7 @@
 		<text>The last Mantis invaders lie dead in the corridors of their ship. You salvage their supplies.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Colonists immediately transmit the scrap when you contact them. "You did a good thing today. But we are afraid that there might be more ships coming soon. And there are also these rumors about a Rebel invasion..."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6190,7 +6190,7 @@
 		<text>The Rock ship finally breaks apart under your heavy weapon fire. You move in to scrap the remains.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>"I am glad you fulfilled your mission, outsider. It is more than we would have expected. Please take your payment and leave before you are seen."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6201,7 +6201,7 @@
 		<text>The Rock nobles have been slain. You salvage their supplies.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>"I am glad you fulfilled your mission, outsider. It is more than we would have expected. Please take your payment and leave before you are seen."</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6216,7 +6216,7 @@
 		<text>The Federation ship tries to get away with what remains of its impulse engines, but it does not survive pursuit. The traitors have been eliminated.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The client laments that such measures became necessary. She knew the soldiers personally.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6227,7 +6227,7 @@
 		<text>No more life signs are detected on the ship. The traitors have been eliminated.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The client laments that such measures became necessary. She knew the soldiers personally.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6249,7 +6249,7 @@
 		<text>The AI ships self-destructs shortly before your final volley hits. You scrap what remains salvageable.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The avatars simulate a very amused appearance. "Ha! Well done, mercenary Fleischling. I actually doubted you would really accomplish this. Here, have some of the matter you crave so much. Good luck on your trivial journey!"</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6260,7 +6260,7 @@
 		<text>No more holo-signatures are detected on the ship. The AIs have been eliminated.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The avatars simulate a very amused appearance. "Ha! Well done, mercenary Fleischling. I actually doubted you would really accomplish this. Here, have some of the matter you crave so much. Good luck on your trivial journey!"</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6276,7 +6276,7 @@
 		<text>The destroyed slug ship trails off into the cloud. You scrap what debris floats in visible range.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Slug client wants to "re-negotiate" the payment. You have to fire a few warning shots before they agree to transmit the scrap.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -6287,7 +6287,7 @@
 		<text>No more slime secretion is detected on the ship. You send in a salvage crew.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The Slug client wants to "re-negotiate" the payment. You have to fire a few warning shots before they agree to transmit the scrap.</text>
 				<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -6303,7 +6303,7 @@
 		<text>The legend of this pirate will surely continue, his place might even be taken by another ship soon. What counts is that you took out another mark.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>You are hailed by a station hidden far deeper within the clouds. The informe you that it is them who has put out the bounty. They pay what was agreed on.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6314,7 +6314,7 @@
 		<text>No more slime secretion is detected on the ship. You send in a salvage crew.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>You are hailed by a station hidden far deeper within the clouds. The informe you that it is them who has put out the bounty. They pay what was agreed on.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6328,7 +6328,7 @@
 		<text>The Lanius ship burns out and melts into a bizarre shape of bladed metal.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The local settlers are glad that the immediate thread has been eliminated. "Thank you Mr. mercenary!"</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6339,7 +6339,7 @@
 		<text>No more life signs detected on the ship. You send in a salvage crew.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>The local settlers are glad that the immediate thread has been eliminated. "Thank you Mr. mercenary!"</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6355,7 +6355,7 @@
 		<text>The ships munition supply must have been substantial, its destruction sends out a strong shock wave.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>You received an anonymous message the very moment the ships FTL signature collapsed. It directs you to a hidden supply cache, containing your payment. You'll never know who put out this hit.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
@@ -6366,7 +6366,7 @@
 		<text>No more life signs detected on the ship. You send in a salvage crew.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the client and collect the bounty.</text>
+			<text>의뢰인에게 연락하여 현상금을 받습니다.</text>
 			<event>
 				<text>You received an anonymous message the very moment the ships FTL signature collapsed. It directs you to a hidden supply cache, containing your payment. You'll never know who put out this hit.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
