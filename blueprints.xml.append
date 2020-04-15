@@ -746,7 +746,7 @@
 
 <!--
 <shipBlueprint name="BOSS_1" layout="boss_1" img="boss_1">
-	<class>Rebel Flagship</class>
+	<class>반란군 기함</class>
 	<systemList>
 		<artillery power="4" room="9"/>
 		<artillery power="4" room="10"/>
@@ -783,7 +783,7 @@
 
 		
 <shipBlueprint name="BOSS_2" layout="boss_2" img="boss_2">
-	<class>Rebel Flagship</class>
+	<class>반란군 기함</class>
 	<systemList>
 		<pilot power="3" room="0"/> 
  		<shields power="8" room="1">
@@ -820,7 +820,7 @@
 
 
 <shipBlueprint name="BOSS_3" layout="boss_3" img="boss_3">
-	<class>Rebel Flagship</class>
+	<class>반란군 기함</class>
 	<systemList>
 		<pilot power="3" room="0"/>  
  		<shields power="8" room="1">

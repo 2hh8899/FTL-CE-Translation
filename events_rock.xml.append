@@ -3023,7 +3023,7 @@
 			<damage amount="2"/>
 			<store/>
 			<choice hidden="true">
-				<text>Dock with the trade station.</text>
+				<text>교역소에 도킹한다.</text>
 				<event load="TE_STORE_ROCK_LIST"/>
 			</choice>
 			<choice req="AE_TRADE_BOOSTER" hidden="true">

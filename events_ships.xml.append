@@ -5053,7 +5053,7 @@
 		<choice req="weapons" max_lvl="5" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"이 시나리오에서 당신 선원들은 후한 점수를 기록헀습니다."</text>
+				<text>"이 시나리오에서 당신 선원들은 후한 점수를 기록했습니다."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="6" max_group="0" blue="false">
