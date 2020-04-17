@@ -2391,7 +2391,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>승무원은 평소보다 인양 작업 중에 훨씬 더 조용했고, 명령이 없으면 아무도 더 이상 이야기하지 않습니다. 그들은 배에서 드론 설계도를 찾았습니다. 모든 민간인을 학살되고 나서야, 당신은 설계도를 함선으로 가져올 수 있었습니다.</text>
+		<text>승무원은 평소보다 인양 작업 중에 훨씬 더 조용했고, 명령이 없이는 아무도 더 이상 이야기도 하지 않습니다. 그들은 배에서 드론 설계도를 찾았습니다. 모든 민간인이 학살되고 나서야, 당신은 설계도를 함선으로 가져올 수 있었습니다.</text>
 		<autoReward level="LOW">drone</autoReward>
 	</event>
 </eventList>

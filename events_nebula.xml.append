@@ -2372,7 +2372,7 @@
 		<event/>
 	</choice>
 	<choice req="O2_MASKS" hidden="true"> 
-		<text>(적응형 젤 슈트) 승무원들을 자율적으로 잔해를 수색하게 합니다.</text>
+		<text>(적응형 젤 슈트) 승무원들이 자율적으로 잔해를 수색하게 합니다.</text>
 		<event load="STORM_ITEMS_LIST_SUITS"/>
 	</choice>
 	<choice req="pilot" lvl="2" hidden="true">
