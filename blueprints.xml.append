@@ -2673,7 +2673,7 @@
 <weaponBlueprint name="BA_BEAM_BARDICHE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>브랜디시 빔</title>
+	<title>바디쉐 빔</title>
 	<short>Bardiche</short>
 	<desc>약한 표준 빔 무기.</desc>
 	<tooltip>방마다 1 피해와 저확률 화재를 동반하는, 빔 무기.</tooltip>

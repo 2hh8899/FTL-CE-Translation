@@ -1808,7 +1808,7 @@
 	<ship load="PIRATE" hostile="false"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Attack!</text>
+		<text>공격!</text>
 		<event>
 			<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>

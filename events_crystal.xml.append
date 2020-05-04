@@ -777,7 +777,7 @@
 <event name="CRYSTAL_REBEL_CRYSTAL" unique="false">
 	<text>수정파편이 당신이 도약하자마자 화면을 지나갑니다. 탐지기를 확인하니 수정함선이 반란군과 교전중에 있습니다!</text>
 	<choice hidden="true">
-		<text>Attack the Rebel.</text>
+		<text>반군과 싸운다.</text>
 		<event>
 			<text>당신은 수정함선에 당신의 의도를 전하고 반란군 함선을 막기 위해 움직입니다.</text>
 			<ship load="REBEL_CRYSTAL_REBEL_CRYSTAL" hostile="true"/>
@@ -954,7 +954,7 @@
 <event name="CRYSTAL_PIRATE_CRYSTAL" unique="false">
 	<text>해적선이 당신이 송신소에 도착한 직후 도약해왔습니다. 분명 장거리 송신소가 재가동되었을 때 쫓아온 것입니다. 해적은 작은 크리스탈 수송선을 거의 따라잡았으며 무장한 상태입니다.</text>
 	<choice hidden="true">
-		<text>Attack the pirate.</text>
+		<text>해적을 공격한다.</text>
 		<event>
 			<text>당신은 해적이 민간함선과 교전하기 전에 그들을 잡았습니다. 위협을 느낀 그들의 시선은 당신을 향했습니다.</text>
 			<ship load="PIRATE_CRYSTAL" hostile="true"/>

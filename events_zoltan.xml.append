@@ -1965,7 +1965,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Submit to profiling.</text>
+		<text>조사에 협조한다.</text>
 		<event load="ZOLTAN_CREW_SCAN_ION_LIST"/>
 	</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
