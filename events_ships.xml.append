@@ -1225,12 +1225,14 @@
 		<text>슬러그 함선은 파괴되었고 당신의 시스템은 정상으로 복구됩니다. 당신은 전리품을 챙깁니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
 		<status type="clear" target="player" system="hacking" amount="100"/>
 	</destroyed>
 	<deadCrew>
 		<text>그들의 승무원이 사망하자, 해킹모듈이 꺼지고 당신의 시스템은 정상으로 복구됩니다. 당신은 그들의 함선을 해체합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
 		<status type="clear" target="player" system="hacking" amount="100"/>
 	</deadCrew>
 	<weaponOverride count="1">

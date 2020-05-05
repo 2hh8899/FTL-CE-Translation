@@ -16295,7 +16295,7 @@
 	<mod-overwrite:short>Light Laser III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_3">
-	<mod-overwrite:short>Light Auto</mod-overwrite:short>
+	<mod-overwrite:short>Light Laser III</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_SCATTER_1">
 	<mod-overwrite:short>Light Scatter I</mod-overwrite:short>
