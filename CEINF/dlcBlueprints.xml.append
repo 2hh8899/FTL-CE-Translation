@@ -1,0 +1,133 @@
+
+
+<systemBlueprint name="clonebay">
+	<type>clonebay</type>
+	<title>Clone Bay</title>
+	<desc>Automatically clones dead crew with skill penalty. Taking advantage of micro-cloning, crew heals partially every jump. Jump heal is passive and requires no power.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>180</level> <!-- level 2 -->
+		<level>360</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>180</cost>
+</systemBlueprint>
+
+<systemBlueprint name="hacking">
+	<type>hacking</type>
+	<title>Hacking</title>
+	<desc>Targets a single system, passively giving information and locking the room's doors. Periodically it can be activated to disable or otherwise disrupt the targeted system. Requires drone part.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>140</level> <!-- level 2 -->
+		<level>480</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>270</cost>
+</systemBlueprint>
+
+<systemBlueprint name="battery">
+	<type>battery</type>
+	<title>Backup Battery</title>
+	<desc>Provides a 30 second power boost to your Reactor. Upgrading increases the boost amount.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>400</level> <!-- level 2 -->
+		<level>800</level> <!-- level 2 -->
+	</upgradeCost>
+	<cost>135</cost>
+</systemBlueprint>
+
+<systemBlueprint name="mind">
+	<type>mind</type>
+	<title>Mind Control</title>
+	<desc>Temporarily turn enemies into allies.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>120</level> <!-- level 2 -->
+		<level>480</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>255</cost>
+	<locked>1</locked>
+</systemBlueprint>
+
+
+<augBlueprint name="FLEET_DISTRACTION">
+	<title>Distraction Buoys</title>
+	<desc>Leaves a false signal at sector start to delay Rebels 1 jump.</desc>
+	<cost>55</cost>
+	<bp>8</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<value>1.f</value>
+</augBlueprint>
+
+
+<crewBlueprint name="anaerobic">
+	<desc>These anaerobic beings seem friendly enough.</desc>
+	<title>Lanius</title>
+	<short>Lanius</short>
+	<cost>250</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Drains oxygen from rooms.</power>
+		<power>Slow movement but no damage from lack of oxygen.</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - armor -->
+			<color r="255" g="255" b="255" a="0.0"/> <!-- standard -->
+			<color r="255" g="255" b="255" a="0.0"/> <!-- standard -->
+			<color r="255" g="255" b="255" a="0.0"/> <!-- standard -->
+			<color r="80" g="80" b="80" a="0.7"/> <!-- dark -->
+			<color r="80" g="80" b="80" a="0.7"/> <!-- dark -->
+			<color r="150" g="150" b="150" a="1.0"/> <!-- deep grey -->
+			<color r="150" g="150" b="150" a="1.0"/> <!-- deep grey -->
+			<color r="190" g="220" b="255" a="1.0"/> <!-- teal -->
+			<color r="140" g="140" b="255" a="0.7"/> <!-- federation -->
+			<color r="130" g="90" b="115" a="1"/> <!-- purpleish type b -->
+			<color r="135" g="35" b="35" a="1"/> <!-- badass typ b red -->
+		</layer>
+		<layer><!-- Layer 2 - skintone -->
+			<color r="196" g="117" b="232" a="0.3"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0.2"/>
+			<color r="232" g="220" b="117" a="0.5"/>
+		</layer>
+		<layer><!-- Layer 3 - eyes -->
+			<color r="255" g="122" b="25" a="1"/> <!-- original orange -->
+			<color r="255" g="122" b="25" a="1"/> <!-- original orange -->
+			<color r="255" g="0" b="0" a="1"/> <!-- raging red -->
+			<color r="170" g="222" b="255" a="1"/> <!-- light blue (white) -->
+			<color r="255" g="255" b="255" a="1"/> <!-- blinded (white) -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+
+<blueprintList name="SHIPS_LANIUS">
+	<name>TB_ANAEROBIC_SCOUT</name>
+	<name>TB_ANAEROBIC_BOMBER</name>
+
+	<name>TB_ANAEROBIC_ASSAULT</name>
+	<name>TB_ANAEROBIC_BROODSHIP</name>
+	<name>TB_ANAEROBIC_INSTIGATOR</name>
+	<name>TB_ANAEROBIC_INTERCEPTOR</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ANAEROBIC_SCOUT</name>
+	<name>DEEP_SPACE_ELITE_TB_ANAEROBIC_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ANAEROBIC_ASSAULT</name>
+	<name>DEEP_SPACE_ELITE_TB_ANAEROBIC_BROODSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_ANAEROBIC_INSTIGATOR</name>
+	<name>DEEP_SPACE_ELITE_TB_ANAEROBIC_INTERCEPTOR</name>
+</blueprintList>
+

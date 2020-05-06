@@ -1,0 +1,1166 @@
+
+
+
+<shipBlueprint name="BOSS_1" layout="boss_1" img="boss_1">
+	<class>Rebel Flagship</class>
+	<systemList>
+		<artillery power="5" room="9"/>
+		<artillery power="5" room="10"/>
+		<artillery power="5" room="14"/>
+		<artillery power="5" room="18"/>
+		<artillery power="5" room="19"/>
+		<pilot power="3" room="0"/> 
+ 		<shields power="8" room="1">
+    			<slot>
+       				<direction>right</direction>
+       				<number>1</number>
+     			</slot>
+   		</shields>   
+		<doors power="3" room="13"/> 
+		<teleporter power="2" room="3"/> 
+		<cloaking power="2" room="15"/> 
+		<sensors power="2" room="17"/>
+		<medbay power="3" room="5"/> 
+  		<engines power="2" room="8">
+   			<slot>
+     		 		<direction>left</direction>
+     				<number>2</number>
+     		 	</slot>
+  		</engines> 
+		<oxygen power="2" room="7"/>
+		<drones power="1" room="12"/>
+	</systemList>
+	<weaponList count="0" missiles="80"/>
+	<health amount="20"/>
+	<maxPower amount ="45"/>
+	<aug name="ION_ARMOR"/>
+	<aug name="SYSTEM_CASING"/>
+	<aug name="ROCK_ARMOR"/>
+</shipBlueprint>
+
+		
+<shipBlueprint name="BOSS_2" layout="boss_2" img="boss_2">
+	<class>Rebel Flagship</class>
+	<systemList>
+		<pilot power="3" room="0"/> 
+ 		<shields power="8" room="1">
+    			<slot>
+       				<direction>right</direction>
+       				<number>1</number>
+     			</slot>
+   		</shields>  
+		<teleporter power="2" room="3"/>  
+		<medbay power="3" room="5"/>  
+  		<engines power="4" room="8">
+   			<slot>
+     		 		<direction>left</direction>
+     				<number>2</number>
+     		 	</slot>
+  		</engines>  
+		<oxygen power="2" room="7"/>
+		<doors power="2" room="13"/>
+		<drones power="8" room="12"/>
+		<artillery power="4" room="9"/>
+		<artillery power="4" room="10"/>
+		<artillery power="4" room="14"/>
+	</systemList>
+	<droneList count="4" drones="80">
+		<drone name="DE_DRONE_DEFENSE_3_BOSS"/>
+		<drone name="COMBAT_1"/>
+		<drone name="COMBAT_BEAM"/>
+		<drone name="BOARDER_BOSS"/>
+	</droneList>
+	<health amount="22"/>	
+	<maxPower amount ="44"/>
+	<aug name="ION_ARMOR"/>
+	<aug name="SYSTEM_CASING"/>
+	<aug name="ROCK_ARMOR"/>
+</shipBlueprint>
+
+
+<shipBlueprint name="BOSS_3" layout="boss_3" img="boss_3">
+	<class>Rebel Flagship</class>
+	<systemList>
+		<pilot power="3" room="0"/>  
+ 		<shields power="8" room="1">
+    			<slot>
+       				<direction>right</direction>
+       				<number>1</number>
+     			</slot>
+   		</shields>  
+		<drones power="8" room="6"/>
+		<teleporter power="4" room="3"/>
+		<medbay power="3" room="5"/>   
+  		<engines power="6" room="8">
+   			<slot>
+     		 		<direction>left</direction>
+     				<number>2</number>
+     		 	</slot>
+  		</engines> 
+		<artillery power="6" room="9"/>
+		<artillery power="6" room="10"/>
+	</systemList>
+	<droneList count="4" drones="90">
+		<drone name="REPAIR"/>
+		<drone name="DE_DRONE_DEFENSE_3_BOSS"/>
+		<drone name="TB_SHIP_REPAIR_ENEMY"/>
+		<drone name="BATTLE"/>
+		</droneList>
+	<health amount="22"/>	
+	<maxPower amount ="33"/>
+	<boardingAI>invasion</boardingAI>
+	<aug name="SYSTEM_CASING"/>
+	<aug name="ROCK_ARMOR"/>
+	<aug name="ION_ARMOR"/>
+</shipBlueprint>
+
+
+
+<weaponBlueprint name="ARTILLERY_BOSS_5">
+	<type>BOMB</type>
+	<title>Boss Artillery Support</title>
+	<short>Boss Artillery Support</short>
+	<locked>1</locked>
+	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
+	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
+	<damage>3</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>3</persDamage>
+	<shots>8</shots>
+	<sp>0</sp>
+	<fireChance>4</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>90</cooldown>
+	<power>0</power>
+	<cost>80</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>ce_boss_artillery_warning_2</image>
+	<explosion>ce_explosion_really_big</explosion>
+	<launchSounds>
+		<sound>warning_effector</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>ce_bomblauncher_invisible</weaponArt>
+</weaponBlueprint>
+
+
+<droneBlueprint name="DE_DRONE_DEFENSE_3_BOSS">
+	<type>DEFENSE</type>
+	<level>2</level>
+	<title>Defense Drone Mark III</title>
+	<short>Defense III</short>
+	<desc>Advanced drone that shoots down all incoming projectiles. Reloads in only 0.5 seconds.</desc>
+	<power>2</power>
+	<cooldown>500</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
+	<dodge>10</dodge>
+	<speed>8</speed> <!-- Superficial change.. just makes it fly faster -->
+	<cost>85</cost>
+	<bp>6</bp>
+	<droneImage>de_drone_defense3</droneImage>
+	<weaponBlueprint>DRONE_LASER_DEFENSE_2</weaponBlueprint>
+	<rarity>0</rarity>
+</droneBlueprint>
+
+<systemBlueprint name="oxygen">
+	<type>oxygen</type>
+	<title>Life Support</title>
+	<desc>Refills the oxygen in the ship and decreases radiation levels. Upgrading increases the rate at which it restores the ships internal atmosphere.</desc>
+	<startPower>1</startPower>
+	<maxPower>5</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>100</level> <!-- level 2 -->
+		<level>300</level> <!-- level 3 -->
+		<level>600</level>
+		<level>1000</level>
+	</upgradeCost>
+	<cost>0</cost>
+</systemBlueprint>
+
+
+<systemBlueprint name="teleporter">
+	<type>teleporter</type>
+	<title>Crew Teleporter</title>
+	<desc>Allows you to send your crew-members to board enemy vessels. [Tooltip for lvl 4 is incorrect, cooldown will be 0 sec.]</desc>
+	<startPower>1</startPower>
+	<maxPower>4</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>120</level> <!-- level 2 -->
+		<level>360</level> <!-- level 3 -->
+		<level>900</level> <!-- level 4 -->
+	</upgradeCost>
+	<cost>270</cost>
+	<locked>1</locked>
+</systemBlueprint>
+
+<systemBlueprint name="cloaking">
+	<type>cloaking</type>
+	<title>Cloaking</title>
+	<desc>Cloaks the ship, adding 60 to your evasion and preventing the enemy ship from locking on with their weapons.</desc>
+	<startPower>1</startPower>
+	<maxPower>4</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>120</level> <!-- level 2 -->
+		<level>400</level> <!-- level 3 -->
+		<level>1000</level> <!-- level 4 -->
+	</upgradeCost>
+	<cost>450</cost>
+	<locked>1</locked>
+</systemBlueprint>
+
+<systemBlueprint name="pilot">
+	<type>pilot</type>
+	<title>Piloting</title>
+	<desc>Allows the ship to make FTL jumps and dodge when piloted. Upgrading adds auto-pilot that allows some evasion even without a pilot.</desc>
+	<startPower>1</startPower>
+	<maxPower>4</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>160</level> <!-- level 2 -->
+		<level>200</level> <!-- level 3 -->
+		<level>450</level> <!-- level 4 -->
+	</upgradeCost>
+	<cost>1</cost>
+</systemBlueprint>
+
+<systemBlueprint name="medbay">
+	<type>medbay</type>
+	<title>Medbay</title>
+	<desc>Heals all crew-members within the Medbay room. Upgrading increases healing speed.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>140</level> <!-- level 2 -->
+		<level>360</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>180</cost>
+</systemBlueprint>
+
+<systemBlueprint name="shields">
+	<type>shields</type>
+	<title>Shields</title>
+	<desc>Powers your shields. Every shield bar can block one incoming shot. Upgrading increases bar count. Lvl 9 grants a buffer bar.</desc>
+	<startPower>2</startPower>
+	<maxPower>9</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>200</level> <!-- level 2 -->
+		<level>60</level> <!-- level 3 -->
+		<level>120</level> <!-- level 4 -->
+		<level>200</level> <!-- level 5 -->
+		<level>360</level> <!-- level 6 -->
+		<level>560</level> <!-- level 7 -->
+		<level>800</level> <!-- level 8 -->
+		<level>1000</level> <!-- level 9 -->
+	</upgradeCost>
+	<cost>320</cost>
+</systemBlueprint>
+
+<systemBlueprint name="artillery">
+	<type>artillery</type>
+	<title>Artillery</title>
+	<desc>Allows you to use the signature artillery weapon of your ship. Upgrading decreases it's cooldown. [WARNING: Installing artillery prevents game saves from working. You'll have finish this run in one go.]</desc>	
+	<startPower>1</startPower>
+	<maxPower>4</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>120</level> <!-- level 2 -->
+		<level>300</level> <!-- level 3 -->
+		<level>640</level> <!-- level 4 -->
+	</upgradeCost>
+	<cost>450</cost>
+</systemBlueprint>
+
+<systemBlueprint name="engines">
+	<type>engines</type>
+	<title>Engines</title>
+	<desc>Powers the FTL drive and allows the ship to dodge. Upgrading improves dodge chance and the rate that your FTL drive charges.</desc>
+	<startPower>2</startPower>
+	<maxPower>8</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>20</level> <!-- level 2 -->
+		<level>45</level> <!-- level 3 -->
+		<level>120</level> <!-- level 4 -->
+		<level>200</level> <!-- level 5 -->
+		<level>360</level> <!-- level 6 -->
+		<level>560</level> <!-- level 7 -->
+		<level>960</level> <!-- level 8 -->
+		<level>150</level> <!-- Imaginary level 9 -->
+	</upgradeCost>
+	<cost>1</cost>
+</systemBlueprint>
+
+<systemBlueprint name="weapons">
+	<type>weapons</type>
+	<title>Weapon Control</title>
+	<desc>Powers all of the ship's weapons. Upgrading lets you power more weapons.</desc>
+	<startPower>4</startPower>
+	<rarity>1</rarity>
+	<maxPower>10</maxPower>
+	<upgradeCost>
+		<level>120</level> <!-- level 2 -->
+		<level>75</level> <!-- level 3 -->
+		<level>140</level> <!-- level 4 -->
+		<level>250</level> <!-- level 5 -->
+		<level>450</level> <!-- level 6 -->
+		<level>630</level> <!-- level 7 -->
+		<level>800</level> <!-- level 8 -->
+		<level>1200</level> <!-- level 9 -->
+		<level>1900</level> <!-- level 10 -->
+	</upgradeCost>
+	<cost>20</cost>
+</systemBlueprint>
+
+<systemBlueprint name="drones">
+	<type>drones</type>
+	<title>Drone Control</title>
+	<desc>Powers all of the ship's drones. Drones are automated robots that perform tasks like attacking enemy ships or repairing systems.</desc>
+	<startPower>2</startPower>
+	<maxPower>10</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>20</level> <!-- level 2 -->
+		<level>60</level> <!-- level 3 -->
+		<level>120</level> <!-- level 4 -->
+		<level>225</level> <!-- level 5 -->
+		<level>360</level> <!-- level 6 -->
+		<level>560</level> <!-- level 7 -->
+		<level>800</level> <!-- level 8 -->
+		<level>1100</level>
+		<level>1700</level>
+	</upgradeCost>
+	<cost>240</cost>
+</systemBlueprint>
+
+<systemBlueprint name="sensors">
+	<type>sensors</type>
+	<title>Sensors</title>
+	<desc>Reveals the interior of your ship and gives information about enemy ships.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>100</level> <!-- level 2 -->
+		<level>180</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>120</cost>
+</systemBlueprint>
+
+<systemBlueprint name="doors">
+	<type>doors</type>
+	<title>Door System</title>
+	<desc>Allows remote opening and closing of doors. Upgrades to Blast Doors that impede fire spread and intruder movement.</desc>
+	<startPower>1</startPower>
+	<maxPower>4</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>	
+		<level>100</level> <!-- level 2 -->
+		<level>300</level> <!-- level 3 -->
+		<level>800</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>180</cost>
+</systemBlueprint>
+
+
+
+<crewBlueprint name="human">
+	<desc>Humanoids are common and uninteresting.</desc>
+	<cost>135</cost> <!--was 40-->
+	<bp>2</bp>
+	<title>Humanoid</title>
+	<short>Humanoid</short>
+	<rarity>1</rarity>
+	<powerList>
+		<power>Skills improve slightly faster</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - Shirt -->
+			<color r="140" g="140" b="255" a="0.7"/> <!--
+			<color r="255" g="200" b="130" a="0.7"/>-->
+			<color r="140" g="140" b="255" a="0.7"/>
+			<color r="140" g="140" b="255" a="0.7"/>
+			<color r="140" g="140" b="255" a="0.7"/>
+			<color r="150" g="130" b="95" a="0.7"/> <!-- Grey aka CEPM Space Rouge -->
+			<color r="150" g="130" b="95" a="0.7"/> <!-- Grey aka CEPM Space Rouge -->
+			<color r="40" g="50" b="50" a="0.7"/> <!-- Dark aka CEPM Spec Ops -->
+			<color r="100" g="130" b="60" a="0.7"/> <!-- Dark Green aka CEPM Militia -->
+			<color r="100" g="130" b="60" a="0.7"/> <!-- Dark Green aka CEPM Militia -->
+			<color r="255" g="45" b="45" a="1"/> <!-- Red aka CEPM Redshirt -->
+			<color r="255" g="255" b="255" a="1.0"/> <!-- white aka CEPM space suit -->
+		</layer>
+		<layer><!-- Layer 2 - Skin -->
+			<color r="255" g="150" b="150" a="0.4"/>
+			<color r="90" g="60" b="40" a="0.7"/>
+			<color r="255" g="124" b="89" a="0"/>
+			<color r="255" g="255" b="255" a="0.2"/>
+			<color r="255" g="150" b="150" a="0.4"/>
+			<color r="90" g="60" b="40" a="0.7"/>
+			<color r="255" g="124" b="89" a="0"/>
+
+			<color r="255" g="150" b="150" a="0.4"/>
+			<color r="90" g="60" b="40" a="0.7"/>
+			<color r="255" g="124" b="89" a="0"/>
+			<color r="255" g="255" b="255" a="0.2"/>
+			<color r="255" g="150" b="150" a="0.4"/>
+			<color r="90" g="60" b="40" a="0.7"/>
+			<color r="255" g="124" b="89" a="0"/>
+
+			<color r="255" g="255" b="255" a="1.0"/> <!-- humanoid: too white -->
+			<color r="60" g="60" b="235" a="0.9"/> <!-- humanoid: blue people -->
+			<color r="230" g="80" b="170" a="1"/> <!-- humanoid: pink people -->
+			<color r="100" g="100" b="115" a="0.9"/> <!-- humanoid: steel grey people -->
+		</layer>
+		<layer><!-- Layer 3 - Hair -->
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="150" b="150" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="255" b="255" a="0.0"/>
+			<color r="255" g="150" b="150" a="0.0"/>
+			<color r="70" g="38" b="13" a="1"/> <!-- d brown -->
+			<color r="238" g="107" b="0" a="1"/> <!-- ginger -->
+			<color r="255" g="193" b="73" a="1"/> <!-- blonde -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="60" g="60" b="60" a="1"/> <!-- black -->
+			<color r="150" g="150" b="150" a="1"/> <!-- grey -->
+			<color r="150" g="150" b="150" a="1"/> <!-- grey -->
+			<color r="20" g="255" b="255" a="1"/> <!-- cyan -->
+			<color r="255" g="60" b="40" a="1"/> <!-- green -->
+			<color r="255" g="10" b="10" a="1"/> <!-- red -->
+			<color r="255" g="128" b="25" a="1"/> <!-- orange -->
+			<color r="170" g="170" b="255" a="1"/> <!-- pale blue -->
+			<color r="225" g="88" b="191" a="1"/> <!-- Vivid pink -->
+		</layer>
+		<layer><!-- Layer 4 - Accssessories		-->
+			<color r="25" g="25" b="25" a="1"/> <!-- black -->
+			<color r="255" g="255" b="255" a="1"/> <!-- white -->
+			<color r="255" g="10" b="10" a="1"/> <!-- red -->
+			<color r="255" g="128" b="10" a="1"/> <!-- orange -->
+			<color r="255" g="255" b="10" a="1"/> <!-- yellow -->
+			<color r="10" g="255" b="10" a="1"/> <!-- green -->
+			<color r="10" g="255" b="255" a="1"/> <!-- cyan -->
+			<color r="170" g="170" b="255" a="1"/> <!-- blue -->
+		</layer>
+		<layer><!-- Layer 5 - ghost, hidden		-->
+			<color r="255" g="255" b="255" a="0"/>
+		</layer>
+		<layer><!-- Layer 5 - ghost outline, hidden		-->
+			<color r="255" g="255" b="255" a="0"/>
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="engi">
+	<desc>It's unclear if the 'Engi' are partly organic or entirely mechanical, but it's well known that they make exceptional engineers.</desc>
+	<cost>150</cost>
+	<bp>2</bp>
+	<title>Engi</title>
+	<short>Engi</short>
+	<rarity>2</rarity>
+	<powerList>
+		<power>Repair speed is doubled</power>
+		<power>Combat damage inflicted is halved</power>
+	</powerList>
+	<colorList>
+		<layer> <!-- Layer 1 - Body -->
+			<color r="255" g="255" b="255" a="1"/>  <!-- standard -->
+			<color r="255" g="255" b="255" a="1"/> <!-- standard -->
+			<color r="255" g="255" b="255" a="1"/> <!-- standard -->
+			<color r="255" g="200" b="200" a="1"/> <!-- redish -->
+			<color r="180" g="180" b="180" a="1"/> <!-- dark -->
+			<color r="255" g="255" b="255" a="0"/>  <!-- CEPM high tech -->
+			<!-- <color r="200" g="220" b="255" a="1.0"/>  CEPM high tech -->
+			<color r="205" g="120" b="100" a="1"/> <!-- CEPM rusty fleshy -->
+			<color r="145" g="155" b="180" a="1"/> <!-- CEPM steel -->
+		</layer>
+		<layer> <!-- Layer 2 - Eye/Screen -->
+			<color r="140" g="255" b="140" a="1"/> <!-- standard -->
+			<color r="140" g="255" b="140" a="1"/> <!-- standard -->
+			<color r="140" g="255" b="140" a="1"/> <!-- standard -->
+			<color r="140" g="255" b="140" a="1"/> <!-- standard -->
+			<color r="0" g="185" b="110" a="1"/> <!-- high tech green -->
+			<color r="0" g="185" b="110" a="1"/> <!-- high tech green -->
+			<color r="170" g="190" b="255" a="1"/> <!-- bright blue -->
+			<color r="230" g="50" b="60" a="1"/> <!-- high tech red -->
+			<color r="25" g="25" b="25" a="0.7"/> <!-- pale black -->
+			<color r="255" g="255" b="255" a="0.7"/> <!-- pale white -->
+			<color r="255" g="0" b="0" a="0.7"/> <!-- pale red -->
+			<color r="0" g="255" b="0" a="0.7"/> <!-- pale green -->
+			<color r="0" g="255" b="255" a="0.7"/> <!-- pale cyan -->
+		</layer>
+		<layer> <!-- Layer 3 - Personal Shield -->
+			<color r="255" g="255" b="255" a="1"/> <!-- true -->
+			<color r="255" g="255" b="255" a="0"/> <!-- false -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="mantis">
+	<desc>The Mantis disregard for individual lives led to their evolution as a vicious warrior race.</desc>
+	<title>Mantis</title>
+	<short>Mantis</short>
+	<cost>165</cost> <!--was 45-->
+	<bp>2</bp>
+	<rarity>2</rarity>
+	<powerList>
+		<power>Inflict 1.5x damage in combat</power>
+		<power>1.2x move speed</power>
+		<power>Halved repair speed</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - color 
+			<color r="17" g="103" b="100" a="0.7"/>
+			<color r="223" g="95" b="2" a="0.5"/>
+			<color r="119" g="200" b="45" a="0.6"/>
+			<color r="80" g="98" b="33" a="0.7"/> -->
+			<color r="119" g="165" b="45" a="0.7"/>
+			<color r="156" g="156" b="35" a="0.5"/>
+			<color r="51" g="241" b="0" a="0.9"/>
+			<color r="111" g="241" b="207" a="0.9"/>
+			<color r="255" g="0" b="0" a="0.2"/>
+			<color r="119" g="165" b="45" a="0.7"/>
+			<color r="156" g="156" b="35" a="0.5"/>
+			<color r="51" g="241" b="0" a="0.9"/>
+			<color r="111" g="241" b="207" a="0.9"/>
+			<color r="255" g="0" b="0" a="0.2"/>
+			<color r="255" g="90" b="90" a="1.0"/> <!-- CEPM red -->
+			<color r="255" g="90" b="90" a="1.0"/> <!-- CEPM red -->
+			<color r="255" g="90" b="90" a="1.0"/> <!-- CEPM red -->
+			<color r="255" g="50" b="50" a="1.0"/> <!-- dark red -->
+			<color r="255" g="50" b="50" a="1.0"/> <!-- dark red -->
+			<color r="255" g="180" b="100" a="1.0"/> <!-- orange -->
+			<color r="110" g="110" b="120" a="1.0"/> <!-- dark -->
+			<color r="110" g="110" b="255" a="1.0"/> <!-- blue -->
+		</layer>
+		<layer><!-- Layer 2 - FemForm -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="17" g="103" b="100" a="1"/><!---->
+			<color r="223" g="95" b="2" a="1"/><!---->
+			<color r="119" g="200" b="45" a="1"/><!---->
+			<color r="119" g="165" b="45" a="1"/>
+			<color r="156" g="156" b="35" a="1"/>
+			<color r="80" g="98" b="33" a="1"/><!---->
+			<color r="51" g="241" b="0" a="1"/>
+			<color r="111" g="241" b="207" a="1"/>
+			<color r="17" g="103" b="100" a="1"/><!---->
+			<color r="223" g="95" b="2" a="1"/><!---->
+			<color r="119" g="200" b="45" a="1"/><!---->
+			<color r="119" g="165" b="45" a="1"/>
+			<color r="156" g="156" b="35" a="1"/>
+			<color r="80" g="98" b="33" a="1"/><!---->
+			<color r="51" g="241" b="0" a="1"/>
+			<color r="111" g="241" b="207" a="1"/>
+			<color r="200" g="25" b="25" a="1"/><!--shiny red-->
+			<color r="220" g="127" b="210" a="1"/> <!-- dark pink -->
+			<color r="238" g="22" b="81" a="1"/> <!-- flesh pink -->
+			<color r="143" g="122" b="201" a="1"/> <!-- soft purple -->
+		</layer>
+		<layer><!-- Layer 3 - Accssessories		-->
+			<color r="25" g="25" b="25" a="1"/> <!-- black -->
+			<color r="255" g="255" b="255" a="1"/> <!-- white -->
+			<color r="255" g="10" b="10" a="1"/> <!-- red -->
+			<color r="255" g="128" b="10" a="1"/> <!-- orange -->
+			<color r="255" g="255" b="10" a="1"/> <!-- yellow -->
+			<color r="10" g="255" b="10" a="1"/> <!-- green -->
+			<color r="10" g="255" b="255" a="1"/> <!-- cyan -->
+			<color r="170" g="170" b="255" a="1"/> <!-- blue -->
+		</layer>	
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="slug">
+	<desc>These telepathic Slugs were shunned in the Galactic Federation for their constant thievery and attempts at manipulation.</desc>
+	<title>Slug</title>
+	<short>Slug</short>
+	<cost>135</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Telepathic powers reveal rooms and lifeforms even when sensors are down</power>
+		<power>Immune to mind control</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - color -->
+			<color r="255" g="230" b="175" a="0.8"/>  <!-- pale -->
+			<color r="120" g="240" b="60" a="0.6"/>  <!-- green -->
+			<color r="255" g="241" b="0" a="1"/>
+			<color r="255" g="170" b="0" a="1"/> <!-- orange -->
+			<color r="140" g="140" b="200" a="0.5"/> <!--blue  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="155" g="65" b="90" a="1"/> <!-- CEPM nebula  -->
+			<color r="140" g="140" b="200" a="0.5"/> <!--blue  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="155" g="65" b="90" a="1"/> <!-- CEPM nebula  -->
+			<color r="255" g="255" b="0" a="1"/> <!-- banana  -->
+		</layer>
+		<layer><!-- Layer 2 - stripes 
+			<color r="227" g="172" b="39" a="0.1"/>
+			<color r="227" g="172" b="39" a="0.7"/>-->
+			<color r="255" g="230" b="175" a="0.8"/>  <!-- pale -->
+			<color r="120" g="240" b="60" a="0.6"/>  <!-- green -->
+			<color r="255" g="241" b="0" a="1"/>
+			<color r="255" g="170" b="0" a="1"/> <!-- orange -->
+			<color r="0" g="0" b="0" a="0"/> <!--  -->
+			<color r="140" g="140" b="200" a="0.5"/> <!--blu  -->
+			<!-- -->
+			<color r="255" g="10" b="10" a="1"/> <!-- red -->
+			<color r="255" g="128" b="10" a="1"/> <!-- orange -->
+			<color r="255" g="255" b="10" a="1"/> <!-- yellow -->
+			<color r="10" g="255" b="10" a="1"/> <!-- green -->
+			<color r="10" g="255" b="255" a="1"/> <!-- cyan -->
+			<color r="170" g="170" b="255" a="1"/> <!-- blue -->
+		</layer>
+		<layer><!-- Layer 3 - tummy -->
+			<color r="255" g="230" b="175" a="0.8"/>  <!-- pale -->
+			<color r="120" g="240" b="60" a="0.6"/>  <!-- green -->
+			<color r="255" g="241" b="0" a="1"/>
+			<color r="255" g="170" b="0" a="1"/> <!-- orange -->
+			<color r="0" g="0" b="0" a="0"/> <!--  -->
+			<color r="140" g="140" b="200" a="0.5"/> <!--blu  -->
+			<color r="255" g="10" b="10" a="0.8"/> <!-- red -->
+			<color r="255" g="128" b="10" a="0.8"/> <!-- orange -->
+			<color r="255" g="255" b="10" a="0.8"/> <!-- yellow -->
+			<color r="10" g="255" b="10" a="0.8"/> <!-- green -->
+			<color r="170" g="170" b="255" a="0.8"/> <!-- blue -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="255" g="255" b="0" a="1"/> <!-- banana  -->
+		</layer>
+		<layer><!-- Layer 4 - Whiskers		-->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="140" g="140" b="200" a="0.5"/> <!--blue  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="155" g="65" b="90" a="1"/> <!-- CEPM nebula  -->
+			<color r="140" g="140" b="200" a="0.5"/> <!--blue  -->
+			<color r="140" g="140" b="180" a="1"/> <!-- CEPM nebula  -->
+			<color r="155" g="65" b="90" a="1"/> <!-- CEPM nebula  -->
+			<color r="255" g="255" b="0" a="1"/> <!-- banana  -->
+			<color r="227" g="172" b="39" a="1"/>
+			<color r="227" g="172" b="39" a="1"/>
+			<color r="255" g="230" b="175" a="1"/>  <!-- pale -->
+			<color r="195" g="240" b="60" a="1"/>  <!-- green -->
+			<color r="255" g="241" b="0" a="1"/>
+			<color r="255" g="170" b="0" a="1"/> <!-- orange -->
+			<color r="140" g="140" b="200" a="1"/> <!--blu  -->
+		</layer>
+		<layer><!-- Layer 5 - Jacket!!!		-->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="50" g="50" b="50" a="1"/> <!-- DarkGrey -->
+			<color r="50" g="50" b="50" a="1"/> <!-- DarkGrey -->
+			<color r="50" g="50" b="50" a="1"/> <!-- DarkGrey -->
+			<color r="50" g="50" b="50" a="1"/> <!-- DarkGrey -->
+			<color r="255" g="255" b="255" a="1"/> <!-- white -->
+			<color r="255" g="255" b="255" a="1"/> <!-- white -->
+			<color r="255" g="50" b="50" a="1"/> <!-- red -->
+			<color r="255" g="150" b="10" a="1"/> <!-- Orange -->
+			<color r="255" g="236" b="27" a="1"/> <!-- Yellow -->
+			<color r="140" g="100" b="220" a="1"/> <!-- purplish -->
+		</layer>
+		<layer><!-- Layer 6 - Frill?		-->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="227" g="172" b="39" a="0"/>
+			<color r="227" g="172" b="39" a="0"/>
+			<color r="255" g="230" b="175" a="0"/>  <!-- pale -->
+			<color r="195" g="240" b="60" a="0"/>  <!-- green -->
+			<color r="255" g="241" b="0" a="0"/>
+			<color r="255" g="170" b="0" a="0"/> <!-- orange -->
+			<color r="140" g="140" b="200" a="0"/> <!--blu  -->
+		</layer>
+		<layer><!-- Layer 6 - Accssessories		-->
+			<color r="25" g="25" b="25" a="1"/> <!-- black -->
+			<color r="255" g="255" b="255" a="1"/> <!-- white -->
+			<color r="255" g="10" b="10" a="1"/> <!-- red -->
+			<color r="255" g="128" b="10" a="1"/> <!-- orange -->
+			<color r="255" g="255" b="10" a="1"/> <!-- yellow -->
+			<color r="10" g="255" b="10" a="1"/> <!-- green -->
+			<color r="10" g="255" b="255" a="1"/> <!-- cyan -->
+			<color r="170" g="170" b="255" a="1"/> <!-- blue -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+
+<crewBlueprint name="rock">
+	<desc>The 'Rockmen' of Vrachos IV are rarely seen and are known for their fortitude.</desc>
+	<title>Rockman</title>
+	<short>Rockman</short>
+	<cost>165</cost> <!--was 65-->
+	<bp>4</bp>
+	<rarity>3</rarity>
+	<powerList>
+		<power>Immune to fire</power>
+		<power>Movement speed is halved</power>
+		<power>Health is increased to 150</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - color 
+			<color r="106" g="51" b="37" a="0.5"/>
+			<color r="116" g="152" b="182" a="0.2"/>
+			<color r="116" g="152" b="182" a="0.5"/>-->
+			<color r="76" g="42" b="31" a="0.7"/>
+			<color r="120" g="80" b="35" a="0.2"/>
+			<color r="76" g="42" b="31" a="0.7"/>
+			<color r="120" g="80" b="35" a="0.2"/>
+			<color r="140" g="100" b="220" a="0.7"/> <!-- purplish -->
+			<color r="240" g="111" b="64" a="0.7"/> <!-- red -->
+		</layer>
+		<layer><!-- Layer 2 - MediumRockSize -->
+		<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="106" g="51" b="37" a="0"/>
+			<color r="116" g="152" b="182" a="0"/>
+			<color r="116" g="152" b="182" a="0"/>
+			<color r="76" g="42" b="31" a="0"/>
+			<color r="120" g="80" b="35" a="0"/>
+			<color r="140" g="100" b="220" a="0"/> <!-- X purplish -->
+			<color r="240" g="111" b="64" a="0"/> <!-- X red -->
+			<color r="25" g="25" b="25" a="0"/> <!-- X black -->
+			<color r="120" g="240" b="60" a="0"/>  <!-- X green -->			
+			<color r="205" g="182" b="234" a="1"/>  <!-- FTL PRUPLE -->
+			<color r="175" g="158" b="167" a="1"/>  <!-- FTL BROWN -->
+			<color r="249" g="185" b="179" a="1"/>  <!-- FTL CLAY PINK -->
+			<color r="255" g="255" b="255" a="1"/>  <!-- FTL WHITE -->
+			<color r="160" g="120" b="240" a="1"/> <!-- purplish -->
+			<color r="255" g="131" b="84" a="1"/> <!-- red -->
+		</layer>
+		<layer><!-- Layer 3 - LargeRockSize -->
+		<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->			
+			<color r="205" g="182" b="234" a="1"/>  <!-- FTL PRUPLE -->
+			<color r="175" g="158" b="167" a="1"/>  <!-- FTL BROWN -->
+			<color r="249" g="185" b="179" a="1"/>  <!-- FTL CLAY PINK -->
+			<color r="255" g="255" b="255" a="1"/>  <!-- FTL WHITE -->
+			<color r="160" g="120" b="240" a="1"/> <!-- purplish -->
+			<color r="255" g="131" b="84" a="1"/> <!-- red -->
+		</layer>
+		<layer><!-- Layer 4 - Pants -->
+		<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="116" g="152" b="182" a="1"/>
+			<color r="116" g="152" b="182" a="1"/>
+			<color r="176" g="142" b="131" a="1"/>
+			<color r="120" g="80" b="65" a="1"/>
+			<color r="240" g="111" b="64" a="1"/> <!-- red -->
+			<color r="75" g="75" b="75" a="1"/> <!-- darkgrey -->
+			<color r="255" g="50" b="50" a="1"/> <!-- red -->
+			<color r="255" g="150" b="10" a="1"/> <!-- Orange -->
+			<color r="255" g="236" b="27" a="1"/> <!-- Yellow -->
+		</layer>
+		<layer><!-- Layer 3 - Pants With Shoes		-->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="116" g="152" b="182" a="0"/>
+			<color r="116" g="152" b="182" a="0"/>
+			<color r="176" g="142" b="131" a="0"/>
+			<color r="120" g="80" b="65" a="0"/>
+			<color r="240" g="111" b="64" a="0"/> <!-- red -->
+			<color r="75" g="75" b="75" a="0"/> <!-- darkgrey -->
+		</layer>
+		<layer><!-- Layer 7 - Plant Growth	-->
+			<color r="255" g="255" b="255" a="0"/> <!-- Full Colour (OFF) -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+			<color r="0" g="0" b="0" a="0"/> <!-- none -->
+		</layer>
+		<layer><!-- Layer 6 - Accssessories	(teleport and EYES)	-->
+			<color r="255" g="0" b="0" a="1.0"/> <!-- standard red -->
+			<color r="255" g="0" b="0" a="1.0"/> <!-- standard red -->
+			<color r="255" g="0" b="0" a="1.0"/> <!-- standard red -->
+			<color r="255" g="0" b="0" a="1.0"/> <!-- standard red -->
+			<color r="255" g="110" b="0" a="1.0"/> <!-- orange -->
+			<color r="255" g="110" b="0" a="1.0"/> <!-- orange -->
+			<color r="20" g="20" b="20" a="1"/> <!-- blinded -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="crystal">
+	<desc>Ancient ancestors of the Rockmen.</desc>
+	<title>Crystal</title>
+	<short>Crystal</short>
+	<cost>180</cost> <!--was 65-->
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Lockdown power (activate in crew box)</power>
+		<power>Reduced suffocation damage</power>
+		<power>Movement speed reduced by 20 percent</power>
+		<power>Health is increased to 125</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - color -->
+			<color r="40" g="187" b="255" a="0.5"/>
+			<color r="55" g="40" b="255" a="0.4"/>
+			<color r="55" g="40" b="255" a="0.2"/>
+			<color r="115" g="131" b="138" a="0.1"/>
+			<color r="40" g="187" b="255" a="0.5"/>
+			<color r="55" g="40" b="255" a="0.4"/>
+			<color r="55" g="40" b="255" a="0.2"/>
+			<color r="115" g="131" b="138" a="0.1"/>
+			<color r="200" g="80" b="80" a="1"/> <!-- dark red -->
+			<color r="245" g="35" b="35" a="1"/> <!-- bright red -->
+			<color r="195" g="45" b="45" a="1"/>  <!-- obsidian -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="energy">
+	<desc>The 'Zoltan' are allies of the 'Engi.' Their innate energy can power ship systems.</desc>
+	<title>Zoltan</title>
+	<short>Zoltan</short>
+	<cost>180</cost> <!--was 65-->
+	<bp>4</bp>
+	<rarity>5</rarity>
+	<powerList>
+		<power>Provides power to occupied system</power>
+		<power>Maximum health is reduced</power>
+		<power>Explodes on death, damaging enemy crew</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - color -->
+			<color r="249" g="255" b="147" a="1"/>
+			<color r="212" g="241" b="161" a="0.8"/>
+			<color r="79" g="255" b="87" a="1"/>
+			<color r="99" g="133" b="109" a="0.6"/>
+			<color r="240" g="255" b="200" a="0.1"/>
+			<color r="249" g="255" b="147" a="1"/>
+			<color r="212" g="241" b="161" a="0.8"/>
+			<color r="79" g="255" b="87" a="1"/>
+			<color r="99" g="133" b="109" a="0.6"/>
+			<color r="240" g="255" b="200" a="0.1"/>
+			<color r="200" g="230" b="255" a="1.0"/> <!-- astral -->
+			<color r="110" g="240" b="255" a="1.0"/> <!-- teal -->
+			<color r="255" g="150" b="150" a="1.0"/> <!-- rosy -->
+			<color r="255" g="230" b="0" a="1.0"/> <!-- sun -->
+		</layer>
+		<layer><!-- Layer 1 - glow-->
+			<color r="249" g="255" b="147" a="0"/>
+			<color r="212" g="241" b="161" a="0"/>
+			<color r="79" g="255" b="87" a="0"/>
+			<color r="99" g="133" b="109" a="0"/>
+			<color r="240" g="255" b="200" a="0"/>
+			<color r="249" g="255" b="147" a="0"/>
+			<color r="212" g="241" b="161" a="0"/>
+			<color r="79" g="255" b="87" a="0"/>
+			<color r="249" g="255" b="147" a="1"/>
+			<color r="212" g="241" b="161" a="1"/>
+			<color r="79" g="255" b="87" a="1"/>
+			<color r="99" g="133" b="109" a="1"/>
+			<color r="240" g="255" b="200" a="1"/>
+			<color r="249" g="255" b="147" a="1"/>
+			<color r="212" g="241" b="161" a="1"/>
+			<color r="79" g="255" b="87" a="1"/>
+			<color r="240" g="255" b="200" a="0.1"/>
+			<color r="200" g="230" b="255" a="1.0"/> <!-- astral -->
+			<color r="110" g="240" b="255" a="1.0"/> <!-- teal -->
+			<color r="255" g="120" b="120" a="1.0"/> <!-- rosy -->
+			<color r="255" g="0" b="100" a="1.0"/> <!-- yay! -->
+			<color r="255" g="230" b="0" a="1.0"/> <!-- sun -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<crewBlueprint name="ghost">
+	<desc>This fully sentient hologram is controlled by an advanced AI, housed inside a biological data-substrate.</desc>
+	<cost>90</cost>
+	<bp>1</bp>
+	<title>AI Avatar</title>
+	<short>AI Avatar</short>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Does not need oxygen</power>
+		<power>Maximum health is halved</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 0 - NULL -->
+			<color r="255" g="255" b="255" a="0"/> <!-- 0% visible -->
+		</layer>
+		<layer><!-- Layer 0 - NULL -->
+			<color r="255" g="255" b="255" a="0"/> <!-- 0% visible -->
+		</layer>
+		<layer><!-- Layer 0 - NULL -->
+			<color r="255" g="255" b="255" a="0"/> <!-- 0% visible -->
+		</layer>
+		<layer><!-- Layer 0 - NULL -->
+			<color r="255" g="255" b="255" a="0"/> <!-- 0% visible -->
+		</layer>
+		<layer><!-- Layer 5: hologram glow -->
+			<color r="255" g="255" b="255" a="1"/> <!-- Selection -->
+		</layer>
+		<layer><!-- Layer 6: hologram outline -->
+			<color r="200" g="200" b="200" a="1"/> <!-- DarkGrey -->
+			<color r="255" g="47" b="99" a="1"/> <!-- Radical Red -->
+			<color r="255" g="37" b="176" a="1"/> <!-- Spicy Pink -->
+			<color r="255" g="248" b="113" a="1"/> <!-- Witch haze -->
+			<color r="111" g="255" b="255" a="1"/> <!-- Electric -->
+			<color r="88" g="191" b="147" a="1"/> <!-- Aquamarine (darker) -->
+			<color r="46" g="44" b="78" a="1"/> <!-- Paua -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+
+
+<weaponBlueprint name="BA_BOMB_NANO_1"> 
+	<type>BOMB</type>
+	<tip>tip_bombs</tip>
+	<title>Hull Repair Burst Mark I</title>
+	<short>Hull Repair I</short>
+	<locked>1</locked>
+	<desc>Self-teleporting nano repair unit that instantly restores one hull damage and one system damage of the system it is teleported to. Designed to target your own ship.</desc>
+	<tooltip>Bomb weapon; requires a missile; repairs 1 hull damage. Should target your own ship.</tooltip>
+	<damage>-1</damage>
+	<sysDamage>-1</sysDamage>
+	<persDamage>0</persDamage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>3</cooldown>
+	<power>1</power>
+	<cost>80</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>ba_bomb_nano_1</image>
+	<explosion>ba_explosion_nano_1_impact</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>silence</sound>
+	</hitShipSounds>
+	<weaponArt>ba_bomblauncher_nano_1</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="BA_BOMB_NANO_2"> 
+	<type>BOMB</type>
+	<tip>tip_bombs</tip>
+	<title>Hull Repair Burst Mark II</title>
+	<short>Hull Repair II</short>
+	<locked>1</locked>
+	<desc>Self-teleporting nano repair unit that restores two hull damage and two system damage of the system it is teleported to. Designed to target your own ship.</desc>
+	<tooltip>Bomb weapon; requires a missile; repairs 2 hull. Should target your own ship.</tooltip>
+	<damage>-2</damage>
+	<sysDamage>-2</sysDamage>
+	<persDamage>0</persDamage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>6</cooldown>
+	<power>2</power>
+	<cost>100</cost>
+	<bp>4</bp>
+	<rarity>0</rarity>
+	<image>ba_bomb_nano_2</image>
+	<explosion>ba_explosion_nano_2_impact</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>silence</sound>
+	</hitShipSounds>
+	<weaponArt>ba_bomblauncher_nano_2</weaponArt> 
+</weaponBlueprint>
+
+<augBlueprint name="AE_REPAIR_KIT">
+	<title>Hull Repair Kit</title>
+	<desc>Enables en route ship maintenance and hull repairs. Requires an empty beacon.</desc>
+	<cost>60</cost>
+	<bp>5</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+</augBlueprint>
+
+<droneBlueprint name="SHIP_REPAIR">
+	<type>SHIP_REPAIR</type>
+	<tip>tip_crew</tip>
+	<title>Hull Repair</title>
+	<short>Hull Repair</short>
+	<desc>Automatically repairs 3-5 damage to your hull. Drone part is consumed once it finishes.</desc>
+	<power>2</power>
+	<cooldown>1000</cooldown> <!--- Doesn't effect repair drone -->
+	<dodge>0</dodge>
+	<speed>20</speed> <!--- Change this to increase/decrease firing speed -->
+	<cost>85</cost> <!--was 100-->
+	<bp>5</bp>
+	<droneImage>drone_shiprepair</droneImage>
+	<image>weapons/laser_light2_strip4.png</image>
+	<rarity>0</rarity>
+	<iconImage>Srepair</iconImage>
+</droneBlueprint>
+
+
+

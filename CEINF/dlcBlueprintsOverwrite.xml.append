@@ -1,0 +1,760 @@
+
+
+<!--   Overwriting the previous ship lists to include the new versions          -->
+
+<blueprintList name="OVERRIDE_SHIPS_FED">
+	<name>TB_FED_SCOUT</name>
+	<name>TB_FED_BOMBER</name>
+
+	<name>TB_FED_MINER</name>
+	<name>TB_FED_ASSAULT</name>
+	<name>TB_FED_MEDEVAC</name>
+	<name>TB_FED_HUNTER</name>
+
+	<name>TB_FED_SCOUT_DLC</name>
+	<name>TB_FED_BOMBER_DLC</name>
+	<name>TB_FED_SCOUT_DLC</name>
+	<name>TB_FED_BOMBER_DLC</name>
+
+	
+	<name>DEEP_SPACE_ELITE_TB_FED_BOMBER</name>
+
+	
+	<name>DEEP_SPACE_ELITE_TB_FED_ASSAULT</name>
+	
+	
+
+	<name>DEEP_SPACE_ELITE_TB_FED_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_FED_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_FED_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_FED_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHPS_REBEL_AND_AUTO">
+	<name>TB_AUTO_SCOUT</name>
+	<name>TB_AUTO_ASSAULT</name>	
+	<name>TB_REBEL_FIGHTER</name>
+	<name>TB_REBEL_RIGGER</name>
+
+	<name>TB_AUTO_INFILTRATOR</name>
+	<name>TB_AUTO_INTERCEPTOR</name>
+	<name>TB_AUTO_BOMBER</name>
+	<name>TB_AUTO_TROOPSHIP</name>
+	<name>TB_AUTO_CARRIER</name>
+
+	<name>TB_REBEL_REPAIR</name>
+	<name>TB_REBEL_TROOPSHIP</name>
+	<name>TB_REBEL_CARRIER</name>
+	<name>TB_REBEL_INTERCEPTOR</name>
+	<name>TB_REBEL_BARGE</name>
+	<name>TB_REBEL_ASSAULT</name>
+
+	<name>TB_REBEL_SCOUT</name>
+	<name>TB_REBEL_INFILTRATOR</name>
+	<name>TB_REBEL_TUG</name>
+
+	<name>TB_REBEL_EW</name>
+	<name>TB_REBEL_EW</name>
+	<name>TB_AUTO_BASIC_DLC</name>
+	<name>TB_AUTO_ASSAULT_DLC</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+	<name>TB_AUTO_BASIC_DLC</name>
+	<name>TB_AUTO_ASSAULT_DLC</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+
+
+	<name>DEEP_SPACE_ELITE_TB_AUTO_SCOUT</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_ASSAULT</name>	
+	<name>DEEP_SPACE_ELITE_TB_REBEL_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_RIGGER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_AUTO_INFILTRATOR</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_CARRIER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_REBEL_REPAIR</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_CARRIER</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_BARGE</name>
+	<name>DEEP_SPACE_ELITE_TB_TB_REBEL_ASSAULT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_TB_REBEL_EW</name>
+	<name>DEEP_SPACE_ELITE_TB_TB_REBEL_EW</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_BASIC_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_ASSAULT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_FAT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_SKINNY_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_BASIC_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_ASSAULT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_FAT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_SKINNY_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_REBEL">
+	<name>TB_REBEL_FIGHTER</name>
+	<name>TB_REBEL_RIGGER</name>
+
+	<name>TB_REBEL_REPAIR</name>
+	<name>TB_REBEL_TROOPSHIP</name>
+	<name>TB_REBEL_CARRIER</name>
+	<name>TB_REBEL_INTERCEPTOR</name>
+	<name>TB_REBEL_BARGE</name>
+
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+	<name>TB_REBEL_ASSAULT</name>
+	<name>TB_REBEL_EW</name>
+	<name>TB_REBEL_EW</name>
+
+	<name>TB_REBEL_SCOUT</name>
+	<name>TB_REBEL_INFILTRATOR</name>
+	<name>TB_REBEL_TUG</name>
+
+	<name>DEEP_SPACE_ELITE_TB_REBEL_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_RIGGER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_REBEL_SCOUT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_REBEL_REPAIR</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_CARRIER</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_BARGE</name>
+	<name>DEEP_SPACE_ELITE_TB_TB_REBEL_ASSAULT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_TB_REBEL_EW</name>
+	<name>DEEP_SPACE_ELITE_TB_TB_REBEL_EW</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_FAT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_SKINNY_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_FAT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_REBEL_SKINNY_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_AUTO">
+	<name>TB_AUTO_SCOUT</name>
+	<name>TB_AUTO_ASSAULT</name> 
+
+	<name>TB_AUTO_INFILTRATOR</name>
+	<name>TB_AUTO_INTERCEPTOR</name>
+	<name>TB_AUTO_BOMBER</name>
+	<name>TB_AUTO_TROOPSHIP</name>
+	<name>TB_AUTO_CARRIER</name>
+
+
+	<name>TB_AUTO_BASIC_DLC</name>
+	<name>TB_AUTO_ASSAULT_DLC</name>
+
+	<name>DEEP_SPACE_ELITE_TB_AUTO_SCOUT</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_ASSAULT</name> 
+
+	<name>DEEP_SPACE_ELITE_TB_AUTO_INFILTRATOR</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_CARRIER</name>
+
+
+	<name>DEEP_SPACE_ELITE_TB_AUTO_BASIC_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_AUTO_ASSAULT_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_PIRATE_CRUISER">
+	<name>C_PIRATE_CRUISER_STEALTH</name>
+	<name>C_PIRATE_CRUISER_ARTILLERY</name>
+
+	<name>C_PIRATE_CRUISER_EW</name>
+
+
+	<name>DEEP_SPACE_ELITE_C_PIRATE_CRUISER_STEALTH</name>
+	<name>DEEP_SPACE_ELITE_C_PIRATE_CRUISER_ARTILLERY</name>
+
+	<name>DEEP_SPACE_ELITE_C_PIRATE_CRUISER_EW</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_C_SHIPS_AUTO_CRUISER">
+	<name>C_AUTO_CRUISER</name>
+	<name>C_AUTO_CRUISER</name>
+
+	<name>C_AUTO_EW_CRUISER</name>
+	<name>C_AUTO_EW_CRUISER</name>
+
+
+	<name>DEEP_SPACE_ELITE_C_AUTO_CRUISER</name>
+	<name>DEEP_SPACE_ELITE_C_AUTO_CRUISER</name>
+
+	<name>DEEP_SPACE_ELITE_C_AUTO_EW_CRUISER</name>
+	<name>DEEP_SPACE_ELITE_C_AUTO_EW_CRUISER</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_SHIPS_JELLY">
+	<name>TB_JELLY_INTERCEPTOR</name>
+	<name>TB_JELLY_CRUISER</name>
+	<name>TB_JELLY_ASSAULT</name>
+
+	<name>TB_JELLY_MINER</name>
+	<name>TB_JELLY_INFILTRATOR</name>
+	<name>TB_JELLY_PLEASURE</name>
+	<name>TB_JELLY_BOMBER</name>
+	<name>TB_JELLY_HUNTER</name>
+	<name>TB_JELLY_FIRE</name>
+	<name>TB_JELLY_BARGE</name>
+
+	<name>TB_JELLY_BUTTON_DLC</name>
+	<name>TB_JELLY_CROISSANT_DLC</name>
+	<name>TB_JELLY_TRUFFLE_DLC</name>
+	<name>TB_JELLY_BUTTON_DLC</name>
+	<name>TB_JELLY_CROISSANT_DLC</name>
+	<name>TB_JELLY_TRUFFLE_DLC</name>
+
+
+
+	<name>DEEP_SPACE_ELITE_TB_JELLY_CRUISER</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_ASSAULT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_JELLY_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_HUNTER</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_FIRE</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_BARGE</name>
+
+	<name>DEEP_SPACE_ELITE_TB_JELLY_CROISSANT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_TRUFFLE_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_CROISSANT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_JELLY_TRUFFLE_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_MANTIS">
+	<name>TB_MANTIS_SCOUT</name>
+	<name>TB_MANTIS_FIGHTER</name>
+	<name>TB_MANTIS_BOMBER</name>
+
+	<name>TB_MANTIS_INTERCEPTOR</name>
+	<name>TB_MANTIS_TROOPSHIP</name>
+	<name>TB_MANTIS_HUNTER</name>
+	<name>TB_MANTIS_BARGE</name>
+	<name>CE_MANTIS_MINELAYER</name>
+	<name>TB_MANTIS_GUNBOAT</name>
+
+	<name>TB_MANTIS_SCOUT_DLC</name>
+	<name>TB_MANTIS_FIGHTER_DLC</name>
+	<name>TB_MANTIS_BOMBER_DLC</name>
+	<name>TB_MANTIS_SCOUT_DLC</name>
+	<name>TB_MANTIS_FIGHTER_DLC</name>
+	<name>TB_MANTIS_BOMBER_DLC</name>
+
+
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_HUNTER</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_BARGE</name>
+	<name>DEEP_SPACE_ELITE_CE_MANTIS_MINELAYER</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_GUNBOAT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_FIGHTER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_FIGHTER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_MANTIS_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_ROCK">
+	<name>TB_ROCK_SCOUT</name>
+	<name>TB_ROCK_FIGHTER</name>
+	<name>TB_ROCK_ASSAULT</name>
+
+	<name>TB_ROCK_MINER</name>
+	<name>TB_ROCK_HUNTER</name>
+	<name>TB_ROCK_BARGE</name>
+	<name>TB_ROCK_TROOPSHIP</name>
+	<name>TB_ROCK_BOMBER</name>
+	<name>CE_ROCK_MINELAYER</name>
+
+	<name>TB_ROCK_SCOUT_DLC</name>
+	<name>TB_ROCK_FIGHT_DLC</name>
+	<name>TB_ROCK_ASSAULT_DLC</name>
+	<name>TB_ROCK_SCOUT_DLC</name>
+	<name>TB_ROCK_FIGHT_DLC</name>
+	<name>TB_ROCK_ASSAULT_DLC</name>
+
+
+
+	<name>DEEP_SPACE_ELITE_TB_ROCK_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_ASSAULT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ROCK_HUNTER</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_BARGE</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_CE_ROCK_MINELAYER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ROCK_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_FIGHT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_ASSAULT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_FIGHT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_ASSAULT_DLC</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_CE_SHIPS_ROCK_MILITARY">
+	<name>CE_ROCK_CRUISER</name>
+	<name>CE_ROCK_IRONCLAD</name>
+
+	<name>TB_ROCK_FIRESHIP</name>
+
+
+	<name>DEEP_SPACE_ELITE_CE_ROCK_CRUISER</name>
+	<name>DEEP_SPACE_ELITE_CE_ROCK_IRONCLAD</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ROCK_FIRESHIP</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_CIRCLE">
+	<name>TB_CIRCLE_SCOUT</name>
+	<name>TB_CIRCLE_BOMBER</name>
+
+	<name>TB_CIRCLE_MINER</name>
+	<name>TB_CIRCLE_REPAIR</name>
+	<name>TB_CIRCLE_MEDEVAC</name>
+	<name>TB_CIRCLE_CARRIER</name>
+	<name>TB_CIRCLE_HUNTER</name>
+	<name>TB_CIRCLE_BARGE</name>
+
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER</name>
+
+
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_MEDEVAC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_CARRIER</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_HUNTER</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BARGE</name>
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER_DLC</name>
+</blueprintList>
+
+
+
+<blueprintList name="OVERRIDE_SHIPS_ZOLTAN">
+	<name>TB_ENERGY_FIGHTER</name>
+	<name>TB_ENERGY_BOMBER</name>
+
+	<name>TB_ENERGY_INTERCEPTOR</name>
+	<name>TB_ENERGY_BARGE</name>
+	<name>TB_ENERGY_ASSAULT</name>
+	<name>TB_ENERGY_TROOPSHIP</name>
+	<name>TB_ENERGY_GUNBOAT</name>
+
+	<name>TB_ENERGY_FIGHTER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_BARGE</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_ASSAULT</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_GUNBOAT</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ZOLTAN_BOMBER_DLC</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_SHIPS_CRYSTAL">
+	<name>TB_CRYSTAL_SCOUT</name>
+	<name>TB_CRYSTAL_BOMBER</name>
+
+	<name>TB_CRYSTAL_INTERCEPTOR</name>
+	<name>TB_CRYSTAL_TROOPSHIP</name>
+	<name>TB_CRYSTAL_ASSAULT</name>
+	<name>TB_CRYSTAL_HUNTER</name>
+	<name>TB_CRYSTAL_BARGE</name>
+
+	<name>TB_CRYSTAL_SCOUT_DLC</name>
+	<name>TB_CRYSTAL_BOMBER_DLC</name>
+	<name>TB_CRYSTAL_SCOUT_DLC</name>
+	<name>TB_CRYSTAL_BOMBER_DLC</name>
+
+
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_SCOUT</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_TROOPSHIP</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_ASSAULT</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_HUNTER</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_BARGE</name>
+
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CRYSTAL_BOMBER_DLC</name>
+</blueprintList>
+  
+  
+
+<blueprintList name="OVERRIDE_SHIPS_CIVILIAN">
+	<name>TB_JELLY_INTERCEPTOR</name>
+	<name>TB_JELLY_CRUISER</name>
+	<name>TB_ROCK_SCOUT</name>
+	<name>TB_ROCK_FIGHTER</name>
+	<name>TB_FED_SCOUT</name>
+	<name>TB_FED_BOMBER</name>
+
+	<name>TB_JELLY_MINER</name>
+	<name>TB_JELLY_PLEASURE</name>
+	<name>TB_ROCK_MINER</name>
+	<name>TB_ROCK_TROOPSHIP</name>
+	<name>TB_FED_MINER</name>
+	<name>TB_FED_HUNTER</name>
+	<name>TB_FED_ASSAULT</name>
+	<name>TB_FED_MEDEVAC</name>
+	<name>C_ROCK_CARGO</name>
+	<name>C_FED_CARGO</name>
+
+	<name>TB_ENERGY_FIGHTER</name>
+	<name>TB_ENERGY_BOMBER</name>
+	<name>TB_CIRCLE_SCOUT</name>
+	<name>TB_CIRCLE_BOMBER</name>
+
+	<name>TB_CIRCLE_MINER</name>
+	<name>TB_CIRCLE_REPAIR</name>
+	<name>TB_CIRCLE_MEDEVAC</name>
+	<name>TB_CIRCLE_CARRIER</name>
+	<name>C_CIRCLE_CARGO</name>
+	<name>C_ENERGY_FREIGHTER</name>
+	<name>TB_ENERGY_INTERCEPTOR</name>
+	<name>TB_ENERGY_ASSAULT</name>
+	<name>TB_ENERGY_TROOPSHIP</name>
+
+
+
+
+	<name>DEEP_SPACE_ELITE_TB_JELLY_CRUISER</name>
+	<name>DEEP_SPACE_ELITE_TB_ROCK_FIGHTER</name>
+	
+	<name>DEEP_SPACE_ELITE_TB_FED_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_ROCK_TROOPSHIP</name>
+	
+	
+	<name>DEEP_SPACE_ELITE_TB_FED_ASSAULT</name>
+	
+	
+	
+
+
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER</name>
+
+
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_MEDEVAC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_CARRIER</name>
+	<name>DEEP_SPACE_ELITE_C_CIRCLE_CARGO</name>
+	<name>DEEP_SPACE_ELITE_C_ENERGY_FREIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_ASSAULT</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_TROOPSHIP</name>
+</blueprintList>
+
+
+
+<blueprintList name="OVERRIDE_SHIPS_MILITIA">
+	<name>CE_CIV_SCOUT</name>
+	<name>CE_CIV_BOMBER</name>
+
+	<name>CE_CIV_ASSAULT</name>
+	<name>CE_CIV_MEDEVAC</name>
+	<name>CE_CIV_HUNTER</name>
+	<name>CE_CIV_INFILTRATOR</name>
+	<name>CE_CIV_INTERCEPTOR</name>
+	<name>CE_CIV_ARTILLERY</name>
+	<name>CE_CIV_CRUISER</name>
+	<name>CE_CIV_FIGHTER</name>
+
+	<name>TB_CIV_SCOUT_DLC</name>
+	<name>TB_CIV_BOMBER_DLC</name>
+	<name>TB_CIV_SCOUT_DLC</name>
+	<name>TB_CIV_BOMBER_DLC</name>
+	<name>CE_CIV_EW</name>
+	<name>CE_CIV_EW</name>
+
+	<name>DEEP_SPACE_ELITE_CE_CIV_SCOUT</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_BOMBER</name>
+
+	<name>DEEP_SPACE_ELITE_CE_CIV_ASSAULT</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_MEDEVAC</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_HUNTER</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_INFILTRATOR</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_ARTILLERY</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_CRUISER</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_FIGHTER</name>
+
+	<name>DEEP_SPACE_ELITE_TB_CIV_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIV_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIV_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIV_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_EW</name>
+	<name>DEEP_SPACE_ELITE_CE_CIV_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_QUARANTINE_PATROL">
+	<name>TB_CIRCLE_SCOUT</name>
+	<name>TB_CIRCLE_BOMBER</name>
+	<name>TB_CIRCLE_MEDEVAC</name>
+	<name>TB_CIRCLE_CARRIER</name>
+	<name>TB_ENERGY_FIGHTER</name>
+	<name>TB_ENERGY_BOMBER</name>
+	<name>TB_ENERGY_INTERCEPTOR</name>
+	<name>TB_ENERGY_ASSAULT</name>
+	<name>TB_ENERGY_TROOPSHIP</name>
+
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_ENERGY_FIGHTER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_ENERGY_FIGHTER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+
+
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_MEDEVAC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_CARRIER</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_FIGHTER</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_ASSAULT</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_TROOPSHIP</name>
+
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_FIGHTER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ZOLTAN_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_SCOUT_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_CIRCLE_BOMBER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ENERGY_FIGHTER_DLC</name>
+	<name>DEEP_SPACE_ELITE_TB_ZOLTAN_BOMBER_DLC</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_SHIPS_AI">
+	<name>CE_AI_REPAIR</name>
+	<name>CE_AI_INTERCEPTOR</name>
+	<name>CE_AI_BOMBER</name>
+	<name>CE_AI_ASSAULT</name>
+
+	<name>CE_AI_INSTIGATOR</name>
+	<name>CE_AI_HACKER</name>
+
+
+	<name>DEEP_SPACE_ELITE_CE_AI_REPAIR</name>
+	<name>DEEP_SPACE_ELITE_CE_AI_INTERCEPTOR</name>
+	<name>DEEP_SPACE_ELITE_CE_AI_BOMBER</name>
+	<name>DEEP_SPACE_ELITE_CE_AI_ASSAULT</name>
+
+	<name>DEEP_SPACE_ELITE_CE_AI_INSTIGATOR</name>
+	<name>DEEP_SPACE_ELITE_CE_AI_HACKER</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_C_SHIPS_AUTO_CRUISER_CONSTRUCTION">
+	<name>C_AUTO_CRUISER_MINER</name>
+	<name>C_AUTO_CRUISER_CONSTRUCTOR</name>
+
+	<name>DEEP_SPACE_ELITE_C_AUTO_CRUISER_MINER</name>
+	<name>DEEP_SPACE_ELITE_C_AUTO_CRUISER_CONSTRUCTOR</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_AUTO_CONSTRUCTION">
+	<name>CE_AUTO_REPAIR</name>
+	<name>CE_AUTO_MINER</name>
+	<name>CE_AUTO_CONSTRUCTOR</name>
+
+	<name>DEEP_SPACE_ELITE_CE_AUTO_REPAIR</name>
+	<name>DEEP_SPACE_ELITE_CE_AUTO_MINER</name>
+	<name>DEEP_SPACE_ELITE_CE_AUTO_CONSTRUCTOR</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AUTO_CONSTRUCTION">
+	<name>BS_AUTO_REPAIR</name>
+	<name>BS_AUTO_CONSTRUCTOR</name>
+
+	<name>DEEP_SPACE_ELITE_BS_AUTO_REPAIR</name>
+	<name>DEEP_SPACE_ELITE_BS_AUTO_CONSTRUCTOR</name>
+</blueprintList>
+
+
+
+<!-- CE BS OVERRIDE STATIONS -->
+ 
+<blueprintList name="OVERRIDE_BS_STATIONS_FED">
+	<name>BS_FED_MEDICAL</name>
+	<name>BS_FED_OUTPOST</name>
+	<name>BS_FED_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_FED_MEDICAL</name>
+	<name>DEEP_SPACE_ELITE_BS_FED_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_FED_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_CIV">
+	<name>BS_CIV_MEDICAL</name>
+	<name>BS_CIV_OUTPOST</name>
+	<name>BS_CIV_EW</name>
+
+
+	<name>DEEP_SPACE_ELITE_BS_CIV_MEDICAL</name>
+	<name>DEEP_SPACE_ELITE_BS_CIV_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_CIV_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_CIV_OUTPOST">
+	<name>BS_CIV_OUTPOST</name>
+	<name>BS_CIV_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_CIV_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_CIV_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_FED_AUTO">
+	<name>BS_AUTO_MEDICAL</name>
+	<name>BS_AUTO_OUTPOST</name>
+	<name>BS_FED_AUTO_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_AUTO_MEDICAL</name>
+	<name>DEEP_SPACE_ELITE_BS_AUTO_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_FED_AUTO_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_PIRATE">
+	<name>BS_OUTLAW_BLACKMARKET</name>
+	<name>BS_OUTLAW_OUTPOST</name>
+	<name>BS_OUTLAW_CHECKPOINT</name>
+
+	<name>DEEP_SPACE_ELITE_BS_OUTLAW_BLACKMARKET</name>
+	<name>DEEP_SPACE_ELITE_BS_OUTLAW_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_OUTLAW_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AUTO_TURRET">
+	<name>BS_AUTO_TURRET</name>
+	<name>BS_AUTO_DRONE</name>
+	<name>BS_AUTO_CHECKPOINT</name>
+
+	<name>DEEP_SPACE_ELITE_BS_AUTO_TURRET</name>
+	<name>DEEP_SPACE_ELITE_BS_AUTO_DRONE</name>
+	<name>DEEP_SPACE_ELITE_BS_AUTO_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AUTO_SUICIDE">
+	<name>BS_AUTO_SATELLITE</name>
+	<name>BS_AUTO_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_AUTO_SATELLITE</name>
+	<name>DEEP_SPACE_ELITE_BS_AUTO_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_REBEL">
+	<name>BS_REBEL_OUTPOST</name>
+	<name>BS_REBEL_SUPPLY</name>
+	<name>BS_REBEL_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_REBEL_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_REBEL_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ROCK_OUTPOST">
+	<name>BS_ROCK_OUTPOST</name>
+	<name>BS_ROCK_CHECKPOINT</name>
+
+	<name>DEEP_SPACE_ELITE_BS_ROCK_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_ROCK_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ENGI_DRONE">
+	<name>BS_CIRCLE_DRONE</name>
+	<name>BS_CIRCLE_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_CIRCLE_DRONE</name>
+	<name>DEEP_SPACE_ELITE_BS_CIRCLE_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ENGI_MANTIS_CONTROLLED">
+	<name>BS_CIRCLE_MEDICAL</name>
+	<name>BS_CIRCLE_DRONE</name>
+	<name>BS_CIRCLE_EW</name>
+
+	<name>DEEP_SPACE_ELITE_BS_CIRCLE_MEDICAL</name>
+	<name>DEEP_SPACE_ELITE_BS_CIRCLE_DRONE</name>
+	<name>DEEP_SPACE_ELITE_BS_CIRCLE_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_MANTIS">
+	<name>BS_MANTIS_HIVE</name>
+	<name>BS_MANTIS_OUTPOST</name>
+	<name>BS_MANTIS_BROOD</name>
+
+	<name>DEEP_SPACE_ELITE_BS_MANTIS_HIVE</name>
+	<name>DEEP_SPACE_ELITE_BS_MANTIS_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_MANTIS_BROOD</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ZOLTAN">
+	<name>BS_ENERGY_OUTPOST</name>
+	<name>BS_ENERGY_SHIELD</name>
+	<name>BS_ENERGY_CHECKPOINT</name>
+
+	<name>DEEP_SPACE_ELITE_BS_ENERGY_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_ENERGY_SHIELD</name>
+	<name>DEEP_SPACE_ELITE_BS_ENERGY_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_SLUG">
+	<name>BS_JELLY_BLACKMARKET</name>
+	<name>BS_JELLY_CHECKPOINT</name>
+
+	<name>DEEP_SPACE_ELITE_BS_JELLY_BLACKMARKET</name>
+	<name>DEEP_SPACE_ELITE_BS_JELLY_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AI">
+	<name>BS_AI_OUTPOST</name>
+	<name>BS_AI_TECH_STATION</name>
+
+	<name>DEEP_SPACE_ELITE_BS_AI_OUTPOST</name>
+	<name>DEEP_SPACE_ELITE_BS_AI_TECH_STATION</name>
+</blueprintList>
+
+<!-- END OF CE BS OVERRIDE STATIONS -->
+
+
+

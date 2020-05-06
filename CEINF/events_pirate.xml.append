@@ -1,0 +1,30 @@
+
+<event name="START_BEACON_PIRATE">
+	<text load="START_BEACON_OUTLAW_TEXT"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event load="START_BEACON_PIRATE_LIST"/>
+	</choice>
+</event>
+<textList name="START_BEACON_OUTLAW_TEXT">
+	<text>A few years ago this region was bustling with trade activity. Now it is overrun with bandits and marauders. You should tread lightly here.</text>
+	<text>This somewhat isolated region was thrown into chaos at the start of the Rebellion. Even in peacetime it was always beset by pirates but now it houses a center of operations for countless pirate fleets.</text>
+	<text>If the reports are true, this area has been under the control of pirates for quite some time. Some traders still attempt to trade with the few settlements that remain, but they do so at great risk.</text>
+	<text>A few Federation-friendly planets still exist in this sector, but they are constantly under attack by pirate raids. This is a dangerous sector, so be careful.</text>
+	<text>This sparsely populated production sector is of little strategic value. It is unlikely that you will run into a lot of trouble with the Rebels here. Maybe you can even strike a good deal and stock up for your journey. Oh, and watch out for the pirates.</text>
+</textList>
+
+
+

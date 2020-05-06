@@ -1,0 +1,44 @@
+
+
+		
+
+<event name="START_BEACON_CRYSTAL_INFINITE">
+	<text>This recently rediscovered deep space sector was left abandon for centuries. At the entrance of the beacon network, you discover an ancient device, orbiting within the crystal rings of a nearby gas giant. You can't discern its nature or function, but it seems to have been deactivated for a very long time.</text>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Scrap it and continue into the depth of of the unknown deep space sector.</text>
+		<event>
+			<text>You break it apart and take it for scrap. No one will miss it.</text>
+			<autoReward level="HIGH">scrap_only</autoReward>
+			<secretSector/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Leave it alone and continue on.</text>
+		<event>
+			<secretSector/>
+		</event>
+	</choice>
+	<choice hidden="true" req="crystal">
+		<text>(Crystal Crew) Reactivate it.</text>
+		<event>
+			<text>Your Crystalline companion says, "It looks like we have found the abandoned link to my home worlds. I can reactivate it." He transmits some codes to the device and it immediately powers on.</text>
+			<item_modify>
+				<item type="fuel" min="1" max="1"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue.</text>
+				<event>
+					<text>Before you can react, the space around you distorts and a wormhole forms. You begin to sound the alarm, but your companion calms you and indicates that you should fly directly into the wormhole. You reluctantly do as he says.</text>
+					<choice hidden="true">
+						<text>Continue.</text>
+						<event load="START_BEACON_CRYSTAL"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+

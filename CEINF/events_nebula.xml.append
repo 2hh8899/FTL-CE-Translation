@@ -1,0 +1,377 @@
+
+<event name="START_BEACON_NEBULA">
+	<text load="START_BEACON_NEBULA"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_NEBULA"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_NEBULA"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_NEBULA"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_NEBULA"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_CIVILIAN"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="START_BEACON_NEBULA">
+	<text>This nebula must have been an important hub at one point; placing all of these jump beacons would be no easy task.  However, now it's hardly navigable.</text>
+	<text>Nebulae were always dangerous places. Many electronics fail in these clouds. You will have to tread lightly.</text>
+	<text>You've entered a sector thick with nebulae. You'll have to navigate on instinct.</text>
+	<text>You've entered a nebula-rich sector. You may put a few light years on the fleet, but that's only useful if you make it out the other side.</text>
+	<text>Thanks to the high nebula density of this sector very little of it has been charted, and rumors of what lurks in the depths abound.</text>
+	<text>The gases that make up the nebulae in this sector threaten to impair your systems, but you have to press on.</text>
+</textList>
+
+
+<event name="START_BEACON_HAZARD">
+	<text load="SE_START_BEACON_HAZARD_TEXT"/>
+	<modifyPursuit amount="-3"/>
+		<modifyPursuit amount="-10"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_NEBULA"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_NEBULA"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_NEBULA"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_NEBULA"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="SE_START_BEACON_HAZARD_TEXT">
+	<text>The Rebel fleet will have trouble following you through the asteroid belt that extends through this entire sector. You might have trouble getting though it as well.</text>
+	<text>Class delta sector-wide plasma storms have been observed in this area for a few thousand standard years. This might complicate things.</text>
+	<text>You arrive in a far out fringe sector. Only a few individuals come here, for good reason, large asteroid belts and constant plasma storms make this area almost uninhabitable. The Rebel fleet will have trouble catching up with you here though.</text>
+	<text>You've entered a extremely hazardous sector far from interstellar civilization. You may put a few light years on the fleet, but that's only useful if you manage to get through all the local plasma storms and asteroid fields in one piece.</text>
+</textList>
+
+
+<event name="START_BEACON_INDUSTRIAL">
+	<text load="START_BEACON_INDUSTRIAL_TEXT"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_NEBULA"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_NEBULA"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_NEBULA"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_INDUSTRIAL"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here, you lay out some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="START_BEACON_INDUSTRIAL_TEXT">
+	<text>This sector is a well known industrial hub. Waste from orbital factories and refinery-plants has been dumped in open space for many standard years. This led to the creation of large hazard clouds that might best be avoided.</text>
+	<text>You arrived in a busy production sector. Emissions from large scale industrial activity has created smog clouds of galactic proportions in this sector. Traveling within these will be a dirty endeavor.</text>
+	<text>This sector must have been bustling with industrial activity at some point. Now most of the gigantic production plants lay in disrepair and leak hazardous substances into open space.</text>
+</textList>
+
+
+
+		
+<eventList name="CRYSTAL_UNLOCK_HAZZARD_LIST">
+	<event>
+		<text>You send some crew aboard to explore. Nearly everything is either destroyed or unidentifiable, but one of the weapons appears salvageable and there's a strange stasis pod that catches your eye.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event>
+				<text>It looks like a massive asteroid is in a direct collision course with the derelict ship! You have to pull your crew out but they want to grab what they can first. What do they take?</text>
+				<choice hidden="true">
+					<text>Take the weapon and any spare scrap.</text>
+					<event>
+						<text>Your crew grabs what they can and returns to the ship before the asteroid hits. You take a look at what you've recovered once you move clear of the asteroid field.</text>
+						<autoReward level="LOW">weapon</autoReward>
+					</event>
+				</choice>
+				<choice hidden="true">
+					<text>Grab the stasis chamber.</text>
+					<event>
+						<text>Your crew drags the pod back to your ship before the asteroid smashes into the ship, shattering through the crystal coating and destroying the ship.</text>
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event>
+								<text>The pod appears to be functioning but you see nothing but shards of crystal inside. Perhaps someone else will know how to open it.</text>
+								<augment name="STASIS_POD"/>
+								<autoReward level="LOW">scrap_only</autoReward>
+							</event>
+						</choice>
+					</event>
+				</choice>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>You send some crew aboard to explore. Nearly everything is either destroyed or unidentifiable, but a strange hunk of crystall catches your eye. Is this one of the ships crew? There is no oxygen left within the ship. This thing must be dead.</text>
+		<choice hidden="true" req="medbay" lvl="3">
+			<text>(Advanced Medbay) Bring the crystal body aboard for analysis.</text>
+				<event>
+					<text>When the Alien is brought back into the ship, it miraculously starts breathing again. Your advanced medbay is of little help, but nutriens you supply the being with allow it to recover. It speaks slowly, "Greetings. I whish you no harm, although I recall beein engaged in combat with you."</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>"I have yet to learn your alien ways. Many of your kind attacked me. But now I appear to be in your debt. My people isolated themselves a long time ago, but perhaps it's time to re-establish a connection. There's a hidden wormhole near a long forgotten sector. Perhaps you can take me there so I can properly repay you?"</text>
+							<crewMember amount="1" class="crystal"/>
+						</event>
+					</choice>
+				</event>
+		</choice>
+		<choice hidden="true">
+			<text>Take the any spare scrap.</text>
+			<event>
+				<text>Your crew grabs what they can, takes holo-immages of the entire ship and then abondan it. This will be long report to file</text>
+				<autoReward level="LOW">standard</autoReward>
+			</event>
+		</choice>
+	</event>
+</eventList>
+
+
+<textList name="FREE_ITEMS_HAZARD_TEXT">
+	<text>You arrive in a system and immediately discover a pirate ship nearby. Strangely, scans indicate there are no lifeforms aboard. You salvage anything useful, but find no clue as to the whereabouts of the former crew.</text>
+	<text>Not much remains in this abandoned system, however, scans reveal a disabled research auto scout. You salvage what you can from the ship.</text>
+	<text>A small research station has been riddled with holes by micro asteroids and drifts inactive near the beacon. You say some words for the dead and strip it of usable parts.</text>
+	<text planet="PLANET_GAS">Debris from a forgotten battle still orbits the gas giant in this system. Some of it still might be usable.</text>
+</textList>
+
+<textList name="FIND_WEAPON_HAZARD_TEXT">
+	<text planet="NONE" back="BG_NEBULA">Holy crap! A weapon is just floating in space!</text>
+	<text>Debris from several severe navigation accidents is scattered around this system. You discover there is a functioning weapon on one of the wrecks but are unable to pinpoint the cause of the ship's destruction. The crew prefers to get out of here fast.</text>
+	<text>The scorched wreck of a small civilian ship floats nearby. Black box logs indicate they jumped here from within the center of a plasma storm, but their life support failed before their FTL charge sequence was completed. One of their weapons remains usable.</text>
+</textList>
+
+<textList name ="STORM_EMPTY_TEXT">
+	<text>Without active sensors you have no other option but to look out of the view-ports in apprehension. Lightning illuminates the clouds from time to time, but you seem to be alone in the storm.</text>
+	<text>You nervously glance out the windows but the only thing to greet you is more ionized gases and lightning arcs. The ship shudders violently on every discharge. You eventually manage to charge the FTL with the little power the storm leaves you with.</text>
+	<text>You dont even try checking the comm channels. No long range communication is possible within the storm.</text>
+	<text>With the sensors down, you spend a good deal of time staring out the window. The storm appears eerily beautiful to you.</text>
+</textList>
+
+
+
+

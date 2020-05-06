@@ -1,0 +1,207 @@
+
+
+
+<event name="LAST_STAND_START">
+	<text>You arrive near a boarder post at the very edge of Federation main space. Vast deep space regions are located nearby. Federation control has been diminished here and various factions have already started to send in elite forces to lay new claims on the surrounding regions.</text>
+	<!--  <item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Continue to roam deep space.</text>
+		<event>
+			<text>You prepare to jump on to a nearby deep space sector.</text>
+			<secretSector/>
+		</event>
+	</choice> -->
+	<choice>
+		<text>Head towards the Federation base to complete your mission.</text>
+		<event>
+			<text>Your crew has gathered on the bridge, waiting for you to announce your final decision. There will be no turning back if you head towards the Federation base from here.</text>
+			 <!-- <choice hidden="true">
+				<text>"Space is vast, we will head into nearby deep space.</text>
+				<event>
+					<text>You decide that you will not risk your crews and your own life by heading into the center of this foolish war. This mission was insanity right from the start. Your first mate plots a course to a nearby deep space sector.</text>
+					<secretSector/>
+				</event>
+			</choice> -->
+			<choice>
+				<text>"We can not run away forever. Let's finish this!"</text>
+				<event>
+					<text>The Rebels know that the data you carry is the only thing that can stop their fleet. No matter what you do, they will hunt you wherever you go. You decided that you wont give up your mission when you have already gotten so far and plot a course towards into Federation main space.</text>
+					<choice>
+						<text>Continue...</text>
+						<event load="LAST_STAND_START_DEEP_SPACE_REAL"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+<event name="LAST_STAND_START_DEEP_SPACE_REAL">
+	<text>You arrive at an outpost close to the Federation Base. Your access codes get you past initial security and an officer sets up a direct feed to the Federation Base's war room. Admiral Tully speaks first saying, "What is the meaning of this?! Who are you?"</text>
+	<choice>
+		<text>Explain your mission.</text>
+		<event>
+			<text>Your explanation is met with murmurs of cynicism and disbelief among the officers. General Turzil of the Engi Brigade speaks up, "Intel suggests potential counter to Rebel technology. Risk all or save none."</text>
+			<choice hidden="true">
+				<text>Explain the weakness of the enemy fleet, the Rebel flagship.</text>
+				<event>
+					<text>Tully responds, "It's settled. The Rebels will be here in a matter of moments. We will do what we can to hold off their warships but you must succeed in destroying this flagship. Your current outpost can provide some repairs and fuel, and the other repair stations can provide aid as well. Good luck."</text>
+					<item_modify>
+						<item type="fuel" min="10" max="10"/>
+					</item_modify>
+					<damage amount="-10"/>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START"/>
+	</choice>
+	<choice req="AE_HOLOGRAM_GENERATOR" hidden="true"> 
+		<text>(AI Avatar Generator) Supplement your crew with a sentient hologram. [ Scrap: -15 ]</text>
+		<event load="CE_HOLOGRAM_BIRTH_LIST"/>
+	</choice>
+	<choice req="AE_AMMO_MANUFACTURER" hidden="true">
+		<text>(Ammo Manufacturer) Assemble some missiles for the final battle. [ Scrap: -20 ]</text>
+		<event load="CE_AMMO_PRODUCTION"/>
+	</choice>
+	<choice req="AE_DRONE_MANUFACTURER" hidden="true">
+		<text>(Drone Manufacturer) Assemble some drone parts for the last push. [ Scrap: -15 ]</text>
+		<event load="CE_DRONE_PRODUCTION"/>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some more hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Scan the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<fleet>fed</fleet>
+</event>
+
+
+<event name="START_BEACON_FED">
+	<text load="SE_START_BEACON_FED_TEXT"/>
+	<environment type="PDS" target="enemy"/>
+	<choice req="ARTILLERY_FED" hidden="true">
+		<text>(Federation Ship) Use your high level encryption codes to contact Federation command.</text>
+		<event load="QUEST_FED_BATTLE_START"/>
+	</choice>
+	<choice req="sensors" lvl="3" hidden="true"> 
+		<text>(Advanced Sensors) Scan the nearby beacons for Federation vessels and reestablish contact with Federation command.</text>
+		<event load="QUEST_FED_BATTLE_START"/>
+	</choice>  
+	<choice req="ADV_SCANNERS" hidden="true"> 
+		<text>(Long-Ranged Scanners) Scan for the closest Federation base and reestablish contact with Federation command.</text>
+		<event load="QUEST_FED_BATTLE_START"/>
+	</choice>  
+	<choice req="TE_GOODS_REBEL_CONTRABAND" hidden="true">
+		<text>(Contraband) Search your cargo for a working Federation transmitter and reestablish contact with Federation command.</text>
+		<event load="QUEST_FED_BATTLE_START"/>
+	</choice>
+	<choice hidden="true"> 
+		<text>Prepare the jump drive.</text>
+		<event>
+		<text>You have to get to the exit beacon and jump to the next sector before the pursuing Rebels catch you.</text>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_HOSTILE"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_HOSTILE"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_FED"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [3 Missiles]</text>
+		<event>
+			<text>Undisturbed as you are here, you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+		</event>
+	</choice>
+</event>

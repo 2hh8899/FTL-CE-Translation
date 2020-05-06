@@ -1,0 +1,99 @@
+
+<event name="START_BEACON_MANTIS">
+	<text load="START_BEACON_MANTIS_TEXT"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_HOSTILE"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_HOSTILE"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_MANTIS"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here, you can lay out some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="START_BEACON_MANTIS_TEXT">
+	<text>You've entered a poorly charted area of space that's known to be home to the Mantis.  Ensure your hull plating is up to scratch and that you have enough fuel in the tank to make it through.</text>
+	<text>You've arrived in a sector controlled by the Mantis. Their expansion to this sector has already cost many lives. You should be careful here.</text>
+	<text>You've entered a recently established Mantis hive cluster. Some civilian settlements remain, but most of the sentient individuals that lived here have been murdered or made their way out of the sector.</text>
+	<text>You've entered one of the many Mantis hive clusters. Traveling through these areas of space is no joke. You should be vigilant.</text>
+</textList>
+
+

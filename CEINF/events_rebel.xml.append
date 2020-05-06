@@ -1,0 +1,196 @@
+
+<event name="START_BEACON_REBEL">
+	<text load="START_BEACON_REBEL"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_HOSTILE"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_HOSTILE"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_REBEL"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text>The access kit allows you to hack the beacon and disable it completely. You are right under the Rebels' noses but they will never know that you came here. This should give you an advantage for now.</text>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>You quickly drop some mines as you circle around the beacon. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="START_BEACON_REBEL">
+	<text>This sector was bustling with activity just a few years ago.  Now, more than half of the jump beacons have been destroyed, many settlements have been abandoned and the Rebels patrol constantly.</text>
+	<text>This sector was hit hard by the Rebellion.   The many alien settlements and stations located here are now watched over by almost an equal number of Rebel bases, heavy-handedly 'keeping the peace'.</text>
+	<text>Once the Federation forces were scattered the Rebels came down hard on the locals here.  Between the 'tax collectors' and military bases, the Rebel presence in this sector is high.</text>
+	<text>At one point this was one of the most commonly traveled sectors.  Knowing that, the Rebels have stationed a number of fleets here.  Be careful.</text>
+	<text>You will have to be very cautious in this sector.  The Rebels have full control and are no doubt looking for you.</text>
+</textList>
+
+
+
+<event name="START_BEACON_AUTO">
+	<text load="START_BEACON_AUTO"/>
+	<environment type="PDS" target="enemy"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_HOSTILE"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_HOSTILE"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_AUTO"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text>The access kit allows you to hack the beacon and disable it completely. You are right under the Rebels' noses but they will never know that you came here. This should give you an advantage for now.</text>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>You quickly drop some mines as you circle around the beacon. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>

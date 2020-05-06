@@ -1,0 +1,2135 @@
+
+
+
+
+<!-- CE INFINITE -->
+
+<eventList name="STORE_DEEP_SPACE">
+	<event load="NEUTRAL_DEEP_SPACE"/>
+	<event load="STORE_DEEP_SPACE_ACTUAL"/>
+	<event load="STORE_DEEP_SPACE_ACTUAL"/>
+</eventList>
+
+<eventList name="STORE_DEEP_SPACE_ACTUAL">
+	<event load="STORE"/>
+	<event load="STORE_INDUSTRIAL"/>
+	<event load="STORE"/>
+	<event load="STORE_INDUSTRIAL"/>
+	<event load="STORE"/>
+	<event load="STORE_FED"/>
+	<event load="STORE_ENGI"/>
+	<event load="STORE_OUTLAW"/>
+	<event load="STORE_OUTLAW"/>
+	<event load="STORE_OUTLAW_TRAP"/>
+	<event load="STORE_OUTLAW_TRAP"/>
+	<event load="STORE_MANTIS"/>
+	<event load="STORE_ZOLTAN"/>
+	<event load="STORE_ROCK"/>
+	<event load="STORE_LANIUS"/>
+</eventList>
+
+<eventList name="HOSTILE_DEEP_SPACE">
+	<event load="PIRATE"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="PIRATE_SUN"/>
+
+	<event load="SQUAT_WARNING"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="AUTO_WARNING"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_HACKER"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_CIVILIAN"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="REBEL"/>
+	<event load="REBEL"/>
+	<event load="REBEL"/>
+	<event load="MANTIS_HOSTILE"/>
+	<event load="MANTIS_HOSTILE"/>
+
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_FED"/>
+	<event load="BS_EVENT_FED_AUTO"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+
+	<event load="PIRATE"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="REBEL"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="SQUAT_REFUEL_STATION"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="PIRATE_SUN"/>
+	<event load="AUTO_SUN"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+
+	<event load="PIRATE_AUGMENTED"/>
+	<event load="BS_EVENT_FED"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+
+	<event load="REBEL"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_WARNING"/>
+	<event load="PIRATE"/>
+	<event load="PIRATE_CHOICE"/>
+	
+
+	<event load="MILITIA"/>
+	<event load="MILITIA_AUGMENTED"/>
+	<event load="BS_EVENT_MILITIA"/>
+	<event load="GANG_MANTIS"/>
+	<event load="GANG"/>
+	<event load="CE_PDS_CIV"/>
+
+	<event load="PIRATE"/>
+	<event load="REBEL_AUTO"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<event load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="REBEL"/>
+	<event load="REBEL"/>
+
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_FED_BOSS"/>
+	<event load="BS_EVENT_FED"/>
+	<event load="BS_EVENT_FED_AUTO"/>
+	<event load="C_FED_CRUISER_WARNING"/>
+	<event load="C_EVENT_GUNBOAT_BOSS"/>
+	<event load="C_EVENT_GUNBOAT_BOSS_SUN"/>
+	<event load="C_FED_REBEL_CRUISER"/>
+	<event load="C_FED_REBEL_CRUISER_ASTEROID"/>
+	<event load="CE_PDS_FED"/>
+	<event load="CE_PDS_FED_2"/>
+	<event load="C_EVENT_GUNBOAT_BOSS_PDS_DELAYED"/>
+
+	<event load="ENGI_MANTIS_FIGHT"/>
+	<event load="ENGI_REBEL_FIGHT"/>
+	<event load="ENGI_PIRATE_FIGHT"/>
+	
+	<event load="PIRATE"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="REBEL"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="PIRATE_SUN"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+
+	<event load="BS_EVENT_ENGI_MEDICAL"/>
+	<event load="BS_EVENT_ENGI_DRONE"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+	<event load="CE_EVENT_ENGI_COLLECTOR"/>
+	<event load="CE_EVENT_ENGI_AI"/>
+
+	<event load="MANTIS_FIGHT"/>
+	<event load="MANTIS_FIGHT"/>
+	<event load="MANTIS_FIGHT_ESCAPE_ASB"/>
+	<event load="MANTIS_SUN_FIGHT"/>
+	<event load="DONOR_MANTIS_CHASE"/>
+	
+	<event load="REBEL"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_WARNING"/>
+
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+	<event load="CE_PDS_MANTIS"/>
+	<event load="CE_MINEFIELD_MANTIS"/>
+
+	<event load="REBEL"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_WARNING"/>
+	<event load="SQUAT_WARNING"/>
+
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+	<event load="BS_EVENT_REBEL"/>
+	<event load="BS_EVENT_REBEL"/>
+	<event load="C_EVENT_CRUISER_REBEL"/>
+	<event load="C_EVENT_REBEL_GUNBOAT"/>
+	<event load="C_EVENT_REBEL_GUNBOAT"/>
+	<event load="CE_PDS_REBEL"/>
+	<event load="CE_PDS_REBEL"/>
+	<event load="CE_REBEL_AUTO_CRUISER"/>
+
+	<event load="CE_REBEL_CONSTRUCTION_PATROL"/>
+	<event load="CE_REBEL_AUTO_CRUISER_CONSTRUCTION"/>
+	<event load="CE_REBEL_AUTO_CONSTRUCTION"/>
+	<event load="CE_REBEL_AUTO_CONSTRUCTION_SUN"/>
+	<event load="CE_REBEL_AUTO_CONSTRUCTION_ASTEROID"/>
+	<event load="CE_CONSTRUCTION_SPACE_FACTORY"/>
+	<event load="BS_EVENT_AUTO_CONSTRUCTION"/>
+	<event load="BS_EVENT_AUTO_CONSTRUCTION"/>
+	<event load="BS_EVENT_AUTO_CONSTRUCTION"/>
+
+	<event load="ROCK_SHIP"/>
+	<event load="ROCK_PIRATE"/>
+	<event load="ROCK_FIGHT_ASTEROID"/>
+	<event load="ROCK_PIRATE_ASTEROID"/>
+	<event load="ROCK_PIRATE_SUN"/>
+
+	<event load="CE_ROCK_PIRATE_ASTEROID_ESCAPE"/>	
+	<event load="BS_EVENT_ROCK_OUTPOST"/>
+	<event load="BS_EVENT_ROCK_OUTPOST_ASTEROID"/>
+	<event load="BS_EVENT_ROCK_OUTPOST_SUN"/>
+	<event load="CE_PDS_ROCK"/>
+	<event load="CE_PDS_ROCK"/>
+	<event load="CE_MINEFIELD_ROCK"/>
+	<event load="CE_ROCK_MILITARY"/>
+	<event load="CE_ROCK_BLACKHOLE_SHIP"/>
+	<event load="ROCK_CRYSTAL"/>
+
+	<event load="ZOLTAN_FIGHT"/>
+	<event load="ZOLTAN_FIGHT_ION"/>
+	<event load="ZOLTAN_PIRATE"/>
+	<event load="ZOLTAN_MANTIS"/>
+	<event load="ZOLTAN_ENGI"/>
+	<event load="ZOLTAN_ASTEROID"/>
+	<event load="REBEL"/>
+	<event load="REBEL_AUTO"/>
+
+	<event load="ZOLTAN_FIGHT_AUGMENTED"/>
+	<event load="BS_EVENT_ZOLTAN_AUGMENTED"/>
+	<event load="BS_EVENT_ZOLTAN"/>
+	<event load="BS_EVENT_ZOLTAN"/>
+	<event load="CE_PDS_ZOLTAN"/>
+	<event load="CE_EVENT_ZOLTAN_AI"/>
+
+	<event load="PIRATE"/>
+	<event load="PIRATE_AUGMENTED"/>
+	<event load="REBEL_AUTO"/>
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="PIRATE_SLAVER"/>
+
+	<event load="ROCK_FIGHT_ASTEROID"/>
+	<event load="ROCK_PIRATE_ASTEROID"/>
+
+	<event load="CRYSTAL_FIGHT_ASTEROID"/>
+	<event load="AUTO_HAZARD_ASTEROID"/>
+	<event load="AUTO_WARNING_HAZARD_ASTEROID"/>
+	<event load="REBEL_AUTO_HAZARD_ASTEROID_NEBULA"/>
+	<event load="PIRATE_ASTEROID_HAZARD"/>
+	<event load="PIRATE_ASTEROID_NEBULA_HAZARD"/>
+	<event load="BS_EVENT_PIRATE_SUICIDE_ASTEROID"/>
+	<event load="REBEL_AUTO_HAZARD_ASTEROID_NEBULA"/>
+
+	<event load="PIRATE_SUN"/>
+	<event load="ROCK_PIRATE_SUN"/>
+
+	<event load="BS_EVENT_ROCK_OUTPOST_SUN"/>
+	<event load="HAZARD_SUN_INTENSE"/>
+	<event load="HAZARD_BLACKHOLE_NOTHING"/>
+	<event load="HAZARD_BLACKHOLE_NOTHING"/>
+	<event load="HAZARD_BLACKHOLE_ZOLTAN"/>
+
+	<event load="SQUAT_WARNING"/>
+	<event load="AUTO_WARNING"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="INDUSTRIAL_CORPORATION"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_CIVILIAN"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="REBEL"/>
+	<event load="MANTIS_HOSTILE"/>
+
+	<event load="GANG"/>
+	<event load="PIRATE_AUGMENTED"/>
+	<event load="BS_EVENT_CORP"/>
+	<event load="BS_EVENT_CORP_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+
+	<event load="LANIUS_FIGHT"/>
+	<event load="LANIUS_REBEL_FIGHT"/>
+	<event load="LANIUS_PIRATE_FIGHT"/>
+	<event load="LANIUS_HARVESTER"/> <!-- From Chris-->
+	
+	<event load="REBEL"/>
+	<event load="REBEL_AUTO"/>
+
+	<event load="BS_EVENT_LANIUS"/>
+
+	<event load="LANIUS_FIGHT_ASTEROID"/>
+	<event load="LANIUS_FIGHT_PULSAR"/>
+	<event load="LANIUS_NOBOARDERS_PDS"/>
+
+	<event load="C_PIRATE_HOME_FIGHT_CRUISER"/>
+</eventList>
+
+
+<eventList name="NEUTRAL_DEEP_SPACE">
+	<event load="CE_SHOOTING_RANGE"/>
+
+	<event load="PIRATE_CHOICE"/>
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="MERCENARY"/>
+	<event load="DISTRESS_BEACON"/>
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="ASTEROID_EXPLORE"/>
+	
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="AUTO_DEFENSE_ITEM"/> 
+	<event load="DONOR_PONY"/>
+	<event load="DONOR_PLAGUE"/>
+
+	<event load="CE_PIRATE_CREW_BOUNTY"/>
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET"/>
+
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="PIRATE_STATION_CROPS"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="MERCENARY"/>
+	<event load="DISTRESS_BEACON"/>
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="AUTO_DEFENSE_MAP"/> 
+	<event load="AUTO_DEFENSE_ITEM"/>
+
+	<event load="CE_PIRATE_CREW_BOUNTY"/>
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET"/>
+
+	<event load="REBEL_TRANSPORT"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="MERCENARY"/>
+	<event load="ZOLTAN_CREW_STUDY"/>
+
+	<event load="CE_CIVILIAN_THEFT"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="CIVILIAN_TRADE_DEPOT"/>
+	<event load="GANG_SHAKEDOWN"/>
+	<event load="INFILTRATOR_HIDDEN_AUTO"/>
+	<event load="CE_BOARDERS_TRAITOR"/>
+
+	<event load="AUTO_CIVILIAN"/>
+	<event load="PIRATE_CHOICE"/>
+	
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="BOSS_SCOUT_RESCUE"/>
+	<event load="SQUAT_REFUEL_STATION"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="ALISON_DEFECTOR"/>
+	<event load="MERCENARY"/>
+
+	<event load="CE_FED_DESERTER"/>
+	<event load="C_FED_CRUISER_RESCUE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT_FED"/>
+
+	<event load="ENGI_STATION_DISTRESS"/>
+	<event load="MANTIS_FIGHT_CHOICE"/>
+	<event load="MANTIS_CIVILIAN"/>
+	
+	
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="AUTO_DEFENSE_ITEM"/> 
+	
+	<event load="ALISON_MANTIS_CREW"/> <!-- new alison written event -->
+	
+	<event load="ZOLTAN_CREW_STUDY"/>
+	
+	<event load="ASTEROID_DERELICT_SHIP"/> <!-- CRYSTAL UNLOCK-->
+
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="BS_EVENT_AUTO_DEFENSE_SUPPLY"/>
+	<event load="C_EVENT_ENGI_TRANSPORT"/>
+
+	<event load="MANTIS_FIGHT_CHOICE"/>
+	<event load="MANTIS_CIVILIAN"/>
+	<event load="MANTIS_CREW"/>	
+	<event load="REBEL_TRANSPORT"/>
+	<event load="BROKEN_REBEL_DRONE"/>	
+	<event load="ALISON_MANTIS_CREW"/>
+
+	<event load="CE_MANTIS_SPARRING"/>
+	<event load="CE_MANTIS_GAMBLE"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET_ASTEROID"/>
+
+	<event load="AUTO_CIVILIAN"/>
+	<event load="SQUAT_REFUEL_STATION"/>
+	<event load="AUTO_DEFENSE_MAP"/>
+	<event load="AUTO_DEFENSE_ITEM"/>
+	<event load="AUTO_DEFENSE_RADAR"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="ALISON_DEFECTOR"/>
+
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="BS_EVENT_AUTO_DEFENSE_SUPPLY"/>
+
+	<event load="ROCK_MANTIS_HUNTER"/>
+	<event load="ROCK_MANTIS_FREIGHTER"/>
+	<event load="ROCK_ATHIEST"/>
+	<event load="ROCK_LOOTING"/>
+	<event load="ROCK_STARSHIP_MINE"/>
+	
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="ASTEROID_DERELICT_SHIP"/> <!-- CRYSTAL UNLOCK-->
+
+	<event load="CE_ROCK_NURSERY"/>
+	<event load="CE_ROCK_ZOLTAN_HELP"/>
+
+	<event load="BS_EVENT_ROCK_TRADE"/>
+	<event load="BS_EVENT_ROCK_COLONY"/>
+	<event load="ROCK_CRYSTAL_DIPLOMAT"/>
+
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="AUTO_DEFENSE_ITEM"/> 
+	<event load="DONOR_PONY"/>
+	<event load="DONOR_PLAGUE"/>
+
+	<event load="CE_PIRATE_CREW_BOUNTY"/>
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET"/>
+	<event load="CE_CIVILIAN_THEFT"/>
+
+	<event load="ZOLTAN_LIFERAFT"/>
+	<event load="ZOLTAN_SCIENCE_DOCK"/>
+	<event load="ZOLTAN_CREW_SCAN"/>
+	<event load="ZOLTAN_CREW_SCAN_ION"/>
+
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="ASTEROID_EXPLORE"/>
+	
+	<event load="PIRATE_CIVILIAN_ZOLTAN_ION"/>
+	<event load="C_EVENT_ZOLTAN_TRANSPORT"/>
+	<event load="PIRATE_CHOICE"/>
+	
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="ROCK_LOOTING"/>
+	<event load="ASTEROID_DERELICT_SHIP"/> <!-- CRYSTAL UNLOCK, HELL YEAH!-->
+
+	<event load="GHOST_AI_SHIP"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET_ASTEROID"/>
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_SLAVER"/>
+	
+	<event load="AUTO_DEFENSE_ITEM"/> 
+
+	<event load="GANG_SHAKEDOWN"/>
+	<event load="CE_PIRATE_CREW_BOUNTY"/>
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET"/> 
+
+	<event load="EMPTY_STATION2"/> <!--DLC - newEvents-->
+	<event load="REFUGEE_NO_DISTRESS"/> <!--DLC - newEvents-->
+	<event load="WRECKAGE_EVENT"/> <!--DLC - newEvents-->
+	<event load="FUELING_STATION"/> <!--DLC - newEvents-->
+	<event load="PIRATE_SALESMAN"/>  <!--DLC matt - newEvents-->
+	<event load="TERRAFORMING_SCAN"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_CHECKPOINT"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_HELPERS"/>  <!--DLC matt - newEvents-->
+	<event load="ROGUE_REBEL"/><!--DLC matt - newEvents-->
+
+	<event load="EMPTY_STATION2"/> <!--DLC - newEvents-->
+	<event load="REFUGEE_NO_DISTRESS"/> <!--DLC - newEvents-->
+	<event load="WRECKAGE_EVENT"/> <!--DLC - newEvents-->
+	<event load="FUELING_STATION"/> <!--DLC - newEvents-->
+	<event load="PIRATE_SALESMAN"/>  <!--DLC matt - newEvents-->
+	<event load="TERRAFORMING_SCAN"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_CHECKPOINT"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_HELPERS"/>  <!--DLC matt - newEvents-->
+	<event load="ROGUE_REBEL"/><!--DLC matt - newEvents-->
+
+	<event load="LANIUS_CIVILIAN"/>
+	<event load="LANIUS_PIRATE_CIVILIAN"/>
+	<event load="LANIUS_SOLO_SALVAGE"/>
+	<event load="LANIUS_SCARED_CIVILIAN"/>
+	<event load="LANIUS_AUTO_REBEL"/>
+	<event load="LANIUS_GROUP_AUTO"/>
+	<event load="LANIUS_BEACON_EATER"/>
+
+	<event load="LANIUS_DORMANT_EVENT"/> <!--Chris-->
+	<event load="LANIUS_FUELING_STATION"/> <!--Chris-->
+
+	<event load="FRIENDLY_SLAVER"/>
+	<event load="PIRATE_BRIBER"/>
+	<event load="ASTEROID_EXPLORE"/>	
+	<event load="BROKEN_REBEL_DRONE"/>
+
+	<event load="CE_CIVILIAN_TRADER"/>
+	<event load="CE_CIVILIAN_TRADER"/>
+	<event load="CE_CIVILIAN_TRADER"/>
+	<event load="CE_CIVILIAN_TRADER"/>
+
+	<event load="CE_AUTO_TRANSPORT_CONSTRUCTION"/>
+	<event load="CE_REBEL_AUTO_CONSTRUCTION_OCCUPIED"/>
+	<event load="CE_CONSTRUCTION_SPACE_FACTORY_ITEMS"/>
+	<event load="CE_REBEL_AUTO_CRUISER_CONSTRUCTION_PLANET"/>
+	<event load="BS_EVENT_REBEL_AUTO_CONSTRUCTION_DEFENSE_SUPPLY"/>
+</eventList>
+
+
+<eventList name="BOARDERS_DEEP_SPACE">
+	<event load="BOARDERS"/>
+	<event load="STATION_SICK"/>
+	<event load="BOARDERS_SUN"/>
+	<event load="BOARDERS_HACKING"/>
+	<event load="FLOATING_CARGO"/>
+	<event load="BOARDERS"/>
+	<event load="BOARDERS_SUN"/>
+	<event load="BOARDERS_HACKING"/>
+
+	<event load="MANTIS_BOARDERS"/>
+	<event load="MANTIS_BOARDERS_NO_ESCAPE"/>
+	<event load="BOARDERS_SUN"/>
+
+	<event load="CE_MANTIS_MASS_BOARDING"/>
+	<event load="BOARDERS_SUN"/>
+	<event load="BOARDERS_REBEL_SHIP"/>
+
+
+	<event load="ROCK_BOARDERS_SHIP"/>
+	<event load="ROCK_BOARDERS_ASTEROID"/>
+	<event load="ROCK_BOARDERS_SUN"/>
+
+
+
+	<event load="ZOLTAN_BOARDERS"/>
+	<event load="ZOLTAN_BOARDERS_MANTIS"/>
+	<event load="BOARDERS_HACKING"/>
+
+
+	<event load="BOARDERS"/>
+	<event load="BOARDERS_SUN"/>
+	<event load="BOARDERS_HACKING"/>
+	<event load="FLOATING_CARGO"/>
+
+
+	<event load="BOARDERS"/>
+	<event load="BOARDERS_SUN"/>
+	<event load="BOARDERS_HACKING"/>
+	<event load="FLOATING_CARGO"/>
+
+	<event load="LANIUS_PIRATE_BOARDERS"/>
+
+	<event load="CE_REBEL_AUTO_AI_BOARDERS"/>
+	<event load="BS_EVENT_AUTO_AI_BOARDERS"/>
+</eventList>
+
+
+<eventList name="DISTRESS_BEACON_DEEP_SPACE">
+	<event load="STRANDED_BEACON"/>
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/> 
+	<event load="ESCORT_BEACON"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+	<event load="DISTRESS_STATION_DISEASE"/>
+
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="STRANDED_BEACON"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/>  
+	<event load="REBEL_VS_FEDERATION"/> 
+	<event load="ESCORT_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="DISTRESS_INFESTATION"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+	<event load="DISTRESS_STATION_DISEASE"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_DEFENSE"/>
+	<event load="CE_DISTRESS_MELTDOWN"/>
+	<event load="CE_DISTRESS_OXYGEN"/>
+	<event load="CE_DISTRESS_DRONES"/>
+	<event load="BS_EVENT_FED_AUTO_DORMANT"/>
+
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="STRANDED_BEACON"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="ESCORT_BEACON"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+
+	<event load="CIVILIAN_DISTRESS_RIOT"/>
+	<event load="CIVILIAN_DISTRESS_RIOT"/>
+
+	<event load="REBEL_VS_FEDERATION"/> 
+	<event load="REBEL_VS_FEDERATION"/>  
+	<event load="ESCORT_BEACON"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+
+	<event load="CE_DISTRESS_AIRSUPPORT"/>
+	<event load="CE_DISTRESS_AIRSUPPORT"/>
+	<event load="BS_EVENT_FED_AUTO_DORMANT"/>
+
+	<event load="ENGI_STATION_DISTRESS"/>
+	<event load="DISTRESS_ENGI_REBEL"/>
+	<event load="DISTRESS_ENGI_REACTOR"/>
+	
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/>  
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="DISTRESS_INFESTATION"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_DEFENSE"/>
+	<event load="CE_DISTRESS_MELTDOWN"/>
+	<event load="CE_DISTRESS_OXYGEN"/>
+	<event load="CE_DISTRESS_ENGI_REFUGEES"/>
+	<event load="BS_DISTRESS_ENGI_MEDICAL_MANTIS_CONTROLLED"/>
+
+	<event load="ESCORT_BEACON"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="DISTRESS_INFESTATION"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+	<event load="DISTRESS_STATION_DISEASE"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_DEFENSE"/>
+	<event load="CE_DISTRESS_MELTDOWN"/>
+	<event load="CE_DISTRESS_DRONES"/>
+	<event load="CE_MANTIS_CAPTURE_COMMANDO"/>
+
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/>  
+	<event load="REBEL_VS_FEDERATION"/> 
+	<event load="ESCORT_BEACON"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_DEFENSE"/>
+	<event load="CE_DISTRESS_MELTDOWN"/>
+	<event load="CE_DISTRESS_OXYGEN"/>
+	<event load="CE_DISTRESS_DRONES"/>
+
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="STRANDED_BEACON"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/>  
+	<event load="REBEL_VS_FEDERATION"/> 
+	<event load="ESCORT_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="DISTRESS_INFESTATION"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+	<event load="DISTRESS_STATION_DISEASE"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_DEFENSE"/>
+	<event load="CE_DISTRESS_MELTDOWN"/>
+	<event load="CE_DISTRESS_OXYGEN"/>
+	<event load="CE_DISTRESS_DRONES"/>
+
+	<event load="SLUG_DISTRESS_ROCK"/>
+	<event load="SLUG_DISTRESS_QUESTION"/>
+	<event load="SLUG_DISTRESS_MANTIS"/>
+	<event load="SLUG_DISTRESS_TRICK"/>
+	<event load="SLUG_DISTRESS_RESCUE"/>
+	<event load="PIRATE_CIVILIAN_BEACON"/>
+	<event load="TRAP_BEACON"/>
+
+	<event load="CE_DISTRESS_OXYGEN"/>
+
+	<event load="ZOLTAN_DISTRESS_MANTIS"/>
+	<event load="ZOLTAN_DISTRESS_SHELL"/>
+		
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+	<event load="DISTRESS_STATION_FIRE"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="STRANDED_BEACON"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_MELTDOWN"/>
+	<event load="CE_DISTRESS_OXYGEN"/>
+	<event load="CE_DISTRESS_ENGI_REFUGEES"/>
+
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/> 
+	<event load="ESCORT_BEACON"/>
+	<event load="FRIENDLY_BEACON"/>
+	<event load="TRAP_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+
+	<event load="CIVILIAN_ASTEROIDS_BEACON"/> 
+	<event load="TRAP_BEACON"/>
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="STRANDED_BEACON"/>
+	<event load="REBEL_VS_FEDERATION"/> 
+	<event load="DISTRESS_TRAPPED_MINER"/>
+	<event load="DISTRESS_SATELLITE_DEFENSE"/>
+
+	<event load="CE_DISTRESS_SUN"/>
+	<event load="CE_DISTRESS_OXYGEN"/>
+	<event load="CE_DISTRESS_DRONES"/>
+
+	<event load="CE_DISTRESS_PLANET_MINER"/>
+</eventList>
+
+<eventList name="NEBULA_DEEP_SPACE">
+	<event load="NEBULA_SLUG_HOSTAGE"/>
+
+	<event load="NEBULA_STORE"/>
+	<event load="NEBULA_STORE_SLUG"/>
+
+	<event load="NEBULA_EMPTY"/>
+	<event load="NEBULA_REBEL"/> 
+	<event load="NEBULA_PIRATE_SMUGGLE"/>
+	<event load="NEBULA_TRADER"/>
+	<event load="NEBULA_LOST_SHIP"/> 
+	<event load="NEBULA_BOARDING"/>
+	<event load="NEBULA_REBEL_UNDETECTED"/> 
+	<event load="NEBULA_LOST_SHIP"/> 
+	<event load="NEBULA_REBEL_BOARDING"/>
+	<event load="STORM_ITEMS"/>
+	<event load="STORM_ITEMS"/>
+
+	<event load="NEBULA_EMPTY"/>
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_REBEL"/> 
+	<event load="NEBULA_REBEL"/> 
+	<event load="NEBULA_AUTO"/>
+	<event load="NEBULA_AUTO_WARNING"/>
+	<event load="NEBULA_PIRATE_SMUGGLE"/>
+	<event load="NEBULA_AUTO_DEFENSE_ITEM"/>
+	<event load="NEBULA_TRADER"/>
+	<event load="STORM_REBEL"/>
+	<event load="STORM_AUTO"/>
+	<event load="STORM_ITEMS"/>
+	<event load="NEBULA_LOST_SHIP"/>  
+	<event load="NEBULA_BOARDING"/>
+	<event load="NEBULA_MANTIS_FIGHT"/> 
+	<event load="NEBULA_WEAPONS_TRADER"/>
+
+	<event load="NEBULA_AUTO_AUGMENTED"/>
+	<event load="NEBULA_AUTO_STORM_DELAY"/>
+	<event load="BS_EVENT_AUTO_NEBULA"/>
+	<event load="BS_EVENT_AUTO_NEBULA_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO_SUICIDE_NEBULA"/>
+	<event load="BS_EVENT_PIRATE_NEBULA"/>
+
+	<event load="NEBULA_ENGI_PIRATE"/>
+	<event load="NEBULA_ENGI_NOTHING"/>
+	<event load="NEBULA_ENGI_AUTO"/>
+	<event load="NEBULA_ENGI_AUTO_SUICIDE"/>
+
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_AUTO"/>
+	<event load="NEBULA_AUTO_WARNING"/>
+	<event load="NEBULA_PIRATE"/>
+	<event load="NEBULA_PIRATE"/>
+	<event load="NEBULA_MANTIS_FIGHT"/>
+	<event load="STORM_AUTO"/>
+	<event load="STORM_REBEL"/>
+	<event load="NEBULA_BOARDING"/>
+
+	<event load="NEBULA_AUTO_AUGMENTED"/>
+	<event load="NEBULA_AUTO_STORM_DELAY"/>
+	<event load="BS_EVENT_AUTO_NEBULA"/>
+	<event load="BS_EVENT_AUTO_SUICIDE_NEBULA"/>
+	<event load="BS_EVENT_PIRATE_NEBULA"/>
+	<event load="BS_EVENT_PIRATE_STORM"/>
+	<event load="CE_CORPORATION_NEBULA"/>
+
+	<event load="NEBULA_REBEL_UNDETECTED"/>
+	<event load="NEBULA_PIRATE_SMUGGLE"/>
+	<event load="NEBULA_AUTO_DEFENSE_ITEM"/>
+	<event load="NEBULA_LOST_SHIP"/>
+	<event load="NEBULA_WEAPONS_TRADER"/>
+	<event load="NEBULA_ROCK_RACIST"/>
+	<event load="NEBULA_MANTIS_CHOICE"/>
+	<event load="NEBULA_REBEL_CHASE"/>
+
+	<event load="BS_EVENT_PIRATE_BLACKMARKET_NEBULA"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET_NEBULA"/>
+
+	<event load="NEBULA_EMPTY"/>
+	<event load="NEBULA_REBEL"/> 
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_REBEL"/>
+	<event load="NEBULA_AUTO"/>
+	<event load="NEBULA_AUTO_WARNING"/>
+	<event load="NEBULA_AUTO_DEFENSE_ITEM"/>
+	<event load="NEBULA_TRADER"/>
+	<event load="STORM_REBEL"/>
+	<event load="STORM_AUTO"/>
+	<event load="STORM_ITEMS"/>
+	<event load="NEBULA_REBEL_UNDETECTED"/>  
+	<event load="NEBULA_LOST_SHIP"/>  
+	<event load="NEBULA_REBEL_BOARDING"/>
+	<event load="NEBULA_AUTO_CRUISER"/>
+	<event load="NEBULA_AUTO_CRUISER"/>
+	<event load="NEBULA_AUTO_CRUISER"/>
+	<event load="CE_NEBULA_AUTO_AI_BOARDERS"/>
+	<event load="CE_NEBULA_AUTO_AI_BOARDERS"/>
+
+	<event load="NEBULA_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO_NEBULA"/>
+	<event load="BS_EVENT_AUTO_NEBULA_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO_SUICIDE_NEBULA"/>
+	<event load="BS_EVENT_AUTO_SUICIDE_NEBULA_AUGMENTED"/>
+
+	<event load="NEBULA_SLUG_CHOOSE_DEATH"/>
+	<event load="NEBULA_SLUG_HULLFIX"/>
+	<event load="NEBULA_SLUG_FAKE_STORE"/>
+	<event load="SLUG_DRINK"/>
+	<event load="QUEST_SLUG_PIRATE_TRAP"/>
+
+	<event load="NEBULA_REBEL_UNDETECTED"/>
+	<event load="NEBULA_AUTO_DEFENSE_ITEM"/>
+	<event load="NEBULA_LOST_SHIP"/>
+	<event load="NEBULA_WEAPONS_TRADER"/>
+	<event load="NEBULA_REBEL_CHASE"/>
+
+	<event load="BS_EVENT_SLUG_BLACKMARKET_NEBULA"/>
+	<event load="BS_EVENT_SLUG_BLACKMARKET_NEBULA"/>
+	<event load="BS_EVENT_SLUG_BLACKMARKET_NEBULA"/>
+	<event load="BS_EVENT_SLUG_HACK_NEBULA"/>
+	<event load="BS_EVENT_SLUG_HACK_NEBULA"/>
+	<event load="BS_EVENT_SLUG_HACK_NEBULA"/>
+
+	<event load="NEBULA_SLUG_FIGHT_UNLOCK"/>
+	<event load="NEBULA_SLUG_FIGHT_UNLOCK"/>
+	<event load="NEBULA_SLUG_FIGHT"/>
+	<event load="NEBULA_SLUG_MANTIS"/>
+	<event load="NEBULA_SLUG_PIRATE"/>
+	<event load="NEBULA_SLUG_DOORS"/>
+	<event load="NEBULA_SLUG_OXYGEN"/>
+	<event load="NEBULA_SLUG_MEDBAY"/>
+
+	<event load="BS_EVENT_SLUG_HACK_NEBULA"/>
+	<event load="BS_EVENT_SLUG_HACK_NEBULA"/>
+
+	<event load="NEBULA_ZOLTAN_ROCK"/>
+	<event load="NEBULA_ZOLTAN_EYE"/>
+	<event load="STORM_ZOLTAN_SUPPLY_CHOICE"/>	
+	<event load="NEBULA_EMPTY"/>
+	<event load="NEBULA_EMPTY"/>
+	<event load="NEBULA_REBEL"/> 
+	<event load="NEBULA_REBEL"/>  
+	<event load="NEBULA_AUTO"/>
+
+	<event load="BS_EVENT_AUTO_NEBULA"/>
+	<event load="BS_EVENT_AUTO_SUICIDE_NEBULA"/>
+
+	<event load="NEBULA_EMPTY"/>
+	<event load="NEBULA_LOST_SHIP"/> 
+	<event load="NEBULA_REBEL_UNDETECTED"/> 
+	<event load="NEBULA_LOST_SHIP"/> 
+	<event load="STORM_EMPTY"/>
+	<event load="STORM_AUTO"/>
+	<event load="STORM_REBEL"/>
+	<event load="STORM_ITEMS"/>
+	<event load="STORM_BOARDING"/>
+	<event load="STORM_ITEMS"/>
+
+	<event load="NEBULA_HAZARD_EXCESSION"/>
+	<event load="NEBULA_AUTO_HAZARD_STORM_DELAY"/>
+	<event load="BS_EVENT_PIRATE_NEBULA"/>
+	<event load="BS_EVENT_PIRATE_STORM"/>
+	<event load="CE_CORPORATION_NEBULA"/>
+</eventList>
+
+<eventList name="QUESTS_DEEP_SPACE">
+	<event load="MERCHANT_REQUEST"/>
+	<event load="MERCENARY_WORK_START"/>
+	<event load="QUEST_ESCORT"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+	<event load="CE_DINER"/>
+	<event load="SE_QUEST_PASSANGERS_START"/>
+	<event load="QUEST_MANTIS_INVASION_START"/>
+	<event load="QUEST_FED_BATTLE_1"/>
+	<event load="CE_QUEST_CURATOR_START"/>
+	<event load="BS_QUEST_REBEL_START"/>
+	<event load="ZOLTAN_TRADE_HUB"/>
+	<event load="ZOLTAN_QUEST_PRIMITIVES"/>	
+	<event load="QUEST_CREWDEAD_START"/>
+	<event load="QUEST_CONSTRUCTIONYARD"/> <!--newEvents-->
+
+	<event load="MERCHANT_REQUEST"/>
+	<event load="MERCENARY_WORK_START"/>
+	<event load="QUEST_ESCORT"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+	<event load="CE_DINER"/>
+	<event load="SE_QUEST_PASSANGERS_START"/>
+	<event load="QUEST_MANTIS_INVASION_START"/>
+	<event load="QUEST_FED_BATTLE_1"/>
+	<event load="CE_QUEST_CURATOR_START"/>
+	<event load="BS_QUEST_REBEL_START"/>
+	<event load="ZOLTAN_TRADE_HUB"/>
+	<event load="ZOLTAN_QUEST_PRIMITIVES"/>	
+	<event load="QUEST_CREWDEAD_START"/>
+	<event load="QUEST_CONSTRUCTIONYARD"/> <!--newEvents-->
+
+	<event load="ENGI_UNLOCK_1"/>
+	<event load="MANTIS_NAMED_THIEF"/>
+	<event load="ZOLTAN_PEACE_QUEST"/>
+	<event load="ROCK_UNLOCK1"/>
+	<event load="FLAGSHIP_CONSTRUCTION"/>
+
+	<event load="CE_QUEST_AUTO_SURVEYOR_HUNT_START"/>
+
+	<event load="C_QUEST_PIRATE_HOME_RIVALRY"/>
+</eventList>
+
+<eventList name="ITEMS_DEEP_SPACE">
+	<event load="FIND_DRONE"/>
+	<event load="FIND_WEAPON"/>
+	<event load="FREE_ITEMS"/>
+	<event load="FUEL_FOR_DRONE"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="TRADER_CIV"/>
+
+	<event load="CE_STRAY_FLEET"/>
+
+	<event load="FIND_DRONE"/>
+	<event load="FIND_WEAPON"/>
+	<event load="FREE_ITEMS"/>
+	<event load="FUEL_FOR_DRONE_STATION"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="TRADER_CIV"/>
+
+	<event load="CIVILIAN_RELAX"/>
+	<event load="CIVILIAN_RELAX"/>
+	<event load="CIVILIAN_RELAX"/>
+	<event load="CE_STRAY_FLEET"/>
+
+
+	<event load="FIND_DRONE_FED"/>
+	<event load="FIND_WEAPON_FED"/>
+	<event load="FREE_ITEMS_FED"/>
+	<event load="FREE_ITEMS_FED"/>
+	<event load="FUEL_FOR_DRONE_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+
+	<event load="CE_STRAY_FLEET"/>
+
+	<event load="ENGI_GIFT"/>
+	<event load="ENGI_FLEET_DELAY"/>
+<!--	<event load="ENGI_MONSTER"/> -->
+	<event load="ENGI_SURRENDER"/>
+	
+	<event load="FIND_DRONE"/>
+	<event load="FIND_WEAPON"/>
+	<event load="REFUEL_STATION"/>
+
+	<event load="BA_ENGI_SCRAPYARD"/>
+
+	<event load="FIND_DRONE"/>
+	<event load="FIND_WEAPON"/>
+	<event load="FREE_ITEMS"/>
+	<event load="FUEL_FOR_DRONE"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="TRADER_CIV"/>
+
+	<event load="CE_ROCK_BLACKHOLE_FREE_STUFF"/>
+	<event load="CE_ROCK_BLACKHOLE_FREE_STUFF"/>
+	<event load="CE_ROCK_BLACKHOLE_FREE_STUFF"/>
+
+	<event load="FUEL_FOR_DRONE_AUTO"/>
+	<event load="FIND_DRONE_HAZARD"/>
+	<event load="FIND_WEAPON_HAZARD"/>
+	<event load="FREE_ITEMS_HAZARD"/>
+	<event load="FREE_ITEMS_HAZARD"/>
+
+	<event load="STORE_REBELSIDE"/> <!-- dlcEvents-->
+	<event load="TRADER_UPGRADES"/> <!-- dlcEvents-->
+	<event load="TRADER_UPGRADES_EXCHANGE"/><!-- dlcEvents-->
+	<event load="HELP_MINERS"/><!-- dlcEvents-->
+
+
+	<event load="LANIUS_FREE_STUFF"/>
+	<event load="LANIUS_TRADER_TRANSLATOR"/>
+	<event load="LANIUS_TRADER"/>
+	<event load="LANIUS_RESEARCHER_CRAFT"/>
+	<event load="LANIUS_RESEARCHER_CONTACT"/>
+
+	<event load="CE_FREE_STUFF_AUTO"/>
+</eventList>
+
+
+
+<event name="START_BEACON_DEEP_SPACE">
+	<text load="START_BEACON_DEEP_SPACE_TEXT"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event load="START_BEACON_DEEP_SPACE_LIST"/>
+	</choice>
+</event>
+<textList name="START_BEACON_DEEP_SPACE_TEXT">
+	<text>You head into another deep space sector. The factions have competed for control of this region since a long time. You wonder what aliens you might meet here.</text>
+	<text>You head towards one of many contested colony sector. Since many standard years, small skirmishes have been reported in this region. You wonder who is currently in charge here.</text>
+	<text>You arrived in another poorly charted deeps space region. Reports are sketchy on who is actually in control here. The Rebel fleet is still far away, but you are sure that they will occupy this over eventually.</text>
+	<text>Another deep space sector lies ahead of you.</text>
+	<text>The Federation has long lost control over this sector. You have no Intel on what might lie ahead of you.</text>
+	<text>You traveled to the fringes of settled space. This region is a disputed melting pot, none of the factions is really in control here. You wonder how Rebel occupation will change this sector.</text>
+	<text>You jumped to a highly disputed region of space. The various factions all have some interests here, hostile engagements are likely.</text>
+	<text>You decided to further roam the depths of space. The Federation coreworld are still far away.</text>
+	<text>This region was the subject of various territorial disputes. A lot of occupant and peace keeping forces are around and no one really knows anymore who actually rules the sector.</text>
+	<text>You traveled to a far out sector that has been deeply disrupted by years of territorial disputes between the factions. The Rebellion did not contribute to make this sector more calm, you should be on your guard.</text>
+	<text>You are heading into another deep space region. Various factions have send expedition forces into this sector, you might encounter various aliens here.</text>
+	<text>The last thing you heard about this sector was that several factions laid claim on it. The crew doubts that the dispute has been settled yet.</text>
+	<text>Forward units of the Rebel fleet battle try to gain control of this deep space sector. Oposition from various locals is fierce though.</text>
+	<text>This sector was never really under control of any government. Because of the current crisis, the security situation has deteriorated. Invasion fleets of various origines have been sighted in the region.</text>
+	<text>The Federation has retreated entirely from this deep space region. The resulting power vacuum induced wide spread chaos. But an open minded freelancer like you might find many promising opportunities here.</text>
+	<text>This is a contested deep space sector. This region was never really under anyones control. You wonder if this is good or bad.</text>
+	<text>Another contested deep space sector lies in front of you. Onwards to new adventures!</text>
+	<text>According to the Intel, this sector's government broke away from the Federation, but then decided to not join the Rebellion. Several factions tried to exploit the situation and sent invasion fleets, other parties reacted by dispatching peace keeper forces.</text>
+</textList>
+
+
+<eventList name="START_BEACON_DEEP_SPACE_LIST">
+	<event>
+		<text>You prepare the ship for the FTL jump. There appear to be no other ships in the system.</text>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_HOSTILE"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
+		<text>(Production Augment) Produce something on-board.</text>
+		<event load="CE_PRODUCTION"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_GLOBAL"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_CIVILIAN"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text>The access kit codes work well on the beacon and allow you to remotely delete your arrival log. The Rebels will have no idea where you entered Engi space.</text>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here, you can lay out some mines around the beacon while the FTL charges. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+	</event>
+	<event>
+		<text>You prepare the ship for the FTL jump.</text>
+		<choice hidden="true"> 
+			<text>Continue...</text>
+			<event load="START_BEACON_DEEP_SPACE_FIGHT"/>
+		</choice>
+	</event>
+	<event>
+		<text>You prepare the ship for the FTL jump.</text>
+		<choice hidden="true"> 
+			<text>Continue...</text>
+			<event load="START_BEACON_DEEP_SPACE_FIGHT"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="START_BEACON_DEEP_SPACE_FIGHT">
+	<event load="CE_PDS_FED_2"/>
+	<event load="C_FED_REBEL_CRUISER"/>
+	<event load="C_EVENT_GUNBOAT_BOSS"/>
+	<event load="BS_EVENT_ENGI_DRONE"/>
+	<event load="CE_EVENT_ENGI_COLLECTOR"/>
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="MANTIS_BOARDERS"/>
+	<event load="BS_EVENT_PIRATE_SUICIDE"/>
+	<event load="BS_EVENT_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_REBEL"/>
+	<event load="BOARDERS_REBEL_SHIP"/>
+	<event load="BS_EVENT_ROCK_OUTPOST"/>
+	<event load="CE_ROCK_MILITARY"/>
+	<event load="ZOLTAN_FIGHT_AUGMENTED"/>
+	<event load="BS_EVENT_ZOLTAN_AUGMENTED"/>
+	<event load="CE_EVENT_ZOLTAN_AI"/>
+	<event load="CE_REBEL_AUTO_CRUISER"/>
+	<event load="C_FED_REBEL_CRUISER_ASTEROID"/>
+	<event load="CE_PDS_FED_2"/>
+	<event>
+	<text>You are at the wrong place at the wrong time: While you wait for the FTL the charge, a complete Mantis invasion fleet happens to enter the sector, undoubtedly heading into this region to colonize it. Their small escort scans you.</text>
+	<choice hidden="true">
+		<text>Attack the convoy.</text>
+		<event>
+			<text>The Mantis quickly dispatch a guard ship against you and teleporters warm up all over the convoy as you prepare for combat.</text>
+			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
+				<text>(Teleporter Disruptor) Keep them away with the disruption field.</text>
+				<event>
+					<text>You disruptor augment is preventing the Mantis from boarding you, but one of the few armed escort craft intercepts your ship before you can open fire on the invasion ships.</text>
+					<ship load="CE_MANTIS_CONVOY_ESCORT" hostile="true"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field.</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
+			<event>
+								<text load="CE_PRE_FIGHT_ION_TEXT"/>
+				<status type="loss" target="enemy" system="shields" amount="2"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+				<choice req="AE_AUG_GENERATOR" hidden="true"> 
+					<text>(Internal Generator) Power up another combat augment.</text>
+					<event load="CE_PRE_FIGHT_NO_SHIELD_JAMMER"/>
+				</choice>
+			</event>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that!</text>
+			<event>
+				<text load="CE_PRE_FIGHT_BIOWEAPON_TEXT"/>
+				<status type="loss" target="enemy" system="oxygen" amount="2"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+				<choice req="AE_AUG_GENERATOR" hidden="true"> 
+					<text>(Internal Generator) Power up another combat augment.</text>
+					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>		
+			</event>
+		</choice>
+			<choice>
+				<text>Continue...</text>
+				<event>
+					<text>The armed escort craft intercepts your cruiser before you can open fire on the convoy. Additional Mantis beam aboard from the troop transporters.</text>
+					<boarders min="1" max="2" class="mantis"/>
+					<ship load="CE_MANTIS_CONVOY_ESCORT" hostile="true"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field.</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
+			<event>
+								<text load="CE_PRE_FIGHT_ION_TEXT"/>
+				<status type="loss" target="enemy" system="shields" amount="2"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+				<choice req="AE_AUG_GENERATOR" hidden="true"> 
+					<text>(Internal Generator) Power up another combat augment.</text>
+					<event load="CE_PRE_FIGHT_NO_SHIELD_JAMMER"/>
+				</choice>
+			</event>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that!</text>
+			<event>
+				<text load="CE_PRE_FIGHT_BIOWEAPON_TEXT"/>
+				<status type="loss" target="enemy" system="oxygen" amount="2"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+				<choice req="AE_AUG_GENERATOR" hidden="true"> 
+					<text>(Internal Generator) Power up another combat augment.</text>
+					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>	
+				</event>
+			</choice>
+	<choice hidden="true">
+		<text>Keep your distance.</text>
+		<event>
+			<text>Just as you the insectoids seem unwilling to risk a direct engagement, but a few worriers seem unwilling to leave it at that, one troopship gets ready to teleport.</text>
+			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
+				<text>(Teleporter Disruptor) Keep them away with the disruption field.</text>
+				<event>
+					<text>The troop transport immediately gets back into formation when the crew registers your augment activating. Soon the whole convoy jumps away in unison. You have to assume that another Federation or Engi colony will have a very bad day soon...</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Continue...</text>
+				<event>
+					<text>"Mantis aboard the ship Captain. Security alert!"</text>
+					<boarders min="2" max="4" class="mantis"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+		</event>
+	</choice>
+	</event>
+	<event>
+	<text load="START_BEACON_OUTLAW_SHAKEDOWN_TEXT"/>
+	<ship load="PIRATE" hostile="false"/>
+	<choice>
+		<text>Pay their toll.</text>
+		<event>
+			<text>"You made the right decision friend."</text>
+			<item_modify>
+				<item type="scrap" min="-25" max="-15"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text>Reject their 'offer'.</text>
+		<event>
+			<text>"Too bad... You will regret this decision!"</text>
+			<ship hostile="true"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare for offensive cyberattack. Effectorize the hostile!</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field.</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields.</text>
+			<event>
+								<text load="CE_PRE_FIGHT_ION_TEXT"/>
+				<status type="loss" target="enemy" system="shields" amount="2"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+				<choice req="AE_AUG_GENERATOR" hidden="true"> 
+					<text>(Internal Generator) Power up another combat augment.</text>
+					<event load="CE_PRE_FIGHT_NO_SHIELD_JAMMER"/>
+				</choice>
+			</event>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that!</text>
+			<event>
+				<text load="CE_PRE_FIGHT_BIOWEAPON_TEXT"/>
+				<status type="loss" target="enemy" system="oxygen" amount="2"/>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event/>
+				</choice>
+				<choice req="AE_AUG_GENERATOR" hidden="true"> 
+					<text>(Internal Generator) Power up another combat augment.</text>
+					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+	</event>
+	<event>
+	<text>An advanced cealaformer station has started to colonize the sector for the Slug. The gases it disperses soon engulf your ship and you sensors go dark. The screen still shows an incoming hail. What do the Slugs want? "You are trespassing Captain, this sector is now under control of the Holy Slug Empire." The Slug chuckles. "You will have to pay a fine if you want to continue on."</text>
+	<environment type="nebula"/>
+	<ship load="BS_JELLY_STATUS" hostile="false"/>
+	<choice hidden="true">
+		<text>Attack!</text>
+		<event load="BS_EVENT_SLUG_HACK_NEBULA_RESULTS"/>
+	</choice>
+	<choice hidden="true">
+		<text>Pay 35 scrap.</text>
+		<event>
+			<text>"Hm... well thisss might jussst ssufice." They take the scrap and you hurry to leave.</text>
+			<item_modify>
+				<item type="scrap" min="-35" max="-35"/>
+			</item_modify>
+		</event>
+	</choice>
+	</event>
+</eventList>
+
+<eventList name="CE_BOUNTY_LIST_GLOBAL">
+	<event> <!-- Pirate Raider -->
+		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Medium.</text>
+		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
+	</event>
+	<event> <!-- Rebel Commissar -->
+		<text>The wealth of a small but prosperous colony government has become well known to the Rebel fleet. A requisition craft pays them regular visits. The local magistrate wants that ship to disappear. Target: Rebel Requisition Officers. Payment: High.</text>
+		<quest event="CE_BOUNTY_REBEL_REQUISITION"/>
+	</event>
+	<event> <!-- Rebel Guard Asset -->
+		<text>Students on small planetary settlement are unhappy about being watched by a Rebel surveillance satellite. While some of them have taken up military training, others want to hire outside help, so that no one (other than maybe you) gets hurt. Target: Auto Satellite. Payment: Low.</text>
+		<quest event="CE_BOUNTY_AUTO_SURVEYOR"/>
+	</event>
+	<event> <!-- Auto Ship -->
+		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guards their system. Target: Automated Craft. Payment: Low.</text>
+		<quest event="CE_BOUNTY_AUTO"/>
+	</event>
+	<event> <!-- Mantis Slaver -->
+		<text>A small settlement has been raided by a Mantis slaver. The colonists want you to hunt the hunters, and agree to pay a small sum for it. Target: Mantis Slaver. Payment: Medium.</text>
+		<quest event="CE_BOUNTY_MANTIS_SLAVER"/>
+	</event>
+	<event> <!-- Mantis Raider -->
+		<text>The Mantis are raiding colonies in this sector and the locals lack the military power to defend themselves. You could become their exterminator. Target: Mantis Invaders. Payment: High.</text>
+		<quest event="CE_BOUNTY_MANTIS_RAIDERS"/>
+	</event>
+	<event> <!-- Fed Deserters -->
+		<text>Some of your fellow Federation officers have deserted the cause. Their commanding officer has personally put out a bounty on the former Federation crew. Target: Federation Traitors. Payment: High.</text>
+		<quest event="CE_BOUNTY_FED"/>
+	</event>
+	<event> <!-- Pirate Raider -->
+		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Medium.</text>
+		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
+	</event>
+	<event> <!-- Rebel Commissar -->
+		<text>The wealth of a small but prosperous colony government has become well known to the Rebel fleet. A requisition craft pays them regular visits. The local magistrate wants that ship to disappear. Target: Rebel Requisition Officers. Payment: High.</text>
+		<quest event="CE_BOUNTY_REBEL_REQUISITION"/>
+	</event>
+	<event> <!-- Rebel Guard Asset -->
+		<text>Students on small planetary settlement are unhappy about being watched by a Rebel surveillance satellite. While some of them have taken up military training, others want to hire outside help, so that no one (other than maybe you) gets hurt. Target: Auto Satellite. Payment: Low.</text>
+		<quest event="CE_BOUNTY_AUTO_SURVEYOR"/>
+	</event>
+	<event> <!-- Auto Ship -->
+		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guards their system. Target: Automated Craft. Payment: Low.</text>
+		<quest event="CE_BOUNTY_AUTO"/>
+	</event>
+	<event> <!-- Gang Ship -->
+		<text>Organized crime is on an all-time high in the sector. The militia have put a price on the head of one of the ring-leaders. Target: Gang Leader. Payment: High.</text>
+		<quest event="CE_BOUNTY_GANG"/>
+	</event>
+	<event> <!-- Militia Ship -->
+		<text>The Militia have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: High.</text>
+		<quest event="CE_BOUNTY_MILITIA"/>
+	</event>
+	<event> <!-- You yourself -->
+		<text>A local planetary government wants you to track down a small Federation cruiser that is carrying stolen Rebel data... That sounds familiar. You'd do a lot for scrap, but you won't give up your mission. The locals are obviously looking for you, caution is advised. Target: You. Payment: Extremely High.</text>
+	</event>
+	<event> <!-- Militia Ship -->
+		<text>The Militia have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: High.</text>
+		<quest event="CE_BOUNTY_MILITIA"/>
+	</event>
+	<event> <!-- You yourself -->
+		<text>A local planetary government wants you to track down a small Federation cruiser that is carrying stolen Rebel data... That sounds familiar. You'd do a lot for scrap, but you won't give up your mission. The locals are obviously looking for you, caution is advised. Target: You. Payment: Extremely High.</text>
+	</event>
+	<event> <!--  Nothing -->
+		<text>There are no legal marks available in this sector. Public orders is just too well maintained here, no one has need for a mercenary bounty hunter right now.</text>
+	</event>
+</eventList>
+
+<event name="FINISH_BEACON">
+	<text load="FINISH_BEACON_TEXT"/>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Continue to travel the depth of space.</text>
+		<event>
+			<text>You prepare to jump on to a nearby sector.</text>
+			<secretSector/>
+		</event>
+	</choice>
+	<choice>
+		<text>Use the jump relay to catapult you closer to the Federation base.</text>
+		<event>
+			<text>You feed the fuel into the reactor and make the necessary preparations. When the FTL Drive is charged you can jump closer to the Federation base. The region ahead of you will undoubtedly be more dangerous then the sectors you traveled so far.</text>
+			<item_modify>
+				<item type="fuel" min="-10" max="-10"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+
+<event name="FINISH_BEACON_NEBULA">
+	<text>This long-range relay is almost hidden within a nebula. You can travel to the next deep space sector from here, or jump towards the Federation coreworld and face new dangers.</text>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Continue to travel the depth of space.</text>
+		<event>
+			<text>You prepare to jump on to a nearby deep space sector.</text>
+			<secretSector/>
+		</event>
+	</choice>
+	<choice>
+		<text>Use the jump relay to catapult you closer to the Federation base.</text>
+		<event>
+			<text>You feed the fuel into the reactor and make the necessary preparations. When the FTL Drive is charged you can jump closer to the Federation base. The region ahead of you will undoubtedly be more dangerous then the sectors you traveled so far.</text>
+			<item_modify>
+				<item type="fuel" min="-10" max="-10"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+
+<textList name="FINISH_BEACON_TEXT">
+	<text back="BACKGROUND" planet="PLANET_POPULATED">You arrive near the main planet of the sector. A major jump relay here allows space ships to perform extreme long-range jumps. The place is quite busy. Several vessels wait in line and prepare to travel closer to the Federation corworld, undoubtedly fleeing from the slowly approaching Rebel fleet.</text>
+	<text>You've arrived at a busy long-range beacon - A massive jump relay that can throw ships a great distance. You could use this installation to travel closer to the Federation coreworld, if you are willing to spend the fuel.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED">A well defended planet is orbited by a long-range relay. This is a chance to get a good deal closer to the Federation base, but the region ahead will also be more dangerous if you decide to do so.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED">The local planetary economy is wealth enough to maintain a Long-Range relay. They say that they will let you jump towards the Federation base, if you have the necessary fuel.</text>
+	<text>Your cruiser arrives at a busy long-range beacon. You can jump to the next deep space sector from here, or travel closer to the Federation coreworld and face new dangers.</text>
+
+
+	<text>The readings were right: a long range jump relay is located at this beacon. It lies completely abandoned and you wonder who constructed it in the first place.</text>
+	<text>You found an abandoned long range relay. It is still functional, you could use it to cover a great distance.</text>
+	<text>Several stations were guarding this long-range relay, but they have been devastated by Fleet bombardment. Smoldering debris bumps against your shields. The main installation barely survived the battle, you have to decide what to do before it's jump field collapses.</text>
+	<text>You reached another long range beacon. Some kind of battle fleet must have come through here lately: The surrounding guard outposts are unresponsive and show no lifesigns. Lucky for you, the invaders left the relay intact. You will have to decide where to go from here.</text>
+	<text>After some extensive scanning, you find an antique long range jump node in this system. Miraculously, the installation is still powered and functional.</text>
+	<text>A brief scan locates the long range relay. No ships and stations are detected in the entire system. You wonder who keeps the installation functioning.</text>
+	<text>You arrive at a busy jump relay. A guarded refugee caravan prepares to leave towards the Federation coreworld. The arrival of your cruiser is met with suspicion, even though you repeatedly sate that you come in peace.</text>
+	<text>Burnt out ship husks indicate a recent battle at this long range node. The relay itself shows signs of sabotage: internal explosions have ripped broad holes into the structures shimmering hull. Whoever tried to destroy the relay did not succeed; it's jump field is still stable.</text>
+</textList>
+
+<event name = "FLEET_EASY_BEACON">
+	<fleet>rebel</fleet>
+	<text load="FLEET_EASY_BEACON_INFINITE_TEXT"/>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Escape into deep space.</text>
+		<event>
+			<text>You hastly prepare to jump to a nearby deep space sector. The Rebels will have trouble catching up with you there.</text>
+			<secretSector/>
+		</event>
+	</choice>
+	<choice>
+		<text>Use the jump relay to catapult you closer to the Federation base.</text>
+		<event>
+			<text>You feed the fuel into the reactor and make the necessary preparations. When the FTL Drive is charged you can jump closer to the Federation base. The region ahead of you will undoubtedly be more dangerous then the sectors you traveled so far.</text>
+			<item_modify>
+				<item type="fuel" min="-10" max="-10"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+
+<event name = "FLEET_EASY_BEACON_DLC">
+	<fleet>rebel</fleet>
+	<text load="FLEET_EASY_BEACON_INFINITE_TEXT"/>
+	<item_modify>
+		<item type="fuel" min="1" max="1"/>
+	</item_modify>
+	<choice hidden="true">
+		<text>Escape into deep space.</text>
+		<event>
+			<text>You hastly prepare to jump to a nearby deep space sector. The Rebels will have trouble catching up with you there.</text>
+			<secretSector/>
+		</event>
+	</choice>
+	<choice>
+		<text>Use the jump relay to catapult you closer to the Federation base.</text>
+		<event>
+			<text>You feed the fuel into the reactor and make the necessary preparations. When the FTL Drive is charged you can jump closer to the Federation base. The region ahead of you will undoubtedly be more dangerous then the sectors you traveled so far.</text>
+			<item_modify>
+				<item type="fuel" min="-10" max="-10"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+
+<textList name="FLEET_EASY_BEACON_INFINITE_TEXT">
+	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">You've found the long-range beacon but the Rebels got here first. There is some dispute with the local forces about the use of the relay. You doubt the Rebel fleet will put up with this for long you must get out of here immediately!</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">You've found the long-range beacon but the Rebels got here first. The locals do not want to give up their relay, the fools are engaging the fleet. The Rebels wont be distracted for long, you must get out of here immediately!</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">You've found the long-range beacon but the Rebels got here first. A remnant cruiser squadron of the Federation tries to hold the relay and engages the Rebel fleet. That might buy you enough time toe escape without a fight.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_FLEET">You've found the long-range beacon but the Rebels got here first. Luckily, they did not yet move in enough ships to guard the entire perimeter. You slip through their lines and head for the long range relay.</text>
+</textList>
+
+
+<event name="START_GAME">
+	<text>The data you carry is vital to the remaining Federation fleet. But will you deliver it, or simply try to escape the Rebels in the infinite depths of space?</text>
+	<!-- <text>The data you carry is vital to the remaining Federation fleet. But the Federation Base is many light years away and the route there is extremely dangerous. Will you carry out you mission or just try to escape the Rebels in the infinite depths of space?</text> -->
+</event>
+
+<event name="START_BEACON">
+	<text load="CE_START_BEACON_CIVILIAN_TEXT"/>
+	<choice>
+		<text>Continue...</text>
+		<event>
+		<text>You prepare the ship for the FTL jump.</text>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_CIVILIAN"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
+		<text>(Production Augment) Produce something on-board.</text>
+		<event load="CE_PRODUCTION"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_CIVILIAN"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage while you wait for the FTL to charge.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+		</event>
+	</choice>
+</event>
+
+
+<event name="SE_START_BEACON_CIVILIAN">
+	<text load="CE_START_BEACON_CIVILIAN_TEXT"/>
+	<choice>
+		<text>Continue...</text>
+		<event>
+		<text>You prepare the ship for the FTL jump.</text>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_CIVILIAN"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_CIVILIAN"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_CIVILIAN"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_CIVILIAN"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage while you wait for the FTL to charge.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+		</event>
+	</choice>
+</event>
+
+
+<event name="SE_START_BEACON_CIVILIAN_HOME">
+	<text load="SE_START_BEACON_CIVILIAN_HOME_TEXT"/>
+		<modifyPursuit amount="-5"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_CIVILIAN"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_CIVILIAN"/>
+	</choice>
+	<choice req="AE_BOUNTYHUNTER" hidden="true">
+		<text>(Bounty Hunter Database) Acquire a contract for this sector.</text>
+		<event load="CE_BOUNTY_LIST_CIVILIAN_HOME"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_CIVILIAN"/>
+		</event>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage while you wait for the FTL to charge.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Mine-launcher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="SE_START_BEACON_CIVILIAN_HOME_TEXT">
+	<text>Since the beginning of the Rebellion, Federation control has faded in the core worlds. Several main planets have declared independence and some local militia might even cooperate with the Rebels. You better lay low here.</text>
+	<text>You arrive in a bustling core sector. Hundreds of small trade ships dot the horizon and your scans show several planets with millions of inhabitants nearby. Let's hope the local militias let you pass their territories without problems.</text>
+	<text>Independent militia and local gangs have taken over this busy core sector after the Federation had to withdraw. Some individuals remain loyal to the old order, but you probably can't trust everyone here.</text>
+	<text>You arrive in an independent sector that tries to remain neutral in the war. The individuals here mostly care about keeping their businesses running. Let's hope the Rebel fleet pursuing you does not disturb them too much.</text>
+</textList>
+
+
+
+
+
+
+
+<event name="NOTHING_DEEP_SPACE">
+	<text load="NOTHING_DEEP_SPACE_TEXT"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_CIVILIAN"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_CIVILIAN"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" hidden="true">
+		<text>(Production Augment) Produce something on-board.</text>
+		<event load="CE_PRODUCTION"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage while you wait for the FTL to charge.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Mine-launcher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines while the FTL charges. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<textList name="NOTHING_DEEP_SPACE_TEXT">
+	<text planet="NONE" back="BG_DARK">Your jump leads you to nothing but empty space. This jump beacon serves no purpose other than as a connection.</text>
+	<text planet="NONE">You jump into an unremarkable system. No life signs detected within scanning range.</text>
+	<text>Your scans reveal a mining base on a nearby planet long since abandoned. No life signs detected.</text>
+	<text planet="PLANET_POPULATED_SMALL">Your scans reveal an ore refinery and several factories, all standing still and empty. No life signs detected.</text>
+	<text planet="PLANET_POPULATED_SMALL">You discover a nearby planet speckled with settlements, although none respond to your hails.</text>
+	<text>This beacon has been built for a nearby civilian space station. No one hails your ship.</text>
+	<text planet="PLANET_POPULATED_SMALL">The nearby planet shows signs of habitation and great beauty. A rudimentary automated planetary defense system is looping its message into space, "Warning! Quarantine Level 5 in effect under FHA Act 22, article 11.2. Warning! Quarantine Level 5 ..."</text>
+	<text planet="NONE">Your jump leads to a completely unremarkable binary star system. There is nothing else around.</text>
+	<text planet="NONE">Your jump leads to a remarkable binary star system. The view is beautiful, but there is nothing else around.</text>
+	<text planet="NONE" back="BG_DARK">After jump completion your scanners register absolutely nothing. This jump beacon seems to get very little traffic.</text>
+	<text planet="NONE" back="BG_DARK">Your jump leads you to nothing but empty space. This jump beacon serves no purpose other than as a connection.</text>
+	<text planet="NONE">You jump into an unremarkable system. A squadron of local militia ships are surrounding a Federation cargo vessel nearby. No one takes notice of you.</text>
+	<text>Your scans reveal a bustling mining base on a nearby planet. Thousands of life signs detected. Strong militia units are guarding the perimeter.</text>
+	<text>Your arrive at a busy connection beacon. Several civilian ships are charging their FTL, more jump in after you. You engage in a little chit chat about the war, working in the cover story for your (fake) ship ID in order to arouse less suspicion.</text>
+	<text>A trade caravan is charging their jump drives here. Their militia guard units request that you leave your weapon targeting off-line. They cease communication and jump away after a while.</text>
+	<text planet="PLANET_POPULATED_SMALL">Your scans reveal an ore refinery and several factories, all producing on full capacity. Thousands of life signs detected. A militia assault squadron is patrolling the area and the commander asks you politely to move on. "Nothing to see here sir."</text>
+	<text planet="PLANET_POPULATED_SMALL">You discover a nearby planet with millions of inhabitants. Dock control informs you that they cannot give you permission to land. They don't give any reason and refuse further communication.</text>
+	<text>This beacon has been built for a nearby civilian space station. No one hails your ship.</text>
+	<text planet="PLANET_POPULATED_SMALL">The nearby planet shows signs of habitation and great beauty. A rudimentary automated planetary defense system is looping its message into space, "Warning! Quarantine Level 5 in effect under FHA Act 22, article 11.2. Warning! Quarantine Level 5 ..."</text>
+	<text planet="NONE">Your arrive at a simple connection beacon. An Engi refugee transport lingers nearby but they don't reply to your hails.</text>
+	<text planet="NONE" back="BG_DARK">After jump completion your scanners register absolutely nothing. This jump beacon seems to get very little traffic.</text>
+	<text planet="PLANET_POPULATED">You arrived at a densely populated coreworld planet. Things have not turned to the better since the sector declared independence. The many poor still live delusional lives in the overpopulated planetary slums and on the factory continents, while the few rich dwell in well guarded space habitats.</text>
+	<text planet="NONE" back="BG_DARK">Your jump leads you to nothing but empty space. This jump beacon serves no purpose other than as a connection. Scans reveal the debris of a Federation scout squadron is scattered through the entire system.</text>
+	<text planet="NONE">You jump into an unremarkable system. No life signs detected within scanning range.</text>
+	<text>Your scans reveal a mining base on a nearby planet, completely destroyed by an orbital strike. No life signs detected.</text>
+	<text planet="PLANET_POPULATED_SMALL">Your scans reveal an ore refinery and several factories showing heavy damage from beam impacts. No life signs detected.</text>
+	<text planet="PLANET_POPULATED_SMALL">You discover a nearby planet speckled with settlements, although none respond to your hails. Several small cities have been largely destroyed by orbital missile strikes.</text>
+	<text>This beacon has been built for a nearby civilian space station. No one hails your ship.</text>
+	<text planet="NONE">Your jump leads to a completely unremarkable binary star system. There is nothing else around but the wreck of an old Kestrel-class cruiser. Scans reveal it has been striped clean of any usable parts.</text>
+	<text planet="NONE">Your jump leads to a remarkable binary star system. An encrypted hazard beacon warns of minefields nearby, undoubtedly laid by the Federation to help protect their evacuation forces.</text>
+	<text>The complex arrangements of ship hulls and FTL drive capacitors floating abandoned in space suggest the Engi were here not too long ago, but no longer.</text>
+	<text>You arrive at a green planet with great plains and rolling waterfalls. It would be of little interest to the Engi nearby.</text>  <!-- JUSTIN TO DO-  MAKE GREEN PLANET-->
+	<text>You have arrived near an Engi construction yard.  Most Engi maintain their bipedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships.  Truly a sight to behold.</text>
+	<text>Even though each "individual" Engi is made up of trillions of nanomachines, their culture still revolves around traditional social interactions.  A nearby station seems to be constructed for entertainment of passing Engi travelers.</text>
+	<text>You see a number of Engi space stations and fleets nearby.  Despite looking like piles of junk loosely tied together they are actually a model of efficiency.  They just lack a certain aesthetic emphasis in their construction.</text>
+	<text>This system appears quite peaceful.  You're not sure how long it'll last between the combined threats of the Rebels and Mantis.</text>
+	<text>There are a number of merchant ships passing through the area despite the threat of a Mantis invasion.  No doubt interested in buying the efficient technology of the Engi.</text>
+	<text>You see a small Rebel carrier in the distance.  You lay low and try to blend in with the other traffic.  However it's surprising to see a Rebel military ship alone deep in Engi space.</text>
+	<text>The Engi seem to have avoided this particular node, along with every other life-form. You keep your eyes peeled for reasons why, but spin up the FTL without event.</text>
+	<text>A cluster of Engi satellites in orbit of a nearby planet are the only clue the mechanical species was ever here. You have other places to be.</text>
+	<text>As the blueish shimmer of FTL-charged particles fades away, you find yourself in a dead-silent part of the sector. However, you pick up several hundred objects floating in the space around the beacon, barely radiating any heat. They appear to be bodies - you have arrived at a graveyard for the victims of the plague.</text>
+	<text>Despite the local health crisis, this system appears quite peaceful.  You're not sure how long it'll last between the combined threats of the Rebels and Mantis.</text>
+	<text planet="PLANET_POPULATED_SMALL">The nearby planet shows sign of habitation and great beauty. A rudimentary automated planetary defense system is looping its message into space, "Warning! Quarantine Level 5 in effect under FHA Act 22, article 11.2. Warning! Quarantine Level 5 ..."</text>
+	<text>This beacon has been deserted. A completely functional station nearby shows no life signs. Someone has painted the word "Help!" in cruiser sized letter on the installation's hull.</text>
+	<text>You arrive at a deserted connection beacon, painted with a huge bio-hazard sign.</text>
+	<text>At this point you almost expect a fight with the Mantis, but this beacon appears to be entirely devoid of other ships. You take the time to catch your breath and double-check the ship's systems.</text>
+	<text>The only thing this beacon offers is a view of deep space and a brief respite from battles. For some this must be a welcome refuge. </text>
+	<text>A nearby Mantis mining operation is clearly using heavy Engi slave labor. You briefly consider the possibility of emancipating the slaves, but the Mantis presence is too formidable. You decide to lay low.</text>
+	<text>There aren't so many parts of Mantis space that aren't dotted by the wrecks of battles past, but this is one of them. You take a deep breath and prepare to move on.</text>
+	<text>There's nothing here but space debris and some uninhabitable planetoids.</text>
+	<text>You fancy you see something moving in the shadow of the beacon, but all remains still.</text>
+	<text>The FTL beacon beacon you arrive at is polished and in pristine condition. The Mantis must have extended their local network just recently.</text>
+	<text>Your arrival in this desolate sector scares away a rare Mantis engineering vessel, one of the insectoids few crafts not completely built for combat. It seems their crew just finished setting up this node recently.</text>
+
+	<text back="BG_WARNING_MINES">A loose minefield lingers a few clicks away from the beacon. The scanners cannot determine if it has been laid recently by pirates or was here for longer. You wonder how many lives it has taken.</text>
+	<text>As soon as you arrive, a small ship de-cloaks behind yours. You immediately power up the shields and weapons, but they continue on their trajectory unimpressed. You try to calm your nerves.</text>
+	<text>A small pirate ship messages you, "That sure is a shiny ship you got there." You fire a warning shot across their bow and they respond, "Hey! No need for violence! It was just a comment..."</text>
+	<text>The only thing within scanning range is an old abandoned mining structure and a resupply station. They appear to have been picked clean by marauders.</text>
+	<text>You arrive to have a small fleet of Engi ships target you with a message, "Piracy results in negative societal impact. Not permitted." You assure them of your honest intentions and they allow you to pass.</text>
+
+	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships.  Luckily, no one seems to be paying attention to small cruisers.  No ships are scanning or messaging you.</text>
+	<text>You arrive near a small Rebel refueling depot.  Your ship is being scanned multiple times so they must recognize you, but there appears to be no combat-ready ships in the vicinity.  The only message you receive is a denial to your request to dock at the depot.</text> 
+	<text>There is not much of interest nearby.   A small sun in the distance with a few orbiting planets in nearby space provide little of interest.</text>
+	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay.  You tap into it without a problem; there are no encryptions.  Most of the chatter revolves around troop and fleet movements, not particularly interesting.</text>
+	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet.</text>
+
+	<text>You receive a message meant to degrade you as aliens. You half expect an attack but it seems to have come from a small civilian shuttle.</text>
+	<text>No one bothers your ship as you float among numerous space stations and mining platforms. The Rock certainly run efficient operations.</text>
+	<text>You arrive and detect signs of battle. A few ships are taking passes at each other near a small station. You don't know if it's a territory issue, a contest, or a rite of passage but you decide it's best to stay out of it.</text>
+	<text>There's not much at this beacon. Just a few abandoned depots, stripped clean.</text>
+	<text>A few freighters pass by but they refuse all communications. Must not want to sully their reputation by talking with foreigners.</text>
+	<text>You see a small trading post and ask about refueling but they respond, "Go away! We don't serve your kind here."</text>
+	<text>You see a Zoltan merchant and ask about his wares. He responds, "Sorry, but it took years to gain their trust. I can't be seen communicating with you. I hope you understand." He cuts communications.</text>
+
+	<text>There are some mineral-rich asteroids here that the Zoltan have left idle, but you've none of the necessary equipment to mine them.</text>
+	<text>You have to admit - Zoltan space is a beautiful and peaceful place indeed. However, re-engaging the FTL and finishing your mission is your priority, not sight-seeing.</text>
+	<text>A light asteroid field is entering the atmosphere of a nearby planet - a fireworks show on a galactic scale. There's little for it but to take in the ambiance and program the next jump.</text>
+	<text>You stumble upon some Zoltan military vessels engaging in combat training. Their Energy Shields are impressive, but you note how quickly beam and ion weaponry take them down.</text>
+	<text>You don't have time to hail the Zoltan ship that was waiting at this beacon before it jumps away. They are a careful race.</text>
+	<text>A Zoltan shipyard is stationed at this beacon. You admire the display of hundreds of glowing Zoltan performing delicate exterior work on a massive transport ship.</text>
+	<text>A message broadcast from a nearby planet announces the presence of an ancient Zoltan monastery available for visiting. Likely just a tourist trap, but still too bad you don't have the time to visit.</text>
+</textList>
+
+
+	
+<event name="ZOLTAN_CREW_STUDY">
+	<text>You arrive at a Zoltan research facility. They say they are researching genetic distortion due to stasis sleep and prolonged FTL travel. They ask if your crew has the time to undergo a few scans.</text>
+	<choice hidden="true">
+		<text>Participate in their study.</text>
+		<event load="ZOLTAN_CREW_STUDY_LIST"/>
+	</choice>
+	<choice hidden="true">
+		<text>Decline.</text>
+		<event>
+			<text>"Alright. Fly safe." You prepare to leave.</text>
+		</event>
+	</choice>
+	<choice hidden="true" req="medbay" lvl="3">
+		<text>(Advanced Medbay) Give them your medical records.</text>
+		<event>
+			<text>"Thank you! We didn't expect to receive such a significant amount of data regarding your crew's health during FTL travel. Please, accept this for your trouble."</text>
+			<drone name="RANDOM"/>
+			<autoReward level="LOW">stuff</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="STASIS_POD">
+		<text>(Damaged Stasis Pod) Ask if they can fix this.</text>
+		<event>
+			<text>"Interesting. I've never seen a cryogenic system like this. It appears to still be functioning..." They hook it up to their system and run a number of tests on it.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>"Amazing! It has the ability to reconstruct the body if it was damaged during transit. Watch." They reactivate the pod and you watch as the hunks of crystal inside reform to build a humanoid structure. The pod slides open and the re-formed alien steps out.</text>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event>
+							<text>It speaks slowly, "Greetings. I appear to be in your debt. My people isolated themselves a long time ago, but perhaps it's time to re-establish a connection. There's a hidden wormhole near a long forgotten sector. Perhaps you can take me there so I can properly repay you?"</text>
+							<crewMember amount="1" class="crystal"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+<eventList name="CE_SOCIAL_ENGI_MEDICAL">
+	<event>
+		<text>You drop below FTL speed and immediately locate the Engi aid station directly near the beacon. They answer your hail, "Federation ID confirmed. Equipment available. Compensation in current situation necessary."</text>
+		<ship load="BS_ENGI_MEDICAL" hostile="false"/>
+		<choice hidden="true">
+			<text>Let them equip your ship with medical equipment. [ Scrap: -20; Weapon: Healing Cluster Burst ]</text>
+			<event>
+				<text>The local Engi say hello to your crew member with their weird uplink-greeting and then proceed to install the heal-bomb on your ship.</text>
+			<item_modify>
+				<item type="scrap" min="-20" max="-20"/>
+			</item_modify>
+				<weapon name="BA_BOMB_HEAL_2"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Let them equip your ship with medical nanobots. [ Scrap: -40; Augment: Engi Med-bot Dispersal ]</text>
+			<event>
+				<text>The local Engi say hello to your crew member with their weird uplink-greeting and then proceed to install the augment on your ship.</text>
+			<item_modify>
+				<item type="scrap" min="-40" max="-40"/>
+			</item_modify>
+				<augment name="NANO_MEDBAY"/>
+			</event>
+		</choice>
+		<choice>
+			<text>Move on.</text>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+
+
