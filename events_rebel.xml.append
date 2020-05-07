@@ -2274,7 +2274,7 @@
 	<text>또 다른 무인 위성 터렛이 이 영역을 지키고 있습니다. 당신은 전투 준비를 합니다.</text>
 	<text>당신이 도약하자 반란군 위성 터렛이 작동합니다. 싸움은 피할 수 없는 것 같군요.</text>
 	<text>지역 레이더에는 작은 무역 정거장이 나타납니다. 당신은 정거장이 정체를 가리고 있다는 것을 깨닫습니다. 그건 반란군 방어 포탑입니다!</text>
-	<text>You receive a hail from a small AI run satellite, "Simulations show that I will win this engagement with 82 percent probability. Do you want to try your chances?"</text>
+	<text>소형 AI 위성이 당신에게 교신합니다. "시뮬레이션은 이 교전에서 82%의 확률로 승리할 수 있다고 알린다. 네 가능성을 시험해볼테냐?"</text>
 	<text>반란군 AI 위성이 이 신호소를 지키며 당신에게 교신합니다. "이 유닛은 이미 전투 결과를 계산했고, 그건 당신에게 불리하다는 것입니다. AI보다 그렇게 열등하다는 기분이 어떤가요?" 위성은 무기를 장전합니다!</text>
 	<text planet="PLANET_POPULATED_REAL">스캔 결과 대략 34개의 완전 무장한 방어용 터렛이 행성 주위에 배치되어 있는 것으로 나타났습니다. 운 좋게도 하나만 신호소를 지키고 있군요.</text>
 </textList>

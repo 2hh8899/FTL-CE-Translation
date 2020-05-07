@@ -16401,7 +16401,7 @@
 	<mod-overwrite:class>졸탄 전초기지</mod-overwrite:class>
 </mod:findName>
 <mod:findName type="shipBlueprint" name="BS_ENERGY_SHIELD">
-	<mod-overwrite:class>졸탄 방어막 Station</mod-overwrite:class>
+	<mod-overwrite:class>졸탄 방어막 정거장</mod-overwrite:class>
 </mod:findName>
 <mod:findName type="shipBlueprint" name="C_ENERGY_FREIGHTER">
 	<mod-overwrite:class>졸탄 화물선</mod-overwrite:class>
