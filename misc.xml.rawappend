@@ -410,10 +410,10 @@
 
 <text name="engines_hacked">엔진 해킹당함</text>
 <text name="pilot_hacked">조타실 해킹당함</text>
-<text name="current_evasion">현재 회피율</text>
+<text name="current_evasion">현재 회피율: \1</text>
 
 <text name="oxygen_hacked">산소 공급실 해킹당함</text>
-<text name="current_oxygen">현재 산소량</text>
+<text name="current_oxygen">현재 산소량: \1</text>
 
 <!-- Info Boxes -->
 

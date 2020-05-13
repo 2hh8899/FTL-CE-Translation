@@ -375,8 +375,8 @@
 <text name="crewbox_rename" language="zh-Hans">이름 바꾸기</text>
 <text name="crewlist_and" language="zh-Hans">그리고</text>
 <text name="crewlist_comma" language="zh-Hans">, </text>
-<text name="current_evasion" language="zh-Hans">현재 회피율</text>
-<text name="current_oxygen" language="zh-Hans">현재 산소량</text>
+<text name="current_evasion" language="zh-Hans">현재 회피율: \1</text>
+<text name="current_oxygen" language="zh-Hans">현재 산소량: \1</text>
 <text name="damage_alert" language="zh-Hans">\1 만큼 선체 손상</text>
 <text name="damage_cap" language="zh-Hans">최대 피해량: \1</text>
 <text name="damage_room" language="zh-Hans">선실 당 입히는 피해: \1</text>
@@ -2750,29 +2750,6 @@
 <text name="event_ZOLTAN_ODD_MOON_c3_choice" language="zh-Hans">(강습 드론) 드론을 보내어 표면을 조사해본다.</text>
 <text name="event_ZOLTAN_ODD_MOON_c3_text" language="zh-Hans">일단 한번 스캔을 해 본 결과, 그리 깊지 않은 지하에 땅굴망이 뚫려 있음을 알 수 있었습니다. 당신은 강습 드론을 보내 땅 밑 동굴로 뚫고 들어가게끔 합니다.</text>
 <text name="event_ZOLTAN_ODD_MOON_text" language="zh-Hans">멀리 떨어진 위성에서 뭔가 날아와 당신을 공격했습니다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c1_choice" language="zh-Hans">공격한다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c1_text" language="zh-Hans">무기를 작동하고 전투를 준비한다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c1_choice" language="zh-Hans">은하계는 넓지 않은가. 파괴 따위 하지 않고 다른 곳에서 그 이상을 펼칠 곳을 찾을 수 있을텐데.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c1_text" language="zh-Hans">“"아니! 네 놈들의 '연방의 사상'에 맞지 않는다는 이유로 변방으로 쫓겨날 생각은 없다." 이들은 전투를 준비합니다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c2_choice" language="zh-Hans">진정한 이상의 추구에 유혈이 있어선 안돼.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_c2_text" language="zh-Hans">갑자기 반란군 함선의 형상이 사라지더니, 졸탄 함선이 나타납니다. 이전에 만난 적 있는 졸탄 함장이 당신의 함교에 물질화되어 나타났습니다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_choice" language="zh-Hans">"싸우지 않고 서로의 이상을 조화시킬 수 있지 않겠나?"</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c1_text" language="zh-Hans">"너희와 우리의 이상은 서로 조화하기엔 너무나 다르다. 이 차이를 극복할 수 있는 방법이 전쟁 말고 무엇이 있겠는가?"</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c2_choice" language="zh-Hans">"당신의 방식은 굉장히 조악하고 비효율적이었습니다만, 저희와의 만남을 진심으로 받아들였다는 사실만큼은 분명하군요. "</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c2_text" language="zh-Hans">졸탄 순양함이 격납고에 추가되었습니다!</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c3_choice" language="zh-Hans">"너희 반란군은 벌써 수백만의 사상자를 냈다. 그 놈의 사상이 은하계를 갈라놓고 있단 말이다. 연방만이 유일한 진리다!"</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_c3_text" language="zh-Hans">"그 나약한 연방 안에서 인간들은 외계인들과 똑같은 대우를 받고 있다. 우리 이상을 관철시킬 수만 있다면 수십억의 희생이라도 감수하겠어!" 반란군 함선이 공격해옵니다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_choice" language="zh-Hans">교신을 시도한다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_c2_text" language="zh-Hans">반란군 함선이 교신에 응합니다. "무슨 말을 해도 네 놈들은 죽은 목숨이다. 반란군은 낡아빠진 연방의 충성파와 접촉하는 즉시 즉결 처분해야 한다."</text>
-<text name="event_ZOLTAN_PEACE_QUEST2_text" language="zh-Hans">졸탄 평화주의자들이 가르쳐 준 지점에 도착했지만, 근처에 있는 것은 반란군 함선 뿐입니다! "잡았다! 이번엔 도망칠 수 없을거다!"</text>
-<text name="event_ZOLTAN_PEACE_QUEST_ATTACK_1_text" language="zh-Hans">무기를 작동하고 전투를 준비한다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST_ATTACK_2_text" language="zh-Hans">당신이 공격태세를 갖추자 근방에서 공간도약 반응이 감지됩니다. 졸탄 요격함이 평화 사절단을 지원하러 왔습니다!</text>
-<text name="event_ZOLTAN_PEACE_QUEST_REWARD_1_text" language="zh-Hans">"당신의 방식은 굉장히 조악하고 비효율적이었습니다만, 저희와의 만남을 진심으로 받아들였다는 사실만큼은 분명하군요. 그대들의 열린 마음이 연방의 개방적인 태도를 의미하는 것이라면, 저희들의 기술로 그 여정에 얼마간 도움을 드리도록 하겠습니다."</text>
-<text name="event_ZOLTAN_PEACE_QUEST_REWARD_2_text" language="zh-Hans">"당신의 방식은 굉장히 조악하고 비효율적이었습니다만, 저희와의 만남을 진심으로 받아들였다는 사실만큼은 분명하군요. 그대들의 열린 마음이 연방의 개방적인 태도를 의미하는 것이라면, 그대들의 분쟁에 개인적으로 도움을 드리도록 하겠습니다."</text>
-<text name="event_ZOLTAN_PEACE_QUEST_c1_choice" language="zh-Hans">공격한다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST_c2_c1_text" language="zh-Hans">연설이 끝났습니다. "이 계몽의 말씀을 아직 깨우치지 못한 자들에게 전해주십시오. 계몽을 끝낸 후 저희 신도들에게 연락해주시기 바랍니다." 졸탄 함선은 그 "신도들"의 좌표를 전송해왔습니다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST_c2_choice" language="zh-Hans">이야기를 들어본다.</text>
-<text name="event_ZOLTAN_PEACE_QUEST_c2_text" language="zh-Hans">졸탄 함선의 교신이 계속됩니다. "귀 함의 침묵을 저희에게 호적이라는 뜻으로 받아들이겠습니다." 졸탄 함선은 교신을 통해 평화와 조화에 대한 연설을 늘어놓았지만 당신이 이해할 수 있는 영역을 넘어서는 개념이거나, 그저 헛소리로 들릴 뿐입니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_c3_choice" language="zh-Hans">떠난다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_c3_text" language="zh-Hans">은하계 전체가 전쟁으로 준동하고 있습니다. 평화에 대해 논할 시간 따위는 없습니다. 당신은 이들에게 답신조차 하지 않은 채 순간이동 할 준비를 합니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_text" language="zh-Hans">비무장 졸탄 수송선 한대가 이쪽 신호기로 접근하고 있습니다. 교신이 들어옵니다: "본 함은 졸탄 평화 사절단입니다. 본 함은 무기나 방어수단을 일절 장비하고 있지 않으며, 오직 진리를 전해드리고자 하는 자비에 운명을 맡기고 있습니다."</text>

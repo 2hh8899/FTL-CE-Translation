@@ -3024,14 +3024,14 @@
 		</choice>
 </event>
 <textList name="C_EVENT_REBEL_GUNBOAT_TEXT">
-	<text>Your cross paths with a Rebel patrol craft. "We've found you at last. Prepare to die!"</text>
-	<text>A medium Rebel patrol ship is refueling at a small depot. You try to lay low but they spot you. Power up the weapons!</text>
-	<text>A Rebel patrol boat is guarding this region. As soon as you arrive it begins its assault.</text>
-	<text>A Rebel patrol craft hails you, "Federation scum! We've waited a long time for this!"</text>
-	<text>You receive a transmission, "Sorry sir, this is nothing personal but we're under orders." The Rebel patrol craft's weapons go hot.</text>
-	<text>Rebel patrols seem to be covering the whole system. A medium-sized craft detects you and starts its strafing run.</text>
-	<text>A Rebel patrol-boat hails you, "Ah we have found you! Surrender is not an option. Die Federation-scum!"</text>	
-	<text>A Rebel patrol craft was stationed at this beacon. They hail you. "We have reconstructed your flight path beacon by beacon and finally tracked you down. Your journey ends here!" They spin up their weapons.</text>
+	<text>당신은 반란군 정찰기와 마주칩니다. "마침내 찾아냈군. 죽을 준비 해라!"</text>
+	<text>중형 반란군 순찰선이 작은 정거장에서 급유를 하고 있습니다. 당신은 조용히 지나가려고 했지만 그들이 당신을 눈치챈 것 같습니다. 무기를 가동하세요!</text>
+	<text>반란군 순찰대가 이 지역을 지키고 있었습니다. 당신이 도약해오자마자 공격을 시작합니다.</text>
+	<text>반란군 정찰기에게 신호를 받습니다. "연방 쓰레기놈들! 이 시간만을 기다려왔지!"</text>
+	<text>당신은 신호를 받습니다. "죄송합니다, 개인적인 원한은 없지만 명령을 따라야만 합니다." 반란군 정찰기의 무기가 달아오릅니다.</text>
+	<text>반란군 순찰대가 이 제도 전체를 차지하고 있습니다. 중형 함선이 당신을 탐지하고 폭격을 시작합니다.</text>
+	<text>반란군 순찰기에게 통신을 받습니다. "드디어 네놈을 찾았구만! 항복 따윈 없을 줄 알아라, 연방 쓰레기녀석!"</text>	
+	<text>반란군 순찰기가 이 신호소에 정박해 있었습니다. 당신은 신호를 받습니다. "네 비행 경로를 일일히 재구성하고 마침내 추적하는데 성공했지. 여기서 끝날 줄 알아라!" 그들의 무기가 장전됩니다.</text>
 </textList>
 
 <!-- END OF C REBEL EVENTS -->
