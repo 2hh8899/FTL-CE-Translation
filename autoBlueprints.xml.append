@@ -3209,7 +3209,7 @@
 <!-- TB SHIPS -->
 
 <shipBlueprint name="TB_AUTO_BOMBER" layout="tb_auto_bomber" img="auto_assault">
-	<class>AI 폭격기</class>
+	<class>무인 폭격기</class>
 	<systemList>
 		<pilot power="1" max="3" room="0" start="true">
 			<slot>
@@ -3246,7 +3246,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_INFILTRATOR" layout="tb_auto_infiltrator" img="auto_basic">
-	<class>AI 잠입함</class>
+	<class>무인 잠입함</class>
 	<systemList>
 		<shields power="2" max="8" room="3" start="false">
 			<slot>
@@ -3284,7 +3284,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_INTERCEPTOR" layout="tb_auto_interceptor" img="auto_basic">
-	<class>AI 요격기</class>
+	<class>무인 요격기</class>
 	<systemList>
 		<engines power="5" max="8" room="0" start="true">
 			<slot>
@@ -3323,7 +3323,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_TROOPSHIP" layout="tb_auto_troopship" img="auto_assault">
-	<class>AI 수송선</class>
+	<class>무인 수송선</class>
 	<minSector>2</minSector>
 	<systemList>
 		<drones power="2" max="8" room="0" start="true"/>
@@ -3363,7 +3363,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_CARRIER" layout="tb_auto_carrier" img="auto_assault">
-	<class>AI 드론함</class>
+	<class>무인 드론함</class>
 	<minSector>2</minSector>
 	<systemList>
 		<drones power="3" max="8" room="0" start="true"/>
@@ -5441,7 +5441,7 @@
 
 
 <shipBlueprint name="TB_AUTO_ASSAULT" layout="tb_auto_assault" img="auto_assault">
-	<class>AI 강습선</class>
+	<class>무인 강습선</class>
 	<systemList>
 		<engines power="1" max="5" room="4" start="true">
 			<slot>
@@ -5477,7 +5477,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_SCOUT" layout="tb_auto_scout" img="auto_basic">
-	<class>AI 정찰기</class>
+	<class>무인 정찰기</class>
 	<systemList>
 		<cloaking power="1" max="3" room="0" start="false"/>
 		<weapons power="2" max="8" room="4" start="true">
@@ -6508,7 +6508,7 @@
 -->
 		
 <shipBlueprint name="TB_AUTO_BASIC_DLC" layout="tb_auto_basic_dlc" img="auto_basic">
-	<class>AI 측량선</class>
+	<class>무인 측량선</class>
 	<systemList>
 		<weapons power="2" max="8" room="0" start="true">
 			<slot>
@@ -6544,7 +6544,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_ASSAULT_DLC" layout="tb_auto_assault_dlc" img="auto_assault">
-	<class>AI 해커</class>
+	<class>무인 해커</class>
 	<systemList>
 		<pilot power="1" max="3" room="0" start="true">
 			<slot>
@@ -7466,7 +7466,7 @@
 
 
 <shipBlueprint name="BS_AUTO_TURRET" layout="bs_auto_turret" img="bs_station_auto">
-	<class>AI 포탑</class>
+	<class>무인 포탑</class>
 	<systemList>
 		<weapons power="3" max="10" room="0" start="true">
 			<slot>
@@ -7491,7 +7491,7 @@
 
 
 <shipBlueprint name="BS_AUTO_DRONE" layout="bs_auto_drone" img="bs_station_auto">
-	<class>AI 드론 정거장</class>
+	<class>무인 드론 정거장</class>
 	<minSector>2</minSector>
 	<systemList>
 		<drones power="3" max="8" room="0" start="true"/>
@@ -7518,7 +7518,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="BS_AUTO_SATELLITE" layout="bs_auto_satellite" img="bs_station_auto">
-	<class>AI 위성</class>
+	<class>무인 위성</class>
 	<systemList>
 		<drones power="2" max="8" room="5" start="false"/>
 		<shields power="2" max="8" room="1" start="true">
@@ -8842,7 +8842,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="C_AUTO_CRUISER" layout="c_auto_cruiser" img="c_auto_cruiser">
-	<class>AI 순양함</class>
+	<class>무인 순양함</class>
 	<systemList>
 		<weapons power="3" max="10" room="4" start="true">
 			<slot>
@@ -8884,7 +8884,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="C_AUTO_EW_CRUISER" layout="c_auto_ew_cruiser" img="c_auto_cruiser">
-	<class>AI 테크 순양함</class>
+	<class>무인 테크 순양함</class>
 	<systemList>
 		<battery power="1" max="2" room="3" start="true"/>
 		<mind power="1" max="3" room="0" start="false"/>
@@ -9574,7 +9574,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_REPAIR" layout="tb_auto_repair" img="auto_basic">
-	<class>AI 수리선</class>
+	<class>무인 수리선</class>
 	<systemList>
 		<weapons power="2" max="6" room="0" start="true">
 			<slot>
@@ -9615,7 +9615,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="BS_AUTO_SCRAMBLER" layout="bs_auto_scrambler" img="bs_station_auto">
-	<class>AI E.W. 플랫폼</class>
+	<class>무인 E.W. 플랫폼</class>
 	<systemList>
 		<shields power="2" max="8" room="1" start="true">
 			<slot>
@@ -10042,7 +10042,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="TB_AUTO_HUNTER" layout="tb_auto_hunter" img="auto_assault_elite">
-	<class>AI 처형선</class>
+	<class>무인 처형선</class>
 	<systemList>
 		<medbay power="1" max="1" room="7" start="true">
 			<slot>
@@ -10091,7 +10091,7 @@
 
 
 <shipBlueprint name="TB_AUTO_HUNTER_DLC" layout="tb_auto_hunter" img="auto_assault_elite">
-	<class>AI 처형선</class>
+	<class>무인 처형선</class>
 	<systemList>
 		<clonebay power="1" max="3" room="7" start="true"/> <!--6-->
 		<teleporter power="3" max="3" room="8" start="true"/>
@@ -10143,7 +10143,7 @@
 <!-- CE DEFENDER SHIPS   -->
 
 <shipBlueprint name="CE_AUTO_SPOTTER" layout="ce_auto_spotter" img="auto_basic">
-	<class>AI 관측선</class>
+	<class>무인 관측선</class>
 	<maxSector>5</maxSector>
 	<systemList>
 		<pilot power="1" max="3" room="0" start="true">
@@ -10182,7 +10182,7 @@
 
 
 <shipBlueprint name="CE_AUTO_SPOTTER_ELITE" layout="ce_auto_spotter" img="auto_basic_elite">
-	<class>엘리트 AI 관측선</class>
+	<class>엘리트 무인 관측선</class>
 	<systemList>
 		<pilot power="1" max="3" room="0" start="true">
 			<slot>
@@ -11269,7 +11269,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="BS_AUTO_CHECKPOINT" layout="bs_auto_checkpoint" img="bs_station_auto">
-	<class>AI 컨트롤러</class>
+	<class>무인 컨트롤러</class>
 	<systemList>
 		<weapons power="3" max="8" room="0" start="true">
 			<slot>
@@ -11294,7 +11294,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="BS_AUTO_EW" layout="bs_auto_ew" img="bs_station_auto">
-	<class>AI E.W. 플랫폼</class>
+	<class>무인 E.W. 플랫폼</class>
 	<systemList>
 		<pilot power="1" max="3" room="0" start="true">
 			<slot>
@@ -15914,7 +15914,7 @@
 
 
 <shipBlueprint name="CE_AUTO_REPAIR" layout="ce_auto_repair" img="ce_auto_basic_construction">
-	<class>AI 수리선</class>
+	<class>무인 수리선</class>
 	<systemList>
 		<doors power="1" max="3" room="1" start="false" />
 		<drones power="1" max="4" room="2" start="true" />
@@ -15936,7 +15936,7 @@
 
 
 <shipBlueprint name="CE_AUTO_CARGO" layout="ce_auto_cargo" img="ce_auto_assault_construction">
-	<class>AI 화물선</class>
+	<class>무인 화물선</class>
 	<maxSector>5</maxSector>
 	<systemList>
 		<drones power="2" max="4" room="0" start="false" />
@@ -15956,7 +15956,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="CE_AUTO_MINER" layout="ce_auto_miner" img="ce_auto_assault_construction">
-	<class>AI 소행성 채굴선</class>
+	<class>무인 소행성 채굴선</class>
 	<systemList>
 		<drones power="1" max="4" room="0" start="true" />
 		<engines power="1" max="5" room="4" start="true" />
@@ -15976,7 +15976,7 @@
 
 
 <shipBlueprint name="CE_AUTO_CONSTRUCTOR" layout="ce_auto_constructor" img="ce_auto_assault_construction">
-	<class>AI 제조선</class>
+	<class>무인 제조선</class>
 	<minSector>2</minSector>
 	<systemList>
 		<doors power="1" max="3" room="6" start="false" />
@@ -15999,7 +15999,7 @@
 
 
 <shipBlueprint name="C_AUTO_CRUISER_FREIGHTER" layout="c_auto_freighter" img="c_auto_cruiser_construction">
-	<class>AI 화물선</class>
+	<class>무인 화물선</class>
 	<minSector>3</minSector>
 	<systemList>
 		<cloaking power="1" max="1" room="13" start="false" />
@@ -16022,7 +16022,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="C_AUTO_CRUISER_MINER" layout="c_auto_planet_miner" img="c_auto_cruiser_construction">
-	<class>AI 행성 채굴선</class>
+	<class>무인 행성 채굴선</class>
 	<systemList>
 		<artillery power="1" max="4" room="9" start="true" weapon="BA_ARTILLERY_CIRCLE_2_ENEMY" />
 		<doors power="1" max="3" room="7" start="false" />
@@ -16044,7 +16044,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="C_AUTO_CRUISER_CONSTRUCTOR" layout="c_auto_constructor" img="c_auto_cruiser_construction">
-	<class>AI 제조 함선</class>
+	<class>무인 제조 함선</class>
 	<minSector>3</minSector>
 	<systemList>
 		<battery power="1" max="2" room="12" start="true" />
@@ -16069,7 +16069,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="BS_AUTO_REPAIR" layout="bs_auto_repair" img="bs_station_auto_construction">
-	<class>AI 수리 플랫폼</class>
+	<class>무인 수리 플랫폼</class>
 	<systemList>
 		<drones power="2" max="8" room="2" start="true" />
 		<shields power="2" max="8" room="1" start="true" />
@@ -16087,7 +16087,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="BS_AUTO_CONSTRUCTOR" layout="bs_auto_construction" img="bs_station_auto_construction">
-	<class>AI 건설 플랫폼</class>
+	<class>무인 건설 플랫폼</class>
 	<minSector>3</minSector>
 	<systemList>
 		<battery power="1" max="2" room="4" start="false" />
