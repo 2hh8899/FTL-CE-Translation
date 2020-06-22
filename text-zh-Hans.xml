@@ -2750,11 +2750,13 @@
 <text name="event_ZOLTAN_ODD_MOON_c3_choice" language="zh-Hans">(강습 드론) 드론을 보내어 표면을 조사해본다.</text>
 <text name="event_ZOLTAN_ODD_MOON_c3_text" language="zh-Hans">일단 한번 스캔을 해 본 결과, 그리 깊지 않은 지하에 땅굴망이 뚫려 있음을 알 수 있었습니다. 당신은 강습 드론을 보내 땅 밑 동굴로 뚫고 들어가게끔 합니다.</text>
 <text name="event_ZOLTAN_ODD_MOON_text" language="zh-Hans">멀리 떨어진 위성에서 뭔가 날아와 당신을 공격했습니다.</text>
+<text name="event_ZOLTAN_PEACE_QUEST_c1_choice" language="zh-Hans">공격한다.</text>
+<text name="event_ZOLTAN_PEACE_QUEST_c2_choice" language="zh-Hans">이야기를 들어본다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_c3_choice" language="zh-Hans">떠난다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_c3_text" language="zh-Hans">은하계 전체가 전쟁으로 준동하고 있습니다. 평화에 대해 논할 시간 따위는 없습니다. 당신은 이들에게 답신조차 하지 않은 채 순간이동 할 준비를 합니다.</text>
 <text name="event_ZOLTAN_PEACE_QUEST_text" language="zh-Hans">비무장 졸탄 수송선 한대가 이쪽 신호기로 접근하고 있습니다. 교신이 들어옵니다: "본 함은 졸탄 평화 사절단입니다. 본 함은 무기나 방어수단을 일절 장비하고 있지 않으며, 오직 진리를 전해드리고자 하는 자비에 운명을 맡기고 있습니다."</text>
 <text name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c1_choice" language="zh-Hans">방해한다 - 원시 외계종족과 첫 접촉을 한다.</text>
-<text name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c1_text" language="zh-Hans">털이 덥수룩하고 눈이 하나 달린 나무도마뱀같이 생긴 지역 주민들이 당신을 보자 참배하기 시작했습니다. 그 순간 갑자기 하늘이 레이저 불빛으로 번쩍입니다. 졸탄 함선이 당신의 함선를 향해 발포합니다! 당신은 급히 셔틀로 돌아가 전투에 참여합니다.</text>
+<text name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c1_text" language="zh-Hans">털이 덥수룩하고 눈이 하나 달린 나무도마뱀같이 생긴 지역 주민들이 당신을 보자 참배하기 시작했습니다. 그 순간 갑자기 하늘이 레이저 불빛으로 번쩍입니다. 졸탄 함선이 당신의 함선을 향해 발포합니다! 당신은 급히 셔틀로 돌아가 전투에 참여합니다.</text>
 <text name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c2_choice" language="zh-Hans">외계종족의 삶의 방식을 보호한다 - 반군 함선을 공격한다.</text>
 <text name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c2_text" language="zh-Hans">이 생명체들은 그들 스스로 발전하도록 놔 두어야 합니다. 당신은 모든 무기를 반군 함선을 향해 조준하고 포격을 준비를 합니다.</text>
 <text name="event_ZOLTAN_QUEST_PRIMITIVES_c1_c3_choice" language="zh-Hans">떠난다.</text>
@@ -3909,7 +3911,7 @@
 <text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_deadCrew_text" language="zh-Hans">당신은 그들의 함선을 뜯어내기 시작했고 그들이 평화적 임무수행 외에 다른일을 하고있었다는 증거를 찾아내지 못헀습니다. 판단을 너무 서두른것같군요.</text>
 <text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_destroyed_text" language="zh-Hans">당신은 잔해를 뒤지면서 죄책감을 느끼고있습니다. 그것은 아마 함정이었을것입니다...아마도?</text>
 <text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_c1_choice" language="zh-Hans">끝장내버립니다.</text>
-<text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_c1_text" language="zh-Hans">당신은 계속해서 공격합니다. (ships189)</text>
+<text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_c1_text" language="zh-Hans">당신은 계속해서 공격합니다.</text>
 <text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_c2_choice" language="zh-Hans">보내줍니다.</text>
 <text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_c2_text" language="zh-Hans">당신은 모든 무기의 가동을 중지합니다. 잠시 후에 그 함선은 천천히 비틀거리며 날아갑니다. 그들은 모든 통신을 거부합니다. 당신은 죄책감이 들어 견디기 힘듭니다.</text>
 <text name="ship_ZOLTAN_PEACE_QUEST_ATTACK1_surrender_text" language="zh-Hans">그들은 확실히 싸울 의사가 없어보입니다. 정말 그들을 파괴하시겠습니까?</text>
